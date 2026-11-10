@@ -1,0 +1,53 @@
+{
+  "_note": "Findings that an LLM-assisted manual look judged to be false positives of the rule-based checks. They are downgraded to 'minor' in qa/stage3_semantic.py and remain visible in the report. This is a same-model review, NOT independent human validation.",
+  "overrides": {
+    "RE001-Q13": {
+      "codes": [
+        "distractor_closer_to_evidence_than_key"
+      ],
+      "note": "Distractor shares words with the evidence but states the opposite (bakers use the same method vs. do not agree)."
+    },
+    "RE007-Q04": {
+      "codes": [
+        "distractor_closer_to_evidence_than_key"
+      ],
+      "note": "Distractor reuses the phrase 'first time' but asserts a cause the passage does not give; key is the passage statement."
+    },
+    "LI505-Q08": {
+      "codes": [
+        "name_not_in_source"
+      ],
+      "note": "Speaker name comes from the speakers[] metadata, not the transcript turns."
+    },
+    "LI509-Q06": {
+      "codes": [
+        "name_not_in_source"
+      ],
+      "note": "Speaker names come from the speakers[] metadata."
+    },
+    "LI602-Q10": {
+      "codes": [
+        "distractor_closer_to_evidence_than_key"
+      ],
+      "note": "Deliberate trap: tutor says students need not decide which translation is better."
+    },
+    "LI606-Q08": {
+      "codes": [
+        "distractor_closer_to_evidence_than_key"
+      ],
+      "note": "Deliberate trap built from the tutor's negated sentence ('not to dismiss')."
+    },
+    "LI006-Q05": {
+      "codes": [
+        "number_not_in_source"
+      ],
+      "note": "'two nights' is the count of Friday and Saturday named in the transcript."
+    },
+    "LI502-Q01": {
+      "codes": [
+        "number_not_in_source"
+      ],
+      "note": "'about a third' is an acceptable approximation of the lecturer's 'about thirty-five per cent' (format differs, value agrees)."
+    }
+  }
+}

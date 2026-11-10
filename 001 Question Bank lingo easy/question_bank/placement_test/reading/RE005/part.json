@@ -1,0 +1,530 @@
+{
+  "schema_version": "1.0",
+  "id": "RE005",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "The London Underground",
+  "topic": "transport",
+  "profile": "foundation",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "The London Underground",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The London Underground, often called the Tube, is the oldest underground railway in the world. It opened in 1863, when steam trains carried passengers between Paddington and Farringdon, a distance of about six kilometres. On the first day, around thirty thousand people used it."
+      },
+      {
+        "label": "B",
+        "text": "Today the Tube has eleven lines and two hundred and seventy stations, and it carries more than a billion passengers a year. Each line has its own colour on the famous map, which was designed in 1931 by Harry Beck, an engineer who worked for the railway. His map showed the stations in straight lines and did not show real distances, but passengers found it much easier to use, and nearly every city has copied the idea since."
+      },
+      {
+        "label": "C",
+        "text": "Travelling by Tube is fast, but it is not always comfortable. At busy times, trains are crowded, and the air in the tunnels can be hot, especially in summer. Some deep lines are among the hottest places in London because the tunnels are small and trains give off heat. To keep passengers cool, the company is trying new ideas, such as cooling systems under the platforms."
+      },
+      {
+        "label": "D",
+        "text": "Many visitors use an Oyster card or a contactless bank card to pay. The price depends on the zone, and a journey in the centre is cheaper outside the busiest hours. There is also a daily limit, so that frequent travellers never pay more than a fixed amount in one day. Children under eleven travel free when they are with an adult."
+      },
+      {
+        "label": "E",
+        "text": "Not everyone knows that the Tube is only part of the story. Some stations are famous for their design, and a few, such as Canary Wharf, look more like modern art galleries than train stations. Others are no longer used. They are known as ghost stations, and one of them, Aldwych, has been used as a film set. Walking tours let visitors explore these places once a year."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE005-Q01",
+          "number": 1,
+          "prompt": "When did the Underground open?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In 1936"
+            },
+            {
+              "id": "B",
+              "text": "In 1863"
+            },
+            {
+              "id": "C",
+              "text": "In 1983"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "It opened in 1863"
+          },
+          "explanation": "The text says: \"It opened in 1863\".",
+          "uuid": "81c3eed6-aaf2-5135-89cf-7e1fc1cef8d8"
+        },
+        {
+          "id": "RE005-Q02",
+          "number": 2,
+          "prompt": "How many lines does the Tube have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Seven"
+            },
+            {
+              "id": "B",
+              "text": "Twenty-seven"
+            },
+            {
+              "id": "C",
+              "text": "Eleven"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Tube has eleven lines"
+          },
+          "explanation": "The text says: \"Tube has eleven lines\".",
+          "uuid": "060d934f-e4ea-50d1-9540-40795abd43fb"
+        },
+        {
+          "id": "RE005-Q03",
+          "number": 3,
+          "prompt": "Who designed the famous Tube map?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Harry Beck"
+            },
+            {
+              "id": "B",
+              "text": "Harry Brown"
+            },
+            {
+              "id": "C",
+              "text": "Henry Beck"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "designed in 1931 by Harry Beck"
+          },
+          "explanation": "The text says: \"designed in 1931 by Harry Beck\".",
+          "uuid": "799fe9a9-7ba9-5f93-8db3-12d9f7d6004a"
+        },
+        {
+          "id": "RE005-Q04",
+          "number": 4,
+          "prompt": "What was unusual about Beck's map?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It did not show real distances"
+            },
+            {
+              "id": "B",
+              "text": "It showed every street in London"
+            },
+            {
+              "id": "C",
+              "text": "It was drawn by an artist by hand"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "did not show real distances"
+          },
+          "explanation": "The text says: \"did not show real distances\".",
+          "uuid": "0ea4cfbe-3627-5f13-896b-1d060b7a8fc0"
+        },
+        {
+          "id": "RE005-Q05",
+          "number": 5,
+          "prompt": "Why are some deep lines so hot?",
+          "options": [
+            {
+              "id": "A",
+              "text": "There are no fans to move the air along"
+            },
+            {
+              "id": "B",
+              "text": "The tunnels are small and the trains give off heat"
+            },
+            {
+              "id": "C",
+              "text": "They run close to the surface in the sun"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "tunnels are small and trains give off heat"
+          },
+          "explanation": "The text says: \"tunnels are small and trains give off heat\".",
+          "uuid": "309b6dba-6565-5985-80d4-57850734c564"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE005-Q06",
+          "number": 6,
+          "prompt": "The first trains on the Underground used steam.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "steam trains carried passengers"
+          },
+          "explanation": "The text says: \"steam trains carried passengers\".",
+          "uuid": "5c1d73d1-cc04-507a-932d-e3cc27eb7010"
+        },
+        {
+          "id": "RE005-Q07",
+          "number": 7,
+          "prompt": "The Tube carries more than a billion passengers a year.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "more than a billion passengers a year"
+          },
+          "explanation": "The text says: \"more than a billion passengers a year\".",
+          "uuid": "a17c761b-1a47-50fc-975b-acdd3fe7ebdb"
+        },
+        {
+          "id": "RE005-Q08",
+          "number": 8,
+          "prompt": "Children under eleven travel free when they are with an adult.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "travel free when they are with an adult"
+          },
+          "explanation": "The text says: \"travel free when they are with an adult\".",
+          "uuid": "a9cea473-3834-5b02-9e3c-08d617bc4cde"
+        },
+        {
+          "id": "RE005-Q09",
+          "number": 9,
+          "prompt": "Paddington is the busiest station on the Tube.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "c0a1fa0a-f52d-5faf-9262-6b0913f93c01"
+        },
+        {
+          "id": "RE005-Q10",
+          "number": 10,
+          "prompt": "Aldwych station is still used for passenger trains.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Aldwych, has been used as a film set"
+          },
+          "explanation": "The text says: \"Aldwych, has been used as a film set\".",
+          "uuid": "e8ad4d5c-0f06-5c13-b3cb-31d0718e7f9a"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE005-Q11",
+          "number": 11,
+          "prompt": "On the first day, about _____ people used the Underground.",
+          "options": [
+            {
+              "id": "A",
+              "text": "three thousand"
+            },
+            {
+              "id": "B",
+              "text": "thirty thousand"
+            },
+            {
+              "id": "C",
+              "text": "three hundred"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "around thirty thousand people used it"
+          },
+          "explanation": "The text says: \"around thirty thousand people used it\".",
+          "uuid": "04556cb7-33e4-5eee-8108-9e83abc9064e"
+        },
+        {
+          "id": "RE005-Q12",
+          "number": 12,
+          "prompt": "A daily limit means that frequent travellers never pay _____ than a fixed amount in one day.",
+          "options": [
+            {
+              "id": "A",
+              "text": "less"
+            },
+            {
+              "id": "B",
+              "text": "sooner"
+            },
+            {
+              "id": "C",
+              "text": "more"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "never pay more than a fixed amount"
+          },
+          "explanation": "The text says: \"never pay more than a fixed amount\".",
+          "uuid": "05a4ddc7-9ee7-502a-b37b-c80fd2cead15"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE005-Q13",
+          "number": 13,
+          "prompt": "What is the writer's purpose in the last paragraph?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To criticise the way that some stations are designed"
+            },
+            {
+              "id": "B",
+              "text": "To show that the Tube has surprising features beyond travel"
+            },
+            {
+              "id": "C",
+              "text": "To advertise the walking tours that run once a year"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "text_organisation",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Not everyone knows that the Tube is only part of the story"
+          },
+          "explanation": "The text says: \"Not everyone knows that the Tube is only part of the story\".",
+          "uuid": "836e7cb7-63e8-571f-a1a2-922f9c649652"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "62ea926b-5f60-4c90-b2fe-d33c38e33c5e",
+  "derived": {
+    "word_count": 318,
+    "level_counts": {
+      "A1": 2,
+      "A2": 4,
+      "B1": 4,
+      "B2": 2,
+      "C1": 1,
+      "C2": 0
+    },
+    "mean_band": 4.12,
+    "answer_counts": {
+      "A": 5,
+      "B": 5,
+      "C": 3
+    },
+    "content_hash": "500aa1bda93a7bc4"
+  }
+}

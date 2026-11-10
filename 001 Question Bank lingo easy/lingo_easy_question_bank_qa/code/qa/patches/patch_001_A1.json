@@ -1,0 +1,83 @@
+[
+ {
+  "id": "LI105-Q09",
+  "set": {
+   "A": "She is ill and cannot leave home",
+   "C": "She has a football match that day"
+  },
+  "reason": "distractors rebalanced for length/form parity (length_cue_correct_option_longest); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI107-Q01",
+  "set": {
+   "A": "He has a sore leg and a fever",
+   "C": "He has a bad back and a cough"
+  },
+  "reason": "distractors rebalanced for length/form parity (length_cue_correct_option_longest); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI107-Q04",
+  "set": {
+   "B": "He has to pick up his children",
+   "C": "He is on a train until three"
+  },
+  "reason": "distractors rebalanced for length/form parity (length_cue_correct_option_longest); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI108-Q05",
+  "set": {
+   "A": "Swimming in the sea",
+   "B": "Shopping in the town"
+  },
+  "reason": "distractors rebalanced for length/form parity (length_cue_correct_option_longest); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE104-Q01",
+  "set": {
+   "A": "Next to the railway station",
+   "C": "At the edge of the town"
+  },
+  "reason": "distractors rebalanced for length/form parity (length_cue_correct_option_longest); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE104-Q04",
+  "set": {
+   "B": "Flowers, books and pens",
+   "C": "Fish, meat and vegetables"
+  },
+  "reason": "distractors rebalanced for length/form parity (length_cue_correct_option_longest); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE106-Q04",
+  "set": {
+   "A": "T-shirts, shorts and sandals",
+   "B": "Rain boots and sun glasses"
+  },
+  "reason": "distractors rebalanced for length/form parity (length_cue_correct_option_longest); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE108-Q03",
+  "set": {
+   "A": "A passport or a driving licence",
+   "C": "A bank letter and a photo"
+  },
+  "reason": "distractors rebalanced for length/form parity (length_cue_correct_option_longest); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE109-Q02",
+  "set": {
+   "A": "Run and play sport",
+   "B": "Sleep and rest more"
+  },
+  "reason": "distractors rebalanced for length/form parity (length_cue_correct_option_longest); key text and letter unchanged",
+  "confidence": "medium"
+ }
+]

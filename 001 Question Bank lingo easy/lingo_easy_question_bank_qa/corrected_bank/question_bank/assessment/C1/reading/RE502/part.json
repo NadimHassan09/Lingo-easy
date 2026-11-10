@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE502",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Reconsidering Urban Density",
+  "topic": "architecture_and_cities",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "Reconsidering Urban Density",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For much of the twentieth century, planners regarded dense cities with suspicion. Overcrowded tenements were associated with disease and poverty, and the preferred model was the suburb: detached houses, gardens, cars. Today, many urbanists argue the opposite, that density is essential to sustainable and prosperous cities. I find this case largely persuasive, though not without qualification."
+      },
+      {
+        "label": "B",
+        "text": "The environmental argument is the most straightforward. Residents of compact cities typically travel shorter distances and use public transport more, so their per capita emissions are lower. A flat shares walls with its neighbours and therefore needs less energy for heating than a detached house. A study comparing American cities found that households in the densest neighbourhoods produced roughly half the transport emissions of those in the sprawling suburbs."
+      },
+      {
+        "label": "C",
+        "text": "There are economic benefits too. Concentrating people and businesses makes it easier to share ideas, find specialised workers and support services such as hospitals and theatres. Economists use the term agglomeration to describe this effect, and it helps to explain why productivity is higher in large cities. At the same time, density reduces the cost of infrastructure per resident, since each kilometre of road or pipe serves more people."
+      },
+      {
+        "label": "D",
+        "text": "Yet density has real costs, which advocates sometimes understate. Residents of crowded areas report more noise and less privacy. Rising demand can push up housing prices, displacing existing communities, as has happened in San Francisco and parts of London. And dense does not necessarily mean pleasant. Poorly designed high-rise estates have in the past isolated residents rather than connected them. The success of density depends on design: green space, mixed uses and good public transport are not luxuries but conditions."
+      },
+      {
+        "label": "E",
+        "text": "A balanced position would therefore encourage density in places well served by transport, while insisting on high standards of design and on genuinely affordable housing. Cities that grow upward without these safeguards risk replacing the problems of sprawl with those of inequality. Cities that grow outward, however, will almost certainly struggle to meet climate targets. The choice is not between density and its absence but between well-planned and badly planned growth."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE502-Q01",
+          "number": 1,
+          "prompt": "How did planners view dense cities for much of the twentieth century?",
+          "options": [
+            {
+              "id": "A",
+              "text": "With enthusiasm"
+            },
+            {
+              "id": "B",
+              "text": "With suspicion"
+            },
+            {
+              "id": "C",
+              "text": "With indifference"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "regarded dense cities with suspicion"
+          },
+          "explanation": "The text says: \"regarded dense cities with suspicion\".",
+          "uuid": "cab45181-5f05-5f53-91ad-047260d4297e"
+        },
+        {
+          "id": "RE502-Q02",
+          "number": 2,
+          "prompt": "What is the writer's attitude to the case for density?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Strongly opposed, with a few exceptions"
+            },
+            {
+              "id": "B",
+              "text": "Fully convinced, with no doubts at all"
+            },
+            {
+              "id": "C",
+              "text": "Largely persuaded, but with reservations"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "largely persuasive, though not without qualification"
+          },
+          "explanation": "The text says: \"largely persuasive, though not without qualification\".",
+          "uuid": "a90a9ec0-11ad-520b-ac63-22176a12c76c"
+        },
+        {
+          "id": "RE502-Q03",
+          "number": 3,
+          "prompt": "Why do residents of compact cities produce fewer emissions?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They own larger homes that use energy more efficiently"
+            },
+            {
+              "id": "B",
+              "text": "They travel shorter distances and use public transport more"
+            },
+            {
+              "id": "C",
+              "text": "They work from home for several days in every week"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "travel shorter distances and use public transport more"
+          },
+          "explanation": "The text says: \"travel shorter distances and use public transport more\".",
+          "uuid": "9a7172da-1165-5918-8d4e-5c3fae5990a8"
+        },
+        {
+          "id": "RE502-Q04",
+          "number": 4,
+          "prompt": "What does agglomeration refer to?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The tendency of suburbs to spread outwards"
+            },
+            {
+              "id": "B",
+              "text": "The rising cost of housing in big cities"
+            },
+            {
+              "id": "C",
+              "text": "The advantages of concentrating people and businesses"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Concentrating people and businesses makes it easier"
+          },
+          "explanation": "The text says: \"Concentrating people and businesses makes it easier\".",
+          "uuid": "651396be-3521-5154-9664-548246d8b9be"
+        },
+        {
+          "id": "RE502-Q05",
+          "number": 5,
+          "prompt": "What does the writer say advocates of density sometimes do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore its benefits"
+            },
+            {
+              "id": "B",
+              "text": "Understate its costs"
+            },
+            {
+              "id": "C",
+              "text": "Exaggerate its savings"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "which advocates sometimes understate"
+          },
+          "explanation": "The text says: \"which advocates sometimes understate\".",
+          "uuid": "917cb43f-dccc-5d11-94e3-a4f291b750b8"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE502-Q06",
+          "number": 6,
+          "prompt": "The writer believes the environmental argument for density is the easiest to make.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "The environmental argument is the most straightforward"
+          },
+          "explanation": "The text says: \"The environmental argument is the most straightforward\".",
+          "uuid": "6d1f6b6d-1748-5f99-9429-abf65d013037"
+        },
+        {
+          "id": "RE502-Q07",
+          "number": 7,
+          "prompt": "The writer thinks all high-rise housing isolates residents.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Poorly designed high-rise estates have in the past isolated"
+          },
+          "explanation": "The text says: \"Poorly designed high-rise estates have in the past isolated\".",
+          "uuid": "6e937b95-3b7b-56cb-bf46-089fdcef91f4"
+        },
+        {
+          "id": "RE502-Q08",
+          "number": 8,
+          "prompt": "The writer regards green space as an optional extra.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "not luxuries but conditions"
+          },
+          "explanation": "The text says: \"not luxuries but conditions\".",
+          "uuid": "4717011e-0791-5f40-a607-0c36eefaa85f"
+        },
+        {
+          "id": "RE502-Q09",
+          "number": 9,
+          "prompt": "The writer lives in a densely populated area.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "03a5f5d5-ee12-5d29-9814-95139a894b51"
+        },
+        {
+          "id": "RE502-Q10",
+          "number": 10,
+          "prompt": "The writer believes growing outward will make climate targets hard to meet.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "almost certainly struggle to meet climate targets"
+          },
+          "explanation": "The text says: \"almost certainly struggle to meet climate targets\".",
+          "uuid": "c951745f-08ea-5f39-b0e2-8770aee758b3"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE502-Q11",
+          "number": 11,
+          "prompt": "A comparison of heating needs in different types of housing",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "needs less energy for heating than a detached house"
+          },
+          "explanation": "The text says: \"needs less energy for heating than a detached house\".",
+          "uuid": "270c1f3c-0363-501c-b6c6-6e70f4e327bb"
+        },
+        {
+          "id": "RE502-Q12",
+          "number": 12,
+          "prompt": "A warning about how higher demand can affect existing communities",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "displacing existing communities"
+          },
+          "explanation": "The text says: \"displacing existing communities\".",
+          "uuid": "f4bcebba-e2f8-5b07-9045-aca6cea69889"
+        },
+        {
+          "id": "RE502-Q13",
+          "number": 13,
+          "prompt": "A recommendation about where density should be encouraged",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "places well served by transport"
+          },
+          "explanation": "The text says: \"places well served by transport\".",
+          "uuid": "a0f9fd4f-70be-5084-9ff9-7f01b98deefa"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "44eb2e84-d5bc-4373-bb4d-f2e1c6551945",
+  "derived": {
+    "word_count": 347,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 2,
+      "B": 6,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "9b7229916f2f508c"
+  }
+}

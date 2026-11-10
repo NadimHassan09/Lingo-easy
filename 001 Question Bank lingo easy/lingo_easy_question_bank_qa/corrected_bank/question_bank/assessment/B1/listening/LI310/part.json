@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "id": "LI310",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Feedback on an Essay",
+  "topic": "media_and_communication",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li310_feedback_on_an_essay.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Brown",
+        "gender": "female",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Daniel",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Come in, Daniel. I've read your essay on social media and news, and I wanted to give you some feedback."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thanks, Dr Brown. I hope it wasn't too bad."
+      },
+      {
+        "speaker": "S1",
+        "text": "Not at all. You chose an interesting topic, and your introduction is strong. You explain clearly why people now get news from their phones."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's good to hear. I spent the most time on that part."
+      },
+      {
+        "speaker": "S1",
+        "text": "It shows. However, the main problem is the structure of your second section. You jump between three different ideas, and it's hard to follow your argument."
+      },
+      {
+        "speaker": "S2",
+        "text": "I see. I wasn't sure how to organise the examples."
+      },
+      {
+        "speaker": "S1",
+        "text": "My suggestion is to give each idea its own paragraph, and to start every paragraph with a clear topic sentence. For example, one paragraph for fake news, one for young readers, one for advertising."
+      },
+      {
+        "speaker": "S2",
+        "text": "That makes sense. What about my sources?"
+      },
+      {
+        "speaker": "S1",
+        "text": "You have eight sources, which is fine, but three of them are blogs. For an academic essay you should use journals, books or reliable news sites."
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh. I didn't know blogs were a problem."
+      },
+      {
+        "speaker": "S1",
+        "text": "They can be useful for opinions, but they're not strong evidence. Try to replace at least two of them."
+      },
+      {
+        "speaker": "S2",
+        "text": "Okay. And the conclusion?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Your conclusion is rather short, only three sentences. It should summarise your main points and say what you think the future of news will be."
+      },
+      {
+        "speaker": "S2",
+        "text": "I ran out of time. The deadline was very close."
+      },
+      {
+        "speaker": "S1",
+        "text": "I understand, but remember: you have a chance to improve it. The final version is due on the twentieth of March, and it's worth forty per cent of your mark."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thanks. I'll start rewriting tonight. Can I send you the new draft before I hand it in?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Of course. Send it by the fifteenth and I'll check it quickly. Also, think about adding one short example from a recent news story. It will make your argument more convincing, and it will help you reach a better mark."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI310-Q01",
+          "number": 1,
+          "prompt": "What does the tutor like about the essay?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The conclusion"
+            },
+            {
+              "id": "B",
+              "text": "The introduction"
+            },
+            {
+              "id": "C",
+              "text": "The list of sources"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "your introduction is strong"
+          },
+          "explanation": "The audio says: \"your introduction is strong\".",
+          "uuid": "6f020ae9-a2d6-5c41-b253-0c46c4ded7f5"
+        },
+        {
+          "id": "LI310-Q02",
+          "number": 2,
+          "prompt": "What is the main problem with the essay?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The length of the whole introduction"
+            },
+            {
+              "id": "B",
+              "text": "The structure of the second section"
+            },
+            {
+              "id": "C",
+              "text": "The number of spelling mistakes"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the structure of your second section"
+          },
+          "explanation": "The audio says: \"the structure of your second section\".",
+          "uuid": "647fcc0c-0aaf-5d41-bc66-ce9b99e3ddfa"
+        },
+        {
+          "id": "LI310-Q03",
+          "number": 3,
+          "prompt": "What does the tutor suggest for the examples?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Give each idea its own paragraph"
+            },
+            {
+              "id": "B",
+              "text": "Delete the examples from section two"
+            },
+            {
+              "id": "C",
+              "text": "Move them all into the introduction"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "give each idea its own paragraph"
+          },
+          "explanation": "The audio says: \"give each idea its own paragraph\".",
+          "uuid": "fee96643-e6b6-5679-9222-982c4ea1edb8"
+        },
+        {
+          "id": "LI310-Q04",
+          "number": 4,
+          "prompt": "What is wrong with some of Daniel's sources?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are too old"
+            },
+            {
+              "id": "B",
+              "text": "They are in another language"
+            },
+            {
+              "id": "C",
+              "text": "Three of them are blogs"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "three of them are blogs"
+          },
+          "explanation": "The audio says: \"three of them are blogs\".",
+          "uuid": "51ee6154-7e7d-5d29-bf32-1720d4607a2b"
+        },
+        {
+          "id": "LI310-Q05",
+          "number": 5,
+          "prompt": "How many sources should he try to replace?",
+          "options": [
+            {
+              "id": "A",
+              "text": "All eight"
+            },
+            {
+              "id": "B",
+              "text": "At least two"
+            },
+            {
+              "id": "C",
+              "text": "Only one"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "replace at least two of them"
+          },
+          "explanation": "The audio says: \"replace at least two of them\".",
+          "uuid": "a669634c-8228-5989-9ce0-58c17aaeec62"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI310-Q06",
+          "number": 6,
+          "prompt": "What is the problem with the conclusion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too short"
+            },
+            {
+              "id": "B",
+              "text": "It is too long"
+            },
+            {
+              "id": "C",
+              "text": "It has no main points"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "rather short, only three sentences"
+          },
+          "explanation": "The audio says: \"rather short, only three sentences\".",
+          "uuid": "f5f00d18-c33d-5a05-babc-2fba2267d273"
+        },
+        {
+          "id": "LI310-Q07",
+          "number": 7,
+          "prompt": "Why was the conclusion short?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Daniel forgot the topic"
+            },
+            {
+              "id": "B",
+              "text": "The word limit was low"
+            },
+            {
+              "id": "C",
+              "text": "Daniel ran out of time"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I ran out of time"
+          },
+          "explanation": "The audio says: \"I ran out of time\".",
+          "uuid": "987905a7-8618-54f9-aa4e-f4faf562ecf9"
+        },
+        {
+          "id": "LI310-Q08",
+          "number": 8,
+          "prompt": "When is the final version due?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On 20 March"
+            },
+            {
+              "id": "B",
+              "text": "On 15 March"
+            },
+            {
+              "id": "C",
+              "text": "On 2 March"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "due on the twentieth of March"
+          },
+          "explanation": "The audio says: \"due on the twentieth of March\".",
+          "uuid": "1d295ecc-9e81-5ddb-85a9-3b99e17c5053"
+        },
+        {
+          "id": "LI310-Q09",
+          "number": 9,
+          "prompt": "How much is the final version worth?",
+          "options": [
+            {
+              "id": "A",
+              "text": "40 per cent of the mark"
+            },
+            {
+              "id": "B",
+              "text": "14 per cent of the mark"
+            },
+            {
+              "id": "C",
+              "text": "Half of the mark"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "worth forty per cent of your mark"
+          },
+          "explanation": "The audio says: \"worth forty per cent of your mark\".",
+          "uuid": "1f5c2dc2-e1fb-5f3e-86b2-a1541eba2eb0"
+        },
+        {
+          "id": "LI310-Q10",
+          "number": 10,
+          "prompt": "By when should Daniel send his new draft?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The 20th"
+            },
+            {
+              "id": "B",
+              "text": "The 15th"
+            },
+            {
+              "id": "C",
+              "text": "Next month"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Send it by the fifteenth"
+          },
+          "explanation": "The audio says: \"Send it by the fifteenth\".",
+          "uuid": "856fa503-9ece-5362-88ef-aa3283ea15e5"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "5e09e4f0-dfcb-49bf-8a27-d68570def278",
+  "derived": {
+    "word_count": 321,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "content_hash": "cefffaea081385bc"
+  }
+}

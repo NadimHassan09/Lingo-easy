@@ -1,0 +1,535 @@
+{
+  "schema_version": "1.0",
+  "id": "RE503",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "The Economics of Attention",
+  "topic": "media_and_communication",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "The Economics of Attention",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In 1971, the economist Herbert Simon observed that a wealth of information creates a poverty of attention. He could hardly have imagined how true this would become. Today, the average person is exposed to thousands of messages daily, from notifications and advertisements to news alerts, and the scarce resource is no longer information but the time and focus to process it. Entire industries now compete for that resource, giving rise to what is often called the attention economy."
+      },
+      {
+        "label": "B",
+        "text": "The business model is simple. Most social media platforms and many news sites are free to use because users are not the customers; their attention is the product, sold to advertisers. The longer people stay, the more advertisements they see, and the more money the platform earns. This creates a strong incentive to design services that are hard to put down. Features such as infinite scrolling, autoplay and variable rewards, in which notifications arrive unpredictably, draw on psychological principles that were first studied in gambling."
+      },
+      {
+        "label": "C",
+        "text": "Researchers disagree about how harmful this is. Some point to evidence that frequent task-switching reduces productivity, and that even the presence of a phone on a desk impairs performance on demanding tasks. Others caution that fears about technology are not new: in the nineteenth century, critics worried that novels would corrupt young minds, and in the twentieth, that television would destroy the ability to concentrate. A fair conclusion is that the evidence for serious harm is stronger for some groups, such as adolescents, and some uses than for others."
+      },
+      {
+        "label": "D",
+        "text": "Proposed remedies vary. Some individuals adopt a digital minimalism: deleting apps, switching off notifications or setting fixed times to check email. Such strategies help but place the burden on those least able to resist engineered temptations. Regulators have started to consider structural changes, such as banning certain manipulative design features for children, requiring clearer information on how recommendation algorithms work, or giving users the right to opt out of personalised feeds."
+      },
+      {
+        "label": "E",
+        "text": "None of this means that the attention economy has produced only losers. Services that cost nothing to use have given billions of people access to knowledge, entertainment and communities. The question is whether we can preserve these benefits while reducing the incentive to maximise the time we spend glued to a screen. As Simon's observation implies, the scarcest thing in a world of abundance is the capacity to decide what deserves our notice."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE503-Q01",
+          "number": 1,
+          "prompt": "What did Herbert Simon observe?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That information has become very expensive"
+            },
+            {
+              "id": "B",
+              "text": "That attention can be bought and sold easily"
+            },
+            {
+              "id": "C",
+              "text": "That abundant information makes attention scarce"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "a wealth of information creates a poverty of attention"
+          },
+          "explanation": "The text says: \"a wealth of information creates a poverty of attention\".",
+          "uuid": "a5c6181f-c21e-5c7e-9147-c0261e3a403b"
+        },
+        {
+          "id": "RE503-Q02",
+          "number": 2,
+          "prompt": "Why are many online services free?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Users pay for the service with their data only"
+            },
+            {
+              "id": "B",
+              "text": "Users' attention is sold to advertisers"
+            },
+            {
+              "id": "C",
+              "text": "Governments pay for the services from taxes"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "their attention is the product"
+          },
+          "explanation": "The text says: \"their attention is the product\".",
+          "uuid": "f350809a-4f1e-5f58-ac3b-5b83a882cf6c"
+        },
+        {
+          "id": "RE503-Q03",
+          "number": 3,
+          "prompt": "What do features such as variable rewards draw on?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Principles taken from early childhood education"
+            },
+            {
+              "id": "B",
+              "text": "Principles used in modern architecture"
+            },
+            {
+              "id": "C",
+              "text": "Principles first studied in gambling"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "first studied in gambling"
+          },
+          "explanation": "The text says: \"first studied in gambling\".",
+          "uuid": "931bc74f-9c1a-552a-99e3-cc0945607dc0"
+        },
+        {
+          "id": "RE503-Q04",
+          "number": 4,
+          "prompt": "Why does the writer mention novels and television?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To show that fears about new media are not new"
+            },
+            {
+              "id": "B",
+              "text": "To show that new technology does no harm"
+            },
+            {
+              "id": "C",
+              "text": "To compare the quality of old and new media"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "fears about technology are not new"
+          },
+          "explanation": "The text says: \"fears about technology are not new\".",
+          "uuid": "81a8f4c1-2f19-5c1e-b222-5370e8c87203"
+        },
+        {
+          "id": "RE503-Q05",
+          "number": 5,
+          "prompt": "What problem does the writer see in individual remedies?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are too expensive for most ordinary users"
+            },
+            {
+              "id": "B",
+              "text": "They need governments to pass many new laws"
+            },
+            {
+              "id": "C",
+              "text": "They place the burden on those least able to resist"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "place the burden on those least able to resist"
+          },
+          "explanation": "The text says: \"place the burden on those least able to resist\".",
+          "uuid": "2fdc5287-2ac6-5dae-bbf3-989ba0622ffe"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE503-Q06",
+          "number": 6,
+          "prompt": "Most social media platforms charge users a monthly fee.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "free to use because users are not the customers"
+          },
+          "explanation": "The text says: \"free to use because users are not the customers\".",
+          "uuid": "8c683338-760f-5963-949a-4e58a5b7ca77"
+        },
+        {
+          "id": "RE503-Q07",
+          "number": 7,
+          "prompt": "A phone's presence on a desk can reduce performance on demanding tasks.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "even the presence of a phone on a desk impairs performance"
+          },
+          "explanation": "The text says: \"even the presence of a phone on a desk impairs performance\".",
+          "uuid": "2babf8fd-7495-5f26-bbb9-3c5ff84db791"
+        },
+        {
+          "id": "RE503-Q08",
+          "number": 8,
+          "prompt": "Evidence of harm is equally strong for all groups of users.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "stronger for some groups"
+          },
+          "explanation": "The text says: \"stronger for some groups\".",
+          "uuid": "fde3d4ac-24be-56fa-94f0-8158336bf22f"
+        },
+        {
+          "id": "RE503-Q09",
+          "number": 9,
+          "prompt": "Regulators in Europe have banned infinite scrolling.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "76862def-46cd-5c25-94f1-51f3ec12999e"
+        },
+        {
+          "id": "RE503-Q10",
+          "number": 10,
+          "prompt": "Free services have given people access to knowledge.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "access to knowledge, entertainment and communities"
+          },
+          "explanation": "The text says: \"access to knowledge, entertainment and communities\".",
+          "uuid": "c75ab5fa-af92-57b5-86d8-ec80c5cb86e6"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE503-Q11",
+          "number": 11,
+          "prompt": "An explanation of how a business benefits from users' time",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "The longer people stay, the more advertisements they see"
+          },
+          "explanation": "The text says: \"The longer people stay, the more advertisements they see\".",
+          "uuid": "81e46244-1ff8-5d7e-a550-53bca81668f0"
+        },
+        {
+          "id": "RE503-Q12",
+          "number": 12,
+          "prompt": "A list of regulatory ideas",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "right to opt out of personalised feeds"
+          },
+          "explanation": "The text says: \"right to opt out of personalised feeds\".",
+          "uuid": "e0cea951-19fa-510d-a1dc-9f8d3b56bdb1"
+        },
+        {
+          "id": "RE503-Q13",
+          "number": 13,
+          "prompt": "A suggestion that evidence about harm is mixed",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Researchers disagree about how harmful this is"
+          },
+          "explanation": "The text says: \"Researchers disagree about how harmful this is\".",
+          "uuid": "a10d6e33-61e7-55c4-8dde-a38904b547c4"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "90f86586-78db-4f09-999d-b0bf627a4e47",
+  "derived": {
+    "word_count": 397,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 5
+    },
+    "content_hash": "ddc2882f2faaf622"
+  }
+}

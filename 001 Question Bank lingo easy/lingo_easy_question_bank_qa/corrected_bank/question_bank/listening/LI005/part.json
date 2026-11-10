@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI005",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "Welcome to the Sports Centre",
+  "topic": "sports_and_fitness",
+  "profile": "foundation",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li005_welcome_to_the_sports_centre.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dan",
+        "gender": "male",
+        "accent": "british",
+        "role": "centre manager"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hello, everyone, and welcome to Riverside Sports Centre. My name is Dan, and I'm the manager here. I'd like to tell you about the centre before you start your first session."
+      },
+      {
+        "speaker": "S1",
+        "text": "The centre opens at six thirty every morning, Monday to Friday, and closes at ten at night. At weekends it opens at eight and closes at six. The swimming pool is on the ground floor, and the gym is on the first floor. If you are a new member, you can have a free introduction to the gym equipment. Just ask at the front desk, and one of our trainers will show you how to use the machines safely."
+      },
+      {
+        "speaker": "S1",
+        "text": "We have a range of classes. On Monday and Wednesday evenings there is a yoga class at seven o'clock. On Tuesday there is a spinning class, which is very popular, so you must book in advance. Thursday is for badminton, and there is a beginners' session at eight. We don't have a class on Friday, but the pool is open for families."
+      },
+      {
+        "speaker": "S1",
+        "text": "Membership costs thirty-five pounds a month, or three hundred and fifty pounds for the whole year. If you pay for a year, you save seventy pounds. Students and people over sixty-five get a discount of twenty per cent. You'll need to show your student card or your passport when you join."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, a few rules. Please wear clean shoes in the gym, and bring a towel, because we don't provide them. There are lockers in the changing rooms. They cost one pound, but you get the coin back when you open the locker. Don't leave valuable things there, though, because the centre isn't responsible if anything is lost. Children under twelve must be with an adult in the pool at all times."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, there's a café on the first floor, next to the gym. It serves hot drinks, sandwiches and salads, and it's open until eight in the evening. If you have any problems or suggestions, please speak to a member of staff, or write in the comments book at the front desk. Enjoy your visit!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI005-Q01",
+          "number": 1,
+          "prompt": "What is the name of the sports centre?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Riverside Sports Centre"
+            },
+            {
+              "id": "B",
+              "text": "Riverbank Sports Centre"
+            },
+            {
+              "id": "C",
+              "text": "Green Valley Sports Centre"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "welcome to Riverside Sports Centre"
+          },
+          "explanation": "The audio says: \"welcome to Riverside Sports Centre\".",
+          "uuid": "c6226953-88d4-5726-8720-b37de331d763"
+        },
+        {
+          "id": "LI005-Q02",
+          "number": 2,
+          "prompt": "What time does the centre open on weekdays?",
+          "options": [
+            {
+              "id": "A",
+              "text": "8.00 in the morning"
+            },
+            {
+              "id": "B",
+              "text": "10.00 in the morning"
+            },
+            {
+              "id": "C",
+              "text": "6.30 in the morning"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "opens at six thirty every morning"
+          },
+          "explanation": "The audio says: \"opens at six thirty every morning\".",
+          "uuid": "d90e287b-cb39-529c-a188-7129fbe5aee9"
+        },
+        {
+          "id": "LI005-Q03",
+          "number": 3,
+          "prompt": "Where is the swimming pool?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On the first floor"
+            },
+            {
+              "id": "B",
+              "text": "In the basement"
+            },
+            {
+              "id": "C",
+              "text": "On the ground floor"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "pool is on the ground floor"
+          },
+          "explanation": "The audio says: \"pool is on the ground floor\".",
+          "uuid": "39ecb4a3-7c6a-55d3-980e-968aa6eaf2d7"
+        },
+        {
+          "id": "LI005-Q04",
+          "number": 4,
+          "prompt": "What can new members get free of charge?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A free towel at each of your visits"
+            },
+            {
+              "id": "B",
+              "text": "A free month of evening yoga classes"
+            },
+            {
+              "id": "C",
+              "text": "An introduction to the gym equipment"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "free introduction to the gym equipment"
+          },
+          "explanation": "The audio says: \"free introduction to the gym equipment\".",
+          "uuid": "4ad782b1-5251-537f-b764-5b7ac72eff41"
+        },
+        {
+          "id": "LI005-Q05",
+          "number": 5,
+          "prompt": "Which class is very popular, so members must book?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yoga"
+            },
+            {
+              "id": "B",
+              "text": "Spinning"
+            },
+            {
+              "id": "C",
+              "text": "Badminton"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "spinning class, which is very popular"
+          },
+          "explanation": "The audio says: \"spinning class, which is very popular\".",
+          "uuid": "36b869d9-3968-5556-934a-910abc7a5cad"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI005-Q06",
+          "number": 6,
+          "prompt": "How much can members save by paying for a year?",
+          "options": [
+            {
+              "id": "A",
+              "text": "70 pounds"
+            },
+            {
+              "id": "B",
+              "text": "35 pounds"
+            },
+            {
+              "id": "C",
+              "text": "350 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "you save seventy pounds"
+          },
+          "explanation": "The audio says: \"you save seventy pounds\".",
+          "uuid": "c58bacf6-f6d8-541c-9f2b-22c8ba6d0d79"
+        },
+        {
+          "id": "LI005-Q07",
+          "number": 7,
+          "prompt": "Who gets a 20 per cent discount?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Students and people over 65"
+            },
+            {
+              "id": "B",
+              "text": "All new members in their first year"
+            },
+            {
+              "id": "C",
+              "text": "Families with children under twelve"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "over sixty-five get a discount of twenty per cent"
+          },
+          "explanation": "The audio says: \"over sixty-five get a discount of twenty per cent\".",
+          "uuid": "5e9710e8-e36c-575c-b25e-8b9b60bcbd52"
+        },
+        {
+          "id": "LI005-Q08",
+          "number": 8,
+          "prompt": "What must members bring?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A towel"
+            },
+            {
+              "id": "B",
+              "text": "A padlock"
+            },
+            {
+              "id": "C",
+              "text": "A membership card only"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "bring a towel, because we don't provide them"
+          },
+          "explanation": "The audio says: \"bring a towel, because we don't provide them\".",
+          "uuid": "f51df6e2-a6f9-5d20-ab21-0551d78c8111"
+        },
+        {
+          "id": "LI005-Q09",
+          "number": 9,
+          "prompt": "What happens to the coin used for a locker?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is kept by the centre as a fee"
+            },
+            {
+              "id": "B",
+              "text": "It is returned when the locker is opened"
+            },
+            {
+              "id": "C",
+              "text": "It is donated to a local charity"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "you get the coin back"
+          },
+          "explanation": "The audio says: \"you get the coin back\".",
+          "uuid": "17b49909-32e7-580d-96e1-97a7988bf199"
+        },
+        {
+          "id": "LI005-Q10",
+          "number": 10,
+          "prompt": "Why should members not leave valuables in the lockers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The lockers are too small for most bags"
+            },
+            {
+              "id": "B",
+              "text": "The lockers are not locked at night"
+            },
+            {
+              "id": "C",
+              "text": "The centre is not responsible for lost items"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "isn't responsible if anything is lost"
+          },
+          "explanation": "The audio says: \"isn't responsible if anything is lost\".",
+          "uuid": "e91cb0f0-f8c8-5ac5-a753-eec19a4c1cc9"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "fd22741b-4c96-4d15-b92f-d8d8154e16fd",
+  "derived": {
+    "word_count": 350,
+    "level_counts": {
+      "A1": 1,
+      "A2": 3,
+      "B1": 3,
+      "B2": 2,
+      "C1": 1,
+      "C2": 0
+    },
+    "mean_band": 4.4,
+    "answer_counts": {
+      "A": 4,
+      "B": 2,
+      "C": 4
+    },
+    "content_hash": "b290e27a2ce01bcc"
+  }
+}

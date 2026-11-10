@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "id": "LI307",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Planning a Presentation on Volunteering",
+  "topic": "volunteering_and_community",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li307_planning_a_presentation_on_volunteering.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Mr Hall",
+        "gender": "male",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Nina",
+        "gender": "female",
+        "accent": "british",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Jake",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning. Let's talk about your presentation on volunteering. What approach are you planning?"
+      },
+      {
+        "speaker": "S2",
+        "text": "We'd like to compare volunteering among young people and older people. We found a survey showing that people over sixty-five volunteer more hours than anyone else."
+      },
+      {
+        "speaker": "S3",
+        "text": "But I'm worried that the survey is a few years old. The pandemic might have changed things."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good point, Jake. Is there a newer survey?"
+      },
+      {
+        "speaker": "S3",
+        "text": "There's one from last year, but it only covers one region of the country."
+      },
+      {
+        "speaker": "S1",
+        "text": "Then you could mention both and explain the limits of each. That would show critical thinking. What else are you planning?"
+      },
+      {
+        "speaker": "S2",
+        "text": "We'd like to interview some volunteers. I know a woman who works in a charity shop twice a week, and Jake knows a student who helps at a food bank."
+      },
+      {
+        "speaker": "S1",
+        "text": "Excellent. Interviews will make your presentation more interesting. How long will you spend on each part?"
+      },
+      {
+        "speaker": "S3",
+        "text": "We have fifteen minutes in total. We thought five minutes for the survey results, five for the interviews, and five for the conclusion."
+      },
+      {
+        "speaker": "S1",
+        "text": "I'd change that. The interviews are your own research, so they deserve more time. Perhaps six minutes for the survey, eight for the interviews, and only one minute for the conclusion."
+      },
+      {
+        "speaker": "S2",
+        "text": "One minute is very short for a conclusion."
+      },
+      {
+        "speaker": "S1",
+        "text": "True, but if your discussion is clear, the conclusion can be brief. Just give two or three key points."
+      },
+      {
+        "speaker": "S3",
+        "text": "All right. Should we use slides?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, but keep them simple. No more than six words per line, and use pictures or charts rather than long text."
+      },
+      {
+        "speaker": "S2",
+        "text": "What about handouts?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Handouts are optional. If you make one, keep it to a single page."
+      },
+      {
+        "speaker": "S3",
+        "text": "Okay. When do we need to send you the draft?"
+      },
+      {
+        "speaker": "S1",
+        "text": "By the end of next week, please. And practise at least twice before the day. Ask a friend to time you."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI307-Q01",
+          "number": 1,
+          "prompt": "What do the students plan to compare?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Young and older volunteers"
+            },
+            {
+              "id": "B",
+              "text": "Volunteers and paid workers"
+            },
+            {
+              "id": "C",
+              "text": "Charity shops and food banks"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "compare volunteering among young people and older people"
+          },
+          "explanation": "The audio says: \"compare volunteering among young people and older people\".",
+          "uuid": "fc5ee270-d19a-514c-b416-fbb957c1fabc"
+        },
+        {
+          "id": "LI307-Q02",
+          "number": 2,
+          "prompt": "What did the survey find?",
+          "options": [
+            {
+              "id": "A",
+              "text": "People over 65 volunteer the most"
+            },
+            {
+              "id": "B",
+              "text": "Young people volunteer the most"
+            },
+            {
+              "id": "C",
+              "text": "Few people volunteer"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "people over sixty-five volunteer more hours than anyone else"
+          },
+          "explanation": "The audio says: \"people over sixty-five volunteer more hours than anyone else\".",
+          "uuid": "0b58b6ab-ff6f-53a2-af38-2e9fe3e6cb25"
+        },
+        {
+          "id": "LI307-Q03",
+          "number": 3,
+          "prompt": "Why is Jake worried about the survey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too small"
+            },
+            {
+              "id": "B",
+              "text": "It is a few years old"
+            },
+            {
+              "id": "C",
+              "text": "It is not in English"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the survey is a few years old"
+          },
+          "explanation": "The audio says: \"the survey is a few years old\".",
+          "uuid": "fd199e8b-1930-54c9-aee4-6519d7485789"
+        },
+        {
+          "id": "LI307-Q04",
+          "number": 4,
+          "prompt": "What is the problem with the newer survey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too long for the presentation"
+            },
+            {
+              "id": "B",
+              "text": "It was written by one researcher"
+            },
+            {
+              "id": "C",
+              "text": "It covers only one region"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "it only covers one region of the country"
+          },
+          "explanation": "The audio says: \"it only covers one region of the country\".",
+          "uuid": "2d1bea5b-c934-54da-af26-86f2157a1e40"
+        },
+        {
+          "id": "LI307-Q05",
+          "number": 5,
+          "prompt": "What does the tutor advise about the two surveys?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Use only the older and larger survey"
+            },
+            {
+              "id": "B",
+              "text": "Mention both and explain their limits"
+            },
+            {
+              "id": "C",
+              "text": "Ignore both and run a new survey"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "mention both and explain the limits of each"
+          },
+          "explanation": "The audio says: \"mention both and explain the limits of each\".",
+          "uuid": "f50543e8-9926-5047-87ff-41259e166ee6"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI307-Q06",
+          "number": 6,
+          "prompt": "Who will the students interview?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Government officials"
+            },
+            {
+              "id": "B",
+              "text": "Other students about exams"
+            },
+            {
+              "id": "C",
+              "text": "Volunteers"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "interview some volunteers"
+          },
+          "explanation": "The audio says: \"interview some volunteers\".",
+          "uuid": "2b48417e-db05-5f0f-8036-886feef33c7b"
+        },
+        {
+          "id": "LI307-Q07",
+          "number": 7,
+          "prompt": "How long is the presentation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "5 minutes"
+            },
+            {
+              "id": "B",
+              "text": "50 minutes"
+            },
+            {
+              "id": "C",
+              "text": "15 minutes"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "We have fifteen minutes in total"
+          },
+          "explanation": "The audio says: \"We have fifteen minutes in total\".",
+          "uuid": "f8917c81-11dc-5c4d-9fa7-9a12d79c2470"
+        },
+        {
+          "id": "LI307-Q08",
+          "number": 8,
+          "prompt": "How long does the tutor suggest for the interviews?",
+          "options": [
+            {
+              "id": "A",
+              "text": "5 minutes"
+            },
+            {
+              "id": "B",
+              "text": "6 minutes"
+            },
+            {
+              "id": "C",
+              "text": "8 minutes"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "eight for the interviews"
+          },
+          "explanation": "The audio says: \"eight for the interviews\".",
+          "uuid": "8ef71363-f0ca-50cb-ac7c-49a2bd12b6fb"
+        },
+        {
+          "id": "LI307-Q09",
+          "number": 9,
+          "prompt": "What advice does the tutor give about slides?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Put as much text as possible on each"
+            },
+            {
+              "id": "B",
+              "text": "Use no more than six words per line"
+            },
+            {
+              "id": "C",
+              "text": "Use only one slide for each section"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "No more than six words per line"
+          },
+          "explanation": "The audio says: \"No more than six words per line\".",
+          "uuid": "9321798f-2e4a-5ce1-aba4-c7762a50b516"
+        },
+        {
+          "id": "LI307-Q10",
+          "number": 10,
+          "prompt": "When must the students send the draft?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By the end of next week"
+            },
+            {
+              "id": "B",
+              "text": "By the end of this month"
+            },
+            {
+              "id": "C",
+              "text": "By the first day of term"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "By the end of next week"
+          },
+          "explanation": "The audio says: \"By the end of next week\".",
+          "uuid": "d7030ca3-12c7-530b-87af-be770e973e1c"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "99f522b8-5ce9-4d1f-b7fd-59562e5e6dc6",
+  "derived": {
+    "word_count": 302,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 3,
+      "B": 3,
+      "C": 4
+    },
+    "content_hash": "bdb1f65041f8013a"
+  }
+}

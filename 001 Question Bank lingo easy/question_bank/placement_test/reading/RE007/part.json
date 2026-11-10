@@ -1,0 +1,540 @@
+{
+  "schema_version": "1.0",
+  "id": "RE007",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "How Vaccines Work",
+  "topic": "science",
+  "profile": "intermediate",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "How Vaccines Work",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few medical advances have saved as many lives as vaccination. Smallpox, a disease that killed hundreds of millions of people in the twentieth century alone, was declared eradicated in 1980, the result of a worldwide vaccination campaign. Polio, once a cause of paralysis in children around the world, has been reduced by more than ninety-nine per cent since 1988. Yet the science behind these successes is not always well understood, and many people are unsure what a vaccine actually does inside the body."
+      },
+      {
+        "label": "B",
+        "text": "To understand how a vaccine works, it helps to know how the immune system responds to infection. When a virus or bacterium enters the body, white blood cells recognise it as foreign by identifying molecules on its surface, known as antigens. Some of these cells produce antibodies, proteins that attach to the invader and mark it for destruction. The first time the body meets a new germ, this response takes several days, and during that time the person may become ill."
+      },
+      {
+        "label": "C",
+        "text": "After the infection, the immune system keeps memory cells, which can recognise the same germ if it returns and respond within hours rather than days. A vaccine exploits this memory. It contains a harmless version of the germ, such as a weakened or inactivated form, or just a piece of it, which trains the immune system without causing the disease. Some modern vaccines use instructions in the form of genetic material that tell cells to make a single antigen, so that the body can learn to recognise it."
+      },
+      {
+        "label": "D",
+        "text": "Not all vaccines last for life. Measles vaccination, given in two doses, provides protection for decades, whereas the influenza vaccine must be renewed each year, because the virus changes constantly. Scientists predict which strains will be common and design the vaccine months in advance, so its effectiveness varies from year to year, typically between forty and sixty per cent."
+      },
+      {
+        "label": "E",
+        "text": "Vaccines also protect people who cannot be vaccinated, such as newborn babies or those with weak immune systems. This effect, called herd immunity, occurs when enough of a population is immune that the disease cannot spread easily. For highly infectious diseases such as measles, around ninety-five per cent of people need to be vaccinated to achieve it. When coverage falls below that level, outbreaks can occur, as they have in several countries in recent years."
+      },
+      {
+        "label": "F",
+        "text": "Like all medicines, vaccines can cause side effects, which are usually mild, such as a sore arm or a brief fever. Serious reactions are extremely rare, and extensive monitoring systems exist to detect them. Weighing the risks and benefits, health authorities conclude that for approved vaccines, the benefits far exceed the risks. Understanding how they work is one of the best ways to counter the misinformation that spreads so easily today."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE007-Q01",
+          "number": 1,
+          "prompt": "What happened to smallpox in 1980?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It was declared eradicated"
+            },
+            {
+              "id": "B",
+              "text": "It returned in Europe"
+            },
+            {
+              "id": "C",
+              "text": "A vaccine was invented"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "declared eradicated in 1980"
+          },
+          "explanation": "The text says: \"declared eradicated in 1980\".",
+          "uuid": "7d4bb493-245a-5bab-a7f8-374c1cf36200"
+        },
+        {
+          "id": "RE007-Q02",
+          "number": 2,
+          "prompt": "What are antigens?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cells that attack germs in the blood"
+            },
+            {
+              "id": "B",
+              "text": "Molecules on the surface of a germ"
+            },
+            {
+              "id": "C",
+              "text": "Proteins made by the body's own cells"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "molecules on its surface, known as antigens"
+          },
+          "explanation": "The text says: \"molecules on its surface, known as antigens\".",
+          "uuid": "a62c6c3a-68db-5dac-884a-fbffd0421dd9"
+        },
+        {
+          "id": "RE007-Q03",
+          "number": 3,
+          "prompt": "What do antibodies do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They carry oxygen around to the infected tissue"
+            },
+            {
+              "id": "B",
+              "text": "They make the body ill for several days at a time"
+            },
+            {
+              "id": "C",
+              "text": "They attach to invaders and mark them for destruction"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "attach to the invader and mark it for destruction"
+          },
+          "explanation": "The text says: \"attach to the invader and mark it for destruction\".",
+          "uuid": "27569a0b-f432-5f9d-99a6-ba3a3465c57e"
+        },
+        {
+          "id": "RE007-Q04",
+          "number": 4,
+          "prompt": "Why may a person become ill the first time they meet a germ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The germ is stronger the first time it enters"
+            },
+            {
+              "id": "B",
+              "text": "Antibodies are harmful when they first appear"
+            },
+            {
+              "id": "C",
+              "text": "The body has not met it before, so the response is slow"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "The first time the body meets a new germ"
+          },
+          "explanation": "The text says: \"The first time the body meets a new germ\".",
+          "uuid": "c405d0cd-62e5-5af5-abd6-ffa4a8208471"
+        },
+        {
+          "id": "RE007-Q05",
+          "number": 5,
+          "prompt": "What is the advantage of memory cells?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They kill every germ in the body at once"
+            },
+            {
+              "id": "B",
+              "text": "They prevent all side effects of vaccines"
+            },
+            {
+              "id": "C",
+              "text": "They respond within hours rather than days"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "respond within hours rather than days"
+          },
+          "explanation": "The text says: \"respond within hours rather than days\".",
+          "uuid": "2c5fde08-0747-5c7e-88f8-4e6fb11ec86c"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE007-Q06",
+          "number": 6,
+          "prompt": "A vaccine always contains a live, dangerous germ.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "contains a harmless version of the germ"
+          },
+          "explanation": "The text says: \"contains a harmless version of the germ\".",
+          "uuid": "2bcfe1fc-e8f0-5e34-9156-858afa522302"
+        },
+        {
+          "id": "RE007-Q07",
+          "number": 7,
+          "prompt": "The measles vaccine must be renewed every year.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "provides protection for decades"
+          },
+          "explanation": "The text says: \"provides protection for decades\".",
+          "uuid": "3c665a92-14b9-50be-a03d-5dea873a67ec"
+        },
+        {
+          "id": "RE007-Q08",
+          "number": 8,
+          "prompt": "The effectiveness of the influenza vaccine is the same every year.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "its effectiveness varies from year to year"
+          },
+          "explanation": "The text says: \"its effectiveness varies from year to year\".",
+          "uuid": "b9255e60-1848-504a-8b25-136d4a532f15"
+        },
+        {
+          "id": "RE007-Q09",
+          "number": 9,
+          "prompt": "Around ninety-five per cent of people must be vaccinated to achieve herd immunity against measles.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "around ninety-five per cent of people need to be vaccinated"
+          },
+          "explanation": "The text says: \"around ninety-five per cent of people need to be vaccinated\".",
+          "uuid": "78238639-1180-5fe3-a9ea-fb29da057126"
+        },
+        {
+          "id": "RE007-Q10",
+          "number": 10,
+          "prompt": "More than half of vaccinated people experience a sore arm.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "6e40f3c7-ca6d-515a-81a5-6de0428f5037"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE007-Q11",
+          "number": 11,
+          "prompt": "An explanation of why some vaccines need to be given repeatedly",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "must be renewed each year, because the virus changes constantly"
+          },
+          "explanation": "The text says: \"must be renewed each year, because the virus changes constantly\".",
+          "uuid": "408e20a1-5bf7-5102-a942-fb1802b3f162"
+        },
+        {
+          "id": "RE007-Q12",
+          "number": 12,
+          "prompt": "A description of how vaccines can protect people who cannot receive them",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "protect people who cannot be vaccinated"
+          },
+          "explanation": "The text says: \"protect people who cannot be vaccinated\".",
+          "uuid": "927dcc3d-0c20-528c-be93-86af82dcd2f0"
+        },
+        {
+          "id": "RE007-Q13",
+          "number": 13,
+          "prompt": "A comment on the role of understanding in countering false information",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph E"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "counter the misinformation that spreads so easily today"
+          },
+          "explanation": "The text says: \"counter the misinformation that spreads so easily today\".",
+          "uuid": "840a4a4e-4ef6-5aa6-ad7d-bcb8532d6c9f"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "85f62a3a-ea34-4bc3-a683-4350f2e14e92",
+  "derived": {
+    "word_count": 459,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 3,
+      "B2": 5,
+      "C1": 3,
+      "C2": 1
+    },
+    "mean_band": 6.0,
+    "answer_counts": {
+      "A": 2,
+      "B": 4,
+      "C": 5,
+      "D": 2
+    },
+    "content_hash": "0b2b824fbf4fd4d1"
+  }
+}

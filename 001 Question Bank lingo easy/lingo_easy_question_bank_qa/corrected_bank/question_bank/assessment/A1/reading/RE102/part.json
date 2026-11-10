@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE102",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Saturday in Town",
+  "topic": "shopping_and_money",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "Saturday in Town",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Tom goes into town every Saturday. He goes by bus because he does not have a car. The bus stop is near his house, and the journey takes twenty minutes."
+      },
+      {
+        "label": "B",
+        "text": "First, Tom goes to the market. He buys apples, bread and cheese. The apples are two pounds for a bag. He likes the market because the food is fresh and the people are friendly."
+      },
+      {
+        "label": "C",
+        "text": "Next, he goes to a clothes shop. He wants a new T-shirt for his brother, but the shop is closed. There is a sign on the door: Closed on Saturday afternoon. So Tom walks to a different shop. There he finds a green T-shirt for eight pounds."
+      },
+      {
+        "label": "D",
+        "text": "At one o'clock, Tom has lunch in a small café. He has a cheese sandwich and a glass of orange juice. After lunch, he goes to the library and returns two books. He goes home at four o'clock. He is tired but happy."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE102-Q01",
+          "number": 1,
+          "prompt": "How does Tom go to town?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By car"
+            },
+            {
+              "id": "B",
+              "text": "By bus"
+            },
+            {
+              "id": "C",
+              "text": "By bike"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "He goes by bus"
+          },
+          "explanation": "The text says: \"He goes by bus\".",
+          "uuid": "4c02bceb-0732-5782-8eff-d9ccc945396b"
+        },
+        {
+          "id": "RE102-Q02",
+          "number": 2,
+          "prompt": "How long is the bus journey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12 minutes"
+            },
+            {
+              "id": "B",
+              "text": "2 hours"
+            },
+            {
+              "id": "C",
+              "text": "20 minutes"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "journey takes twenty minutes"
+          },
+          "explanation": "The text says: \"journey takes twenty minutes\".",
+          "uuid": "7b8aa273-d5fb-5cda-bddc-974e77b6bcad"
+        },
+        {
+          "id": "RE102-Q03",
+          "number": 3,
+          "prompt": "Where does Tom go first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To a clothes shop"
+            },
+            {
+              "id": "B",
+              "text": "To a café"
+            },
+            {
+              "id": "C",
+              "text": "To the market"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "First, Tom goes to the market"
+          },
+          "explanation": "The text says: \"First, Tom goes to the market\".",
+          "uuid": "4afc0a34-5f1c-5e37-855c-53a381035e0f"
+        },
+        {
+          "id": "RE102-Q04",
+          "number": 4,
+          "prompt": "How much is a bag of apples?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2 pounds"
+            },
+            {
+              "id": "B",
+              "text": "8 pounds"
+            },
+            {
+              "id": "C",
+              "text": "12 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "two pounds for a bag"
+          },
+          "explanation": "The text says: \"two pounds for a bag\".",
+          "uuid": "25816d8d-720c-534b-aab8-089d220e9acf"
+        },
+        {
+          "id": "RE102-Q05",
+          "number": 5,
+          "prompt": "Why does Tom like the market?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The food is cheap"
+            },
+            {
+              "id": "B",
+              "text": "The food is fresh"
+            },
+            {
+              "id": "C",
+              "text": "It is near his house"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "the food is fresh"
+          },
+          "explanation": "The text says: \"the food is fresh\".",
+          "uuid": "c4759c99-f4a4-5e0a-89a6-8d6150b6a204"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE102-Q06",
+          "number": 6,
+          "prompt": "Tom has a car.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "he does not have a car"
+          },
+          "explanation": "The text says: \"he does not have a car\".",
+          "uuid": "8018daf4-5dcf-5380-8ba4-5013061e2895"
+        },
+        {
+          "id": "RE102-Q07",
+          "number": 7,
+          "prompt": "The first clothes shop is open.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Closed on Saturday afternoon"
+          },
+          "explanation": "The text says: \"Closed on Saturday afternoon\".",
+          "uuid": "8c2f3c2d-2f1f-5579-bd11-8d28bb0ca9d6"
+        },
+        {
+          "id": "RE102-Q08",
+          "number": 8,
+          "prompt": "The green T-shirt costs eight pounds.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "green T-shirt for eight pounds"
+          },
+          "explanation": "The text says: \"green T-shirt for eight pounds\".",
+          "uuid": "f1b6e65e-65dd-5758-a95a-83bf13f19d46"
+        },
+        {
+          "id": "RE102-Q09",
+          "number": 9,
+          "prompt": "Tom has lunch with his brother.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "e41ce60a-6161-59c3-9ad3-4408355c0a50"
+        },
+        {
+          "id": "RE102-Q10",
+          "number": 10,
+          "prompt": "Tom goes home at four o'clock.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "goes home at four o'clock"
+          },
+          "explanation": "The text says: \"goes home at four o'clock\".",
+          "uuid": "5c4562a9-a3fe-5c30-908a-0cc8943b34e9"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE102-Q11",
+          "number": 11,
+          "prompt": "Tom wants a T-shirt for his _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "sister"
+            },
+            {
+              "id": "B",
+              "text": "father"
+            },
+            {
+              "id": "C",
+              "text": "brother"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "new T-shirt for his brother"
+          },
+          "explanation": "The text says: \"new T-shirt for his brother\".",
+          "uuid": "3d1a1428-16fc-5c0b-b72f-a662a02b8e42"
+        },
+        {
+          "id": "RE102-Q12",
+          "number": 12,
+          "prompt": "For lunch, Tom has a cheese _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "pizza"
+            },
+            {
+              "id": "B",
+              "text": "sandwich"
+            },
+            {
+              "id": "C",
+              "text": "salad"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "cheese sandwich and a glass"
+          },
+          "explanation": "The text says: \"cheese sandwich and a glass\".",
+          "uuid": "f2a609c6-e6ed-5c1d-83f6-91ab3ffdc9ea"
+        },
+        {
+          "id": "RE102-Q13",
+          "number": 13,
+          "prompt": "After lunch, Tom goes to the _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "market"
+            },
+            {
+              "id": "B",
+              "text": "library"
+            },
+            {
+              "id": "C",
+              "text": "cinema"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "he goes to the library"
+          },
+          "explanation": "The text says: \"he goes to the library\".",
+          "uuid": "024c10e6-e50e-5cec-8939-c88ec805a574"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "e14a4aa7-16fd-4694-8db3-339795337034",
+  "derived": {
+    "word_count": 156,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 3,
+      "B": 6,
+      "C": 4
+    },
+    "content_hash": "5fe0a9f954957ba3"
+  }
+}

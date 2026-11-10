@@ -1,0 +1,160 @@
+{
+  "part_id": "LI309",
+  "part_uuid": "0e92e581-6128-4601-8582-b22f32124e18",
+  "audio_file": "li309_renting_a_car.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "e7b3c957522e3a097aa5f2e1d4b9452d16abf2e89a5cca95545a686ec24f3889",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Lucy",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Greg Hunt",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 4.85
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 5.3,
+      "end": 13.58
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 14.03,
+      "end": 17.65
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 18.1,
+      "end": 23.72
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 24.17,
+      "end": 38.11
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 38.56,
+      "end": 43.87
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 44.32,
+      "end": 55.16
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 55.61,
+      "end": 61.4
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 61.85,
+      "end": 66.43
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 66.88,
+      "end": 72.31
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 72.76,
+      "end": 80.77
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 81.22,
+      "end": 88.35
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 88.8,
+      "end": 96.36
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 96.81,
+      "end": 99.59
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 100.04,
+      "end": 107.7
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 108.15,
+      "end": 112.81
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 113.26,
+      "end": 125.81
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 126.26,
+      "end": 131.18
+    },
+    {
+      "index": 18,
+      "speaker": "S1",
+      "start": 131.63,
+      "end": 138.66
+    }
+  ],
+  "duration_seconds": 138.66,
+  "size_bytes": 1109996,
+  "audio_sha256": "3b4fa3fa079ff04184c024328cdc83ff529a1d8f65e65110013935612ed540be",
+  "generated_at": "2026-10-30T20:51:59+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

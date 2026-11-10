@@ -1,0 +1,70 @@
+{
+  "part_id": "LI408",
+  "part_uuid": "5705e16b-e998-4136-a0b4-e71cae857ac0",
+  "audio_file": "li408_the_economics_of_tourism.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "cb1aed9b1665a325c1ce35099f898fb1749bbc7cf9ecfed4fde2ed7a44039ee9",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Professor Ward",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 20.14
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 20.59,
+      "end": 56.51
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 56.96,
+      "end": 85.52
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 85.97,
+      "end": 109.09
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 109.54,
+      "end": 142.49
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 142.94,
+      "end": 180.79
+    }
+  ],
+  "duration_seconds": 180.79,
+  "size_bytes": 1446956,
+  "audio_sha256": "fbe95ca711002a37f1f2588266fa80666fc116577ec1c007ccc896aa3eab777c",
+  "generated_at": "2026-10-30T20:56:00+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

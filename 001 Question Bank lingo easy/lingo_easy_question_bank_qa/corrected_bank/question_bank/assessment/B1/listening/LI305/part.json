@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "id": "LI305",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "A Complaint at the Hotel",
+  "topic": "travel",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li305_a_complaint_at_the_hotel.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Karen Fox",
+        "gender": "female",
+        "accent": "american",
+        "role": "hotel guest"
+      },
+      {
+        "id": "S2",
+        "name": "Mr Singh",
+        "gender": "male",
+        "accent": "british",
+        "role": "duty manager"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Excuse me, I'd like to speak to the manager, please."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'm the duty manager. How can I help you?"
+      },
+      {
+        "speaker": "S1",
+        "text": "I'm staying in room 318. We arrived yesterday evening, and there are several problems with the room."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'm sorry to hear that. What exactly is wrong?"
+      },
+      {
+        "speaker": "S1",
+        "text": "First, the air conditioning doesn't work. It's very hot at night. Second, there's a lot of noise from the street, because the window doesn't close properly. And third, the bathroom wasn't clean when we arrived. There were wet towels on the floor."
+      },
+      {
+        "speaker": "S2",
+        "text": "I do apologise. I'll send someone to look at the air conditioning right away. Have you already told reception?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, I spoke to a man last night. He said he'd send someone, but nobody came."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'm very sorry about that. Would you like to change rooms? We have a room on the fifth floor at the back of the hotel, which is much quieter."
+      },
+      {
+        "speaker": "S1",
+        "text": "That sounds better. Is it the same price?"
+      },
+      {
+        "speaker": "S2",
+        "text": "It's actually a superior room, but I'll give it to you at the same price. And it has a balcony."
+      },
+      {
+        "speaker": "S1",
+        "text": "Thank you. What about the bathroom? I don't want another dirty room."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'll ask the housekeeper to check it personally before you move in. It'll be ready by two o'clock this afternoon. In the meantime, you can leave your bags with the porter."
+      },
+      {
+        "speaker": "S1",
+        "text": "All right. Also, I'd like a refund for last night. We hardly slept."
+      },
+      {
+        "speaker": "S2",
+        "text": "I can't give you a refund, but I can offer you a free dinner in our restaurant tonight for two people. Would that be acceptable?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Hmm, that's something. Can I choose any dish from the menu?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, any main course and a dessert, but drinks aren't included."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay. I'll accept that. But if the new room has any problems, I'll want to leave."
+      },
+      {
+        "speaker": "S2",
+        "text": "I understand completely. Here's my card. If you have any problem at all, call me directly."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI305-Q01",
+          "number": 1,
+          "prompt": "Which room is Karen staying in?",
+          "options": [
+            {
+              "id": "A",
+              "text": "318"
+            },
+            {
+              "id": "B",
+              "text": "138"
+            },
+            {
+              "id": "C",
+              "text": "381"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'm staying in room 318"
+          },
+          "explanation": "The audio says: \"I'm staying in room 318\".",
+          "uuid": "318931d4-9281-516b-b7ee-84c7f40165e7"
+        },
+        {
+          "id": "LI305-Q02",
+          "number": 2,
+          "prompt": "What is the first problem Karen mentions?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The bed is very uncomfortable"
+            },
+            {
+              "id": "B",
+              "text": "The room is far too small for two"
+            },
+            {
+              "id": "C",
+              "text": "The air conditioning does not work"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the air conditioning doesn't work"
+          },
+          "explanation": "The audio says: \"the air conditioning doesn't work\".",
+          "uuid": "ad00e76f-b8fc-5343-b964-8d09278a7efe"
+        },
+        {
+          "id": "LI305-Q03",
+          "number": 3,
+          "prompt": "Why is the room noisy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The hotel is holding a loud party"
+            },
+            {
+              "id": "B",
+              "text": "The window does not close properly"
+            },
+            {
+              "id": "C",
+              "text": "The walls between rooms are thin"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the window doesn't close properly"
+          },
+          "explanation": "The audio says: \"the window doesn't close properly\".",
+          "uuid": "85266c47-f2b0-5e25-8269-bff79c39f032"
+        },
+        {
+          "id": "LI305-Q04",
+          "number": 4,
+          "prompt": "What was wrong in the bathroom?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The hot water was not working"
+            },
+            {
+              "id": "B",
+              "text": "There were wet towels on the floor"
+            },
+            {
+              "id": "C",
+              "text": "The shower was leaking badly"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "wet towels on the floor"
+          },
+          "explanation": "The audio says: \"wet towels on the floor\".",
+          "uuid": "d50fc67a-7559-5e6b-b704-fca9943596be"
+        },
+        {
+          "id": "LI305-Q05",
+          "number": 5,
+          "prompt": "What happened when Karen told reception?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They changed her room"
+            },
+            {
+              "id": "B",
+              "text": "They called the manager"
+            },
+            {
+              "id": "C",
+              "text": "Nobody came to help"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "but nobody came"
+          },
+          "explanation": "The audio says: \"but nobody came\".",
+          "uuid": "7832a3e4-96e0-51f4-9a46-c8a93e5d66ad"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI305-Q06",
+          "number": 6,
+          "prompt": "Where is the new room?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On the first floor at the front"
+            },
+            {
+              "id": "B",
+              "text": "On the fifth floor at the back"
+            },
+            {
+              "id": "C",
+              "text": "On the top floor next to the lift"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "on the fifth floor at the back of the hotel"
+          },
+          "explanation": "The audio says: \"on the fifth floor at the back of the hotel\".",
+          "uuid": "61fc3c7b-ea41-503c-84a8-136cd88bd8f4"
+        },
+        {
+          "id": "LI305-Q07",
+          "number": 7,
+          "prompt": "What extra does the new room have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A sea view"
+            },
+            {
+              "id": "B",
+              "text": "A balcony"
+            },
+            {
+              "id": "C",
+              "text": "A larger bed"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "And it has a balcony"
+          },
+          "explanation": "The audio says: \"And it has a balcony\".",
+          "uuid": "b2ba40ab-0f2f-56ce-8fc9-a423c46898af"
+        },
+        {
+          "id": "LI305-Q08",
+          "number": 8,
+          "prompt": "When will the new room be ready?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By noon"
+            },
+            {
+              "id": "B",
+              "text": "By 6.00 pm"
+            },
+            {
+              "id": "C",
+              "text": "By 2.00 pm"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "ready by two o'clock this afternoon"
+          },
+          "explanation": "The audio says: \"ready by two o'clock this afternoon\".",
+          "uuid": "2d7ee3ac-cdd0-5f3d-9be5-604ee72bdd3b"
+        },
+        {
+          "id": "LI305-Q09",
+          "number": 9,
+          "prompt": "What does the manager offer instead of a refund?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A free dinner for two"
+            },
+            {
+              "id": "B",
+              "text": "A free night"
+            },
+            {
+              "id": "C",
+              "text": "A discount next time"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a free dinner in our restaurant tonight for two people"
+          },
+          "explanation": "The audio says: \"a free dinner in our restaurant tonight for two people\".",
+          "uuid": "7f19da89-cccf-5eb7-aea2-56b3cbfea85a"
+        },
+        {
+          "id": "LI305-Q10",
+          "number": 10,
+          "prompt": "What is not included in the dinner?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Desserts"
+            },
+            {
+              "id": "B",
+              "text": "Drinks"
+            },
+            {
+              "id": "C",
+              "text": "Main courses"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "drinks aren't included"
+          },
+          "explanation": "The audio says: \"drinks aren't included\".",
+          "uuid": "31b01c34-b0d7-5d6a-bdce-e9c9deaa4b1d"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "909a992d-ae99-47bf-bf37-88221c4a07f5",
+  "derived": {
+    "word_count": 314,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 2,
+      "B": 5,
+      "C": 3
+    },
+    "content_hash": "4b43f0df0dd0045a"
+  }
+}

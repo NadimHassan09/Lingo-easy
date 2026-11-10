@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "id": "LI508",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "Wildlife in the City",
+  "topic": "environment",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li508_wildlife_in_the_city.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Anna Brooks",
+        "gender": "female",
+        "accent": "new_zealand",
+        "role": "podcast host"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Welcome back to Green Horizons. Today we're looking at a trend that surprises many people: wildlife is thriving in cities. Foxes in London, coyotes in Chicago, leopards in Mumbai. For a long time, conservationists focused on protecting wilderness. But increasingly, the animals are coming to us."
+      },
+      {
+        "speaker": "S1",
+        "text": "Take the red fox in Britain. In the 1930s, foxes were almost exclusively found in the countryside. Today, an estimated thirty-three thousand live in urban areas, with the highest densities in cities such as Bristol. They've adapted remarkably well. Foxes eat almost anything, from insects to leftovers, and gardens provide shelter and water. Surveys show that many residents enjoy seeing them, though others complain about noise and overturned bins."
+      },
+      {
+        "speaker": "S1",
+        "text": "Urban areas can actually be more hospitable than farmland. Modern agriculture has removed hedgerows and used chemical sprays, whereas a city garden might contain flowers, ponds, and unmowed corners. Research in Britain found that bumblebee nests are more common in towns than in farmland, and in some cities hedgehogs, which have declined drastically in the countryside, now survive in larger numbers."
+      },
+      {
+        "speaker": "S1",
+        "text": "But there are costs, and not just for people. Animals in cities face dangers such as traffic, which kills millions of creatures every year, and light pollution, which disrupts the behaviour of birds and insects. Studies of urban blackbirds in Europe show that they sing earlier in the day than their rural counterparts, and they begin breeding sooner, possibly because of artificial light and warmer temperatures. Whether these changes are harmful isn't yet known."
+      },
+      {
+        "speaker": "S1",
+        "text": "Conflict is another issue. In Mumbai, around fifty leopards live in and around a national park surrounded by a city of twenty million. Remarkably, attacks on people are rare, much rarer than one would expect. Researchers believe that this is partly because the leopards feed on stray dogs, and partly because local people have, over generations, learned to live alongside them."
+      },
+      {
+        "speaker": "S1",
+        "text": "What can cities do? Experts recommend three measures. First, create wildlife corridors, such as strips of green space connecting parks, so animals can move safely. Second, reduce unnecessary lighting at night. Third, involve residents through citizen science projects, in which people record sightings using an app. These data help scientists understand which species are doing well and which are not."
+      },
+      {
+        "speaker": "S1",
+        "text": "Of course, urban wildlife isn't a substitute for protecting wild habitats. Many species cannot adapt to cities, and the winners tend to be adaptable generalists. Nevertheless, cities offer an opportunity to reconnect people with nature, and that matters, because people protect what they care about. That's all for this week."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI508-Q01",
+          "number": 1,
+          "prompt": "What trend does the speaker describe?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wildlife is leaving cities"
+            },
+            {
+              "id": "B",
+              "text": "Conservation is failing in wilderness"
+            },
+            {
+              "id": "C",
+              "text": "Wildlife is thriving in cities"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "wildlife is thriving in cities"
+          },
+          "explanation": "The audio says: \"wildlife is thriving in cities\".",
+          "uuid": "e7b8cef3-622b-5db7-84f3-88a1646b8c2b"
+        },
+        {
+          "id": "LI508-Q02",
+          "number": 2,
+          "prompt": "Roughly how many foxes live in British urban areas?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 3,300"
+            },
+            {
+              "id": "B",
+              "text": "About 330,000"
+            },
+            {
+              "id": "C",
+              "text": "About 33,000"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "thirty-three thousand live in urban areas"
+          },
+          "explanation": "The audio says: \"thirty-three thousand live in urban areas\".",
+          "uuid": "52695d89-911e-5ac5-b8f6-bbd651f30095"
+        },
+        {
+          "id": "LI508-Q03",
+          "number": 3,
+          "prompt": "Why have foxes adapted well to cities?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are strictly protected by city laws"
+            },
+            {
+              "id": "B",
+              "text": "They eat almost anything and find shelter"
+            },
+            {
+              "id": "C",
+              "text": "They have no natural predators in cities"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "eat almost anything"
+          },
+          "explanation": "The audio says: \"eat almost anything\".",
+          "uuid": "e26b8b60-affd-55e1-9f13-78a06e61581c"
+        },
+        {
+          "id": "LI508-Q04",
+          "number": 4,
+          "prompt": "Why can cities be more hospitable than farmland for some species?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Modern farming has removed hedgerows and used sprays"
+            },
+            {
+              "id": "B",
+              "text": "Cities have fewer people than farmland areas"
+            },
+            {
+              "id": "C",
+              "text": "Cities have warmer winters than the countryside"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Modern agriculture has removed hedgerows"
+          },
+          "explanation": "The audio says: \"Modern agriculture has removed hedgerows\".",
+          "uuid": "9881fb61-fe98-5849-ae03-3a23b06456ea"
+        },
+        {
+          "id": "LI508-Q05",
+          "number": 5,
+          "prompt": "What did research find about bumblebees?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nests are only found in private gardens"
+            },
+            {
+              "id": "B",
+              "text": "Nests are more common in towns than farmland"
+            },
+            {
+              "id": "C",
+              "text": "Nests are declining in towns more than farms"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "more common in towns than in farmland"
+          },
+          "explanation": "The audio says: \"more common in towns than in farmland\".",
+          "uuid": "4f02815f-48b3-5d47-a561-8973464eee80"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI508-Q06",
+          "number": 6,
+          "prompt": "What does the speaker say about the changes in urban blackbirds?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether they are harmful is unknown"
+            },
+            {
+              "id": "B",
+              "text": "The changes are clearly harmful to the birds"
+            },
+            {
+              "id": "C",
+              "text": "The changes are clearly beneficial to the birds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "isn't yet known"
+          },
+          "explanation": "The audio says: \"isn't yet known\".",
+          "uuid": "e0607742-380a-5e7d-b94d-5d30fcf15eed"
+        },
+        {
+          "id": "LI508-Q07",
+          "number": 7,
+          "prompt": "What is surprising about the leopards in Mumbai?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They avoid the national park"
+            },
+            {
+              "id": "B",
+              "text": "Attacks on people are rare"
+            },
+            {
+              "id": "C",
+              "text": "They feed only on wild animals"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "attacks on people are rare"
+          },
+          "explanation": "The audio says: \"attacks on people are rare\".",
+          "uuid": "42322f97-55f8-51ed-9cbd-f064d70b3770"
+        },
+        {
+          "id": "LI508-Q08",
+          "number": 8,
+          "prompt": "What may help explain this?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The leopards eat stray dogs"
+            },
+            {
+              "id": "B",
+              "text": "The leopards are afraid of crowds"
+            },
+            {
+              "id": "C",
+              "text": "People feed them regularly"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "feed on stray dogs"
+          },
+          "explanation": "The audio says: \"feed on stray dogs\".",
+          "uuid": "041e048b-162d-59d1-88bf-ed1bc4a9c3ca"
+        },
+        {
+          "id": "LI508-Q09",
+          "number": 9,
+          "prompt": "What is the third measure experts recommend?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Banning pet cats at night"
+            },
+            {
+              "id": "B",
+              "text": "Citizen science projects"
+            },
+            {
+              "id": "C",
+              "text": "Building more parks in suburbs"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "citizen science projects"
+          },
+          "explanation": "The audio says: \"citizen science projects\".",
+          "uuid": "4acc7bee-695c-5321-b06d-5f952f8eb11d"
+        },
+        {
+          "id": "LI508-Q10",
+          "number": 10,
+          "prompt": "What caution does the speaker give at the end?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cities are generally bad for wildlife"
+            },
+            {
+              "id": "B",
+              "text": "Wild habitats no longer need protection"
+            },
+            {
+              "id": "C",
+              "text": "Winners tend to be adaptable species"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "tend to be adaptable generalists"
+          },
+          "explanation": "The audio says: \"tend to be adaptable generalists\".",
+          "uuid": "8599494d-13ef-5172-9444-6e9dd5efd008"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "57481f31-d319-4efc-8e6d-d39c816841b8",
+  "derived": {
+    "word_count": 422,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "85ca0e05a9ccd4ab"
+  }
+}

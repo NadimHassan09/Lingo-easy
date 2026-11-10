@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE108",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "City Bikes",
+  "topic": "transport",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "City Bikes",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In our city, you can rent a bike at more than thirty stations. The bikes are blue and easy to ride. Many tourists and local people use them every day."
+      },
+      {
+        "label": "B",
+        "text": "To rent a bike, you need a card or a phone app. Go to a station, choose a bike, and ride! It costs one pound for the first thirty minutes. After that, it costs two pounds an hour. You can leave the bike at any station in the city."
+      },
+      {
+        "label": "C",
+        "text": "The bikes have a basket at the front and a light at the back. Helmets are not free, so bring your own. There are special bike roads in the city centre and along the river. They are safe, and cars cannot go on them."
+      },
+      {
+        "label": "D",
+        "text": "The bike rental is open from six in the morning to eleven at night. In winter, fewer people use the bikes because it is cold and dark. The city has a plan to buy five hundred new bikes next year, and to open ten new stations near the schools."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE108-Q01",
+          "number": 1,
+          "prompt": "How many bike stations are there?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ten"
+            },
+            {
+              "id": "B",
+              "text": "More than a hundred"
+            },
+            {
+              "id": "C",
+              "text": "More than thirty"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "more than thirty stations"
+          },
+          "explanation": "The text says: \"more than thirty stations\".",
+          "uuid": "fa10b2b3-4433-5266-b7e1-0914fd422a56"
+        },
+        {
+          "id": "RE108-Q02",
+          "number": 2,
+          "prompt": "What colour are the bikes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blue"
+            },
+            {
+              "id": "B",
+              "text": "Red"
+            },
+            {
+              "id": "C",
+              "text": "Green"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "The bikes are blue"
+          },
+          "explanation": "The text says: \"The bikes are blue\".",
+          "uuid": "46eb3945-1ffd-5700-9978-0f721c344b99"
+        },
+        {
+          "id": "RE108-Q03",
+          "number": 3,
+          "prompt": "What do you need to rent a bike?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A passport or a driving licence"
+            },
+            {
+              "id": "B",
+              "text": "A card or a phone app"
+            },
+            {
+              "id": "C",
+              "text": "A bank letter and a photo"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "need a card or a phone app"
+          },
+          "explanation": "The text says: \"need a card or a phone app\".",
+          "uuid": "f6ebb640-a6bd-507c-a6b4-c25076783954"
+        },
+        {
+          "id": "RE108-Q04",
+          "number": 4,
+          "prompt": "How much is the first thirty minutes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2 pounds"
+            },
+            {
+              "id": "B",
+              "text": "1 pound"
+            },
+            {
+              "id": "C",
+              "text": "Nothing"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "one pound for the first thirty minutes"
+          },
+          "explanation": "The text says: \"one pound for the first thirty minutes\".",
+          "uuid": "0f5ba17e-eb30-5757-aa08-fe050ce97bd8"
+        },
+        {
+          "id": "RE108-Q05",
+          "number": 5,
+          "prompt": "Where can you leave the bike?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only where you started"
+            },
+            {
+              "id": "B",
+              "text": "At any station"
+            },
+            {
+              "id": "C",
+              "text": "In the street"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "leave the bike at any station"
+          },
+          "explanation": "The text says: \"leave the bike at any station\".",
+          "uuid": "fe9701a8-7dc2-5db1-a882-cc3e00834fc7"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE108-Q06",
+          "number": 6,
+          "prompt": "After thirty minutes, a bike costs two pounds an hour.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "two pounds an hour"
+          },
+          "explanation": "The text says: \"two pounds an hour\".",
+          "uuid": "8ab197a4-f567-53bc-a149-0b9897c92116"
+        },
+        {
+          "id": "RE108-Q07",
+          "number": 7,
+          "prompt": "Helmets are free.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Helmets are not free"
+          },
+          "explanation": "The text says: \"Helmets are not free\".",
+          "uuid": "59a6988d-f1df-54e3-a05f-0f41f5003f14"
+        },
+        {
+          "id": "RE108-Q08",
+          "number": 8,
+          "prompt": "Cars can use the special bike roads.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "cars cannot go on them"
+          },
+          "explanation": "The text says: \"cars cannot go on them\".",
+          "uuid": "7b5f8943-2d41-59f7-8d67-20b3146062da"
+        },
+        {
+          "id": "RE108-Q09",
+          "number": 9,
+          "prompt": "The bikes have eighteen gears.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "2d02bf36-6feb-5b2e-b262-26b288dc609c"
+        },
+        {
+          "id": "RE108-Q10",
+          "number": 10,
+          "prompt": "The bike rental closes at midnight.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "from six in the morning to eleven at night"
+          },
+          "explanation": "The text says: \"from six in the morning to eleven at night\".",
+          "uuid": "73277fc8-072b-5138-b450-34ddc0494cd1"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE108-Q11",
+          "number": 11,
+          "prompt": "The bikes have a basket at the _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "front"
+            },
+            {
+              "id": "B",
+              "text": "back"
+            },
+            {
+              "id": "C",
+              "text": "side"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "basket at the front"
+          },
+          "explanation": "The text says: \"basket at the front\".",
+          "uuid": "af6e0c4b-e38e-5771-a646-6f03728297c8"
+        },
+        {
+          "id": "RE108-Q12",
+          "number": 12,
+          "prompt": "In winter, fewer people use the bikes because it is cold and _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "wet"
+            },
+            {
+              "id": "B",
+              "text": "windy"
+            },
+            {
+              "id": "C",
+              "text": "dark"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "cold and dark"
+          },
+          "explanation": "The text says: \"cold and dark\".",
+          "uuid": "02bf0af1-84cc-570c-a42d-481cb8e5cb8d"
+        },
+        {
+          "id": "RE108-Q13",
+          "number": 13,
+          "prompt": "Next year the city will buy five hundred new _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "bikes"
+            },
+            {
+              "id": "B",
+              "text": "helmets"
+            },
+            {
+              "id": "C",
+              "text": "stations"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "buy five hundred new bikes"
+          },
+          "explanation": "The text says: \"buy five hundred new bikes\".",
+          "uuid": "646c7822-53b3-5c2b-95f7-35822d2d2926"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "dbedc88d-a5bd-4ea8-9700-6e000b133e2b",
+  "derived": {
+    "word_count": 172,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 4,
+      "B": 6,
+      "C": 3
+    },
+    "content_hash": "bbbdd7b15b665554"
+  }
+}

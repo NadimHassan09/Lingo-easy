@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE201",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "A Weekend in Edinburgh",
+  "topic": "travel",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "A Weekend in Edinburgh",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Edinburgh is the capital of Scotland. It is a beautiful city with a famous castle on a hill in the middle. Every year, more than four million tourists visit it, and many of them come in August for the big arts festival."
+      },
+      {
+        "label": "B",
+        "text": "My friend Clara and I went there last June for a weekend. We took the train from London, and the journey was four and a half hours. We stayed in a small hostel near the station. It was cheap, only twenty-five pounds a night, but the beds were not very comfortable."
+      },
+      {
+        "label": "C",
+        "text": "On Saturday, we walked up to the castle. The tickets were nineteen pounds each, which seemed expensive, but the view of the city was amazing. In the afternoon, we visited a museum about Scottish history. It was free, so we stayed for two hours. In the evening, we had dinner in a pub and listened to live music."
+      },
+      {
+        "label": "D",
+        "text": "On Sunday morning, it rained, so we did not climb the hill called Arthur's Seat as we planned. Instead, we went shopping on Princes Street and bought presents for our families. Our train home left at six o'clock. We were tired, but we both agreed that it was a great weekend, and we want to go back in August for the festival."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE201-Q01",
+          "number": 1,
+          "prompt": "What is in the middle of Edinburgh?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A big arts festival every year"
+            },
+            {
+              "id": "B",
+              "text": "A small hostel near the station"
+            },
+            {
+              "id": "C",
+              "text": "A famous castle on a hill"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "famous castle on a hill in the middle"
+          },
+          "explanation": "The text says: \"famous castle on a hill in the middle\".",
+          "uuid": "c00497d0-f3e8-5ea0-a8c2-e2319b452d47"
+        },
+        {
+          "id": "RE201-Q02",
+          "number": 2,
+          "prompt": "When do many tourists visit Edinburgh?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In August"
+            },
+            {
+              "id": "B",
+              "text": "In June"
+            },
+            {
+              "id": "C",
+              "text": "In December"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "many of them come in August"
+          },
+          "explanation": "The text says: \"many of them come in August\".",
+          "uuid": "9808aedc-e961-5d8e-b185-d98f637f0c82"
+        },
+        {
+          "id": "RE201-Q03",
+          "number": 3,
+          "prompt": "How long was the train journey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "4 and a half hours"
+            },
+            {
+              "id": "B",
+              "text": "3 and a half hours"
+            },
+            {
+              "id": "C",
+              "text": "5 and a half hours"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "four and a half hours"
+          },
+          "explanation": "The text says: \"four and a half hours\".",
+          "uuid": "0c34583a-2824-5076-b512-cc881f0a8aa4"
+        },
+        {
+          "id": "RE201-Q04",
+          "number": 4,
+          "prompt": "What was bad about the hostel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The beds were uncomfortable"
+            },
+            {
+              "id": "B",
+              "text": "It was expensive"
+            },
+            {
+              "id": "C",
+              "text": "It was far from the station"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "the beds were not very comfortable"
+          },
+          "explanation": "The text says: \"the beds were not very comfortable\".",
+          "uuid": "35b50863-a88a-567e-b658-3873228c4d76"
+        },
+        {
+          "id": "RE201-Q05",
+          "number": 5,
+          "prompt": "How much was a ticket for the castle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "9 pounds"
+            },
+            {
+              "id": "B",
+              "text": "19 pounds"
+            },
+            {
+              "id": "C",
+              "text": "25 pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "tickets were nineteen pounds each"
+          },
+          "explanation": "The text says: \"tickets were nineteen pounds each\".",
+          "uuid": "3ce82487-59d2-59d5-b6e3-b81f6c95442a"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE201-Q06",
+          "number": 6,
+          "prompt": "The writer travelled to Edinburgh alone.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "My friend Clara and I went there"
+          },
+          "explanation": "The text says: \"My friend Clara and I went there\".",
+          "uuid": "c9e927cc-5f33-5b14-92db-d1fcf6fd067b"
+        },
+        {
+          "id": "RE201-Q07",
+          "number": 7,
+          "prompt": "The museum was free.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "It was free, so we stayed"
+          },
+          "explanation": "The text says: \"It was free, so we stayed\".",
+          "uuid": "c0600105-b774-576c-82b5-49d8f312203a"
+        },
+        {
+          "id": "RE201-Q08",
+          "number": 8,
+          "prompt": "They had dinner in a restaurant.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "dinner in a pub"
+          },
+          "explanation": "The text says: \"dinner in a pub\".",
+          "uuid": "20b01594-6af1-52c8-809e-07d3029753a2"
+        },
+        {
+          "id": "RE201-Q09",
+          "number": 9,
+          "prompt": "They climbed Arthur's Seat on Sunday.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "did not climb the hill called Arthur's Seat"
+          },
+          "explanation": "The text says: \"did not climb the hill called Arthur's Seat\".",
+          "uuid": "052af1cb-28e5-57ed-803c-51af79539b83"
+        },
+        {
+          "id": "RE201-Q10",
+          "number": 10,
+          "prompt": "The writer bought a present for Clara.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "638b899d-626b-5c8b-82dd-b85738e0dfd4"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE201-Q11",
+          "number": 11,
+          "prompt": "The hostel cost _____ a night.",
+          "options": [
+            {
+              "id": "A",
+              "text": "15 pounds"
+            },
+            {
+              "id": "B",
+              "text": "52 pounds"
+            },
+            {
+              "id": "C",
+              "text": "25 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "twenty-five pounds a night"
+          },
+          "explanation": "The text says: \"twenty-five pounds a night\".",
+          "uuid": "fbeb0ae5-4199-5397-ae52-726bcddb587b"
+        },
+        {
+          "id": "RE201-Q12",
+          "number": 12,
+          "prompt": "On Sunday morning it _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "rained"
+            },
+            {
+              "id": "B",
+              "text": "snowed"
+            },
+            {
+              "id": "C",
+              "text": "was sunny"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "On Sunday morning, it rained"
+          },
+          "explanation": "The text says: \"On Sunday morning, it rained\".",
+          "uuid": "8e60068d-ead6-5f15-8c7b-66a2b91ed293"
+        },
+        {
+          "id": "RE201-Q13",
+          "number": 13,
+          "prompt": "Their train home left at _____ o'clock.",
+          "options": [
+            {
+              "id": "A",
+              "text": "four"
+            },
+            {
+              "id": "B",
+              "text": "eight"
+            },
+            {
+              "id": "C",
+              "text": "six"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "left at six o'clock"
+          },
+          "explanation": "The text says: \"left at six o'clock\".",
+          "uuid": "4b98c819-cafe-5f8d-8bf9-69dc6d151c1c"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "6faa1e49-6059-44fb-a5c4-ac5f81ebcc71",
+  "derived": {
+    "word_count": 214,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "ec1cf179455331f7"
+  }
+}

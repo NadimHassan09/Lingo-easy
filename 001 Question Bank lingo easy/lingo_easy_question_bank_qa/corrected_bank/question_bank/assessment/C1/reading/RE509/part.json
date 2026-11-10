@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE509",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "How Reliable Is Eyewitness Memory?",
+  "topic": "psychology",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "How Reliable Is Eyewitness Memory?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few types of evidence are as persuasive to a jury as an eyewitness who points to the defendant and says, I will never forget that face. Yet psychological research over four decades has shown that human memory is far more fallible than most people assume. Studies of cases in which DNA evidence later proved convictions wrong found that mistaken eyewitness identification played a part in roughly seventy per cent of them."
+      },
+      {
+        "label": "B",
+        "text": "The central problem is that memory is reconstructive. We do not store events like video recordings; instead, we rebuild them each time we recall them, filling gaps with expectations and information acquired later. In a famous experiment by Elizabeth Loftus, participants watched a film of a car accident and were asked how fast the cars were going when they smashed into each other or, in another group, when they hit each other. Those who heard smashed estimated higher speeds, and a week later, many remembered seeing broken glass although there was none."
+      },
+      {
+        "label": "C",
+        "text": "Several factors make identifications unreliable. Stress, contrary to popular belief, tends to impair memory for details; the presence of a weapon draws attention away from the perpetrator's face, a phenomenon known as weapon focus. Identifying someone of a different ethnic group is also generally less accurate than identifying someone of one's own. And confidence is a poor guide: witnesses who are certain are only moderately more likely to be correct than those who are hesitant, and their confidence often increases after the police tell them they picked the right person."
+      },
+      {
+        "label": "D",
+        "text": "Procedures matter too. If police show a witness a single suspect, the witness is more likely to agree than if the suspect appears among several similar people. Suggestive questions can also alter what is remembered. Researchers recommend that identification parades be run by an officer who does not know which person is the suspect, so that he cannot unintentionally signal the answer, and that the witness's initial confidence be recorded before any feedback."
+      },
+      {
+        "label": "E",
+        "text": "None of this means that eyewitnesses should be ignored. Accurate memories exist, particularly when conditions are good and procedures careful. The lesson is rather that testimony should be treated as evidence to be assessed, not as proof. Courts in several countries now instruct juries about the limits of memory, and some have reformed identification procedures. For each person wrongly convicted, a guilty person has remained free, and the cost of overconfidence in memory is borne by both."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE509-Q01",
+          "number": 1,
+          "prompt": "What did the studies of cases overturned by DNA evidence find?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Eyewitnesses played only a small part in the wrongful convictions"
+            },
+            {
+              "id": "B",
+              "text": "Mistaken eyewitness identification played a part in about 70 per cent"
+            },
+            {
+              "id": "C",
+              "text": "Witnesses lied deliberately in most of the cases studied"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "played a part in roughly seventy per cent of them"
+          },
+          "explanation": "The text says: \"played a part in roughly seventy per cent of them\".",
+          "uuid": "6e056ccb-68bf-5453-a9fd-e910a68a5cb4"
+        },
+        {
+          "id": "RE509-Q02",
+          "number": 2,
+          "prompt": "What does it mean that memory is reconstructive?",
+          "options": [
+            {
+              "id": "A",
+              "text": "We store events exactly as they happened"
+            },
+            {
+              "id": "B",
+              "text": "We rebuild events each time we recall them"
+            },
+            {
+              "id": "C",
+              "text": "We forget events immediately after they happen"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "we rebuild them each time we recall them"
+          },
+          "explanation": "The text says: \"we rebuild them each time we recall them\".",
+          "uuid": "1fc1745b-553a-5c48-b739-39c72176cf36"
+        },
+        {
+          "id": "RE509-Q03",
+          "number": 3,
+          "prompt": "What did participants who heard the word smashed do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Estimated lower speeds"
+            },
+            {
+              "id": "B",
+              "text": "Remembered fewer details"
+            },
+            {
+              "id": "C",
+              "text": "Estimated higher speeds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "estimated higher speeds"
+          },
+          "explanation": "The text says: \"estimated higher speeds\".",
+          "uuid": "83fdfa48-a42d-50bf-8c29-2270e0434355"
+        },
+        {
+          "id": "RE509-Q04",
+          "number": 4,
+          "prompt": "What is weapon focus?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Witnesses forget what the weapon looked like"
+            },
+            {
+              "id": "B",
+              "text": "Attention is drawn away from the perpetrator's face"
+            },
+            {
+              "id": "C",
+              "text": "Witnesses overstate the size of the weapon"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "draws attention away from the perpetrator's face"
+          },
+          "explanation": "The text says: \"draws attention away from the perpetrator's face\".",
+          "uuid": "e89352ca-8c16-52b3-b497-feb6803a17a5"
+        },
+        {
+          "id": "RE509-Q05",
+          "number": 5,
+          "prompt": "What does the writer say about witnesses' confidence?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is a poor guide to accuracy"
+            },
+            {
+              "id": "B",
+              "text": "It is a reliable guide to accuracy"
+            },
+            {
+              "id": "C",
+              "text": "It usually falls over time"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "confidence is a poor guide"
+          },
+          "explanation": "The text says: \"confidence is a poor guide\".",
+          "uuid": "ce1ceddc-fa92-581c-9c7a-f91120223349"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE509-Q06",
+          "number": 6,
+          "prompt": "Stress usually improves a witness's memory for details.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "tends to impair memory for details"
+          },
+          "explanation": "The text says: \"tends to impair memory for details\".",
+          "uuid": "85e2b7d8-3ebd-586c-9904-2d1f433130f1"
+        },
+        {
+          "id": "RE509-Q07",
+          "number": 7,
+          "prompt": "A witness is more likely to agree with police if shown only one suspect.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "single suspect, the witness is more likely to agree"
+          },
+          "explanation": "The text says: \"single suspect, the witness is more likely to agree\".",
+          "uuid": "7c24bb5c-0247-5f17-8b78-f7c618eac5e5"
+        },
+        {
+          "id": "RE509-Q08",
+          "number": 8,
+          "prompt": "Researchers recommend that the officer running a line-up should know who the suspect is.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "does not know which person is the suspect"
+          },
+          "explanation": "The text says: \"does not know which person is the suspect\".",
+          "uuid": "54abc538-79f8-537a-8f82-0deb6e8f97d6"
+        },
+        {
+          "id": "RE509-Q09",
+          "number": 9,
+          "prompt": "Courts in Japan have banned eyewitness testimony.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "020aed46-b48d-511d-a5dc-540bec74f3f3"
+        },
+        {
+          "id": "RE509-Q10",
+          "number": 10,
+          "prompt": "Some countries now instruct juries about the limits of memory.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "instruct juries about the limits of memory"
+          },
+          "explanation": "The text says: \"instruct juries about the limits of memory\".",
+          "uuid": "1c472949-d10c-57e1-a15e-24fa353fb3b5"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE509-Q11",
+          "number": 11,
+          "prompt": "An experiment showing how wording can change what people remember",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "smashed into each other"
+          },
+          "explanation": "The text says: \"smashed into each other\".",
+          "uuid": "179ea712-344f-54ad-94bf-61bafcb687fc"
+        },
+        {
+          "id": "RE509-Q12",
+          "number": 12,
+          "prompt": "A recommendation about recording a witness's confidence",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "initial confidence be recorded before any feedback"
+          },
+          "explanation": "The text says: \"initial confidence be recorded before any feedback\".",
+          "uuid": "fb97bae1-1a95-5e90-af9a-0e7357581dd6"
+        },
+        {
+          "id": "RE509-Q13",
+          "number": 13,
+          "prompt": "A reason why testimony should not be dismissed",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Accurate memories exist"
+          },
+          "explanation": "The text says: \"Accurate memories exist\".",
+          "uuid": "a3dfd1c1-eb5d-59c6-b1a1-f730a48203a8"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "b264548d-1689-482c-9abf-9b260d1822de",
+  "derived": {
+    "word_count": 403,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 3,
+      "B": 6,
+      "C": 3,
+      "D": 1
+    },
+    "content_hash": "48eda5b3f1904934"
+  }
+}

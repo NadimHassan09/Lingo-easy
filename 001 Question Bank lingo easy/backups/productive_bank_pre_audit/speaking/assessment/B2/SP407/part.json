@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "id": "SP407",
+  "uuid": "4e4effe5-5c59-55bc-a44b-091f56184ba5",
+  "version": "1.0.0",
+  "skill": "speaking",
+  "assessment": {
+    "type": "assessment",
+    "level": "B2"
+  },
+  "target_cefr": "B2",
+  "profile": "level_b2",
+  "topic": "psychology",
+  "context": "A university society is holding a discussion on motivation.",
+  "title": "Motivation and success",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_format": "discussion",
+  "task": {
+    "title": "Motivation and success",
+    "format": "discussion",
+    "scenario": "A university society is holding a discussion on motivation.",
+    "prompt": "Answer the questions. Explain your reasoning and consider more than one point of view.",
+    "instructions": [
+      "Type your answer the way you would say it, in complete sentences.",
+      "Answer every question or point. Add reasons and examples when you can.",
+      "In this version your answer is typed. Pronunciation is not assessed."
+    ],
+    "main_question": "What motivates people to work hard?",
+    "follow_up_questions": [
+      "Is competition good or bad for people? Why?",
+      "Is success mainly the result of talent or effort?",
+      "How can parents and teachers encourage young people without putting too much pressure on them?"
+    ],
+    "preparation_seconds": 0,
+    "suggested_speaking_seconds": 210,
+    "typed_response_words": {
+      "minimum": 100,
+      "suggested_min": 140,
+      "suggested_max": 230
+    }
+  },
+  "expected_response": {
+    "content_points": [
+      "What motivates people to work hard?",
+      "Is competition good or bad for people? Why?",
+      "Is success mainly the result of talent or effort?",
+      "How can parents and teachers encourage young people without putting too much pressure on them?"
+    ],
+    "required_elements": [
+      "Respond to: What motivates people to work hard?",
+      "Respond to: Is competition good or bad for people? Why?",
+      "Respond to: Is success mainly the result of talent or effort?",
+      "Respond to: How can parents and teachers encourage young people without putting too much pressure on them?"
+    ],
+    "optional_elements": [
+      "extra detail, examples or a personal anecdote"
+    ],
+    "organisation": [
+      "answer each question or cue point in turn, adding reasons and examples"
+    ],
+    "vocabulary_demands": [
+      "motivation",
+      "success",
+      "pressure and support"
+    ],
+    "grammar_demands": [
+      {
+        "id": "contrast_and_concession",
+        "level": "B2",
+        "extension": false
+      },
+      {
+        "id": "modals_deduction",
+        "level": "B2",
+        "extension": false
+      },
+      {
+        "id": "conditionals_unreal",
+        "level": "B2",
+        "extension": false
+      },
+      {
+        "id": "cause_and_effect",
+        "level": "B1",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Structured multi-paragraph text or an extended, organised turn.",
+    "linguistic_demand": "Developed, structured discourse; argument with supporting detail; evaluation of options; complex sentences and a range of cohesive devices.",
+    "cognitive_demand": "State and support a personal opinion; Weigh advantages and disadvantages; Analyse causes, effects and solutions",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Motivation factors",
+          "Competition pros/cons",
+          "Talent vs effort",
+          "Support strategies"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "abstract_discussion",
+    "secondary_subskills": [
+      "opinion_justification",
+      "comparison_evaluation"
+    ],
+    "cognitive_processes": [
+      "express_opinion",
+      "evaluate_options",
+      "analyse_cause_effect"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.S.abstract_discussion.B2.1",
+        "text": "Discuss abstract topics with reasoning that considers alternative views",
+        "measurable_verb": "discuss",
+        "criteria": [
+          "S_REL",
+          "S_LR",
+          "S_GRA"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "B2",
+    "recommended_cefr": "B2",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.596,
+    "language_demand": "Developed, structured discourse; argument with supporting detail; evaluation of options; complex sentences and a range of cohesive devices.",
+    "cognitive_demand": "State and support a personal opinion; Weigh advantages and disadvantages; Analyse causes, effects and solutions",
+    "expected_performance": [
+      "Responds fully and relevantly; deals with every cue point or question; stays in role.",
+      "Good range on familiar and some abstract topics; uses collocations; paraphrases effectively.",
+      "Variety of complex structures with most sentences error-free."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 3.0, 'cognition': 3.0, 'length': 3.16, 'abstractness': 4.2, 'prompt_language': 1.23}; composite 2.98 -> B2. Original target B2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 3.0,
+      "cognition": 3.0,
+      "length": 3.16,
+      "abstractness": 4.2,
+      "prompt_language": 1.23
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 7.4,
+      "long_word_ratio": 0.096
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "B2",
+    "criteria": [
+      {
+        "id": "S_REL",
+        "name": "Relevance and task fulfilment",
+        "description": "Whether the response answers the question asked, covers the cue points or situation, and is appropriate to the role and audience.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Responds fully and relevantly; deals with every cue point or question; stays in role. Needs to respond to: What motivates people to work hard? | Is competition good or bad for people? Why? | Is success mainly the result of talent or effort? | How can parents and teachers encourage young people without putting too much pressure on them?",
+        "weak_performance": "Drifts from the question; ignores a cue point or follow-up.",
+        "expected_evidence": "Each question or cue point addressed; relevance of content; fit with the situation. Check each question or cue point in turn.",
+        "common_error_patterns": [
+          "drifting off topic"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "comparison_evaluation",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed.",
+        "diagnostic_categories": [
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK"
+        ]
+      },
+      {
+        "id": "S_LR",
+        "name": "Lexical resource",
+        "description": "Range and precision of vocabulary used to talk about the topic.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Good range on familiar and some abstract topics; uses collocations; paraphrases effectively.",
+        "weak_performance": "Imprecise word choice; limited abstract vocabulary.",
+        "expected_evidence": "Topic vocabulary; variety; paraphrase; collocation. Expected vocabulary demands: motivation; success; pressure and support.",
+        "common_error_patterns": [
+          "collocation errors"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "comparison_evaluation",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "Do not penalise a correct plain word.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "article use with abstract nouns",
+            "relative clause pronoun repetition ('the man who he ...')",
+            "overuse of 'and' as a clause linker"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "S_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range and accuracy of structures used; typed text may contain writing conventions the learner would not use in speech.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Variety of complex structures with most sentences error-free.",
+        "weak_performance": "Errors in less common structures; limited range.",
+        "expected_evidence": "Structures used; error frequency and type. Structures invited by the task: contrast_and_concession, modals_deduction, conditionals_unreal, cause_and_effect.",
+        "common_error_patterns": [
+          "conditionals",
+          "passives"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "comparison_evaluation",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "Do not penalise spelling or punctuation errors in the typed text; they do not describe spoken grammar.",
+        "diagnostic_categories": [
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "article use with abstract nouns",
+            "relative clause pronoun repetition ('the man who he ...')",
+            "overuse of 'and' as a clause linker"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "S_DEV",
+        "name": "Development of ideas",
+        "description": "How far ideas are explained, justified and supported with reasons, examples or comparisons.",
+        "weight": 0.3,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Explains and exemplifies ideas; compares or contrasts; extends answers with reasons and consequences.",
+        "weak_performance": "Reasons not explained or exemplified; one-sided.",
+        "expected_evidence": "Reasons, examples, comparisons, consequences, qualification.",
+        "common_error_patterns": [
+          "unsupported claims"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "comparison_evaluation",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "Judge development relative to the format (a Part 1-style answer is short by design).",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "S_FC",
+        "name": "Fluency and coherence",
+        "description": "How smoothly and logically a response is organised and extended. In the text MVP only the coherence and organisation aspects can be observed; real-time fluency (speed, pauses, hesitation) cannot.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "partial",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Speaks at length with logical sequencing and a range of cohesive devices; ideas follow naturally.",
+        "weak_performance": "Repetition and weak logical order in longer answers.",
+        "expected_evidence": "Length and completeness of responses; order of ideas; discourse markers; (typed text: no timing evidence).",
+        "common_error_patterns": [
+          "repetition",
+          "mechanical linkers"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "comparison_evaluation",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "TEXT MVP: hesitation, speech rate, self-correction and filled pauses cannot be observed. Judge organisation only; never infer 'fluent speech' from typed text.",
+        "diagnostic_categories": [
+          "D_VOCAB_REPEAT",
+          "D_COHESION",
+          "D_ORGANISATION",
+          "D_TEXT_ONLY_LIMIT"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "S_PRON",
+        "name": "Pronunciation",
+        "reason": "TEXT MVP: no pronunciation score may be assigned. Do not infer pronunciation from spelling. Reserved for the future audio pipeline."
+      }
+    ],
+    "required_demonstrations": [
+      "Respond to every question or cue point: What motivates people to work hard? | Is competition good or bad for people? Why? | Is success mainly the result of talent or effort? | How can parents and teachers encourage young people without putting too much pressure on them?",
+      "Use language appropriate to: A university society is holding a discussion on motivation."
+    ],
+    "optional_demonstrations": [
+      "extra detail, examples or personal anecdotes",
+      "the cue-card points in any order"
+    ],
+    "not_penalised": [
+      "spelling or punctuation errors (text MVP)",
+      "factual inaccuracy about the topic",
+      "absence of C1/C2 devices"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task.",
+    "text_mvp_limitations": [
+      "Pronunciation, intonation, stress and rhythm cannot be assessed from typed text: do not assign a pronunciation score.",
+      "Fluency in the sense of speech rate, pauses and hesitation cannot be assessed; only organisation and coherence can.",
+      "Do not state or imply that this evaluation is a complete assessment of speaking."
+    ]
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARGUMENT",
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_COMPARISON",
+      "D_GRAMMAR_RANGE",
+      "D_HEDGING",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_ORGANISATION",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SUPPORT",
+      "D_SVA",
+      "D_TENSE",
+      "D_TEXT_ONLY_LIMIT",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/speaking_*.py (B2-07)",
+    "spec_sha256": "fc3b57ed5cfb5baea46dbec644e7c7a66184f927efd3f447fe23221dc8298dd9",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "B2-07",
+      "lv": "B2",
+      "fmt": "discussion",
+      "topic": "psychology",
+      "title": "Motivation and success",
+      "scen": "A university society is holding a discussion on motivation.",
+      "prompt": "Answer the questions. Explain your reasoning and consider more than one point of view.",
+      "main": "What motivates people to work hard?",
+      "cue": [],
+      "follow": [
+        "Is competition good or bad for people? Why?",
+        "Is success mainly the result of talent or effort?",
+        "How can parents and teachers encourage young people without putting too much pressure on them?"
+      ],
+      "prep": 0,
+      "dur": 210,
+      "w": [
+        100,
+        140,
+        230
+      ],
+      "vocab": [
+        "motivation",
+        "success",
+        "pressure and support"
+      ],
+      "gram": [
+        "contrast_and_concession",
+        "modals_deduction",
+        "conditionals_unreal",
+        "cause_and_effect"
+      ],
+      "sub": "abstract_discussion",
+      "sub2": [
+        "opinion_justification",
+        "comparison_evaluation"
+      ],
+      "cog": [
+        "express_opinion",
+        "evaluate_options",
+        "analyse_cause_effect"
+      ],
+      "obj": [
+        "Discuss abstract topics with reasoning that considers alternative views"
+      ],
+      "outline": [
+        "Motivation factors",
+        "Competition pros/cons",
+        "Talent vs effort",
+        "Support strategies"
+      ],
+      "abs": 3
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "f23ca4a2163ef92fe4e09d17ea27eca0b0f6b108e8240aa15b9556927ce0f3a3"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE101",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Sofia's Family",
+  "topic": "family_and_relationships",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "Sofia's Family",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "My name is Sofia. I am fourteen years old and I live in Madrid, Spain. I live with my mother, my father and my little brother. My brother's name is Leo. He is six years old."
+      },
+      {
+        "label": "B",
+        "text": "My father is a taxi driver. He works at night and sleeps in the morning. My mother is a nurse. She works in a hospital near our house. She starts work at seven o'clock and finishes at three o'clock."
+      },
+      {
+        "label": "C",
+        "text": "We have a small dog called Bruno. He is brown and white. Bruno likes to run in the park, and he likes cheese! Every day I take him for a walk before school. Leo helps me."
+      },
+      {
+        "label": "D",
+        "text": "On Sundays we visit my grandparents. They live in a village near the mountains. My grandmother cooks fish and rice for us. After lunch, my grandfather plays the guitar and we all sing. It is my favourite day of the week."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE101-Q01",
+          "number": 1,
+          "prompt": "How old is Sofia?",
+          "options": [
+            {
+              "id": "A",
+              "text": "4"
+            },
+            {
+              "id": "B",
+              "text": "40"
+            },
+            {
+              "id": "C",
+              "text": "14"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "I am fourteen years old"
+          },
+          "explanation": "The text says: \"I am fourteen years old\".",
+          "uuid": "6c2b3159-4c2e-5126-a746-a8d7771fcaa9"
+        },
+        {
+          "id": "RE101-Q02",
+          "number": 2,
+          "prompt": "Where does Sofia live?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In Lisbon"
+            },
+            {
+              "id": "B",
+              "text": "In Madrid"
+            },
+            {
+              "id": "C",
+              "text": "In Rome"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "I live in Madrid"
+          },
+          "explanation": "The text says: \"I live in Madrid\".",
+          "uuid": "8ca56d01-45b3-50fd-a219-70bfd5063698"
+        },
+        {
+          "id": "RE101-Q03",
+          "number": 3,
+          "prompt": "What is her brother's name?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Leon"
+            },
+            {
+              "id": "B",
+              "text": "Luis"
+            },
+            {
+              "id": "C",
+              "text": "Leo"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "brother's name is Leo"
+          },
+          "explanation": "The text says: \"brother's name is Leo\".",
+          "uuid": "25b0c756-17d5-55ae-86ab-e8ee168863d6"
+        },
+        {
+          "id": "RE101-Q04",
+          "number": 4,
+          "prompt": "What is her father's job?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He is a taxi driver"
+            },
+            {
+              "id": "B",
+              "text": "He is a nurse"
+            },
+            {
+              "id": "C",
+              "text": "He is a teacher"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "My father is a taxi driver"
+          },
+          "explanation": "The text says: \"My father is a taxi driver\".",
+          "uuid": "cdbfb7d6-fb62-584d-ab9d-2acf5375b3e8"
+        },
+        {
+          "id": "RE101-Q05",
+          "number": 5,
+          "prompt": "What time does her mother finish work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "At 7.00"
+            },
+            {
+              "id": "B",
+              "text": "At 5.00"
+            },
+            {
+              "id": "C",
+              "text": "At 3.00"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "finishes at three o'clock"
+          },
+          "explanation": "The text says: \"finishes at three o'clock\".",
+          "uuid": "5ee010dc-793f-52e3-9ad9-b62df76bb4c6"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE101-Q06",
+          "number": 6,
+          "prompt": "Sofia's family has a cat.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "We have a small dog called Bruno"
+          },
+          "explanation": "The text says: \"We have a small dog called Bruno\".",
+          "uuid": "137f7e51-be1e-518c-a998-ecaec8ac6160"
+        },
+        {
+          "id": "RE101-Q07",
+          "number": 7,
+          "prompt": "Sofia's mother works in a hospital.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "She works in a hospital"
+          },
+          "explanation": "The text says: \"She works in a hospital\".",
+          "uuid": "8bebef8d-d8f5-5be1-8a51-0145fbc30f24"
+        },
+        {
+          "id": "RE101-Q08",
+          "number": 8,
+          "prompt": "Bruno is black.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "He is brown and white"
+          },
+          "explanation": "The text says: \"He is brown and white\".",
+          "uuid": "eb2d3cba-8524-58bb-9dee-2833d89f144e"
+        },
+        {
+          "id": "RE101-Q09",
+          "number": 9,
+          "prompt": "Sofia takes Bruno for a walk before school.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "take him for a walk before school"
+          },
+          "explanation": "The text says: \"take him for a walk before school\".",
+          "uuid": "647e3b87-0417-5ac3-ab1f-239d01ece53e"
+        },
+        {
+          "id": "RE101-Q10",
+          "number": 10,
+          "prompt": "Sofia's grandfather is a teacher.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "6223f2dd-b48e-5f4c-b536-4d2baf170f89"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE101-Q11",
+          "number": 11,
+          "prompt": "Bruno likes to eat _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "milk"
+            },
+            {
+              "id": "B",
+              "text": "bread"
+            },
+            {
+              "id": "C",
+              "text": "cheese"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "he likes cheese"
+          },
+          "explanation": "The text says: \"he likes cheese\".",
+          "uuid": "4c2b5a56-694a-5a10-916f-25f3eb1b2227"
+        },
+        {
+          "id": "RE101-Q12",
+          "number": 12,
+          "prompt": "Sofia's grandmother cooks _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "chicken and potatoes"
+            },
+            {
+              "id": "B",
+              "text": "pasta and salad"
+            },
+            {
+              "id": "C",
+              "text": "fish and rice"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "cooks fish and rice for us"
+          },
+          "explanation": "The text says: \"cooks fish and rice for us\".",
+          "uuid": "3140fe64-2080-5370-b827-a1a30d44e54f"
+        },
+        {
+          "id": "RE101-Q13",
+          "number": 13,
+          "prompt": "After lunch, her grandfather plays the _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "piano"
+            },
+            {
+              "id": "B",
+              "text": "guitar"
+            },
+            {
+              "id": "C",
+              "text": "drums"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "grandfather plays the guitar"
+          },
+          "explanation": "The text says: \"grandfather plays the guitar\".",
+          "uuid": "f8e973f9-bf9a-5512-933c-0d4f56398907"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "0f43389d-e9dc-4153-bd93-e016b849ef3f",
+  "derived": {
+    "word_count": 152,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 6
+    },
+    "content_hash": "299c4ce3c92618da"
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "schema_version": "1.0",
+  "id": "LI602",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Seminar: Can Poetry Be Translated?",
+  "topic": "language_and_linguistics",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li602_seminar_can_poetry_be_translated.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Professor Kovacs",
+        "gender": "female",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Daniel",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Priya",
+        "gender": "female",
+        "accent": "british",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Today we're considering a classic problem: can poetry be translated? Robert Frost is often quoted as saying that poetry is what gets lost in translation. Daniel, do you agree?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I think it's too pessimistic. Plenty of translated poems are celebrated in their own right. But I accept that something changes. In a poem, sound and meaning are bound together, and you can rarely keep both."
+      },
+      {
+        "speaker": "S1",
+        "text": "Priya?"
+      },
+      {
+        "speaker": "S3",
+        "text": "For me, the more interesting question is what we mean by faithful. A literal translation can be accurate and still dead on the page. Take rhyme. If you insist on keeping a rhyme scheme, you often have to alter the meaning or use awkward vocabulary. If you drop it, you lose the music."
+      },
+      {
+        "speaker": "S1",
+        "text": "Exactly the dilemma. The translator Vladimir Nabokov chose the literal route for Pushkin's Eugene Onegin, producing a version with extensive footnotes and no rhyme. He argued that anything else was a distortion. Critics found it unreadable."
+      },
+      {
+        "speaker": "S2",
+        "text": "But some would say it had value as a crib, something to help readers study the original."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's fair. And yet most translators today take a different approach. They seek what is sometimes called equivalent effect: trying to produce in the reader of the translation a response similar to that of the original reader."
+      },
+      {
+        "speaker": "S3",
+        "text": "The trouble is that we can't know how the original reader responded, especially if the poem is centuries old. We're guessing."
+      },
+      {
+        "speaker": "S1",
+        "text": "Quite. It's a question of informed judgement, not certainty. Let me give you an example. In Japanese haiku, the seventeen syllables carry cultural associations, such as the mention of a season. A translator might choose to add a short phrase to explain it, but that breaks the economy of the form."
+      },
+      {
+        "speaker": "S2",
+        "text": "Or they might leave it, trusting the reader to look it up."
+      },
+      {
+        "speaker": "S1",
+        "text": "Both are defensible. Which brings me to a question I'd like you to consider for your assignment: who is the translator serving? The author, the original culture, the new reader, or the poem itself?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Maybe they're serving all four, and the skill is in balancing them."
+      },
+      {
+        "speaker": "S1",
+        "text": "A reasonable answer, but I'd push you to be specific. Different translators prioritise differently, and those choices reveal their assumptions. Consider Seamus Heaney's version of Beowulf. He chose a particular word from his Irish childhood, bawn, to translate a word for a fortress, which linked the poem to his own dialect. Some praised that as creative, others saw it as intrusive."
+      },
+      {
+        "speaker": "S2",
+        "text": "So translation is also interpretation."
+      },
+      {
+        "speaker": "S1",
+        "text": "Always. There's no neutral translation. For next week, choose a short poem for which at least two English translations exist, and compare how they handle one problematic line. You needn't decide which is better; I'm more interested in whether you can explain the differences."
+      },
+      {
+        "speaker": "S3",
+        "text": "Do we need to know the original language?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Not necessarily. A literal gloss from a dictionary can be enough, provided you're honest about the limits of your understanding."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI602-Q01",
+          "number": 1,
+          "prompt": "What is Robert Frost said to have claimed about poetry?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That it is what gets lost in translation"
+            },
+            {
+              "id": "B",
+              "text": "That it cannot be read aloud in translation"
+            },
+            {
+              "id": "C",
+              "text": "That it can only be translated by poets"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "poetry is what gets lost in translation"
+          },
+          "explanation": "The audio says: \"poetry is what gets lost in translation\".",
+          "uuid": "37fb0ed1-04e8-5408-a1cf-b7251c733f09"
+        },
+        {
+          "id": "LI602-Q02",
+          "number": 2,
+          "prompt": "What is Daniel's reaction to Frost's remark?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He finds it too pessimistic"
+            },
+            {
+              "id": "B",
+              "text": "He fully agrees with the claim"
+            },
+            {
+              "id": "C",
+              "text": "He thinks it is out of date now"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I think it's too pessimistic"
+          },
+          "explanation": "The audio says: \"I think it's too pessimistic\".",
+          "uuid": "b7cfa4c2-7b1b-56aa-8bd6-abcb23adc949"
+        },
+        {
+          "id": "LI602-Q03",
+          "number": 3,
+          "prompt": "What does Daniel say about sound and meaning in a poem?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They usually survive translation intact"
+            },
+            {
+              "id": "B",
+              "text": "It is rarely possible to keep both"
+            },
+            {
+              "id": "C",
+              "text": "Meaning matters far more than sound"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "rarely keep both"
+          },
+          "explanation": "The audio says: \"rarely keep both\".",
+          "uuid": "2c941136-9c92-5af1-aa13-7ac4559170cc"
+        },
+        {
+          "id": "LI602-Q04",
+          "number": 4,
+          "prompt": "What dilemma does Priya describe?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Keeping rhyme may distort meaning, but dropping it loses the music"
+            },
+            {
+              "id": "B",
+              "text": "Literal versions read well even when they have no rhyme"
+            },
+            {
+              "id": "C",
+              "text": "Rhyme matters little in most modern poetry written in English"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "you lose the music"
+          },
+          "explanation": "The audio says: \"you lose the music\".",
+          "uuid": "4416dfc4-7e2f-5ab7-ba5a-9c2ba694728d"
+        },
+        {
+          "id": "LI602-Q05",
+          "number": 5,
+          "prompt": "What was notable about Nabokov's translation of Eugene Onegin?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It kept the original rhyme scheme and metre"
+            },
+            {
+              "id": "B",
+              "text": "It was widely admired for its readability"
+            },
+            {
+              "id": "C",
+              "text": "It was literal with footnotes and no rhyme"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "extensive footnotes and no rhyme"
+          },
+          "explanation": "The audio says: \"extensive footnotes and no rhyme\".",
+          "uuid": "d74247f1-6d4e-5bdb-a0cd-7f3003512000"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI602-Q06",
+          "number": 6,
+          "prompt": "What does equivalent effect aim to do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Match the original word order as far as possible"
+            },
+            {
+              "id": "B",
+              "text": "Produce a similar response in the new reader"
+            },
+            {
+              "id": "C",
+              "text": "Make the translated text easier to read aloud"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "similar to that of the original reader"
+          },
+          "explanation": "The audio says: \"similar to that of the original reader\".",
+          "uuid": "e953708b-ce87-5804-a85e-d676d65c4931"
+        },
+        {
+          "id": "LI602-Q07",
+          "number": 7,
+          "prompt": "What objection does Priya make to equivalent effect?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It makes translations far too long to read"
+            },
+            {
+              "id": "B",
+              "text": "It ignores the style of the translator"
+            },
+            {
+              "id": "C",
+              "text": "We cannot know how the original readers responded"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "we can't know how the original reader responded"
+          },
+          "explanation": "The audio says: \"we can't know how the original reader responded\".",
+          "uuid": "d83c87a2-9a27-58bd-b85e-de416e686967"
+        },
+        {
+          "id": "LI602-Q08",
+          "number": 8,
+          "prompt": "Why might explaining a season word in a haiku be a problem?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It offends Japanese readers"
+            },
+            {
+              "id": "B",
+              "text": "It breaks the economy of the form"
+            },
+            {
+              "id": "C",
+              "text": "It changes the number of lines"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "breaks the economy of the form"
+          },
+          "explanation": "The audio says: \"breaks the economy of the form\".",
+          "uuid": "c9c30095-4abc-5a52-936b-892346b9cd39"
+        },
+        {
+          "id": "LI602-Q09",
+          "number": 9,
+          "prompt": "What does the example of Heaney's bawn show?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A translator's choice can link the poem to personal dialect, with mixed reactions"
+            },
+            {
+              "id": "B",
+              "text": "Heaney introduced an error that critics later corrected in print"
+            },
+            {
+              "id": "C",
+              "text": "Words for fortresses cannot be translated into English dialects at all"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "linked the poem to his own dialect"
+          },
+          "explanation": "The audio says: \"linked the poem to his own dialect\".",
+          "uuid": "3e23c3f2-83bc-5d66-8262-8f90ba0cb477"
+        },
+        {
+          "id": "LI602-Q10",
+          "number": 10,
+          "prompt": "What is the assignment?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Translate a short poem and explain the choices"
+            },
+            {
+              "id": "B",
+              "text": "Compare how two translations handle one line"
+            },
+            {
+              "id": "C",
+              "text": "Decide which of two translations is better"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "needn't decide which is better"
+          },
+          "explanation": "The audio says: \"needn't decide which is better\".",
+          "uuid": "71b4e82e-22f1-5775-930e-89c5d8b53a6f"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "83c0a622-2424-4196-a79d-5588e84a2ce7",
+  "derived": {
+    "word_count": 477,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "content_hash": "e1eb3fe6e344592a"
+  }
+}

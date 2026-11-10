@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI609",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "The Printing Press Reconsidered",
+  "topic": "history",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li609_the_printing_press_reconsidered.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Whitaker",
+        "gender": "male",
+        "accent": "new_zealand",
+        "role": "history lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "It is tempting to describe the invention of the printing press as a sudden revolution. Johannes Gutenberg's workshop in Mainz produced the first printed Bible in the 1450s, and within fifty years, millions of books had been printed across Europe. But historians today emphasise both the novelty of the technology and the continuity with what came before, and I want to explore that tension."
+      },
+      {
+        "speaker": "S1",
+        "text": "First, what was new? Gutenberg did not invent printing. Block printing existed in China centuries earlier, and Korea had used movable metal type by the thirteenth century. His achievement was to combine several technologies: a durable alloy for casting type, an oil-based ink that adhered to metal, and a press adapted from those used for wine and olives. Importantly, the alphabet of European languages, with a few dozen characters, suited movable type far better than Chinese writing, with thousands of characters. That helps explain why the technology spread so rapidly in Europe."
+      },
+      {
+        "speaker": "S1",
+        "text": "The effect on cost was dramatic. A handwritten Bible might take a scribe more than a year to copy and cost as much as a house. A printed one was a fraction of the price. By 1500, books were cheap enough for merchants, lawyers and teachers to own, not only the church and aristocracy."
+      },
+      {
+        "speaker": "S1",
+        "text": "Did the press cause the Reformation? Elizabeth Eisenstein argued in the 1970s that it did much to enable it. Martin Luther's pamphlets were printed in the hundreds of thousands, reaching audiences that no preacher could. But historians since have complicated this picture. Literacy was still low, perhaps ten to twenty per cent in many places, so pamphlets were often read aloud to groups. And earlier reformers, such as Jan Hus, had been silenced before the press existed. It seems fairer to say that the press amplified the Reformation rather than created it."
+      },
+      {
+        "speaker": "S1",
+        "text": "Another claim is that printing standardised knowledge. When texts were copied by hand, errors accumulated. Printing meant that thousands of readers saw identical text, making it possible to compare, criticise and build on one another's work. This arguably supported the growth of modern science. Yet early printed books also spread mistakes at scale, and the first printed medical textbooks contained errors that persisted for generations. Standardisation is therefore a mixed blessing."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, consider the response of authority. Governments and the church recognised the power of print, and responded with licensing, censorship and lists of forbidden books. But enforcement was patchy, and printers moved to places with milder rules. In this sense, the press created a contest between control and circulation that continues today, with the internet as the latest chapter. For next week, read the extract from Eisenstein and be ready to say whether you find her argument persuasive."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI609-Q01",
+          "number": 1,
+          "prompt": "What do historians emphasise about the printing press today?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That it was a sudden and complete revolution"
+            },
+            {
+              "id": "B",
+              "text": "That it changed very little about reading"
+            },
+            {
+              "id": "C",
+              "text": "Both its novelty and its continuity with the past"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "both the novelty of the technology and the continuity"
+          },
+          "explanation": "The audio says: \"both the novelty of the technology and the continuity\".",
+          "uuid": "48eb77ff-83aa-5036-8fd4-94f8698359de"
+        },
+        {
+          "id": "LI609-Q02",
+          "number": 2,
+          "prompt": "What was Gutenberg's achievement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Inventing the first form of printing in Europe"
+            },
+            {
+              "id": "B",
+              "text": "Inventing a cheaper material to replace parchment"
+            },
+            {
+              "id": "C",
+              "text": "Combining several technologies into one system"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "combine several technologies"
+          },
+          "explanation": "The audio says: \"combine several technologies\".",
+          "uuid": "d59415fb-97f5-5c39-b39e-8e8a0e796d91"
+        },
+        {
+          "id": "LI609-Q03",
+          "number": 3,
+          "prompt": "Why did the European alphabet help the spread of the press?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has few characters, which suited movable type"
+            },
+            {
+              "id": "B",
+              "text": "It was easy to read aloud to groups"
+            },
+            {
+              "id": "C",
+              "text": "It was already used by printers in China"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "suited movable type far better"
+          },
+          "explanation": "The audio says: \"suited movable type far better\".",
+          "uuid": "d27618bd-6e01-5f1e-9629-ffac1c785271"
+        },
+        {
+          "id": "LI609-Q04",
+          "number": 4,
+          "prompt": "What does the lecturer say a handwritten Bible could cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As much as a horse"
+            },
+            {
+              "id": "B",
+              "text": "As much as a year's food"
+            },
+            {
+              "id": "C",
+              "text": "As much as a house"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "as much as a house"
+          },
+          "explanation": "The audio says: \"as much as a house\".",
+          "uuid": "dcc0a21b-b4db-5878-8fbf-598529e19fc5"
+        },
+        {
+          "id": "LI609-Q05",
+          "number": 5,
+          "prompt": "Who could afford books by 1500?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Merchants, lawyers and teachers as well as the elite"
+            },
+            {
+              "id": "B",
+              "text": "Only the church and the officials who served it"
+            },
+            {
+              "id": "C",
+              "text": "Only aristocrats and the members of the royal court"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "merchants, lawyers and teachers"
+          },
+          "explanation": "The audio says: \"merchants, lawyers and teachers\".",
+          "uuid": "c052bca3-b146-5c37-bf90-4f951cb49b3e"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI609-Q06",
+          "number": 6,
+          "prompt": "What did Eisenstein argue about the press and the Reformation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That it had no influence"
+            },
+            {
+              "id": "B",
+              "text": "That it was invented because of it"
+            },
+            {
+              "id": "C",
+              "text": "That it did much to enable it"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "did much to enable it"
+          },
+          "explanation": "The audio says: \"did much to enable it\".",
+          "uuid": "c5a609eb-fe0e-5d53-ad2f-753ef0cd7eb2"
+        },
+        {
+          "id": "LI609-Q07",
+          "number": 7,
+          "prompt": "What complication do later historians add?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Low literacy meant pamphlets were often read aloud"
+            },
+            {
+              "id": "B",
+              "text": "Pamphlets were printed in very small numbers"
+            },
+            {
+              "id": "C",
+              "text": "Luther wrote few pamphlets in his lifetime"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "read aloud to groups"
+          },
+          "explanation": "The audio says: \"read aloud to groups\".",
+          "uuid": "beb0b45b-bca5-511c-bf93-580e689536a7"
+        },
+        {
+          "id": "LI609-Q08",
+          "number": 8,
+          "prompt": "What does the lecturer conclude about the press and the Reformation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The press was the main cause of it"
+            },
+            {
+              "id": "B",
+              "text": "The press amplified it rather than created it"
+            },
+            {
+              "id": "C",
+              "text": "The press played no part in its spread"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "amplified the Reformation rather than created it"
+          },
+          "explanation": "The audio says: \"amplified the Reformation rather than created it\".",
+          "uuid": "949ef725-dad0-501c-b2c2-32023cec6188"
+        },
+        {
+          "id": "LI609-Q09",
+          "number": 9,
+          "prompt": "Why does the lecturer call standardisation a mixed blessing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Texts became more expensive to buy"
+            },
+            {
+              "id": "B",
+              "text": "Mistakes could be spread at scale"
+            },
+            {
+              "id": "C",
+              "text": "Science declined as texts multiplied"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "spread mistakes at scale"
+          },
+          "explanation": "The audio says: \"spread mistakes at scale\".",
+          "uuid": "720fec6e-d266-5bb2-bcdb-6852b50c905f"
+        },
+        {
+          "id": "LI609-Q10",
+          "number": 10,
+          "prompt": "How effective was censorship of print?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It worked in most places"
+            },
+            {
+              "id": "B",
+              "text": "Enforcement was patchy"
+            },
+            {
+              "id": "C",
+              "text": "It was rarely attempted"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "enforcement was patchy"
+          },
+          "explanation": "The audio says: \"enforcement was patchy\".",
+          "uuid": "4c587624-ee24-5c84-ba50-a8b7753bcb1b"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "33554c8a-e7c8-4f01-8502-719c97d88363",
+  "derived": {
+    "word_count": 452,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 3,
+      "B": 3,
+      "C": 4
+    },
+    "content_hash": "8e11accbca0d178d"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "part_id": "LI509",
+  "part_uuid": "028d0fd3-1ceb-4003-9f58-1e3e449a57d4",
+  "audio_file": "li509_negotiating_a_freelance_contract.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "188c3f9b04c97c3a49a77d74dfe8c23363f029ac1e35019323322e43d90c6ab6",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Maya Collins",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Greg Dawson",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 7.78
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 8.23,
+      "end": 13.89
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 14.34,
+      "end": 27.04
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 27.49,
+      "end": 31.97
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 32.42,
+      "end": 40.22
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 40.67,
+      "end": 46.46
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 46.91,
+      "end": 57.68
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 58.13,
+      "end": 72.63
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 73.08,
+      "end": 84.12
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 84.57,
+      "end": 90.31
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 90.76,
+      "end": 102.59
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 103.04,
+      "end": 109.01
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 109.46,
+      "end": 125.71
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 126.16,
+      "end": 136.58
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 137.03,
+      "end": 146.44
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 146.89,
+      "end": 150.34
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 150.79,
+      "end": 165.82
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 166.27,
+      "end": 172.87
+    },
+    {
+      "index": 18,
+      "speaker": "S1",
+      "start": 173.32,
+      "end": 177.71
+    }
+  ],
+  "duration_seconds": 177.71,
+  "size_bytes": 1422380,
+  "audio_sha256": "ddb246eb10219319115edbe96ea2c4d5c25155996f598df2e14b2255223fd4a0",
+  "generated_at": "2026-10-30T20:57:34+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

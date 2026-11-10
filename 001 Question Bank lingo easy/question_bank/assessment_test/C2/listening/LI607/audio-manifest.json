@@ -1,0 +1,76 @@
+{
+  "part_id": "LI607",
+  "part_uuid": "87fe3a69-c110-44f4-8bfc-dd148b0f243a",
+  "audio_file": "li607_urban_planning_and_social_justice.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "59261bfc3f1df1bec76ce9700a917a05a6415cdc9d4fec51a036462dd2cfa418",
+  "voices": {
+    "S1": {
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Professor Mendes",
+      "gender": "female",
+      "accent": "american",
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 21.89
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 22.34,
+      "end": 60.55
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 61.0,
+      "end": 86.39
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 86.84,
+      "end": 121.16
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 121.61,
+      "end": 149.47
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 149.92,
+      "end": 175.53
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 175.98,
+      "end": 201.3
+    }
+  ],
+  "duration_seconds": 201.3,
+  "size_bytes": 1611116,
+  "audio_sha256": "5252228cf0df329cf95bef1bad7406c00f9bd1b08bb12e313f5f39e10fb0a70b",
+  "generated_at": "2026-10-30T20:58:14+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

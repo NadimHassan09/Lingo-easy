@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0",
+  "id": "LI606",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Tutorial: Critiquing a Statistical Claim",
+  "topic": "science",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li606_tutorial_critiquing_a_statistical_claim.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Lindqvist",
+        "gender": "female",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Marcus",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Zara",
+        "gender": "female",
+        "accent": "australian",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Right, let's look at the article you've chosen. Marcus, summarise the claim."
+      },
+      {
+        "speaker": "S2",
+        "text": "The article reports a study showing that people who drink three cups of coffee a day live longer than those who drink none. It concludes that coffee extends life."
+      },
+      {
+        "speaker": "S1",
+        "text": "Zara, what questions would you ask?"
+      },
+      {
+        "speaker": "S3",
+        "text": "First, correlation versus causation. People who drink coffee might differ in other ways from non-drinkers, such as income or diet."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good, and these are called confounding variables. The study here followed a hundred thousand people over twelve years, and the researchers adjusted for age, smoking and exercise. Does that fix the problem?"
+      },
+      {
+        "speaker": "S2",
+        "text": "It helps, but they can't adjust for everything, can they?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Exactly. Even careful adjustment leaves residual confounding. For instance, people who are seriously ill often stop drinking coffee, so the non-drinkers might include many people who were already unwell. This is called reverse causation."
+      },
+      {
+        "speaker": "S3",
+        "text": "So the non-drinkers' lower survival might not be due to the absence of coffee."
+      },
+      {
+        "speaker": "S1",
+        "text": "Precisely. What else would you check?"
+      },
+      {
+        "speaker": "S2",
+        "text": "The size of the effect. The article says coffee drinkers had a twelve per cent lower risk of death. That sounds big."
+      },
+      {
+        "speaker": "S1",
+        "text": "It sounds big, but relative risk can mislead. If the baseline risk of dying during the study was five per cent, a twelve per cent reduction means a fall from five to just under four and a half per cent. That's a difference of about half a percentage point. Journalists often report the relative figure because it's more striking."
+      },
+      {
+        "speaker": "S3",
+        "text": "I'd also want to know how coffee consumption was measured. If people reported it themselves, they may not remember accurately."
+      },
+      {
+        "speaker": "S1",
+        "text": "A good point. The participants answered a questionnaire at the start and were never asked again, even though habits change over twelve years. That introduces measurement error."
+      },
+      {
+        "speaker": "S2",
+        "text": "What about the funding? I noticed the study was supported by a coffee industry association."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good observation, though I'd urge you not to dismiss research simply because of its funder. The right response is to check whether the methods were transparent and the data available. In this case, the researchers published their dataset, which is reassuring. Still, it's reasonable to read the conclusions with some caution."
+      },
+      {
+        "speaker": "S3",
+        "text": "So is the article wrong?"
+      },
+      {
+        "speaker": "S1",
+        "text": "I wouldn't say wrong. The study is useful evidence, and similar results have appeared across many countries. The problem lies in the headline, which implies causation the study can't prove. A more accurate phrasing would be that coffee drinking is associated with a modestly lower risk of death."
+      },
+      {
+        "speaker": "S2",
+        "text": "So our critique should separate the study from its reporting?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes. That's the most important distinction I'd like you to draw."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI606-Q01",
+          "number": 1,
+          "prompt": "What does the article conclude?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That coffee has no effect"
+            },
+            {
+              "id": "B",
+              "text": "That coffee extends life"
+            },
+            {
+              "id": "C",
+              "text": "That coffee is dangerous"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It concludes that coffee extends life"
+          },
+          "explanation": "The audio says: \"It concludes that coffee extends life\".",
+          "uuid": "e8593368-1f06-529c-a05c-59ccc08779ef"
+        },
+        {
+          "id": "LI606-Q02",
+          "number": 2,
+          "prompt": "What is Zara's first concern?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The sample covers too few people for the results to be reliable"
+            },
+            {
+              "id": "B",
+              "text": "Coffee drinkers may differ from non-drinkers in other ways"
+            },
+            {
+              "id": "C",
+              "text": "The study has no control group with which to compare drinkers"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "differ in other ways from non-drinkers"
+          },
+          "explanation": "The audio says: \"differ in other ways from non-drinkers\".",
+          "uuid": "bb44f174-f0a2-5af7-8d8f-29eab189e824"
+        },
+        {
+          "id": "LI606-Q03",
+          "number": 3,
+          "prompt": "How long did the study follow participants?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Twelve years"
+            },
+            {
+              "id": "B",
+              "text": "Two years"
+            },
+            {
+              "id": "C",
+              "text": "Twenty years"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "over twelve years"
+          },
+          "explanation": "The audio says: \"over twelve years\".",
+          "uuid": "2e91a9b8-91fb-504b-b8eb-304ef8206e4a"
+        },
+        {
+          "id": "LI606-Q04",
+          "number": 4,
+          "prompt": "Why might non-drinkers include many unwell people?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ill people tend to drink much more coffee"
+            },
+            {
+              "id": "B",
+              "text": "Doctors tell ill people to avoid coffee"
+            },
+            {
+              "id": "C",
+              "text": "Ill people often stop drinking coffee"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "often stop drinking coffee"
+          },
+          "explanation": "The audio says: \"often stop drinking coffee\".",
+          "uuid": "9aa7e1ac-8249-5f8d-9c9e-87c2462a2ea0"
+        },
+        {
+          "id": "LI606-Q05",
+          "number": 5,
+          "prompt": "What does a twelve per cent relative reduction amount to if the baseline risk is five per cent?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A fall to a risk of almost zero per cent"
+            },
+            {
+              "id": "B",
+              "text": "A fall to just under four and a half per cent"
+            },
+            {
+              "id": "C",
+              "text": "A fall to roughly two and a half per cent"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "just under four and a half per cent"
+          },
+          "explanation": "The audio says: \"just under four and a half per cent\".",
+          "uuid": "f3a65c18-6411-567e-b2d6-10dc55a820b6"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI606-Q06",
+          "number": 6,
+          "prompt": "Why do journalists often report relative figures?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are more accurate"
+            },
+            {
+              "id": "B",
+              "text": "They are easier to calculate"
+            },
+            {
+              "id": "C",
+              "text": "They are more striking"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "because it's more striking"
+          },
+          "explanation": "The audio says: \"because it's more striking\".",
+          "uuid": "09254eef-ab5b-569a-8ab0-047957f65a5a"
+        },
+        {
+          "id": "LI606-Q07",
+          "number": 7,
+          "prompt": "What problem is there with measuring coffee consumption?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Participants were asked only once"
+            },
+            {
+              "id": "B",
+              "text": "Participants kept diaries"
+            },
+            {
+              "id": "C",
+              "text": "Participants were tested weekly"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "never asked again"
+          },
+          "explanation": "The audio says: \"never asked again\".",
+          "uuid": "ff66c8cf-d6a3-5017-b17a-e67a23b6d768"
+        },
+        {
+          "id": "LI606-Q08",
+          "number": 8,
+          "prompt": "What does the tutor advise about the industry funding?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dismiss the whole study because of who paid for it"
+            },
+            {
+              "id": "B",
+              "text": "Check the transparency of the methods rather than dismiss the study"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the funding, since it has no bearing on results"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "not to dismiss research simply because of its funder"
+          },
+          "explanation": "The audio says: \"not to dismiss research simply because of its funder\".",
+          "uuid": "ae1755d6-3ea8-5183-906f-831dfce45522"
+        },
+        {
+          "id": "LI606-Q09",
+          "number": 9,
+          "prompt": "What does the tutor find reassuring?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The funder was an independent charity"
+            },
+            {
+              "id": "B",
+              "text": "The sample included people of all ages"
+            },
+            {
+              "id": "C",
+              "text": "The researchers published their dataset"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "published their dataset"
+          },
+          "explanation": "The audio says: \"published their dataset\".",
+          "uuid": "78ee6cb1-3ff7-568b-81ed-be716222164b"
+        },
+        {
+          "id": "LI606-Q10",
+          "number": 10,
+          "prompt": "What would be a more accurate headline?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Coffee reduces a person's risk of death by about a third"
+            },
+            {
+              "id": "B",
+              "text": "Coffee causes people to live significantly longer lives"
+            },
+            {
+              "id": "C",
+              "text": "Coffee drinking is associated with a modestly lower risk of death"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "associated with a modestly lower risk of death"
+          },
+          "explanation": "The audio says: \"associated with a modestly lower risk of death\".",
+          "uuid": "fb1ba01a-cd17-5ad3-a74e-eb909a37e4d7"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "15e220d9-012c-4280-be42-fb7d583ab936",
+  "derived": {
+    "word_count": 434,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 2,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "9bc32d2298afbe8e"
+  }
+}

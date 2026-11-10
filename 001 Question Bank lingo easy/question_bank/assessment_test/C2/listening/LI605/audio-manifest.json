@@ -1,0 +1,136 @@
+{
+  "part_id": "LI605",
+  "part_uuid": "486875ae-2fda-4e73-90bb-f2a8104cb543",
+  "audio_file": "li605_a_novelist_on_writing.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "bed16e0416897c7bc6322bfd700c38d9aff5eb76e89769154f2a07b785f40258",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Helen Marsh",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "James Okoro",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 12.41
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 12.86,
+      "end": 31.03
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 31.48,
+      "end": 34.24
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 34.69,
+      "end": 54.27
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 54.72,
+      "end": 60.29
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 60.74,
+      "end": 85.75
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 86.2,
+      "end": 90.88
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 91.33,
+      "end": 113.57
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 114.02,
+      "end": 120.29
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 120.74,
+      "end": 139.43
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 139.88,
+      "end": 141.76
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 142.21,
+      "end": 156.41
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 156.86,
+      "end": 160.13
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 160.58,
+      "end": 177.57
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 178.02,
+      "end": 180.44
+    }
+  ],
+  "duration_seconds": 180.44,
+  "size_bytes": 1444268,
+  "audio_sha256": "f1a55230069cffec4f35a1638e143e0d6cd8119a906a245c5391f913830941ff",
+  "generated_at": "2026-10-30T20:58:04+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

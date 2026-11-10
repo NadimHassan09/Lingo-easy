@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE507",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Automation and the Future of Work",
+  "topic": "work_and_careers",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "Automation and the Future of Work",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Every few decades, a wave of anxiety about machines taking human jobs sweeps through the industrialised world. The nineteenth-century Luddites smashed textile machinery; in the 1960s, commentators predicted mass unemployment from computers. On each occasion, the predictions proved too pessimistic: new technologies destroyed some occupations but created others, and employment grew. Today, with advances in artificial intelligence and robotics, the same fears have returned, and the question is whether this time is different. I believe the answer is: partly."
+      },
+      {
+        "label": "B",
+        "text": "There are good reasons for optimism. Historically, technology has raised productivity, which lowered prices and increased demand, creating new jobs, often in industries that no one had imagined. In 1900, nobody could have described the role of a web designer or a data analyst. Moreover, automation tends to replace tasks rather than whole occupations. Studies suggest that fewer than five per cent of jobs can be fully automated with current technology, although around thirty per cent contain a substantial share of automatable tasks."
+      },
+      {
+        "label": "C",
+        "text": "Still, this time may differ in two respects. First, the pace: earlier transitions unfolded over generations, giving workers time to retrain or for their children to enter different fields. If change occurs within a decade, many workers in their forties and fifties could find their skills obsolete with little time to adapt. Second, the scope: past automation mostly affected manual and routine work, whereas AI is capable of tasks such as writing, analysis and diagnosis that were once considered safely human."
+      },
+      {
+        "label": "D",
+        "text": "The effects are unlikely to be evenly distributed. Evidence from industrial regions shows that when factories close, displaced workers often do not find equivalent jobs; they take lower-paid positions or leave the labour force altogether, and the effects can linger for decades in communities. Aggregate statistics showing healthy employment can therefore conceal serious hardship for particular groups."
+      },
+      {
+        "label": "E",
+        "text": "What should be done? Retraining is often proposed, but results are mixed, and it works best when linked to actual vacancies. Stronger safety nets, such as wage insurance, would reduce the cost of transition. Some also argue for taxing the profits of automation to fund social programmes. None of these proposals is a complete answer, but together they suggest that the future of work will depend less on technology itself than on political choices about sharing its benefits."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE507-Q01",
+          "number": 1,
+          "prompt": "How did earlier predictions of mass unemployment turn out?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They proved quite accurate"
+            },
+            {
+              "id": "B",
+              "text": "They were not properly tested"
+            },
+            {
+              "id": "C",
+              "text": "They proved too pessimistic"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "the predictions proved too pessimistic"
+          },
+          "explanation": "The text says: \"the predictions proved too pessimistic\".",
+          "uuid": "4bd6dac1-0357-5fae-83df-b484240ad51e"
+        },
+        {
+          "id": "RE507-Q02",
+          "number": 2,
+          "prompt": "What is the writer's answer to the question of whether this time is different?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Definitely yes"
+            },
+            {
+              "id": "B",
+              "text": "In some ways it is"
+            },
+            {
+              "id": "C",
+              "text": "Definitely not"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "the answer is: partly"
+          },
+          "explanation": "The text says: \"the answer is: partly\".",
+          "uuid": "229192da-3165-5c08-a2cf-0727a023ba28"
+        },
+        {
+          "id": "RE507-Q03",
+          "number": 3,
+          "prompt": "How does the writer explain job creation in the past?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rising productivity lowered prices and raised demand"
+            },
+            {
+              "id": "B",
+              "text": "Governments created jobs in public industries"
+            },
+            {
+              "id": "C",
+              "text": "Workers accepted lower pay in new industries"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "lowered prices and increased demand, creating new jobs"
+          },
+          "explanation": "The text says: \"lowered prices and increased demand, creating new jobs\".",
+          "uuid": "5fe1244c-62e1-5bcf-8d28-a36002df1c41"
+        },
+        {
+          "id": "RE507-Q04",
+          "number": 4,
+          "prompt": "What do studies suggest about full automation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Most jobs can be fully automated today"
+            },
+            {
+              "id": "B",
+              "text": "Few jobs can be fully automated now"
+            },
+            {
+              "id": "C",
+              "text": "Hardly any jobs contain automatable tasks"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "fewer than five per cent of jobs can be fully automated"
+          },
+          "explanation": "The text says: \"fewer than five per cent of jobs can be fully automated\".",
+          "uuid": "f37ef6a6-cf85-565a-aea8-aa23f7e7ca2f"
+        },
+        {
+          "id": "RE507-Q05",
+          "number": 5,
+          "prompt": "What is the first way in which this time may differ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The pace of change may be much faster"
+            },
+            {
+              "id": "B",
+              "text": "The scope of change is smaller"
+            },
+            {
+              "id": "C",
+              "text": "Workers are better prepared"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "First, the pace"
+          },
+          "explanation": "The text says: \"First, the pace\".",
+          "uuid": "abf01be8-6e12-54fb-832f-fd6dc2726b71"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE507-Q06",
+          "number": 6,
+          "prompt": "The writer is certain that AI will cause mass unemployment.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "this time may differ in two respects"
+          },
+          "explanation": "The text says: \"this time may differ in two respects\".",
+          "uuid": "298b1197-f6b6-521b-80af-3b7404c0dc4f"
+        },
+        {
+          "id": "RE507-Q07",
+          "number": 7,
+          "prompt": "The writer believes aggregate employment figures can hide hardship.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "can therefore conceal serious hardship for particular groups"
+          },
+          "explanation": "The text says: \"can therefore conceal serious hardship for particular groups\".",
+          "uuid": "5be196e3-6990-5da0-8da1-0debd1d7f09b"
+        },
+        {
+          "id": "RE507-Q08",
+          "number": 8,
+          "prompt": "The writer thinks retraining always works well.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "results are mixed"
+          },
+          "explanation": "The text says: \"results are mixed\".",
+          "uuid": "07428fb5-fb45-5da7-8c89-6b24abbf23fb"
+        },
+        {
+          "id": "RE507-Q09",
+          "number": 9,
+          "prompt": "The writer has lost a job because of automation.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "baaad19a-8e39-5a76-8060-227546fdf269"
+        },
+        {
+          "id": "RE507-Q10",
+          "number": 10,
+          "prompt": "The writer believes technology alone determines the future of work.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "depend less on technology itself than on political choices"
+          },
+          "explanation": "The text says: \"depend less on technology itself than on political choices\".",
+          "uuid": "63a964ce-d87f-523e-b674-de940a7426c9"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE507-Q11",
+          "number": 11,
+          "prompt": "A comparison between the speed of past and possible future change",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "earlier transitions unfolded over generations"
+          },
+          "explanation": "The text says: \"earlier transitions unfolded over generations\".",
+          "uuid": "77246036-6403-5392-8c53-4e5271bf15ae"
+        },
+        {
+          "id": "RE507-Q12",
+          "number": 12,
+          "prompt": "A warning that communities may suffer long after factories close",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "linger for decades in communities"
+          },
+          "explanation": "The text says: \"linger for decades in communities\".",
+          "uuid": "a2e32c95-3b5d-53ed-91e3-ebd6193dd913"
+        },
+        {
+          "id": "RE507-Q13",
+          "number": 13,
+          "prompt": "Examples of policies that could ease the cost of change",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "safety nets, such as wage insurance"
+          },
+          "explanation": "The text says: \"safety nets, such as wage insurance\".",
+          "uuid": "fd610771-fa88-5320-a2e1-609f046aa722"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "46981ee9-838d-4891-9943-4a25c95102c1",
+  "derived": {
+    "word_count": 380,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 3,
+      "B": 6,
+      "C": 3,
+      "D": 1
+    },
+    "content_hash": "31b1a898022ffefe"
+  }
+}

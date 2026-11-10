@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE601",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Can Science Explain Consciousness?",
+  "topic": "psychology",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "Can Science Explain Consciousness?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few problems in science combine such obvious importance with such stubborn resistance as the problem of consciousness. We know a great deal about how the brain processes information: how light is converted into signals, how memories are stored and how decisions are made. What we cannot say is why any of this processing should be accompanied by experience, by the felt quality of seeing red or the ache of a bruise. The philosopher David Chalmers called this the hard problem, to distinguish it from the easier, though still formidable, questions about brain function."
+      },
+      {
+        "label": "B",
+        "text": "Many neuroscientists regard the distinction as a confusion. Their position holds that once we explain all the functions of the brain, including our tendency to report that we are conscious, nothing remains to be explained. Consciousness, on this view, resembles the vitalism of earlier centuries: people once believed that life required a special force, until biochemistry explained living things without it. I find the analogy suggestive but not conclusive, for the cases differ in one crucial respect. Life was defined by observable functions such as growth and reproduction; consciousness is defined, at least in part, by experience that is available only to the one who has it."
+      },
+      {
+        "label": "C",
+        "text": "Other researchers pursue a middle course. Theories such as integrated information theory propose that consciousness corresponds to a particular mathematical property of a system, and attempt to measure it. Others, such as global workspace theory, link consciousness to the broadcasting of information across the brain. These approaches have generated testable predictions and valuable experiments, for example on patients who appear unresponsive yet show brain activity when asked to imagine playing tennis. Whatever their ultimate fate, they demonstrate that the study of consciousness is no longer the preserve of philosophers."
+      },
+      {
+        "label": "D",
+        "text": "Still, I doubt that empirical progress alone will dissolve the hard problem. Correlating brain states with reports of experience tells us where and when consciousness occurs, not why it exists. A complete map of such correlations would be an extraordinary achievement, and might allow us to predict what a person experiences, but a prediction is not an explanation. We may therefore have to expand our conception of explanation itself, in the way physics did when it accepted that fields and forces, which are not directly visible, are fundamental features of the world."
+      },
+      {
+        "label": "E",
+        "text": "The question has practical urgency. If we cannot say what makes a system conscious, we cannot confidently say which systems are. Animals, newborn infants, patients in vegetative states and, increasingly, artificial intelligence all raise the issue. A cautious ethic would err on the side of respect: to treat a system as conscious when it is not may be wasteful, but to treat a conscious one as an object would be a serious wrong."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE601-Q01",
+          "number": 1,
+          "prompt": "What does the hard problem concern?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Why brain processing is accompanied by experience"
+            },
+            {
+              "id": "B",
+              "text": "How the brain stores long-term memories"
+            },
+            {
+              "id": "C",
+              "text": "How neurons communicate with each other"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "why any of this processing should be accompanied by experience"
+          },
+          "explanation": "The text says: \"why any of this processing should be accompanied by experience\".",
+          "uuid": "27d09051-ca8a-5f8d-9c08-b290a4cb3921"
+        },
+        {
+          "id": "RE601-Q02",
+          "number": 2,
+          "prompt": "What is the position of those who regard the distinction as a confusion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Consciousness has a special non-physical origin of its own"
+            },
+            {
+              "id": "B",
+              "text": "Once all brain functions are explained, nothing remains to explain"
+            },
+            {
+              "id": "C",
+              "text": "Consciousness cannot be studied by any scientific method"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "nothing remains to be explained"
+          },
+          "explanation": "The text says: \"nothing remains to be explained\".",
+          "uuid": "8abcfa2f-4f32-5920-baff-13927b9b4a24"
+        },
+        {
+          "id": "RE601-Q03",
+          "number": 3,
+          "prompt": "Why does the writer find the comparison with vitalism inconclusive?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Biochemistry has not yet fully explained how life began"
+            },
+            {
+              "id": "B",
+              "text": "Life is harder to define than consciousness ever could be"
+            },
+            {
+              "id": "C",
+              "text": "Consciousness involves experience available only to the one who has it"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "available only to the one who has it"
+          },
+          "explanation": "The text says: \"available only to the one who has it\".",
+          "uuid": "971737fb-5746-5dde-a374-687fda26631b"
+        },
+        {
+          "id": "RE601-Q04",
+          "number": 4,
+          "prompt": "What do the experiments on apparently unresponsive patients illustrate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That patients are only pretending to respond"
+            },
+            {
+              "id": "B",
+              "text": "That brains can function without consciousness"
+            },
+            {
+              "id": "C",
+              "text": "That consciousness can be studied empirically"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "no longer the preserve of philosophers"
+          },
+          "explanation": "The text says: \"no longer the preserve of philosophers\".",
+          "uuid": "f71cde36-ce19-552f-8ee9-0698f3c2aefc"
+        },
+        {
+          "id": "RE601-Q05",
+          "number": 5,
+          "prompt": "Why does the writer doubt that empirical progress alone will dissolve the hard problem?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Correlation shows where and when, not why"
+            },
+            {
+              "id": "B",
+              "text": "The brain is too complex to map"
+            },
+            {
+              "id": "C",
+              "text": "Experiments on consciousness are unethical"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "not why it exists"
+          },
+          "explanation": "The text says: \"not why it exists\".",
+          "uuid": "857cb001-83ae-50f4-b39a-354ca8e5edfd"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE601-Q06",
+          "number": 6,
+          "prompt": "The writer is fully persuaded by the comparison with vitalism.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "suggestive but not conclusive"
+          },
+          "explanation": "The text says: \"suggestive but not conclusive\".",
+          "uuid": "a0ada7bb-a982-57e7-a68f-7f3a69ba3486"
+        },
+        {
+          "id": "RE601-Q07",
+          "number": 7,
+          "prompt": "The writer believes theories such as integrated information theory have produced no testable predictions.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "generated testable predictions"
+          },
+          "explanation": "The text says: \"generated testable predictions\".",
+          "uuid": "a0d63405-71a1-55bb-a1a2-2f6907baffd7"
+        },
+        {
+          "id": "RE601-Q08",
+          "number": 8,
+          "prompt": "The writer thinks a prediction of a person's experience would amount to an explanation.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "a prediction is not an explanation"
+          },
+          "explanation": "The text says: \"a prediction is not an explanation\".",
+          "uuid": "0b51240e-a745-5ca0-8269-126cef9bb977"
+        },
+        {
+          "id": "RE601-Q09",
+          "number": 9,
+          "prompt": "The writer has contributed to research on consciousness.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "417741a0-aac7-5717-bb96-3acf55343d42"
+        },
+        {
+          "id": "RE601-Q10",
+          "number": 10,
+          "prompt": "The writer favours treating uncertain cases with respect.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "err on the side of respect"
+          },
+          "explanation": "The text says: \"err on the side of respect\".",
+          "uuid": "387f8f13-ee0d-5a23-bae6-920eb4730fb1"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE601-Q11",
+          "number": 11,
+          "prompt": "A comparison between consciousness and a discarded scientific idea",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "resembles the vitalism of earlier centuries"
+          },
+          "explanation": "The text says: \"resembles the vitalism of earlier centuries\".",
+          "uuid": "f060b0a6-db94-5448-bef5-b1dbf7586c7f"
+        },
+        {
+          "id": "RE601-Q12",
+          "number": 12,
+          "prompt": "A suggestion that the concept of explanation may need widening",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "expand our conception of explanation itself"
+          },
+          "explanation": "The text says: \"expand our conception of explanation itself\".",
+          "uuid": "9ffff8ae-0061-5299-abbe-21ecdb8b03ed"
+        },
+        {
+          "id": "RE601-Q13",
+          "number": 13,
+          "prompt": "A list of cases in which the question of consciousness becomes urgent",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Animals, newborn infants, patients in vegetative states"
+          },
+          "explanation": "The text says: \"Animals, newborn infants, patients in vegetative states\".",
+          "uuid": "ea43621f-997b-533a-9fbf-7825a852e651"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "d7f0cefe-fe3e-4e39-a4a6-d31bc138f730",
+  "derived": {
+    "word_count": 454,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "833001e03112b318"
+  }
+}

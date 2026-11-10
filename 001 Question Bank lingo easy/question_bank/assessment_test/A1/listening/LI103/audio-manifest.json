@@ -1,0 +1,40 @@
+{
+  "part_id": "LI103",
+  "part_uuid": "15bddb71-63cc-4aa0-a4de-c44e36b98b14",
+  "audio_file": "li103_lucy_s_flat.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "4edd0aa855e7c476b8b3b835d3713aef158c0843c02c62073c5eead6a97437e3",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Lucy",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 54.1
+    }
+  ],
+  "duration_seconds": 54.1,
+  "size_bytes": 433388,
+  "audio_sha256": "9b4b629bcf010d88ae6cb6826c28c56bf94e686737614562514aa5d58f1ca4ce",
+  "generated_at": "2026-10-30T20:44:55+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "id": "LI101",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Booking a Table",
+  "topic": "food_and_nutrition",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li101_booking_a_table.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Tom",
+        "gender": "male",
+        "accent": "british",
+        "role": "café worker"
+      },
+      {
+        "id": "S2",
+        "name": "Anna Reed",
+        "gender": "female",
+        "accent": "british",
+        "role": "customer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good evening, Blue Door Café. Tom speaking. How can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hello. I want a table for four people, please."
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, of course. Is it for tonight?"
+      },
+      {
+        "speaker": "S2",
+        "text": "No, it is for Saturday. At seven o'clock."
+      },
+      {
+        "speaker": "S1",
+        "text": "Saturday at seven o'clock. Yes, we have a table. What is your name?"
+      },
+      {
+        "speaker": "S2",
+        "text": "My name is Anna Reed."
+      },
+      {
+        "speaker": "S1",
+        "text": "Thank you, Anna. Is it a special day?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, it is my son's birthday. He is ten years old."
+      },
+      {
+        "speaker": "S1",
+        "text": "Happy birthday to him! We have a small cake for children. It is two pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "That is nice. Yes, please. And my son likes pizza."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good. Our pizza is eight pounds. Do you want a table by the window or by the door?"
+      },
+      {
+        "speaker": "S2",
+        "text": "By the window, please."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay, Anna. A table for four, by the window, on Saturday at seven. See you then!"
+      },
+      {
+        "speaker": "S2",
+        "text": "Thank you very much. Goodbye!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI101-Q01",
+          "number": 1,
+          "prompt": "What is the name of the café?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blue Window Café"
+            },
+            {
+              "id": "B",
+              "text": "Red Door Café"
+            },
+            {
+              "id": "C",
+              "text": "Blue Door Café"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Blue Door Café"
+          },
+          "explanation": "The audio says: \"Blue Door Café\".",
+          "uuid": "82baf29d-dfcd-5a98-bf7b-5baf9c19520b"
+        },
+        {
+          "id": "LI101-Q02",
+          "number": 2,
+          "prompt": "Who answers the phone?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Anna"
+            },
+            {
+              "id": "B",
+              "text": "Tom"
+            },
+            {
+              "id": "C",
+              "text": "Ben"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Door Café. Tom speaking"
+          },
+          "explanation": "The audio says: \"Door Café. Tom speaking\".",
+          "uuid": "2b273d85-d871-5327-aa43-0202a2bbbfc1"
+        },
+        {
+          "id": "LI101-Q03",
+          "number": 3,
+          "prompt": "How many people is the table for?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two"
+            },
+            {
+              "id": "B",
+              "text": "Four"
+            },
+            {
+              "id": "C",
+              "text": "Six"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "table for four people"
+          },
+          "explanation": "The audio says: \"table for four people\".",
+          "uuid": "7b47d2f6-fd6c-5c17-80cd-33a9fd6f72ec"
+        },
+        {
+          "id": "LI101-Q04",
+          "number": 4,
+          "prompt": "When does Anna want the table?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tonight"
+            },
+            {
+              "id": "B",
+              "text": "On Sunday"
+            },
+            {
+              "id": "C",
+              "text": "On Saturday"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "No, it is for Saturday"
+          },
+          "explanation": "The audio says: \"No, it is for Saturday\".",
+          "uuid": "e8eea08e-cca4-5034-8afb-e7fa6d93c366"
+        },
+        {
+          "id": "LI101-Q05",
+          "number": 5,
+          "prompt": "What time is the table?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Six o'clock"
+            },
+            {
+              "id": "B",
+              "text": "Eight o'clock"
+            },
+            {
+              "id": "C",
+              "text": "Seven o'clock"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "At seven o'clock"
+          },
+          "explanation": "The audio says: \"At seven o'clock\".",
+          "uuid": "f0d3abdf-9e29-5e7e-85c0-1df84c56c0aa"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI101-Q06",
+          "number": 6,
+          "prompt": "How old is Anna's son?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ten"
+            },
+            {
+              "id": "B",
+              "text": "Seven"
+            },
+            {
+              "id": "C",
+              "text": "Twelve"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "He is ten years old"
+          },
+          "explanation": "The audio says: \"He is ten years old\".",
+          "uuid": "38863c08-7dd4-5c71-be4e-f6ec85e8c519"
+        },
+        {
+          "id": "LI101-Q07",
+          "number": 7,
+          "prompt": "How much is the children's cake?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2 pounds"
+            },
+            {
+              "id": "B",
+              "text": "8 pounds"
+            },
+            {
+              "id": "C",
+              "text": "10 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It is two pounds"
+          },
+          "explanation": "The audio says: \"It is two pounds\".",
+          "uuid": "e1a18bba-8022-5ab2-b5c6-3c6644856c8b"
+        },
+        {
+          "id": "LI101-Q08",
+          "number": 8,
+          "prompt": "What food does Anna's son like?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pasta"
+            },
+            {
+              "id": "B",
+              "text": "Pizza"
+            },
+            {
+              "id": "C",
+              "text": "Fish"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "my son likes pizza"
+          },
+          "explanation": "The audio says: \"my son likes pizza\".",
+          "uuid": "c70ffad6-4659-5493-88e7-eb877b6d75fd"
+        },
+        {
+          "id": "LI101-Q09",
+          "number": 9,
+          "prompt": "How much is the pizza?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2 pounds"
+            },
+            {
+              "id": "B",
+              "text": "18 pounds"
+            },
+            {
+              "id": "C",
+              "text": "8 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Our pizza is eight pounds"
+          },
+          "explanation": "The audio says: \"Our pizza is eight pounds\".",
+          "uuid": "f9992e0a-8164-5f2a-ac20-39e6f0f0d1cb"
+        },
+        {
+          "id": "LI101-Q10",
+          "number": 10,
+          "prompt": "Where does Anna want to sit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By the door"
+            },
+            {
+              "id": "B",
+              "text": "Outside"
+            },
+            {
+              "id": "C",
+              "text": "By the window"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "By the window, please"
+          },
+          "explanation": "The audio says: \"By the window, please\".",
+          "uuid": "4b01e118-1356-5405-9baf-6eceb9965874"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "e6a7cc0a-f132-4552-95bf-0a35f3924dce",
+  "derived": {
+    "word_count": 141,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 2,
+      "B": 3,
+      "C": 5
+    },
+    "content_hash": "8125d6f4b5d8b319"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "part_id": "LI505",
+  "part_uuid": "a373f855-93bf-4e6e-9bd2-64065ba89a6d",
+  "audio_file": "li505_festival_safety_briefing.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "2491a152f0e262530f9464c238649c95716afc4a4fac2a7f5f87f0f2c47c3b17",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Ruth Cole",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 11.9
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 12.35,
+      "end": 37.7
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 38.15,
+      "end": 68.17
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 68.62,
+      "end": 94.97
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 95.42,
+      "end": 122.26
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 122.71,
+      "end": 142.46
+    }
+  ],
+  "duration_seconds": 142.46,
+  "size_bytes": 1140332,
+  "audio_sha256": "51bf3a63060a5f272c6f2687c6c992a79247dcabfed6c0b64fc97953f1e186cc",
+  "generated_at": "2026-10-30T20:57:00+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

@@ -1,0 +1,148 @@
+{
+  "part_id": "LI209",
+  "part_uuid": "92c8abe9-cc8b-40df-9fff-e4e3ebe665f6",
+  "audio_file": "li209_a_job_interview.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "90857e6f2d2320c782f8a9642656eaabbcbd5780f3e8aa8c16ca807306ff4107",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Mrs Evans",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Tom",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 5.59
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 6.04,
+      "end": 8.78
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 9.23,
+      "end": 17.22
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 17.67,
+      "end": 28.64
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 29.09,
+      "end": 32.42
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 32.87,
+      "end": 41.08
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 41.53,
+      "end": 49.0
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 49.45,
+      "end": 55.49
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 55.94,
+      "end": 59.62
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 60.07,
+      "end": 65.54
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 65.99,
+      "end": 75.13
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 75.58,
+      "end": 84.2
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 84.65,
+      "end": 92.14
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 92.59,
+      "end": 94.99
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 95.44,
+      "end": 101.72
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 102.17,
+      "end": 106.88
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 107.33,
+      "end": 112.54
+    }
+  ],
+  "duration_seconds": 112.54,
+  "size_bytes": 900908,
+  "audio_sha256": "fb19a8c0fe37b42d58f880a14bf88882770b214d17d729728f7de4477b922e7f",
+  "generated_at": "2026-10-30T20:49:35+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

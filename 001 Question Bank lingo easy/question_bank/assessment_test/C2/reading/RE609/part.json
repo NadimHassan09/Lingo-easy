@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE609",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Machine Translation and the Future of Languages",
+  "topic": "technology",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "Machine Translation and the Future of Languages",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Until recently, the idea of a machine that could translate between human languages with reasonable accuracy belonged to science fiction. Today, millions of people use such tools daily, and for common language pairs the results are often fluent. The shift from rule-based systems, which tried to encode grammar and vocabulary by hand, to neural networks that learn patterns from enormous collections of existing translations, transformed performance almost overnight."
+      },
+      {
+        "label": "B",
+        "text": "Yet the limitations are instructive. Machines translate sentences well, but struggle with what lies beyond them: irony, cultural references, and ambiguity that humans resolve using knowledge of the world. A system may render a joke literally and miss that it was a joke. Errors tend to be fluent, which makes them hard to detect for users who do not know the source language, and in contexts such as medicine or law, a small mistranslation can have serious consequences."
+      },
+      {
+        "label": "C",
+        "text": "A second problem is data. Neural systems depend on large amounts of text, which exist for perhaps a hundred languages out of around seven thousand. For languages with few speakers or little written material, the tools are poor or unavailable, so the technology risks widening the gap between languages that are well served and those that are not. Researchers are exploring methods that learn from very small datasets, with some promising results, but progress for low-resource languages remains slow."
+      },
+      {
+        "label": "D",
+        "text": "What will this mean for language learning? Some predict that translation tools will make learning foreign languages unnecessary. That seems unlikely. Learners acquire more than words: they gain access to a culture's humour, values and ways of thinking, and form relationships that depend on direct communication. Studies of travellers show that even a few words of the local language change how they are received. A device may remove practical obstacles without providing the understanding that comes from effort."
+      },
+      {
+        "label": "E",
+        "text": "Professional translators, meanwhile, report that their work is changing rather than disappearing. Many now edit machine output, a task that requires judgement about tone and accuracy. But rates of pay for this work are often lower, and some fear that the profession will be reduced to checking text for mistakes. The outcome will depend partly on how society values human expertise, and partly on whether quality, particularly in sensitive fields, continues to matter more than speed and cost."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE609-Q01",
+          "number": 1,
+          "prompt": "What change transformed machine translation performance?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The use of much larger bilingual dictionaries by programmers"
+            },
+            {
+              "id": "B",
+              "text": "The use of professional editors to check every sentence"
+            },
+            {
+              "id": "C",
+              "text": "The move to neural networks learning from existing translations"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "neural networks that learn patterns from enormous collections"
+          },
+          "explanation": "The text says: \"neural networks that learn patterns from enormous collections\".",
+          "uuid": "0dfec121-8d7d-53a8-ba22-1f1a8be891dd"
+        },
+        {
+          "id": "RE609-Q02",
+          "number": 2,
+          "prompt": "What do machines struggle with, according to the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Short and simple sentences"
+            },
+            {
+              "id": "B",
+              "text": "Irony and cultural references"
+            },
+            {
+              "id": "C",
+              "text": "Everyday vocabulary and grammar"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "struggle with what lies beyond them"
+          },
+          "explanation": "The text says: \"struggle with what lies beyond them\".",
+          "uuid": "124d01ea-6579-5c5d-85b7-4afd1f28d31c"
+        },
+        {
+          "id": "RE609-Q03",
+          "number": 3,
+          "prompt": "Why are machine translation errors hard to detect?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are very frequent"
+            },
+            {
+              "id": "B",
+              "text": "They are usually long"
+            },
+            {
+              "id": "C",
+              "text": "They tend to be fluent"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Errors tend to be fluent"
+          },
+          "explanation": "The text says: \"Errors tend to be fluent\".",
+          "uuid": "555c991b-306c-5c2a-8fb7-c0033eb264cb"
+        },
+        {
+          "id": "RE609-Q04",
+          "number": 4,
+          "prompt": "Why might the technology widen the gap between languages?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Speakers dislike using machine tools"
+            },
+            {
+              "id": "B",
+              "text": "Data exists for only about a hundred languages"
+            },
+            {
+              "id": "C",
+              "text": "The tools are too expensive to develop"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "perhaps a hundred languages out of around seven thousand"
+          },
+          "explanation": "The text says: \"perhaps a hundred languages out of around seven thousand\".",
+          "uuid": "4f3752e5-39b3-5e95-846a-4761cb0b8b44"
+        },
+        {
+          "id": "RE609-Q05",
+          "number": 5,
+          "prompt": "Why does the writer doubt that translation tools will make language learning unnecessary?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Learning gives access to culture and relationships"
+            },
+            {
+              "id": "B",
+              "text": "Tools are too slow for real conversation"
+            },
+            {
+              "id": "C",
+              "text": "Learners are becoming fewer each year"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "access to a culture's humour, values and ways of thinking"
+          },
+          "explanation": "The text says: \"access to a culture's humour, values and ways of thinking\".",
+          "uuid": "41c7fdcf-d837-5bc6-b783-120c9d841ba6"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE609-Q06",
+          "number": 6,
+          "prompt": "Rule-based systems tried to encode grammar by hand.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "encode grammar and vocabulary by hand"
+          },
+          "explanation": "The text says: \"encode grammar and vocabulary by hand\".",
+          "uuid": "f5ba0ccb-428b-5c4e-ad55-4c9e559b4ec6"
+        },
+        {
+          "id": "RE609-Q07",
+          "number": 7,
+          "prompt": "Neural translation tools work equally well for all seven thousand languages.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "poor or unavailable"
+          },
+          "explanation": "The text says: \"poor or unavailable\".",
+          "uuid": "98dfdc6e-2e25-578b-a9a4-56e3ef8a20a0"
+        },
+        {
+          "id": "RE609-Q08",
+          "number": 8,
+          "prompt": "Studies show that speaking a few words of the local language changes how travellers are received.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "change how they are received"
+          },
+          "explanation": "The text says: \"change how they are received\".",
+          "uuid": "bb3996a8-06ec-5d7e-bf1a-3594bb7f1efe"
+        },
+        {
+          "id": "RE609-Q09",
+          "number": 9,
+          "prompt": "Most professional translators have lost their jobs.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "changing rather than disappearing"
+          },
+          "explanation": "The text says: \"changing rather than disappearing\".",
+          "uuid": "5845b590-5fc0-5a64-b5d5-cbe7750c5a7c"
+        },
+        {
+          "id": "RE609-Q10",
+          "number": 10,
+          "prompt": "Machine translation is used mainly by lawyers.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "73680d74-7004-5191-8659-e1e7325323cf"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE609-Q11",
+          "number": 11,
+          "prompt": "A warning that errors in medicine or law could be serious",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "a small mistranslation can have serious consequences"
+          },
+          "explanation": "The text says: \"a small mistranslation can have serious consequences\".",
+          "uuid": "93949195-cf26-5b3d-9637-753de07ba733"
+        },
+        {
+          "id": "RE609-Q12",
+          "number": 12,
+          "prompt": "A description of the problem faced by languages with little written material",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "few speakers or little written material"
+          },
+          "explanation": "The text says: \"few speakers or little written material\".",
+          "uuid": "6dab1650-0b72-59c2-acb1-ceb9222d55ac"
+        },
+        {
+          "id": "RE609-Q13",
+          "number": 13,
+          "prompt": "A concern about changing pay for translators",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "rates of pay for this work are often lower"
+          },
+          "explanation": "The text says: \"rates of pay for this work are often lower\".",
+          "uuid": "703a905d-9a1e-55a4-ba72-4dc1a1528d23"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "78b38ecc-1cb6-481f-9c56-340dd29e1139",
+  "derived": {
+    "word_count": 383,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 3,
+      "D": 1
+    },
+    "content_hash": "80b96729d5929b0a"
+  }
+}

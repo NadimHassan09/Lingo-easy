@@ -1,0 +1,528 @@
+{
+  "schema_version": "1.0",
+  "_note": "Single source of truth for generators AND validator. Change counts here only. Counts below follow the official IELTS layout (Listening 4 parts x 10, Reading 3 passages x 13); change items_per_part / parts_per_test if the team decides otherwise.",
+  "cefr_to_band": {
+    "A1": [
+      1.0,
+      2.5
+    ],
+    "A2": [
+      3.0,
+      3.5
+    ],
+    "B1": [
+      4.0,
+      5.0
+    ],
+    "B2": [
+      5.5,
+      6.5
+    ],
+    "C1": [
+      7.0,
+      8.0
+    ],
+    "C2": [
+      8.5,
+      9.0
+    ]
+  },
+  "band_step": 0.5,
+  "skills": {
+    "listening": {
+      "id_prefix": "LI",
+      "parts_per_test": 4,
+      "items_per_part": 10,
+      "question_groups_per_part": [
+        1,
+        4
+      ],
+      "part_types": {
+        "social_conversation": {
+          "speakers": [
+            2,
+            2
+          ]
+        },
+        "social_monologue": {
+          "speakers": [
+            1,
+            1
+          ]
+        },
+        "academic_discussion": {
+          "speakers": [
+            2,
+            4
+          ]
+        },
+        "academic_lecture": {
+          "speakers": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    "reading": {
+      "id_prefix": "RE",
+      "parts_per_test": 3,
+      "items_per_part": 13,
+      "question_groups_per_part": [
+        1,
+        4
+      ],
+      "part_types": {
+        "descriptive": {},
+        "discursive": {},
+        "argumentative": {}
+      }
+    }
+  },
+  "profiles": {
+    "foundation": {
+      "description": "Overall easier part. Most items A2-B1, a few B2, one stretch item. Weak learners can still score.",
+      "weights": {
+        "A1": 0.15,
+        "A2": 0.3,
+        "B1": 0.3,
+        "B2": 0.2,
+        "C1": 0.05,
+        "C2": 0.0
+      },
+      "mean_band_range": [
+        3.5,
+        5.0
+      ],
+      "required_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "text_cefr_allowed": [
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "text_words": {
+        "listening": [
+          300,
+          450
+        ],
+        "reading": [
+          300,
+          500
+        ]
+      }
+    },
+    "intermediate": {
+      "description": "Core placement part. Centre of mass B1-B2 with a tail on both sides.",
+      "weights": {
+        "A1": 0.0,
+        "A2": 0.1,
+        "B1": 0.25,
+        "B2": 0.35,
+        "C1": 0.25,
+        "C2": 0.05
+      },
+      "mean_band_range": [
+        5.0,
+        6.5
+      ],
+      "required_levels": [
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "text_cefr_allowed": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "text_words": {
+        "listening": [
+          400,
+          600
+        ],
+        "reading": [
+          450,
+          650
+        ]
+      }
+    },
+    "advanced": {
+      "description": "Hard part by average band, but still contains easy anchor items so nobody is locked out.",
+      "weights": {
+        "A1": 0.0,
+        "A2": 0.05,
+        "B1": 0.15,
+        "B2": 0.3,
+        "C1": 0.35,
+        "C2": 0.15
+      },
+      "mean_band_range": [
+        6.0,
+        7.5
+      ],
+      "required_levels": [
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "text_cefr_allowed": [
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "text_words": {
+        "listening": [
+          500,
+          750
+        ],
+        "reading": [
+          600,
+          800
+        ]
+      }
+    },
+    "level_a1": {
+      "description": "Assessment part: every item is A1. Used only by the Assessment test (question_bank/assessment/A1/).",
+      "weights": {
+        "A1": 1.0,
+        "A2": 0.0,
+        "B1": 0.0,
+        "B2": 0.0,
+        "C1": 0.0,
+        "C2": 0.0
+      },
+      "mean_band_range": [
+        1.0,
+        2.5
+      ],
+      "required_levels": [
+        "A1"
+      ],
+      "max_level_share": 1.0,
+      "text_cefr_allowed": [
+        "A1"
+      ],
+      "text_words": {
+        "listening": [
+          120,
+          260
+        ],
+        "reading": [
+          150,
+          330
+        ]
+      }
+    },
+    "level_a2": {
+      "description": "Assessment part: every item is A2. Used only by the Assessment test (question_bank/assessment/A2/).",
+      "weights": {
+        "A1": 0.0,
+        "A2": 1.0,
+        "B1": 0.0,
+        "B2": 0.0,
+        "C1": 0.0,
+        "C2": 0.0
+      },
+      "mean_band_range": [
+        3.0,
+        3.5
+      ],
+      "required_levels": [
+        "A2"
+      ],
+      "max_level_share": 1.0,
+      "text_cefr_allowed": [
+        "A2"
+      ],
+      "text_words": {
+        "listening": [
+          170,
+          340
+        ],
+        "reading": [
+          190,
+          400
+        ]
+      }
+    },
+    "level_b1": {
+      "description": "Assessment part: every item is B1. Used only by the Assessment test (question_bank/assessment/B1/).",
+      "weights": {
+        "A1": 0.0,
+        "A2": 0.0,
+        "B1": 1.0,
+        "B2": 0.0,
+        "C1": 0.0,
+        "C2": 0.0
+      },
+      "mean_band_range": [
+        4.0,
+        5.0
+      ],
+      "required_levels": [
+        "B1"
+      ],
+      "max_level_share": 1.0,
+      "text_cefr_allowed": [
+        "B1"
+      ],
+      "text_words": {
+        "listening": [
+          300,
+          460
+        ],
+        "reading": [
+          270,
+          480
+        ]
+      }
+    },
+    "level_b2": {
+      "description": "Assessment part: every item is B2. Used only by the Assessment test (question_bank/assessment/B2/).",
+      "weights": {
+        "A1": 0.0,
+        "A2": 0.0,
+        "B1": 0.0,
+        "B2": 1.0,
+        "C1": 0.0,
+        "C2": 0.0
+      },
+      "mean_band_range": [
+        5.5,
+        6.5
+      ],
+      "required_levels": [
+        "B2"
+      ],
+      "max_level_share": 1.0,
+      "text_cefr_allowed": [
+        "B2"
+      ],
+      "text_words": {
+        "listening": [
+          360,
+          600
+        ],
+        "reading": [
+          330,
+          650
+        ]
+      }
+    },
+    "level_c1": {
+      "description": "Assessment part: every item is C1. Used only by the Assessment test (question_bank/assessment/C1/).",
+      "weights": {
+        "A1": 0.0,
+        "A2": 0.0,
+        "B1": 0.0,
+        "B2": 0.0,
+        "C1": 1.0,
+        "C2": 0.0
+      },
+      "mean_band_range": [
+        7.0,
+        8.0
+      ],
+      "required_levels": [
+        "C1"
+      ],
+      "max_level_share": 1.0,
+      "text_cefr_allowed": [
+        "C1"
+      ],
+      "text_words": {
+        "listening": [
+          380,
+          720
+        ],
+        "reading": [
+          340,
+          760
+        ]
+      }
+    },
+    "level_c2": {
+      "description": "Assessment part: every item is C2. Used only by the Assessment test (question_bank/assessment/C2/).",
+      "weights": {
+        "A1": 0.0,
+        "A2": 0.0,
+        "B1": 0.0,
+        "B2": 0.0,
+        "C1": 0.0,
+        "C2": 1.0
+      },
+      "mean_band_range": [
+        8.5,
+        9.0
+      ],
+      "required_levels": [
+        "C2"
+      ],
+      "max_level_share": 1.0,
+      "text_cefr_allowed": [
+        "C2"
+      ],
+      "text_words": {
+        "listening": [
+          430,
+          760
+        ],
+        "reading": [
+          380,
+          820
+        ]
+      }
+    }
+  },
+  "bank_targets": {
+    "parts_per_skill": 100,
+    "profile_share": {
+      "foundation": 0.3,
+      "intermediate": 0.4,
+      "advanced": 0.3
+    }
+  },
+  "validation": {
+    "max_level_share": 0.4,
+    "max_same_answer_share": 0.5,
+    "max_answer_run": 3,
+    "min_explanation_chars": 15,
+    "min_distractor_options": 3,
+    "max_options": 4
+  },
+  "assembler": {
+    "allowed_statuses": [
+      "validated",
+      "reviewed",
+      "approved"
+    ],
+    "profile_cycle": [
+      "foundation",
+      "intermediate",
+      "advanced",
+      "intermediate"
+    ]
+  },
+  "scoring": {
+    "indicative_level_threshold": 0.6
+  },
+  "tts": {
+    "_note": "Used only by scripts/export_tts_scenario.py. 'expert' preset of the source repo (strong regional accents, very fast) is deliberately never used: placement learners need clear speech.",
+    "base_config": "config/tts-base-config.json",
+    "profile_to_preset": {
+      "foundation": "easy",
+      "intermediate": "medium",
+      "advanced": "hard",
+      "level_a1": "easy",
+      "level_a2": "easy",
+      "level_b1": "medium",
+      "level_b2": "medium",
+      "level_c1": "hard",
+      "level_c2": "hard"
+    },
+    "voices": {
+      "female": [
+        "Aoede",
+        "Kore",
+        "Leda"
+      ],
+      "male": [
+        "Puck",
+        "Charon",
+        "Fenrir",
+        "Orus"
+      ]
+    },
+    "accent_text": {
+      "british": "British (Received Pronunciation), clear and standard",
+      "american": "North American (General), clear and standard",
+      "australian": "Australian (General), clear and standard",
+      "new_zealand": "New Zealand (General), clear and standard"
+    },
+    "scene_by_part_type": {
+      "social_conversation": "A quiet room; an everyday service or arrangement conversation.",
+      "social_monologue": "A speaker giving practical information to a small group.",
+      "academic_discussion": "A university setting; students and a tutor discussing coursework.",
+      "academic_lecture": "A lecture hall; a lecturer addressing students."
+    },
+    "edge": {
+      "_note": "Free text-to-speech via the edge-tts package (Microsoft Edge online read-aloud service: unofficial, no API key). Used only by scripts/generate_listening_audio.py. Accents stay standard and clear.",
+      "rate_by_preset": {
+        "easy": "-12%",
+        "medium": "-5%",
+        "hard": "+0%"
+      },
+      "pause_ms_between_turns": 450,
+      "voices": {
+        "female": {
+          "american": [
+            "en-US-JennyNeural",
+            "en-US-AriaNeural",
+            "en-US-MichelleNeural",
+            "en-US-EmmaNeural"
+          ],
+          "british": [
+            "en-GB-SoniaNeural",
+            "en-GB-LibbyNeural"
+          ],
+          "australian": [
+            "en-AU-NatashaNeural"
+          ],
+          "new_zealand": [
+            "en-NZ-MollyNeural"
+          ]
+        },
+        "male": {
+          "american": [
+            "en-US-GuyNeural",
+            "en-US-ChristopherNeural",
+            "en-US-AndrewNeural",
+            "en-US-BrianNeural"
+          ],
+          "british": [
+            "en-GB-RyanNeural",
+            "en-GB-ThomasNeural"
+          ],
+          "australian": [
+            "en-AU-WilliamMultilingualNeural"
+          ],
+          "new_zealand": [
+            "en-NZ-MitchellNeural"
+          ]
+        }
+      },
+      "pitch_variants_hz": [
+        "+0Hz",
+        "-6Hz",
+        "+6Hz",
+        "-12Hz"
+      ],
+      "pitch_note": "When two speakers of one part share gender and accent and the voice pool is too small, the same voice is reused with a different pitch so they remain distinguishable."
+    }
+  },
+  "productive": {
+    "_note": "Writing and Speaking are productive skills (one task per Part, not multiple choice). Kept apart from \"skills\" because the MCQ validator iterates that block. parts_per_test: placement = 3 tasks per skill (easy / middle / hard stratum), assessment = 2 tasks at the assessment level. Product decision, editable.",
+    "writing": {
+      "id_prefix": "WR",
+      "parts_per_test": {
+        "placement": 3,
+        "assessment": 2
+      }
+    },
+    "speaking": {
+      "id_prefix": "SP",
+      "parts_per_test": {
+        "placement": 3,
+        "assessment": 2
+      }
+    }
+  }
+}

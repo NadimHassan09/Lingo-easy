@@ -1,0 +1,211 @@
+﻿part_id,source_path,asset_type,reference,exists,transcript_words,transcript_turns,severity,note,recommended_action
+LI101,question_bank/assessment/A1/listening/LI101/part.json,audio,li101_booking_a_table.mp3,False,141,14,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI101,question_bank/assessment/A1/listening/LI101/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI102,question_bank/assessment/A1/listening/LI102/part.json,audio,li102_at_the_train_station.mp3,False,143,18,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI102,question_bank/assessment/A1/listening/LI102/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI103,question_bank/assessment/A1/listening/LI103/part.json,audio,li103_lucy_s_flat.mp3,False,148,1,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI103,question_bank/assessment/A1/listening/LI103/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI104,question_bank/assessment/A1/listening/LI104/part.json,audio,li104_buying_a_jacket.mp3,False,153,14,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI104,question_bank/assessment/A1/listening/LI104/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI105,question_bank/assessment/A1/listening/LI105/part.json,audio,li105_weekend_plans.mp3,False,167,16,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI105,question_bank/assessment/A1/listening/LI105/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI106,question_bank/assessment/A1/listening/LI106/part.json,audio,li106_omar_s_school_day.mp3,False,134,1,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI106,question_bank/assessment/A1/listening/LI106/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI107,question_bank/assessment/A1/listening/LI107/part.json,audio,li107_seeing_the_doctor.mp3,False,137,14,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI107,question_bank/assessment/A1/listening/LI107/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI108,question_bank/assessment/A1/listening/LI108/part.json,audio,li108_a_message_from_spain.mp3,False,128,1,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI108,question_bank/assessment/A1/listening/LI108/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI109,question_bank/assessment/A1/listening/LI109/part.json,audio,li109_joining_a_sports_club.mp3,False,191,16,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI109,question_bank/assessment/A1/listening/LI109/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI110,question_bank/assessment/A1/listening/LI110/part.json,audio,li110_lost_property.mp3,False,148,16,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI110,question_bank/assessment/A1/listening/LI110/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+RE101,question_bank/assessment/A1/reading/RE101/part.json,passage_inline,passage.paragraphs,True,152,4,ok,inline text,
+RE102,question_bank/assessment/A1/reading/RE102/part.json,passage_inline,passage.paragraphs,True,154,4,ok,inline text,
+RE103,question_bank/assessment/A1/reading/RE103/part.json,passage_inline,passage.paragraphs,True,151,4,ok,inline text,
+RE104,question_bank/assessment/A1/reading/RE104/part.json,passage_inline,passage.paragraphs,True,176,4,ok,inline text,
+RE105,question_bank/assessment/A1/reading/RE105/part.json,passage_inline,passage.paragraphs,True,152,3,ok,inline text,
+RE106,question_bank/assessment/A1/reading/RE106/part.json,passage_inline,passage.paragraphs,True,168,4,ok,inline text,
+RE107,question_bank/assessment/A1/reading/RE107/part.json,passage_inline,passage.paragraphs,True,186,4,ok,inline text,
+RE108,question_bank/assessment/A1/reading/RE108/part.json,passage_inline,passage.paragraphs,True,172,4,ok,inline text,
+RE109,question_bank/assessment/A1/reading/RE109/part.json,passage_inline,passage.paragraphs,True,158,4,ok,inline text,
+RE110,question_bank/assessment/A1/reading/RE110/part.json,passage_inline,passage.paragraphs,True,174,4,ok,inline text,
+LI201,question_bank/assessment/A2/listening/LI201/part.json,audio,li201_changing_a_hotel_booking.mp3,False,239,15,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI201,question_bank/assessment/A2/listening/LI201/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI202,question_bank/assessment/A2/listening/LI202/part.json,audio,li202_the_cooking_class.mp3,False,176,1,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI202,question_bank/assessment/A2/listening/LI202/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI203,question_bank/assessment/A2/listening/LI203/part.json,audio,li203_asking_for_directions.mp3,False,182,14,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI203,question_bank/assessment/A2/listening/LI203/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI204,question_bank/assessment/A2/listening/LI204/part.json,audio,li204_the_school_trip.mp3,False,184,1,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI204,question_bank/assessment/A2/listening/LI204/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI205,question_bank/assessment/A2/listening/LI205/part.json,audio,li205_buying_a_new_phone.mp3,False,189,14,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI205,question_bank/assessment/A2/listening/LI205/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI206,question_bank/assessment/A2/listening/LI206/part.json,audio,li206_walking_holidays.mp3,False,194,1,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI206,question_bank/assessment/A2/listening/LI206/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI207,question_bank/assessment/A2/listening/LI207/part.json,audio,li207_joining_the_library.mp3,False,191,15,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI207,question_bank/assessment/A2/listening/LI207/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI208,question_bank/assessment/A2/listening/LI208/part.json,audio,li208_a_message_about_dad_s_party.mp3,False,179,1,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI208,question_bank/assessment/A2/listening/LI208/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI209,question_bank/assessment/A2/listening/LI209/part.json,audio,li209_a_job_interview.mp3,False,212,17,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI209,question_bank/assessment/A2/listening/LI209/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI210,question_bank/assessment/A2/listening/LI210/part.json,audio,li210_the_weather_report.mp3,False,179,1,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI210,question_bank/assessment/A2/listening/LI210/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+RE201,question_bank/assessment/A2/reading/RE201/part.json,passage_inline,passage.paragraphs,True,213,4,ok,inline text,
+RE202,question_bank/assessment/A2/reading/RE202/part.json,passage_inline,passage.paragraphs,True,231,4,ok,inline text,
+RE203,question_bank/assessment/A2/reading/RE203/part.json,passage_inline,passage.paragraphs,True,204,4,ok,inline text,
+RE204,question_bank/assessment/A2/reading/RE204/part.json,passage_inline,passage.paragraphs,True,227,4,ok,inline text,
+RE205,question_bank/assessment/A2/reading/RE205/part.json,passage_inline,passage.paragraphs,True,207,4,ok,inline text,
+RE206,question_bank/assessment/A2/reading/RE206/part.json,passage_inline,passage.paragraphs,True,208,4,ok,inline text,
+RE207,question_bank/assessment/A2/reading/RE207/part.json,passage_inline,passage.paragraphs,True,203,4,ok,inline text,
+RE208,question_bank/assessment/A2/reading/RE208/part.json,passage_inline,passage.paragraphs,True,215,4,ok,inline text,
+RE209,question_bank/assessment/A2/reading/RE209/part.json,passage_inline,passage.paragraphs,True,206,4,ok,inline text,
+RE210,question_bank/assessment/A2/reading/RE210/part.json,passage_inline,passage.paragraphs,True,214,4,ok,inline text,
+LI301,question_bank/assessment/B1/listening/LI301/part.json,audio,li301_booking_a_language_course.mp3,False,336,18,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI301,question_bank/assessment/B1/listening/LI301/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI302,question_bank/assessment/B1/listening/LI302/part.json,audio,li302_a_tour_of_harlow_castle.mp3,False,306,4,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI302,question_bank/assessment/B1/listening/LI302/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI303,question_bank/assessment/B1/listening/LI303/part.json,audio,li303_choosing_a_science_project.mp3,False,321,19,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI303,question_bank/assessment/B1/listening/LI303/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI304,question_bank/assessment/B1/listening/LI304/part.json,audio,li304_what_happens_to_recycled_plastic.mp3,False,310,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI304,question_bank/assessment/B1/listening/LI304/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI305,question_bank/assessment/B1/listening/LI305/part.json,audio,li305_a_complaint_at_the_hotel.mp3,False,314,18,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI305,question_bank/assessment/B1/listening/LI305/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI306,question_bank/assessment/B1/listening/LI306/part.json,audio,li306_healthy_eating_for_busy_people.mp3,False,323,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI306,question_bank/assessment/B1/listening/LI306/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI307,question_bank/assessment/B1/listening/LI307/part.json,audio,li307_planning_a_presentation_on_volunteering.mp3,False,301,18,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI307,question_bank/assessment/B1/listening/LI307/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI308,question_bank/assessment/B1/listening/LI308/part.json,audio,li308_a_short_history_of_cinema.mp3,False,307,7,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI308,question_bank/assessment/B1/listening/LI308/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI309,question_bank/assessment/B1/listening/LI309/part.json,audio,li309_renting_a_car.mp3,False,318,19,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI309,question_bank/assessment/B1/listening/LI309/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI310,question_bank/assessment/B1/listening/LI310/part.json,audio,li310_feedback_on_an_essay.mp3,False,321,17,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI310,question_bank/assessment/B1/listening/LI310/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+RE301,question_bank/assessment/B1/reading/RE301/part.json,passage_inline,passage.paragraphs,True,294,5,ok,inline text,
+RE302,question_bank/assessment/B1/reading/RE302/part.json,passage_inline,passage.paragraphs,True,309,5,ok,inline text,
+RE303,question_bank/assessment/B1/reading/RE303/part.json,passage_inline,passage.paragraphs,True,302,5,ok,inline text,
+RE304,question_bank/assessment/B1/reading/RE304/part.json,passage_inline,passage.paragraphs,True,280,5,ok,inline text,
+RE305,question_bank/assessment/B1/reading/RE305/part.json,passage_inline,passage.paragraphs,True,318,5,ok,inline text,
+RE306,question_bank/assessment/B1/reading/RE306/part.json,passage_inline,passage.paragraphs,True,306,5,ok,inline text,
+RE307,question_bank/assessment/B1/reading/RE307/part.json,passage_inline,passage.paragraphs,True,280,5,ok,inline text,
+RE308,question_bank/assessment/B1/reading/RE308/part.json,passage_inline,passage.paragraphs,True,312,5,ok,inline text,
+RE309,question_bank/assessment/B1/reading/RE309/part.json,passage_inline,passage.paragraphs,True,294,5,ok,inline text,
+RE310,question_bank/assessment/B1/reading/RE310/part.json,passage_inline,passage.paragraphs,True,296,5,ok,inline text,
+LI401,question_bank/assessment/B2/listening/LI401/part.json,audio,li401_university_orientation_talk.mp3,False,426,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI401,question_bank/assessment/B2/listening/LI401/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI402,question_bank/assessment/B2/listening/LI402/part.json,audio,li402_choosing_a_dissertation_topic.mp3,False,401,20,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI402,question_bank/assessment/B2/listening/LI402/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI403,question_bank/assessment/B2/listening/LI403/part.json,audio,li403_urban_gardening.mp3,False,424,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI403,question_bank/assessment/B2/listening/LI403/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI404,question_bank/assessment/B2/listening/LI404/part.json,audio,li404_joining_a_gym.mp3,False,383,21,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI404,question_bank/assessment/B2/listening/LI404/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI405,question_bank/assessment/B2/listening/LI405/part.json,audio,li405_planning_a_company_away_day.mp3,False,378,23,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI405,question_bank/assessment/B2/listening/LI405/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI406,question_bank/assessment/B2/listening/LI406/part.json,audio,li406_do_libraries_have_a_future.mp3,False,432,7,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI406,question_bank/assessment/B2/listening/LI406/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI407,question_bank/assessment/B2/listening/LI407/part.json,audio,li407_seminar_on_bird_migration.mp3,False,393,21,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI407,question_bank/assessment/B2/listening/LI407/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI408,question_bank/assessment/B2/listening/LI408/part.json,audio,li408_the_economics_of_tourism.mp3,False,434,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI408,question_bank/assessment/B2/listening/LI408/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI409,question_bank/assessment/B2/listening/LI409/part.json,audio,li409_arranging_a_museum_visit.mp3,False,377,19,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI409,question_bank/assessment/B2/listening/LI409/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI410,question_bank/assessment/B2/listening/LI410/part.json,audio,li410_group_project_renewable_energy.mp3,False,401,22,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI410,question_bank/assessment/B2/listening/LI410/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+RE401,question_bank/assessment/B2/reading/RE401/part.json,passage_inline,passage.paragraphs,True,378,5,ok,inline text,
+RE402,question_bank/assessment/B2/reading/RE402/part.json,passage_inline,passage.paragraphs,True,359,5,ok,inline text,
+RE403,question_bank/assessment/B2/reading/RE403/part.json,passage_inline,passage.paragraphs,True,376,5,ok,inline text,
+RE404,question_bank/assessment/B2/reading/RE404/part.json,passage_inline,passage.paragraphs,True,339,5,ok,inline text,
+RE405,question_bank/assessment/B2/reading/RE405/part.json,passage_inline,passage.paragraphs,True,341,5,ok,inline text,
+RE406,question_bank/assessment/B2/reading/RE406/part.json,passage_inline,passage.paragraphs,True,398,5,ok,inline text,
+RE407,question_bank/assessment/B2/reading/RE407/part.json,passage_inline,passage.paragraphs,True,335,5,ok,inline text,
+RE408,question_bank/assessment/B2/reading/RE408/part.json,passage_inline,passage.paragraphs,True,368,5,ok,inline text,
+RE409,question_bank/assessment/B2/reading/RE409/part.json,passage_inline,passage.paragraphs,True,346,5,ok,inline text,
+RE410,question_bank/assessment/B2/reading/RE410/part.json,passage_inline,passage.paragraphs,True,353,5,ok,inline text,
+LI501,question_bank/assessment/C1/listening/LI501/part.json,audio,li501_life_in_the_deep_ocean.mp3,False,497,17,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI501,question_bank/assessment/C1/listening/LI501/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI502,question_bank/assessment/C1/listening/LI502/part.json,audio,li502_the_placebo_effect.mp3,False,460,7,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI502,question_bank/assessment/C1/listening/LI502/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI503,question_bank/assessment/C1/listening/LI503/part.json,audio,li503_a_research_methods_tutorial.mp3,False,407,19,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI503,question_bank/assessment/C1/listening/LI503/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI504,question_bank/assessment/C1/listening/LI504/part.json,audio,li504_behavioural_economics_and_nudging.mp3,False,434,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI504,question_bank/assessment/C1/listening/LI504/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI505,question_bank/assessment/C1/listening/LI505/part.json,audio,li505_festival_safety_briefing.mp3,False,394,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI505,question_bank/assessment/C1/listening/LI505/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI506,question_bank/assessment/C1/listening/LI506/part.json,audio,li506_seminar_self_driving_cars.mp3,False,402,20,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI506,question_bank/assessment/C1/listening/LI506/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI507,question_bank/assessment/C1/listening/LI507/part.json,audio,li507_the_linguistics_of_slang.mp3,False,418,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI507,question_bank/assessment/C1/listening/LI507/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI508,question_bank/assessment/C1/listening/LI508/part.json,audio,li508_wildlife_in_the_city.mp3,False,421,7,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI508,question_bank/assessment/C1/listening/LI508/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI509,question_bank/assessment/C1/listening/LI509/part.json,audio,li509_negotiating_a_freelance_contract.mp3,False,442,19,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI509,question_bank/assessment/C1/listening/LI509/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI510,question_bank/assessment/C1/listening/LI510/part.json,audio,li510_seminar_archaeology_and_ethics.mp3,False,501,18,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI510,question_bank/assessment/C1/listening/LI510/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+RE501,question_bank/assessment/C1/reading/RE501/part.json,passage_inline,passage.paragraphs,True,437,5,ok,inline text,
+RE502,question_bank/assessment/C1/reading/RE502/part.json,passage_inline,passage.paragraphs,True,345,5,ok,inline text,
+RE503,question_bank/assessment/C1/reading/RE503/part.json,passage_inline,passage.paragraphs,True,396,5,ok,inline text,
+RE504,question_bank/assessment/C1/reading/RE504/part.json,passage_inline,passage.paragraphs,True,381,5,ok,inline text,
+RE505,question_bank/assessment/C1/reading/RE505/part.json,passage_inline,passage.paragraphs,True,383,5,ok,inline text,
+RE506,question_bank/assessment/C1/reading/RE506/part.json,passage_inline,passage.paragraphs,True,382,5,ok,inline text,
+RE507,question_bank/assessment/C1/reading/RE507/part.json,passage_inline,passage.paragraphs,True,378,5,ok,inline text,
+RE508,question_bank/assessment/C1/reading/RE508/part.json,passage_inline,passage.paragraphs,True,388,5,ok,inline text,
+RE509,question_bank/assessment/C1/reading/RE509/part.json,passage_inline,passage.paragraphs,True,403,5,ok,inline text,
+RE510,question_bank/assessment/C1/reading/RE510/part.json,passage_inline,passage.paragraphs,True,408,5,ok,inline text,
+LI601,question_bank/assessment/C2/listening/LI601/part.json,audio,li601_free_will_and_neuroscience.mp3,False,611,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI601,question_bank/assessment/C2/listening/LI601/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI602,question_bank/assessment/C2/listening/LI602/part.json,audio,li602_seminar_can_poetry_be_translated.mp3,False,477,17,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI602,question_bank/assessment/C2/listening/LI602/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI603,question_bank/assessment/C2/listening/LI603/part.json,audio,li603_panel_heritage_and_tourism.mp3,False,482,16,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI603,question_bank/assessment/C2/listening/LI603/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI604,question_bank/assessment/C2/listening/LI604/part.json,audio,li604_the_evolution_of_cooperation.mp3,False,512,7,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI604,question_bank/assessment/C2/listening/LI604/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI605,question_bank/assessment/C2/listening/LI605/part.json,audio,li605_a_novelist_on_writing.mp3,False,474,15,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI605,question_bank/assessment/C2/listening/LI605/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI606,question_bank/assessment/C2/listening/LI606/part.json,audio,li606_tutorial_critiquing_a_statistical_claim.mp3,False,431,19,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI606,question_bank/assessment/C2/listening/LI606/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI607,question_bank/assessment/C2/listening/LI607/part.json,audio,li607_urban_planning_and_social_justice.mp3,False,480,7,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI607,question_bank/assessment/C2/listening/LI607/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI608,question_bank/assessment/C2/listening/LI608/part.json,audio,li608_seminar_the_ethics_of_gene_editing.mp3,False,477,18,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI608,question_bank/assessment/C2/listening/LI608/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI609,question_bank/assessment/C2/listening/LI609/part.json,audio,li609_the_printing_press_reconsidered.mp3,False,451,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI609,question_bank/assessment/C2/listening/LI609/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI610,question_bank/assessment/C2/listening/LI610/part.json,audio,li610_advice_on_a_phd_proposal.mp3,False,445,17,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI610,question_bank/assessment/C2/listening/LI610/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+RE601,question_bank/assessment/C2/reading/RE601/part.json,passage_inline,passage.paragraphs,True,454,5,ok,inline text,
+RE602,question_bank/assessment/C2/reading/RE602/part.json,passage_inline,passage.paragraphs,True,405,5,ok,inline text,
+RE603,question_bank/assessment/C2/reading/RE603/part.json,passage_inline,passage.paragraphs,True,411,5,ok,inline text,
+RE604,question_bank/assessment/C2/reading/RE604/part.json,passage_inline,passage.paragraphs,True,418,5,ok,inline text,
+RE605,question_bank/assessment/C2/reading/RE605/part.json,passage_inline,passage.paragraphs,True,386,5,ok,inline text,
+RE606,question_bank/assessment/C2/reading/RE606/part.json,passage_inline,passage.paragraphs,True,392,5,ok,inline text,
+RE607,question_bank/assessment/C2/reading/RE607/part.json,passage_inline,passage.paragraphs,True,389,5,ok,inline text,
+RE608,question_bank/assessment/C2/reading/RE608/part.json,passage_inline,passage.paragraphs,True,385,5,ok,inline text,
+RE609,question_bank/assessment/C2/reading/RE609/part.json,passage_inline,passage.paragraphs,True,381,5,ok,inline text,
+RE610,question_bank/assessment/C2/reading/RE610/part.json,passage_inline,passage.paragraphs,True,500,5,ok,inline text,
+LI001,question_bank/listening/LI001/part.json,audio,li001_asking_about_a_flat_to_rent.mp3,False,364,21,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI001,question_bank/listening/LI001/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI002,question_bank/listening/LI002/part.json,audio,li002_choosing_a_technology_project_topic.mp3,False,432,18,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI002,question_bank/listening/LI002/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI003,question_bank/listening/LI003/part.json,audio,li003_why_cities_are_hotter_than_the_countryside.mp3,False,538,10,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI003,question_bank/listening/LI003/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI004,question_bank/listening/LI004/part.json,audio,li004_why_we_forget_and_what_helps.mp3,False,607,9,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI004,question_bank/listening/LI004/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI005,question_bank/listening/LI005/part.json,audio,li005_welcome_to_the_sports_centre.mp3,False,348,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI005,question_bank/listening/LI005/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI006,question_bank/listening/LI006/part.json,audio,li006_planning_a_weekend_trip.mp3,False,310,21,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI006,question_bank/listening/LI006/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI007,question_bank/listening/LI007/part.json,audio,li007_opening_a_bank_account.mp3,False,438,21,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI007,question_bank/listening/LI007/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI008,question_bank/listening/LI008/part.json,audio,li008_group_work_on_a_business_plan.mp3,False,405,19,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI008,question_bank/listening/LI008/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI009,question_bank/listening/LI009/part.json,audio,li009_community_voices_volunteering_in_ashbury.mp3,False,410,6,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI009,question_bank/listening/LI009/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+LI010,question_bank/listening/LI010/part.json,audio,li010_why_do_we_sleep.mp3,False,508,7,info,audio not generated yet (TTS step pending),generate audio with scripts/export_tts_scenario.py and verify by ASR/human
+LI010,question_bank/listening/LI010/part.json,tts_config,tts-config.json,False,,,info,optional until TTS,
+RE001,question_bank/reading/RE001/part.json,passage_inline,passage.paragraphs,True,367,5,ok,inline text,
+RE002,question_bank/reading/RE002/part.json,passage_inline,passage.paragraphs,True,493,6,ok,inline text,
+RE003,question_bank/reading/RE003/part.json,passage_inline,passage.paragraphs,True,611,6,ok,inline text,
+RE004,question_bank/reading/RE004/part.json,passage_inline,passage.paragraphs,True,628,6,ok,inline text,
+RE005,question_bank/reading/RE005/part.json,passage_inline,passage.paragraphs,True,318,5,ok,inline text,
+RE006,question_bank/reading/RE006/part.json,passage_inline,passage.paragraphs,True,335,5,ok,inline text,
+RE007,question_bank/reading/RE007/part.json,passage_inline,passage.paragraphs,True,457,6,ok,inline text,
+RE008,question_bank/reading/RE008/part.json,passage_inline,passage.paragraphs,True,452,6,ok,inline text,
+RE009,question_bank/reading/RE009/part.json,passage_inline,passage.paragraphs,True,478,6,ok,inline text,
+RE010,question_bank/reading/RE010/part.json,passage_inline,passage.paragraphs,True,603,6,ok,inline text,

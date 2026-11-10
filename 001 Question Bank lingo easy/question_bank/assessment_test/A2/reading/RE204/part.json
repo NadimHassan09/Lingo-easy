@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE204",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Working from Home: Two Views",
+  "topic": "work_and_careers",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "Working from Home: Two Views",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "More and more people now work from home. Some love it, and others do not. Here are the opinions of two workers, Jack and Priya."
+      },
+      {
+        "label": "B",
+        "text": "Jack says: 'I work from home three days a week, and I love it. I save two hours every day because I don't travel to the office. I also save money on petrol and lunch. At home, it is quiet, so I can concentrate better. I can also take a short break to walk my dog. My boss trusts me, and I finish all my work.'"
+      },
+      {
+        "label": "C",
+        "text": "Priya says: 'I tried working from home last year, but I did not enjoy it. I live in a small flat with two other people, so it is noisy. I miss my colleagues, too. In the office, we have coffee together and talk about our weekends. At home, I felt lonely. Now I work in the office four days a week and at home on Fridays. That is perfect for me.'"
+      },
+      {
+        "label": "D",
+        "text": "Experts say that both ways of working have good and bad points. Working from home can save time and money, but some people feel alone. A mixed system, with some days at home and some days at the office, is becoming popular in many companies. Whatever you choose, it is important to have a quiet place to work and to talk to your colleagues regularly."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE204-Q01",
+          "number": 1,
+          "prompt": "How many days a week does Jack work from home?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three"
+            },
+            {
+              "id": "B",
+              "text": "Two"
+            },
+            {
+              "id": "C",
+              "text": "Five"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "I work from home three days a week"
+          },
+          "explanation": "The text says: \"I work from home three days a week\".",
+          "uuid": "6fc7948d-c321-5876-9280-855629878589"
+        },
+        {
+          "id": "RE204-Q02",
+          "number": 2,
+          "prompt": "What does Jack save by working at home?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only time"
+            },
+            {
+              "id": "B",
+              "text": "Only money"
+            },
+            {
+              "id": "C",
+              "text": "Time and money"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "I also save money on petrol and lunch"
+          },
+          "explanation": "The text says: \"I also save money on petrol and lunch\".",
+          "uuid": "c1c6ecee-ea93-5cec-bc6a-7963174ba55d"
+        },
+        {
+          "id": "RE204-Q03",
+          "number": 3,
+          "prompt": "Why can Jack concentrate better at home?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is quiet"
+            },
+            {
+              "id": "B",
+              "text": "It is warm"
+            },
+            {
+              "id": "C",
+              "text": "He has a bigger desk"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "At home, it is quiet"
+          },
+          "explanation": "The text says: \"At home, it is quiet\".",
+          "uuid": "e87143a3-7d2c-5408-89f8-7408e8ad2f71"
+        },
+        {
+          "id": "RE204-Q04",
+          "number": 4,
+          "prompt": "Why did Priya not enjoy working from home?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Her boss was unkind"
+            },
+            {
+              "id": "B",
+              "text": "Her flat was noisy"
+            },
+            {
+              "id": "C",
+              "text": "Her internet was slow"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "so it is noisy"
+          },
+          "explanation": "The text says: \"so it is noisy\".",
+          "uuid": "cf075b8c-d4c2-5100-914a-40c5eb7c1120"
+        },
+        {
+          "id": "RE204-Q05",
+          "number": 5,
+          "prompt": "How often does Priya work at home now?",
+          "options": [
+            {
+              "id": "A",
+              "text": "One day a week"
+            },
+            {
+              "id": "B",
+              "text": "Four days a week"
+            },
+            {
+              "id": "C",
+              "text": "Never"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "at home on Fridays"
+          },
+          "explanation": "The text says: \"at home on Fridays\".",
+          "uuid": "1847882e-c597-5a9b-9516-c89c7cd323d8"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE204-Q06",
+          "number": 6,
+          "prompt": "Jack's boss does not trust him.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "My boss trusts me"
+          },
+          "explanation": "The text says: \"My boss trusts me\".",
+          "uuid": "f4f55e64-4ac3-510d-9c44-9b7fe8b86289"
+        },
+        {
+          "id": "RE204-Q07",
+          "number": 7,
+          "prompt": "Priya missed her colleagues.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "I miss my colleagues"
+          },
+          "explanation": "The text says: \"I miss my colleagues\".",
+          "uuid": "27d194e6-3b3c-58a9-817a-380fa7a54f13"
+        },
+        {
+          "id": "RE204-Q08",
+          "number": 8,
+          "prompt": "Priya works in the office on Fridays.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "at home on Fridays"
+          },
+          "explanation": "The text says: \"at home on Fridays\".",
+          "uuid": "4b60a6e8-752d-594c-8f1b-72063c52114b"
+        },
+        {
+          "id": "RE204-Q09",
+          "number": 9,
+          "prompt": "Mixed working is becoming popular in many companies.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "becoming popular in many companies"
+          },
+          "explanation": "The text says: \"becoming popular in many companies\".",
+          "uuid": "f4d1c266-8be2-5ce6-a5ea-b8d8f1114be0"
+        },
+        {
+          "id": "RE204-Q10",
+          "number": 10,
+          "prompt": "Jack's company will close its office next year.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "8f4d99b6-61ed-54d3-9c16-5fe84a16fb91"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE204-Q11",
+          "number": 11,
+          "prompt": "Jack takes a short break to walk his _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "cat"
+            },
+            {
+              "id": "B",
+              "text": "dog"
+            },
+            {
+              "id": "C",
+              "text": "sister"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "walk my dog"
+          },
+          "explanation": "The text says: \"walk my dog\".",
+          "uuid": "db2d15ec-932c-5d08-834f-0f677e2cbcab"
+        },
+        {
+          "id": "RE204-Q12",
+          "number": 12,
+          "prompt": "Priya felt _____ at home.",
+          "options": [
+            {
+              "id": "A",
+              "text": "angry"
+            },
+            {
+              "id": "B",
+              "text": "lonely"
+            },
+            {
+              "id": "C",
+              "text": "bored"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "At home, I felt lonely"
+          },
+          "explanation": "The text says: \"At home, I felt lonely\".",
+          "uuid": "6e09da31-6cd9-5272-9aa8-4a61847ff828"
+        },
+        {
+          "id": "RE204-Q13",
+          "number": 13,
+          "prompt": "It is important to have a quiet _____ to work.",
+          "options": [
+            {
+              "id": "A",
+              "text": "place"
+            },
+            {
+              "id": "B",
+              "text": "time"
+            },
+            {
+              "id": "C",
+              "text": "phone"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "a quiet place to work"
+          },
+          "explanation": "The text says: \"a quiet place to work\".",
+          "uuid": "4b7ad77a-21d8-59b4-bf5d-1d82f8ade286"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "67b09cac-cb23-4e5f-a355-6a11722d4b9e",
+  "derived": {
+    "word_count": 227,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 6,
+      "B": 5,
+      "C": 2
+    },
+    "content_hash": "73333237e9e93455"
+  }
+}

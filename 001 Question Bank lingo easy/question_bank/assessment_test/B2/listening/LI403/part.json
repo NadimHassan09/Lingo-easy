@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI403",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "Urban Gardening",
+  "topic": "farming_and_agriculture",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li403_urban_gardening.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Professor Hayes",
+        "gender": "male",
+        "accent": "american",
+        "role": "agricultural science lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Today I want to explore urban gardening, which has grown rapidly in cities around the world. When we think of farming, we usually imagine fields and tractors, but a significant amount of food is now produced on rooftops, balconies and empty plots in city centres."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let me start with some context. By 2050, around two-thirds of the world's population is expected to live in cities. That raises an obvious question: how will we feed them? Traditional agriculture requires large areas of land, and transporting food from the countryside to cities uses a great deal of energy. Urban gardening won't solve the whole problem, but it can contribute in several ways."
+      },
+      {
+        "speaker": "S1",
+        "text": "The first benefit is freshness. Vegetables grown a few metres from where they're eaten can be picked at the right moment, rather than weeks before. This improves flavour and nutrition. The second is environmental. Plants absorb carbon dioxide and cool the surrounding air, which helps reduce the heat island effect that we discussed last week. Some studies found that green roofs can lower the temperature of a building by up to five degrees in summer."
+      },
+      {
+        "speaker": "S1",
+        "text": "The third benefit is social. Community gardens bring neighbours together. In a study of one hundred and forty gardens in the United States, researchers found that people who took part reported feeling less isolated, and many said they'd made new friends. Interestingly, the biggest effect was not among young people, as you might expect, but among those over sixty."
+      },
+      {
+        "speaker": "S1",
+        "text": "However, there are challenges. The first is space. Land in cities is expensive, so gardens often depend on temporary agreements with landowners. A garden might exist for three years and then be replaced by a car park. The second challenge is soil. In industrial areas, the ground can contain heavy metals from past factories, so growers often use raised beds with imported soil. The third challenge is knowledge. Many new gardeners give up in the first season because they plant too much, too early. Local organisations that offer training are therefore extremely valuable."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let me finish with an example. In Havana, in Cuba, urban farming expanded dramatically in the 1990s after the country lost its main source of imported food. Within ten years, city gardens were producing over half of the fresh vegetables eaten in the capital. It shows what's possible when there's a strong need and government support, although the Cuban case was unusual. For next week, read chapter seven of your textbook, and think about whether urban gardens should receive public money. We'll discuss it in the seminar."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI403-Q01",
+          "number": 1,
+          "prompt": "What does the lecturer say about food production in cities?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A significant amount is grown in unexpected places"
+            },
+            {
+              "id": "B",
+              "text": "Only a small share comes from gardens"
+            },
+            {
+              "id": "C",
+              "text": "It is limited to a few large urban farms"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "gist",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "produced on rooftops, balconies and empty plots"
+          },
+          "explanation": "The audio says: \"produced on rooftops, balconies and empty plots\".",
+          "uuid": "03e20125-ea72-5e38-8342-eb8e957c5777"
+        },
+        {
+          "id": "LI403-Q02",
+          "number": 2,
+          "prompt": "Why does the lecturer mention the 2050 prediction?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Farms will disappear by then"
+            },
+            {
+              "id": "B",
+              "text": "Cities will be cooler by then"
+            },
+            {
+              "id": "C",
+              "text": "More city dwellers will need feeding"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "two-thirds of the world's population is expected to live in cities"
+          },
+          "explanation": "The audio says: \"two-thirds of the world's population is expected to live in cities\".",
+          "uuid": "4339890e-1130-51b7-9610-23b8a8dab837"
+        },
+        {
+          "id": "LI403-Q03",
+          "number": 3,
+          "prompt": "What is the first benefit of urban gardening?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Freshness"
+            },
+            {
+              "id": "B",
+              "text": "Lower prices"
+            },
+            {
+              "id": "C",
+              "text": "Larger harvests"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The first benefit is freshness"
+          },
+          "explanation": "The audio says: \"The first benefit is freshness\".",
+          "uuid": "b90db247-dd7d-5ea8-b280-d6ff0cc350c7"
+        },
+        {
+          "id": "LI403-Q04",
+          "number": 4,
+          "prompt": "How much can a green roof reduce a building's temperature in summer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By up to five degrees"
+            },
+            {
+              "id": "B",
+              "text": "By up to fifteen degrees"
+            },
+            {
+              "id": "C",
+              "text": "By about one degree"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "up to five degrees in summer"
+          },
+          "explanation": "The audio says: \"up to five degrees in summer\".",
+          "uuid": "2aca66c8-0846-5a17-9b0a-94c1479a1d22"
+        },
+        {
+          "id": "LI403-Q05",
+          "number": 5,
+          "prompt": "What did the American study find about gardeners?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They ate more vegetables"
+            },
+            {
+              "id": "B",
+              "text": "They moved house less often"
+            },
+            {
+              "id": "C",
+              "text": "They felt less isolated"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "reported feeling less isolated"
+          },
+          "explanation": "The audio says: \"reported feeling less isolated\".",
+          "uuid": "8adffa46-198f-57a6-a3a1-5fc3a890d733"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI403-Q06",
+          "number": 6,
+          "prompt": "Which group benefited most?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Young people"
+            },
+            {
+              "id": "B",
+              "text": "Families with children"
+            },
+            {
+              "id": "C",
+              "text": "People over sixty"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "among those over sixty"
+          },
+          "explanation": "The audio says: \"among those over sixty\".",
+          "uuid": "ee0cec8d-c217-55eb-a46b-3c7cc1acab34"
+        },
+        {
+          "id": "LI403-Q07",
+          "number": 7,
+          "prompt": "Why do urban gardens often have a short life?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The soil quickly becomes poor after a few seasons"
+            },
+            {
+              "id": "B",
+              "text": "They depend on temporary agreements with landowners"
+            },
+            {
+              "id": "C",
+              "text": "Gardeners lose interest after the first harvest"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "temporary agreements with landowners"
+          },
+          "explanation": "The audio says: \"temporary agreements with landowners\".",
+          "uuid": "9bb55c55-1056-52e9-b309-fed25bde77ff"
+        },
+        {
+          "id": "LI403-Q08",
+          "number": 8,
+          "prompt": "Why do growers use raised beds with imported soil?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The ground is too hard to dig by hand"
+            },
+            {
+              "id": "B",
+              "text": "Imported soil is cheaper than local digging"
+            },
+            {
+              "id": "C",
+              "text": "The ground may contain heavy metals"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "heavy metals from past factories"
+          },
+          "explanation": "The audio says: \"heavy metals from past factories\".",
+          "uuid": "fdabba8f-d5e5-556d-b88a-a7c523a10759"
+        },
+        {
+          "id": "LI403-Q09",
+          "number": 9,
+          "prompt": "Why do many new gardeners give up?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They cannot find enough time to water"
+            },
+            {
+              "id": "B",
+              "text": "They plant too much too early"
+            },
+            {
+              "id": "C",
+              "text": "They cannot find affordable seeds locally"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "plant too much, too early"
+          },
+          "explanation": "The audio says: \"plant too much, too early\".",
+          "uuid": "8f50acb6-4958-51f7-b25d-4e3dc5173aa0"
+        },
+        {
+          "id": "LI403-Q10",
+          "number": 10,
+          "prompt": "What point does the lecturer make about Havana?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Its success can easily be copied elsewhere"
+            },
+            {
+              "id": "B",
+              "text": "Its gardens failed within the first decade"
+            },
+            {
+              "id": "C",
+              "text": "Its success depended on unusual circumstances"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "although the Cuban case was unusual"
+          },
+          "explanation": "The audio says: \"although the Cuban case was unusual\".",
+          "uuid": "29525436-4a71-5bac-b5b3-133469e82f6d"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "9ab21ab4-c021-494b-aedc-c077fc7135a0",
+  "derived": {
+    "word_count": 425,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 3,
+      "B": 2,
+      "C": 5
+    },
+    "content_hash": "bcb84acf9c5f64a8"
+  }
+}

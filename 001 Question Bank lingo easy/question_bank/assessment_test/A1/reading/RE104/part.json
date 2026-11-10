@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE104",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Green Street",
+  "topic": "shopping_and_money",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "Green Street",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Green Street is a short street in the middle of our town. There are three shops on the street: a bakery, a flower shop and a bookshop. They are all small, and the owners know their customers."
+      },
+      {
+        "label": "B",
+        "text": "Dan's Bakery is on the left. It opens at six o'clock in the morning and closes at two o'clock in the afternoon. Dan sells bread, cakes and sandwiches. His chocolate cake is very popular. A small cake costs three pounds."
+      },
+      {
+        "label": "C",
+        "text": "The flower shop is in the middle. It is called Rose and Lily. It is open from nine to five, Monday to Saturday. It is closed on Sundays. You can buy red roses, yellow tulips and white lilies. A bunch of flowers costs ten pounds."
+      },
+      {
+        "label": "D",
+        "text": "The bookshop is on the right. It sells books, magazines and pens. There is a small café in the back with two tables. Customers can drink tea or coffee and read a book. The owner, Mrs Patel, is very kind. She has a black cat called Pepper, and the cat sleeps in the window."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE104-Q01",
+          "number": 1,
+          "prompt": "Where is Green Street?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Next to the railway station"
+            },
+            {
+              "id": "B",
+              "text": "In the middle of the town"
+            },
+            {
+              "id": "C",
+              "text": "At the edge of the town"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "in the middle of our town"
+          },
+          "explanation": "The text says: \"in the middle of our town\".",
+          "uuid": "ec0c28ab-d805-5e7d-8f82-de165dd6570b"
+        },
+        {
+          "id": "RE104-Q02",
+          "number": 2,
+          "prompt": "How many shops are on the street?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three"
+            },
+            {
+              "id": "B",
+              "text": "Two"
+            },
+            {
+              "id": "C",
+              "text": "Five"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "three shops on the street"
+          },
+          "explanation": "The text says: \"three shops on the street\".",
+          "uuid": "6df2cc1b-1098-57f6-8d89-711617345e74"
+        },
+        {
+          "id": "RE104-Q03",
+          "number": 3,
+          "prompt": "What time does the bakery open?",
+          "options": [
+            {
+              "id": "A",
+              "text": "6.00 in the morning"
+            },
+            {
+              "id": "B",
+              "text": "2.00 in the afternoon"
+            },
+            {
+              "id": "C",
+              "text": "9.00 in the morning"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "opens at six o'clock in the morning"
+          },
+          "explanation": "The text says: \"opens at six o'clock in the morning\".",
+          "uuid": "45b011cd-cbed-5513-864f-f510047c4167"
+        },
+        {
+          "id": "RE104-Q04",
+          "number": 4,
+          "prompt": "What does Dan sell?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bread, cakes and sandwiches"
+            },
+            {
+              "id": "B",
+              "text": "Flowers, books and pens"
+            },
+            {
+              "id": "C",
+              "text": "Fish, meat and vegetables"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "sells bread, cakes and sandwiches"
+          },
+          "explanation": "The text says: \"sells bread, cakes and sandwiches\".",
+          "uuid": "eac7a8b0-a556-509c-a68a-af9d8d9d6b50"
+        },
+        {
+          "id": "RE104-Q05",
+          "number": 5,
+          "prompt": "How much is a small cake?",
+          "options": [
+            {
+              "id": "A",
+              "text": "10 pounds"
+            },
+            {
+              "id": "B",
+              "text": "13 pounds"
+            },
+            {
+              "id": "C",
+              "text": "3 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "small cake costs three pounds"
+          },
+          "explanation": "The text says: \"small cake costs three pounds\".",
+          "uuid": "9c3a1a64-711b-52b8-a0cb-978bad3679a7"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE104-Q06",
+          "number": 6,
+          "prompt": "The flower shop is on the left.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "The flower shop is in the middle"
+          },
+          "explanation": "The text says: \"The flower shop is in the middle\".",
+          "uuid": "3020c9ef-ed07-5535-85b2-d104a3c098eb"
+        },
+        {
+          "id": "RE104-Q07",
+          "number": 7,
+          "prompt": "The flower shop is open on Sundays.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "It is closed on Sundays"
+          },
+          "explanation": "The text says: \"It is closed on Sundays\".",
+          "uuid": "a975940a-c3f2-5942-b4e6-b8e5a5c26bc1"
+        },
+        {
+          "id": "RE104-Q08",
+          "number": 8,
+          "prompt": "The flower shop sells white lilies.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "yellow tulips and white lilies"
+          },
+          "explanation": "The text says: \"yellow tulips and white lilies\".",
+          "uuid": "afa7d7c5-c344-51e8-93f2-9be51d38c9ce"
+        },
+        {
+          "id": "RE104-Q09",
+          "number": 9,
+          "prompt": "Mrs Patel has a dog.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "She has a black cat"
+          },
+          "explanation": "The text says: \"She has a black cat\".",
+          "uuid": "22601fbf-6bcc-5264-956f-d82a913420b0"
+        },
+        {
+          "id": "RE104-Q10",
+          "number": 10,
+          "prompt": "The bookshop sells newspapers.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "171fe9b6-16c6-5bc8-8b7d-f958b1a17e62"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE104-Q11",
+          "number": 11,
+          "prompt": "A bunch of flowers costs _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "five pounds"
+            },
+            {
+              "id": "B",
+              "text": "ten pounds"
+            },
+            {
+              "id": "C",
+              "text": "fifteen pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "bunch of flowers costs ten pounds"
+          },
+          "explanation": "The text says: \"bunch of flowers costs ten pounds\".",
+          "uuid": "2c3a13dc-56e1-5e46-bba7-01bd8e820ef8"
+        },
+        {
+          "id": "RE104-Q12",
+          "number": 12,
+          "prompt": "In the bookshop café, customers can drink _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "tea or coffee"
+            },
+            {
+              "id": "B",
+              "text": "milk or juice"
+            },
+            {
+              "id": "C",
+              "text": "water"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "drink tea or coffee"
+          },
+          "explanation": "The text says: \"drink tea or coffee\".",
+          "uuid": "b6b9753e-dc70-5979-ae3e-ee24351313dc"
+        },
+        {
+          "id": "RE104-Q13",
+          "number": 13,
+          "prompt": "The cat sleeps in the _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "garden"
+            },
+            {
+              "id": "B",
+              "text": "window"
+            },
+            {
+              "id": "C",
+              "text": "kitchen"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "cat sleeps in the window"
+          },
+          "explanation": "The text says: \"cat sleeps in the window\".",
+          "uuid": "c5b64079-f2ea-5395-9135-15af4654587a"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "4fc6a192-dd34-419e-a830-ce44c148ec5e",
+  "derived": {
+    "word_count": 176,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 5,
+      "B": 6,
+      "C": 2
+    },
+    "content_hash": "732880bdc670b852"
+  }
+}

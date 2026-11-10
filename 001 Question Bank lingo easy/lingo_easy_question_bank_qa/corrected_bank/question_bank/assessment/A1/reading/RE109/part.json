@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE109",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "A Good Breakfast",
+  "topic": "health",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "A Good Breakfast",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Many people say that breakfast is the most important meal of the day. A good breakfast gives you energy for the morning. It also helps you to think and learn."
+      },
+      {
+        "label": "B",
+        "text": "A healthy breakfast has some fruit, some bread or cereal and something to drink. For example, you can have a banana, a slice of brown bread with an egg, and a glass of milk. Try not to eat too much sugar. A chocolate bar is not a good breakfast."
+      },
+      {
+        "label": "C",
+        "text": "Some people say, 'I am not hungry in the morning.' This is normal, but you can start with something small. A yoghurt or a piece of fruit is enough. Drink a glass of water when you wake up, too."
+      },
+      {
+        "label": "D",
+        "text": "Students who eat breakfast usually do better at school. They are less tired and they listen more carefully in class. Adults who eat breakfast often feel happier at work. So try to eat breakfast every day, even on busy mornings!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE109-Q01",
+          "number": 1,
+          "prompt": "What does a good breakfast give you?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Energy"
+            },
+            {
+              "id": "B",
+              "text": "Money"
+            },
+            {
+              "id": "C",
+              "text": "Sleep"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "gives you energy for the morning"
+          },
+          "explanation": "The text says: \"gives you energy for the morning\".",
+          "uuid": "f9136b40-4ce3-59b7-b7af-066eb7cdd607"
+        },
+        {
+          "id": "RE109-Q02",
+          "number": 2,
+          "prompt": "What does breakfast help you to do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Run and play sport"
+            },
+            {
+              "id": "B",
+              "text": "Sleep and rest more"
+            },
+            {
+              "id": "C",
+              "text": "Think and learn"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "helps you to think and learn"
+          },
+          "explanation": "The text says: \"helps you to think and learn\".",
+          "uuid": "b4fb559c-815c-50d9-a6ef-47004f916147"
+        },
+        {
+          "id": "RE109-Q03",
+          "number": 3,
+          "prompt": "What is part of a healthy breakfast?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Some chips"
+            },
+            {
+              "id": "B",
+              "text": "Some fruit"
+            },
+            {
+              "id": "C",
+              "text": "Some sweets"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "has some fruit"
+          },
+          "explanation": "The text says: \"has some fruit\".",
+          "uuid": "88744998-4e73-5016-8b84-d89d76df98a6"
+        },
+        {
+          "id": "RE109-Q04",
+          "number": 4,
+          "prompt": "Which drink is in the example breakfast?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Milk"
+            },
+            {
+              "id": "B",
+              "text": "Coffee"
+            },
+            {
+              "id": "C",
+              "text": "Cola"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "a glass of milk"
+          },
+          "explanation": "The text says: \"a glass of milk\".",
+          "uuid": "3acb113b-d08f-5a81-800d-85c6661b488b"
+        },
+        {
+          "id": "RE109-Q05",
+          "number": 5,
+          "prompt": "What should you not eat too much of?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fruit"
+            },
+            {
+              "id": "B",
+              "text": "Bread"
+            },
+            {
+              "id": "C",
+              "text": "Sugar"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "not to eat too much sugar"
+          },
+          "explanation": "The text says: \"not to eat too much sugar\".",
+          "uuid": "a87525fb-1621-57e4-9d16-c178e63ae2ae"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE109-Q06",
+          "number": 6,
+          "prompt": "A chocolate bar is a good breakfast.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "A chocolate bar is not a good breakfast"
+          },
+          "explanation": "The text says: \"A chocolate bar is not a good breakfast\".",
+          "uuid": "d11b5791-a59e-58f5-b916-c72564ed4b36"
+        },
+        {
+          "id": "RE109-Q07",
+          "number": 7,
+          "prompt": "If you are not hungry, you can start with something small.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "start with something small"
+          },
+          "explanation": "The text says: \"start with something small\".",
+          "uuid": "4939127c-ec61-55ea-aefc-fab1ebc20adf"
+        },
+        {
+          "id": "RE109-Q08",
+          "number": 8,
+          "prompt": "A yoghurt is enough for breakfast.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "A yoghurt or a piece of fruit is enough"
+          },
+          "explanation": "The text says: \"A yoghurt or a piece of fruit is enough\".",
+          "uuid": "e23ab675-85ca-5b14-b7dd-e9cdc0d43c28"
+        },
+        {
+          "id": "RE109-Q09",
+          "number": 9,
+          "prompt": "Students who eat breakfast usually do better at school.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "usually do better at school"
+          },
+          "explanation": "The text says: \"usually do better at school\".",
+          "uuid": "84834e31-445c-57ac-bd79-dcdd76c28f6c"
+        },
+        {
+          "id": "RE109-Q10",
+          "number": 10,
+          "prompt": "Eating breakfast makes you taller.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "9047135e-4237-5bee-b72c-ad3dc9711557"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE109-Q11",
+          "number": 11,
+          "prompt": "You can drink a glass of _____ when you wake up.",
+          "options": [
+            {
+              "id": "A",
+              "text": "juice"
+            },
+            {
+              "id": "B",
+              "text": "water"
+            },
+            {
+              "id": "C",
+              "text": "tea"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "glass of water when you wake up"
+          },
+          "explanation": "The text says: \"glass of water when you wake up\".",
+          "uuid": "e7da56f6-7b3c-5f9d-8b6c-95ce0a110723"
+        },
+        {
+          "id": "RE109-Q12",
+          "number": 12,
+          "prompt": "Students who eat breakfast are less _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "happy"
+            },
+            {
+              "id": "B",
+              "text": "hungry"
+            },
+            {
+              "id": "C",
+              "text": "tired"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "They are less tired"
+          },
+          "explanation": "The text says: \"They are less tired\".",
+          "uuid": "d2830827-7835-5640-a57a-b0cf1fffb781"
+        },
+        {
+          "id": "RE109-Q13",
+          "number": 13,
+          "prompt": "Try to eat breakfast every day, even on _____ mornings.",
+          "options": [
+            {
+              "id": "A",
+              "text": "cold"
+            },
+            {
+              "id": "B",
+              "text": "busy"
+            },
+            {
+              "id": "C",
+              "text": "sunny"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "even on busy mornings"
+          },
+          "explanation": "The text says: \"even on busy mornings\".",
+          "uuid": "7fe1af60-0db6-5228-b1cb-d71caae29a6c"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "f19055c1-d66a-4197-940e-7f108d3c97b8",
+  "derived": {
+    "word_count": 158,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "2bd775f2a97d0030"
+  }
+}

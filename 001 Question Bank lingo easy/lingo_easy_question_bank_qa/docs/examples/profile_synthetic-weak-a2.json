@@ -1,0 +1,543 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "synthetic-weak-a2:2026-01-01T00:00:00+00:00",
+  "learner_id": "synthetic-weak-a2",
+  "generated_at": "2026-01-01T00:00:00+00:00",
+  "generator_version": "adaptive/profile.py v1.0",
+  "attempts_included": [
+    "synthetic-weak-a2-a1"
+  ],
+  "synthetic": true,
+  "status": "provisional",
+  "status_reason": {
+    "answered_questions": 79,
+    "attempts": 1,
+    "rule": "insufficient_evidence <6 answered; provisional if <2 attempts or <40 answered; otherwise established (still uncalibrated)"
+  },
+  "observed_performance": {
+    "overall": {
+      "n_answered": 79,
+      "n_correct": 36,
+      "accuracy": 0.456,
+      "wilson_low": 0.35,
+      "wilson_high": 0.565,
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI009-Q01",
+        "synthetic-weak-a2-a1:LI009-Q02",
+        "synthetic-weak-a2-a1:LI009-Q03",
+        "synthetic-weak-a2-a1:LI009-Q04",
+        "synthetic-weak-a2-a1:LI009-Q05",
+        "synthetic-weak-a2-a1:LI009-Q06",
+        "synthetic-weak-a2-a1:LI009-Q07",
+        "synthetic-weak-a2-a1:LI009-Q08",
+        "synthetic-weak-a2-a1:LI009-Q09",
+        "synthetic-weak-a2-a1:LI009-Q10",
+        "synthetic-weak-a2-a1:LI004-Q01",
+        "synthetic-weak-a2-a1:LI004-Q02",
+        "synthetic-weak-a2-a1:LI004-Q03",
+        "synthetic-weak-a2-a1:LI004-Q04",
+        "synthetic-weak-a2-a1:LI004-Q05",
+        "synthetic-weak-a2-a1:LI004-Q06",
+        "synthetic-weak-a2-a1:LI004-Q07",
+        "synthetic-weak-a2-a1:LI004-Q08",
+        "synthetic-weak-a2-a1:LI004-Q09",
+        "synthetic-weak-a2-a1:LI004-Q10",
+        "synthetic-weak-a2-a1:LI006-Q01",
+        "synthetic-weak-a2-a1:LI006-Q02",
+        "synthetic-weak-a2-a1:LI006-Q03",
+        "synthetic-weak-a2-a1:LI006-Q04",
+        "synthetic-weak-a2-a1:LI006-Q05",
+        "synthetic-weak-a2-a1:LI006-Q06",
+        "synthetic-weak-a2-a1:LI006-Q07",
+        "synthetic-weak-a2-a1:LI006-Q08",
+        "synthetic-weak-a2-a1:LI006-Q09",
+        "synthetic-weak-a2-a1:LI006-Q10",
+        "synthetic-weak-a2-a1:LI008-Q01",
+        "synthetic-weak-a2-a1:LI008-Q02",
+        "synthetic-weak-a2-a1:LI008-Q03",
+        "synthetic-weak-a2-a1:LI008-Q04",
+        "synthetic-weak-a2-a1:LI008-Q05",
+        "synthetic-weak-a2-a1:LI008-Q06",
+        "synthetic-weak-a2-a1:LI008-Q07",
+        "synthetic-weak-a2-a1:LI008-Q08",
+        "synthetic-weak-a2-a1:LI008-Q09",
+        "synthetic-weak-a2-a1:LI008-Q10",
+        "synthetic-weak-a2-a1:RE009-Q01",
+        "synthetic-weak-a2-a1:RE009-Q02",
+        "synthetic-weak-a2-a1:RE009-Q03",
+        "synthetic-weak-a2-a1:RE009-Q04",
+        "synthetic-weak-a2-a1:RE009-Q05",
+        "synthetic-weak-a2-a1:RE009-Q06",
+        "synthetic-weak-a2-a1:RE009-Q07",
+        "synthetic-weak-a2-a1:RE009-Q08",
+        "synthetic-weak-a2-a1:RE009-Q09",
+        "synthetic-weak-a2-a1:RE009-Q10",
+        "synthetic-weak-a2-a1:RE009-Q11",
+        "synthetic-weak-a2-a1:RE009-Q12",
+        "synthetic-weak-a2-a1:RE009-Q13",
+        "synthetic-weak-a2-a1:RE001-Q01",
+        "synthetic-weak-a2-a1:RE001-Q02",
+        "synthetic-weak-a2-a1:RE001-Q03",
+        "synthetic-weak-a2-a1:RE001-Q04",
+        "synthetic-weak-a2-a1:RE001-Q05",
+        "synthetic-weak-a2-a1:RE001-Q06",
+        "synthetic-weak-a2-a1:RE001-Q07",
+        "synthetic-weak-a2-a1:RE001-Q08",
+        "synthetic-weak-a2-a1:RE001-Q09",
+        "synthetic-weak-a2-a1:RE001-Q10",
+        "synthetic-weak-a2-a1:RE001-Q11",
+        "synthetic-weak-a2-a1:RE001-Q12",
+        "synthetic-weak-a2-a1:RE001-Q13",
+        "synthetic-weak-a2-a1:RE004-Q01",
+        "synthetic-weak-a2-a1:RE004-Q02",
+        "synthetic-weak-a2-a1:RE004-Q03",
+        "synthetic-weak-a2-a1:RE004-Q04",
+        "synthetic-weak-a2-a1:RE004-Q05",
+        "synthetic-weak-a2-a1:RE004-Q06",
+        "synthetic-weak-a2-a1:RE004-Q07",
+        "synthetic-weak-a2-a1:RE004-Q08",
+        "synthetic-weak-a2-a1:RE004-Q09",
+        "synthetic-weak-a2-a1:RE004-Q10",
+        "synthetic-weak-a2-a1:RE004-Q11",
+        "synthetic-weak-a2-a1:RE004-Q12",
+        "synthetic-weak-a2-a1:RE004-Q13"
+      ]
+    },
+    "by_modality": {
+      "reading": {
+        "n_answered": 39,
+        "n_correct": 19,
+        "accuracy": 0.487,
+        "wilson_low": 0.339,
+        "wilson_high": 0.638,
+        "supporting_attempt_record_ids": [
+          "synthetic-weak-a2-a1:RE009-Q01",
+          "synthetic-weak-a2-a1:RE009-Q02",
+          "synthetic-weak-a2-a1:RE009-Q03",
+          "synthetic-weak-a2-a1:RE009-Q04",
+          "synthetic-weak-a2-a1:RE009-Q05",
+          "synthetic-weak-a2-a1:RE009-Q06",
+          "synthetic-weak-a2-a1:RE009-Q07",
+          "synthetic-weak-a2-a1:RE009-Q08",
+          "synthetic-weak-a2-a1:RE009-Q09",
+          "synthetic-weak-a2-a1:RE009-Q10",
+          "synthetic-weak-a2-a1:RE009-Q11",
+          "synthetic-weak-a2-a1:RE009-Q12",
+          "synthetic-weak-a2-a1:RE009-Q13",
+          "synthetic-weak-a2-a1:RE001-Q01",
+          "synthetic-weak-a2-a1:RE001-Q02",
+          "synthetic-weak-a2-a1:RE001-Q03",
+          "synthetic-weak-a2-a1:RE001-Q04",
+          "synthetic-weak-a2-a1:RE001-Q05",
+          "synthetic-weak-a2-a1:RE001-Q06",
+          "synthetic-weak-a2-a1:RE001-Q07",
+          "synthetic-weak-a2-a1:RE001-Q08",
+          "synthetic-weak-a2-a1:RE001-Q09",
+          "synthetic-weak-a2-a1:RE001-Q10",
+          "synthetic-weak-a2-a1:RE001-Q11",
+          "synthetic-weak-a2-a1:RE001-Q12",
+          "synthetic-weak-a2-a1:RE001-Q13",
+          "synthetic-weak-a2-a1:RE004-Q01",
+          "synthetic-weak-a2-a1:RE004-Q02",
+          "synthetic-weak-a2-a1:RE004-Q03",
+          "synthetic-weak-a2-a1:RE004-Q04",
+          "synthetic-weak-a2-a1:RE004-Q05",
+          "synthetic-weak-a2-a1:RE004-Q06",
+          "synthetic-weak-a2-a1:RE004-Q07",
+          "synthetic-weak-a2-a1:RE004-Q08",
+          "synthetic-weak-a2-a1:RE004-Q09",
+          "synthetic-weak-a2-a1:RE004-Q10",
+          "synthetic-weak-a2-a1:RE004-Q11",
+          "synthetic-weak-a2-a1:RE004-Q12",
+          "synthetic-weak-a2-a1:RE004-Q13"
+        ]
+      },
+      "listening": {
+        "n_answered": 40,
+        "n_correct": 17,
+        "accuracy": 0.425,
+        "wilson_low": 0.285,
+        "wilson_high": 0.578,
+        "supporting_attempt_record_ids": [
+          "synthetic-weak-a2-a1:LI009-Q01",
+          "synthetic-weak-a2-a1:LI009-Q02",
+          "synthetic-weak-a2-a1:LI009-Q03",
+          "synthetic-weak-a2-a1:LI009-Q04",
+          "synthetic-weak-a2-a1:LI009-Q05",
+          "synthetic-weak-a2-a1:LI009-Q06",
+          "synthetic-weak-a2-a1:LI009-Q07",
+          "synthetic-weak-a2-a1:LI009-Q08",
+          "synthetic-weak-a2-a1:LI009-Q09",
+          "synthetic-weak-a2-a1:LI009-Q10",
+          "synthetic-weak-a2-a1:LI004-Q01",
+          "synthetic-weak-a2-a1:LI004-Q02",
+          "synthetic-weak-a2-a1:LI004-Q03",
+          "synthetic-weak-a2-a1:LI004-Q04",
+          "synthetic-weak-a2-a1:LI004-Q05",
+          "synthetic-weak-a2-a1:LI004-Q06",
+          "synthetic-weak-a2-a1:LI004-Q07",
+          "synthetic-weak-a2-a1:LI004-Q08",
+          "synthetic-weak-a2-a1:LI004-Q09",
+          "synthetic-weak-a2-a1:LI004-Q10",
+          "synthetic-weak-a2-a1:LI006-Q01",
+          "synthetic-weak-a2-a1:LI006-Q02",
+          "synthetic-weak-a2-a1:LI006-Q03",
+          "synthetic-weak-a2-a1:LI006-Q04",
+          "synthetic-weak-a2-a1:LI006-Q05",
+          "synthetic-weak-a2-a1:LI006-Q06",
+          "synthetic-weak-a2-a1:LI006-Q07",
+          "synthetic-weak-a2-a1:LI006-Q08",
+          "synthetic-weak-a2-a1:LI006-Q09",
+          "synthetic-weak-a2-a1:LI006-Q10",
+          "synthetic-weak-a2-a1:LI008-Q01",
+          "synthetic-weak-a2-a1:LI008-Q02",
+          "synthetic-weak-a2-a1:LI008-Q03",
+          "synthetic-weak-a2-a1:LI008-Q04",
+          "synthetic-weak-a2-a1:LI008-Q05",
+          "synthetic-weak-a2-a1:LI008-Q06",
+          "synthetic-weak-a2-a1:LI008-Q07",
+          "synthetic-weak-a2-a1:LI008-Q08",
+          "synthetic-weak-a2-a1:LI008-Q09",
+          "synthetic-weak-a2-a1:LI008-Q10"
+        ]
+      }
+    }
+  },
+  "cefr_estimate": {
+    "level": "A2",
+    "status": "indicative",
+    "method": "last level with >=60% correct on >=4 items before the first level below that threshold; levels with <4 items are skipped",
+    "per_level": {
+      "A1": {
+        "n": 3,
+        "correct": 3
+      },
+      "A2": {
+        "n": 12,
+        "correct": 8
+      },
+      "B1": {
+        "n": 19,
+        "correct": 7
+      },
+      "B2": {
+        "n": 26,
+        "correct": 11
+      },
+      "C1": {
+        "n": 16,
+        "correct": 5
+      },
+      "C2": {
+        "n": 3,
+        "correct": 2
+      }
+    },
+    "items_used": 12,
+    "items_total": 79,
+    "confidence_label": "low",
+    "caveat": "Not a calibrated placement. Provisional until learner-response data exists to calibrate items."
+  },
+  "subskills": {
+    "claim_verification": {
+      "n_answered": 3,
+      "n_correct": 1,
+      "accuracy": 0.333,
+      "wilson_low": 0.061,
+      "wilson_high": 0.792,
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:RE001-Q09",
+        "synthetic-weak-a2-a1:RE004-Q05",
+        "synthetic-weak-a2-a1:RE004-Q08"
+      ],
+      "status": "insufficient_evidence"
+    },
+    "detail_retrieval": {
+      "n_answered": 28,
+      "n_correct": 15,
+      "accuracy": 0.536,
+      "wilson_low": 0.358,
+      "wilson_high": 0.705,
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI009-Q01",
+        "synthetic-weak-a2-a1:LI009-Q02",
+        "synthetic-weak-a2-a1:LI009-Q03",
+        "synthetic-weak-a2-a1:LI004-Q01",
+        "synthetic-weak-a2-a1:LI004-Q02",
+        "synthetic-weak-a2-a1:LI006-Q01",
+        "synthetic-weak-a2-a1:LI006-Q03",
+        "synthetic-weak-a2-a1:LI006-Q04",
+        "synthetic-weak-a2-a1:LI006-Q06",
+        "synthetic-weak-a2-a1:LI008-Q01",
+        "synthetic-weak-a2-a1:LI008-Q02",
+        "synthetic-weak-a2-a1:LI008-Q03",
+        "synthetic-weak-a2-a1:LI008-Q09",
+        "synthetic-weak-a2-a1:RE009-Q01",
+        "synthetic-weak-a2-a1:RE009-Q02",
+        "synthetic-weak-a2-a1:RE009-Q03",
+        "synthetic-weak-a2-a1:RE009-Q04",
+        "synthetic-weak-a2-a1:RE009-Q05",
+        "synthetic-weak-a2-a1:RE001-Q01",
+        "synthetic-weak-a2-a1:RE001-Q02",
+        "synthetic-weak-a2-a1:RE001-Q03",
+        "synthetic-weak-a2-a1:RE001-Q04",
+        "synthetic-weak-a2-a1:RE001-Q06",
+        "synthetic-weak-a2-a1:RE001-Q07",
+        "synthetic-weak-a2-a1:RE001-Q10",
+        "synthetic-weak-a2-a1:RE001-Q12",
+        "synthetic-weak-a2-a1:RE004-Q01",
+        "synthetic-weak-a2-a1:RE004-Q02"
+      ],
+      "status": "typical_or_unclear"
+    },
+    "discourse_structure": {
+      "n_answered": 1,
+      "n_correct": 0,
+      "accuracy": 0.0,
+      "wilson_low": 0.0,
+      "wilson_high": 0.793,
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:RE004-Q04"
+      ],
+      "status": "insufficient_evidence"
+    },
+    "inference": {
+      "n_answered": 5,
+      "n_correct": 2,
+      "accuracy": 0.4,
+      "wilson_low": 0.118,
+      "wilson_high": 0.769,
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI004-Q06",
+        "synthetic-weak-a2-a1:LI004-Q08",
+        "synthetic-weak-a2-a1:LI008-Q07",
+        "synthetic-weak-a2-a1:RE001-Q13",
+        "synthetic-weak-a2-a1:RE004-Q12"
+      ],
+      "status": "insufficient_evidence"
+    },
+    "information_tracking": {
+      "n_answered": 16,
+      "n_correct": 3,
+      "accuracy": 0.188,
+      "wilson_low": 0.066,
+      "wilson_high": 0.43,
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI009-Q04",
+        "synthetic-weak-a2-a1:LI009-Q05",
+        "synthetic-weak-a2-a1:LI009-Q07",
+        "synthetic-weak-a2-a1:LI009-Q08",
+        "synthetic-weak-a2-a1:LI009-Q09",
+        "synthetic-weak-a2-a1:LI004-Q04",
+        "synthetic-weak-a2-a1:LI006-Q02",
+        "synthetic-weak-a2-a1:LI006-Q05",
+        "synthetic-weak-a2-a1:LI006-Q07",
+        "synthetic-weak-a2-a1:LI006-Q08",
+        "synthetic-weak-a2-a1:LI006-Q10",
+        "synthetic-weak-a2-a1:LI008-Q04",
+        "synthetic-weak-a2-a1:LI008-Q05",
+        "synthetic-weak-a2-a1:LI008-Q06",
+        "synthetic-weak-a2-a1:LI008-Q08",
+        "synthetic-weak-a2-a1:LI008-Q10"
+      ],
+      "status": "weakness"
+    },
+    "main_idea_gist": {
+      "n_answered": 2,
+      "n_correct": 2,
+      "accuracy": 1.0,
+      "wilson_low": 0.342,
+      "wilson_high": 1.0,
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI004-Q10",
+        "synthetic-weak-a2-a1:RE004-Q13"
+      ],
+      "status": "insufficient_evidence"
+    },
+    "paraphrase_recognition": {
+      "n_answered": 10,
+      "n_correct": 5,
+      "accuracy": 0.5,
+      "wilson_low": 0.237,
+      "wilson_high": 0.763,
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI004-Q03",
+        "synthetic-weak-a2-a1:RE009-Q11",
+        "synthetic-weak-a2-a1:RE009-Q12",
+        "synthetic-weak-a2-a1:RE009-Q13",
+        "synthetic-weak-a2-a1:RE001-Q05",
+        "synthetic-weak-a2-a1:RE001-Q08",
+        "synthetic-weak-a2-a1:RE001-Q11",
+        "synthetic-weak-a2-a1:RE004-Q03",
+        "synthetic-weak-a2-a1:RE004-Q10",
+        "synthetic-weak-a2-a1:RE004-Q11"
+      ],
+      "status": "typical_or_unclear"
+    },
+    "stance_attitude": {
+      "n_answered": 14,
+      "n_correct": 8,
+      "accuracy": 0.571,
+      "wilson_low": 0.326,
+      "wilson_high": 0.786,
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI009-Q06",
+        "synthetic-weak-a2-a1:LI009-Q10",
+        "synthetic-weak-a2-a1:LI004-Q05",
+        "synthetic-weak-a2-a1:LI004-Q07",
+        "synthetic-weak-a2-a1:LI004-Q09",
+        "synthetic-weak-a2-a1:LI006-Q09",
+        "synthetic-weak-a2-a1:RE009-Q06",
+        "synthetic-weak-a2-a1:RE009-Q07",
+        "synthetic-weak-a2-a1:RE009-Q08",
+        "synthetic-weak-a2-a1:RE009-Q09",
+        "synthetic-weak-a2-a1:RE009-Q10",
+        "synthetic-weak-a2-a1:RE004-Q06",
+        "synthetic-weak-a2-a1:RE004-Q07",
+        "synthetic-weak-a2-a1:RE004-Q09"
+      ],
+      "status": "typical_or_unclear"
+    }
+  },
+  "consistency": {
+    "status": "not_assessable",
+    "reason": "needs >=2 attempts with >=10 answered questions"
+  },
+  "error_patterns": [
+    {
+      "error_tag": "topic_association_guess",
+      "occurrences": 23,
+      "of_incorrect_answers": 43,
+      "text_grounded_occurrences": 6,
+      "claim_strength": "hypothesis_supported_by_repetition",
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI009-Q04",
+        "synthetic-weak-a2-a1:LI009-Q07",
+        "synthetic-weak-a2-a1:LI009-Q08",
+        "synthetic-weak-a2-a1:LI009-Q09",
+        "synthetic-weak-a2-a1:LI004-Q03",
+        "synthetic-weak-a2-a1:LI004-Q08",
+        "synthetic-weak-a2-a1:LI006-Q02",
+        "synthetic-weak-a2-a1:LI006-Q05",
+        "synthetic-weak-a2-a1:LI006-Q07",
+        "synthetic-weak-a2-a1:LI006-Q08",
+        "synthetic-weak-a2-a1:LI006-Q10",
+        "synthetic-weak-a2-a1:LI008-Q04",
+        "synthetic-weak-a2-a1:LI008-Q05",
+        "synthetic-weak-a2-a1:LI008-Q08",
+        "synthetic-weak-a2-a1:LI008-Q10",
+        "synthetic-weak-a2-a1:RE009-Q03",
+        "synthetic-weak-a2-a1:RE009-Q04",
+        "synthetic-weak-a2-a1:RE001-Q04",
+        "synthetic-weak-a2-a1:RE001-Q05",
+        "synthetic-weak-a2-a1:RE001-Q10",
+        "synthetic-weak-a2-a1:RE001-Q12",
+        "synthetic-weak-a2-a1:RE004-Q02",
+        "synthetic-weak-a2-a1:RE004-Q04"
+      ]
+    },
+    {
+      "error_tag": "attention_to_wrong_part_of_source",
+      "occurrences": 9,
+      "of_incorrect_answers": 43,
+      "text_grounded_occurrences": 9,
+      "claim_strength": "hypothesis_supported_by_repetition",
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI009-Q09",
+        "synthetic-weak-a2-a1:LI004-Q08",
+        "synthetic-weak-a2-a1:LI006-Q07",
+        "synthetic-weak-a2-a1:LI006-Q08",
+        "synthetic-weak-a2-a1:LI008-Q01",
+        "synthetic-weak-a2-a1:LI008-Q02",
+        "synthetic-weak-a2-a1:LI008-Q03",
+        "synthetic-weak-a2-a1:RE009-Q04",
+        "synthetic-weak-a2-a1:RE001-Q12"
+      ]
+    },
+    {
+      "error_tag": "unsupported_inference",
+      "occurrences": 5,
+      "of_incorrect_answers": 43,
+      "text_grounded_occurrences": 0,
+      "claim_strength": "weak_hypothesis",
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI009-Q10",
+        "synthetic-weak-a2-a1:LI004-Q07",
+        "synthetic-weak-a2-a1:LI004-Q09",
+        "synthetic-weak-a2-a1:LI008-Q07",
+        "synthetic-weak-a2-a1:RE001-Q09"
+      ]
+    },
+    {
+      "error_tag": "attitude_misread",
+      "occurrences": 3,
+      "of_incorrect_answers": 43,
+      "text_grounded_occurrences": 0,
+      "claim_strength": "weak_hypothesis",
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:LI009-Q10",
+        "synthetic-weak-a2-a1:LI004-Q07",
+        "synthetic-weak-a2-a1:LI004-Q09"
+      ]
+    },
+    {
+      "error_tag": "paraphrase_not_recognised",
+      "occurrences": 3,
+      "of_incorrect_answers": 43,
+      "text_grounded_occurrences": 2,
+      "claim_strength": "weak_hypothesis",
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:RE009-Q05",
+        "synthetic-weak-a2-a1:RE009-Q07",
+        "synthetic-weak-a2-a1:RE001-Q02"
+      ]
+    },
+    {
+      "error_tag": "evidence_not_located",
+      "occurrences": 3,
+      "of_incorrect_answers": 43,
+      "text_grounded_occurrences": 0,
+      "claim_strength": "weak_hypothesis",
+      "supporting_attempt_record_ids": [
+        "synthetic-weak-a2-a1:RE009-Q09",
+        "synthetic-weak-a2-a1:RE004-Q05",
+        "synthetic-weak-a2-a1:RE004-Q07"
+      ]
+    }
+  ],
+  "recommended_next_objectives": [
+    {
+      "objective_id": "LO.information_tracking.A2",
+      "subskill": "information_tracking",
+      "target_cefr": "A2",
+      "priority": 1,
+      "reason": "accuracy 0.188 (95% interval 0.066-0.43) on 16 questions is below the 0.6 reference",
+      "evidence_refs": [
+        "synthetic-weak-a2-a1:LI009-Q04",
+        "synthetic-weak-a2-a1:LI009-Q05",
+        "synthetic-weak-a2-a1:LI009-Q07",
+        "synthetic-weak-a2-a1:LI009-Q08",
+        "synthetic-weak-a2-a1:LI009-Q09",
+        "synthetic-weak-a2-a1:LI004-Q04",
+        "synthetic-weak-a2-a1:LI006-Q02",
+        "synthetic-weak-a2-a1:LI006-Q05",
+        "synthetic-weak-a2-a1:LI006-Q07",
+        "synthetic-weak-a2-a1:LI006-Q08",
+        "synthetic-weak-a2-a1:LI006-Q10",
+        "synthetic-weak-a2-a1:LI008-Q04",
+        "synthetic-weak-a2-a1:LI008-Q05",
+        "synthetic-weak-a2-a1:LI008-Q06",
+        "synthetic-weak-a2-a1:LI008-Q08",
+        "synthetic-weak-a2-a1:LI008-Q10"
+      ],
+      "lesson_ref": null
+    }
+  ],
+  "lesson_mapping_note": "lesson_ref is null: no lesson/exercise bank was found in the project, so objectives cannot yet be mapped to concrete lessons.",
+  "uncertainty": [
+    "Item difficulty is unvalidated (no learner-response calibration); accuracy against the 0.6 reference is a screening rule, not a measurement of mastery.",
+    "Sub-skill tags are rule-validated only; many items in the bank test detail retrieval, so other sub-skills have few observations.",
+    "Error patterns are hypotheses about reasoning; one wrong answer never establishes a misconception."
+  ],
+  "synthetic_note": "Simulated learner (theta=3.0 on the 1-9 band scale, answer_rate=1.0). Not real data."
+}

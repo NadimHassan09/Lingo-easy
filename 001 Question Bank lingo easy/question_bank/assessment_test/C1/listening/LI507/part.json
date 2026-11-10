@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI507",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "The Linguistics of Slang",
+  "topic": "language_and_linguistics",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li507_the_linguistics_of_slang.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Hughes",
+        "gender": "male",
+        "accent": "new_zealand",
+        "role": "linguistics lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Slang is often dismissed as lazy or incorrect language, yet linguists regard it as one of the most creative parts of any language. Today I'll look at what slang is, why it exists and why it changes so quickly."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let me start with a definition, which is harder than it sounds. Slang is informal vocabulary used by a particular group, often to signal identity and belonging. It differs from jargon, which is technical vocabulary used in a profession, and from dialect, which is a regional variety with its own grammar. A key feature of slang is that it's ephemeral. Many terms last only a few years, and a word that was fashionable among teenagers in 2010 may sound dated today."
+      },
+      {
+        "speaker": "S1",
+        "text": "Why does slang exist? Linguists point to at least three functions. The first is social: using a particular word marks you as a member of a group and excludes outsiders. Prison slang, student slang and military slang all work this way. The second is expressive. Slang often provides vivid or humorous alternatives to standard words, such as broke for having no money. The third is rebellion: using slang can be a way of resisting authority or convention."
+      },
+      {
+        "speaker": "S1",
+        "text": "How does it spread? Historically, slang spread mainly through personal contact, which meant it stayed local. Today social media allows terms to spread across continents within days. A phrase can start in an online community, be picked up by influencers and appear in advertising within weeks. Paradoxically, once it becomes mainstream, the original group often abandons it, since it no longer marks them as distinct. This partly explains the rapid turnover."
+      },
+      {
+        "speaker": "S1",
+        "text": "Some slang does survive and enters the standard language. The word mob, for example, began as eighteenth-century slang, short for a Latin phrase, and was condemned by the writer Jonathan Swift as a vulgar abbreviation. Now it appears in dictionaries without comment. A modern equivalent might be selfie, which was named word of the year in 2013 and is now unremarkable."
+      },
+      {
+        "speaker": "S1",
+        "text": "A common worry is that slang damages young people's ability to write properly. The evidence doesn't support this. Studies of teenagers show that those who use a wide variety of informal expressions often have a larger vocabulary overall, and most can switch between registers depending on the context. This ability, called code-switching, is a sign of linguistic skill, not weakness. Next week we'll look at the language of text messages. Please bring an example of an abbreviation you use frequently, and be ready to explain where it comes from."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI507-Q01",
+          "number": 1,
+          "prompt": "How do linguists regard slang?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a sign of lazy or careless speech"
+            },
+            {
+              "id": "B",
+              "text": "As a type of regional dialect with grammar"
+            },
+            {
+              "id": "C",
+              "text": "As one of the most creative parts of language"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "one of the most creative parts of any language"
+          },
+          "explanation": "The audio says: \"one of the most creative parts of any language\".",
+          "uuid": "54007cd6-abf9-5998-a715-4a4f8f46dfda"
+        },
+        {
+          "id": "LI507-Q02",
+          "number": 2,
+          "prompt": "How does slang differ from jargon?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Jargon is slang used only by young people"
+            },
+            {
+              "id": "B",
+              "text": "Jargon is technical vocabulary used in a profession"
+            },
+            {
+              "id": "C",
+              "text": "Jargon is a regional variety with its own grammar"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "technical vocabulary used in a profession"
+          },
+          "explanation": "The audio says: \"technical vocabulary used in a profession\".",
+          "uuid": "b90afdd5-e3b6-57d1-92e4-8c78c73a1d0c"
+        },
+        {
+          "id": "LI507-Q03",
+          "number": 3,
+          "prompt": "What is a key feature of slang?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is short-lived"
+            },
+            {
+              "id": "B",
+              "text": "It belongs to one region"
+            },
+            {
+              "id": "C",
+              "text": "It stays within one profession"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "key feature of slang is that it's ephemeral"
+          },
+          "explanation": "The audio says: \"key feature of slang is that it's ephemeral\".",
+          "uuid": "e5bc434c-1ae7-50ff-bd10-3a417fd8082b"
+        },
+        {
+          "id": "LI507-Q04",
+          "number": 4,
+          "prompt": "What is the social function of slang?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It marks group membership and excludes outsiders"
+            },
+            {
+              "id": "B",
+              "text": "It makes everyday speech more formal"
+            },
+            {
+              "id": "C",
+              "text": "It helps outsiders to learn new vocabulary"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "marks you as a member of a group and excludes outsiders"
+          },
+          "explanation": "The audio says: \"marks you as a member of a group and excludes outsiders\".",
+          "uuid": "32af3d83-8a80-527b-8b6c-252b90705bd6"
+        },
+        {
+          "id": "LI507-Q05",
+          "number": 5,
+          "prompt": "How has the spread of slang changed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Terms now spread more slowly than before"
+            },
+            {
+              "id": "B",
+              "text": "Terms are now mainly spread by dictionaries"
+            },
+            {
+              "id": "C",
+              "text": "Terms can now cross continents within days"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "across continents within days"
+          },
+          "explanation": "The audio says: \"across continents within days\".",
+          "uuid": "7893a497-85d2-53e8-b114-613d0b35ec6a"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI507-Q06",
+          "number": 6,
+          "prompt": "Why does slang change so quickly?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Groups abandon terms once they become mainstream"
+            },
+            {
+              "id": "B",
+              "text": "Advertisers ban terms once they become popular"
+            },
+            {
+              "id": "C",
+              "text": "Dictionaries remove terms after a few years"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the original group often abandons it"
+          },
+          "explanation": "The audio says: \"the original group often abandons it\".",
+          "uuid": "29de5045-f69d-5537-8a37-50721ca84474"
+        },
+        {
+          "id": "LI507-Q07",
+          "number": 7,
+          "prompt": "What happened to the word mob?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It was invented by Swift as an insult"
+            },
+            {
+              "id": "B",
+              "text": "It was criticised but later became standard"
+            },
+            {
+              "id": "C",
+              "text": "It disappeared from dictionaries after 1800"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "condemned by the writer Jonathan Swift"
+          },
+          "explanation": "The audio says: \"condemned by the writer Jonathan Swift\".",
+          "uuid": "2425b20d-65b3-5cea-98e6-250923e4a07e"
+        },
+        {
+          "id": "LI507-Q08",
+          "number": 8,
+          "prompt": "What does the lecturer say about selfie?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It was named word of the year in 2013"
+            },
+            {
+              "id": "B",
+              "text": "It began as technical jargon in photography"
+            },
+            {
+              "id": "C",
+              "text": "It is no longer used by young people"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "named word of the year in 2013"
+          },
+          "explanation": "The audio says: \"named word of the year in 2013\".",
+          "uuid": "8db617e4-82ea-5fda-9999-4750ee66d9d7"
+        },
+        {
+          "id": "LI507-Q09",
+          "number": 9,
+          "prompt": "What do studies of teenagers who use slang show?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They write less accurately than their peers"
+            },
+            {
+              "id": "B",
+              "text": "They often have a larger vocabulary overall"
+            },
+            {
+              "id": "C",
+              "text": "They avoid formal registers in all contexts"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "larger vocabulary overall"
+          },
+          "explanation": "The audio says: \"larger vocabulary overall\".",
+          "uuid": "b82c7d3c-1f01-5e03-8515-c3b1a7807b90"
+        },
+        {
+          "id": "LI507-Q10",
+          "number": 10,
+          "prompt": "How does the lecturer describe code-switching?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A sign of linguistic skill"
+            },
+            {
+              "id": "B",
+              "text": "A sign of confusion"
+            },
+            {
+              "id": "C",
+              "text": "A cause of poor grammar"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "sign of linguistic skill"
+          },
+          "explanation": "The audio says: \"sign of linguistic skill\".",
+          "uuid": "d3bdb896-3671-58b7-a17b-70c1d4b52776"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "67e24ec3-1c6f-47a5-b8dc-76da8aa86fbf",
+  "derived": {
+    "word_count": 420,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 5,
+      "B": 3,
+      "C": 2
+    },
+    "content_hash": "eb99dd7dbca26abf"
+  }
+}

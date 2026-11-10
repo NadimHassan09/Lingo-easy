@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE403",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "The Gig Economy: Freedom or Insecurity?",
+  "topic": "business",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "The Gig Economy: Freedom or Insecurity?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Ten years ago, few people had heard the term gig economy. Today, millions of workers earn money by delivering food, driving passengers or completing small online tasks through apps and platforms. Supporters present it as a revolution in flexibility; critics call it a return to the insecurity of nineteenth-century casual labour. As someone who has studied the sector for several years, I believe both descriptions contain some truth, but that the critics currently have the stronger case."
+      },
+      {
+        "label": "B",
+        "text": "The attractions are real. Gig workers choose when and how long they work, which suits students, parents with young children and people who need a second income. Entry is easy: there are no interviews, and an account can be opened in a day. Surveys in several countries show that many workers value this independence highly, and a significant proportion say they would not accept a regular job even if it were offered."
+      },
+      {
+        "label": "C",
+        "text": "Yet flexibility often turns out to be limited. Workers are paid per task, and the platform decides how many tasks are available and at what price. Many report that to earn a reasonable wage, they must be online at times of high demand, such as evenings and weekends, which leaves them little real choice. When calculated per hour, including time spent waiting for orders and the cost of fuel, a number of studies found earnings below the legal minimum wage."
+      },
+      {
+        "label": "D",
+        "text": "The greater problem is security. Because gig workers are classed as self-employed, they receive no sick pay, holiday pay or pension contributions. A worker who is injured on a delivery has to bear the cost of lost income. In 2021, a court in the UK ruled that a group of drivers should be treated as workers entitled to a minimum wage and paid holidays, and other countries are considering similar rules. The companies argue that this would destroy the flexibility that workers want."
+      },
+      {
+        "label": "E",
+        "text": "I do not think it would. Several platforms that have accepted regulation continue to operate, and their workers report the same freedom to choose their hours. The solution is not to ban gig work but to give those who do it basic protections. A society should not allow the cost of risk to be passed entirely to the people least able to bear it."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE403-Q01",
+          "number": 1,
+          "prompt": "What do supporters of the gig economy claim?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It creates stable careers"
+            },
+            {
+              "id": "B",
+              "text": "It reduces unemployment overall"
+            },
+            {
+              "id": "C",
+              "text": "It provides greater flexibility"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "revolution in flexibility"
+          },
+          "explanation": "The text says: \"revolution in flexibility\".",
+          "uuid": "21569d84-45c0-59fc-845c-f8608d8fbfd3"
+        },
+        {
+          "id": "RE403-Q02",
+          "number": 2,
+          "prompt": "Why is it easy to start gig work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Workers receive free training before starting"
+            },
+            {
+              "id": "B",
+              "text": "There are no interviews and an account opens in a day"
+            },
+            {
+              "id": "C",
+              "text": "Employers provide equipment and uniforms"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "there are no interviews"
+          },
+          "explanation": "The text says: \"there are no interviews\".",
+          "uuid": "2c52a627-fc0e-5ad0-871c-ca7d05de72af"
+        },
+        {
+          "id": "RE403-Q03",
+          "number": 3,
+          "prompt": "What does the writer say about flexibility in practice?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Workers often need to be online at busy times"
+            },
+            {
+              "id": "B",
+              "text": "Workers can choose any hours without penalty"
+            },
+            {
+              "id": "C",
+              "text": "Workers can set their own prices"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "must be online at times of high demand"
+          },
+          "explanation": "The text says: \"must be online at times of high demand\".",
+          "uuid": "4e8b555c-3b6c-54c0-85db-31ce3f6d43b1"
+        },
+        {
+          "id": "RE403-Q04",
+          "number": 4,
+          "prompt": "What did a number of studies find about hourly earnings?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They were higher than average"
+            },
+            {
+              "id": "B",
+              "text": "They were the same as in regular jobs"
+            },
+            {
+              "id": "C",
+              "text": "They were sometimes below the minimum wage"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "earnings below the legal minimum wage"
+          },
+          "explanation": "The text says: \"earnings below the legal minimum wage\".",
+          "uuid": "52701451-96c4-5d54-94f5-8c5a456d7f2c"
+        },
+        {
+          "id": "RE403-Q05",
+          "number": 5,
+          "prompt": "What did the 2021 UK court decide?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Some drivers should be treated as workers with rights"
+            },
+            {
+              "id": "B",
+              "text": "Platforms must close in the United Kingdom"
+            },
+            {
+              "id": "C",
+              "text": "All gig workers are legally self-employed"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "should be treated as workers entitled to a minimum wage"
+          },
+          "explanation": "The text says: \"should be treated as workers entitled to a minimum wage\".",
+          "uuid": "b4bd1031-7943-55e6-9286-d734801f6196"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE403-Q06",
+          "number": 6,
+          "prompt": "The writer thinks supporters of the gig economy are completely wrong.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "both descriptions contain some truth"
+          },
+          "explanation": "The text says: \"both descriptions contain some truth\".",
+          "uuid": "39639725-1d8a-5f34-8705-d7ffc49def5d"
+        },
+        {
+          "id": "RE403-Q07",
+          "number": 7,
+          "prompt": "The writer believes the flexibility of gig work is often limited.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "flexibility often turns out to be limited"
+          },
+          "explanation": "The text says: \"flexibility often turns out to be limited\".",
+          "uuid": "e06353df-f089-53d4-8bc9-c517c02d65f9"
+        },
+        {
+          "id": "RE403-Q08",
+          "number": 8,
+          "prompt": "The writer thinks regulation would destroy the flexibility of gig work.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "I do not think it would"
+          },
+          "explanation": "The text says: \"I do not think it would\".",
+          "uuid": "afad860d-8175-57ba-ba85-dbef0f2add02"
+        },
+        {
+          "id": "RE403-Q09",
+          "number": 9,
+          "prompt": "The writer has worked as a delivery driver.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "95e8c2aa-9437-5b53-8689-7462d442eff8"
+        },
+        {
+          "id": "RE403-Q10",
+          "number": 10,
+          "prompt": "The writer favours a total ban on gig work.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "not to ban gig work"
+          },
+          "explanation": "The text says: \"not to ban gig work\".",
+          "uuid": "9bcca0ba-dcf3-5043-a977-0089454a8f02"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE403-Q11",
+          "number": 11,
+          "prompt": "A reason why some workers prefer gig work to a regular job",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "would not accept a regular job even if it were offered"
+          },
+          "explanation": "The text says: \"would not accept a regular job even if it were offered\".",
+          "uuid": "11e0fd25-03ea-5e11-8b63-83fd7aeac850"
+        },
+        {
+          "id": "RE403-Q12",
+          "number": 12,
+          "prompt": "An example of a risk that falls on individual workers",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "has to bear the cost of lost income"
+          },
+          "explanation": "The text says: \"has to bear the cost of lost income\".",
+          "uuid": "83ff7b0a-db0c-523f-8da4-7914f1365d2f"
+        },
+        {
+          "id": "RE403-Q13",
+          "number": 13,
+          "prompt": "A moral argument about who should carry risk",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "should not allow the cost of risk"
+          },
+          "explanation": "The text says: \"should not allow the cost of risk\".",
+          "uuid": "0a310bb4-e011-56cd-980e-f67bb7000f82"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "f708a961-fbc7-4f0b-850f-2642799ee64f",
+  "derived": {
+    "word_count": 378,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 3,
+      "B": 5,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "7d11ef098169e376"
+  }
+}

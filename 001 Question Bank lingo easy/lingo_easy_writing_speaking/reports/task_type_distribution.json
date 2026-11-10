@@ -1,0 +1,136 @@
+{
+  "by_bank": {
+    "writing": {
+      "placement": {
+        "sentence_set": 1,
+        "narrative_recount": 2,
+        "personal_message": 1,
+        "opinion_paragraph": 1,
+        "discussion_two_views": 2,
+        "email_formal": 1,
+        "argumentative_essay": 2
+      },
+      "A1": {
+        "sentence_set": 4,
+        "personal_message": 3,
+        "descriptive_paragraph": 3
+      },
+      "A2": {
+        "email_informal": 2,
+        "narrative_recount": 1,
+        "email_formal": 2,
+        "descriptive_paragraph": 2,
+        "personal_message": 1,
+        "review": 1,
+        "opinion_paragraph": 1
+      },
+      "B1": {
+        "narrative_recount": 2,
+        "opinion_paragraph": 1,
+        "email_formal": 2,
+        "advantages_disadvantages": 1,
+        "email_informal": 1,
+        "descriptive_paragraph": 1,
+        "proposal": 1,
+        "review": 1
+      },
+      "B2": {
+        "argumentative_essay": 3,
+        "discussion_two_views": 2,
+        "advantages_disadvantages": 1,
+        "problem_solution": 1,
+        "email_formal": 1,
+        "report": 1,
+        "review": 1
+      },
+      "C1": {
+        "argumentative_essay": 3,
+        "discussion_two_views": 2,
+        "proposal": 1,
+        "report": 1,
+        "synthesis_response": 2,
+        "email_formal": 1
+      },
+      "C2": {
+        "argumentative_essay": 3,
+        "synthesis_response": 1,
+        "discussion_two_views": 2,
+        "register_transformation": 1,
+        "review": 1,
+        "proposal": 1,
+        "address_speech": 1
+      }
+    },
+    "speaking": {
+      "placement": {
+        "familiar_topics": 2,
+        "long_turn": 3,
+        "situational_response": 2,
+        "discussion": 3
+      },
+      "A1": {
+        "familiar_topics": 5,
+        "situational_response": 3,
+        "long_turn": 2
+      },
+      "A2": {
+        "familiar_topics": 4,
+        "long_turn": 3,
+        "situational_response": 3
+      },
+      "B1": {
+        "long_turn_discussion": 2,
+        "discussion": 3,
+        "long_turn": 2,
+        "situational_response": 2,
+        "familiar_topics": 1
+      },
+      "B2": {
+        "long_turn_discussion": 2,
+        "discussion": 4,
+        "long_turn": 2,
+        "situational_response": 2
+      },
+      "C1": {
+        "long_turn_discussion": 2,
+        "discussion": 4,
+        "long_turn": 2,
+        "situational_response": 2
+      },
+      "C2": {
+        "discussion": 4,
+        "long_turn_discussion": 2,
+        "situational_response": 3,
+        "long_turn": 1
+      }
+    }
+  },
+  "overall": {
+    "writing": {
+      "sentence_set": 5,
+      "narrative_recount": 5,
+      "personal_message": 5,
+      "opinion_paragraph": 3,
+      "discussion_two_views": 8,
+      "email_formal": 7,
+      "argumentative_essay": 11,
+      "descriptive_paragraph": 6,
+      "email_informal": 3,
+      "review": 4,
+      "advantages_disadvantages": 2,
+      "proposal": 3,
+      "problem_solution": 1,
+      "report": 2,
+      "synthesis_response": 3,
+      "register_transformation": 1,
+      "address_speech": 1
+    },
+    "speaking": {
+      "familiar_topics": 12,
+      "long_turn": 15,
+      "situational_response": 17,
+      "discussion": 18,
+      "long_turn_discussion": 8
+    }
+  }
+}

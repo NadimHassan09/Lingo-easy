@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "id": "SP205",
+  "uuid": "233ca6d5-ddc8-549d-a6c6-dee45da964d9",
+  "version": "1.0.0",
+  "skill": "speaking",
+  "assessment": {
+    "type": "assessment",
+    "level": "A2"
+  },
+  "target_cefr": "A2",
+  "profile": "level_a2",
+  "topic": "food_and_nutrition",
+  "context": "You tell a friend about a special meal.",
+  "title": "A meal I enjoy",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_format": "long_turn",
+  "task": {
+    "title": "A meal I enjoy",
+    "format": "long_turn",
+    "scenario": "You tell a friend about a special meal.",
+    "prompt": "Talk about a meal you enjoy. You have 30 seconds to think. Then talk for one to two minutes.",
+    "instructions": [
+      "Type your answer the way you would say it, in complete sentences.",
+      "Answer every question or point. Add reasons and examples when you can.",
+      "In this version your answer is typed. Pronunciation is not assessed."
+    ],
+    "main_question": "Describe a meal that you enjoy.",
+    "follow_up_questions": [],
+    "preparation_seconds": 30,
+    "suggested_speaking_seconds": 100,
+    "typed_response_words": {
+      "minimum": 40,
+      "suggested_min": 60,
+      "suggested_max": 110
+    },
+    "cue_card": {
+      "topic": "Describe a meal that you enjoy.",
+      "points": [
+        "What is the meal?",
+        "Who makes it?",
+        "What is in it?",
+        "When do you have it and why do you like it?"
+      ],
+      "preparation_seconds": 30,
+      "speaking_seconds": 100
+    }
+  },
+  "expected_response": {
+    "content_points": [
+      "What is the meal?",
+      "Who makes it?",
+      "What is in it?",
+      "When do you have it and why do you like it?"
+    ],
+    "required_elements": [
+      "Respond to: Describe a meal that you enjoy.",
+      "Respond to: What is the meal?",
+      "Respond to: Who makes it?",
+      "Respond to: What is in it?",
+      "Respond to: When do you have it and why do you like it?"
+    ],
+    "optional_elements": [
+      "extra detail, examples or a personal anecdote"
+    ],
+    "organisation": [
+      "answer each question or cue point in turn, adding reasons and examples"
+    ],
+    "vocabulary_demands": [
+      "ingredients",
+      "cooking",
+      "adjectives for taste"
+    ],
+    "grammar_demands": [
+      {
+        "id": "present_simple",
+        "level": "A1",
+        "extension": false
+      },
+      {
+        "id": "linking_words",
+        "level": "A2",
+        "extension": false
+      },
+      {
+        "id": "quantifiers",
+        "level": "A2",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Short connected text, one paragraph at most.",
+    "linguistic_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Describe people, places, objects, routines; Give a simple reason or purpose",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "My favourite meal is koshari.",
+          "My mother makes it.",
+          "It has rice, lentils and a spicy sauce.",
+          "We eat it on Sundays because it is cheap and tasty."
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "descriptive_speaking",
+    "secondary_subskills": [
+      "extended_turn"
+    ],
+    "cognitive_processes": [
+      "describe",
+      "explain_reason"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.S.descriptive_speaking.A2.1",
+        "text": "Describe a familiar meal with ingredients and a reason",
+        "measurable_verb": "describe",
+        "criteria": [
+          "S_REL",
+          "S_LR",
+          "S_GRA"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "A2",
+    "recommended_cefr": "A2",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.148,
+    "language_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Describe people, places, objects, routines; Give a simple reason or purpose",
+    "expected_performance": [
+      "Answers all questions or points with relevant details.",
+      "Uses everyday topic vocabulary with some variety.",
+      "Simple past, future and some subordinate clauses attempted; errors rarely block meaning."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 1.0, 'cognition': 0.5, 'length': 1.0, 'abstractness': 0.5, 'prompt_language': 0.11}; composite 0.74 -> A2. Original target A2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 1.0,
+      "cognition": 0.5,
+      "length": 1.0,
+      "abstractness": 0.5,
+      "prompt_language": 0.11
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 5.8,
+      "long_word_ratio": 0.0
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "A2",
+    "criteria": [
+      {
+        "id": "S_REL",
+        "name": "Relevance and task fulfilment",
+        "description": "Whether the response answers the question asked, covers the cue points or situation, and is appropriate to the role and audience.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Answers all questions or points with relevant details. Needs to respond to: Describe a meal that you enjoy. | What is the meal? | Who makes it? | What is in it? | When do you have it and why do you like it?",
+        "weak_performance": "Does not answer some questions; off topic in parts.",
+        "expected_evidence": "Each question or cue point addressed; relevance of content; fit with the situation. Check each question or cue point in turn.",
+        "common_error_patterns": [
+          "ignoring a question"
+        ],
+        "related_subskills": [
+          "descriptive_speaking",
+          "extended_turn"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed.",
+        "diagnostic_categories": [
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK"
+        ]
+      },
+      {
+        "id": "S_LR",
+        "name": "Lexical resource",
+        "description": "Range and precision of vocabulary used to talk about the topic.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Uses everyday topic vocabulary with some variety.",
+        "weak_performance": "Repeats basic words; errors in word choice cause confusion.",
+        "expected_evidence": "Topic vocabulary; variety; paraphrase; collocation. Expected vocabulary demands: ingredients; cooking; adjectives for taste.",
+        "common_error_patterns": [
+          "confusing similar words"
+        ],
+        "related_subskills": [
+          "descriptive_speaking",
+          "extended_turn"
+        ],
+        "evaluation_limitations": "Do not penalise a correct plain word.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "S_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range and accuracy of structures used; typed text may contain writing conventions the learner would not use in speech.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Simple past, future and some subordinate clauses attempted; errors rarely block meaning.",
+        "weak_performance": "Frequent tense and agreement errors.",
+        "expected_evidence": "Structures used; error frequency and type. Structures invited by the task: present_simple, linking_words, quantifiers.",
+        "common_error_patterns": [
+          "past forms",
+          "prepositions"
+        ],
+        "related_subskills": [
+          "descriptive_speaking",
+          "extended_turn"
+        ],
+        "evaluation_limitations": "Do not penalise spelling or punctuation errors in the typed text; they do not describe spoken grammar.",
+        "diagnostic_categories": [
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "S_DEV",
+        "name": "Development of ideas",
+        "description": "How far ideas are explained, justified and supported with reasons, examples or comparisons.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Gives a simple reason or detail for some answers.",
+        "weak_performance": "Statements without reasons.",
+        "expected_evidence": "Reasons, examples, comparisons, consequences, qualification.",
+        "common_error_patterns": [
+          "no reasons"
+        ],
+        "related_subskills": [
+          "descriptive_speaking",
+          "extended_turn"
+        ],
+        "evaluation_limitations": "Judge development relative to the format (a Part 1-style answer is short by design).",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "S_FC",
+        "name": "Fluency and coherence",
+        "description": "How smoothly and logically a response is organised and extended. In the text MVP only the coherence and organisation aspects can be observed; real-time fluency (speed, pauses, hesitation) cannot.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "partial",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Answers in connected sentences with simple linkers (because, so, then).",
+        "weak_performance": "Disconnected sentences; very short responses.",
+        "expected_evidence": "Length and completeness of responses; order of ideas; discourse markers; (typed text: no timing evidence).",
+        "common_error_patterns": [
+          "no linking"
+        ],
+        "related_subskills": [
+          "descriptive_speaking",
+          "extended_turn"
+        ],
+        "evaluation_limitations": "TEXT MVP: hesitation, speech rate, self-correction and filled pauses cannot be observed. Judge organisation only; never infer 'fluent speech' from typed text.",
+        "diagnostic_categories": [
+          "D_VOCAB_REPEAT",
+          "D_COHESION",
+          "D_ORGANISATION",
+          "D_TEXT_ONLY_LIMIT"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "S_PRON",
+        "name": "Pronunciation",
+        "reason": "TEXT MVP: no pronunciation score may be assigned. Do not infer pronunciation from spelling. Reserved for the future audio pipeline."
+      }
+    ],
+    "required_demonstrations": [
+      "Respond to every question or cue point: Describe a meal that you enjoy. | What is the meal? | Who makes it? | What is in it? | When do you have it and why do you like it?",
+      "Use language appropriate to: You tell a friend about a special meal."
+    ],
+    "optional_demonstrations": [
+      "extra detail, examples or personal anecdotes",
+      "the cue-card points in any order"
+    ],
+    "not_penalised": [
+      "short answers to short questions",
+      "spelling or punctuation errors (text MVP)",
+      "absence of complex grammar"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task.",
+    "text_mvp_limitations": [
+      "Pronunciation, intonation, stress and rhythm cannot be assessed from typed text: do not assign a pronunciation score.",
+      "Fluency in the sense of speech rate, pauses and hesitation cannot be assessed; only organisation and coherence can.",
+      "Do not state or imply that this evaluation is a complete assessment of speaking."
+    ]
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_GRAMMAR_RANGE",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SVA",
+      "D_TENSE",
+      "D_TEXT_ONLY_LIMIT",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/speaking_*.py (A2-05)",
+    "spec_sha256": "57eb4812cf94d64a4925f6240d50bc267ad2e4c8241e0223c69558ccfa9b91df",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "A2-05",
+      "lv": "A2",
+      "fmt": "long_turn",
+      "topic": "food_and_nutrition",
+      "title": "A meal I enjoy",
+      "scen": "You tell a friend about a special meal.",
+      "prompt": "Talk about a meal you enjoy. You have 30 seconds to think. Then talk for one to two minutes.",
+      "main": "Describe a meal that you enjoy.",
+      "cue": [
+        "What is the meal?",
+        "Who makes it?",
+        "What is in it?",
+        "When do you have it and why do you like it?"
+      ],
+      "follow": [],
+      "prep": 30,
+      "dur": 100,
+      "w": [
+        40,
+        60,
+        110
+      ],
+      "vocab": [
+        "ingredients",
+        "cooking",
+        "adjectives for taste"
+      ],
+      "gram": [
+        "present_simple",
+        "linking_words",
+        "quantifiers"
+      ],
+      "sub": "descriptive_speaking",
+      "sub2": [
+        "extended_turn"
+      ],
+      "cog": [
+        "describe",
+        "explain_reason"
+      ],
+      "obj": [
+        "Describe a familiar meal with ingredients and a reason"
+      ],
+      "outline": [
+        "My favourite meal is koshari.",
+        "My mother makes it.",
+        "It has rice, lentils and a spicy sauce.",
+        "We eat it on Sundays because it is cheap and tasty."
+      ],
+      "abs": 0
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "43809b92f3251b5fbf705cb2db57d3cedcc76ac6bd880b0b5971d79ace7f4602"
+  }
+}

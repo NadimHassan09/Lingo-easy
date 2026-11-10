@@ -1,0 +1,166 @@
+{
+  "part_id": "LI608",
+  "part_uuid": "d62086c5-dc27-4c00-95c9-224d4704ab6d",
+  "audio_file": "li608_seminar_the_ethics_of_gene_editing.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "1923d4852cb2a30eeb7ad8e0063451b86e9f63c4375a0a3d883b37de3b71936a",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    },
+    "S3": {
+      "voice": "en-GB-LibbyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Byrne",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Tom",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S3",
+      "name": "Nadia",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-LibbyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 13.32
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 13.77,
+      "end": 27.07
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 27.52,
+      "end": 33.61
+    },
+    {
+      "index": 3,
+      "speaker": "S3",
+      "start": 34.06,
+      "end": 58.01
+    },
+    {
+      "index": 4,
+      "speaker": "S2",
+      "start": 58.46,
+      "end": 63.5
+    },
+    {
+      "index": 5,
+      "speaker": "S3",
+      "start": 63.95,
+      "end": 78.79
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 79.24,
+      "end": 84.25
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 84.7,
+      "end": 102.29
+    },
+    {
+      "index": 8,
+      "speaker": "S3",
+      "start": 102.74,
+      "end": 118.51
+    },
+    {
+      "index": 9,
+      "speaker": "S1",
+      "start": 118.96,
+      "end": 121.6
+    },
+    {
+      "index": 10,
+      "speaker": "S3",
+      "start": 122.05,
+      "end": 138.8
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 139.25,
+      "end": 146.74
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 147.19,
+      "end": 157.54
+    },
+    {
+      "index": 13,
+      "speaker": "S3",
+      "start": 157.99,
+      "end": 179.08
+    },
+    {
+      "index": 14,
+      "speaker": "S2",
+      "start": 179.53,
+      "end": 188.51
+    },
+    {
+      "index": 15,
+      "speaker": "S1",
+      "start": 188.96,
+      "end": 199.78
+    },
+    {
+      "index": 16,
+      "speaker": "S2",
+      "start": 200.23,
+      "end": 204.53
+    },
+    {
+      "index": 17,
+      "speaker": "S1",
+      "start": 204.98,
+      "end": 213.19
+    }
+  ],
+  "duration_seconds": 213.19,
+  "size_bytes": 1706156,
+  "audio_sha256": "4dead12a896f5d214488f42fc0c9debd7d8bf9242248a8e8748ba0398f1fc409",
+  "generated_at": "2026-10-30T20:58:22+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

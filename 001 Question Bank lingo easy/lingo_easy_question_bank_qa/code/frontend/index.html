@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lingo Easy - Placement & Assessment (prototype)</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff; --surface: #f4f7fb; --text: #12203a; --muted: #5b6b86;
+    --primary: #1b4f9c; --primary-text: #ffffff; --accent: #4aa3df;
+    --border: #d5deea; --good: #1f8a4c; --warn: #b26a00; --bad: #b3261e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1727; --surface: #17233a; --text: #e8eefb; --muted: #9db0cf;
+      --primary: #4aa3df; --primary-text: #0f1727; --accent: #4aa3df;
+      --border: #2a3b5c; --good: #55c58a; --warn: #e0a84a; --bad: #ff8a80;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.55; }
+  header { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  header h1 { font-size: 1.05rem; margin: 0; }
+  header .tag { font-size: .75rem; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 2px 10px; }
+  main { max-width: 1100px; margin: 0 auto; padding: 20px; }
+  button { font: inherit; cursor: pointer; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); padding: 10px 18px; }
+  button.primary { background: var(--primary); color: var(--primary-text); border-color: var(--primary); font-weight: 600; }
+  button.small { padding: 6px 12px; font-size: .9rem; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+  .muted { color: var(--muted); }
+  .error { color: var(--bad); margin-top: 12px; }
+  .center { text-align: center; padding: 40px 20px; }
+
+  /* home: test-type nav bar + level picker */
+  .navbar { display: inline-flex; gap: 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 6px 0 18px; }
+  .navbar button { border: 0; border-radius: 0; background: var(--bg); padding: 10px 22px; }
+  .navbar button.active { background: var(--primary); color: var(--primary-text); font-weight: 700; }
+  .levels { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 12px 0 20px; }
+  .levels label { border: 1px solid var(--border); border-radius: 10px; padding: 8px 16px; cursor: pointer; background: var(--bg); display: flex; gap: 8px; align-items: center; }
+  .levels label.sel { border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary) inset; font-weight: 700; }
+
+  /* exam chrome */
+  .examtop { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+  .examtop .mid { font-size: .9rem; color: var(--muted); }
+  .skilltabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+  .skilltabs button { border-radius: 999px; }
+  .skilltabs button.active { background: var(--primary); color: var(--primary-text); border-color: var(--primary); font-weight: 700; }
+  .partnav { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+  .partnav button { padding: 5px 12px; font-size: .88rem; }
+  .partnav button.active { border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary) inset; font-weight: 700; }
+  .partnav button.done { border-color: var(--good); }
+  details.comp { font-size: .8rem; color: var(--muted); margin-bottom: 10px; }
+  details.comp summary { cursor: pointer; }
+  .progress { height: 6px; background: var(--border); border-radius: 99px; overflow: hidden; margin-bottom: 16px; }
+  .progress > div { height: 100%; background: var(--accent); }
+
+  .layout { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+  @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } }
+  .text-panel { max-height: 75vh; overflow: auto; position: sticky; top: 8px; }
+  .text-panel h2 { margin-top: 0; font-size: 1.1rem; }
+  .notice { font-size: .85rem; padding: 8px 10px; border-radius: 8px; border: 1px dashed var(--border); margin-bottom: 12px; color: var(--muted); }
+  .turn { margin: 0 0 10px; } .turn b { color: var(--primary); }
+  .para { margin: 0 0 12px; } .para .lbl { font-weight: 700; color: var(--primary); margin-right: 6px; }
+
+  /* questions: main instruction = big bold, item prompt = smaller bold, options = normal */
+  .group { margin-bottom: 26px; }
+  .group .instr { font-size: 1.2rem; font-weight: 800; line-height: 1.35; margin: 0 0 12px; font-style: normal; color: var(--text); }
+  .context { white-space: pre-wrap; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; margin-bottom: 10px; }
+  fieldset { border: 1px solid var(--border); border-radius: 10px; margin: 0 0 12px; padding: 10px 14px 6px; background: var(--bg); }
+  legend { font-size: .98rem; font-weight: 700; padding: 0 6px; }
+  label.opt { display: flex; gap: 10px; align-items: flex-start; padding: 6px 8px; border-radius: 8px; cursor: pointer; font-weight: 400; }
+  label.opt:hover { background: var(--surface); }
+  label.opt input { margin-top: 5px; }
+  .nav { display: flex; justify-content: space-between; margin-top: 16px; gap: 10px; }
+
+  .score { font-size: 2.6rem; font-weight: 700; margin: 0; }
+  .row { display: grid; grid-template-columns: 56px 1fr 90px; gap: 10px; align-items: center; margin: 6px 0; }
+  .bar { height: 12px; background: var(--border); border-radius: 99px; overflow: hidden; }
+  .bar > div { height: 100%; background: var(--accent); }
+  .pill { display: inline-block; padding: 2px 12px; border-radius: 999px; background: var(--primary); color: var(--primary-text); font-weight: 700; }
+  .pill.pass { background: var(--good); } .pill.fail { background: var(--bad); }
+  h3 { margin: 22px 0 6px; font-size: 1rem; }
+</style>
+</head>
+<body>
+<header><h1>Lingo Easy</h1><span class="tag">Placement &amp; Assessment - prototype</span></header>
+<main id="app"></main>
+
+<script>
+"use strict";
+const app = document.getElementById("app");
+const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
+const SKILL_NAME = { listening: "Listening", reading: "Reading" };
+/* mode/level = what the learner picked on the home screen; the rest is the running attempt */
+const state = { mode: "placement", level: "B1", exam: null, parts: [], idx: 0, answers: {} };
+
+/* ---------- tiny DOM helper (always textContent: question text is never parsed as HTML) ---------- */
+function h(tag, props, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(props || {})) {
+    if (k === "class") e.className = v;
+    else if (k === "text") e.textContent = v;
+    else if (k === "checked") e.checked = !!v;
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v);
+    else if (v !== false && v != null) e.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat()) if (kid != null) e.append(kid);
+  return e;
+}
+function show(...nodes) { app.replaceChildren(...nodes); window.scrollTo(0, 0); }
+
+/* ---------- session persistence so a refresh does not lose the attempt ---------- */
+function save() { try { sessionStorage.setItem("lingo-attempt", JSON.stringify(state)); } catch (e) {} }
+function restore() {
+  try {
+    const raw = sessionStorage.getItem("lingo-attempt");
+    if (!raw) return false;
+    const s = JSON.parse(raw);
+    if (!s.exam || !Array.isArray(s.parts) || !s.parts.length) return false;
+    Object.assign(state, s);
+    return true;
+  } catch (e) { return false; }
+}
+function clearSaved() { try { sessionStorage.removeItem("lingo-attempt"); } catch (e) {} }
+
+async function api(path, body) {
+  const res = await fetch(path, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body || {}) });
+  let data = {};
+  try { data = await res.json(); } catch (e) {}
+  if (!res.ok) {
+    const d = data.detail;
+    throw new Error(typeof d === "string" ? d : (d && d.message) || "Request failed (" + res.status + ")");
+  }
+  return data;
+}
+
+/* ---------- home screen: pick test type (+ level for assessment) ---------- */
+function startScreen(errorText) {
+  const err = h("div", { class: "error", text: errorText || "" });
+  const body = h("div", {});
+
+  function tabButton(mode, label) {
+    return h("button", { class: state.mode === mode ? "active" : "", text: label,
+      onclick: () => { state.mode = mode; startScreen(); } });
+  }
+  const navbar = h("div", { class: "navbar", role: "tablist" },
+    tabButton("placement", "Placement test"), tabButton("assessment", "Assessment test"));
+
+  if (state.mode === "placement") {
+    body.append(
+      h("p", { class: "muted", text: "Finds your level. Listening and Reading, all CEFR levels mixed, every question is multiple choice." }));
+  } else {
+    const levelBox = h("div", { class: "levels" });
+    LEVELS.forEach(l => {
+      const input = h("input", { type: "radio", name: "level", value: l, checked: state.level === l,
+        onchange: () => { state.level = l; startScreen(); } });
+      levelBox.append(h("label", { class: state.level === l ? "sel" : "" }, input, h("span", { text: l })));
+    });
+    body.append(
+      h("p", { class: "muted", text: "Tests one level only. Choose the level you want to be tested on:" }),
+      levelBox);
+  }
+
+  const btn = h("button", { class: "primary", text: state.mode === "placement" ? "Start placement test" : "Start " + state.level + " assessment", onclick: async () => {
+    btn.disabled = true; btn.textContent = "Preparing your test...";
+    try {
+      const payload = state.mode === "assessment" ? { mode: "assessment", level: state.level } : { mode: "placement" };
+      const exam = await api("/api/exam/start", payload);
+      state.exam = exam; state.answers = {}; state.idx = 0;
+      state.parts = exam.sections.flatMap(s => s.parts);
+      save(); renderExam();
+    } catch (e) { startScreen(e.message); }
+  }});
+
+  show(h("div", { class: "card center" },
+    h("h2", { text: "English test" }),
+    navbar, body,
+    h("p", { class: "muted", text: "Listening audio is not available yet: read each transcript as if you were hearing it." }),
+    btn, err));
+}
+
+/* ---------- exam screen ---------- */
+function partItems(p) { return p.groups.flatMap(g => g.items); }
+function partAnswered(p) { return partItems(p).filter(it => state.answers[it.id]).length; }
+function totalItems() { return state.parts.reduce((n, p) => n + partItems(p).length, 0); }
+function answeredCount() { return Object.values(state.answers).filter(Boolean).length; }
+function go(i) { state.idx = Math.max(0, Math.min(state.parts.length - 1, i)); save(); renderExam(); }
+
+function exitTest() {
+  if (!confirm("Leave this test? Your answers will be lost and you will return to the start screen.")) return;
+  clearSaved(); state.exam = null; state.parts = []; state.answers = {}; state.idx = 0;
+  startScreen();
+}
+
+function renderExam() {
+  const part = state.parts[state.idx];
+  const last = state.idx === state.parts.length - 1;
+  const title = state.exam.mode === "assessment" ? state.exam.level + " assessment" : "Placement test";
+
+  /* --- text panel (one passage / one dialogue per part) --- */
+  const textPanel = h("div", { class: "card text-panel" });
+  if (part.text.kind === "transcript") {
+    textPanel.append(h("h2", { text: part.title }),
+      h("div", { class: "notice", text: "Audio will be added later. Read this transcript as if you were listening." }));
+    part.text.turns.forEach(t => textPanel.append(h("p", { class: "turn" }, h("b", { text: t.speaker + ": " }), t.text)));
+  } else {
+    textPanel.append(h("h2", { text: part.text.title }));
+    part.text.paragraphs.forEach(p => textPanel.append(h("p", { class: "para" }, h("span", { class: "lbl", text: p.label }), p.text)));
+  }
+
+  /* --- questions --- */
+  const questions = h("div", {});
+  part.groups.forEach(g => {
+    const box = h("div", { class: "group" }, h("p", { class: "instr", text: g.instruction }));
+    if (g.context) box.append(h("div", { class: "context", text: g.context }));
+    g.items.forEach(it => {
+      const fs = h("fieldset", {}, h("legend", { text: it.number + ". " + it.prompt }));
+      it.options.forEach(o => {
+        const input = h("input", { type: "radio", name: it.id, value: o.id, checked: state.answers[it.id] === o.id,
+          onchange: () => { state.answers[it.id] = o.id; save(); refreshChrome(); } });
+        fs.append(h("label", { class: "opt" }, input, h("span", { text: o.id + ". " + o.text })));
+      });
+      box.append(fs);
+    });
+    questions.append(box);
+  });
+
+  /* --- navigation chrome (rebuilt on every answer so the counters stay live) --- */
+  const topText = h("span", {});
+  const barFill = h("div", { style: "width:0%" });
+  const navBox = h("div", {});
+  function refreshChrome() {
+    topText.textContent = "Answered " + answeredCount() + " of " + totalItems();
+    barFill.style.width = Math.round(100 * answeredCount() / Math.max(1, totalItems())) + "%";
+    const skills = [...new Set(state.parts.map(p => p.skill))];
+    const tabs = h("div", { class: "skilltabs" });
+    skills.forEach(s => {
+      const inSkill = state.parts.filter(p => p.skill === s);
+      const done = inSkill.reduce((n, p) => n + partAnswered(p), 0);
+      const tot = inSkill.reduce((n, p) => n + partItems(p).length, 0);
+      tabs.append(h("button", { class: part.skill === s ? "active" : "", text: SKILL_NAME[s] + "  " + done + "/" + tot,
+        onclick: () => go(state.parts.findIndex(p => p.skill === s)) }));
+    });
+    const nav = h("div", { class: "partnav" });
+    state.parts.forEach((p, i) => {
+      if (p.skill !== part.skill) return;
+      const n = state.parts.slice(0, i).filter(q => q.skill === p.skill).length + 1;
+      const all = partItems(p).length, got = partAnswered(p);
+      nav.append(h("button", { class: (i === state.idx ? "active " : "") + (got === all ? "done" : ""),
+        title: p.part_id + " - " + p.title, text: "Part " + n + "  (" + got + "/" + all + ")", onclick: () => go(i) }));
+    });
+    navBox.replaceChildren(tabs, nav);
+  }
+  refreshChrome();
+
+  const comp = h("details", { class: "comp" },
+    h("summary", { text: "Test composition (shows that every attempt is different)" }),
+    h("div", { text: "Attempt " + state.exam.exam_id.slice(0, 8) + " - " + state.parts.map(p => p.part_id).join(", ") }));
+
+  const errBox = h("div", { class: "error" });
+  const submitBtn = h("button", { class: "primary small", text: "Submit test", onclick: () => submit(submitBtn, errBox) });
+  const prev = h("button", { text: "Back", disabled: state.idx === 0, onclick: () => go(state.idx - 1) });
+  const next = last
+    ? h("button", { class: "primary", text: "Submit test", onclick: () => submit(next, errBox) })
+    : h("button", { class: "primary", text: "Next part", onclick: () => go(state.idx + 1) });
+
+  show(
+    h("div", { class: "examtop" },
+      h("button", { class: "small", text: "Exit test", onclick: exitTest }),
+      h("span", { class: "mid" }, title + "  |  " + SKILL_NAME[part.skill] + "  |  ", topText),
+      submitBtn),
+    navBox,
+    h("div", { class: "progress" }, barFill),
+    h("div", { class: "layout" }, textPanel, questions),
+    h("div", { class: "nav" }, prev, next),
+    errBox, comp);
+}
+
+async function submit(btn, errBox) {
+  const missing = totalItems() - answeredCount();
+  if (missing > 0 && !confirm(missing + " question(s) are unanswered. Submit anyway?")) return;
+  const label = btn.textContent;
+  btn.disabled = true; btn.textContent = "Scoring...";
+  try {
+    const result = await api("/api/exam/" + state.exam.exam_id + "/submit", { answers: state.answers });
+    clearSaved(); renderResult(result);
+  } catch (e) {
+    btn.disabled = false; btn.textContent = label; errBox.textContent = e.message;
+  }
+}
+
+/* ---------- result screen ---------- */
+function levelBars(byLevel) {
+  const box = h("div", {});
+  LEVELS.forEach(l => {
+    const b = byLevel[l];
+    box.append(h("div", { class: "row" },
+      h("span", { text: l }),
+      h("div", { class: "bar" }, h("div", { style: "width:" + (b && b.total ? b.percent : 0) + "%" })),
+      h("span", { class: "muted", text: b && b.total ? b.correct + "/" + b.total : "-" })));
+  });
+  return box;
+}
+
+function renderResult(r) {
+  const skillLines = Object.entries(r.by_skill).map(([s, b]) =>
+    h("p", {}, h("b", { text: SKILL_NAME[s] + ": " }), b.correct + " / " + b.total + " (" + b.percent + "%)"));
+  const card = h("div", { class: "card" },
+    h("p", { class: "muted", text: r.mode === "assessment" ? "Your " + r.assessment.level + " assessment result" : "Your placement result" }),
+    h("p", { class: "score", text: r.total.correct + " / " + r.total.total }),
+    h("p", { class: "muted", text: r.total.percent + "% correct, " + r.total.answered + " answered" }),
+    skillLines);
+  if (r.mode === "assessment") {
+    card.append(
+      h("h3", { text: "Level " + r.assessment.level }),
+      h("p", {}, h("span", { class: "pill " + (r.assessment.passed ? "pass" : "fail"), text: r.assessment.passed ? "Passed" : "Not yet" })),
+      h("p", { class: "muted", text: "Prototype rule: " + r.assessment.pass_mark + "% correct counts as a pass for this level." }));
+  } else {
+    card.append(
+      h("h3", { text: "Indicative level" }),
+      h("p", {}, h("span", { class: "pill", text: r.indicative_level.overall })),
+      h("p", { class: "muted", text: "Prototype rule, not a final placement: " + r.indicative_level.rule + "." }),
+      h("h3", { text: "Correct answers by CEFR level (both skills)" }),
+      levelBars(r.by_level));
+  }
+  card.append(h("div", { class: "nav" }, h("span", {}),
+    h("button", { class: "primary", text: "Take a new test", onclick: () => { clearSaved(); state.exam = null; startScreen(); } })));
+  show(card);
+}
+
+/* ---------- boot ---------- */
+if (restore() && state.exam) renderExam(); else startScreen();
+</script>
+</body>
+</html>

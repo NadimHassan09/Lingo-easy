@@ -1,0 +1,325 @@
+[
+ {
+  "id": "LI201-Q04",
+  "set": {
+   "A": "It is cheaper than the garden room",
+   "C": "It is quieter at night"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI201-Q09",
+  "set": {
+   "A": "Wait in the hotel dining room",
+   "C": "Leave their bags in the car park"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI202-Q04",
+  "set": {
+   "A": "Pasta with a tomato sauce",
+   "B": "A chicken curry with rice"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI202-Q05",
+  "set": {
+   "A": "On the tables by the window",
+   "B": "In the red box by the sink"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI202-Q06",
+  "set": {
+   "A": "Vegetable soup and bread",
+   "B": "A chicken curry with rice"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI203-Q07",
+  "set": {
+   "A": "It is open until late in the evening",
+   "B": "It is on the way to the post office"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI203-Q10",
+  "set": {
+   "A": "Hot meals and soup",
+   "B": "Ice cream and drinks"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI204-Q06",
+  "set": {
+   "A": "Build a small rocket in groups",
+   "C": "Do a workshop and then have lunch"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI206-Q01",
+  "set": {
+   "A": "In the north of Scotland"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI206-Q02",
+  "set": {
+   "B": "Only people who walk daily",
+   "C": "Only families with children"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI206-Q08",
+  "set": {
+   "B": "They are too heavy to carry",
+   "C": "They are hard to find in shops"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI206-Q10",
+  "set": {
+   "A": "Prices go up after the first of May",
+   "B": "The trail closes in the winter months"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI207-Q01",
+  "set": {
+   "B": "He needs a quiet place to work",
+   "C": "His old library was closed down"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI207-Q03",
+  "set": {
+   "A": "A phone bill from last month",
+   "B": "A letter from his old school"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI208-Q03",
+  "set": {
+   "A": "It is too expensive this year",
+   "C": "It has no space for the family"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI208-Q08",
+  "set": {
+   "B": "They are going to the restaurant",
+   "C": "He has been told nothing at all"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI209-Q01",
+  "set": {
+   "A": "A dentist at a private clinic",
+   "C": "A hotel manager in the city"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI210-Q04",
+  "set": {
+   "A": "Sunny with some cloud at night",
+   "B": "Heavy rain from morning to night"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI210-Q07",
+  "set": {
+   "B": "Thick fog",
+   "C": "Light snow"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI210-Q08",
+  "set": {
+   "A": "The roads will be icy early on",
+   "C": "The wind is very strong on hills"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI210-Q09",
+  "set": {
+   "B": "Warm weather from the Atlantic",
+   "C": "Strong winds on the south coast"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI210-Q10",
+  "set": {
+   "A": "Warmer with heavy rain again",
+   "C": "Snowy and dark in the north"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE201-Q01",
+  "set": {
+   "A": "A big arts festival every year",
+   "B": "A small hostel near the station"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE202-Q02",
+  "set": {
+   "A": "He was in pain after two floors",
+   "C": "He felt dizzy and sat down"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE202-Q04",
+  "set": {
+   "B": "His doctor at the clinic",
+   "C": "His brother at the gym"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE203-Q02",
+  "set": {
+   "B": "By using pedals on the front wheel",
+   "C": "By turning a handle with his hands"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE203-Q04",
+  "set": {
+   "A": "The rider had to push it with his feet",
+   "C": "It had thin wheels made of rubber"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE203-Q05",
+  "set": {
+   "B": "It had no brakes on the front wheel",
+   "C": "It was very slow on bumpy roads"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE206-Q03",
+  "set": {
+   "B": "She broke her leg in an accident",
+   "C": "She began to paint herself"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE206-Q05",
+  "set": {
+   "A": "Famous people from Mexico City",
+   "C": "Big cities and busy markets"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE207-Q05",
+  "set": {
+   "B": "They are cheap but they run late",
+   "C": "They only run in the city centre"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE208-Q02",
+  "set": {
+   "B": "Horses, birds and rabbits",
+   "C": "Cats, fish and small birds"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE208-Q03",
+  "set": {
+   "A": "She takes the dogs for a long walk",
+   "B": "She plays with the cats and brushes them"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE208-Q05",
+  "set": {
+   "A": "She walks the dogs in the field behind",
+   "C": "She feeds the animals and cleans rooms"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE209-Q05",
+  "set": {
+   "B": "They talk more than other students",
+   "C": "They get better marks than others"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE210-Q04",
+  "set": {
+   "A": "Green tea with fresh mint leaves",
+   "B": "Black tea with lemon and honey"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ }
+]

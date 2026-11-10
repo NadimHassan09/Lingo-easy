@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "id": "LI309",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Renting a Car",
+  "topic": "transport",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li309_renting_a_car.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Lucy",
+        "gender": "female",
+        "accent": "british",
+        "role": "car rental agent"
+      },
+      {
+        "id": "S2",
+        "name": "Greg Hunt",
+        "gender": "male",
+        "accent": "american",
+        "role": "customer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon, Sunshine Car Rental. How can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hi. I'd like to rent a car for a week, starting this Saturday. I'll collect it at the airport."
+      },
+      {
+        "speaker": "S1",
+        "text": "Certainly. What size of car do you need?"
+      },
+      {
+        "speaker": "S2",
+        "text": "There will be four of us, plus luggage. So something fairly big."
+      },
+      {
+        "speaker": "S1",
+        "text": "Then I'd recommend a family estate. It has plenty of space and costs forty-five pounds a day. Alternatively, a smaller hatchback is thirty-two pounds a day, but it's tight for four adults with suitcases."
+      },
+      {
+        "speaker": "S2",
+        "text": "The estate sounds right. Does that price include insurance?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Basic insurance is included, but there is an excess of five hundred pounds if you have an accident. For ten pounds a day extra, you can reduce the excess to zero."
+      },
+      {
+        "speaker": "S2",
+        "text": "I think I'll take the extra insurance. We'll be driving in the mountains."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's sensible. Will anyone else be driving apart from you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, my wife. Do we pay extra for a second driver?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It's five pounds a day, but it's free for the first day. I'll need to see both driving licences when you collect the car."
+      },
+      {
+        "speaker": "S2",
+        "text": "No problem. What about fuel? Do we return the car with a full tank?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, you collect it with a full tank and you should return it full. If not, we charge a refuelling fee."
+      },
+      {
+        "speaker": "S2",
+        "text": "And can we drive it to France?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Only if you tell us in advance. There's a fee of fifteen pounds for driving abroad, and you'll need extra paperwork."
+      },
+      {
+        "speaker": "S2",
+        "text": "We are planning a day trip to Calais, so yes, please add that."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay. So that's a family estate for seven days, with full insurance, a second driver and travel to France. I'll calculate the total. Could I have your name and phone number?"
+      },
+      {
+        "speaker": "S2",
+        "text": "It's Greg Hunt, and my number is on the booking page I filled in online."
+      },
+      {
+        "speaker": "S1",
+        "text": "I see it. Thank you, Mr Hunt. You'll receive a confirmation email within the hour."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI309-Q01",
+          "number": 1,
+          "prompt": "Where will Greg collect the car?",
+          "options": [
+            {
+              "id": "A",
+              "text": "At the station"
+            },
+            {
+              "id": "B",
+              "text": "At the airport"
+            },
+            {
+              "id": "C",
+              "text": "In the city centre"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'll collect it at the airport"
+          },
+          "explanation": "The audio says: \"I'll collect it at the airport\".",
+          "uuid": "16ebcdac-fa6b-5a22-b77b-7c2d05081bf1"
+        },
+        {
+          "id": "LI309-Q02",
+          "number": 2,
+          "prompt": "How many people will travel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two"
+            },
+            {
+              "id": "B",
+              "text": "Four"
+            },
+            {
+              "id": "C",
+              "text": "Six"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "There will be four of us"
+          },
+          "explanation": "The audio says: \"There will be four of us\".",
+          "uuid": "38a236b7-ba2f-5ba4-934b-76cf5df1bb24"
+        },
+        {
+          "id": "LI309-Q03",
+          "number": 3,
+          "prompt": "Which car does the agent recommend?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A small hatchback"
+            },
+            {
+              "id": "B",
+              "text": "A family estate"
+            },
+            {
+              "id": "C",
+              "text": "A minibus"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'd recommend a family estate"
+          },
+          "explanation": "The audio says: \"I'd recommend a family estate\".",
+          "uuid": "44771979-4d35-54a3-a1b6-bfb4a313c13e"
+        },
+        {
+          "id": "LI309-Q04",
+          "number": 4,
+          "prompt": "How much is the recommended car per day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "32 pounds"
+            },
+            {
+              "id": "B",
+              "text": "55 pounds"
+            },
+            {
+              "id": "C",
+              "text": "45 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "costs forty-five pounds a day"
+          },
+          "explanation": "The audio says: \"costs forty-five pounds a day\".",
+          "uuid": "ff41010b-fd1d-5c40-8715-fc908923797a"
+        },
+        {
+          "id": "LI309-Q05",
+          "number": 5,
+          "prompt": "How much is the excess with basic insurance?",
+          "options": [
+            {
+              "id": "A",
+              "text": "500 pounds"
+            },
+            {
+              "id": "B",
+              "text": "50 pounds"
+            },
+            {
+              "id": "C",
+              "text": "5,000 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "an excess of five hundred pounds"
+          },
+          "explanation": "The audio says: \"an excess of five hundred pounds\".",
+          "uuid": "1e1bdf8b-3fc1-5017-b1d4-e7be2d99c94d"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI309-Q06",
+          "number": 6,
+          "prompt": "Why does Greg take the extra insurance?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They will drive in the mountains"
+            },
+            {
+              "id": "B",
+              "text": "The estate car is several years old"
+            },
+            {
+              "id": "C",
+              "text": "His wife has just passed her test"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "We'll be driving in the mountains"
+          },
+          "explanation": "The audio says: \"We'll be driving in the mountains\".",
+          "uuid": "9f35b7d3-61b4-587f-a817-432091f68c3c"
+        },
+        {
+          "id": "LI309-Q07",
+          "number": 7,
+          "prompt": "Who will be the second driver?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Greg's brother"
+            },
+            {
+              "id": "B",
+              "text": "Greg's wife"
+            },
+            {
+              "id": "C",
+              "text": "A friend"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Yes, my wife"
+          },
+          "explanation": "The audio says: \"Yes, my wife\".",
+          "uuid": "4740f24c-3113-5a9c-96ca-8140227e901b"
+        },
+        {
+          "id": "LI309-Q08",
+          "number": 8,
+          "prompt": "What must Greg do with the fuel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Return the car with a full tank"
+            },
+            {
+              "id": "B",
+              "text": "Return it with an empty tank"
+            },
+            {
+              "id": "C",
+              "text": "Pay for fuel at the end"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "you should return it full"
+          },
+          "explanation": "The audio says: \"you should return it full\".",
+          "uuid": "0df4adcc-0134-5cfc-b58d-b1b3c15e6b14"
+        },
+        {
+          "id": "LI309-Q09",
+          "number": 9,
+          "prompt": "How much extra is it to drive abroad?",
+          "options": [
+            {
+              "id": "A",
+              "text": "15 pounds"
+            },
+            {
+              "id": "B",
+              "text": "5 pounds"
+            },
+            {
+              "id": "C",
+              "text": "50 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a fee of fifteen pounds for driving abroad"
+          },
+          "explanation": "The audio says: \"a fee of fifteen pounds for driving abroad\".",
+          "uuid": "51f318e5-1d18-5f63-9c9c-83d59d6f39dc"
+        },
+        {
+          "id": "LI309-Q10",
+          "number": 10,
+          "prompt": "When will Greg receive the confirmation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tomorrow morning"
+            },
+            {
+              "id": "B",
+              "text": "Within an hour"
+            },
+            {
+              "id": "C",
+              "text": "At the airport"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "confirmation email within the hour"
+          },
+          "explanation": "The audio says: \"confirmation email within the hour\".",
+          "uuid": "38d413f2-7d68-5aca-b5e1-7e9ea6b3abe4"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "0e92e581-6128-4601-8582-b22f32124e18",
+  "derived": {
+    "word_count": 320,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 1
+    },
+    "content_hash": "2a7691608ea272d4"
+  }
+}

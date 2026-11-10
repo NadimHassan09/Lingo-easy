@@ -1,0 +1,533 @@
+{
+  "schema_version": "1.0",
+  "id": "RE001",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "From Wheat to Bread",
+  "topic": "food_and_nutrition",
+  "profile": "foundation",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "From Wheat to Bread",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Bread is one of the oldest foods in the world, and people eat it almost every day in many countries. The basic ingredients are simple: flour, water, salt and a small amount of yeast. Yet the way these four things become a loaf is surprisingly interesting, and it shows how much skill goes into an ordinary meal."
+      },
+      {
+        "label": "B",
+        "text": "The story starts in the fields. Farmers grow wheat during the spring and harvest it in the summer. After that, the grain goes to a mill, where large machines crush it into flour. Brown flour keeps the outer part of the grain, so it contains more fibre than white flour, which is why many doctors recommend it. White flour is softer and lighter, and it is still the more popular choice in most shops."
+      },
+      {
+        "label": "C",
+        "text": "At the bakery, the baker mixes the flour with water and salt. Then comes the yeast. Yeast is a tiny living thing that eats the sugar in the flour and produces gas. The gas makes small bubbles in the dough, and this is why bread is soft inside. The dough must rest for about two hours in a warm place, because in a cold room the yeast works very slowly. During this time the dough slowly grows to almost twice its original size."
+      },
+      {
+        "label": "D",
+        "text": "Next, the baker shapes the dough and puts it in a very hot oven, usually at around two hundred and twenty degrees. Baking takes about forty minutes. Although a home cook may think the job is finished at this point, a good baker always waits until the bread is completely cool before cutting it, since the inside continues to set as the heat escapes. Cutting a loaf too early can make it look heavy and sticky."
+      },
+      {
+        "label": "E",
+        "text": "In recent years, more people have started baking at home. Some do it to save money, but most say they enjoy the smell and the feeling of making something with their hands. Bakers do not agree about the best method, however. Some prefer a quick loaf made with extra yeast, while others believe that a slow rise over a whole night produces a richer flavour. Whichever way is chosen, the result is almost always worth the effort."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE001-Q01",
+          "number": 1,
+          "prompt": "Which of these is an ingredient of bread?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rice"
+            },
+            {
+              "id": "B",
+              "text": "Flour"
+            },
+            {
+              "id": "C",
+              "text": "Butter"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "flour, water, salt and a small amount of yeast"
+          },
+          "explanation": "Flour is the first ingredient in the list. Rice and butter are not mentioned.",
+          "uuid": "fe10bb18-e120-5dac-9f21-5b4d894deb78"
+        },
+        {
+          "id": "RE001-Q02",
+          "number": 2,
+          "prompt": "When do farmers harvest the wheat?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In spring"
+            },
+            {
+              "id": "B",
+              "text": "In summer"
+            },
+            {
+              "id": "C",
+              "text": "In winter"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "harvest it in the summer"
+          },
+          "explanation": "Farmers grow wheat in spring but harvest it in the summer.",
+          "uuid": "e16875f4-448a-583d-b917-4d626a5af842"
+        },
+        {
+          "id": "RE001-Q03",
+          "number": 3,
+          "prompt": "How long does the baking take?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About forty minutes"
+            },
+            {
+              "id": "B",
+              "text": "About twenty minutes"
+            },
+            {
+              "id": "C",
+              "text": "About two hours"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Baking takes about forty minutes"
+          },
+          "explanation": "The text says baking takes about forty minutes. Two hours is the time the dough rests.",
+          "uuid": "4f58ac34-7aef-5675-8add-6b89a36058a0"
+        },
+        {
+          "id": "RE001-Q04",
+          "number": 4,
+          "prompt": "Where is the grain turned into flour?",
+          "options": [
+            {
+              "id": "A",
+              "text": "At a farm"
+            },
+            {
+              "id": "B",
+              "text": "At a bakery"
+            },
+            {
+              "id": "C",
+              "text": "At a mill"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "the grain goes to a mill, where large machines crush it into flour"
+          },
+          "explanation": "The grain goes to a mill, where machines crush it into flour.",
+          "uuid": "0345cdfb-70f3-5e1f-ab07-a8ef2e234e44"
+        },
+        {
+          "id": "RE001-Q05",
+          "number": 5,
+          "prompt": "Why do many doctors recommend brown flour?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has more fibre."
+            },
+            {
+              "id": "B",
+              "text": "It is cheaper."
+            },
+            {
+              "id": "C",
+              "text": "It tastes sweeter."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "it contains more fibre than white flour"
+          },
+          "explanation": "Brown flour keeps the outer part of the grain, so it contains more fibre than white flour.",
+          "uuid": "dbd468a8-fc3b-537c-8d11-330ef4adcf0e"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE001-Q06",
+          "number": 6,
+          "prompt": "People in many countries eat bread nearly every day.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "people eat it almost every day in many countries"
+          },
+          "explanation": "The first paragraph says people in many countries eat bread almost every day.",
+          "uuid": "7e3e8120-5ddb-5c77-b20b-3695937e3b37"
+        },
+        {
+          "id": "RE001-Q07",
+          "number": 7,
+          "prompt": "Yeast is a living thing.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Yeast is a tiny living thing"
+          },
+          "explanation": "The text describes yeast as a tiny living thing.",
+          "uuid": "cba21463-a835-58d0-96cc-377102b52a4e"
+        },
+        {
+          "id": "RE001-Q08",
+          "number": 8,
+          "prompt": "The dough can rest in any room, warm or cold.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "modals_obligation_advice"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "The dough must rest for about two hours in a warm place"
+          },
+          "explanation": "The dough must rest in a warm place, because yeast works very slowly in a cold room.",
+          "uuid": "901175f8-a05f-575c-9a28-a3888e90e3cd"
+        },
+        {
+          "id": "RE001-Q09",
+          "number": 9,
+          "prompt": "A hotter oven makes bread taste better.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "The text gives the usual oven temperature but never says that a hotter oven improves the taste.",
+          "uuid": "63c576d5-eea7-5b00-95c6-a8eff869d56e"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE001-Q10",
+          "number": 10,
+          "prompt": "The gas from the yeast makes small _____ in the dough.",
+          "options": [
+            {
+              "id": "A",
+              "text": "cracks"
+            },
+            {
+              "id": "B",
+              "text": "bubbles"
+            },
+            {
+              "id": "C",
+              "text": "lumps"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "The gas makes small bubbles in the dough"
+          },
+          "explanation": "The gas makes small bubbles, which is why bread is soft inside.",
+          "uuid": "8659380c-dc67-59cb-8093-74dce3ee56a8"
+        },
+        {
+          "id": "RE001-Q11",
+          "number": 11,
+          "prompt": "A good baker does not cut the bread while it is still _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "cold"
+            },
+            {
+              "id": "B",
+              "text": "dry"
+            },
+            {
+              "id": "C",
+              "text": "hot"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "waits until the bread is completely cool before cutting it"
+          },
+          "explanation": "A good baker waits until the bread is completely cool, so it should not be cut while hot.",
+          "uuid": "05db4893-40d4-5c9b-9996-519f4dab36e6"
+        },
+        {
+          "id": "RE001-Q12",
+          "number": 12,
+          "prompt": "It is better to wait before cutting because the inside of the bread _____ as the heat escapes.",
+          "options": [
+            {
+              "id": "A",
+              "text": "keeps getting firmer"
+            },
+            {
+              "id": "B",
+              "text": "loses its flavour"
+            },
+            {
+              "id": "C",
+              "text": "becomes much softer"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "synonym_paraphrase",
+            "target": "continues to set = keeps getting firmer"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "the inside continues to set as the heat escapes"
+          },
+          "explanation": "To set means to become firm, so the inside keeps getting firmer while the bread cools.",
+          "uuid": "35744086-2e8e-5952-958b-4085eb7ea42d"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE001-Q13",
+          "number": 13,
+          "prompt": "What does the writer suggest about baking methods in the last paragraph?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Most home bakers use the same method."
+            },
+            {
+              "id": "B",
+              "text": "There is no single best way to make good bread."
+            },
+            {
+              "id": "C",
+              "text": "A slow rise is too difficult for home bakers."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Bakers do not agree about the best method"
+          },
+          "explanation": "Bakers disagree and the writer says the result is worth the effort whichever way is chosen, so no method is clearly best.",
+          "uuid": "4624c4c5-2a4f-52b2-94f2-2ee8b7d00833"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "475a17e2-4c2f-49c3-8bb9-2565eca65b5b",
+  "derived": {
+    "word_count": 367,
+    "level_counts": {
+      "A1": 2,
+      "A2": 4,
+      "B1": 4,
+      "B2": 3,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.0,
+    "answer_counts": {
+      "A": 5,
+      "B": 5,
+      "C": 3
+    },
+    "content_hash": "c8cacc98ee2b841c"
+  }
+}

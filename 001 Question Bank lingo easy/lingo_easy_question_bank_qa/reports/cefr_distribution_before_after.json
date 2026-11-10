@@ -1,0 +1,228 @@
+{
+  "method": "heuristic composite v1 (surface features; cut-offs from medians of authored level-pure banks; NOT empirically calibrated)",
+  "status": "RECOMMENDATIONS ONLY: no level.cefr value was changed in the bank",
+  "cutoffs_total_score": [
+    18.75,
+    20.61,
+    22.95,
+    25.64,
+    27.25
+  ],
+  "level_medians_total_score": {
+    "A1": 17.72,
+    "A2": 19.78,
+    "B1": 21.43,
+    "B2": 24.47,
+    "C1": 26.82,
+    "C2": 27.69
+  },
+  "overall_before": {
+    "A1": 239,
+    "A2": 265,
+    "B1": 282,
+    "B2": 303,
+    "C1": 275,
+    "C2": 246
+  },
+  "overall_after_recommended": {
+    "A1": 345,
+    "A2": 211,
+    "B1": 278,
+    "B2": 264,
+    "C1": 136,
+    "C2": 376
+  },
+  "by_bank_before": {
+    "assessment_A1": {
+      "A1": 230,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "assessment_A2": {
+      "A1": 0,
+      "A2": 230,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "assessment_B1": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 230,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "assessment_B2": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 230,
+      "C1": 0,
+      "C2": 0
+    },
+    "assessment_C1": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 230,
+      "C2": 0
+    },
+    "assessment_C2": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 230
+    },
+    "placement": {
+      "A1": 9,
+      "A2": 35,
+      "B1": 52,
+      "B2": 73,
+      "C1": 45,
+      "C2": 16
+    }
+  },
+  "by_bank_after_recommended": {
+    "assessment_A1": {
+      "A1": 144,
+      "A2": 32,
+      "B1": 40,
+      "B2": 10,
+      "C1": 4,
+      "C2": 0
+    },
+    "assessment_A2": {
+      "A1": 87,
+      "A2": 58,
+      "B1": 55,
+      "B2": 24,
+      "C1": 6,
+      "C2": 0
+    },
+    "assessment_B1": {
+      "A1": 42,
+      "A2": 51,
+      "B1": 61,
+      "B2": 52,
+      "C1": 10,
+      "C2": 14
+    },
+    "assessment_B2": {
+      "A1": 20,
+      "A2": 26,
+      "B1": 42,
+      "B2": 48,
+      "C1": 35,
+      "C2": 59
+    },
+    "assessment_C1": {
+      "A1": 7,
+      "A2": 11,
+      "B1": 22,
+      "B2": 54,
+      "C1": 29,
+      "C2": 107
+    },
+    "assessment_C2": {
+      "A1": 13,
+      "A2": 8,
+      "B1": 23,
+      "B2": 30,
+      "C1": 33,
+      "C2": 123
+    },
+    "placement": {
+      "A1": 32,
+      "A2": 25,
+      "B1": 35,
+      "B2": 46,
+      "C1": 19,
+      "C2": 73
+    }
+  },
+  "heuristic_vs_recorded_agreement": {
+    "exact_agreement": 0.32111801242236027,
+    "within_one_level": 0.7217391304347827,
+    "spearman_score_vs_recorded_band": 0.649,
+    "spearman_by_modality": {
+      "reading": 0.643,
+      "listening": 0.711
+    }
+  },
+  "n_questions": 1610,
+  "changes_recommended": 1093,
+  "human_review_required_gap_ge_2": 448,
+  "changes_by_gap": {
+    "0": 517,
+    "1": 338,
+    "2": 171,
+    "3": 37,
+    "4": 6,
+    "-1": 307,
+    "-2": 140,
+    "-3": 59,
+    "-4": 19,
+    "-5": 14,
+    "5": 2
+  },
+  "changes_with_confidence_ge_40": 360,
+  "confusion_original_to_recommended": {
+    "A1": {
+      "A1": 146,
+      "A2": 33,
+      "B1": 42,
+      "B2": 12,
+      "C1": 4,
+      "C2": 2
+    },
+    "A2": {
+      "A1": 99,
+      "A2": 64,
+      "B1": 62,
+      "B2": 32,
+      "C1": 6,
+      "C2": 2
+    },
+    "B1": {
+      "A1": 50,
+      "A2": 59,
+      "B1": 74,
+      "B2": 66,
+      "C1": 14,
+      "C2": 19
+    },
+    "B2": {
+      "A1": 25,
+      "A2": 36,
+      "B1": 53,
+      "B2": 63,
+      "C1": 43,
+      "C2": 83
+    },
+    "C1": {
+      "A1": 11,
+      "A2": 11,
+      "B1": 24,
+      "B2": 61,
+      "C1": 34,
+      "C2": 134
+    },
+    "C2": {
+      "A1": 14,
+      "A2": 8,
+      "B1": 23,
+      "B2": 30,
+      "C1": 35,
+      "C2": 136
+    }
+  },
+  "caveat": "Circular calibration: cut-offs come from the same authored banks that are being assessed. Use only to surface outliers for human review."
+}

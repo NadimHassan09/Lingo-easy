@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE405",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "The Decline of Print Newspapers",
+  "topic": "media_and_communication",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "The Decline of Print Newspapers",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In 2000, the average weekday edition of a British national newspaper sold around two million copies. Today, the figure is closer to half a million for the best-selling title, and several regional papers have closed altogether. The cause appears obvious: people now read the news online, often for free. But the story is more complicated than a simple move from paper to screen."
+      },
+      {
+        "label": "B",
+        "text": "One complication is that readership has not fallen as sharply as sales. Many newspapers now reach more people than ever through their websites. The Guardian, for instance, has more than a hundred million monthly visitors worldwide. The difficulty is that online readers bring far less money. A print reader pays a cover price and also attracts advertisers willing to pay high rates. An online reader may read three articles, see a few cheap advertisements and leave."
+      },
+      {
+        "label": "C",
+        "text": "Several newspapers have responded by asking readers to pay. The New York Times has more than nine million subscribers, a model many publishers admire. But the success is not universal. Large national titles with international appeal can persuade people to pay, while small local papers struggle, because their readers can find similar information on social media for nothing. The result is so-called news deserts: areas where no one regularly reports on the local council, courts or schools."
+      },
+      {
+        "label": "D",
+        "text": "The consequences matter for democracy. Studies from the United States found that in towns where the local newspaper closed, fewer people stood for election, and local government spending rose, possibly because fewer journalists were checking how money was used. These findings do not prove that closure caused the changes, but they are troubling."
+      },
+      {
+        "label": "E",
+        "text": "Some countries are testing solutions. Canada requires large technology companies to pay publishers when their articles appear on their platforms, while in Norway the government gives financial support to local news. Critics fear that state money could threaten independence. Others argue that news is a public good, like roads or lighthouses, and that society has a duty to pay for it. The debate is likely to continue as the old model fades."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE405-Q01",
+          "number": 1,
+          "prompt": "What has happened to sales of the best-selling British newspaper since 2000?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They have doubled since the year 2000"
+            },
+            {
+              "id": "B",
+              "text": "They have fallen to around half a million"
+            },
+            {
+              "id": "C",
+              "text": "They have stayed roughly the same"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "closer to half a million"
+          },
+          "explanation": "The text says: \"closer to half a million\".",
+          "uuid": "54fba6df-2ae3-5037-9276-480f4aac8b94"
+        },
+        {
+          "id": "RE405-Q02",
+          "number": 2,
+          "prompt": "What does the writer say about readership?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has fallen at the same rate as sales"
+            },
+            {
+              "id": "B",
+              "text": "It has risen much faster than sales"
+            },
+            {
+              "id": "C",
+              "text": "It has fallen less sharply than sales"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "readership has not fallen as sharply as sales"
+          },
+          "explanation": "The text says: \"readership has not fallen as sharply as sales\".",
+          "uuid": "40b1df72-7de7-528c-ae82-58a9944ba093"
+        },
+        {
+          "id": "RE405-Q03",
+          "number": 3,
+          "prompt": "Why are online readers less profitable for newspapers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They refuse to look at advertisements"
+            },
+            {
+              "id": "B",
+              "text": "They pay more tax than print readers"
+            },
+            {
+              "id": "C",
+              "text": "They bring less advertising money"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "bring far less money"
+          },
+          "explanation": "The text says: \"bring far less money\".",
+          "uuid": "94b6660e-a077-5195-9028-48789a23909b"
+        },
+        {
+          "id": "RE405-Q04",
+          "number": 4,
+          "prompt": "Why do small local papers struggle to charge for content?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Their articles are too long for most readers"
+            },
+            {
+              "id": "B",
+              "text": "Readers can find similar information free elsewhere"
+            },
+            {
+              "id": "C",
+              "text": "They do not have websites of their own"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "similar information on social media for nothing"
+          },
+          "explanation": "The text says: \"similar information on social media for nothing\".",
+          "uuid": "5da2a6f4-755a-5756-ac79-a4a6402b4b25"
+        },
+        {
+          "id": "RE405-Q05",
+          "number": 5,
+          "prompt": "What is a news desert?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A town with no internet connection"
+            },
+            {
+              "id": "B",
+              "text": "A newspaper with no remaining readers"
+            },
+            {
+              "id": "C",
+              "text": "An area with no regular local reporting"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "where no one regularly reports on the local council"
+          },
+          "explanation": "The text says: \"where no one regularly reports on the local council\".",
+          "uuid": "ac0947f9-1d86-5184-89a2-56c9e2898f6c"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE405-Q06",
+          "number": 6,
+          "prompt": "The writer thinks the decline of newspapers is only about people moving online.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "more complicated than a simple move from paper to screen"
+          },
+          "explanation": "The text says: \"more complicated than a simple move from paper to screen\".",
+          "uuid": "5ad98601-2394-5889-832d-ed6d2d167e0c"
+        },
+        {
+          "id": "RE405-Q07",
+          "number": 7,
+          "prompt": "The writer says the US findings prove that closures caused higher government spending.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "do not prove that closure caused the changes"
+          },
+          "explanation": "The text says: \"do not prove that closure caused the changes\".",
+          "uuid": "827add9b-a806-59ea-ab1c-67cfe64e7788"
+        },
+        {
+          "id": "RE405-Q08",
+          "number": 8,
+          "prompt": "The writer thinks all newspapers can succeed by charging for online content.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "the success is not universal"
+          },
+          "explanation": "The text says: \"the success is not universal\".",
+          "uuid": "5d798309-7fc1-5ead-9690-a1b8a27d24c0"
+        },
+        {
+          "id": "RE405-Q09",
+          "number": 9,
+          "prompt": "The writer personally opposes state funding of news.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "82b0a1cb-1f9a-5920-9dc4-7e42d0bd590a"
+        },
+        {
+          "id": "RE405-Q10",
+          "number": 10,
+          "prompt": "The writer reports that some people regard news as a public good.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "news is a public good"
+          },
+          "explanation": "The text says: \"news is a public good\".",
+          "uuid": "5294bc30-ab44-5c8d-b93f-db2321950e15"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE405-Q11",
+          "number": 11,
+          "prompt": "A comparison showing the financial difference between print and online readers",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "A print reader pays a cover price"
+          },
+          "explanation": "The text says: \"A print reader pays a cover price\".",
+          "uuid": "7efcc6c7-8595-55e2-9e1a-f5c338067379"
+        },
+        {
+          "id": "RE405-Q12",
+          "number": 12,
+          "prompt": "A warning about possible effects on elections and local government",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "fewer people stood for election"
+          },
+          "explanation": "The text says: \"fewer people stood for election\".",
+          "uuid": "ebd88b10-5321-56fa-a497-9893fab37657"
+        },
+        {
+          "id": "RE405-Q13",
+          "number": 13,
+          "prompt": "Examples of governments trying to help publishers",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Canada requires large technology companies to pay publishers"
+          },
+          "explanation": "The text says: \"Canada requires large technology companies to pay publishers\".",
+          "uuid": "60b43d32-1008-5a4f-9ef7-902da08e430b"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "8c2fb130-662c-4910-bb1e-39956130e8a2",
+  "derived": {
+    "word_count": 343,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 2,
+      "B": 5,
+      "C": 5,
+      "D": 1
+    },
+    "content_hash": "b92852259da3e6b3"
+  }
+}

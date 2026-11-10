@@ -1,0 +1,490 @@
+{
+  "schema_version": "1.0",
+  "id": "LI402",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Choosing a Dissertation Topic",
+  "topic": "education",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li402_choosing_a_dissertation_topic.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Patel",
+        "gender": "female",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Leo",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Mia",
+        "gender": "female",
+        "accent": "new_zealand",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Thanks for coming. You both said you wanted to discuss ideas for your dissertations. Leo, shall we start with you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Sure. I'm interested in how streaming services have changed the music industry. I've been reading about artists who earn almost nothing from streams."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's a timely topic, but it's also very broad. What specific question would you ask?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I thought of asking whether streaming has made music less diverse. I was going to interview some musicians as well."
+      },
+      {
+        "speaker": "S1",
+        "text": "The question about diversity is promising. However, interviews might be tricky. You'd need ethical approval, and with a deadline in April, that could take too long. Perhaps analyse existing data, like chart statistics, instead."
+      },
+      {
+        "speaker": "S2",
+        "text": "Hmm. I hadn't thought about that. I suppose chart data is public, so I wouldn't need permission."
+      },
+      {
+        "speaker": "S1",
+        "text": "Exactly. And Mia, what about you?"
+      },
+      {
+        "speaker": "S3",
+        "text": "I'm torn between two ideas. One is the effect of remote work on city centres. The other is about how older people use smartphones."
+      },
+      {
+        "speaker": "S1",
+        "text": "Interesting. Which one do you find more exciting?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Honestly, the smartphone one, because my grandmother is learning to use one, and I've noticed how confusing the apps can be. But I'm worried it might be too small a topic for a dissertation."
+      },
+      {
+        "speaker": "S1",
+        "text": "It's not too small, as long as you ask a clear question. For example, you could compare how different age groups learn to use new technology. That gives you something measurable."
+      },
+      {
+        "speaker": "S3",
+        "text": "I like that. Could I use a questionnaire?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, a questionnaire needs only a simple approval form, which takes about a week. But aim for at least eighty responses, otherwise your results won't mean much. Where would you find participants?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Maybe at my grandmother's community centre. Or through the university's alumni network."
+      },
+      {
+        "speaker": "S1",
+        "text": "The community centre is realistic. I'd be careful with alumni, since they're mostly younger, which would limit the variety you're looking for."
+      },
+      {
+        "speaker": "S2",
+        "text": "Dr Patel, is there any problem if both of us use questionnaires? We might be competing for the same participants."
+      },
+      {
+        "speaker": "S1",
+        "text": "Not really. Your groups are completely different. Just make sure you don't send mass emails to the whole university, because the administration has complained about that in the past."
+      },
+      {
+        "speaker": "S2",
+        "text": "Understood. When do we need to submit our proposals?"
+      },
+      {
+        "speaker": "S1",
+        "text": "The proposal is due on the second of November. It should be about one thousand words, including a short reading list. Come back with a draft in two weeks and we'll refine it together."
+      },
+      {
+        "speaker": "S3",
+        "text": "Great. Thank you."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI402-Q01",
+          "number": 1,
+          "prompt": "What general topic does Leo want to study?",
+          "options": [
+            {
+              "id": "A",
+              "text": "How streaming has changed the music industry"
+            },
+            {
+              "id": "B",
+              "text": "How musicians promote themselves on social media"
+            },
+            {
+              "id": "C",
+              "text": "Why live concerts have become so expensive"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "how streaming services have changed the music industry"
+          },
+          "explanation": "The audio says: \"how streaming services have changed the music industry\".",
+          "uuid": "611fdf89-d3c2-5e94-b6fa-92797f0f1657"
+        },
+        {
+          "id": "LI402-Q02",
+          "number": 2,
+          "prompt": "Which specific question does the tutor find promising?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether artists earn enough money from streams"
+            },
+            {
+              "id": "B",
+              "text": "Whether streaming has made music less diverse"
+            },
+            {
+              "id": "C",
+              "text": "Whether the charts reflect what people hear"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "streaming has made music less diverse"
+          },
+          "explanation": "The audio says: \"streaming has made music less diverse\".",
+          "uuid": "3b976fda-030d-5df0-936d-1ae54587033c"
+        },
+        {
+          "id": "LI402-Q03",
+          "number": 3,
+          "prompt": "Why does the tutor warn Leo about interviews?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Musicians are hard to contact"
+            },
+            {
+              "id": "B",
+              "text": "Interviews are too expensive"
+            },
+            {
+              "id": "C",
+              "text": "Ethical approval could take too long"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "that could take too long"
+          },
+          "explanation": "The audio says: \"that could take too long\".",
+          "uuid": "43193212-75c7-53d2-bd7e-416a04ce7f85"
+        },
+        {
+          "id": "LI402-Q04",
+          "number": 4,
+          "prompt": "What does the tutor suggest Leo uses instead?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A new survey of listeners"
+            },
+            {
+              "id": "B",
+              "text": "Interviews with record companies"
+            },
+            {
+              "id": "C",
+              "text": "Existing chart statistics"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "existing data, like chart statistics"
+          },
+          "explanation": "The audio says: \"existing data, like chart statistics\".",
+          "uuid": "80b5b7af-c6e4-53b7-92fd-3b01091961cd"
+        },
+        {
+          "id": "LI402-Q05",
+          "number": 5,
+          "prompt": "Which idea does Mia prefer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Older people and smartphones"
+            },
+            {
+              "id": "B",
+              "text": "Remote work in city centres"
+            },
+            {
+              "id": "C",
+              "text": "Online shopping habits"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Honestly, the smartphone one"
+          },
+          "explanation": "The audio says: \"Honestly, the smartphone one\".",
+          "uuid": "485b96b1-5abe-5a63-a31b-a8374696c2a5"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI402-Q06",
+          "number": 6,
+          "prompt": "What is Mia worried about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The topic may be too common"
+            },
+            {
+              "id": "B",
+              "text": "The topic may be too small"
+            },
+            {
+              "id": "C",
+              "text": "She has no equipment"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "too small a topic for a dissertation"
+          },
+          "explanation": "The audio says: \"too small a topic for a dissertation\".",
+          "uuid": "ab32fe29-2c3e-5fb3-b2b5-6774165bfc18"
+        },
+        {
+          "id": "LI402-Q07",
+          "number": 7,
+          "prompt": "What does the tutor suggest Mia compares?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Which phones are cheapest for students"
+            },
+            {
+              "id": "B",
+              "text": "How age groups learn new technology"
+            },
+            {
+              "id": "C",
+              "text": "How the design of apps has changed"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "how different age groups learn to use new technology"
+          },
+          "explanation": "The audio says: \"how different age groups learn to use new technology\".",
+          "uuid": "708448ef-7fc0-54e8-8387-b1a087165fc7"
+        },
+        {
+          "id": "LI402-Q08",
+          "number": 8,
+          "prompt": "What is the minimum number of responses the tutor advises?",
+          "options": [
+            {
+              "id": "A",
+              "text": "18"
+            },
+            {
+              "id": "B",
+              "text": "800"
+            },
+            {
+              "id": "C",
+              "text": "80"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "at least eighty responses"
+          },
+          "explanation": "The audio says: \"at least eighty responses\".",
+          "uuid": "c59016b2-496d-548d-a648-345a4a0499dc"
+        },
+        {
+          "id": "LI402-Q09",
+          "number": 9,
+          "prompt": "Why is the tutor cautious about using alumni?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are mostly too busy"
+            },
+            {
+              "id": "B",
+              "text": "They are mostly younger"
+            },
+            {
+              "id": "C",
+              "text": "They live abroad"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "they're mostly younger"
+          },
+          "explanation": "The audio says: \"they're mostly younger\".",
+          "uuid": "73a7a0c6-d8fb-5802-a65a-bb2421eb2fdb"
+        },
+        {
+          "id": "LI402-Q10",
+          "number": 10,
+          "prompt": "When is the proposal due?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12 November"
+            },
+            {
+              "id": "B",
+              "text": "In two weeks"
+            },
+            {
+              "id": "C",
+              "text": "2 November"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "due on the second of November"
+          },
+          "explanation": "The audio says: \"due on the second of November\".",
+          "uuid": "3936283d-7535-5fc7-b6ab-900492198f62"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "b0b3b21f-83ee-4678-83e6-a7047cebb67f",
+  "derived": {
+    "word_count": 401,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 2,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "76a0824ccbf2ba97"
+  }
+}

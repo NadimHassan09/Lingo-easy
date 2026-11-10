@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.0",
+  "id": "WR003",
+  "uuid": "f8cb5323-ea41-57c2-9796-b09735c896cf",
+  "version": "1.0.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "placement",
+    "level": null
+  },
+  "target_cefr": "A2",
+  "profile": "placement",
+  "topic": "housing",
+  "context": "Your neighbour often plays loud music late at night. You want to ask politely.",
+  "title": "A note to a neighbour",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "personal_message",
+  "task": {
+    "title": "A note to a neighbour",
+    "scenario": "Your neighbour often plays loud music late at night. You want to ask politely.",
+    "prompt": "Write a polite note to your neighbour about the noise.",
+    "instructions": [
+      "Write about 70-100 words (at least 50).",
+      "You have about 14 minutes.",
+      "Make sure you cover all of the points below.",
+      "You are writing for: a neighbour. Style: polite, neutral."
+    ],
+    "required_points": [
+      "say who you are",
+      "explain the problem",
+      "say how it affects you",
+      "ask your neighbour to help"
+    ],
+    "audience": "a neighbour",
+    "register": "polite, neutral",
+    "response_type": "personal_message",
+    "word_count": {
+      "minimum": 50,
+      "suggested_min": 70,
+      "suggested_max": 100,
+      "maximum": 150
+    },
+    "suggested_minutes": 14
+  },
+  "expected_response": {
+    "content_points": [
+      "say who you are",
+      "explain the problem",
+      "say how it affects you",
+      "ask your neighbour to help"
+    ],
+    "required_elements": [
+      "Address: say who you are",
+      "Address: explain the problem",
+      "Address: say how it affects you",
+      "Address: ask your neighbour to help"
+    ],
+    "optional_elements": [
+      "an apology for troubling them"
+    ],
+    "organisation": [
+      "greeting",
+      "short body",
+      "thanks"
+    ],
+    "vocabulary_demands": [
+      "housing",
+      "noise and time",
+      "polite requests"
+    ],
+    "grammar_demands": [
+      {
+        "id": "modals_ability_permission",
+        "level": "A1",
+        "extension": false
+      },
+      {
+        "id": "past_simple",
+        "level": "A2",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Short connected text, one paragraph at most.",
+    "linguistic_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Request, offer, invite, apologise; Give a simple reason or purpose",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Hello, I am your neighbour in flat 4.",
+          "Your music is loud at night.",
+          "I cannot sleep.",
+          "Could you turn it down after 10 pm? Thank you."
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "message_writing",
+    "secondary_subskills": [
+      "formal_correspondence"
+    ],
+    "cognitive_processes": [
+      "make_request_or_offer",
+      "explain_reason"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.message_writing.A2.1",
+        "text": "Write a short polite request that states a problem and its effect",
+        "measurable_verb": "write",
+        "criteria": [
+          "W_TA",
+          "W_GRA",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "A2",
+    "recommended_cefr": "A2",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.146,
+    "language_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Request, offer, invite, apologise; Give a simple reason or purpose",
+    "expected_performance": [
+      "Covers all required points briefly and keeps to the topic; purpose of the message or text is clear.",
+      "Simple sentences and some past or future forms are correct; some complex sentences attempted with errors that rarely block meaning.",
+      "Uses everyday vocabulary suited to the topic with some variety; errors rarely block meaning."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 0.5, 'cognition': 1.0, 'length': 0.92, 'abstractness': 0.5, 'prompt_language': 0.73}; composite 0.73 -> A2. Original target A2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 0.5,
+      "cognition": 1.0,
+      "length": 0.92,
+      "abstractness": 0.5,
+      "prompt_language": 0.73
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 5.4,
+      "long_word_ratio": 0.074
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "A2",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.3,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Covers all required points briefly and keeps to the topic; purpose of the message or text is clear. Required points: say who you are; explain the problem; say how it affects you; ask your neighbour to help",
+        "weak_performance": "Several required points missing, or the purpose of the text is unclear.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: say who you are; explain the problem; say how it affects you; ask your neighbour to help.",
+        "common_error_patterns": [
+          "answering only the first point",
+          "no reason given",
+          "missing greeting or ending in a message"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Simple sentences and some past or future forms are correct; some complex sentences attempted with errors that rarely block meaning.",
+        "weak_performance": "Frequent errors in tense and agreement; very few complex sentences.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: modals_ability_permission, past_simple.",
+        "common_error_patterns": [
+          "past simple irregular forms",
+          "preposition of time/place",
+          "plural nouns"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Uses everyday vocabulary suited to the topic with some variety; errors rarely block meaning.",
+        "weak_performance": "Same words repeated; frequent wrong word choice or spelling affects meaning.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: housing; noise and time; polite requests.",
+        "common_error_patterns": [
+          "confusing similar words (make/do)",
+          "literal translation from Arabic"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.1,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Ideas follow a clear order; common linkers (and, but, because, so, then) are used mostly correctly.",
+        "weak_performance": "Ideas listed without links; frequent repetition of 'and'.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "only and / then",
+          "using 'because' without a result"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "description": "Whether tone, formality, conventions of text type and politeness suit the audience and purpose.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Tone is polite or friendly as the task requires; uses basic message conventions. Audience: a neighbour. Register: polite, neutral",
+        "weak_performance": "Too informal in a polite message or too stiff in a friendly one.",
+        "expected_evidence": "Greeting/closing; politeness markers; formality of vocabulary and structures; conventions.",
+        "common_error_patterns": [
+          "too informal for a teacher",
+          "Dear Friend to a shop"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "Only scored where the task defines an audience/register; otherwise treat as not applicable.",
+        "diagnostic_categories": [
+          "D_REGISTER"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      }
+    ],
+    "required_demonstrations": [
+      "Address every required point: say who you are; explain the problem; say how it affects you; ask your neighbour to help",
+      "Use language appropriate to: a neighbour"
+    ],
+    "optional_demonstrations": [
+      "an apology for troubling them"
+    ],
+    "not_penalised": [
+      "absence of complex sentences or of conditionals",
+      "minor spelling or punctuation slips that do not hide meaning",
+      "informal vocabulary where the task is informal"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_GRAMMAR_RANGE",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_PREPOSITION",
+      "D_REGISTER",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/writing_*.py (P-03)",
+    "spec_sha256": "d4d5a86dfb7404ea0d008fae74d8d234adfe7ca56ffbe1156230449481b7d8c0",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "P-03",
+      "lv": "A2",
+      "cat": "personal_message",
+      "topic": "housing",
+      "title": "A note to a neighbour",
+      "scen": "Your neighbour often plays loud music late at night. You want to ask politely.",
+      "prompt": "Write a polite note to your neighbour about the noise.",
+      "pts": [
+        "say who you are",
+        "explain the problem",
+        "say how it affects you",
+        "ask your neighbour to help"
+      ],
+      "aud": "a neighbour",
+      "reg": "polite, neutral",
+      "w": [
+        50,
+        70,
+        100,
+        150
+      ],
+      "mins": 14,
+      "vocab": [
+        "housing",
+        "noise and time",
+        "polite requests"
+      ],
+      "gram": [
+        "modals_ability_permission",
+        "past_simple"
+      ],
+      "struct": [
+        "greeting",
+        "short body",
+        "thanks"
+      ],
+      "sub": "message_writing",
+      "sub2": [
+        "formal_correspondence"
+      ],
+      "cog": [
+        "make_request_or_offer",
+        "explain_reason"
+      ],
+      "obj": [
+        "Write a short polite request that states a problem and its effect"
+      ],
+      "outline": [
+        "Hello, I am your neighbour in flat 4.",
+        "Your music is loud at night.",
+        "I cannot sleep.",
+        "Could you turn it down after 10 pm? Thank you."
+      ],
+      "opt": [
+        "an apology for troubling them"
+      ],
+      "abs": 0
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "1797f50b892a14e542e430912d3def342a6719b6583dd7437c7fa84bac8d47c7"
+  }
+}

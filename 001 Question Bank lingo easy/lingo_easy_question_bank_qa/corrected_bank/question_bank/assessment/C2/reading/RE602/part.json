@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE602",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Does Language Shape Thought?",
+  "topic": "language_and_linguistics",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "Does Language Shape Thought?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In the 1930s, the linguist Benjamin Lee Whorf claimed that speakers of different languages perceive the world differently because their languages carve up reality in different ways. His most famous example, that the Hopi language lacks words for time and therefore its speakers lack the concept, has been thoroughly discredited. Yet the underlying question, whether language influences thought, has returned to scientific respectability, and the evidence now suggests a more subtle picture than either Whorf or his critics imagined."
+      },
+      {
+        "label": "B",
+        "text": "Consider colour. Russian has separate basic terms for light blue and dark blue, whereas English uses a single term, blue, for both. In experiments, Russian speakers were faster at distinguishing shades that straddle their linguistic boundary than shades that fall on the same side of it, while English speakers showed no such advantage. Strikingly, the effect disappeared when participants were given a verbal task, such as repeating digits, to occupy their language processing, which suggests that language was actively contributing to the judgement."
+      },
+      {
+        "label": "C",
+        "text": "Space provides another example. Speakers of Guugu Yimithirr, an Aboriginal language of Australia, do not use left and right but absolute directions: one might say there is an ant on your south-east leg. Such speakers maintain an extraordinary sense of orientation, even in unfamiliar places. Researchers argue that the habit of tracking direction, enforced by grammar from early childhood, trains this ability. English speakers can be taught to do likewise, but it takes deliberate effort."
+      },
+      {
+        "label": "D",
+        "text": "These findings do not support the strong claim that language determines what can be thought. Speakers of languages without a particular word can still understand the concept, as shown by the ease with which words are borrowed. The effects are better described as differences in habit and speed: language makes some distinctions more habitual, and therefore cheaper to process. Critics note that many demonstrations involve small differences in reaction time, whose significance for everyday life is uncertain, and that some results have proved difficult to replicate."
+      },
+      {
+        "label": "E",
+        "text": "The most defensible conclusion is therefore a modest one. Language is a tool for thought, and as with any tool, its shape guides how we use it without limiting what we can do. That may disappoint those who hope for a dramatic revelation about alien minds, but it has the merit of fitting the evidence. It also reminds us that translation is neither impossible nor trivial: we can convey what another language expresses, but we must sometimes work harder to do so."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE602-Q01",
+          "number": 1,
+          "prompt": "What has happened to Whorf's claim about the Hopi?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has been discredited"
+            },
+            {
+              "id": "B",
+              "text": "It has been confirmed"
+            },
+            {
+              "id": "C",
+              "text": "It has been refined"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "has been thoroughly discredited"
+          },
+          "explanation": "The text says: \"has been thoroughly discredited\".",
+          "uuid": "eb64c271-a5af-55f1-8fa6-6f42a80b9081"
+        },
+        {
+          "id": "RE602-Q02",
+          "number": 2,
+          "prompt": "What does the writer say about the present evidence?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It supports Whorf's strongest claims about the Hopi language"
+            },
+            {
+              "id": "B",
+              "text": "It suggests a more subtle picture than Whorf or his critics imagined"
+            },
+            {
+              "id": "C",
+              "text": "It supports Whorf's critics, who deny any influence of language"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "more subtle picture than either Whorf or his critics imagined"
+          },
+          "explanation": "The text says: \"more subtle picture than either Whorf or his critics imagined\".",
+          "uuid": "27024694-b87c-51d2-84f7-85383173753d"
+        },
+        {
+          "id": "RE602-Q03",
+          "number": 3,
+          "prompt": "What did the Russian colour experiments find?",
+          "options": [
+            {
+              "id": "A",
+              "text": "English speakers distinguished the blue shades more quickly"
+            },
+            {
+              "id": "B",
+              "text": "Russian speakers distinguished shades across their boundary faster"
+            },
+            {
+              "id": "C",
+              "text": "Both groups performed equally fast on the colour tasks"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "faster at distinguishing shades that straddle their linguistic boundary"
+          },
+          "explanation": "The text says: \"faster at distinguishing shades that straddle their linguistic boundary\".",
+          "uuid": "8830e17b-c9fb-5b64-9ecb-82373a28c271"
+        },
+        {
+          "id": "RE602-Q04",
+          "number": 4,
+          "prompt": "Why does it matter that the effect disappeared during a verbal task?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It suggests language was contributing to the judgement"
+            },
+            {
+              "id": "B",
+              "text": "It shows the experiment itself must have failed"
+            },
+            {
+              "id": "C",
+              "text": "It shows that colour perception is universal"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "language was actively contributing to the judgement"
+          },
+          "explanation": "The text says: \"language was actively contributing to the judgement\".",
+          "uuid": "d5f93c77-834a-5499-beba-6ee259cd4d69"
+        },
+        {
+          "id": "RE602-Q05",
+          "number": 5,
+          "prompt": "How do researchers explain the orientation ability of Guugu Yimithirr speakers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They have better eyesight than other speakers"
+            },
+            {
+              "id": "B",
+              "text": "They live in open country with few landmarks"
+            },
+            {
+              "id": "C",
+              "text": "Their grammar requires tracking direction from childhood"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "enforced by grammar from early childhood"
+          },
+          "explanation": "The text says: \"enforced by grammar from early childhood\".",
+          "uuid": "144614d5-ef91-5431-8536-86eb9d934c12"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE602-Q06",
+          "number": 6,
+          "prompt": "Guugu Yimithirr speakers use the words left and right.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "do not use left and right"
+          },
+          "explanation": "The text says: \"do not use left and right\".",
+          "uuid": "b272659d-11e5-562e-95f7-b459ed1d8b1a"
+        },
+        {
+          "id": "RE602-Q07",
+          "number": 7,
+          "prompt": "English speakers can learn to track absolute directions with deliberate effort.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "English speakers can be taught to do likewise"
+          },
+          "explanation": "The text says: \"English speakers can be taught to do likewise\".",
+          "uuid": "84b207bb-65d2-5a35-8320-2a9ffd6d39c2"
+        },
+        {
+          "id": "RE602-Q08",
+          "number": 8,
+          "prompt": "Speakers of languages without a word for a concept cannot understand it.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "can still understand the concept"
+          },
+          "explanation": "The text says: \"can still understand the concept\".",
+          "uuid": "1e1ed005-4980-5883-923e-8e7b5048f4be"
+        },
+        {
+          "id": "RE602-Q09",
+          "number": 9,
+          "prompt": "All of the demonstrations have been replicated in many laboratories.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "some results have proved difficult to replicate"
+          },
+          "explanation": "The text says: \"some results have proved difficult to replicate\".",
+          "uuid": "1a3e0744-83dd-5406-98ea-9c855597d6f9"
+        },
+        {
+          "id": "RE602-Q10",
+          "number": 10,
+          "prompt": "Whorf worked at Yale University.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "21f4114c-fbed-59c9-a108-cc1601120ae7"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE602-Q11",
+          "number": 11,
+          "prompt": "An example in which a task that occupied language processing removed an effect",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "the effect disappeared when participants were given a verbal task"
+          },
+          "explanation": "The text says: \"the effect disappeared when participants were given a verbal task\".",
+          "uuid": "fa21f850-833a-5cd0-a5cc-12ca480b7a59"
+        },
+        {
+          "id": "RE602-Q12",
+          "number": 12,
+          "prompt": "An argument that borrowing of words shows concepts are accessible across languages",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "ease with which words are borrowed"
+          },
+          "explanation": "The text says: \"ease with which words are borrowed\".",
+          "uuid": "83aabd9e-c21a-514b-883d-0193b9a635a6"
+        },
+        {
+          "id": "RE602-Q13",
+          "number": 13,
+          "prompt": "A modest conclusion that uses the image of a tool",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Language is a tool for thought"
+          },
+          "explanation": "The text says: \"Language is a tool for thought\".",
+          "uuid": "31a949bb-0476-5d9e-85e1-c004aaf7fc23"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "af453905-0e13-4639-912b-4a46c4a52948",
+  "derived": {
+    "word_count": 406,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 3,
+      "D": 1
+    },
+    "content_hash": "e06b5ef279ee890f"
+  }
+}

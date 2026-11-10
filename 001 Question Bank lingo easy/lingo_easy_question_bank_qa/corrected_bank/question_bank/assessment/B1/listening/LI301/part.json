@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "id": "LI301",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Booking a Language Course",
+  "topic": "education",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li301_booking_a_language_course.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Amy",
+        "gender": "female",
+        "accent": "british",
+        "role": "course adviser"
+      },
+      {
+        "id": "S2",
+        "name": "Marco",
+        "gender": "male",
+        "accent": "american",
+        "role": "prospective student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, Brighton Language Centre. How can I help?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hello. I'm interested in an English course for the summer. I'm in Brighton from July, and I'd like to study for about a month."
+      },
+      {
+        "speaker": "S1",
+        "text": "We have several options. The general English course is three hours every morning, Monday to Friday. There's also an intensive course with afternoon classes as well."
+      },
+      {
+        "speaker": "S2",
+        "text": "What's the difference in price?"
+      },
+      {
+        "speaker": "S1",
+        "text": "The general course is two hundred and fifty pounds a week. The intensive course is three hundred and eighty."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's a big difference. I think the general course is enough. I want time to visit places in the afternoon."
+      },
+      {
+        "speaker": "S1",
+        "text": "That makes sense. When would you like to start? The next courses begin on the fifth of July and the nineteenth of July."
+      },
+      {
+        "speaker": "S2",
+        "text": "I arrive on the third, so the fifth would be perfect. Is it possible to study for four weeks?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes. Four weeks would be one thousand pounds in total. Actually, if you pay for four weeks together, we give you ten per cent off, so it would be nine hundred pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's very good. What about accommodation? Can you arrange it?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, we can. You can stay with a local family. It's a hundred and ten pounds a week, including breakfast and dinner. Or there's a student house for ninety pounds a week without meals."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'd prefer a family, because I want to practise my English. Is there a family near the school?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Most of our families live within twenty minutes by bus. I'll find you one close to the number seven bus route."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. Do I need to take a test before the course?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, there's a short online test so we can put you in the right class. I'll send you the link by email, so please give me your address on the booking form."
+      },
+      {
+        "speaker": "S2",
+        "text": "Of course. I'll write it on the form."
+      },
+      {
+        "speaker": "S1",
+        "text": "Perfect. You'll get the link today, and please complete the test before the twenty-fifth of June."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thank you very much. I'll do it this week."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI301-Q01",
+          "number": 1,
+          "prompt": "How long does Marco want to study?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About a week"
+            },
+            {
+              "id": "B",
+              "text": "About three months"
+            },
+            {
+              "id": "C",
+              "text": "About a month"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "study for about a month"
+          },
+          "explanation": "The audio says: \"study for about a month\".",
+          "uuid": "9dc5b23e-8dfe-5eef-bace-53639fe550e2"
+        },
+        {
+          "id": "LI301-Q02",
+          "number": 2,
+          "prompt": "When are the general course classes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three hours every afternoon"
+            },
+            {
+              "id": "B",
+              "text": "Three hours every morning"
+            },
+            {
+              "id": "C",
+              "text": "Six hours every day"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "three hours every morning"
+          },
+          "explanation": "The audio says: \"three hours every morning\".",
+          "uuid": "ecd86fdd-1ca5-554c-828a-a301777bc7fe"
+        },
+        {
+          "id": "LI301-Q03",
+          "number": 3,
+          "prompt": "Why does Marco prefer the general course?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is cheaper than a hotel"
+            },
+            {
+              "id": "B",
+              "text": "He wants free afternoons"
+            },
+            {
+              "id": "C",
+              "text": "It starts earlier"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I want time to visit places in the afternoon"
+          },
+          "explanation": "The audio says: \"I want time to visit places in the afternoon\".",
+          "uuid": "8c5a2404-31bf-5092-a4ee-a40cf61840e3"
+        },
+        {
+          "id": "LI301-Q04",
+          "number": 4,
+          "prompt": "Which start date does Marco choose?",
+          "options": [
+            {
+              "id": "A",
+              "text": "3 July"
+            },
+            {
+              "id": "B",
+              "text": "19 July"
+            },
+            {
+              "id": "C",
+              "text": "5 July"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the fifth would be perfect"
+          },
+          "explanation": "The audio says: \"the fifth would be perfect\".",
+          "uuid": "904b3d1a-00a0-55c9-9c0d-66c4b8cbc8ed"
+        },
+        {
+          "id": "LI301-Q05",
+          "number": 5,
+          "prompt": "How much will four weeks cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1,000 pounds"
+            },
+            {
+              "id": "B",
+              "text": "1,500 pounds"
+            },
+            {
+              "id": "C",
+              "text": "900 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "so it would be nine hundred pounds"
+          },
+          "explanation": "The audio says: \"so it would be nine hundred pounds\".",
+          "uuid": "931b0c8c-639c-56ac-b215-b2cdc444e31c"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI301-Q06",
+          "number": 6,
+          "prompt": "How much is the host family per week?",
+          "options": [
+            {
+              "id": "A",
+              "text": "90 pounds"
+            },
+            {
+              "id": "B",
+              "text": "110 pounds"
+            },
+            {
+              "id": "C",
+              "text": "250 pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a hundred and ten pounds a week"
+          },
+          "explanation": "The audio says: \"a hundred and ten pounds a week\".",
+          "uuid": "1c36b5be-abbf-54f1-adb1-f10704c8b303"
+        },
+        {
+          "id": "LI301-Q07",
+          "number": 7,
+          "prompt": "Why does Marco prefer to stay with a family?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To save money on his rent"
+            },
+            {
+              "id": "B",
+              "text": "To practise his English"
+            },
+            {
+              "id": "C",
+              "text": "To be close to the bus route"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "because I want to practise my English"
+          },
+          "explanation": "The audio says: \"because I want to practise my English\".",
+          "uuid": "fafeb330-4495-502c-b950-68f59f8d8458"
+        },
+        {
+          "id": "LI301-Q08",
+          "number": 8,
+          "prompt": "How far do most families live from the school?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Within 20 minutes by bus"
+            },
+            {
+              "id": "B",
+              "text": "Within 20 minutes on foot"
+            },
+            {
+              "id": "C",
+              "text": "Within an hour by bus"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "within twenty minutes by bus"
+          },
+          "explanation": "The audio says: \"within twenty minutes by bus\".",
+          "uuid": "a4ca9af7-2618-5906-a253-f70cf3133bb1"
+        },
+        {
+          "id": "LI301-Q09",
+          "number": 9,
+          "prompt": "What is the online test for?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Placing students in the right class"
+            },
+            {
+              "id": "B",
+              "text": "Checking students' addresses and ages"
+            },
+            {
+              "id": "C",
+              "text": "Choosing a host family for each student"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "put you in the right class"
+          },
+          "explanation": "The audio says: \"put you in the right class\".",
+          "uuid": "56a5265d-be7c-59de-bbe1-958ebcbca940"
+        },
+        {
+          "id": "LI301-Q10",
+          "number": 10,
+          "prompt": "When must Marco complete the test?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On 5 July"
+            },
+            {
+              "id": "B",
+              "text": "Before 25 June"
+            },
+            {
+              "id": "C",
+              "text": "By the end of the course"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "before the twenty-fifth of June"
+          },
+          "explanation": "The audio says: \"before the twenty-fifth of June\".",
+          "uuid": "74b466f9-f9a9-5357-ae63-5ff9e4f43d6e"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "3939d013-15cc-4faf-9449-5b93f7aa3417",
+  "derived": {
+    "word_count": 337,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 2,
+      "B": 5,
+      "C": 3
+    },
+    "content_hash": "aa948e09c10f0fa0"
+  }
+}

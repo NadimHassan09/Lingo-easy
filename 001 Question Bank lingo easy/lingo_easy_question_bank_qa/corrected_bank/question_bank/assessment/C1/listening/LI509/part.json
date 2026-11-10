@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "id": "LI509",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Negotiating a Freelance Contract",
+  "topic": "work_and_careers",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li509_negotiating_a_freelance_contract.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Maya Collins",
+        "gender": "female",
+        "accent": "british",
+        "role": "freelance designer"
+      },
+      {
+        "id": "S2",
+        "name": "Greg Dawson",
+        "gender": "male",
+        "accent": "american",
+        "role": "client"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Thanks for sending the draft contract, Mr Dawson. I've read it carefully, and there are a few points I'd like to discuss."
+      },
+      {
+        "speaker": "S2",
+        "text": "Of course. Please call me Greg. What's on your mind?"
+      },
+      {
+        "speaker": "S1",
+        "text": "First, the fee. The contract says four thousand pounds for the complete website, but the brief has grown since we first talked. You now want an online shop as well, and that's a significant extra."
+      },
+      {
+        "speaker": "S2",
+        "text": "I see your point. What would you consider fair?"
+      },
+      {
+        "speaker": "S1",
+        "text": "I'd suggest six thousand, with the shop included. I've worked out that the shop alone is about forty hours of work."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's more than I budgeted. The most I could go to is five thousand five hundred."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let's think about payment terms, which might help us meet in the middle. If you're able to pay thirty per cent upfront rather than on completion, I could accept five thousand eight hundred."
+      },
+      {
+        "speaker": "S2",
+        "text": "Hmm. A third at the start seems reasonable. Let's say thirty per cent upfront, forty per cent on delivery of the design, and the rest when the site goes live. And I'd want a fixed price at five thousand eight hundred."
+      },
+      {
+        "speaker": "S1",
+        "text": "That works for me. Now, the next point is ownership. The draft says you'll own everything I produce, including my templates and code that I've developed for other clients."
+      },
+      {
+        "speaker": "S2",
+        "text": "We always include that clause. I need to be sure the site belongs to us."
+      },
+      {
+        "speaker": "S1",
+        "text": "I understand, but I can't transfer ownership of tools I've built over years. I'd propose that you own the finished website and its content, while I keep the right to reuse general components."
+      },
+      {
+        "speaker": "S2",
+        "text": "That sounds reasonable. I'll check with our lawyer, but I don't foresee a problem."
+      },
+      {
+        "speaker": "S1",
+        "text": "Third, the deadline. The contract says delivery by the first of March. Given the extra work, I'd prefer the fifteenth. I also have to allow time for your feedback. In my experience, clients take longer than expected to respond."
+      },
+      {
+        "speaker": "S2",
+        "text": "Fair comment. Our marketing team is busy in February. If I promise to give feedback within three working days, can you keep to March first?"
+      },
+      {
+        "speaker": "S1",
+        "text": "If feedback comes within three days and there are no more than two rounds of changes, yes. Additional rounds would be charged at fifty pounds an hour."
+      },
+      {
+        "speaker": "S2",
+        "text": "Agreed. Anything else?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, cancellation. The draft lets you cancel at any time without payment. That's risky for me, because I'd have done work I couldn't be paid for. I'd like a clause saying I'm paid for the work done up to the date of cancellation."
+      },
+      {
+        "speaker": "S2",
+        "text": "That seems only fair. I'll ask for the contract to be amended and send it to you tomorrow."
+      },
+      {
+        "speaker": "S1",
+        "text": "Thank you, Greg. I'm looking forward to working together."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI509-Q01",
+          "number": 1,
+          "prompt": "Why does Maya want to discuss the fee?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The deadline for delivery has moved"
+            },
+            {
+              "id": "B",
+              "text": "The brief now includes an online shop"
+            },
+            {
+              "id": "C",
+              "text": "Greg has asked for a new design"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the brief has grown"
+          },
+          "explanation": "The audio says: \"the brief has grown\".",
+          "uuid": "246e7a5e-639e-513a-936a-8f88e3876a85"
+        },
+        {
+          "id": "LI509-Q02",
+          "number": 2,
+          "prompt": "What fee does Maya first suggest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "4,000 pounds"
+            },
+            {
+              "id": "B",
+              "text": "5,800 pounds"
+            },
+            {
+              "id": "C",
+              "text": "6,000 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'd suggest six thousand"
+          },
+          "explanation": "The audio says: \"I'd suggest six thousand\".",
+          "uuid": "66ffdef5-f4e7-51ac-b6cc-f934b8ab4977"
+        },
+        {
+          "id": "LI509-Q03",
+          "number": 3,
+          "prompt": "What payment arrangement does Greg propose?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Half upfront, a quarter at design and a quarter at launch"
+            },
+            {
+              "id": "B",
+              "text": "30 per cent upfront, 40 per cent on design delivery, the rest at launch"
+            },
+            {
+              "id": "C",
+              "text": "Fifty per cent upfront and the rest after three months"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "thirty per cent upfront, forty per cent on delivery of the design"
+          },
+          "explanation": "The audio says: \"thirty per cent upfront, forty per cent on delivery of the design\".",
+          "uuid": "82664f6a-7b1b-5cfe-8c64-ae4be1414a63"
+        },
+        {
+          "id": "LI509-Q04",
+          "number": 4,
+          "prompt": "What price do they finally agree?",
+          "options": [
+            {
+              "id": "A",
+              "text": "5,500 pounds"
+            },
+            {
+              "id": "B",
+              "text": "6,000 pounds"
+            },
+            {
+              "id": "C",
+              "text": "5,800 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "fixed price at five thousand eight hundred"
+          },
+          "explanation": "The audio says: \"fixed price at five thousand eight hundred\".",
+          "uuid": "18564599-3dbb-55be-8985-efdd17667ce8"
+        },
+        {
+          "id": "LI509-Q05",
+          "number": 5,
+          "prompt": "What does Maya object to about ownership?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It excludes the website content she writes"
+            },
+            {
+              "id": "B",
+              "text": "It lasts for only one year after delivery"
+            },
+            {
+              "id": "C",
+              "text": "It includes tools she developed for other clients"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "templates and code that I've developed for other clients"
+          },
+          "explanation": "The audio says: \"templates and code that I've developed for other clients\".",
+          "uuid": "f42787f2-9344-5511-bd8a-b4671e2b8c1e"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI509-Q06",
+          "number": 6,
+          "prompt": "What ownership arrangement do they reach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Greg owns the website; Maya can reuse general components"
+            },
+            {
+              "id": "B",
+              "text": "Maya owns everything and licenses it to Greg"
+            },
+            {
+              "id": "C",
+              "text": "Greg owns all templates and code she has made"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "keep the right to reuse general components"
+          },
+          "explanation": "The audio says: \"keep the right to reuse general components\".",
+          "uuid": "6f5b60d9-a13d-5b66-a5d3-c35ed4284136"
+        },
+        {
+          "id": "LI509-Q07",
+          "number": 7,
+          "prompt": "Why does Maya prefer a later deadline?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She expects delays in feedback and extra work"
+            },
+            {
+              "id": "B",
+              "text": "She will be on holiday for part of February"
+            },
+            {
+              "id": "C",
+              "text": "She has agreed to start another client's job"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "allow time for your feedback"
+          },
+          "explanation": "The audio says: \"allow time for your feedback\".",
+          "uuid": "c3b72a21-50a8-53fb-a949-fb5640873525"
+        },
+        {
+          "id": "LI509-Q08",
+          "number": 8,
+          "prompt": "What condition must be met for the original deadline?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Full payment in advance and no more than one round of changes"
+            },
+            {
+              "id": "B",
+              "text": "Feedback within three days and no more than two rounds of changes"
+            },
+            {
+              "id": "C",
+              "text": "A signed contract and a deposit paid by the end of next week"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "no more than two rounds of changes"
+          },
+          "explanation": "The audio says: \"no more than two rounds of changes\".",
+          "uuid": "06e03c49-1cd9-5c20-9012-1732908d3a77"
+        },
+        {
+          "id": "LI509-Q09",
+          "number": 9,
+          "prompt": "How much will extra rounds of changes cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "50 pounds a round"
+            },
+            {
+              "id": "B",
+              "text": "500 pounds"
+            },
+            {
+              "id": "C",
+              "text": "50 pounds an hour"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "fifty pounds an hour"
+          },
+          "explanation": "The audio says: \"fifty pounds an hour\".",
+          "uuid": "502ca77e-742a-5a67-99ac-944cb9381d7a"
+        },
+        {
+          "id": "LI509-Q10",
+          "number": 10,
+          "prompt": "What clause does Maya ask for about cancellation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "No cancellation allowed after the contract is signed"
+            },
+            {
+              "id": "B",
+              "text": "Payment for work done before cancellation"
+            },
+            {
+              "id": "C",
+              "text": "A refund of the first payment on request"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "paid for the work done up to the date of cancellation"
+          },
+          "explanation": "The audio says: \"paid for the work done up to the date of cancellation\".",
+          "uuid": "99a5716e-161e-56e1-b1af-851d41ab6cb8"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "028d0fd3-1ceb-4003-9f58-1e3e449a57d4",
+  "derived": {
+    "word_count": 442,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 2,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "e35df29fe670e085"
+  }
+}

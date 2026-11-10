@@ -1,0 +1,58 @@
+{
+  "part_id": "LI302",
+  "part_uuid": "841b4335-5a15-4a29-9040-ff21befd0160",
+  "audio_file": "li302_a_tour_of_harlow_castle.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "aecc16df4153c68d286c6555374d2803ea5d0b45d1ceb0896f7b48841be53074",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Paul",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 26.98
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 27.43,
+      "end": 56.99
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 57.44,
+      "end": 87.8
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 88.25,
+      "end": 115.73
+    }
+  ],
+  "duration_seconds": 115.73,
+  "size_bytes": 926636,
+  "audio_sha256": "4013d3bcccc70ffcd6cc6527e560243741e8805a54af8f00514557f0eaf71277",
+  "generated_at": "2026-10-30T20:50:22+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

@@ -1,0 +1,397 @@
+[
+ {
+  "id": "LI510-Q05",
+  "set": {
+   "A": "Many descendants now live in other countries",
+   "C": "Descendants disagree about who should pay"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI510-Q08",
+  "set": {
+   "A": "Prices become too high for museums",
+   "C": "Museums have no space to store objects"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI510-Q09",
+  "set": {
+   "B": "They buy only from licensed dealers abroad",
+   "C": "They accept donations from any private collector"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI510-Q10",
+  "set": {
+   "B": "A report on a visit to a museum",
+   "C": "A personal opinion supported by one source"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE501-Q02",
+  "set": {
+   "A": "It has been confirmed by a large number of later studies",
+   "C": "It was carried out in several different countries"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE501-Q03",
+  "set": {
+   "A": "Extra choice reduced sales in most studies",
+   "B": "Extra choice raised sales in most studies"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE501-Q04",
+  "set": {
+   "B": "They choose poorly but feel quite happy",
+   "C": "They avoid decisions whenever possible"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE501-Q05",
+  "set": {
+   "A": "They have more time to think",
+   "B": "They are given a discount"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE502-Q02",
+  "set": {
+   "A": "Strongly opposed, with a few exceptions",
+   "B": "Fully convinced, with no doubts at all"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE502-Q03",
+  "set": {
+   "A": "They own larger homes with efficient heating",
+   "C": "They work from home several days a week"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE502-Q04",
+  "set": {
+   "A": "The tendency of suburbs to spread outwards",
+   "B": "The rising cost of housing in big cities"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE503-Q01",
+  "set": {
+   "A": "That information has become very expensive",
+   "B": "That attention can be bought and sold easily"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE503-Q02",
+  "set": {
+   "A": "Users pay for the service with their data only",
+   "C": "Governments pay for the services from taxes"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE503-Q03",
+  "set": {
+   "A": "Principles taken from early childhood education",
+   "B": "Principles used in modern architecture"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE503-Q04",
+  "set": {
+   "B": "To show that new technology does no harm",
+   "C": "To compare the quality of old and new media"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE503-Q05",
+  "set": {
+   "A": "They are too expensive for most ordinary users",
+   "B": "They need governments to pass many new laws"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE504-Q02",
+  "set": {
+   "B": "Penicillin would become too expensive to use",
+   "C": "Mould would spread through hospital wards"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE504-Q03",
+  "set": {
+   "A": "Bacteria become larger and so harder to kill",
+   "C": "Antibiotics weaken the patient's immune system"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE504-Q04",
+  "set": {
+   "B": "The drug becomes stronger in the body",
+   "C": "The medicine is wasted and costs more"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE504-Q05",
+  "set": {
+   "A": "They are too difficult to make in a laboratory",
+   "C": "They are banned by international regulators"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE505-Q01",
+  "set": {
+   "B": "As a fair and accurate description of the issue",
+   "C": "As a purely legal conflict between countries"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE505-Q03",
+  "set": {
+   "A": "Museums rarely damage the objects they hold",
+   "C": "Some countries still lack museums with enough space"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE505-Q04",
+  "set": {
+   "A": "Museums would simply refuse to consider requests",
+   "B": "Governments have already banned most returns"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE506-Q02",
+  "set": {
+   "A": "They agree on changes in advance",
+   "C": "They resist it successfully for generations"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE506-Q03",
+  "set": {
+   "A": "They usually start among the wealthiest speakers",
+   "B": "They usually start in universities and schools"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE506-Q04",
+  "set": {
+   "B": "Spelling reformers introduced many mistakes",
+   "C": "Dictionaries disagree about correct forms"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE507-Q01",
+  "set": {
+   "A": "They proved quite accurate",
+   "B": "They were never properly tested"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE507-Q03",
+  "set": {
+   "B": "Governments created jobs in public industries",
+   "C": "Workers accepted lower pay in new industries"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE507-Q04",
+  "set": {
+   "A": "Most jobs can be fully automated today",
+   "C": "Hardly any jobs contain automatable tasks"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE508-Q01",
+  "set": {
+   "A": "Elk were removed from the park by rangers",
+   "C": "Beavers were hunted in large numbers"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE508-Q02",
+  "set": {
+   "A": "They moved to nearby towns",
+   "B": "They stopped grazing in the park"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE508-Q03",
+  "set": {
+   "B": "It increases the amount of farmland",
+   "C": "It creates more land for hunting"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE508-Q04",
+  "set": {
+   "A": "It has been shown to be false",
+   "C": "It has been proved by many experiments"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE508-Q05",
+  "set": {
+   "A": "They use very little human management",
+   "C": "They avoid reintroducing missing species"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE509-Q01",
+  "set": {
+   "A": "Eyewitnesses played a small part in these cases",
+   "C": "Witnesses lied in most of the cases"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE509-Q02",
+  "set": {
+   "A": "We store events exactly as they happened",
+   "C": "We forget events immediately after they happen"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE509-Q03",
+  "set": {
+   "B": "Remembered fewer details"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE509-Q04",
+  "set": {
+   "A": "Witnesses forget what the weapon looked like",
+   "C": "Witnesses overstate the size of the weapon"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE509-Q05",
+  "set": {
+   "B": "It is a reliable guide to accuracy",
+   "C": "It usually falls over time"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE510-Q01",
+  "set": {
+   "A": "It is a success in most trials",
+   "C": "It is a failure in practice"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE510-Q02",
+  "set": {
+   "A": "Benefits are paid at too high a level",
+   "C": "Payments are made too often to claimants"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE510-Q03",
+  "set": {
+   "B": "A large rise in employment among participants",
+   "C": "A sharp rise in local prices and rents"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE510-Q04",
+  "set": {
+   "A": "Prices doubled in the villages",
+   "B": "Prices fell in nearby towns"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE510-Q05",
+  "set": {
+   "A": "The trials were too large to manage",
+   "B": "The trials excluded the poorest people"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ }
+]

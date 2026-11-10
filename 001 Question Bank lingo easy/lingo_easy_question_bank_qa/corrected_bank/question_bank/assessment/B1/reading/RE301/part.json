@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE301",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "The Rise of Online Shopping",
+  "topic": "shopping_and_money",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "The Rise of Online Shopping",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Twenty years ago, most people bought their clothes, books and electronics in shops. Today, a large number of us click a button and wait for a delivery. In some countries, more than a quarter of all shopping is now done online, and the number grows every year."
+      },
+      {
+        "label": "B",
+        "text": "There are good reasons for this change. Online shops are open twenty-four hours a day, so customers can buy something at midnight in their pyjamas. Prices are often lower than in town, because online companies do not pay for expensive city-centre shops. It is also easy to compare products and read reviews written by other customers before you spend any money."
+      },
+      {
+        "label": "C",
+        "text": "However, online shopping has disadvantages. You cannot touch or try on the goods, so about one in five clothing orders is returned because it does not fit. Returning items takes time, and some companies charge for it. Delivery can also be slow or unreliable, and packages sometimes arrive damaged. In addition, many small shops in town centres have closed because they cannot compete, which makes high streets quiet and empty."
+      },
+      {
+        "label": "D",
+        "text": "There is an environmental side, too. Delivery vans produce pollution, and online orders often use a lot of cardboard and plastic. On the other hand, one van delivering to fifty homes may cause less pollution than fifty people each driving to the shops. Experts say the effect depends on how customers behave: ordering many items in one go, and not returning goods, helps the planet."
+      },
+      {
+        "label": "E",
+        "text": "Many shops now try to combine both worlds. You can order online and collect the goods in the shop, or try things on in the shop and order a different size online. Whichever way people shop in the future, it seems likely that the high street will change rather than disappear."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE301-Q01",
+          "number": 1,
+          "prompt": "What is happening to online shopping?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is becoming less popular"
+            },
+            {
+              "id": "B",
+              "text": "It only happens in a few countries"
+            },
+            {
+              "id": "C",
+              "text": "It grows every year"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "the number grows every year"
+          },
+          "explanation": "The text says: \"the number grows every year\".",
+          "uuid": "77783732-7267-5f64-8b7a-ddce367961a3"
+        },
+        {
+          "id": "RE301-Q02",
+          "number": 2,
+          "prompt": "Why are prices often lower online?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Online goods are made in cheaper factories"
+            },
+            {
+              "id": "B",
+              "text": "Online shops are not required to pay tax"
+            },
+            {
+              "id": "C",
+              "text": "Online companies do not pay for expensive shops"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "do not pay for expensive city-centre shops"
+          },
+          "explanation": "The text says: \"do not pay for expensive city-centre shops\".",
+          "uuid": "e73d5d47-2717-57e9-8a15-980813f46f59"
+        },
+        {
+          "id": "RE301-Q03",
+          "number": 3,
+          "prompt": "What can customers do before buying online?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Try the product at home first"
+            },
+            {
+              "id": "B",
+              "text": "Read reviews by other customers"
+            },
+            {
+              "id": "C",
+              "text": "Speak to the shop manager by phone"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "read reviews written by other customers"
+          },
+          "explanation": "The text says: \"read reviews written by other customers\".",
+          "uuid": "db81949f-89be-5ff6-b337-cf323a7c159f"
+        },
+        {
+          "id": "RE301-Q04",
+          "number": 4,
+          "prompt": "Why are many clothing orders returned?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The clothes are too expensive"
+            },
+            {
+              "id": "B",
+              "text": "The clothes do not fit"
+            },
+            {
+              "id": "C",
+              "text": "The clothes arrive late"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "because it does not fit"
+          },
+          "explanation": "The text says: \"because it does not fit\".",
+          "uuid": "cb6204bd-c538-5caf-8ae6-c6063ef3aea0"
+        },
+        {
+          "id": "RE301-Q05",
+          "number": 5,
+          "prompt": "What has happened to many small town-centre shops?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They have closed"
+            },
+            {
+              "id": "B",
+              "text": "They have moved online"
+            },
+            {
+              "id": "C",
+              "text": "They have become bigger"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "have closed because they cannot compete"
+          },
+          "explanation": "The text says: \"have closed because they cannot compete\".",
+          "uuid": "02eebd89-1772-5d40-b36f-631219cd3a63"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE301-Q06",
+          "number": 6,
+          "prompt": "Online shops are open all day and night.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "open twenty-four hours a day"
+          },
+          "explanation": "The text says: \"open twenty-four hours a day\".",
+          "uuid": "733f1ba4-4b93-5759-a2dc-98c08d889802"
+        },
+        {
+          "id": "RE301-Q07",
+          "number": 7,
+          "prompt": "Returning items is always free.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "some companies charge for it"
+          },
+          "explanation": "The text says: \"some companies charge for it\".",
+          "uuid": "84e43fea-8f72-517d-9ecd-a87eb7fa766c"
+        },
+        {
+          "id": "RE301-Q08",
+          "number": 8,
+          "prompt": "Delivery vans never cause pollution.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Delivery vans produce pollution"
+          },
+          "explanation": "The text says: \"Delivery vans produce pollution\".",
+          "uuid": "4a0e3ce1-de00-5b7c-8df6-6440c789f50c"
+        },
+        {
+          "id": "RE301-Q09",
+          "number": 9,
+          "prompt": "Most people prefer online shopping to shopping in town.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "41219cb4-659e-591b-bbdc-7804fea270a4"
+        },
+        {
+          "id": "RE301-Q10",
+          "number": 10,
+          "prompt": "Some shops let customers order online and collect the goods in the shop.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "order online and collect the goods in the shop"
+          },
+          "explanation": "The text says: \"order online and collect the goods in the shop\".",
+          "uuid": "cb49afb5-212a-5a4f-b2a4-4a695babe637"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE301-Q11",
+          "number": 11,
+          "prompt": "About one in five clothing orders is _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "cancelled"
+            },
+            {
+              "id": "B",
+              "text": "returned"
+            },
+            {
+              "id": "C",
+              "text": "lost"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "one in five clothing orders is returned"
+          },
+          "explanation": "The text says: \"one in five clothing orders is returned\".",
+          "uuid": "1640f078-6e86-5cbf-94c6-088798115c3d"
+        },
+        {
+          "id": "RE301-Q12",
+          "number": 12,
+          "prompt": "Ordering many items in one go helps the _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "shops"
+            },
+            {
+              "id": "B",
+              "text": "drivers"
+            },
+            {
+              "id": "C",
+              "text": "planet"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "helps the planet"
+          },
+          "explanation": "The text says: \"helps the planet\".",
+          "uuid": "1f792f2d-2a95-5417-b50a-1c407c97bf74"
+        },
+        {
+          "id": "RE301-Q13",
+          "number": 13,
+          "prompt": "The high street will probably _____ rather than disappear.",
+          "options": [
+            {
+              "id": "A",
+              "text": "change"
+            },
+            {
+              "id": "B",
+              "text": "grow"
+            },
+            {
+              "id": "C",
+              "text": "close"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "will change rather than disappear"
+          },
+          "explanation": "The text says: \"will change rather than disappear\".",
+          "uuid": "0d738a2e-e70a-52c2-a104-59792b0ecc42"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "97538e1f-b141-4240-96e9-2b87f6ccd84f",
+  "derived": {
+    "word_count": 296,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 4
+    },
+    "content_hash": "6c7f38b899ff142e"
+  }
+}

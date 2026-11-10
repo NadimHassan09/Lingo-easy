@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE303",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "How Coffee Changed the World",
+  "topic": "history",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "How Coffee Changed the World",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Coffee is one of the most popular drinks in the world. Every day, people drink more than two billion cups. According to an old story from Ethiopia, a goat farmer called Kaldi discovered coffee about 1,200 years ago when he noticed that his goats became very lively after eating red berries from a certain bush."
+      },
+      {
+        "label": "B",
+        "text": "From Ethiopia, coffee travelled to Arabia, where people first made a drink from roasted beans. By the sixteenth century, coffee houses had opened in cities such as Cairo and Istanbul. These places were more than cafés: people went there to talk, play chess, listen to music and share news. They were sometimes called schools of the wise, because a cup of coffee cost very little and conversation was free."
+      },
+      {
+        "label": "C",
+        "text": "Coffee reached Europe in the seventeenth century. At first, some religious leaders disliked it and called it dangerous, but a pope tasted it and is said to have enjoyed it. Soon, coffee houses appeared in London, where they were known as penny universities, because for one penny you could buy a cup and listen to educated people discuss science and politics. Several important businesses, including an insurance company, started in London coffee houses."
+      },
+      {
+        "label": "D",
+        "text": "Today, coffee is grown in more than seventy countries, mostly near the equator. Brazil produces about a third of the world's coffee. Millions of farmers depend on it for their income, but many of them earn very little, because prices change a lot from year to year. Fair-trade schemes try to help by paying farmers a minimum price."
+      },
+      {
+        "label": "E",
+        "text": "Coffee remains a social drink. In many countries, meeting for coffee is the most common way to start a business conversation or a friendship, just as in those early coffee houses. Few people realise that the habit began with a goat farmer and a handful of berries."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE303-Q01",
+          "number": 1,
+          "prompt": "How many cups of coffee do people drink every day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About two million"
+            },
+            {
+              "id": "B",
+              "text": "More than two billion"
+            },
+            {
+              "id": "C",
+              "text": "About twenty billion"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "more than two billion cups"
+          },
+          "explanation": "The text says: \"more than two billion cups\".",
+          "uuid": "4ebd0a33-82b9-543c-a6f6-84f8705ab8d6"
+        },
+        {
+          "id": "RE303-Q02",
+          "number": 2,
+          "prompt": "How did Kaldi discover coffee, according to the story?",
+          "options": [
+            {
+              "id": "A",
+              "text": "His goats became lively after eating berries"
+            },
+            {
+              "id": "B",
+              "text": "He found strange beans floating in a river"
+            },
+            {
+              "id": "C",
+              "text": "A traveller from Arabia gave him some beans"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "his goats became very lively"
+          },
+          "explanation": "The text says: \"his goats became very lively\".",
+          "uuid": "4369c234-db67-50b9-8b18-611fb0fa4fae"
+        },
+        {
+          "id": "RE303-Q03",
+          "number": 3,
+          "prompt": "Where did people first make a drink from roasted beans?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In Ethiopia"
+            },
+            {
+              "id": "B",
+              "text": "In Istanbul"
+            },
+            {
+              "id": "C",
+              "text": "In Arabia"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Arabia, where people first made a drink from roasted beans"
+          },
+          "explanation": "The text says: \"Arabia, where people first made a drink from roasted beans\".",
+          "uuid": "dc16272e-7f4d-542b-ae0b-9933c405eef2"
+        },
+        {
+          "id": "RE303-Q04",
+          "number": 4,
+          "prompt": "Why were early coffee houses called schools of the wise?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Teachers gave lessons there every evening"
+            },
+            {
+              "id": "B",
+              "text": "A cheap cup gave access to free conversation"
+            },
+            {
+              "id": "C",
+              "text": "They sold books and maps to scholars"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "a cup of coffee cost very little and conversation was free"
+          },
+          "explanation": "The text says: \"a cup of coffee cost very little and conversation was free\".",
+          "uuid": "29bd988a-c4f5-58e9-bfe0-b13e201bfc53"
+        },
+        {
+          "id": "RE303-Q05",
+          "number": 5,
+          "prompt": "Why were London coffee houses called penny universities?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Students paid a penny to enter the university"
+            },
+            {
+              "id": "B",
+              "text": "For one penny you could buy a cup and hear discussions"
+            },
+            {
+              "id": "C",
+              "text": "Universities owned the coffee houses in London"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "for one penny you could buy a cup"
+          },
+          "explanation": "The text says: \"for one penny you could buy a cup\".",
+          "uuid": "f9e595bc-6cc2-5f3d-b04d-52a336694a60"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE303-Q06",
+          "number": 6,
+          "prompt": "Some religious leaders disliked coffee at first.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "some religious leaders disliked it"
+          },
+          "explanation": "The text says: \"some religious leaders disliked it\".",
+          "uuid": "46c962e9-dbf7-539a-bcc7-79701b72a115"
+        },
+        {
+          "id": "RE303-Q07",
+          "number": 7,
+          "prompt": "An insurance company began in a London coffee house.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "including an insurance company"
+          },
+          "explanation": "The text says: \"including an insurance company\".",
+          "uuid": "35c0db20-aeac-5d95-8cc8-8b575d515c7b"
+        },
+        {
+          "id": "RE303-Q08",
+          "number": 8,
+          "prompt": "Coffee is grown mostly near the North Pole.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "mostly near the equator"
+          },
+          "explanation": "The text says: \"mostly near the equator\".",
+          "uuid": "e910d793-bec6-5702-b05d-fa11ff4741a6"
+        },
+        {
+          "id": "RE303-Q09",
+          "number": 9,
+          "prompt": "Brazil produces about a third of the world's coffee.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "about a third of the world's coffee"
+          },
+          "explanation": "The text says: \"about a third of the world's coffee\".",
+          "uuid": "fd3cbd90-9522-51ce-be36-6a7d80ed880d"
+        },
+        {
+          "id": "RE303-Q10",
+          "number": 10,
+          "prompt": "Coffee is the most popular drink in Turkey.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "be346b6b-a9f3-5503-8c9f-4d6fa6d74c71"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE303-Q11",
+          "number": 11,
+          "prompt": "In the sixteenth century, coffee houses opened in Cairo and _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rome"
+            },
+            {
+              "id": "B",
+              "text": "Paris"
+            },
+            {
+              "id": "C",
+              "text": "Istanbul"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Cairo and Istanbul"
+          },
+          "explanation": "The text says: \"Cairo and Istanbul\".",
+          "uuid": "3e202c9b-ef0f-52b8-bc96-27059c2abc78"
+        },
+        {
+          "id": "RE303-Q12",
+          "number": 12,
+          "prompt": "Fair-trade schemes pay farmers a _____ price.",
+          "options": [
+            {
+              "id": "A",
+              "text": "minimum"
+            },
+            {
+              "id": "B",
+              "text": "maximum"
+            },
+            {
+              "id": "C",
+              "text": "random"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "paying farmers a minimum price"
+          },
+          "explanation": "The text says: \"paying farmers a minimum price\".",
+          "uuid": "3dc6a699-8dab-5206-9d46-236500a23741"
+        },
+        {
+          "id": "RE303-Q13",
+          "number": 13,
+          "prompt": "The habit began with a goat farmer and a handful of _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "berries"
+            },
+            {
+              "id": "B",
+              "text": "leaves"
+            },
+            {
+              "id": "C",
+              "text": "seeds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "a handful of berries"
+          },
+          "explanation": "The text says: \"a handful of berries\".",
+          "uuid": "80715491-e082-59fc-a9db-de7d2ecfced9"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "15e0123d-9c45-4918-adb6-fbc27f07be91",
+  "derived": {
+    "word_count": 304,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 6,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "323ebd19f869c130"
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "schema_version": "1.0",
+  "id": "RE003",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Why Linguistic Diversity Is Worth Defending",
+  "topic": "language_and_linguistics",
+  "profile": "advanced",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "Why Linguistic Diversity Is Worth Defending",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Roughly seven thousand languages are spoken in the world today, but linguists estimate that about half of them will fall silent before the end of this century. Most of these languages have only a few thousand speakers, and many have no written form at all. To some observers, this is simply the natural result of progress: people move to cities, adopt a common language for work and education, and their children eventually stop speaking the tongue of their grandparents. I want to argue that this view, though understandable, is both incomplete and complacent."
+      },
+      {
+        "label": "B",
+        "text": "The first objection concerns the word natural. Languages rarely disappear because their speakers have calmly weighed the advantages and made a free choice. More often, they decline because schools, courts and employers reward only the dominant language, so that parents conclude, reasonably but sadly, that passing on their own language would harm their children's prospects. A decision made under that kind of pressure is hardly a neutral one, and to treat it as evidence of natural preference is to mistake cause for effect. Anyone who has watched a grandmother and a grandchild struggle to find a shared vocabulary will recognise that something has been lost, whatever the statistics say about efficiency."
+      },
+      {
+        "label": "C",
+        "text": "A second reason for concern is the knowledge that disappears with a language. Communities that have lived in one environment for centuries often possess detailed vocabulary for local plants, weather patterns and farming methods, much of which has never been recorded elsewhere. When the last fluent speaker dies, such information may be lost for good, and no translation can fully restore it, since the concepts themselves are bound up with the words that carry them. Admittedly, researchers can record some of this vocabulary before it vanishes, but a recording is a museum exhibit rather than a living practice. It preserves the sounds without preserving the community that gave them meaning."
+      },
+      {
+        "label": "D",
+        "text": "Sceptics respond that preserving small languages is sentimental and expensive. Governments, they say, have more urgent priorities, and a world with fewer languages would communicate more efficiently. There is something to this. Few people would deny that a shared language such as English or Mandarin makes trade and science easier. Yet the argument assumes that the choice lies between a single common language and a chaotic multitude, when in practice most of the world's population is already bilingual or multilingual. Learning a second language does not require abandoning the first, and a family can use one at home and another at work without any contradiction."
+      },
+      {
+        "label": "E",
+        "text": "Nor is revival the impossible dream that critics suggest. Welsh, Hebrew and Maori have all been strengthened by deliberate policies, such as teaching in the language, broadcasting in it and giving it official status. None of these cases was simple, and it would be naive to claim that every endangered language can be saved. Nevertheless, they show that decline is not a one-way street, and that what appears inevitable is frequently the product of choices that could have been made differently. The lesson is not that success is guaranteed, but that failure is not guaranteed either."
+      },
+      {
+        "label": "F",
+        "text": "None of this means that speakers should be pressured to keep a language they no longer wish to use. The aim of any sensible policy is to widen choice, not to restrict it, so that a family which wants its children to grow up speaking a minority language is able to do so without paying a price in education or employment. If we accept that principle, then protecting linguistic diversity is less a matter of nostalgia than of fairness, and the cost, modest compared with many public programmes, looks easier to justify than its critics admit."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE003-Q01",
+          "number": 1,
+          "prompt": "About how many languages are spoken in the world today?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Seven hundred"
+            },
+            {
+              "id": "B",
+              "text": "Seven thousand"
+            },
+            {
+              "id": "C",
+              "text": "Seventy thousand"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "Roughly seven thousand languages are spoken in the world today"
+          },
+          "explanation": "The first sentence gives the figure as roughly seven thousand.",
+          "uuid": "bd7d27c4-45c2-574a-bb0b-0c1800e6902b"
+        },
+        {
+          "id": "RE003-Q02",
+          "number": 2,
+          "prompt": "What do most endangered languages have in common?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They have very few speakers."
+            },
+            {
+              "id": "B",
+              "text": "They are used only in cities."
+            },
+            {
+              "id": "C",
+              "text": "They have a long written history."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "Most of these languages have only a few thousand speakers"
+          },
+          "explanation": "Most have only a few thousand speakers, and many have no written form, so a long written history is wrong.",
+          "uuid": "1df99733-8d6a-5ac5-bd33-d2004168652a"
+        },
+        {
+          "id": "RE003-Q03",
+          "number": 3,
+          "prompt": "What is the writer's purpose in the first paragraph?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To describe a common view before challenging it"
+            },
+            {
+              "id": "B",
+              "text": "To list the languages that are most at risk"
+            },
+            {
+              "id": "C",
+              "text": "To praise the effects of moving to cities"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "text_organisation",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "I want to argue that this view, though understandable, is both incomplete and complacent"
+          },
+          "explanation": "The writer first describes the natural progress view and then says it is incomplete and complacent.",
+          "uuid": "67412bf7-8fa3-5cbb-996b-dd94f463619e"
+        },
+        {
+          "id": "RE003-Q04",
+          "number": 4,
+          "prompt": "According to paragraph B, why do parents often stop passing on their language?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They see little value in their own traditions and customs"
+            },
+            {
+              "id": "B",
+              "text": "They think it would put their children at a disadvantage."
+            },
+            {
+              "id": "C",
+              "text": "They are told to stop by local officials and teachers"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "synonym_paraphrase",
+            "target": "harm their children's prospects = put them at a disadvantage"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "parents conclude, reasonably but sadly, that passing on their own language would harm their children's prospects"
+          },
+          "explanation": "Parents fear that the language would harm their children's prospects. The text does not mention laws or a lack of cultural value.",
+          "uuid": "58500006-306e-5709-9b1b-48a7a8eb5607"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE003-Q05",
+          "number": 5,
+          "prompt": "Many endangered languages have never been written down.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "many have no written form at all"
+          },
+          "explanation": "The text says many of these languages have no written form.",
+          "uuid": "f6211ed9-108c-5b3e-9418-42bda879476d"
+        },
+        {
+          "id": "RE003-Q06",
+          "number": 6,
+          "prompt": "The writer thinks language loss is usually the result of a calm, free choice by speakers.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Languages rarely disappear because their speakers have calmly weighed the advantages and made a free choice"
+          },
+          "explanation": "The writer says languages rarely disappear for that reason; pressure from schools, courts and employers is the usual cause.",
+          "uuid": "3065a889-94a9-5a13-923a-8a913513a9de"
+        },
+        {
+          "id": "RE003-Q07",
+          "number": 7,
+          "prompt": "The writer believes that recording a language is as good as keeping it alive.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "a recording is a museum exhibit rather than a living practice"
+          },
+          "explanation": "The writer compares a recording to a museum exhibit, which is not the same as a living practice.",
+          "uuid": "72419fe8-dc0b-5cb8-a6fd-3ab42da7841b"
+        },
+        {
+          "id": "RE003-Q08",
+          "number": 8,
+          "prompt": "The writer thinks governments should spend more on language teaching than on healthcare.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "Sceptics say governments have more urgent priorities, but the writer never compares language teaching with healthcare spending.",
+          "uuid": "555f1c53-951c-5dca-a4ba-34d8ec5975e7"
+        },
+        {
+          "id": "RE003-Q09",
+          "number": 9,
+          "prompt": "The writer accepts that a shared language has some practical advantages.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "contrast_and_concession"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Few people would deny that a shared language such as English or Mandarin makes trade and science easier"
+          },
+          "explanation": "The writer concedes the point with 'There is something to this' before disagreeing with the sceptics' wider argument.",
+          "uuid": "b46128f1-1f59-5072-a5d1-26a9c1d4adae"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE003-Q10",
+          "number": 10,
+          "prompt": "The writer points out that most of the world's population is already _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "able to read and write"
+            },
+            {
+              "id": "B",
+              "text": "living in large cities"
+            },
+            {
+              "id": "C",
+              "text": "bilingual or multilingual"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "most of the world's population is already bilingual or multilingual"
+          },
+          "explanation": "Paragraph D says most of the world's population is already bilingual or multilingual.",
+          "uuid": "49c38b85-fd5d-5417-9814-6a095c98b1cc"
+        },
+        {
+          "id": "RE003-Q11",
+          "number": 11,
+          "prompt": "What looks like an inevitable decline in languages is often actually the result of _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "the spread of new technology around the world"
+            },
+            {
+              "id": "B",
+              "text": "decisions that could have gone another way"
+            },
+            {
+              "id": "C",
+              "text": "rapid growth in the populations of big cities"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "synonym_paraphrase",
+            "target": "the product of choices that could have been made differently"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "what appears inevitable is frequently the product of choices that could have been made differently"
+          },
+          "explanation": "Paragraph E says what appears inevitable is often the product of choices that could have been different.",
+          "uuid": "08e6f4ba-1bb1-5e3c-b853-ed98a3a0956e"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE003-Q12",
+          "number": 12,
+          "prompt": "What does the writer imply about the revival of Welsh, Hebrew and Maori?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Decline can sometimes be reversed, but not in every case."
+            },
+            {
+              "id": "B",
+              "text": "Revival works only when a language is taught in schools."
+            },
+            {
+              "id": "C",
+              "text": "Only languages with official status can be revived."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "it would be naive to claim that every endangered language can be saved"
+          },
+          "explanation": "The examples show decline is not one-way, but the writer says it is naive to claim every language can be saved. Teaching in the language is only one of several policies mentioned.",
+          "uuid": "798718f2-679f-57c0-af48-118ec9492f6b"
+        },
+        {
+          "id": "RE003-Q13",
+          "number": 13,
+          "prompt": "Which statement best summarises the writer's overall position?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minority languages deserve protection mainly because they hold useful knowledge."
+            },
+            {
+              "id": "B",
+              "text": "Language loss is mainly economic and cannot be reversed."
+            },
+            {
+              "id": "C",
+              "text": "Policy should protect real choice, because loss is often pressured rather than free."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "main_idea",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "The aim of any sensible policy is to widen choice, not to restrict it"
+          },
+          "explanation": "The writer argues for widening choice because loss is usually driven by pressure. Protecting useful knowledge is only one of the writer's points (paragraph C), and the claim that loss cannot be reversed contradicts paragraph E.",
+          "uuid": "f1e69079-3787-52a1-a1f6-20e539402639"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "ae09538e-de54-48ab-8969-bcba45a935ec",
+  "derived": {
+    "word_count": 612,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 2,
+      "B2": 4,
+      "C1": 4,
+      "C2": 2
+    },
+    "mean_band": 6.5,
+    "answer_counts": {
+      "A": 5,
+      "B": 5,
+      "C": 3
+    },
+    "content_hash": "830fbe64b6707bd2"
+  }
+}

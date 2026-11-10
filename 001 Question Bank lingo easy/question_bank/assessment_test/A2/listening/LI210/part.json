@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "id": "LI210",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "The Weather Report",
+  "topic": "environment",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li210_the_weather_report.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Presenter",
+        "gender": "male",
+        "accent": "british",
+        "role": "weather presenter"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good evening, and welcome to the weather report. Tomorrow will start cold and foggy in most parts of the country. In the north, temperatures will be around two degrees early in the morning, but by midday the fog will clear and we can expect sunshine. In the east, it will be cloudy all day, with light rain in the afternoon. On the south coast, the wind will be strong, especially near the sea, so ferries may be delayed. The west will be warm for the time of year, with temperatures up to fifteen degrees, but there will be heavy rain in the evening. Drivers should take care on the roads in the morning, because the fog can make it difficult to see. On Thursday, the weather will change. A cold front will arrive from the Atlantic, bringing snow to the mountains in the north. The snow will start in the afternoon, and by Friday morning there could be ten centimetres on high ground. The weekend looks drier and brighter, but it will stay cold. That's all for now. Goodnight."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI210-Q01",
+          "number": 1,
+          "prompt": "How will tomorrow start in most places?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cold and foggy"
+            },
+            {
+              "id": "B",
+              "text": "Warm and sunny"
+            },
+            {
+              "id": "C",
+              "text": "Wet and windy"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "start cold and foggy"
+          },
+          "explanation": "The audio says: \"start cold and foggy\".",
+          "uuid": "f4f92d9e-488f-5a29-98ab-5b0275b3094b"
+        },
+        {
+          "id": "LI210-Q02",
+          "number": 2,
+          "prompt": "What will the temperature be in the north early in the morning?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 12 degrees"
+            },
+            {
+              "id": "B",
+              "text": "About 20 degrees"
+            },
+            {
+              "id": "C",
+              "text": "About 2 degrees"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "around two degrees early in the morning"
+          },
+          "explanation": "The audio says: \"around two degrees early in the morning\".",
+          "uuid": "2efc6e37-5fad-5618-9c4a-0dbac4810ded"
+        },
+        {
+          "id": "LI210-Q03",
+          "number": 3,
+          "prompt": "What will the weather be like in the north at midday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Foggy"
+            },
+            {
+              "id": "B",
+              "text": "Sunny"
+            },
+            {
+              "id": "C",
+              "text": "Rainy"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the fog will clear and we can expect sunshine"
+          },
+          "explanation": "The audio says: \"the fog will clear and we can expect sunshine\".",
+          "uuid": "4cd59cfa-0aa4-57f6-a961-410bcbb581d6"
+        },
+        {
+          "id": "LI210-Q04",
+          "number": 4,
+          "prompt": "What will the weather be like in the east?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sunny with some cloud at night"
+            },
+            {
+              "id": "B",
+              "text": "Heavy rain from morning to night"
+            },
+            {
+              "id": "C",
+              "text": "Cloudy with light afternoon rain"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "cloudy all day, with light rain in the afternoon"
+          },
+          "explanation": "The audio says: \"cloudy all day, with light rain in the afternoon\".",
+          "uuid": "100702ce-fca9-56ed-bdb5-17ff3f81ccb6"
+        },
+        {
+          "id": "LI210-Q05",
+          "number": 5,
+          "prompt": "What may happen to ferries on the south coast?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They may stop for a week"
+            },
+            {
+              "id": "B",
+              "text": "They may be late"
+            },
+            {
+              "id": "C",
+              "text": "They may be free"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "ferries may be delayed"
+          },
+          "explanation": "The audio says: \"ferries may be delayed\".",
+          "uuid": "6edf82dd-e01f-54b1-ac9e-41be8a0e1206"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI210-Q06",
+          "number": 6,
+          "prompt": "How warm will the west be?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Up to 15 degrees"
+            },
+            {
+              "id": "B",
+              "text": "Up to 5 degrees"
+            },
+            {
+              "id": "C",
+              "text": "Up to 25 degrees"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "temperatures up to fifteen degrees"
+          },
+          "explanation": "The audio says: \"temperatures up to fifteen degrees\".",
+          "uuid": "d1ef7dab-e76b-5e70-a4ce-89506e63678b"
+        },
+        {
+          "id": "LI210-Q07",
+          "number": 7,
+          "prompt": "What will happen in the west in the evening?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Heavy rain"
+            },
+            {
+              "id": "B",
+              "text": "Thick fog"
+            },
+            {
+              "id": "C",
+              "text": "Light snow"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "heavy rain in the evening"
+          },
+          "explanation": "The audio says: \"heavy rain in the evening\".",
+          "uuid": "9a11daff-4f43-57fa-97c6-6edaf7810ac3"
+        },
+        {
+          "id": "LI210-Q08",
+          "number": 8,
+          "prompt": "Why should drivers take care in the morning?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The roads will be icy early on"
+            },
+            {
+              "id": "B",
+              "text": "The fog makes it hard to see"
+            },
+            {
+              "id": "C",
+              "text": "The wind is very strong on hills"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the fog can make it difficult to see"
+          },
+          "explanation": "The audio says: \"the fog can make it difficult to see\".",
+          "uuid": "4461d256-dc1d-549d-92ca-be6df765a10d"
+        },
+        {
+          "id": "LI210-Q09",
+          "number": 9,
+          "prompt": "What will arrive on Thursday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Snow in the northern mountains"
+            },
+            {
+              "id": "B",
+              "text": "Warm weather from the Atlantic"
+            },
+            {
+              "id": "C",
+              "text": "Strong winds on the south coast"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "bringing snow to the mountains in the north"
+          },
+          "explanation": "The audio says: \"bringing snow to the mountains in the north\".",
+          "uuid": "dcfc478a-2a0f-535e-ae61-1bd38099ea4d"
+        },
+        {
+          "id": "LI210-Q10",
+          "number": 10,
+          "prompt": "What will the weekend be like?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Warmer with heavy rain again"
+            },
+            {
+              "id": "B",
+              "text": "Drier and brighter but cold"
+            },
+            {
+              "id": "C",
+              "text": "Snowy and dark in the north"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The weekend looks drier and brighter"
+          },
+          "explanation": "The audio says: \"The weekend looks drier and brighter\".",
+          "uuid": "9098e19c-af9f-5df9-a2b7-642b968786ce"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "da006b40-02d3-4407-8a39-a730227638d9",
+  "derived": {
+    "word_count": 179,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "content_hash": "2a202796decc686f"
+  }
+}

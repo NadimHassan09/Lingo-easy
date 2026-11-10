@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE407",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "The Art of Public Speaking",
+  "topic": "psychology",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "The Art of Public Speaking",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Surveys regularly show that many people fear public speaking more than death. The joke may be exaggerated, but the fear is real: even experienced professionals feel their heart rate rise before a presentation. Psychologists explain that the body reacts to an audience as it would to a threat, releasing adrenaline that causes a dry mouth, shaking hands and a racing mind. The good news is that these reactions can be managed, and speaking skills can be learned."
+      },
+      {
+        "label": "B",
+        "text": "The first principle is preparation, but not memorisation. Speakers who learn a script word for word often panic if they lose their place, and they tend to sound unnatural. A better approach is to prepare a clear structure with three or four main points and to practise explaining each aloud in different words. This allows the speaker to sound conversational and to recover easily from mistakes."
+      },
+      {
+        "label": "C",
+        "text": "The second principle is to think about the audience rather than yourself. Nervous speakers often imagine that listeners are judging every flaw, yet research shows that audiences notice far fewer errors than speakers expect. In one experiment, speakers believed that about half of the audience had noticed their nervousness; in reality, fewer than a fifth had. Most listeners simply want the speaker to succeed and the talk to be interesting."
+      },
+      {
+        "label": "D",
+        "text": "Delivery matters too. Slowing down is the simplest improvement, since anxiety makes people speak faster. Pauses, which feel long to the speaker, sound natural and give the audience time to think. Eye contact builds trust: rather than scanning the room, speakers should talk to one person at a time, finishing a thought before moving on. Gestures should come naturally, and standing still with relaxed hands is better than random movement."
+      },
+      {
+        "label": "E",
+        "text": "Finally, experience is the best teacher. Joining a club where members give short talks and receive feedback is a safe way to practise. Recording yourself is uncomfortable but revealing. Over time, many speakers find that the nervousness never disappears completely but becomes useful energy, helping them to sound enthusiastic rather than flat."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE407-Q01",
+          "number": 1,
+          "prompt": "What causes the physical symptoms people feel before a talk?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The body reacts to an audience as to a threat"
+            },
+            {
+              "id": "B",
+              "text": "Lack of sleep on the night before a talk"
+            },
+            {
+              "id": "C",
+              "text": "Poor preparation and too little practice"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "reacts to an audience as it would to a threat"
+          },
+          "explanation": "The text says: \"reacts to an audience as it would to a threat\".",
+          "uuid": "a5be8e31-adbc-59b3-adf0-ef3707a804ab"
+        },
+        {
+          "id": "RE407-Q02",
+          "number": 2,
+          "prompt": "What is the problem with memorising a script?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Speakers may panic if they lose their place"
+            },
+            {
+              "id": "B",
+              "text": "Speakers talk too slowly to hold attention"
+            },
+            {
+              "id": "C",
+              "text": "Audiences prefer written texts to speeches"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "panic if they lose their place"
+          },
+          "explanation": "The text says: \"panic if they lose their place\".",
+          "uuid": "7086a7ee-4e43-52a2-8c1d-4c22a7bee880"
+        },
+        {
+          "id": "RE407-Q03",
+          "number": 3,
+          "prompt": "What does the writer recommend for preparation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A clear structure with a few main points"
+            },
+            {
+              "id": "B",
+              "text": "Writing out every word of the talk"
+            },
+            {
+              "id": "C",
+              "text": "Practising only in front of a mirror"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "a clear structure with three or four main points"
+          },
+          "explanation": "The text says: \"a clear structure with three or four main points\".",
+          "uuid": "9fa25e5c-be2b-53ab-910d-79a5637ccf5c"
+        },
+        {
+          "id": "RE407-Q04",
+          "number": 4,
+          "prompt": "What did the experiment find about audiences?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They noticed exactly as much as speakers thought"
+            },
+            {
+              "id": "B",
+              "text": "They noticed less nervousness than speakers thought"
+            },
+            {
+              "id": "C",
+              "text": "They noticed far more nervousness than expected"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "fewer than a fifth had"
+          },
+          "explanation": "The text says: \"fewer than a fifth had\".",
+          "uuid": "3be4c261-0e4e-59e4-8aac-e999082a9af7"
+        },
+        {
+          "id": "RE407-Q05",
+          "number": 5,
+          "prompt": "Why should speakers slow down?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Anxiety makes people speak too fast"
+            },
+            {
+              "id": "B",
+              "text": "Audiences are slow to follow long sentences"
+            },
+            {
+              "id": "C",
+              "text": "Pauses make the speaker seem rude to listeners"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "anxiety makes people speak faster"
+          },
+          "explanation": "The text says: \"anxiety makes people speak faster\".",
+          "uuid": "c545e1f8-7cae-5fc4-8fff-1bd6df342907"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE407-Q06",
+          "number": 6,
+          "prompt": "Most audiences want the speaker to fail.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "want the speaker to succeed"
+          },
+          "explanation": "The text says: \"want the speaker to succeed\".",
+          "uuid": "2c80c112-2090-546b-a4ae-770260f60bc5"
+        },
+        {
+          "id": "RE407-Q07",
+          "number": 7,
+          "prompt": "Pauses seem longer to the speaker than to the audience.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "feel long to the speaker, sound natural"
+          },
+          "explanation": "The text says: \"feel long to the speaker, sound natural\".",
+          "uuid": "c0a10aba-b9e5-53f2-8bd4-d3af26e393ab"
+        },
+        {
+          "id": "RE407-Q08",
+          "number": 8,
+          "prompt": "Speakers should look at the whole room without stopping.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "talk to one person at a time"
+          },
+          "explanation": "The text says: \"talk to one person at a time\".",
+          "uuid": "103b8bc6-5f0c-53ce-b352-4b69da112b6a"
+        },
+        {
+          "id": "RE407-Q09",
+          "number": 9,
+          "prompt": "Recording yourself is a comfortable experience.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "uncomfortable but revealing"
+          },
+          "explanation": "The text says: \"uncomfortable but revealing\".",
+          "uuid": "97a7385d-dda0-5e4a-8ec1-7e72e8d020bc"
+        },
+        {
+          "id": "RE407-Q10",
+          "number": 10,
+          "prompt": "Public speaking courses are cheaper online.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "de3c8e42-c076-5d74-ae10-95360f1460e9"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE407-Q11",
+          "number": 11,
+          "prompt": "A description of what happens to the body when someone feels anxious",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "dry mouth, shaking hands and a racing mind"
+          },
+          "explanation": "The text says: \"dry mouth, shaking hands and a racing mind\".",
+          "uuid": "f0054c69-c6fd-5583-b2bf-206aa6dc65b1"
+        },
+        {
+          "id": "RE407-Q12",
+          "number": 12,
+          "prompt": "Advice about using a club to practise",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Joining a club where members give short talks"
+          },
+          "explanation": "The text says: \"Joining a club where members give short talks\".",
+          "uuid": "633350d4-5b50-5c11-95a8-241e25473ef3"
+        },
+        {
+          "id": "RE407-Q13",
+          "number": 13,
+          "prompt": "A statistic showing a difference between what speakers believe and what happens",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "fewer than a fifth had"
+          },
+          "explanation": "The text says: \"fewer than a fifth had\".",
+          "uuid": "6ff64725-287b-50b8-8151-8747566c359b"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "28151b51-5744-47bd-84e7-32fa80c62dd4",
+  "derived": {
+    "word_count": 335,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 6,
+      "B": 5,
+      "C": 1,
+      "D": 1
+    },
+    "content_hash": "fa224f4d3128c379"
+  }
+}

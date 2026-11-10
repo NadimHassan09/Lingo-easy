@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE310",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Learning a Language as an Adult",
+  "topic": "language_and_linguistics",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "Learning a Language as an Adult",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Many people believe that children learn languages more easily than adults, and that after a certain age it becomes almost impossible to speak a new language well. This idea is often called the critical period theory. But is it true?"
+      },
+      {
+        "label": "B",
+        "text": "Children do have some advantages. They pick up pronunciation quickly, and young children who move abroad often speak like local people within a year or two. They are also less afraid of making mistakes. However, research suggests that the advantage is smaller than most people think. Adults and teenagers actually learn faster at the beginning, because they can use grammar rules and study methods."
+      },
+      {
+        "label": "C",
+        "text": "Adults face different challenges. They are usually busier, with work and family taking up much of their time. They may also worry about sounding silly, which makes them speak less and practise less. Yet adults have strengths that children lack: they know how to study, they understand why they are learning, and they can compare the new language with their own."
+      },
+      {
+        "label": "D",
+        "text": "What is the best way for adults to learn? Experts give a few practical suggestions. First, study little and often. Twenty minutes every day is more effective than three hours once a week. Second, speak from the beginning, even if you make mistakes. Third, use the language for something you enjoy, such as films, music or sport, so that learning does not feel like work. Finally, be patient. It usually takes between six hundred and a thousand hours to reach a comfortable level in a language like Spanish or French."
+      },
+      {
+        "label": "E",
+        "text": "Learning a language also keeps the brain active. Studies suggest that people who speak two or more languages may develop serious memory problems later than those who speak only one. So whatever your age, it is never too late to start."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE310-Q01",
+          "number": 1,
+          "prompt": "What is the critical period theory?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The idea that learning a language gets much harder after a certain age"
+            },
+            {
+              "id": "B",
+              "text": "The idea that all learners make progress at a similar speed"
+            },
+            {
+              "id": "C",
+              "text": "The idea that adults should study a language only in classes"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "after a certain age it becomes almost impossible"
+          },
+          "explanation": "The text says: \"after a certain age it becomes almost impossible\".",
+          "uuid": "c73662de-6f48-554e-83cd-dd5a51ee5c20"
+        },
+        {
+          "id": "RE310-Q02",
+          "number": 2,
+          "prompt": "What advantage do children have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They have much more free time to study"
+            },
+            {
+              "id": "B",
+              "text": "They already know the grammar rules"
+            },
+            {
+              "id": "C",
+              "text": "They pick up pronunciation quickly"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "pick up pronunciation quickly"
+          },
+          "explanation": "The text says: \"pick up pronunciation quickly\".",
+          "uuid": "b24b053f-f573-5ee0-adae-4553fc783439"
+        },
+        {
+          "id": "RE310-Q03",
+          "number": 3,
+          "prompt": "Who learn faster at the beginning?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Children under the age of ten"
+            },
+            {
+              "id": "B",
+              "text": "Older people over sixty"
+            },
+            {
+              "id": "C",
+              "text": "Adults and teenagers"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "learn faster at the beginning"
+          },
+          "explanation": "The text says: \"learn faster at the beginning\".",
+          "uuid": "fce03bfd-7e23-5f1e-b0c8-7bffa190d3dc"
+        },
+        {
+          "id": "RE310-Q04",
+          "number": 4,
+          "prompt": "Why do some adults speak less?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They worry about sounding silly"
+            },
+            {
+              "id": "B",
+              "text": "They are too busy to practise"
+            },
+            {
+              "id": "C",
+              "text": "They dislike learning grammar rules"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "worry about sounding silly"
+          },
+          "explanation": "The text says: \"worry about sounding silly\".",
+          "uuid": "5e223899-0f7a-56d5-abf1-133860a54cf0"
+        },
+        {
+          "id": "RE310-Q05",
+          "number": 5,
+          "prompt": "What strength do adults have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They have better ears"
+            },
+            {
+              "id": "B",
+              "text": "They are less busy"
+            },
+            {
+              "id": "C",
+              "text": "They know how to study"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "they know how to study"
+          },
+          "explanation": "The text says: \"they know how to study\".",
+          "uuid": "650d043b-70ec-5ea7-8b38-03e09b8e2cad"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE310-Q06",
+          "number": 6,
+          "prompt": "Twenty minutes every day is better than three hours once a week.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "more effective than three hours once a week"
+          },
+          "explanation": "The text says: \"more effective than three hours once a week\".",
+          "uuid": "c95a8229-241e-54f6-9d1e-a3b11f36eca6"
+        },
+        {
+          "id": "RE310-Q07",
+          "number": 7,
+          "prompt": "Experts advise waiting until you are perfect before you speak.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "speak from the beginning, even if you make mistakes"
+          },
+          "explanation": "The text says: \"speak from the beginning, even if you make mistakes\".",
+          "uuid": "dbd9fbdb-b3dc-5b04-84e4-2e06b0b19362"
+        },
+        {
+          "id": "RE310-Q08",
+          "number": 8,
+          "prompt": "It takes about a month to reach a comfortable level in French.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "between six hundred and a thousand hours"
+          },
+          "explanation": "The text says: \"between six hundred and a thousand hours\".",
+          "uuid": "e534d1b2-ca87-5791-9297-3052e4e05dbd"
+        },
+        {
+          "id": "RE310-Q09",
+          "number": 9,
+          "prompt": "Learning a language keeps the brain active.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "keeps the brain active"
+          },
+          "explanation": "The text says: \"keeps the brain active\".",
+          "uuid": "016c2e66-e6e8-57c7-ae7b-36d2149061be"
+        },
+        {
+          "id": "RE310-Q10",
+          "number": 10,
+          "prompt": "Learning Chinese takes twice as long as learning Spanish.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "8cf0c2d4-d4c0-5f9a-a6a6-12f6da70015d"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE310-Q11",
+          "number": 11,
+          "prompt": "Young children who move abroad often speak like local people within a year or _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "ten"
+            },
+            {
+              "id": "B",
+              "text": "five"
+            },
+            {
+              "id": "C",
+              "text": "two"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "within a year or two"
+          },
+          "explanation": "The text says: \"within a year or two\".",
+          "uuid": "4a1ed64a-ce7c-5fd8-9044-dd0f0972045a"
+        },
+        {
+          "id": "RE310-Q12",
+          "number": 12,
+          "prompt": "Experts suggest using the language for something you enjoy, such as films, music or _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "homework"
+            },
+            {
+              "id": "B",
+              "text": "sport"
+            },
+            {
+              "id": "C",
+              "text": "tests"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "music or sport"
+          },
+          "explanation": "The text says: \"music or sport\".",
+          "uuid": "7092a039-854c-5bf8-9fb4-1ab6a4a45e33"
+        },
+        {
+          "id": "RE310-Q13",
+          "number": 13,
+          "prompt": "People who speak two languages may develop memory problems _____ than those who speak one.",
+          "options": [
+            {
+              "id": "A",
+              "text": "earlier"
+            },
+            {
+              "id": "B",
+              "text": "later"
+            },
+            {
+              "id": "C",
+              "text": "faster"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "develop serious memory problems later than"
+          },
+          "explanation": "The text says: \"develop serious memory problems later than\".",
+          "uuid": "5d03919f-7ab1-55a1-ac85-3b22ca88c961"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "b048e0cc-697a-4282-8dc8-e184dc591121",
+  "derived": {
+    "word_count": 296,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 5
+    },
+    "content_hash": "d21373defe568248"
+  }
+}

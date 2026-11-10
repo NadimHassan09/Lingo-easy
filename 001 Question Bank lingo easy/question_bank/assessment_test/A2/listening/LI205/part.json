@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "id": "LI205",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Buying a New Phone",
+  "topic": "technology",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li205_buying_a_new_phone.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Liam",
+        "gender": "male",
+        "accent": "australian",
+        "role": "shop assistant"
+      },
+      {
+        "id": "S2",
+        "name": "Helen",
+        "gender": "female",
+        "accent": "british",
+        "role": "customer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon. Are you looking for something special?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, I need a new phone. My old one is broken. The screen has a big crack."
+      },
+      {
+        "speaker": "S1",
+        "text": "I'm sorry to hear that. What's your budget?"
+      },
+      {
+        "speaker": "S2",
+        "text": "About two hundred pounds. I don't want to spend more than that."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay. This model costs one hundred and eighty pounds. It has a good camera and the battery lasts two days."
+      },
+      {
+        "speaker": "S2",
+        "text": "That sounds good. Is it available in black?"
+      },
+      {
+        "speaker": "S1",
+        "text": "We only have it in white and silver at the moment, but we can order a black one. It would arrive in five days."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'd prefer to take one today. Silver is fine."
+      },
+      {
+        "speaker": "S1",
+        "text": "Great. Would you like a case? We have a nice one for fifteen pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "No, thanks. I'll buy a case online. Does the phone come with headphones?"
+      },
+      {
+        "speaker": "S1",
+        "text": "No, but you can buy them separately. Would you like to pay now?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, please. Can I pay by card? And can you move my photos from the old phone?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Of course. It takes about twenty minutes, and it's free. You can wait in the café next door."
+      },
+      {
+        "speaker": "S2",
+        "text": "Lovely. I'll come back in half an hour."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI205-Q01",
+          "number": 1,
+          "prompt": "What is wrong with Helen's old phone?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The screen is cracked"
+            },
+            {
+              "id": "B",
+              "text": "The battery is dead"
+            },
+            {
+              "id": "C",
+              "text": "The camera is broken"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The screen has a big crack"
+          },
+          "explanation": "The audio says: \"The screen has a big crack\".",
+          "uuid": "46df5617-7163-575a-9908-21c2a60d4cf3"
+        },
+        {
+          "id": "LI205-Q02",
+          "number": 2,
+          "prompt": "What is Helen's budget?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 100 pounds"
+            },
+            {
+              "id": "B",
+              "text": "About 200 pounds"
+            },
+            {
+              "id": "C",
+              "text": "About 180 pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "About two hundred pounds"
+          },
+          "explanation": "The audio says: \"About two hundred pounds\".",
+          "uuid": "2a981eb3-f332-53e5-b629-e9cdb844f305"
+        },
+        {
+          "id": "LI205-Q03",
+          "number": 3,
+          "prompt": "How much does the new model cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "80 pounds"
+            },
+            {
+              "id": "B",
+              "text": "200 pounds"
+            },
+            {
+              "id": "C",
+              "text": "180 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "costs one hundred and eighty pounds"
+          },
+          "explanation": "The audio says: \"costs one hundred and eighty pounds\".",
+          "uuid": "68a9ab67-8744-5cb6-9672-0dd863a611e3"
+        },
+        {
+          "id": "LI205-Q04",
+          "number": 4,
+          "prompt": "How long does the battery last?",
+          "options": [
+            {
+              "id": "A",
+              "text": "One day"
+            },
+            {
+              "id": "B",
+              "text": "Two days"
+            },
+            {
+              "id": "C",
+              "text": "A week"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the battery lasts two days"
+          },
+          "explanation": "The audio says: \"the battery lasts two days\".",
+          "uuid": "fc337e28-4e3d-5aaf-8a77-6f7b0d4808b0"
+        },
+        {
+          "id": "LI205-Q05",
+          "number": 5,
+          "prompt": "Which colour is not in the shop?",
+          "options": [
+            {
+              "id": "A",
+              "text": "White"
+            },
+            {
+              "id": "B",
+              "text": "Black"
+            },
+            {
+              "id": "C",
+              "text": "Silver"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "available in black"
+          },
+          "explanation": "The audio says: \"available in black\".",
+          "uuid": "3de4a820-2571-5cee-99ff-7b29b5afb7bd"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI205-Q06",
+          "number": 6,
+          "prompt": "How long would a black phone take to arrive?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Five days"
+            },
+            {
+              "id": "B",
+              "text": "One day"
+            },
+            {
+              "id": "C",
+              "text": "Two weeks"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It would arrive in five days"
+          },
+          "explanation": "The audio says: \"It would arrive in five days\".",
+          "uuid": "4e053115-afde-581f-a5f1-51b052ef3f2f"
+        },
+        {
+          "id": "LI205-Q07",
+          "number": 7,
+          "prompt": "Which colour does Helen buy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Silver"
+            },
+            {
+              "id": "B",
+              "text": "White"
+            },
+            {
+              "id": "C",
+              "text": "Black"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Silver is fine"
+          },
+          "explanation": "The audio says: \"Silver is fine\".",
+          "uuid": "62ae2629-67a1-5d76-a8c8-3371652404f8"
+        },
+        {
+          "id": "LI205-Q08",
+          "number": 8,
+          "prompt": "Why does Helen not buy a case in the shop?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She will buy one online"
+            },
+            {
+              "id": "B",
+              "text": "It is too expensive"
+            },
+            {
+              "id": "C",
+              "text": "It is the wrong size"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'll buy a case online"
+          },
+          "explanation": "The audio says: \"I'll buy a case online\".",
+          "uuid": "72874f8a-8d88-5b1b-af61-2393fe0225af"
+        },
+        {
+          "id": "LI205-Q09",
+          "number": 9,
+          "prompt": "What does the phone come with?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Free headphones"
+            },
+            {
+              "id": "B",
+              "text": "No headphones"
+            },
+            {
+              "id": "C",
+              "text": "A free case"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "No, but you can buy them separately"
+          },
+          "explanation": "The audio says: \"No, but you can buy them separately\".",
+          "uuid": "6210d6a0-2bb4-5c47-ab91-5e18b60b8c80"
+        },
+        {
+          "id": "LI205-Q10",
+          "number": 10,
+          "prompt": "How long does it take to move the photos?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 2 minutes"
+            },
+            {
+              "id": "B",
+              "text": "About an hour"
+            },
+            {
+              "id": "C",
+              "text": "About 20 minutes"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It takes about twenty minutes"
+          },
+          "explanation": "The audio says: \"It takes about twenty minutes\".",
+          "uuid": "291db90a-5d5a-5eca-aa4b-0041c5a8b93a"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "59db96d2-ba95-4525-bcf4-cdc3d1fcf7fd",
+  "derived": {
+    "word_count": 189,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "content_hash": "a1c96a0e5a265ed6"
+  }
+}

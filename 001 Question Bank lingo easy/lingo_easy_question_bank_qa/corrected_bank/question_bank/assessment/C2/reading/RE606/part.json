@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE606",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Monuments and the Politics of Memory",
+  "topic": "history",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "Monuments and the Politics of Memory",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In recent years, statues have become battlegrounds. From Confederate generals in the American South to slave traders in British cities, monuments have been toppled, removed or defended with equal passion. The controversy is sometimes framed as a choice between preserving history and erasing it. I want to argue that this framing is misleading, because monuments are not history; they are statements about what a society chooses to honour, made at a particular moment, and they can be assessed as such."
+      },
+      {
+        "label": "B",
+        "text": "Consider when many Confederate monuments in the United States were erected. Contrary to what one might expect, relatively few were built soon after the Civil War. Most appeared between 1900 and 1920, and again during the civil rights era of the 1950s and 1960s, periods when white Southerners were asserting political dominance over Black citizens. Understood in that context, these statues tell us less about the nineteenth century than about the twentieth-century attitudes that placed them there."
+      },
+      {
+        "label": "C",
+        "text": "Defenders of existing monuments make reasonable points. Removing statues, they say, risks a naive purification of the past, as if admitting that admired figures had serious flaws made them impossible to discuss. It may also set a precedent: if every figure with a moral blemish must go, few will remain. Moreover, the people who cause the greatest offence may be those whose crimes were most obvious, whereas others with comparable records escape attention simply because they are more distant."
+      },
+      {
+        "label": "D",
+        "text": "These arguments have force, but they do not settle the matter. First, there is a distinction between honouring a person and studying them. A museum can display a statue with an explanation; a public square places it in a position of celebration. Second, most societies already accept that honour is conditional: nobody proposes to erect monuments to notorious tyrants. The question is where to draw the line, which is a legitimate subject for democratic debate rather than a threat to history."
+      },
+      {
+        "label": "E",
+        "text": "Several alternatives exist between preservation and removal. Statues can be moved to museums, supplemented with plaques that tell the full story, or placed beside new works that answer them, as in the Hungarian park where communist-era statues now stand together as a lesson. None of these is perfect, and each involves someone's discomfort. But all begin from the recognition that a monument is a conversation between generations, and that later generations are entitled to reply."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE606-Q01",
+          "number": 1,
+          "prompt": "How is the controversy over monuments often framed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a conflict between art and modern politics"
+            },
+            {
+              "id": "B",
+              "text": "As a question of public cost against public benefit"
+            },
+            {
+              "id": "C",
+              "text": "As a choice between preserving and erasing history"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "preserving history and erasing it"
+          },
+          "explanation": "The text says: \"preserving history and erasing it\".",
+          "uuid": "fa0c4050-caee-5f7b-9bca-782d49b8b991"
+        },
+        {
+          "id": "RE606-Q02",
+          "number": 2,
+          "prompt": "What does the writer say monuments really are?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Neutral records of what happened in the past"
+            },
+            {
+              "id": "B",
+              "text": "Works of art to be judged on their beauty"
+            },
+            {
+              "id": "C",
+              "text": "Statements about what a society chooses to honour"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "what a society chooses to honour"
+          },
+          "explanation": "The text says: \"what a society chooses to honour\".",
+          "uuid": "0aeb93a7-12a0-5fca-8348-5e2b099f92e2"
+        },
+        {
+          "id": "RE606-Q03",
+          "number": 3,
+          "prompt": "When were most Confederate monuments erected?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Immediately after the end of the Civil War"
+            },
+            {
+              "id": "B",
+              "text": "In the first years of the twenty-first century"
+            },
+            {
+              "id": "C",
+              "text": "Between 1900 and 1920 and during the civil rights era"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "between 1900 and 1920"
+          },
+          "explanation": "The text says: \"between 1900 and 1920\".",
+          "uuid": "9c2f4719-566c-5e68-b763-d03b05d118a8"
+        },
+        {
+          "id": "RE606-Q04",
+          "number": 4,
+          "prompt": "What do these statues tell us about, according to the writer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The events of the Civil War itself"
+            },
+            {
+              "id": "B",
+              "text": "The attitudes of the twentieth century"
+            },
+            {
+              "id": "C",
+              "text": "The nineteenth-century economy of the South"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "about the twentieth-century attitudes that placed them there"
+          },
+          "explanation": "The text says: \"about the twentieth-century attitudes that placed them there\".",
+          "uuid": "a3786bec-91ed-5528-b3a4-dfa4a5e6f5da"
+        },
+        {
+          "id": "RE606-Q05",
+          "number": 5,
+          "prompt": "What risk do defenders see in removing statues?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A naive purification of the past"
+            },
+            {
+              "id": "B",
+              "text": "A very high cost for local councils"
+            },
+            {
+              "id": "C",
+              "text": "A permanent end to public debate"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "naive purification of the past"
+          },
+          "explanation": "The text says: \"naive purification of the past\".",
+          "uuid": "9d6935ee-cdc5-5881-a5a6-c0b7b3271ae9"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE606-Q06",
+          "number": 6,
+          "prompt": "The writer believes monuments are a form of history.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "monuments are not history"
+          },
+          "explanation": "The text says: \"monuments are not history\".",
+          "uuid": "73b0d18d-b15f-5651-9a14-71223d438aff"
+        },
+        {
+          "id": "RE606-Q07",
+          "number": 7,
+          "prompt": "The writer thinks defenders of existing monuments make no reasonable points.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "make reasonable points"
+          },
+          "explanation": "The text says: \"make reasonable points\".",
+          "uuid": "688a501d-e5fb-51c4-b0b3-d7093c488845"
+        },
+        {
+          "id": "RE606-Q08",
+          "number": 8,
+          "prompt": "The writer thinks a museum and a public square are equivalent places for a statue.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "a public square places it in a position of celebration"
+          },
+          "explanation": "The text says: \"a public square places it in a position of celebration\".",
+          "uuid": "7b738189-f07e-5b42-958f-8839f50d894c"
+        },
+        {
+          "id": "RE606-Q09",
+          "number": 9,
+          "prompt": "The writer has visited the Hungarian park.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "3cc24e34-2fd9-55a3-8980-bd946bd13cb9"
+        },
+        {
+          "id": "RE606-Q10",
+          "number": 10,
+          "prompt": "The writer believes later generations may respond to earlier monuments.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "later generations are entitled to reply"
+          },
+          "explanation": "The text says: \"later generations are entitled to reply\".",
+          "uuid": "46e71d42-d6ec-5a21-bd50-f97bc401a194"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE606-Q11",
+          "number": 11,
+          "prompt": "An explanation of the timing of a group of monuments",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Most appeared between 1900 and 1920"
+          },
+          "explanation": "The text says: \"Most appeared between 1900 and 1920\".",
+          "uuid": "80b72b62-f6aa-583a-910b-dace2c37fd4e"
+        },
+        {
+          "id": "RE606-Q12",
+          "number": 12,
+          "prompt": "An objection based on the idea that few figures would survive scrutiny",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "if every figure with a moral blemish must go"
+          },
+          "explanation": "The text says: \"if every figure with a moral blemish must go\".",
+          "uuid": "dc5b3748-867e-53f0-901f-60b7a2975479"
+        },
+        {
+          "id": "RE606-Q13",
+          "number": 13,
+          "prompt": "A mention of a practical alternative to removal",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "supplemented with plaques that tell the full story"
+          },
+          "explanation": "The text says: \"supplemented with plaques that tell the full story\".",
+          "uuid": "3367c4ea-5b83-5795-ba04-600fcaa5f075"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "7dc5129b-10ce-4776-8afe-51608ba39d3c",
+  "derived": {
+    "word_count": 394,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 3,
+      "B": 5,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "cf8fb08404b1dd16"
+  }
+}

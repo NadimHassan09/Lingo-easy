@@ -1,0 +1,455 @@
+{
+  "schema_version": "1.0",
+  "id": "LI003",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "Why Cities Are Hotter Than the Countryside",
+  "topic": "architecture_and_cities",
+  "profile": "advanced",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li003_why_cities_are_hotter_than_the_countryside.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Professor Walker",
+        "gender": "male",
+        "accent": "american",
+        "role": "urban planning lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, everyone. Today's lecture is about a phenomenon that affects most large cities, the urban heat island effect. In simple terms, it means that a city is warmer than the countryside around it. On a calm summer night, the centre of a big city can be up to five degrees warmer than the surrounding fields, and that difference has serious consequences for health, energy use and even sleep."
+      },
+      {
+        "speaker": "S1",
+        "text": "I'll begin with the main causes, then move on to some proposed solutions, and finally I'll say something about why progress has been so slow. There are three main causes, and I'll take them in turn."
+      },
+      {
+        "speaker": "S1",
+        "text": "The first is the surface material. Dark surfaces such as asphalt absorb far more heat from the sun than grass or soil, and they release it slowly afterwards. A black road can be thirty degrees hotter than a lawn next to it at midday."
+      },
+      {
+        "speaker": "S1",
+        "text": "The second cause is the lack of vegetation. Trees do not only provide shade. They also release water vapour through their leaves, and this process takes heat out of the air, much as sweating cools our skin. Replace a wooded area with a car park and you lose both effects at once."
+      },
+      {
+        "speaker": "S1",
+        "text": "The third cause is the shape of the city itself. Tall buildings on both sides of a narrow street form what planners call a street canyon. During the day, sunlight bounces between the walls and stays trapped. At night, the problem is worse, because the heat has nowhere to go. The buildings block the sky, so warmth that would normally escape upwards is held in the streets."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, many people assume that air conditioning is the main culprit. That is partly true, since all that machinery pumps warm air outside. But when researchers compared different districts, the effect of surface materials turned out to be considerably larger. So air conditioning is a contributing factor rather than the root cause."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let's turn to solutions. One popular idea is to paint roofs white so that they reflect sunlight. It's an appealing idea, and it does work on individual buildings. But I think it's slightly oversimplified, because white surfaces can also reflect glare down into the street, and they do nothing to help with the shortage of trees."
+      },
+      {
+        "speaker": "S1",
+        "text": "Another option is the green roof, which is a roof covered in plants. The benefits are real. They cool the building, absorb rainwater and provide a home for insects. Even so, the installation is expensive, so I suspect they will remain rare unless governments offer financial support."
+      },
+      {
+        "speaker": "S1",
+        "text": "A recent study in a European city offered a surprising lesson. The researchers expected the biggest cooling effect near the largest parks. In fact, the strongest cooling came from many small green spaces spread across the district, because each one cooled the streets immediately around it. That suggests that quantity and distribution may matter more than sheer size."
+      },
+      {
+        "speaker": "S1",
+        "text": "To sum up, we already know how to reduce urban heat. The real difficulty is that responsibility is divided between many different organisations, so the obstacle is coordination rather than technology. Cities that plan their trees, roofs and streets together are likely to have a distinct advantage, and I'd argue that is where future research should focus."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI003-Q01",
+          "number": 1,
+          "prompt": "How much warmer can a city centre be on a calm summer night?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Up to three degrees"
+            },
+            {
+              "id": "B",
+              "text": "Up to ten degrees"
+            },
+            {
+              "id": "C",
+              "text": "Up to five degrees"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "up to five degrees warmer than the surrounding fields"
+          },
+          "explanation": "The lecturer says a big city centre can be up to five degrees warmer than the fields around it.",
+          "uuid": "b7266734-fcbf-5ae1-a40b-db5bb12e2c67"
+        },
+        {
+          "id": "LI003-Q02",
+          "number": 2,
+          "prompt": "How will the lecture be organised?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Causes, then solutions, then reasons for slow progress"
+            },
+            {
+              "id": "B",
+              "text": "Solutions first, then causes, then health effects"
+            },
+            {
+              "id": "C",
+              "text": "History first, then causes, then solutions"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "organisation_signposting",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'll begin with the main causes, then move on to some proposed solutions"
+          },
+          "explanation": "He begins with causes, moves to solutions, and finally explains why progress has been slow.",
+          "uuid": "dc1d950f-66fb-5dc8-b267-8e0ce6bab569"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI003-Q03",
+          "number": 3,
+          "prompt": "Why can a black road be much hotter than a lawn?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It stays in the sun for longer."
+            },
+            {
+              "id": "B",
+              "text": "It absorbs more heat from the sun."
+            },
+            {
+              "id": "C",
+              "text": "It is partly made of metal."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Dark surfaces such as asphalt absorb far more heat"
+          },
+          "explanation": "Dark surfaces like asphalt absorb far more heat than grass or soil.",
+          "uuid": "db39cae8-de65-5376-a75f-8ccf1fcd91fe"
+        },
+        {
+          "id": "LI003-Q04",
+          "number": 4,
+          "prompt": "Apart from giving shade, how do trees cool the air?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By releasing water vapour"
+            },
+            {
+              "id": "B",
+              "text": "By blocking the wind"
+            },
+            {
+              "id": "C",
+              "text": "By reflecting sunlight"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "They also release water vapour through their leaves"
+          },
+          "explanation": "Trees release water vapour, which takes heat out of the air.",
+          "uuid": "a2447328-460f-5f02-9b7e-1c125f9becf9"
+        },
+        {
+          "id": "LI003-Q05",
+          "number": 5,
+          "prompt": "Why are street canyons especially hot at night?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Traffic produces more heat in the evening."
+            },
+            {
+              "id": "B",
+              "text": "Heat cannot easily escape upwards."
+            },
+            {
+              "id": "C",
+              "text": "Narrow streets stop the wind from cooling them."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the heat has nowhere to go"
+          },
+          "explanation": "The buildings block the sky, so warmth that would escape upwards stays trapped in the streets.",
+          "uuid": "e254ab52-4be5-5265-8504-3b787f2aa81a"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI003-Q06",
+          "number": 6,
+          "prompt": "What does the lecturer say about air conditioning?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is the main cause of heat islands."
+            },
+            {
+              "id": "B",
+              "text": "It has almost no effect on temperature."
+            },
+            {
+              "id": "C",
+              "text": "It adds to the problem but is not the root cause."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a contributing factor rather than the root cause"
+          },
+          "explanation": "He accepts the popular view is partly true, but says surface materials matter more.",
+          "uuid": "d87f7bc2-9d8c-54e4-9085-a122ec626d95"
+        },
+        {
+          "id": "LI003-Q07",
+          "number": 7,
+          "prompt": "What is the lecturer's opinion of painting roofs white?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Attractive, but too simple on its own"
+            },
+            {
+              "id": "B",
+              "text": "Helpful only on very large buildings"
+            },
+            {
+              "id": "C",
+              "text": "Better than planting trees"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "connotation",
+            "target": "oversimplified"
+          },
+          "evidence": {
+            "quote": "I think it's slightly oversimplified"
+          },
+          "explanation": "He calls it appealing and effective on single buildings but says it is slightly oversimplified.",
+          "uuid": "4ba45d05-c990-562d-a348-2c17449ceb86"
+        },
+        {
+          "id": "LI003-Q08",
+          "number": 8,
+          "prompt": "What does the lecturer suggest about green roofs?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Their benefits are exaggerated."
+            },
+            {
+              "id": "B",
+              "text": "They need public money to become common."
+            },
+            {
+              "id": "C",
+              "text": "They are too heavy for most buildings."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "hedging_and_tentative_language"
+          },
+          "evidence": {
+            "quote": "I suspect they will remain rare unless governments offer financial support"
+          },
+          "explanation": "He says the benefits are real, but cost means they will stay rare without government support.",
+          "uuid": "e8fe1ed3-0bb5-5b29-bb37-a0255c1da8ca"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI003-Q09",
+          "number": 9,
+          "prompt": "What does the recent study suggest about green spaces?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Large parks cool the surrounding streets best."
+            },
+            {
+              "id": "B",
+              "text": "Cooling depends mainly on the type of tree."
+            },
+            {
+              "id": "C",
+              "text": "Many small spaces may outperform fewer large ones."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "hedging_and_tentative_language"
+          },
+          "evidence": {
+            "quote": "many small green spaces spread across the district"
+          },
+          "explanation": "The researchers expected large parks to cool best, but the strongest cooling came from many small spaces, so distribution may matter more than size.",
+          "uuid": "2bcc1dee-410b-5ef9-a659-af02f294b362"
+        },
+        {
+          "id": "LI003-Q10",
+          "number": 10,
+          "prompt": "What is the lecturer's main conclusion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Planning together matters more than new technology."
+            },
+            {
+              "id": "B",
+              "text": "Existing methods are too expensive to use."
+            },
+            {
+              "id": "C",
+              "text": "Research should now focus on developing new cooling technology."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "gist",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "nominalisation"
+          },
+          "evidence": {
+            "quote": "the obstacle is coordination rather than technology"
+          },
+          "explanation": "He concludes that the difficulty is coordination between organisations, not a lack of technology.",
+          "uuid": "d449d34a-c4a6-5768-8ea1-ff24a1d6f86f"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "3d3d8143-d90f-40bb-8e71-707ff6aef316",
+  "derived": {
+    "word_count": 538,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 1,
+      "B2": 3,
+      "C1": 3,
+      "C2": 2
+    },
+    "mean_band": 6.5,
+    "answer_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "content_hash": "9886a6c9f818e60b"
+  }
+}

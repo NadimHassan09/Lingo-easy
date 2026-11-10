@@ -1,0 +1,148 @@
+{
+  "part_id": "LI310",
+  "part_uuid": "5e09e4f0-dfcb-49bf-8a27-d68570def278",
+  "audio_file": "li310_feedback_on_an_essay.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "32bd62353d34e700c29492cc365148db76b39f6ac839d04a797a108200cb18f2",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Brown",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Daniel",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 7.51
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 7.96,
+      "end": 13.07
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 13.52,
+      "end": 23.29
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 23.74,
+      "end": 28.85
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 29.3,
+      "end": 40.03
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 40.48,
+      "end": 45.76
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 46.21,
+      "end": 59.87
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 60.32,
+      "end": 64.76
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 65.21,
+      "end": 75.31
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 75.76,
+      "end": 80.03
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 80.48,
+      "end": 87.64
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 88.09,
+      "end": 91.88
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 92.33,
+      "end": 101.54
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 101.99,
+      "end": 106.82
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 107.27,
+      "end": 117.68
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 118.13,
+      "end": 125.81
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 126.26,
+      "end": 140.93
+    }
+  ],
+  "duration_seconds": 140.93,
+  "size_bytes": 1128044,
+  "audio_sha256": "04c1308e2ab00c39f6bfad5194218b48c60c7750c09a4ba787103f442426b056",
+  "generated_at": "2026-10-30T20:52:24+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

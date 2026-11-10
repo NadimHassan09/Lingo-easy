@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI505",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "Festival Safety Briefing",
+  "topic": "tourism_and_events",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li505_festival_safety_briefing.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Ruth Cole",
+        "gender": "female",
+        "accent": "british",
+        "role": "event manager"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, team, and thank you for coming in early. This is our final briefing before the festival opens on Friday. I'll go through the safety plan, and then there'll be time for questions."
+      },
+      {
+        "speaker": "S1",
+        "text": "First, numbers. We're expecting twelve thousand visitors on Saturday, which is our busiest day, and about eight thousand on Friday and Sunday. That's higher than last year, when we had nine thousand at the peak, so we've changed the layout. The main stage has moved from the north field to the south field, which has more space and two separate exits. The north field will now be used for camping and the family area."
+      },
+      {
+        "speaker": "S1",
+        "text": "Second, entry. All visitors will pass through security at the main gate. Bags will be checked, and glass bottles and large umbrellas aren't allowed. Last year, queues at the gate were a problem, with some people waiting nearly an hour. To avoid this, we've opened four extra lanes and introduced a fast lane for people with only a small bag. Staff at the gate should explain clearly why items are prohibited, because visitors are usually cooperative if they understand the reason."
+      },
+      {
+        "speaker": "S1",
+        "text": "Third, weather. The forecast for Saturday shows a chance of heavy rain in the afternoon, followed by clearing in the evening. If there's lightning within ten miles, the main stage will stop immediately, and visitors will be asked to leave the open field and shelter in the marquees or their cars. Our weather service will text me every thirty minutes. Please don't rely on rumours: only I can give the instruction to stop a performance."
+      },
+      {
+        "speaker": "S1",
+        "text": "Fourth, medical support. There'll be two first-aid posts, one near the main stage and the other at the campsite, with a doctor and three paramedics on site at all times. An ambulance will wait at the back gate, and the access road must be kept clear. This means that no vehicles are to park on the verge, not even staff vehicles. If you see a car blocking the road, please report it on the radio, even if it belongs to a colleague."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, communication. Every supervisor will carry a radio, tuned to channel three for general matters, and channel one for emergencies only. If you hear the word Red on channel one, stop what you're doing and wait for instructions. We'll practise this at three o'clock this afternoon. Any questions?"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI505-Q01",
+          "number": 1,
+          "prompt": "How many visitors are expected on the busiest day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "8,000"
+            },
+            {
+              "id": "B",
+              "text": "9,000"
+            },
+            {
+              "id": "C",
+              "text": "12,000"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "twelve thousand visitors on Saturday"
+          },
+          "explanation": "The audio says: \"twelve thousand visitors on Saturday\".",
+          "uuid": "b452f61a-87f4-5775-bcca-b353deacaddc"
+        },
+        {
+          "id": "LI505-Q02",
+          "number": 2,
+          "prompt": "What change has been made to the layout?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The camping area has moved to the south field"
+            },
+            {
+              "id": "B",
+              "text": "The main stage has moved to the south field"
+            },
+            {
+              "id": "C",
+              "text": "The family area has been removed"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "main stage has moved from the north field to the south field"
+          },
+          "explanation": "The audio says: \"main stage has moved from the north field to the south field\".",
+          "uuid": "3eb09c9e-d198-50cc-9f7c-3e15bcd58f82"
+        },
+        {
+          "id": "LI505-Q03",
+          "number": 3,
+          "prompt": "Why was the main stage moved?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The north field is flooded in wet weather"
+            },
+            {
+              "id": "B",
+              "text": "The south field has more space and two exits"
+            },
+            {
+              "id": "C",
+              "text": "The south field is quieter at night"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "two separate exits"
+          },
+          "explanation": "The audio says: \"two separate exits\".",
+          "uuid": "fe0bb72c-74df-5889-b467-a4b30365d40e"
+        },
+        {
+          "id": "LI505-Q04",
+          "number": 4,
+          "prompt": "What was the problem at the gate last year?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Visitors' bags were not checked properly"
+            },
+            {
+              "id": "B",
+              "text": "Some people waited nearly an hour"
+            },
+            {
+              "id": "C",
+              "text": "The gates opened late on Friday"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "waiting nearly an hour"
+          },
+          "explanation": "The audio says: \"waiting nearly an hour\".",
+          "uuid": "34a77abb-c3a1-5a84-a25f-651fad5e78e6"
+        },
+        {
+          "id": "LI505-Q05",
+          "number": 5,
+          "prompt": "What has been introduced to reduce queues?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A ticket checking app for visitors"
+            },
+            {
+              "id": "B",
+              "text": "A separate gate for people with campers"
+            },
+            {
+              "id": "C",
+              "text": "A fast lane for people with small bags"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "fast lane for people with only a small bag"
+          },
+          "explanation": "The audio says: \"fast lane for people with only a small bag\".",
+          "uuid": "dbc7d222-178c-53a8-9515-24122ec664f4"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI505-Q06",
+          "number": 6,
+          "prompt": "Why should gate staff explain why items are prohibited?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is required by the safety regulations"
+            },
+            {
+              "id": "B",
+              "text": "Visitors cooperate if they understand the reason"
+            },
+            {
+              "id": "C",
+              "text": "It prevents arguments with security staff"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "usually cooperative if they understand the reason"
+          },
+          "explanation": "The audio says: \"usually cooperative if they understand the reason\".",
+          "uuid": "973b846b-076b-5225-8009-0d97cb451ae8"
+        },
+        {
+          "id": "LI505-Q07",
+          "number": 7,
+          "prompt": "What will happen if there is lightning within ten miles?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The festival will close for the day"
+            },
+            {
+              "id": "B",
+              "text": "Visitors will be sent home at once"
+            },
+            {
+              "id": "C",
+              "text": "The main stage will stop immediately"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the main stage will stop immediately"
+          },
+          "explanation": "The audio says: \"the main stage will stop immediately\".",
+          "uuid": "95f479d3-1792-5087-b8aa-9213a80fa4e5"
+        },
+        {
+          "id": "LI505-Q08",
+          "number": 8,
+          "prompt": "Who can decide to stop a performance?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only Ruth"
+            },
+            {
+              "id": "B",
+              "text": "Any supervisor"
+            },
+            {
+              "id": "C",
+              "text": "The weather service"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "only I can give the instruction"
+          },
+          "explanation": "The audio says: \"only I can give the instruction\".",
+          "uuid": "3555663a-a3cc-595f-a4d5-dc888b044ba7"
+        },
+        {
+          "id": "LI505-Q09",
+          "number": 9,
+          "prompt": "What does Ruth say about vehicle parking?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nobody may park on the verge, including staff"
+            },
+            {
+              "id": "B",
+              "text": "Staff may park on the verge at night"
+            },
+            {
+              "id": "C",
+              "text": "Ambulances may park anywhere they need to"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "not even staff vehicles"
+          },
+          "explanation": "The audio says: \"not even staff vehicles\".",
+          "uuid": "65b6080f-1386-5698-9ccb-c3553c6a720b"
+        },
+        {
+          "id": "LI505-Q10",
+          "number": 10,
+          "prompt": "What should staff do if they hear the word Red on channel one?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Evacuate the main field at once"
+            },
+            {
+              "id": "B",
+              "text": "Call the ambulance to the back gate"
+            },
+            {
+              "id": "C",
+              "text": "Stop and wait for instructions"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "stop what you're doing and wait for instructions"
+          },
+          "explanation": "The audio says: \"stop what you're doing and wait for instructions\".",
+          "uuid": "df38a4af-5ba4-5ea9-bc6c-ba027e097ee8"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "a373f855-93bf-4e6e-9bd2-64065ba89a6d",
+  "derived": {
+    "word_count": 395,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 2,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "200f82ffc29e34ce"
+  }
+}

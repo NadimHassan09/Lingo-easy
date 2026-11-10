@@ -1,0 +1,154 @@
+{
+  "part_id": "LI301",
+  "part_uuid": "3939d013-15cc-4faf-9449-5b93f7aa3417",
+  "audio_file": "li301_booking_a_language_course.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "78897f3d99954c541837c405981db3b6f4112d5ab1eeb2a7cddcd50e0653f4ad",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Amy",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Marco",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 4.58
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 5.03,
+      "end": 14.68
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 15.13,
+      "end": 26.6
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 27.05,
+      "end": 29.72
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 30.17,
+      "end": 37.27
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 37.72,
+      "end": 46.48
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 46.93,
+      "end": 55.38
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 55.83,
+      "end": 63.08
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 63.53,
+      "end": 74.76
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 75.21,
+      "end": 81.71
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 82.16,
+      "end": 95.2
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 95.65,
+      "end": 102.63
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 103.08,
+      "end": 110.81
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 111.26,
+      "end": 116.03
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 116.48,
+      "end": 126.16
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 126.61,
+      "end": 130.81
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 131.26,
+      "end": 137.81
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 138.26,
+      "end": 142.7
+    }
+  ],
+  "duration_seconds": 142.7,
+  "size_bytes": 1142252,
+  "audio_sha256": "3ff2e2cd874d2540a6de516b919d0e6f1f82b61c71a9e5ef10393ef70b941e0d",
+  "generated_at": "2026-10-30T20:50:11+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

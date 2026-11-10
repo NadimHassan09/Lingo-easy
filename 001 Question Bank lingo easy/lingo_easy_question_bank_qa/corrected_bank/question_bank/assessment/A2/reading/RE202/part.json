@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE202",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Why I Started Running",
+  "topic": "sports_and_fitness",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "Why I Started Running",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Two years ago, I was not fit. I drove everywhere, I ate a lot of fast food, and I never did any sport. When I climbed the stairs at work, I was out of breath after only one floor. One day my doctor told me, 'You must do more exercise.' I did not like this idea, but I knew she was right."
+      },
+      {
+        "label": "B",
+        "text": "I decided to start running because it was cheap. I only needed a pair of shoes. At first, it was very difficult. I could run for only two minutes, and then I had to walk. My legs hurt for days. A colleague, Nina, told me to be patient and to run three times a week, so I made a plan and followed it."
+      },
+      {
+        "label": "C",
+        "text": "After a month, I could run for twenty minutes without stopping. I felt stronger, and I slept better at night. After six months, I entered a small race of five kilometres in my town. I finished in thirty-eight minutes, and I was very proud, even though I came near the end."
+      },
+      {
+        "label": "D",
+        "text": "Now I run four times a week, usually in the morning before work. I have lost eight kilos, and I eat more vegetables. I also joined a running club, where I made new friends. My advice to beginners is simple: start slowly, find a friend to run with, and never give up. It gets easier!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE202-Q01",
+          "number": 1,
+          "prompt": "What was the writer's problem two years ago?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He had a bad leg"
+            },
+            {
+              "id": "B",
+              "text": "He was too busy"
+            },
+            {
+              "id": "C",
+              "text": "He was not fit"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "I was not fit"
+          },
+          "explanation": "The text says: \"I was not fit\".",
+          "uuid": "0073a63d-f055-5d86-9d84-08f47ae06716"
+        },
+        {
+          "id": "RE202-Q02",
+          "number": 2,
+          "prompt": "What happened when the writer climbed the stairs at work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He was in pain after two floors"
+            },
+            {
+              "id": "B",
+              "text": "He was out of breath after one floor"
+            },
+            {
+              "id": "C",
+              "text": "He felt dizzy and sat down"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "out of breath after only one floor"
+          },
+          "explanation": "The text says: \"out of breath after only one floor\".",
+          "uuid": "0720556c-64e1-5785-bb9f-c227a6437b36"
+        },
+        {
+          "id": "RE202-Q03",
+          "number": 3,
+          "prompt": "Why did the writer choose running?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It was fashionable"
+            },
+            {
+              "id": "B",
+              "text": "It was fast"
+            },
+            {
+              "id": "C",
+              "text": "It was cheap"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "because it was cheap"
+          },
+          "explanation": "The text says: \"because it was cheap\".",
+          "uuid": "64ace60b-fbf5-5eeb-a178-513009c6a73f"
+        },
+        {
+          "id": "RE202-Q04",
+          "number": 4,
+          "prompt": "Who gave the writer advice about running?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A colleague called Nina"
+            },
+            {
+              "id": "B",
+              "text": "His doctor at the clinic"
+            },
+            {
+              "id": "C",
+              "text": "His brother at the gym"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "A colleague, Nina, told me to be patient"
+          },
+          "explanation": "The text says: \"A colleague, Nina, told me to be patient\".",
+          "uuid": "fb103e3b-3a0f-5afe-802f-5ace984a7d2c"
+        },
+        {
+          "id": "RE202-Q05",
+          "number": 5,
+          "prompt": "How long could he run after a month?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20 minutes"
+            },
+            {
+              "id": "B",
+              "text": "2 minutes"
+            },
+            {
+              "id": "C",
+              "text": "One hour"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "run for twenty minutes without stopping"
+          },
+          "explanation": "The text says: \"run for twenty minutes without stopping\".",
+          "uuid": "c52bbbe1-52dc-5994-972f-b420a2c117a3"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE202-Q06",
+          "number": 6,
+          "prompt": "Nina told the writer to run three times a week.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "run three times a week"
+          },
+          "explanation": "The text says: \"run three times a week\".",
+          "uuid": "e417647e-ee0e-5e33-af7a-41f9d1ad6132"
+        },
+        {
+          "id": "RE202-Q07",
+          "number": 7,
+          "prompt": "The writer came first in the five-kilometre race.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "even though I came near the end"
+          },
+          "explanation": "The text says: \"even though I came near the end\".",
+          "uuid": "9f8d09bc-60db-5e01-bf06-e06b5c6ed719"
+        },
+        {
+          "id": "RE202-Q08",
+          "number": 8,
+          "prompt": "The writer's time in the race was thirty-eight minutes.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "finished in thirty-eight minutes"
+          },
+          "explanation": "The text says: \"finished in thirty-eight minutes\".",
+          "uuid": "19a7419f-a2f6-56ff-885f-1fedcff9bdff"
+        },
+        {
+          "id": "RE202-Q09",
+          "number": 9,
+          "prompt": "The writer now runs in the evening.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "usually in the morning before work"
+          },
+          "explanation": "The text says: \"usually in the morning before work\".",
+          "uuid": "cbea2e54-fb0d-5068-b4fb-79e296aaec7a"
+        },
+        {
+          "id": "RE202-Q10",
+          "number": 10,
+          "prompt": "The writer wants to run a marathon next year.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "3ed4c46c-897d-504e-a089-c3c9a11c3877"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE202-Q11",
+          "number": 11,
+          "prompt": "At first, the writer could run for only _____ minutes.",
+          "options": [
+            {
+              "id": "A",
+              "text": "ten"
+            },
+            {
+              "id": "B",
+              "text": "two"
+            },
+            {
+              "id": "C",
+              "text": "twenty"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "run for only two minutes"
+          },
+          "explanation": "The text says: \"run for only two minutes\".",
+          "uuid": "134c8feb-f12a-57c3-9b18-0202c801983b"
+        },
+        {
+          "id": "RE202-Q12",
+          "number": 12,
+          "prompt": "The writer has lost _____ kilos.",
+          "options": [
+            {
+              "id": "A",
+              "text": "eighteen"
+            },
+            {
+              "id": "B",
+              "text": "eight"
+            },
+            {
+              "id": "C",
+              "text": "eighty"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "lost eight kilos"
+          },
+          "explanation": "The text says: \"lost eight kilos\".",
+          "uuid": "706c42df-5581-574b-a25a-efc1e0effd11"
+        },
+        {
+          "id": "RE202-Q13",
+          "number": 13,
+          "prompt": "The writer advises beginners to start _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "quickly"
+            },
+            {
+              "id": "B",
+              "text": "alone"
+            },
+            {
+              "id": "C",
+              "text": "slowly"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "start slowly, find a friend"
+          },
+          "explanation": "The text says: \"start slowly, find a friend\".",
+          "uuid": "9d5ca9e0-0eea-5b3b-a4ea-2ab8d1cdf446"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "f275fa4c-1d19-42c5-92f0-4e95b2c13b01",
+  "derived": {
+    "word_count": 232,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 4
+    },
+    "content_hash": "7020a1a8acbc9822"
+  }
+}

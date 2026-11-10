@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "id": "LI308",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "A Short History of Cinema",
+  "topic": "arts_and_culture",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li308_a_short_history_of_cinema.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Collins",
+        "gender": "male",
+        "accent": "british",
+        "role": "film studies lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Today I'd like to give you a short history of cinema, from the first moving pictures to the arrival of colour and sound."
+      },
+      {
+        "speaker": "S1",
+        "text": "The story begins in the 1890s. In 1895, the Lumière brothers in Paris showed the first public film screening to a paying audience. The films were very short, around fifty seconds, and they showed everyday scenes, such as workers leaving a factory. Audiences were amazed. People say that when a train arrived on the screen, some viewers ran from the room, although historians now doubt this story."
+      },
+      {
+        "speaker": "S1",
+        "text": "In the early years, cinema was silent. A pianist or small orchestra played music in the theatre, and text cards told the audience what the characters said. Despite the lack of sound, silent films were very popular, and stars like Charlie Chaplin became famous around the world. By the 1920s, there were more than twenty thousand cinemas in the United States alone."
+      },
+      {
+        "speaker": "S1",
+        "text": "The big change came in 1927 with The Jazz Singer, the first successful film with spoken dialogue. Within three years, most studios had stopped making silent films. Some actors lost their careers because their voices did not suit the new technology."
+      },
+      {
+        "speaker": "S1",
+        "text": "Colour arrived more slowly. Early colour processes were expensive and the results were often unnatural. It was not until the 1950s, when television became a threat, that studios used colour regularly to attract people back to the cinema."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, let's look at how cinema changed in the digital age. Since about the year 2000, most films have been recorded and shown digitally, which is cheaper and allows special effects that were impossible before. On the other hand, some directors still prefer traditional film, because they believe it has a warmer look."
+      },
+      {
+        "speaker": "S1",
+        "text": "For next week's seminar, please watch one silent film of your choice and note down three differences between it and a modern film."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI308-Q01",
+          "number": 1,
+          "prompt": "When was the first public film screening?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1859"
+            },
+            {
+              "id": "B",
+              "text": "1927"
+            },
+            {
+              "id": "C",
+              "text": "1895"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "In 1895, the Lumière brothers"
+          },
+          "explanation": "The audio says: \"In 1895, the Lumière brothers\".",
+          "uuid": "ba3cb192-b308-524b-b70d-aa3f49c2f873"
+        },
+        {
+          "id": "LI308-Q02",
+          "number": 2,
+          "prompt": "How long were the first films?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 5 minutes"
+            },
+            {
+              "id": "B",
+              "text": "About an hour"
+            },
+            {
+              "id": "C",
+              "text": "About 50 seconds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "around fifty seconds"
+          },
+          "explanation": "The audio says: \"around fifty seconds\".",
+          "uuid": "b7e10077-f72c-5383-9aa0-b8d0772c392e"
+        },
+        {
+          "id": "LI308-Q03",
+          "number": 3,
+          "prompt": "What do historians now think about the story of the train?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are sure it is true"
+            },
+            {
+              "id": "B",
+              "text": "They have never heard of it"
+            },
+            {
+              "id": "C",
+              "text": "They doubt it is true"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "historians now doubt this story"
+          },
+          "explanation": "The audio says: \"historians now doubt this story\".",
+          "uuid": "7bfa23d7-5e82-56b0-8610-c3780bccee70"
+        },
+        {
+          "id": "LI308-Q04",
+          "number": 4,
+          "prompt": "How did silent films show what characters said?",
+          "options": [
+            {
+              "id": "A",
+              "text": "With text cards"
+            },
+            {
+              "id": "B",
+              "text": "With subtitles on the film"
+            },
+            {
+              "id": "C",
+              "text": "With a narrator"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "text cards told the audience"
+          },
+          "explanation": "The audio says: \"text cards told the audience\".",
+          "uuid": "bdad6fbd-78bd-50a7-a1d1-cb949e1cd46d"
+        },
+        {
+          "id": "LI308-Q05",
+          "number": 5,
+          "prompt": "How many cinemas did the United States have by the 1920s?",
+          "options": [
+            {
+              "id": "A",
+              "text": "More than 20,000"
+            },
+            {
+              "id": "B",
+              "text": "About 2,000"
+            },
+            {
+              "id": "C",
+              "text": "About 200,000"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "more than twenty thousand cinemas"
+          },
+          "explanation": "The audio says: \"more than twenty thousand cinemas\".",
+          "uuid": "5e893490-74da-524f-8f15-3a6e0a768f5d"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI308-Q06",
+          "number": 6,
+          "prompt": "What was special about The Jazz Singer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It was the first film shown in colour"
+            },
+            {
+              "id": "B",
+              "text": "It was the first successful film with speech"
+            },
+            {
+              "id": "C",
+              "text": "It was the first film with a musical score"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the first successful film with spoken dialogue"
+          },
+          "explanation": "The audio says: \"the first successful film with spoken dialogue\".",
+          "uuid": "74766d77-8e7e-5440-a1d8-66d2f1e49b15"
+        },
+        {
+          "id": "LI308-Q07",
+          "number": 7,
+          "prompt": "Why did some actors lose their careers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They refused to work with sound equipment"
+            },
+            {
+              "id": "B",
+              "text": "They were too old to learn new scripts"
+            },
+            {
+              "id": "C",
+              "text": "Their voices did not suit the new technology"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "their voices did not suit the new technology"
+          },
+          "explanation": "The audio says: \"their voices did not suit the new technology\".",
+          "uuid": "b2ca4987-bd31-52ef-b65b-a6f6efaf344b"
+        },
+        {
+          "id": "LI308-Q08",
+          "number": 8,
+          "prompt": "Why did studios use colour regularly in the 1950s?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because it became cheap"
+            },
+            {
+              "id": "B",
+              "text": "Because audiences asked for it"
+            },
+            {
+              "id": "C",
+              "text": "To compete with television"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "when television became a threat"
+          },
+          "explanation": "The audio says: \"when television became a threat\".",
+          "uuid": "7b4ab5b4-ee5d-5904-8955-d1350e039c98"
+        },
+        {
+          "id": "LI308-Q09",
+          "number": 9,
+          "prompt": "What is one advantage of digital film?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It gives a warmer look than old film"
+            },
+            {
+              "id": "B",
+              "text": "It is cheaper and allows special effects"
+            },
+            {
+              "id": "C",
+              "text": "It lasts longer than traditional film"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "cheaper and allows special effects"
+          },
+          "explanation": "The audio says: \"cheaper and allows special effects\".",
+          "uuid": "72034e49-8945-53eb-a1bb-315b9f51faaf"
+        },
+        {
+          "id": "LI308-Q10",
+          "number": 10,
+          "prompt": "What must the students do for next week?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Write an essay"
+            },
+            {
+              "id": "B",
+              "text": "Watch a silent film"
+            },
+            {
+              "id": "C",
+              "text": "Visit a cinema"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "watch one silent film of your choice"
+          },
+          "explanation": "The audio says: \"watch one silent film of your choice\".",
+          "uuid": "f20d263b-fb8f-5407-97dd-44addf416db2"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "8c6b50c8-21f3-48aa-a95c-8a69b156dcb3",
+  "derived": {
+    "word_count": 307,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 2,
+      "B": 3,
+      "C": 5
+    },
+    "content_hash": "19d21f814ed9cac8"
+  }
+}

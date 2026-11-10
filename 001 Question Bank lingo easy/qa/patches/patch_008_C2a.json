@@ -1,0 +1,541 @@
+[
+ {
+  "id": "LI601-Q02",
+  "set": {
+   "A": "Press a button when they decided which hand to use",
+   "B": "Predict which hand they would move and report the choice"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q03",
+  "set": {
+   "A": "Awareness comes half a second before the brain acts",
+   "C": "Free will depends on how accurately people read a clock"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q05",
+  "set": {
+   "A": "Real decisions are made far more quickly",
+   "B": "Real decisions involve no measurable brain activity"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q06",
+  "set": {
+   "A": "It marks the exact moment of a conscious decision",
+   "C": "It occurs only in very simple actions"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q07",
+  "set": {
+   "A": "Free will requires that choices have no prior causes",
+   "C": "Free will cannot exist if the brain is physical"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q08",
+  "set": {
+   "B": "As conclusive proof that free will is a myth",
+   "C": "As reliable because it was repeated many times"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q09",
+  "set": {
+   "A": "Responsibility will disappear within a generation",
+   "B": "Nothing about criminal law will need to change"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q10",
+  "set": {
+   "A": "Neuroscience has finally answered the question",
+   "C": "Neuroscience has no bearing on the question"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q01",
+  "set": {
+   "B": "That it cannot be read aloud in translation",
+   "C": "That it can only be translated by poets"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q02",
+  "set": {
+   "B": "He fully agrees with the claim",
+   "C": "He thinks it is out of date now"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q03",
+  "set": {
+   "A": "They usually survive translation intact",
+   "C": "Meaning matters far more than sound"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q04",
+  "set": {
+   "B": "Literal versions read well even without any rhyme",
+   "C": "Rhyme is not important in most modern poetry"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q05",
+  "set": {
+   "A": "It kept the original rhyme scheme and metre",
+   "B": "It was widely admired for its readability"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q06",
+  "set": {
+   "A": "Match the original word order as far as possible",
+   "C": "Make the translated text easier to read aloud"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q07",
+  "set": {
+   "A": "It makes translations far too long to read",
+   "B": "It ignores the style of the translator"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q09",
+  "set": {
+   "B": "Heaney introduced an error that critics later corrected",
+   "C": "Words for fortresses cannot be translated into English dialects"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q10",
+  "set": {
+   "A": "Translate a short poem and explain the choices",
+   "C": "Decide which of two translations is better"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI603-Q01",
+  "set": {
+   "A": "It is destroying most of them",
+   "B": "It makes little difference either way"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI603-Q02",
+  "set": {
+   "C": "About 40 per cent"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI603-Q03",
+  "set": {
+   "A": "They touch them as they walk past",
+   "C": "They photograph them with a flash"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI603-Q04",
+  "set": {
+   "B": "Visitors prefer to see fake performances",
+   "C": "Residents dislike any authentic experience"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI603-Q06",
+  "set": {
+   "A": "She withdraws her earlier argument",
+   "B": "She accepts his view of the villages"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI603-Q07",
+  "set": {
+   "A": "Tour operators often ignore the damage they cause",
+   "C": "Tourism should be banned in fragile places"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI603-Q08",
+  "set": {
+   "A": "Operators do not have the money to repair sites",
+   "C": "Visitors do not cause damage to the sites"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI603-Q10",
+  "set": {
+   "B": "They would remove most of the pressure on sites",
+   "C": "They would be too expensive for most visitors"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q01",
+  "set": {
+   "A": "Why animals compete with each other for food",
+   "C": "Why many species of animal become extinct"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q02",
+  "set": {
+   "A": "When the helper gains a direct benefit itself",
+   "B": "When relatives happen to live close by"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q03",
+  "set": {
+   "B": "It applies only to insects with queens",
+   "C": "It was largely disproved in the 1960s"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q04",
+  "set": {
+   "A": "They lead them to places with prey",
+   "B": "They guard the roost against predators"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q05",
+  "set": {
+   "A": "Bats help only their siblings and offspring",
+   "B": "Bats help only individuals from other colonies"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q06",
+  "set": {
+   "B": "It cheats first, then copies the other player",
+   "C": "It cooperates, but punishes cheats without forgiving"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q07",
+  "set": {
+   "A": "When they are related to each other",
+   "C": "When they are watched by other players"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q09",
+  "set": {
+   "A": "It was not discussed at all during the 1970s",
+   "B": "It has been rejected by most biologists"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI605-Q02",
+  "set": {
+   "B": "A firm deadline that his publisher had set",
+   "C": "A clear plan for the ending of the book"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI605-Q04",
+  "set": {
+   "B": "It is wasted effort that he regrets",
+   "C": "It becomes the starting point of the next book"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI605-Q05",
+  "set": {
+   "A": "Proud of the label because it brings readers",
+   "B": "Angry with critics who misread his novels"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI605-Q06",
+  "set": {
+   "B": "A way of persuading readers to take a political side",
+   "C": "A way of recording the history of a country"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI605-Q07",
+  "set": {
+   "A": "To avoid offending the governments of real countries",
+   "C": "To save time on research into real events"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI605-Q08",
+  "set": {
+   "A": "Publishers forbid scenes of violence in novels",
+   "B": "Readers dislike reading about violent events"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI605-Q09",
+  "set": {
+   "A": "Every review that is published",
+   "C": "Only those written by other novelists"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q02",
+  "set": {
+   "A": "The sample covers too few people to be reliable",
+   "C": "The study has no control group to compare"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q04",
+  "set": {
+   "A": "Ill people tend to drink much more coffee",
+   "B": "Doctors tell ill people to avoid coffee"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q05",
+  "set": {
+   "A": "A fall to a risk of nearly zero",
+   "C": "A fall to roughly two per cent"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q08",
+  "set": {
+   "A": "Dismiss the study because of who paid for it",
+   "C": "Ignore the funding because it never matters"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q09",
+  "set": {
+   "A": "The funder was an independent charity",
+   "B": "The sample included people of all ages"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q10",
+  "set": {
+   "A": "Coffee cuts the risk of death by a third",
+   "B": "Coffee causes people to live longer"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q01",
+  "set": {
+   "B": "Planners are usually members of political parties",
+   "C": "Governments pay for all planning decisions"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q02",
+  "set": {
+   "B": "Residents were forced to leave the cities",
+   "C": "Residents received free loans for new homes"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q03",
+  "set": {
+   "A": "They are now among the wealthiest areas",
+   "C": "They have more parks and street trees"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q04",
+  "set": {
+   "A": "Those districts were nearest to city centres",
+   "B": "Residents in those districts asked for them"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q05",
+  "set": {
+   "A": "Local taxes rose sharply for residents",
+   "C": "Traffic disappeared from nearby streets"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q06",
+  "set": {
+   "A": "Meetings are held at times that are too short",
+   "C": "Residents rarely hear about the meetings"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q07",
+  "set": {
+   "A": "Developers may move their projects abroad",
+   "C": "House prices may fall too far in some areas"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q08",
+  "set": {
+   "A": "Parks are replaced by new office buildings",
+   "B": "Trees are planted in the wrong parts of a city"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q09",
+  "set": {
+   "A": "Land owned by private developers and rented out",
+   "B": "Land reserved for parks and public gardens"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q10",
+  "set": {
+   "B": "It should be limited to experts and planners",
+   "C": "It is already sufficient in most cities"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI608-Q01",
+  "set": {
+   "A": "With widespread celebration across the field",
+   "C": "With indifference in the scientific community"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI608-Q02",
+  "set": {
+   "A": "It was done too slowly and was too expensive",
+   "B": "It was kept secret and involved too few embryos"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI608-Q03",
+  "set": {
+   "A": "They are cheaper than other treatments",
+   "B": "They can be passed to future generations"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI608-Q04",
+  "set": {
+   "A": "It is too expensive for most clinics",
+   "B": "It only works on adult patients"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ }
+]

@@ -1,0 +1,23 @@
+﻿modality,original_tag,items_using_tag,original_tag_describes,normalized_primary_subskill,default_cognitive_process,formats_used,consistent,inconsistent,not_verifiable,issue,note
+listening,gist,9,sub-skill,main_idea_gist,integrate,"{""multiple_choice"": 9}",8,1,0,1 of 9 items fail an automated consistency check,
+listening,specific_detail,234,sub-skill,detail_retrieval,retrieve,"{""multiple_choice"": 234}",0,10,224,10 of 234 items fail an automated consistency check,
+listening,numbers_dates_times,152,content/answer type,detail_retrieval,retrieve,"{""multiple_choice"": 152}",148,4,0,"Tag describes a content/answer type, not a sub-skill: Describes the kind of answer (numeric), not a separate skill.","Describes the kind of answer (numeric), not a separate skill."
+listening,speaker_opinion,5,sub-skill,stance_attitude,interpret,"{""multiple_choice"": 5}",4,1,0,1 of 5 items fail an automated consistency check,Overlaps with speaker_attitude.
+listening,speaker_attitude,32,sub-skill,stance_attitude,infer,"{""multiple_choice"": 32}",27,5,0,5 of 32 items fail an automated consistency check,Overlaps with speaker_opinion.
+listening,purpose,0,sub-skill,purpose_function,interpret,{},0,0,0,unused in the current bank,
+listening,inference,17,cognitive process,inference,infer,"{""multiple_choice"": 17}",13,4,0,4 of 17 items fail an automated consistency check,
+listening,sequence,0,sub-skill,discourse_structure,integrate,{},0,0,0,unused in the current bank,
+listening,paraphrase_recognition,39,sub-skill,paraphrase_recognition,interpret,"{""multiple_choice"": 39}",13,26,0,26 of 39 items fail an automated consistency check,
+listening,distractor_resolution,211,item-construction feature / test-taking strategy,information_tracking,integrate,"{""multiple_choice"": 211}",120,91,0,"Tag describes a item-construction feature / test-taking strategy, not a sub-skill: Describes how the item is built (a corrected/rejected option), not a language skill.","Describes how the item is built (a corrected/rejected option), not a language skill."
+listening,organisation_signposting,1,linguistic feature,discourse_structure,integrate,"{""multiple_choice"": 1}",1,0,0,"Tag describes a linguistic feature, not a sub-skill: ",
+reading,main_idea,3,sub-skill,main_idea_gist,integrate,"{""multiple_choice"": 3}",3,0,0,,
+reading,specific_detail,341,sub-skill,detail_retrieval,retrieve,"{""multiple_choice"": 338, ""true_false_not_given"": 2, ""sentence_completion"": 1}",0,12,329,12 of 341 items fail an automated consistency check,
+reading,inference,6,cognitive process,inference,infer,"{""multiple_choice"": 2, ""matching_information"": 3, ""sentence_completion"": 1}",6,0,0,,
+reading,writer_claim,109,sub-skill,stance_attitude,evaluate,"{""yes_no_not_given"": 107, ""true_false_not_given"": 2}",91,18,0,18 of 109 items fail an automated consistency check,In this bank it is used with Yes/No/Not Given items.
+reading,fact_check,235,question format,claim_verification,evaluate,"{""true_false_not_given"": 233, ""yes_no_not_given"": 2}",235,0,0,"Tag describes a question format, not a sub-skill: Describes the True/False/Not Given format.",Describes the True/False/Not Given format.
+reading,vocabulary_in_context,0,sub-skill,vocabulary_in_context,interpret,{},0,0,0,unused in the current bank,Not used in the current bank.
+reading,reference_resolution,0,sub-skill,reference_resolution,interpret,{},0,0,0,unused in the current bank,Not used in the current bank.
+reading,paraphrase_matching,116,sub-skill,paraphrase_recognition,interpret,"{""matching_information"": 106, ""multiple_choice"": 6, ""true_false_not_given"": 2, ""sentence_completion"": 1, ""yes_no_not_given"": 1}",111,4,1,4 of 116 items fail an automated consistency check,Used for matching-information items as well as MCQ.
+reading,text_organisation,4,sub-skill,discourse_structure,integrate,"{""multiple_choice"": 4}",4,0,0,,
+reading,heading_matching,0,question format,discourse_structure,integrate,{},0,0,0,"Tag describes a question format, not a sub-skill: Describes the matching-headings format; not used. | unused in the current bank",Describes the matching-headings format; not used.
+reading,summary_gap,96,question format,detail_retrieval,retrieve,"{""sentence_completion"": 96}",96,0,0,"Tag describes a question format, not a sub-skill: Used for sentence-completion items; the format, not a skill.","Used for sentence-completion items; the format, not a skill."

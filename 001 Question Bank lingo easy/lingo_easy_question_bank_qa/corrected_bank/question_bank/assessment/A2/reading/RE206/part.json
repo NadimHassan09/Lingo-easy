@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE206",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Frida Kahlo",
+  "topic": "arts_and_culture",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "Frida Kahlo",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Frida Kahlo was a famous Mexican painter. She was born in 1907 in Mexico City, in a blue house that is now a museum. Her father was a photographer, and her mother looked after the home."
+      },
+      {
+        "label": "B",
+        "text": "When Frida was six, she became ill with a disease called polio, and her right leg stayed thin for the rest of her life. At eighteen, she was in a terrible bus accident. She broke many bones and spent months in bed. To help her, her parents put a mirror above her bed and gave her paints."
+      },
+      {
+        "label": "C",
+        "text": "Frida began to paint pictures of herself. She said, 'I paint myself because I am alone so often, and because I am the person I know best.' Her paintings are small and colourful, and they often show her pain, her love for Mexico, and animals such as monkeys and birds. She wore traditional Mexican clothes and flowers in her hair."
+      },
+      {
+        "label": "D",
+        "text": "In 1929, Frida married the famous painter Diego Rivera. Their relationship was difficult, but they stayed close friends. Frida died in 1954, aged forty-seven. During her life, she was not as famous as her husband, but today millions of people love her art. Visitors come from all over the world to see her blue house."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE206-Q01",
+          "number": 1,
+          "prompt": "Where was Frida Kahlo born?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In Mexico City"
+            },
+            {
+              "id": "B",
+              "text": "In Madrid"
+            },
+            {
+              "id": "C",
+              "text": "In Paris"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "born in 1907 in Mexico City"
+          },
+          "explanation": "The text says: \"born in 1907 in Mexico City\".",
+          "uuid": "a63e2e8f-63a7-5a15-8a5f-98f57b820141"
+        },
+        {
+          "id": "RE206-Q02",
+          "number": 2,
+          "prompt": "What was her father's job?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Painter"
+            },
+            {
+              "id": "B",
+              "text": "Photographer"
+            },
+            {
+              "id": "C",
+              "text": "Doctor"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "Her father was a photographer"
+          },
+          "explanation": "The text says: \"Her father was a photographer\".",
+          "uuid": "f7d0a522-85b8-5dd6-8351-89aae569cf14"
+        },
+        {
+          "id": "RE206-Q03",
+          "number": 3,
+          "prompt": "What happened when she was six?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She became ill with polio"
+            },
+            {
+              "id": "B",
+              "text": "She broke her leg in an accident"
+            },
+            {
+              "id": "C",
+              "text": "She began to paint herself"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "became ill with a disease called polio"
+          },
+          "explanation": "The text says: \"became ill with a disease called polio\".",
+          "uuid": "f763141e-aee5-5cee-b46b-d917da1d00ea"
+        },
+        {
+          "id": "RE206-Q04",
+          "number": 4,
+          "prompt": "What did her parents give her in bed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A camera and books"
+            },
+            {
+              "id": "B",
+              "text": "A radio and a desk"
+            },
+            {
+              "id": "C",
+              "text": "A mirror and paints"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "put a mirror above her bed and gave her paints"
+          },
+          "explanation": "The text says: \"put a mirror above her bed and gave her paints\".",
+          "uuid": "713bc385-7929-5093-afef-cd56931e15bb"
+        },
+        {
+          "id": "RE206-Q05",
+          "number": 5,
+          "prompt": "What do her paintings often show?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Famous people from Mexico City"
+            },
+            {
+              "id": "B",
+              "text": "Her pain and her love for Mexico"
+            },
+            {
+              "id": "C",
+              "text": "Big cities and busy markets"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "show her pain, her love for Mexico"
+          },
+          "explanation": "The text says: \"show her pain, her love for Mexico\".",
+          "uuid": "900ba9e6-514a-56b3-9cf9-4dbb7b4fb86c"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE206-Q06",
+          "number": 6,
+          "prompt": "Frida had a bus accident when she was eighteen.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "At eighteen, she was in a terrible bus accident"
+          },
+          "explanation": "The text says: \"At eighteen, she was in a terrible bus accident\".",
+          "uuid": "e9aca742-f16a-5e8e-831c-46077bd96cc5"
+        },
+        {
+          "id": "RE206-Q07",
+          "number": 7,
+          "prompt": "Her paintings are very big.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Her paintings are small and colourful"
+          },
+          "explanation": "The text says: \"Her paintings are small and colourful\".",
+          "uuid": "13dab159-15f4-50e0-a862-3fb75ade6189"
+        },
+        {
+          "id": "RE206-Q08",
+          "number": 8,
+          "prompt": "She painted herself because she was often alone.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "I paint myself because I am alone so often"
+          },
+          "explanation": "The text says: \"I paint myself because I am alone so often\".",
+          "uuid": "2b251ce1-df22-56ae-8100-74b3fcd7d26e"
+        },
+        {
+          "id": "RE206-Q09",
+          "number": 9,
+          "prompt": "She married Diego Rivera in 1949.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "In 1929, Frida married"
+          },
+          "explanation": "The text says: \"In 1929, Frida married\".",
+          "uuid": "e4a9c6c8-1b50-5af1-9d68-f275b7044146"
+        },
+        {
+          "id": "RE206-Q10",
+          "number": 10,
+          "prompt": "Frida had three children.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "61ab6e80-871b-51e9-a8a6-2778e3249ab6"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE206-Q11",
+          "number": 11,
+          "prompt": "Frida's family house is now a _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "school"
+            },
+            {
+              "id": "B",
+              "text": "museum"
+            },
+            {
+              "id": "C",
+              "text": "hotel"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "now a museum"
+          },
+          "explanation": "The text says: \"now a museum\".",
+          "uuid": "8a4ee5eb-de76-5e38-8a98-d1c3baf4865f"
+        },
+        {
+          "id": "RE206-Q12",
+          "number": 12,
+          "prompt": "She wore traditional Mexican clothes and _____ in her hair.",
+          "options": [
+            {
+              "id": "A",
+              "text": "ribbons"
+            },
+            {
+              "id": "B",
+              "text": "pins"
+            },
+            {
+              "id": "C",
+              "text": "flowers"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "flowers in her hair"
+          },
+          "explanation": "The text says: \"flowers in her hair\".",
+          "uuid": "2f7d8fdc-4371-5006-972b-4ea4074c79d0"
+        },
+        {
+          "id": "RE206-Q13",
+          "number": 13,
+          "prompt": "Frida died when she was _____ years old.",
+          "options": [
+            {
+              "id": "A",
+              "text": "forty-seven"
+            },
+            {
+              "id": "B",
+              "text": "thirty-seven"
+            },
+            {
+              "id": "C",
+              "text": "sixty-four"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "aged forty-seven"
+          },
+          "explanation": "The text says: \"aged forty-seven\".",
+          "uuid": "ffa91c8e-01dc-5b92-8652-60047331dec8"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "ca2f7f3d-865b-44a0-8034-26a46f720bb7",
+  "derived": {
+    "word_count": 209,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 5,
+      "B": 5,
+      "C": 3
+    },
+    "content_hash": "5bd1e1c7679ac3c3"
+  }
+}

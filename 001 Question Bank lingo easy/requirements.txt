@@ -1,0 +1,6 @@
+# Only needed for the FastAPI server (server/app.py). The validator, assembler, evaluator and
+# server/dev_server.py use the Python standard library only.
+fastapi>=0.110
+uvicorn>=0.29
+# Only needed to (re)generate listening audio: scripts/generate_listening_audio.py (also needs ffmpeg/ffprobe on PATH)
+# edge-tts>=6.1

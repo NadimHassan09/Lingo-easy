@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE408",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Fast Fashion and the Environment",
+  "topic": "shopping_and_money",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "Fast Fashion and the Environment",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The average person today buys sixty per cent more clothes than in 2000 but keeps each item for half as long. This pattern, known as fast fashion, relies on cheap production, rapidly changing styles and low prices. For consumers, it means constant novelty at little cost. For the environment, however, the price is high. I want to argue that responsibility lies with both shoppers and the industry, but that shoppers alone cannot solve the problem."
+      },
+      {
+        "label": "B",
+        "text": "The fashion industry accounts for roughly ten per cent of global carbon emissions, more than international flights and shipping combined. It also uses vast amounts of water: producing one cotton T-shirt takes around 2,700 litres, equivalent to what a person drinks over two and a half years. Dyeing fabrics pollutes rivers in countries where regulation is weak, and synthetic materials such as polyester release tiny plastic fibres each time they are washed."
+      },
+      {
+        "label": "C",
+        "text": "What happens to clothes after use is equally worrying. In many countries, an item is thrown away after being worn only seven or eight times. Less than one per cent of clothing is recycled into new garments, because mixed fabrics are difficult to separate. Much donated clothing is shipped abroad, where it can overwhelm local markets and end up in landfill. It is therefore misleading to think that giving clothes to charity solves the problem."
+      },
+      {
+        "label": "D",
+        "text": "Some commentators say that shoppers should simply buy less and choose better quality. This is sensible advice, and I follow it myself. But it places a burden on individuals who may not have the information or the money to do so. Ethical clothes are usually more expensive, and labels rarely explain a garment's environmental impact in a way people can compare. Moreover, the industry spends billions on advertising that encourages constant buying."
+      },
+      {
+        "label": "E",
+        "text": "Real change requires regulation. France has banned the destruction of unsold clothing, and the European Union plans to make companies responsible for the waste their products create. Brands could also be required to publish information about the resources they use. Such measures would raise prices slightly, but they would reward companies that produce responsibly, and consumers could make real choices. Until then, wearing clothes for longer remains the most effective thing individuals can do."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE408-Q01",
+          "number": 1,
+          "prompt": "What does fast fashion mean in the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Clothes produced by hand in small workshops"
+            },
+            {
+              "id": "B",
+              "text": "Clothes sold only through online shops"
+            },
+            {
+              "id": "C",
+              "text": "Cheap clothes produced quickly and replaced often"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "cheap production, rapidly changing styles and low prices"
+          },
+          "explanation": "The text says: \"cheap production, rapidly changing styles and low prices\".",
+          "uuid": "c082004a-48f0-5e5c-86a7-5819264142e0"
+        },
+        {
+          "id": "RE408-Q02",
+          "number": 2,
+          "prompt": "What does the writer say about the fashion industry's carbon emissions?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are greater than those of flights and shipping combined"
+            },
+            {
+              "id": "B",
+              "text": "They are smaller than those of the car industry as a whole"
+            },
+            {
+              "id": "C",
+              "text": "They are falling quickly as factories close down in Europe"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "more than international flights and shipping combined"
+          },
+          "explanation": "The text says: \"more than international flights and shipping combined\".",
+          "uuid": "f3bdac36-d7b5-5f80-a82a-478a434ff12b"
+        },
+        {
+          "id": "RE408-Q03",
+          "number": 3,
+          "prompt": "What problem is caused by washing polyester?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The colours fade after a few washes"
+            },
+            {
+              "id": "B",
+              "text": "Large amounts of water are wasted"
+            },
+            {
+              "id": "C",
+              "text": "Tiny plastic fibres are released"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "release tiny plastic fibres each time"
+          },
+          "explanation": "The text says: \"release tiny plastic fibres each time\".",
+          "uuid": "c4bb8375-aa08-578f-84ac-0d2c67141958"
+        },
+        {
+          "id": "RE408-Q04",
+          "number": 4,
+          "prompt": "Why is clothing rarely recycled into new garments?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recycling clothes is against the law"
+            },
+            {
+              "id": "B",
+              "text": "People refuse to donate worn clothes"
+            },
+            {
+              "id": "C",
+              "text": "Mixed fabrics are hard to separate"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "mixed fabrics are difficult to separate"
+          },
+          "explanation": "The text says: \"mixed fabrics are difficult to separate\".",
+          "uuid": "f15f7684-89bc-5ecb-9e93-dd3e0cbb375c"
+        },
+        {
+          "id": "RE408-Q05",
+          "number": 5,
+          "prompt": "What is a problem with donating clothes to charity?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Donated clothing may overwhelm foreign markets"
+            },
+            {
+              "id": "B",
+              "text": "Charities refuse to accept used clothes"
+            },
+            {
+              "id": "C",
+              "text": "The clothes are burned before they arrive"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "overwhelm local markets"
+          },
+          "explanation": "The text says: \"overwhelm local markets\".",
+          "uuid": "c16fbc09-941e-56fc-8e08-130ed628b10c"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE408-Q06",
+          "number": 6,
+          "prompt": "The writer thinks only consumers are responsible for fashion's environmental damage.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "responsibility lies with both shoppers and the industry"
+          },
+          "explanation": "The text says: \"responsibility lies with both shoppers and the industry\".",
+          "uuid": "a0027f99-628b-5628-8131-a503123506d3"
+        },
+        {
+          "id": "RE408-Q07",
+          "number": 7,
+          "prompt": "The writer believes giving clothes to charity solves the waste problem.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "misleading to think that giving clothes to charity solves the problem"
+          },
+          "explanation": "The text says: \"misleading to think that giving clothes to charity solves the problem\".",
+          "uuid": "d6c394c9-ac51-58c9-953f-56557a1d96f2"
+        },
+        {
+          "id": "RE408-Q08",
+          "number": 8,
+          "prompt": "The writer buys fewer clothes of better quality.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "I follow it myself"
+          },
+          "explanation": "The text says: \"I follow it myself\".",
+          "uuid": "9a969c33-b903-523d-8a3e-cc62b57ad807"
+        },
+        {
+          "id": "RE408-Q09",
+          "number": 9,
+          "prompt": "The writer believes labels give clear information about environmental impact.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "labels rarely explain a garment's environmental impact"
+          },
+          "explanation": "The text says: \"labels rarely explain a garment's environmental impact\".",
+          "uuid": "bd644169-d7fb-538f-b814-3d87228ebde1"
+        },
+        {
+          "id": "RE408-Q10",
+          "number": 10,
+          "prompt": "The writer thinks brands in Italy are the worst polluters.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "fbb82475-5ee1-5b52-8865-d4951c3dfcd4"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE408-Q11",
+          "number": 11,
+          "prompt": "A comparison that makes a statistic about water use easier to imagine",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "what a person drinks over two and a half years"
+          },
+          "explanation": "The text says: \"what a person drinks over two and a half years\".",
+          "uuid": "4698bfb1-cb5a-5e0e-acf6-3413b4f673c3"
+        },
+        {
+          "id": "RE408-Q12",
+          "number": 12,
+          "prompt": "An explanation of why individual action is not enough",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "places a burden on individuals"
+          },
+          "explanation": "The text says: \"places a burden on individuals\".",
+          "uuid": "74540020-2b84-5de1-8b9c-40b0580c1a76"
+        },
+        {
+          "id": "RE408-Q13",
+          "number": 13,
+          "prompt": "Examples of laws aimed at the fashion industry",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "banned the destruction of unsold clothing"
+          },
+          "explanation": "The text says: \"banned the destruction of unsold clothing\".",
+          "uuid": "88d0bc57-a21c-5d84-8bcd-78f0537514b6"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "8a6e0539-34f3-44ef-b6c0-4a3b6600a993",
+  "derived": {
+    "word_count": 370,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 5,
+      "D": 1
+    },
+    "content_hash": "7981633847bc198e"
+  }
+}

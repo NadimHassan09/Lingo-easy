@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE608",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Do We Need Economic Growth?",
+  "topic": "energy",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "Do We Need Economic Growth?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For most of the past two centuries, economic growth has been treated as an unquestioned good. It is associated with rising incomes, longer lives and declining poverty, and political leaders are judged by how fast their economies expand. Yet a growing number of economists and environmentalists ask whether endless growth is compatible with a finite planet. I will argue that the question is legitimate, but that the answer is more complicated than either side suggests."
+      },
+      {
+        "label": "B",
+        "text": "The environmental case against growth rests on the observation that, historically, economic output and resource use have risen together. More production has meant more energy, more raw materials and more waste. Global carbon emissions, despite improvements in efficiency, have continued to rise in line with the economy for most of the industrial era. If this link cannot be broken, growth must eventually collide with the limits of the biosphere."
+      },
+      {
+        "label": "C",
+        "text": "Defenders of growth reply that the link can be broken, a process called decoupling. Some wealthy countries, including Britain and Sweden, have in recent decades reduced territorial emissions while their economies expanded. The difficulty is that much of this reduction reflects the relocation of manufacturing abroad, so the emissions are counted in other countries, and that the pace of decoupling is nowhere near fast enough to meet climate targets. Absolute decoupling on the scale required has not yet been demonstrated at a global level."
+      },
+      {
+        "label": "D",
+        "text": "An alternative proposal, degrowth, argues that rich countries should deliberately reduce production and consumption in some sectors, while sharing work and improving public services. Its advocates point to evidence that beyond a certain income, additional wealth adds little to happiness. But the proposal faces a political problem: modern economies depend on growth to maintain employment, finance pensions and service debt, and voters are rarely enthusiastic about contraction. A managed shrinkage would require institutions that do not yet exist."
+      },
+      {
+        "label": "E",
+        "text": "My own view is that the framing as growth versus no growth is unhelpful. What matters is what grows and what shrinks. An economy in which clean energy, education and healthcare expand while fossil fuel extraction declines could grow in monetary terms and still reduce its environmental impact. Whether such a transition can happen quickly enough is uncertain, and prudence suggests planning for both possibilities: preparing for a world of continued growth, and for one in which growth stalls."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE608-Q01",
+          "number": 1,
+          "prompt": "How has economic growth traditionally been regarded?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a danger to the planet"
+            },
+            {
+              "id": "B",
+              "text": "As irrelevant to people's lives"
+            },
+            {
+              "id": "C",
+              "text": "As an unquestioned good"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "treated as an unquestioned good"
+          },
+          "explanation": "The text says: \"treated as an unquestioned good\".",
+          "uuid": "0bde1a27-5ba6-52ad-988b-26b06f174ee7"
+        },
+        {
+          "id": "RE608-Q02",
+          "number": 2,
+          "prompt": "What is the environmental case against growth based on?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Growth causes high unemployment in the long run"
+            },
+            {
+              "id": "B",
+              "text": "Growth gradually reduces the rate of innovation"
+            },
+            {
+              "id": "C",
+              "text": "Output and resource use have historically risen together"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "economic output and resource use have risen together"
+          },
+          "explanation": "The text says: \"economic output and resource use have risen together\".",
+          "uuid": "7b2b8f23-ce31-58f9-9e10-6856246b5004"
+        },
+        {
+          "id": "RE608-Q03",
+          "number": 3,
+          "prompt": "What is decoupling?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Breaking the link between growth and environmental harm"
+            },
+            {
+              "id": "B",
+              "text": "Separating the economies of rich and poor countries"
+            },
+            {
+              "id": "C",
+              "text": "Reducing taxes on the use of resources"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "the link can be broken, a process called decoupling"
+          },
+          "explanation": "The text says: \"the link can be broken, a process called decoupling\".",
+          "uuid": "b3327509-b86e-5845-8954-094faaaf4907"
+        },
+        {
+          "id": "RE608-Q04",
+          "number": 4,
+          "prompt": "Why is the evidence from Britain and Sweden less convincing than it seems?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Their economies have shrunk in recent decades"
+            },
+            {
+              "id": "B",
+              "text": "Manufacturing and its emissions moved abroad"
+            },
+            {
+              "id": "C",
+              "text": "They stopped measuring emissions accurately"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "relocation of manufacturing abroad"
+          },
+          "explanation": "The text says: \"relocation of manufacturing abroad\".",
+          "uuid": "1f19eabc-ce4d-51b7-8ad6-e0a3b9b52ebf"
+        },
+        {
+          "id": "RE608-Q05",
+          "number": 5,
+          "prompt": "What political problem does degrowth face?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Economies depend on growth for jobs, pensions and debt"
+            },
+            {
+              "id": "B",
+              "text": "Voters want much higher taxes on consumption"
+            },
+            {
+              "id": "C",
+              "text": "Companies refuse to cooperate with governments"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "depend on growth to maintain employment"
+          },
+          "explanation": "The text says: \"depend on growth to maintain employment\".",
+          "uuid": "18818f16-5826-542d-9695-b4af141450be"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE608-Q06",
+          "number": 6,
+          "prompt": "The writer thinks the question about endless growth is illegitimate.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "the question is legitimate"
+          },
+          "explanation": "The text says: \"the question is legitimate\".",
+          "uuid": "e5239c88-21e7-57b9-b829-afa1bfcbdc34"
+        },
+        {
+          "id": "RE608-Q07",
+          "number": 7,
+          "prompt": "The writer believes absolute global decoupling has already been achieved.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "has not yet been demonstrated at a global level"
+          },
+          "explanation": "The text says: \"has not yet been demonstrated at a global level\".",
+          "uuid": "52946fc9-6773-53db-9836-13636f363471"
+        },
+        {
+          "id": "RE608-Q08",
+          "number": 8,
+          "prompt": "The writer thinks degrowth would be easy to implement politically.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "voters are rarely enthusiastic about contraction"
+          },
+          "explanation": "The text says: \"voters are rarely enthusiastic about contraction\".",
+          "uuid": "86eaf6e1-0e2b-540b-bde2-cd77760e4726"
+        },
+        {
+          "id": "RE608-Q09",
+          "number": 9,
+          "prompt": "The writer has worked on climate policy.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "17ef812c-ec63-52f1-b0d5-9ad0d7e1f969"
+        },
+        {
+          "id": "RE608-Q10",
+          "number": 10,
+          "prompt": "The writer advises planning for more than one possible future.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "planning for both possibilities"
+          },
+          "explanation": "The text says: \"planning for both possibilities\".",
+          "uuid": "6c82730a-dba5-5fec-aff5-50412eb93c63"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE608-Q11",
+          "number": 11,
+          "prompt": "A reference to evidence that extra wealth adds little to happiness beyond a point",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "adds little to happiness"
+          },
+          "explanation": "The text says: \"adds little to happiness\".",
+          "uuid": "e8be445c-df69-5e0e-81c3-2f000502bd28"
+        },
+        {
+          "id": "RE608-Q12",
+          "number": 12,
+          "prompt": "An explanation of why reductions in some countries' emissions may be misleading",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "emissions are counted in other countries"
+          },
+          "explanation": "The text says: \"emissions are counted in other countries\".",
+          "uuid": "56ec2a50-d8a5-547e-82eb-1c3316c4c668"
+        },
+        {
+          "id": "RE608-Q13",
+          "number": 13,
+          "prompt": "A suggestion that the real issue is what expands and what contracts",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "what grows and what shrinks"
+          },
+          "explanation": "The text says: \"what grows and what shrinks\".",
+          "uuid": "723b1340-4b8a-526e-a8ff-f00fc69d1083"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "9c48621f-d54f-4c42-8190-e0a73ff8d77c",
+  "derived": {
+    "word_count": 385,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 3,
+      "B": 5,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "5f6f7aadd7acf3e3"
+  }
+}

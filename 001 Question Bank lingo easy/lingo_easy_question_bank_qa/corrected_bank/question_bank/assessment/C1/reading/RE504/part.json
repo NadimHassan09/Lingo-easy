@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE504",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Antibiotic Resistance",
+  "topic": "health",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "Antibiotic Resistance",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "When Alexander Fleming noticed in 1928 that a mould had killed bacteria on one of his dishes, he began a revolution in medicine. Antibiotics transformed infections that had been deadly, such as pneumonia and blood poisoning, into treatable conditions, and made modern surgery and cancer treatment possible. Yet Fleming himself warned, in his Nobel Prize speech in 1945, that careless use of penicillin could teach microbes to resist it. His warning has proved prophetic."
+      },
+      {
+        "label": "B",
+        "text": "Resistance arises through natural selection. In any large population of bacteria, a few may carry a mutation that protects them from a particular drug. When an antibiotic kills the susceptible majority, the resistant minority survives and multiplies, and its descendants inherit the protection. Bacteria can also pass resistance genes directly to other bacteria, even to different species, which speeds up the process considerably. The more often antibiotics are used, the more opportunities this selection has."
+      },
+      {
+        "label": "C",
+        "text": "Overuse has been widespread. Studies suggest that around a third of antibiotic prescriptions in some countries are unnecessary, often given for viral infections such as colds, against which antibiotics are useless. Farming is another major source: in many parts of the world, more antibiotics are given to healthy livestock to promote growth and prevent disease than to people. Patients also contribute by stopping treatment early, which can leave the hardiest bacteria alive."
+      },
+      {
+        "label": "D",
+        "text": "The consequences are serious. The World Health Organization estimates that drug-resistant infections contribute to over a million deaths each year, and warns that without action, they could become one of the leading causes of death by 2050. Routine operations such as hip replacements could become dangerous if infections could not be controlled. The problem is made worse by an economic reality: since antibiotics are taken for short periods, they are less profitable than drugs for chronic conditions, and few companies invest in developing new ones."
+      },
+      {
+        "label": "E",
+        "text": "Solutions exist, though none is simple. Doctors can prescribe more carefully and use rapid tests to identify whether an infection is bacterial. Governments can restrict antibiotic use in farming, as the European Union has done for growth promotion. Researchers are exploring alternatives, including bacteriophages, viruses that attack bacteria, and attempts to harness artificial intelligence to discover new molecules. Meanwhile, public understanding matters: antibiotics are a shared resource, and each unnecessary use diminishes it for everyone."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE504-Q01",
+          "number": 1,
+          "prompt": "What happened in 1928?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fleming noticed a mould killing bacteria"
+            },
+            {
+              "id": "B",
+              "text": "Fleming won a Nobel Prize"
+            },
+            {
+              "id": "C",
+              "text": "Fleming performed the first operation"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "a mould had killed bacteria on one of his dishes"
+          },
+          "explanation": "The text says: \"a mould had killed bacteria on one of his dishes\".",
+          "uuid": "290c509e-6f01-5789-b8fd-fccc9914c01a"
+        },
+        {
+          "id": "RE504-Q02",
+          "number": 2,
+          "prompt": "What did Fleming warn in 1945?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Careless use could make microbes resistant"
+            },
+            {
+              "id": "B",
+              "text": "Penicillin would become too expensive to use"
+            },
+            {
+              "id": "C",
+              "text": "Mould would spread through hospital wards"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "careless use of penicillin could teach microbes to resist it"
+          },
+          "explanation": "The text says: \"careless use of penicillin could teach microbes to resist it\".",
+          "uuid": "aa58f5ed-0bad-568b-9bf9-77c7a3730998"
+        },
+        {
+          "id": "RE504-Q03",
+          "number": 3,
+          "prompt": "How does resistance spread faster, besides natural selection?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bacteria become larger and so harder to kill"
+            },
+            {
+              "id": "B",
+              "text": "Bacteria pass genes to others, even other species"
+            },
+            {
+              "id": "C",
+              "text": "Antibiotics weaken the patient's immune system"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "pass resistance genes directly to other bacteria"
+          },
+          "explanation": "The text says: \"pass resistance genes directly to other bacteria\".",
+          "uuid": "671b634e-a844-50da-8135-b3727829d09b"
+        },
+        {
+          "id": "RE504-Q04",
+          "number": 4,
+          "prompt": "Why is stopping treatment early a problem?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The hardiest bacteria may survive"
+            },
+            {
+              "id": "B",
+              "text": "The drug becomes stronger in the body"
+            },
+            {
+              "id": "C",
+              "text": "The medicine is wasted and costs more"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "leave the hardiest bacteria alive"
+          },
+          "explanation": "The text says: \"leave the hardiest bacteria alive\".",
+          "uuid": "38467593-6aac-54b6-9fbe-2708649244f4"
+        },
+        {
+          "id": "RE504-Q05",
+          "number": 5,
+          "prompt": "Why do few companies develop new antibiotics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are too difficult to make in a modern laboratory"
+            },
+            {
+              "id": "B",
+              "text": "They are less profitable than drugs for chronic conditions"
+            },
+            {
+              "id": "C",
+              "text": "They are banned by international health regulators"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "less profitable than drugs for chronic conditions"
+          },
+          "explanation": "The text says: \"less profitable than drugs for chronic conditions\".",
+          "uuid": "b0c7db38-39db-5600-b45b-1bb9688abc8e"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE504-Q06",
+          "number": 6,
+          "prompt": "Antibiotics are effective against viral infections such as colds.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "against which antibiotics are useless"
+          },
+          "explanation": "The text says: \"against which antibiotics are useless\".",
+          "uuid": "b205f171-f0be-52c5-a23b-414cdc4c6ea1"
+        },
+        {
+          "id": "RE504-Q07",
+          "number": 7,
+          "prompt": "In many parts of the world, more antibiotics are given to livestock than to people.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "more antibiotics are given to healthy livestock"
+          },
+          "explanation": "The text says: \"more antibiotics are given to healthy livestock\".",
+          "uuid": "905ca744-4d67-5cf6-8b91-fa2852e18aac"
+        },
+        {
+          "id": "RE504-Q08",
+          "number": 8,
+          "prompt": "Drug-resistant infections contribute to over a million deaths each year.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "over a million deaths each year"
+          },
+          "explanation": "The text says: \"over a million deaths each year\".",
+          "uuid": "268fdb1d-f9fa-56b3-90b0-6211bf506d1b"
+        },
+        {
+          "id": "RE504-Q09",
+          "number": 9,
+          "prompt": "Bacteriophages have already replaced antibiotics in hospitals.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "a8a50bad-55fd-5684-8d21-0d608cc350da"
+        },
+        {
+          "id": "RE504-Q10",
+          "number": 10,
+          "prompt": "The European Union restricts the use of antibiotics for growth promotion.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "as the European Union has done for growth promotion"
+          },
+          "explanation": "The text says: \"as the European Union has done for growth promotion\".",
+          "uuid": "b7e7dd56-356f-5b1c-8152-cef3ec89c361"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE504-Q11",
+          "number": 11,
+          "prompt": "An explanation of how a protective mutation spreads through a population",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "the resistant minority survives and multiplies"
+          },
+          "explanation": "The text says: \"the resistant minority survives and multiplies\".",
+          "uuid": "217fdb22-5da9-5863-8fb1-9c5623bc381c"
+        },
+        {
+          "id": "RE504-Q12",
+          "number": 12,
+          "prompt": "A suggestion that routine operations could become risky",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Routine operations such as hip replacements could become dangerous"
+          },
+          "explanation": "The text says: \"Routine operations such as hip replacements could become dangerous\".",
+          "uuid": "6fddc87e-0ba1-5b44-818c-239a95273473"
+        },
+        {
+          "id": "RE504-Q13",
+          "number": 13,
+          "prompt": "A description of antibiotics as something everyone shares",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "antibiotics are a shared resource"
+          },
+          "explanation": "The text says: \"antibiotics are a shared resource\".",
+          "uuid": "28ef25c7-d8cf-5006-9112-afd367ca2384"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "6c483002-063e-4f8a-86f1-2bf41f0c9aec",
+  "derived": {
+    "word_count": 382,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 6,
+      "B": 4,
+      "C": 2,
+      "D": 1
+    },
+    "content_hash": "2ccf6e9c9190ad3c"
+  }
+}

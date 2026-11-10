@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "id": "WR106",
+  "uuid": "772c483e-00d7-5dbe-bde3-728566fcc952",
+  "version": "1.0.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "assessment",
+    "level": "A1"
+  },
+  "target_cefr": "A1",
+  "profile": "level_a1",
+  "topic": "food_and_nutrition",
+  "context": "A class magazine is asking students about food.",
+  "title": "My favourite food",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "sentence_set",
+  "task": {
+    "title": "My favourite food",
+    "scenario": "A class magazine is asking students about food.",
+    "prompt": "Write about food you like and do not like.",
+    "instructions": [
+      "Write about 40-60 words (at least 30).",
+      "You have about 8 minutes.",
+      "Make sure you cover all of the points below.",
+      "You are writing for: readers of a class magazine. Style: neutral, simple."
+    ],
+    "required_points": [
+      "your favourite food",
+      "when you eat it",
+      "one food you do not like",
+      "your favourite drink"
+    ],
+    "audience": "readers of a class magazine",
+    "register": "neutral, simple",
+    "response_type": "sentence_set",
+    "word_count": {
+      "minimum": 30,
+      "suggested_min": 40,
+      "suggested_max": 60,
+      "maximum": 90
+    },
+    "suggested_minutes": 8
+  },
+  "expected_response": {
+    "content_points": [
+      "your favourite food",
+      "when you eat it",
+      "one food you do not like",
+      "your favourite drink"
+    ],
+    "required_elements": [
+      "Address: your favourite food",
+      "Address: when you eat it",
+      "Address: one food you do not like",
+      "Address: your favourite drink"
+    ],
+    "optional_elements": [
+      "a reason with because"
+    ],
+    "organisation": [
+      "a list of simple sentences"
+    ],
+    "vocabulary_demands": [
+      "food and drink words",
+      "meals",
+      "like / do not like"
+    ],
+    "grammar_demands": [
+      {
+        "id": "present_simple",
+        "level": "A1",
+        "extension": false
+      },
+      {
+        "id": "articles_determiners",
+        "level": "A1",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Isolated sentences or very short sequences.",
+    "linguistic_demand": "Short, concrete sentences about familiar personal topics; high-frequency vocabulary; present simple.",
+    "cognitive_demand": "Describe people, places, objects, routines; Retrieve and state personal facts",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "My favourite food is ...",
+          "I eat it on ...",
+          "I do not like ...",
+          "My favourite drink is ..."
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "personal_expression",
+    "secondary_subskills": [
+      "sentence_construction"
+    ],
+    "cognitive_processes": [
+      "describe",
+      "recall_personal_information"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.personal_expression.A1.1",
+        "text": "Express likes and dislikes with simple present sentences",
+        "measurable_verb": "express",
+        "criteria": [
+          "W_TA",
+          "W_GRA",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "A1",
+    "recommended_cefr": "A1",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.03,
+    "language_demand": "Short, concrete sentences about familiar personal topics; high-frequency vocabulary; present simple.",
+    "cognitive_demand": "Describe people, places, objects, routines; Retrieve and state personal facts",
+    "expected_performance": [
+      "Addresses most of the required points with at least one simple sentence each; meaning is clear even with errors.",
+      "Correct simple present sentences with basic word order; some errors in agreement or articles do not stop understanding.",
+      "Uses basic words correctly for the topic (family, food, daily life); spelling of common words mostly correct."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 0.0, 'cognition': 0.0, 'length': 0.15, 'abstractness': 0.5, 'prompt_language': 0.72}; composite 0.15 -> A1. Original target A1. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 0.0,
+      "cognition": 0.0,
+      "length": 0.15,
+      "abstractness": 0.5,
+      "prompt_language": 0.72
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 5.0,
+      "long_word_ratio": 0.08
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "A1",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.35,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Addresses most of the required points with at least one simple sentence each; meaning is clear even with errors. Required points: your favourite food; when you eat it; one food you do not like; your favourite drink",
+        "weak_performance": "Only one or two points, or sentences unrelated to the task; meaning often unclear.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: your favourite food; when you eat it; one food you do not like; your favourite drink.",
+        "common_error_patterns": [
+          "copying the prompt",
+          "writing about a different topic",
+          "very short answer"
+        ],
+        "related_subskills": [
+          "personal_expression",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.3,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Correct simple present sentences with basic word order; some errors in agreement or articles do not stop understanding.",
+        "weak_performance": "Fragments; missing verbs; frequent word-order errors.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: present_simple, articles_determiners.",
+        "common_error_patterns": [
+          "missing verb 'be' (He tall)",
+          "article omission",
+          "he/she/it agreement"
+        ],
+        "related_subskills": [
+          "personal_expression",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "missing 'be' in present sentences (Arabic nominal sentences)",
+            "omission or addition of 'the'",
+            "he/she confusion"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Uses basic words correctly for the topic (family, food, daily life); spelling of common words mostly correct.",
+        "weak_performance": "Very few words; repeated copying; wrong or invented words.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: food and drink words; meals; like / do not like.",
+        "common_error_patterns": [
+          "spelling of common words",
+          "wrong word"
+        ],
+        "related_subskills": [
+          "personal_expression",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "missing 'be' in present sentences (Arabic nominal sentences)",
+            "omission or addition of 'the'",
+            "he/she confusion"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.1,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Sentences are in a sensible order; simple linking such as 'and' and 'but' is used correctly.",
+        "weak_performance": "Sentences appear in random order; no linking.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "no linking words",
+          "random order"
+        ],
+        "related_subskills": [
+          "personal_expression",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      },
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      }
+    ],
+    "required_demonstrations": [
+      "Address every required point: your favourite food; when you eat it; one food you do not like; your favourite drink",
+      "Use language appropriate to: readers of a class magazine"
+    ],
+    "optional_demonstrations": [
+      "a reason with because"
+    ],
+    "not_penalised": [
+      "missing paragraphs or linking beyond 'and' and 'but'",
+      "minor spelling slips that do not hide meaning",
+      "absence of any structure above present simple"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/writing_*.py (A1-06)",
+    "spec_sha256": "1f605b6f1e98d70e990c2349f3b46ae00d7a472e541f0e90f66e9ce6c4ed3496",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "A1-06",
+      "lv": "A1",
+      "cat": "sentence_set",
+      "topic": "food_and_nutrition",
+      "title": "My favourite food",
+      "scen": "A class magazine is asking students about food.",
+      "prompt": "Write about food you like and do not like.",
+      "pts": [
+        "your favourite food",
+        "when you eat it",
+        "one food you do not like",
+        "your favourite drink"
+      ],
+      "aud": "readers of a class magazine",
+      "reg": "neutral, simple",
+      "w": [
+        30,
+        40,
+        60,
+        90
+      ],
+      "mins": 8,
+      "vocab": [
+        "food and drink words",
+        "meals",
+        "like / do not like"
+      ],
+      "gram": [
+        "present_simple",
+        "articles_determiners"
+      ],
+      "struct": [
+        "a list of simple sentences"
+      ],
+      "sub": "personal_expression",
+      "sub2": [
+        "sentence_construction"
+      ],
+      "cog": [
+        "describe",
+        "recall_personal_information"
+      ],
+      "obj": [
+        "Express likes and dislikes with simple present sentences"
+      ],
+      "outline": [
+        "My favourite food is ...",
+        "I eat it on ...",
+        "I do not like ...",
+        "My favourite drink is ..."
+      ],
+      "opt": [
+        "a reason with because"
+      ],
+      "abs": 0
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "0e97cd81a8d65f0d9a20a10718c4c2da3396348b718ffe845d02b2e5fa2055b4"
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "id": "LI608",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Seminar: The Ethics of Gene Editing",
+  "topic": "health",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li608_seminar_the_ethics_of_gene_editing.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Byrne",
+        "gender": "female",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Tom",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Nadia",
+        "gender": "female",
+        "accent": "british",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "For our ethics seminar, let's tackle gene editing. In 2018, a scientist in China announced the birth of twins whose genes had been edited as embryos to resist HIV. Tom, what was the reaction?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Condemnation, almost universally. He was criticised for acting before safety had been demonstrated, and for inadequate consent from the parents. He was later sentenced to three years in prison."
+      },
+      {
+        "speaker": "S1",
+        "text": "But the ethical question goes beyond that one case. Nadia, what's the central issue?"
+      },
+      {
+        "speaker": "S3",
+        "text": "I'd distinguish between editing somatic cells, which affects only the patient, and editing germline cells, which are passed on to future generations. Somatic therapies, like the recent treatments for sickle cell disease, are widely accepted because they resemble other medical treatments. The germline is controversial because the people affected can't consent."
+      },
+      {
+        "speaker": "S2",
+        "text": "Although you could argue that parents make decisions for unborn children all the time."
+      },
+      {
+        "speaker": "S3",
+        "text": "True, but the decisions here are irreversible, and might have unforeseen effects across generations. And there's a difference between decisions about a particular child's upbringing and permanent changes to the human gene pool."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let's examine the distinction between therapy and enhancement. Tom?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I'm sceptical that the line is clear. If we can prevent a disease, why not prevent a predisposition to disease? And if that's acceptable, what about increasing resistance to infection beyond normal levels? Each step looks like a modest extension of the previous one."
+      },
+      {
+        "speaker": "S3",
+        "text": "This is the slippery slope argument, which philosophers are wary of, because it can be used to resist any change. But in this case I think the concern is legitimate, since commercial pressure would push towards enhancement for those who can pay."
+      },
+      {
+        "speaker": "S1",
+        "text": "Which raises the issue of justice."
+      },
+      {
+        "speaker": "S3",
+        "text": "Exactly. If only wealthy families can afford enhancement, existing inequalities could become biological. It's one thing for rich children to attend better schools; it's another for them to be, in some measure, genetically advantaged."
+      },
+      {
+        "speaker": "S2",
+        "text": "Yet one could respond that this applies to all technologies at first. Mobile phones were once luxuries."
+      },
+      {
+        "speaker": "S1",
+        "text": "The analogy has limits. A phone can be given to everyone later. A genetic change in earlier generations can't be made available to those already born."
+      },
+      {
+        "speaker": "S3",
+        "text": "There's also the point that we understand genes much less well than the popular image suggests. Most traits, such as intelligence, involve thousands of genes, each with a tiny effect, and the same gene may influence several traits. So editing for one outcome might have unexpected consequences."
+      },
+      {
+        "speaker": "S2",
+        "text": "I accept that, and it argues for caution, rather than prohibition. A moratorium, for example, rather than a permanent ban."
+      },
+      {
+        "speaker": "S1",
+        "text": "Many scientists have called for just that, together with international regulation. The difficulty is enforcement: a country with lax rules could attract genetic tourism."
+      },
+      {
+        "speaker": "S2",
+        "text": "Which suggests the debate needs to be global rather than national."
+      },
+      {
+        "speaker": "S1",
+        "text": "For your essay, take a position on whether germline editing should ever be permitted, and anticipate the strongest objection to your view."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI608-Q01",
+          "number": 1,
+          "prompt": "How did people react to the 2018 announcement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "With widespread celebration across the field"
+            },
+            {
+              "id": "B",
+              "text": "With almost universal condemnation"
+            },
+            {
+              "id": "C",
+              "text": "With indifference in the scientific community"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Condemnation, almost universally"
+          },
+          "explanation": "The audio says: \"Condemnation, almost universally\".",
+          "uuid": "fba99545-c2eb-5863-a6c3-8e09b90a1e57"
+        },
+        {
+          "id": "LI608-Q02",
+          "number": 2,
+          "prompt": "What were two criticisms of the scientist's work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It was carried out too slowly and at far too great a cost"
+            },
+            {
+              "id": "B",
+              "text": "It was kept secret from colleagues and used too few embryos"
+            },
+            {
+              "id": "C",
+              "text": "Safety was not demonstrated and parental consent was inadequate"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "inadequate consent from the parents"
+          },
+          "explanation": "The audio says: \"inadequate consent from the parents\".",
+          "uuid": "f18ae8f4-7613-5772-92f9-9258231c6271"
+        },
+        {
+          "id": "LI608-Q03",
+          "number": 3,
+          "prompt": "Why are somatic therapies widely accepted?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are cheaper than other treatments"
+            },
+            {
+              "id": "B",
+              "text": "They can be passed to future generations"
+            },
+            {
+              "id": "C",
+              "text": "They resemble other medical treatments"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "they resemble other medical treatments"
+          },
+          "explanation": "The audio says: \"they resemble other medical treatments\".",
+          "uuid": "6123b6bf-cc26-5210-8966-5abe03ee4913"
+        },
+        {
+          "id": "LI608-Q04",
+          "number": 4,
+          "prompt": "What makes germline editing controversial, according to Nadia?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too expensive for most clinics"
+            },
+            {
+              "id": "B",
+              "text": "It only works on adult patients"
+            },
+            {
+              "id": "C",
+              "text": "Those affected cannot consent"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the people affected can't consent"
+          },
+          "explanation": "The audio says: \"the people affected can't consent\".",
+          "uuid": "68f4a8b2-62bf-51cb-9ff5-2665e482176b"
+        },
+        {
+          "id": "LI608-Q05",
+          "number": 5,
+          "prompt": "How does Nadia answer the point about parents deciding for unborn children?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Parents have no right to decide anything for their children"
+            },
+            {
+              "id": "B",
+              "text": "These decisions are irreversible and may have effects across generations"
+            },
+            {
+              "id": "C",
+              "text": "Parents are rarely told which edits are being planned for them"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "might have unforeseen effects across generations"
+          },
+          "explanation": "The audio says: \"might have unforeseen effects across generations\".",
+          "uuid": "237341a8-fe2b-5f0b-95dc-8b8f12986dc5"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI608-Q06",
+          "number": 6,
+          "prompt": "Why is Tom sceptical about the therapy-enhancement distinction?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Each step looks like a small extension of the last"
+            },
+            {
+              "id": "B",
+              "text": "Therapy carries greater risks than enhancement does"
+            },
+            {
+              "id": "C",
+              "text": "Doctors cannot reliably tell the two apart"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "sceptical that the line is clear"
+          },
+          "explanation": "The audio says: \"sceptical that the line is clear\".",
+          "uuid": "55c77e0a-caff-5285-ae83-38ddd1795dfb"
+        },
+        {
+          "id": "LI608-Q07",
+          "number": 7,
+          "prompt": "What is Nadia's view of the slippery slope argument?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She is wary of it but thinks the concern is legitimate here"
+            },
+            {
+              "id": "B",
+              "text": "She dismisses it as a poor and unconvincing kind of argument"
+            },
+            {
+              "id": "C",
+              "text": "She treats it as valid in every circumstance without exception"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "commercial pressure would push towards enhancement"
+          },
+          "explanation": "The audio says: \"commercial pressure would push towards enhancement\".",
+          "uuid": "d21b6a8f-7479-565c-b8ac-4fab64429db8"
+        },
+        {
+          "id": "LI608-Q08",
+          "number": 8,
+          "prompt": "What justice-related risk does Nadia raise?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Existing inequalities could become biological"
+            },
+            {
+              "id": "B",
+              "text": "Poor families could ban enhancement"
+            },
+            {
+              "id": "C",
+              "text": "Rich families could lose their genes"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "inequalities could become biological"
+          },
+          "explanation": "The audio says: \"inequalities could become biological\".",
+          "uuid": "e0de78fe-28a4-578b-825e-097a45d9efb3"
+        },
+        {
+          "id": "LI608-Q09",
+          "number": 9,
+          "prompt": "Why does the tutor say the analogy with mobile phones has limits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Phones are not essential items for most families"
+            },
+            {
+              "id": "B",
+              "text": "Genetic changes cannot be given later to those already born"
+            },
+            {
+              "id": "C",
+              "text": "Genes cost far more to edit than phones to buy"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "can't be made available to those already born"
+          },
+          "explanation": "The audio says: \"can't be made available to those already born\".",
+          "uuid": "f6cf97bf-715c-5ba1-a050-80d44845eeb8"
+        },
+        {
+          "id": "LI608-Q10",
+          "number": 10,
+          "prompt": "What does Tom conclude after hearing about genetic complexity?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It argues for caution rather than prohibition"
+            },
+            {
+              "id": "B",
+              "text": "It argues for an immediate and permanent ban"
+            },
+            {
+              "id": "C",
+              "text": "It proves that enhancement would be safe"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "caution, rather than prohibition"
+          },
+          "explanation": "The audio says: \"caution, rather than prohibition\".",
+          "uuid": "63bd6469-11f2-5ce6-a374-6c9cc9d8fec6"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "d62086c5-dc27-4c00-95c9-224d4704ab6d",
+  "derived": {
+    "word_count": 477,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "content_hash": "21a64f210e7f47f4"
+  }
+}

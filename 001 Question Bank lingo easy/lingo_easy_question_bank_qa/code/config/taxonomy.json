@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "_note": "Controlled vocabularies. Generators must only use values from here so adaptive-learning analytics can group weaknesses reliably. Add new values here first, never invent them inside a part file.",
+  "topics": [
+    "travel",
+    "education",
+    "health",
+    "technology",
+    "environment",
+    "work_and_careers",
+    "food_and_nutrition",
+    "sports_and_fitness",
+    "arts_and_culture",
+    "science",
+    "history",
+    "architecture_and_cities",
+    "transport",
+    "shopping_and_money",
+    "housing",
+    "family_and_relationships",
+    "media_and_communication",
+    "animals_and_nature",
+    "business",
+    "psychology",
+    "space_and_astronomy",
+    "volunteering_and_community",
+    "language_and_linguistics",
+    "energy",
+    "farming_and_agriculture",
+    "tourism_and_events"
+  ],
+  "presentations": {
+    "listening": [
+      "multiple_choice",
+      "sentence_completion",
+      "form_completion",
+      "matching"
+    ],
+    "reading": [
+      "multiple_choice",
+      "true_false_not_given",
+      "yes_no_not_given",
+      "sentence_completion",
+      "summary_completion",
+      "matching_headings",
+      "matching_information"
+    ]
+  },
+  "skill_tags": {
+    "listening": [
+      "gist",
+      "specific_detail",
+      "numbers_dates_times",
+      "speaker_opinion",
+      "speaker_attitude",
+      "purpose",
+      "inference",
+      "sequence",
+      "paraphrase_recognition",
+      "distractor_resolution",
+      "organisation_signposting"
+    ],
+    "reading": [
+      "main_idea",
+      "specific_detail",
+      "inference",
+      "writer_claim",
+      "fact_check",
+      "vocabulary_in_context",
+      "reference_resolution",
+      "paraphrase_matching",
+      "text_organisation",
+      "heading_matching",
+      "summary_gap"
+    ]
+  },
+  "grammar_rules": [
+    "present_simple",
+    "present_continuous",
+    "past_simple",
+    "past_continuous",
+    "present_perfect",
+    "past_perfect",
+    "future_forms",
+    "modals_ability_permission",
+    "modals_obligation_advice",
+    "modals_deduction",
+    "conditionals_real",
+    "conditionals_unreal",
+    "passive_voice",
+    "reported_speech",
+    "relative_clauses",
+    "comparatives_superlatives",
+    "articles_determiners",
+    "prepositions",
+    "quantifiers",
+    "gerund_vs_infinitive",
+    "question_forms",
+    "word_order",
+    "linking_words",
+    "contrast_and_concession",
+    "cause_and_effect",
+    "inversion_emphasis",
+    "nominalisation",
+    "hedging_and_tentative_language",
+    "participle_clauses",
+    "phrasal_verbs"
+  ],
+  "lexical_types": [
+    "collocation",
+    "phrasal_verb",
+    "idiom",
+    "academic_word",
+    "word_formation",
+    "synonym_paraphrase",
+    "connotation",
+    "topic_vocabulary",
+    "false_friend_risk"
+  ],
+  "speaker_accents": [
+    "british",
+    "american",
+    "australian",
+    "new_zealand"
+  ],
+  "speaker_genders": [
+    "female",
+    "male"
+  ],
+  "part_statuses": [
+    "draft",
+    "validated",
+    "reviewed",
+    "approved",
+    "rejected"
+  ]
+}

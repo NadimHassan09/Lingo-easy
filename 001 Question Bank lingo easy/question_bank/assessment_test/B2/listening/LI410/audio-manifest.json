@@ -1,0 +1,202 @@
+{
+  "part_id": "LI410",
+  "part_uuid": "4e49b56c-9d10-4610-bbbf-7197d755a71f",
+  "audio_file": "li410_group_project_renewable_energy.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "77cfb8cd335601f998536abb772fe284c5f4f0f6e1d1545e26fa52e14ff1cb58",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    },
+    "S3": {
+      "voice": "en-GB-ThomasNeural",
+      "pitch": "+0Hz"
+    },
+    "S4": {
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Ahmed",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Chloe",
+      "gender": "female",
+      "accent": "australian",
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S3",
+      "name": "Raj",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-ThomasNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S4",
+      "name": "Ivy",
+      "gender": "female",
+      "accent": "american",
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 7.01
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 7.46,
+      "end": 14.18
+    },
+    {
+      "index": 2,
+      "speaker": "S3",
+      "start": 14.63,
+      "end": 23.94
+    },
+    {
+      "index": 3,
+      "speaker": "S4",
+      "start": 24.39,
+      "end": 31.66
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 32.11,
+      "end": 43.15
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 43.6,
+      "end": 46.87
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 47.32,
+      "end": 53.44
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 53.89,
+      "end": 59.77
+    },
+    {
+      "index": 8,
+      "speaker": "S3",
+      "start": 60.22,
+      "end": 68.4
+    },
+    {
+      "index": 9,
+      "speaker": "S1",
+      "start": 68.85,
+      "end": 78.71
+    },
+    {
+      "index": 10,
+      "speaker": "S2",
+      "start": 79.16,
+      "end": 90.08
+    },
+    {
+      "index": 11,
+      "speaker": "S1",
+      "start": 90.53,
+      "end": 99.34
+    },
+    {
+      "index": 12,
+      "speaker": "S4",
+      "start": 99.79,
+      "end": 110.95
+    },
+    {
+      "index": 13,
+      "speaker": "S1",
+      "start": 111.4,
+      "end": 120.21
+    },
+    {
+      "index": 14,
+      "speaker": "S4",
+      "start": 120.66,
+      "end": 123.95
+    },
+    {
+      "index": 15,
+      "speaker": "S1",
+      "start": 124.4,
+      "end": 130.52
+    },
+    {
+      "index": 16,
+      "speaker": "S3",
+      "start": 130.97,
+      "end": 139.66
+    },
+    {
+      "index": 17,
+      "speaker": "S1",
+      "start": 140.11,
+      "end": 150.76
+    },
+    {
+      "index": 18,
+      "speaker": "S3",
+      "start": 151.21,
+      "end": 156.13
+    },
+    {
+      "index": 19,
+      "speaker": "S1",
+      "start": 156.58,
+      "end": 173.12
+    },
+    {
+      "index": 20,
+      "speaker": "S2",
+      "start": 173.57,
+      "end": 177.74
+    },
+    {
+      "index": 21,
+      "speaker": "S1",
+      "start": 178.19,
+      "end": 187.99
+    }
+  ],
+  "duration_seconds": 187.99,
+  "size_bytes": 1504556,
+  "audio_sha256": "bef87a9b20faddb298bf8afb14652acad7e0a6a7b33c3936df91daa910875f9b",
+  "generated_at": "2026-10-30T20:56:38+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

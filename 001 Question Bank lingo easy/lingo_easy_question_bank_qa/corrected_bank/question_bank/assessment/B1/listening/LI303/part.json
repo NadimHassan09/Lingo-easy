@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0",
+  "id": "LI303",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Choosing a Science Project",
+  "topic": "science",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li303_choosing_a_science_project.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Lewis",
+        "gender": "female",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Ben",
+        "gender": "male",
+        "accent": "british",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Zoe",
+        "gender": "female",
+        "accent": "american",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Right, you two. Let's decide your science project. Have you had any ideas?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, I've been thinking about solar energy. I read that solar panels are getting cheaper every year."
+      },
+      {
+        "speaker": "S3",
+        "text": "I'm not sure. Solar energy is a popular topic, and lots of students choose it. I'd like something more unusual, like how plants grow with different kinds of light."
+      },
+      {
+        "speaker": "S1",
+        "text": "Both are possible. Ben, what would you actually do for the solar idea?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I'd build a small model house with a solar panel and measure how much electricity it produces at different times of day."
+      },
+      {
+        "speaker": "S1",
+        "text": "That sounds practical. Zoe, for the plants, what would you need?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Some seeds, three lamps in different colours, and a dark room. I'd measure the height of the plants every week."
+      },
+      {
+        "speaker": "S1",
+        "text": "How long do you have for the project?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Six weeks. The final presentation is on the twelfth of December."
+      },
+      {
+        "speaker": "S1",
+        "text": "Then plants might be a problem. Seeds can take two or three weeks to start growing, so you'd only have a few weeks of results. With the solar model, you can collect data every day."
+      },
+      {
+        "speaker": "S3",
+        "text": "I hadn't thought about that. Maybe we could do something that includes both ideas."
+      },
+      {
+        "speaker": "S2",
+        "text": "Like using plants to see if they grow better with solar-powered light?"
+      },
+      {
+        "speaker": "S1",
+        "text": "That's an interesting combination, but be careful. It might be too complicated for six weeks. I'd suggest you start with the solar model, and if it goes well, add a small plant experiment at the end."
+      },
+      {
+        "speaker": "S3",
+        "text": "Okay, I like that. Then we have a main project and an extra."
+      },
+      {
+        "speaker": "S1",
+        "text": "Exactly. Now, equipment. The department can give you a solar panel, but you must buy the lamps and seeds yourselves."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's fine. Is there a budget limit?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Not officially, but I'd keep it under thirty pounds. Submit your plan to me by next Friday, and I'll give you feedback."
+      },
+      {
+        "speaker": "S3",
+        "text": "Great. Should we include a risk assessment?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, a short one. Electricity needs care, even at low voltage."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI303-Q01",
+          "number": 1,
+          "prompt": "What idea does Ben suggest first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Plant growth"
+            },
+            {
+              "id": "B",
+              "text": "Solar energy"
+            },
+            {
+              "id": "C",
+              "text": "Wind power"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "thinking about solar energy"
+          },
+          "explanation": "The audio says: \"thinking about solar energy\".",
+          "uuid": "bca6ac54-a8ff-5f84-9e6f-15e65dfbcf63"
+        },
+        {
+          "id": "LI303-Q02",
+          "number": 2,
+          "prompt": "Why is Zoe not sure about Ben's idea?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too expensive"
+            },
+            {
+              "id": "B",
+              "text": "Many students choose it"
+            },
+            {
+              "id": "C",
+              "text": "It is too difficult"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "lots of students choose it"
+          },
+          "explanation": "The audio says: \"lots of students choose it\".",
+          "uuid": "461292ae-a741-52a8-ad7d-0809b60a74a2"
+        },
+        {
+          "id": "LI303-Q03",
+          "number": 3,
+          "prompt": "What would Ben build?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A lamp that runs on solar energy"
+            },
+            {
+              "id": "B",
+              "text": "A small power station on campus"
+            },
+            {
+              "id": "C",
+              "text": "A model house with a solar panel"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a small model house with a solar panel"
+          },
+          "explanation": "The audio says: \"a small model house with a solar panel\".",
+          "uuid": "5370231f-b695-564f-a20e-5ef99b2710ef"
+        },
+        {
+          "id": "LI303-Q04",
+          "number": 4,
+          "prompt": "What does Zoe need for her idea?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Seeds, lamps and a dark room"
+            },
+            {
+              "id": "B",
+              "text": "Seeds, soil and water only"
+            },
+            {
+              "id": "C",
+              "text": "A greenhouse and a camera"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Some seeds, three lamps in different colours, and a dark room"
+          },
+          "explanation": "The audio says: \"Some seeds, three lamps in different colours, and a dark room\".",
+          "uuid": "08820312-77b8-5d9f-8542-a0bc0668fa12"
+        },
+        {
+          "id": "LI303-Q05",
+          "number": 5,
+          "prompt": "How long do the students have for the project?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three weeks"
+            },
+            {
+              "id": "B",
+              "text": "Twelve weeks"
+            },
+            {
+              "id": "C",
+              "text": "Six weeks"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Six weeks. The final presentation"
+          },
+          "explanation": "The audio says: \"Six weeks. The final presentation\".",
+          "uuid": "d27a10d6-5a98-5cb0-b5c9-b5231e6993db"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI303-Q06",
+          "number": 6,
+          "prompt": "Why might the plant project be a problem?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Plants need very expensive lamps"
+            },
+            {
+              "id": "B",
+              "text": "Seeds take weeks to start growing"
+            },
+            {
+              "id": "C",
+              "text": "The students have no dark room"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Seeds can take two or three weeks to start growing"
+          },
+          "explanation": "The audio says: \"Seeds can take two or three weeks to start growing\".",
+          "uuid": "0b482e60-ad59-5307-a2b2-908a79c78de7"
+        },
+        {
+          "id": "LI303-Q07",
+          "number": 7,
+          "prompt": "What does the tutor suggest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Start with the solar model and add plants at the end"
+            },
+            {
+              "id": "B",
+              "text": "Do only the plant experiment in a dark room"
+            },
+            {
+              "id": "C",
+              "text": "Combine both ideas from the very start"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "start with the solar model"
+          },
+          "explanation": "The audio says: \"start with the solar model\".",
+          "uuid": "ba3cffda-88f9-5f26-bedb-fc94b7a9f697"
+        },
+        {
+          "id": "LI303-Q08",
+          "number": 8,
+          "prompt": "Who will provide the solar panel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A local company"
+            },
+            {
+              "id": "B",
+              "text": "The tutor herself"
+            },
+            {
+              "id": "C",
+              "text": "The department"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The department can give you a solar panel"
+          },
+          "explanation": "The audio says: \"The department can give you a solar panel\".",
+          "uuid": "e6b0a32d-9ef7-5a36-a647-87b99c416e0b"
+        },
+        {
+          "id": "LI303-Q09",
+          "number": 9,
+          "prompt": "What does the tutor advise about the budget?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Keep it under 30 pounds"
+            },
+            {
+              "id": "B",
+              "text": "Spend at least 30 pounds"
+            },
+            {
+              "id": "C",
+              "text": "Ask the department for money"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "keep it under thirty pounds"
+          },
+          "explanation": "The audio says: \"keep it under thirty pounds\".",
+          "uuid": "194b77c1-25a4-5f1c-82d5-eeb44d939ecf"
+        },
+        {
+          "id": "LI303-Q10",
+          "number": 10,
+          "prompt": "Why does the tutor want a risk assessment?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Seeds can be dangerous"
+            },
+            {
+              "id": "B",
+              "text": "The room is dark"
+            },
+            {
+              "id": "C",
+              "text": "Electricity needs care"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Electricity needs care, even at low voltage"
+          },
+          "explanation": "The audio says: \"Electricity needs care, even at low voltage\".",
+          "uuid": "4b6cd2d3-478c-5d96-a387-7d7703ae1b7f"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "4d053957-a9ab-430e-9979-6d6f506925bc",
+  "derived": {
+    "word_count": 322,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 3,
+      "B": 3,
+      "C": 4
+    },
+    "content_hash": "b808a1249b0ea236"
+  }
+}

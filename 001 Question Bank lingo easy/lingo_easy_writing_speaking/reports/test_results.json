@@ -1,0 +1,469 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "exit_status": 0,
+  "tests_run": 101,
+  "passed": 101,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "by_module": {
+    "test_four_skills": {
+      "ok": 18,
+      "other": 0
+    },
+    "test_pipeline": {
+      "ok": 19,
+      "other": 0
+    },
+    "test_productive": {
+      "ok": 28,
+      "other": 0
+    },
+    "test_qa": {
+      "ok": 36,
+      "other": 0
+    }
+  },
+  "tests": [
+    {
+      "test": "test_four_skills.ApiTests.test_http_round_trip.test_http_round_trip",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.ApiTests.test_old_clients_without_responses_still_work.test_old_clients_without_responses_still_work",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.ApiTests.test_response_validation.test_response_validation",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.ApiTests.test_stats_cover_all_scopes_and_skills.test_stats_cover_all_scopes_and_skills",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.ApiTests.test_submission_stores_writing_and_speaking_responses.test_submission_stores_writing_and_speaking_responses",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.AssemblyTests.test_banks_without_productive_parts_still_work.test_banks_without_productive_parts_still_work",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.AssemblyTests.test_each_assessment_level_uses_only_its_level_for_all_skills.test_each_assessment_level_uses_only_its_level_for_all_skills",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.AssemblyTests.test_explicit_counts_and_shortage.test_explicit_counts_and_shortage",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.AssemblyTests.test_mcq_selection_for_a_seed_is_unchanged_by_writing_and_speaking.test_mcq_selection_for_a_seed_is_unchanged_by_writing_and_speaking",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.AssemblyTests.test_placement_has_all_four_skills_and_spread_levels.test_placement_has_all_four_skills_and_spread_levels",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.AssemblyTests.test_public_exam_never_leaks_internal_metadata.test_public_exam_never_leaks_internal_metadata",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.FrontendContractTests.test_microphone_is_simulated_only.test_microphone_is_simulated_only",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.FrontendContractTests.test_task_views_and_submission_wiring.test_task_views_and_submission_wiring",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.LayoutTests.test_every_scope_has_ten_parts_per_skill_with_matching_ids_and_levels.test_every_scope_has_ten_parts_per_skill_with_matching_ids_and_levels",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.LayoutTests.test_productive_parts_share_lingo_easy_metadata.test_productive_parts_share_lingo_easy_metadata",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.LayoutTests.test_unified_structure_only.test_unified_structure_only",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.SkillFilesTests.test_both_skills_follow_the_existing_skill_conventions.test_both_skills_follow_the_existing_skill_conventions",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_four_skills.SkillFilesTests.test_generator_cli_produces_valid_part_from_spec_and_rejects_bad_spec.test_generator_cli_produces_valid_part_from_spec_and_rejects_bad_spec",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.ApiTests.test_flow_and_single_submission.test_flow_and_single_submission",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.ApiTests.test_start_validation.test_start_validation",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.ApiTests.test_validation_errors.test_validation_errors",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_counts_and_no_repeats.test_counts_and_no_repeats",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_profile_and_type_variety.test_profile_and_type_variety",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_public_exam_leaks_nothing.test_public_exam_leaks_nothing",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_same_seed_same_parts_different_exam_id.test_same_seed_same_parts_different_exam_id",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_shortage_is_an_error_not_a_partial_exam.test_shortage_is_an_error_not_a_partial_exam",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_status_filter.test_status_filter",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_stored_exam_written.test_stored_exam_written",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_all_correct.test_all_correct",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_all_wrong_and_unanswered.test_all_wrong_and_unanswered",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_breakdowns_add_up.test_breakdowns_add_up",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_level_rule_stops_at_first_failure.test_level_rule_stops_at_first_failure",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_unknown_item_rejected.test_unknown_item_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.HttpTests.test_endpoints.test_endpoints",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.RandomisationAndAssessmentTests.test_assessment_uses_only_its_level.test_assessment_uses_only_its_level",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.RandomisationAndAssessmentTests.test_options_and_part_order_vary_but_key_stays_correct.test_options_and_part_order_vary_but_key_stays_correct",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.RandomisationAndAssessmentTests.test_tfng_options_never_shuffled.test_tfng_options_never_shuffled",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.CompatibilityTests.test_existing_schema_and_config_not_modified_in_place.test_existing_schema_and_config_not_modified_in_place",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.CompatibilityTests.test_existing_validator_still_passes.test_existing_validator_still_passes",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.CompatibilityTests.test_productive_attempt_schema_is_separate_from_bank.test_productive_attempt_schema_is_separate_from_bank",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.CompatibilityTests.test_reading_listening_assembler_and_bank_untouched.test_reading_listening_assembler_and_bank_untouched",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_cefr_estimates_are_independent_of_the_stored_target.test_cefr_estimates_are_independent_of_the_stored_target",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_criteria_match_task_demands.test_criteria_match_task_demands",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_exact_counts.test_exact_counts",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_full_validation_has_no_errors_and_no_duplicates.test_full_validation_has_no_errors_and_no_duplicates",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_future_audio_fields_optional_and_never_fabricated.test_future_audio_fields_optional_and_never_fabricated",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_ids_and_uuids_unique_and_stable.test_ids_and_uuids_unique_and_stable",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_no_answer_key_and_examples_labelled.test_no_answer_key_and_examples_labelled",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_placement_covers_all_levels_assessment_is_level_pure.test_placement_covers_all_levels_assessment_is_level_pure",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_required_metadata_and_blueprint_completeness.test_required_metadata_and_blueprint_completeness",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_schema_compliance_of_every_part.test_schema_compliance_of_every_part",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_seed_reproducibility_and_selection.test_seed_reproducibility_and_selection",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.GeneratorTests.test_speaking_text_mvp_never_scores_pronunciation.test_speaking_text_mvp_never_scores_pronunciation",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_answer_key_field_rejected.test_answer_key_field_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_bank_level_checks.test_bank_level_checks",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_baseline_fixtures_are_clean.test_baseline_fixtures_are_clean",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_duplicate_and_near_duplicate_detection.test_duplicate_and_near_duplicate_detection",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_incomplete_blueprint_rejected.test_incomplete_blueprint_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_level_inappropriate_criteria_and_demands_rejected.test_level_inappropriate_criteria_and_demands_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_missing_metadata_rejected.test_missing_metadata_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_out_of_range_word_count_and_time_rejected.test_out_of_range_word_count_and_time_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_pronunciation_score_in_text_mvp_rejected.test_pronunciation_score_in_text_mvp_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_sensitive_content_flagged.test_sensitive_content_flagged",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_unknown_taxonomy_values_rejected_by_generator_and_validator.test_unknown_taxonomy_values_rejected_by_generator_and_validator",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_productive.RejectionTests.test_wrong_level_label_rejected.test_wrong_level_label_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_attempt_records_complete_and_schema_valid.test_attempt_records_complete_and_schema_valid",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_diagnostic_traceability_to_source.test_diagnostic_traceability_to_source",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_profile_from_multiple_attempts_is_traceable.test_profile_from_multiple_attempts_is_traceable",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_profile_single_wrong_answer_is_not_a_weakness.test_profile_single_wrong_answer_is_not_a_weakness",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_wilson_interval_sane.test_wilson_interval_sane",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_blueprint_failure_is_structured_not_relaxed.test_blueprint_failure_is_structured_not_relaxed",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_blueprint_is_internally_consistent.test_blueprint_is_internally_consistent",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_constraints_hold_across_many_seeds.test_constraints_hold_across_many_seeds",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_determinism_same_seed.test_determinism_same_seed",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_distribution_summary_numbers_match_manifests.test_distribution_summary_numbers_match_manifests",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_forbidden_pair_is_never_selected_together.test_forbidden_pair_is_never_selected_together",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_insufficient_bank_coverage_raises_shortage.test_insufficient_bank_coverage_raises_shortage",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_key_remains_correct_after_option_shuffle.test_key_remains_correct_after_option_shuffle",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_validate_exam_detects_violations.test_validate_exam_detects_violations",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_answer_membership_and_exactly_one_correct.test_answer_membership_and_exactly_one_correct",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_asset_audit_reports_missing_audio.test_asset_audit_reports_missing_audio",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_bank_has_no_hard_integrity_failures.test_bank_has_no_hard_integrity_failures",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_detects_known_problems_in_invalid_fixtures.test_detects_known_problems_in_invalid_fixtures",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_duplicate_identifiers_would_be_reported.test_duplicate_identifiers_would_be_reported",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_evidence_is_in_source.test_evidence_is_in_source",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_levels_and_tags_match_config.test_levels_and_tags_match_config",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_question_and_part_ids_and_uuids_unique.test_question_and_part_ids_and_uuids_unique",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.MiniSchemaTests.test_basic_rules.test_basic_rules",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.RegressionTests.test_change_log_is_complete_and_traceable.test_change_log_is_complete_and_traceable",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.RegressionTests.test_unchanged_questions_identical_and_changed_only_in_distractors.test_unchanged_questions_identical_and_changed_only_in_distractors",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_all_v2_records_valid.test_all_v2_records_valid",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_cefr_recommendations_never_applied_to_bank.test_cefr_recommendations_never_applied_to_bank",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_invalid_v2_fixtures_rejected.test_invalid_v2_fixtures_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_migration_preserves_ids_uuids_and_counts.test_migration_preserves_ids_uuids_and_counts",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_no_learner_data_in_bank.test_no_learner_data_in_bank",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_taxonomy_values_valid.test_taxonomy_values_valid",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_v1_bank_still_valid_for_existing_validator.test_v1_bank_still_valid_for_existing_validator",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SemanticChecksTests.test_balanced_item_passes.test_balanced_item_passes",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SemanticChecksTests.test_length_cue_and_extreme_wording_are_flagged.test_length_cue_and_extreme_wording_are_flagged",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SemanticChecksTests.test_number_not_in_source_flagged.test_number_not_in_source_flagged",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SemanticChecksTests.test_number_parser.test_number_parser",
+      "outcome": "ok"
+    }
+  ],
+  "executed_commands": [
+    {
+      "command": "python -m productive.schemas_build",
+      "exit_status": 0,
+      "seconds": 0.1
+    },
+    {
+      "command": "python -m productive.build",
+      "exit_status": 0,
+      "seconds": 0.9
+    },
+    {
+      "command": "python -m productive.audit",
+      "exit_status": 0,
+      "seconds": 1.5
+    },
+    {
+      "command": "python -m productive.validate",
+      "exit_status": 0,
+      "seconds": 0.8
+    },
+    {
+      "command": "python scripts/validate_part.py --bank question_bank",
+      "exit_status": 0,
+      "seconds": 1.0
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "exit_status": 0,
+      "seconds": 27.4
+    }
+  ],
+  "not_run": [
+    "FastAPI app (server/app.py) is exercised outside this suite with a TestClient in a throw-away venv, because fastapi is not a project test dependency",
+    "Browser end-to-end checks were driven manually through the in-app browser; they are not part of the automated suite"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "part_id": "LI404",
+  "part_uuid": "7483f3a4-d1c3-47ed-849b-aeeaa1fb4f0d",
+  "audio_file": "li404_joining_a_gym.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "dfc67a226519a22e929ee69a3a17e39ea66c8ffccd052ef23da7f3a890d59834",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dan",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Ella",
+      "gender": "female",
+      "accent": "american",
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 5.4
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 5.85,
+      "end": 14.15
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 14.6,
+      "end": 31.6
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 32.05,
+      "end": 39.65
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 40.1,
+      "end": 48.36
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 48.81,
+      "end": 53.08
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 53.53,
+      "end": 59.94
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 60.39,
+      "end": 65.84
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 66.29,
+      "end": 77.06
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 77.51,
+      "end": 85.6
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 86.05,
+      "end": 94.84
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 95.29,
+      "end": 100.83
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 101.28,
+      "end": 119.76
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 120.21,
+      "end": 124.89
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 125.34,
+      "end": 140.17
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 140.62,
+      "end": 144.27
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 144.72,
+      "end": 155.14
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 155.59,
+      "end": 162.98
+    },
+    {
+      "index": 18,
+      "speaker": "S1",
+      "start": 163.43,
+      "end": 167.92
+    },
+    {
+      "index": 19,
+      "speaker": "S2",
+      "start": 168.37,
+      "end": 173.77
+    },
+    {
+      "index": 20,
+      "speaker": "S1",
+      "start": 174.22,
+      "end": 178.13
+    }
+  ],
+  "duration_seconds": 178.13,
+  "size_bytes": 1425644,
+  "audio_sha256": "60092fe4a605592f9939b31e5dcae7d4aa08f0feb2f5d839b4dd58a37a5488ee",
+  "generated_at": "2026-10-30T20:54:15+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

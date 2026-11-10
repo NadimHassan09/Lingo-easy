@@ -1,0 +1,1044 @@
+{
+  "schema_version": "1.0",
+  "_note": "Controlled vocabularies and level parameters for the Writing and Speaking generators. Shared vocabularies (topics, grammar_rules) are read from config/taxonomy.json at run time and are NOT copied here; only productive-skill specific values live in this file.",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "grammar_level": {
+    "_note": "CEFR level at which the structure is expected to be PRODUCED with reasonable control. Author's convention, not corpus-derived. Keys marked extension are not in config/taxonomy.json yet (see SCHEMA_DOCUMENTATION).",
+    "present_simple": "A1",
+    "modals_ability_permission": "A1",
+    "articles_determiners": "A1",
+    "prepositions": "A1",
+    "question_forms": "A1",
+    "word_order": "A1",
+    "present_continuous": "A1",
+    "past_simple": "A2",
+    "future_forms": "A2",
+    "modals_obligation_advice": "A2",
+    "comparatives_superlatives": "A2",
+    "quantifiers": "A2",
+    "linking_words": "A2",
+    "past_continuous": "B1",
+    "present_perfect": "B1",
+    "conditionals_real": "B1",
+    "passive_voice": "B1",
+    "relative_clauses": "B1",
+    "gerund_vs_infinitive": "B1",
+    "cause_and_effect": "B1",
+    "phrasal_verbs": "B1",
+    "past_perfect": "B2",
+    "modals_deduction": "B2",
+    "conditionals_unreal": "B2",
+    "reported_speech": "B2",
+    "contrast_and_concession": "B2",
+    "cohesive_devices_range": "B2",
+    "inversion_emphasis": "C1",
+    "nominalisation": "C1",
+    "hedging_and_tentative_language": "C1",
+    "participle_clauses": "C1",
+    "mixed_conditionals": "C1",
+    "cleft_sentences": "C1",
+    "subjunctive_formal": "C1",
+    "register_shifting": "C2",
+    "precise_collocation_idiom": "C2",
+    "complex_embedding": "C2",
+    "concession_understatement": "C2",
+    "stylistic_variation": "C2"
+  },
+  "grammar_extensions": [
+    "cohesive_devices_range",
+    "mixed_conditionals",
+    "cleft_sentences",
+    "subjunctive_formal",
+    "register_shifting",
+    "precise_collocation_idiom",
+    "complex_embedding",
+    "concession_understatement",
+    "stylistic_variation"
+  ],
+  "cognitive_processes": {
+    "recall_personal_information": {
+      "level": "A1",
+      "label": "Retrieve and state personal facts"
+    },
+    "describe": {
+      "level": "A1",
+      "label": "Describe people, places, objects, routines"
+    },
+    "narrate_sequence": {
+      "level": "A2",
+      "label": "Narrate events in sequence"
+    },
+    "explain_reason": {
+      "level": "A2",
+      "label": "Give a simple reason or purpose"
+    },
+    "make_request_or_offer": {
+      "level": "A2",
+      "label": "Request, offer, invite, apologise"
+    },
+    "compare_contrast": {
+      "level": "B1",
+      "label": "Compare and contrast two options"
+    },
+    "express_opinion": {
+      "level": "B1",
+      "label": "State and support a personal opinion"
+    },
+    "plan_and_suggest": {
+      "level": "B1",
+      "label": "Plan, advise, suggest"
+    },
+    "evaluate_options": {
+      "level": "B2",
+      "label": "Weigh advantages and disadvantages"
+    },
+    "analyse_cause_effect": {
+      "level": "B2",
+      "label": "Analyse causes, effects and solutions"
+    },
+    "hypothesise_speculate": {
+      "level": "B2",
+      "label": "Speculate about hypothetical or future situations"
+    },
+    "persuade": {
+      "level": "B2",
+      "label": "Persuade a defined audience"
+    },
+    "synthesise_viewpoints": {
+      "level": "C1",
+      "label": "Integrate several viewpoints or sources"
+    },
+    "adapt_register": {
+      "level": "C1",
+      "label": "Adapt style and register to audience and purpose"
+    },
+    "critical_evaluation": {
+      "level": "C1",
+      "label": "Critically evaluate claims and evidence"
+    },
+    "nuanced_stance": {
+      "level": "C2",
+      "label": "Hold and defend a qualified, nuanced position"
+    }
+  },
+  "writing": {
+    "categories": {
+      "sentence_set": {
+        "label": "Set of simple sentences",
+        "weights": {
+          "W_TA": 0.35,
+          "W_GRA": 0.3,
+          "W_LR": 0.25,
+          "W_CC": 0.1
+        }
+      },
+      "personal_message": {
+        "label": "Short personal message or note",
+        "weights": {
+          "W_TA": 0.3,
+          "W_GRA": 0.25,
+          "W_LR": 0.2,
+          "W_CC": 0.1,
+          "W_REG": 0.15
+        }
+      },
+      "email_informal": {
+        "label": "Informal email or letter",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.15,
+          "W_LR": 0.2,
+          "W_GRA": 0.25,
+          "W_REG": 0.15
+        }
+      },
+      "email_formal": {
+        "label": "Formal or semi-formal email or letter",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.15,
+          "W_LR": 0.15,
+          "W_GRA": 0.2,
+          "W_REG": 0.25
+        }
+      },
+      "descriptive_paragraph": {
+        "label": "Descriptive paragraph",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.2,
+          "W_LR": 0.3,
+          "W_GRA": 0.25
+        }
+      },
+      "narrative_recount": {
+        "label": "Narrative or recount",
+        "weights": {
+          "W_TA": 0.2,
+          "W_CC": 0.2,
+          "W_LR": 0.25,
+          "W_GRA": 0.35
+        }
+      },
+      "opinion_paragraph": {
+        "label": "Opinion paragraph or short essay",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.2,
+          "W_LR": 0.2,
+          "W_GRA": 0.2,
+          "W_ORG": 0.15
+        }
+      },
+      "advantages_disadvantages": {
+        "label": "Advantages and disadvantages essay",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.2,
+          "W_LR": 0.2,
+          "W_GRA": 0.15,
+          "W_ORG": 0.2
+        }
+      },
+      "problem_solution": {
+        "label": "Problem and solution essay",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.15,
+          "W_LR": 0.15,
+          "W_GRA": 0.15,
+          "W_ORG": 0.3
+        }
+      },
+      "discussion_two_views": {
+        "label": "Discuss two views and give an opinion",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.2,
+          "W_LR": 0.15,
+          "W_GRA": 0.15,
+          "W_ORG": 0.25
+        }
+      },
+      "argumentative_essay": {
+        "label": "Argumentative essay",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.15,
+          "W_LR": 0.2,
+          "W_GRA": 0.15,
+          "W_ORG": 0.25
+        }
+      },
+      "report": {
+        "label": "Report from information",
+        "weights": {
+          "W_TA": 0.3,
+          "W_CC": 0.15,
+          "W_LR": 0.15,
+          "W_GRA": 0.15,
+          "W_ORG": 0.1,
+          "W_REG": 0.15
+        }
+      },
+      "proposal": {
+        "label": "Proposal or recommendation",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.15,
+          "W_LR": 0.15,
+          "W_GRA": 0.15,
+          "W_ORG": 0.15,
+          "W_REG": 0.15
+        }
+      },
+      "review": {
+        "label": "Review or recommendation",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.2,
+          "W_LR": 0.25,
+          "W_GRA": 0.2,
+          "W_REG": 0.1
+        }
+      },
+      "synthesis_response": {
+        "label": "Synthesis of provided sources",
+        "weights": {
+          "W_TA": 0.3,
+          "W_CC": 0.15,
+          "W_LR": 0.15,
+          "W_GRA": 0.1,
+          "W_ORG": 0.2,
+          "W_REG": 0.1
+        }
+      },
+      "register_transformation": {
+        "label": "Rewrite for a different audience or register",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.1,
+          "W_LR": 0.2,
+          "W_GRA": 0.15,
+          "W_REG": 0.3
+        }
+      },
+      "address_speech": {
+        "label": "Written address or speech for a listening audience",
+        "weights": {
+          "W_TA": 0.25,
+          "W_CC": 0.15,
+          "W_LR": 0.2,
+          "W_GRA": 0.15,
+          "W_ORG": 0.1,
+          "W_REG": 0.15
+        }
+      }
+    },
+    "subskills": {
+      "sentence_construction": "Form accurate simple sentences",
+      "personal_expression": "Express personal information and preferences",
+      "descriptive_writing": "Describe people, places, objects",
+      "narrative_writing": "Recount events and experiences",
+      "message_writing": "Write purposeful messages and letters",
+      "opinion_writing": "State and support an opinion",
+      "argument_development": "Develop and support an argument",
+      "comparison_evaluation": "Compare and evaluate options",
+      "formal_correspondence": "Write formal or semi-formal correspondence",
+      "report_writing": "Report information objectively",
+      "synthesis_summary": "Summarise and integrate sources",
+      "register_adaptation": "Control style and register",
+      "discourse_organisation": "Organise text coherently"
+    },
+    "levels": {
+      "A1": {
+        "words": {
+          "min": [
+            20,
+            35
+          ],
+          "suggested_min": [
+            30,
+            50
+          ],
+          "suggested_max": [
+            40,
+            70
+          ],
+          "max": [
+            60,
+            110
+          ]
+        },
+        "minutes": [
+          6,
+          15
+        ],
+        "prompt_max_avg_sentence": 9,
+        "prompt_max_long_word_ratio": 0.12,
+        "points": [
+          3,
+          6
+        ],
+        "abstractness": [
+          0,
+          0
+        ]
+      },
+      "A2": {
+        "words": {
+          "min": [
+            40,
+            60
+          ],
+          "suggested_min": [
+            60,
+            80
+          ],
+          "suggested_max": [
+            90,
+            120
+          ],
+          "max": [
+            120,
+            180
+          ]
+        },
+        "minutes": [
+          10,
+          20
+        ],
+        "prompt_max_avg_sentence": 12,
+        "prompt_max_long_word_ratio": 0.16,
+        "points": [
+          3,
+          5
+        ],
+        "abstractness": [
+          0,
+          1
+        ]
+      },
+      "B1": {
+        "words": {
+          "min": [
+            80,
+            130
+          ],
+          "suggested_min": [
+            110,
+            160
+          ],
+          "suggested_max": [
+            140,
+            200
+          ],
+          "max": [
+            180,
+            260
+          ]
+        },
+        "minutes": [
+          15,
+          30
+        ],
+        "prompt_max_avg_sentence": 16,
+        "prompt_max_long_word_ratio": 0.22,
+        "points": [
+          2,
+          5
+        ],
+        "abstractness": [
+          0,
+          2
+        ]
+      },
+      "B2": {
+        "words": {
+          "min": [
+            150,
+            200
+          ],
+          "suggested_min": [
+            180,
+            250
+          ],
+          "suggested_max": [
+            220,
+            300
+          ],
+          "max": [
+            260,
+            360
+          ]
+        },
+        "minutes": [
+          20,
+          40
+        ],
+        "prompt_max_avg_sentence": 24,
+        "prompt_max_long_word_ratio": 0.28,
+        "points": [
+          2,
+          5
+        ],
+        "abstractness": [
+          1,
+          3
+        ]
+      },
+      "C1": {
+        "words": {
+          "min": [
+            200,
+            260
+          ],
+          "suggested_min": [
+            250,
+            300
+          ],
+          "suggested_max": [
+            280,
+            350
+          ],
+          "max": [
+            320,
+            420
+          ]
+        },
+        "minutes": [
+          25,
+          45
+        ],
+        "prompt_max_avg_sentence": 30,
+        "prompt_max_long_word_ratio": 0.36,
+        "points": [
+          2,
+          5
+        ],
+        "abstractness": [
+          2,
+          3
+        ]
+      },
+      "C2": {
+        "words": {
+          "min": [
+            230,
+            300
+          ],
+          "suggested_min": [
+            280,
+            350
+          ],
+          "suggested_max": [
+            320,
+            400
+          ],
+          "max": [
+            360,
+            480
+          ]
+        },
+        "minutes": [
+          30,
+          50
+        ],
+        "prompt_max_avg_sentence": 40,
+        "prompt_max_long_word_ratio": 0.45,
+        "points": [
+          1,
+          5
+        ],
+        "abstractness": [
+          2,
+          3
+        ]
+      }
+    }
+  },
+  "speaking": {
+    "formats": {
+      "familiar_topics": {
+        "label": "Short answers on familiar topics (IELTS Part 1-inspired)",
+        "weights": {
+          "S_REL": 0.3,
+          "S_LR": 0.25,
+          "S_GRA": 0.25,
+          "S_DEV": 0.1,
+          "S_FC": 0.1,
+          "S_PRON": 0.0
+        }
+      },
+      "situational_response": {
+        "label": "Situational role-play response",
+        "weights": {
+          "S_REL": 0.3,
+          "S_LR": 0.2,
+          "S_GRA": 0.2,
+          "S_DEV": 0.15,
+          "S_FC": 0.15,
+          "S_PRON": 0.0
+        }
+      },
+      "long_turn": {
+        "label": "Individual long turn with cue card (IELTS Part 2-inspired)",
+        "weights": {
+          "S_REL": 0.2,
+          "S_LR": 0.2,
+          "S_GRA": 0.2,
+          "S_DEV": 0.2,
+          "S_FC": 0.2,
+          "S_PRON": 0.0
+        }
+      },
+      "long_turn_discussion": {
+        "label": "Long turn plus linked discussion questions",
+        "weights": {
+          "S_REL": 0.2,
+          "S_LR": 0.15,
+          "S_GRA": 0.15,
+          "S_DEV": 0.25,
+          "S_FC": 0.25,
+          "S_PRON": 0.0
+        }
+      },
+      "discussion": {
+        "label": "Abstract discussion (IELTS Part 3-inspired)",
+        "weights": {
+          "S_REL": 0.2,
+          "S_LR": 0.2,
+          "S_GRA": 0.15,
+          "S_DEV": 0.3,
+          "S_FC": 0.15,
+          "S_PRON": 0.0
+        }
+      }
+    },
+    "subskills": {
+      "personal_information_talk": "Give personal information",
+      "routine_description": "Describe routines and habits",
+      "descriptive_speaking": "Describe people, places, objects, events",
+      "narrative_speaking": "Narrate past experiences",
+      "extended_turn": "Sustain a long turn",
+      "opinion_justification": "Give and justify opinions",
+      "comparison_evaluation": "Compare and evaluate options",
+      "speculation_hypothesis": "Speculate and discuss hypotheticals",
+      "abstract_discussion": "Discuss abstract issues",
+      "interactional_response": "Respond appropriately in a situation",
+      "explanation_clarification": "Explain and clarify ideas",
+      "nuance_hedging": "Express nuance, certainty and hedging"
+    },
+    "pace_wpm_spoken": {
+      "A1": 70,
+      "A2": 85,
+      "B1": 100,
+      "B2": 120,
+      "C1": 135,
+      "C2": 150
+    },
+    "levels": {
+      "A1": {
+        "seconds": [
+          30,
+          120
+        ],
+        "prep": [
+          0,
+          0
+        ],
+        "typed_words": {
+          "min": [
+            10,
+            20
+          ],
+          "suggested_max": [
+            25,
+            90
+          ]
+        },
+        "prompt_max_avg_sentence": 9,
+        "prompt_max_long_word_ratio": 0.12,
+        "abstractness": [
+          0,
+          0
+        ]
+      },
+      "A2": {
+        "seconds": [
+          45,
+          150
+        ],
+        "prep": [
+          0,
+          30
+        ],
+        "typed_words": {
+          "min": [
+            20,
+            40
+          ],
+          "suggested_max": [
+            50,
+            130
+          ]
+        },
+        "prompt_max_avg_sentence": 12,
+        "prompt_max_long_word_ratio": 0.16,
+        "abstractness": [
+          0,
+          1
+        ]
+      },
+      "B1": {
+        "seconds": [
+          60,
+          210
+        ],
+        "prep": [
+          0,
+          60
+        ],
+        "typed_words": {
+          "min": [
+            40,
+            80
+          ],
+          "suggested_max": [
+            80,
+            200
+          ]
+        },
+        "prompt_max_avg_sentence": 16,
+        "prompt_max_long_word_ratio": 0.22,
+        "abstractness": [
+          0,
+          2
+        ]
+      },
+      "B2": {
+        "seconds": [
+          90,
+          300
+        ],
+        "prep": [
+          0,
+          60
+        ],
+        "typed_words": {
+          "min": [
+            70,
+            120
+          ],
+          "suggested_max": [
+            130,
+            280
+          ]
+        },
+        "prompt_max_avg_sentence": 24,
+        "prompt_max_long_word_ratio": 0.28,
+        "abstractness": [
+          1,
+          3
+        ]
+      },
+      "C1": {
+        "seconds": [
+          120,
+          360
+        ],
+        "prep": [
+          0,
+          90
+        ],
+        "typed_words": {
+          "min": [
+            100,
+            160
+          ],
+          "suggested_max": [
+            170,
+            340
+          ]
+        },
+        "prompt_max_avg_sentence": 30,
+        "prompt_max_long_word_ratio": 0.36,
+        "abstractness": [
+          2,
+          3
+        ]
+      },
+      "C2": {
+        "seconds": [
+          120,
+          420
+        ],
+        "prep": [
+          0,
+          90
+        ],
+        "typed_words": {
+          "min": [
+            110,
+            180
+          ],
+          "suggested_max": [
+            190,
+            380
+          ]
+        },
+        "prompt_max_avg_sentence": 40,
+        "prompt_max_long_word_ratio": 0.45,
+        "abstractness": [
+          2,
+          3
+        ]
+      }
+    }
+  },
+  "placement_design": {
+    "tasks_per_skill": 10,
+    "level_counts": {
+      "A1": 1,
+      "A2": 2,
+      "B1": 2,
+      "B2": 2,
+      "C1": 2,
+      "C2": 1
+    },
+    "note": "One task at A1 and one at C2 per skill is presence-of-evidence only; it cannot support a reliable estimate at those two extremes."
+  },
+  "diagnostics": {
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "categories": {
+      "D_VOCAB_RANGE": {
+        "label": "Limited vocabulary range",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Same few words reused where varied or more specific words were available",
+        "criteria": [
+          "W_LR",
+          "S_LR"
+        ]
+      },
+      "D_VOCAB_REPEAT": {
+        "label": "Repetitive expressions",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Same word or phrase repeated three or more times in a short response",
+        "criteria": [
+          "W_LR",
+          "S_LR",
+          "S_FC"
+        ]
+      },
+      "D_WORD_CHOICE": {
+        "label": "Inaccurate word choice or collocation",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Word exists but does not fit meaning or collocation",
+        "criteria": [
+          "W_LR",
+          "S_LR"
+        ]
+      },
+      "D_SPELLING": {
+        "label": "Spelling and mechanics",
+        "skills": [
+          "writing"
+        ],
+        "indicator": "Misspelt common words, capitalisation or punctuation errors that affect clarity",
+        "criteria": [
+          "W_LR",
+          "W_GRA"
+        ]
+      },
+      "D_TENSE": {
+        "label": "Incorrect tense or aspect",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Verb form does not match time reference",
+        "criteria": [
+          "W_GRA",
+          "S_GRA"
+        ]
+      },
+      "D_SVA": {
+        "label": "Subject-verb agreement",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Verb does not agree with subject in number or person",
+        "criteria": [
+          "W_GRA",
+          "S_GRA"
+        ]
+      },
+      "D_ARTICLE": {
+        "label": "Article and determiner errors",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Missing, extra or wrong a/an/the or determiner",
+        "criteria": [
+          "W_GRA",
+          "S_GRA"
+        ]
+      },
+      "D_PREPOSITION": {
+        "label": "Preposition errors",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Wrong or missing preposition",
+        "criteria": [
+          "W_GRA",
+          "S_GRA"
+        ]
+      },
+      "D_SENTENCE_CONSTRUCTION": {
+        "label": "Weak sentence construction",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Fragments, run-ons, word-order errors, missing verb or subject",
+        "criteria": [
+          "W_GRA",
+          "S_GRA"
+        ]
+      },
+      "D_GRAMMAR_RANGE": {
+        "label": "Limited grammatical range",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Only simple structures where the task invited complex ones",
+        "criteria": [
+          "W_GRA",
+          "S_GRA"
+        ]
+      },
+      "D_COHESION": {
+        "label": "Limited or inaccurate cohesive devices",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Few or mechanical linkers; unclear reference",
+        "criteria": [
+          "W_CC",
+          "S_FC"
+        ]
+      },
+      "D_ORGANISATION": {
+        "label": "Weak organisation or paragraphing",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "No clear opening, development, closing; ideas in random order",
+        "criteria": [
+          "W_ORG",
+          "W_CC",
+          "S_FC"
+        ]
+      },
+      "D_ARGUMENT": {
+        "label": "Inadequate argument development",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Claims without reasons, or reasons without explanation",
+        "criteria": [
+          "W_ORG",
+          "W_TA",
+          "S_DEV"
+        ]
+      },
+      "D_SUPPORT": {
+        "label": "Weak supporting examples or details",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "No concrete example or detail after a general statement",
+        "criteria": [
+          "W_ORG",
+          "W_TA",
+          "S_DEV"
+        ]
+      },
+      "D_UNDERDEVELOPED": {
+        "label": "Short or underdeveloped response",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Well below the suggested length, or answers only the first point",
+        "criteria": [
+          "W_TA",
+          "S_DEV",
+          "S_REL"
+        ]
+      },
+      "D_OFF_TASK": {
+        "label": "Off-task or partly irrelevant content",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Required points missing, or memorised/unrelated content",
+        "criteria": [
+          "W_TA",
+          "S_REL"
+        ]
+      },
+      "D_REGISTER": {
+        "label": "Inappropriate register",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Informal expressions in formal text, or stilted formality in friendly text",
+        "criteria": [
+          "W_REG"
+        ]
+      },
+      "D_COMPARISON": {
+        "label": "Inability to compare or weigh viewpoints",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Lists views without contrasting or evaluating them",
+        "criteria": [
+          "W_TA",
+          "W_ORG",
+          "S_DEV"
+        ]
+      },
+      "D_HEDGING": {
+        "label": "Limited hedging and nuance",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Absolute claims where qualification was needed",
+        "criteria": [
+          "W_LR",
+          "W_GRA",
+          "S_LR"
+        ]
+      },
+      "D_L1_TRANSFER": {
+        "label": "Probable first-language transfer pattern",
+        "skills": [
+          "writing",
+          "speaking"
+        ],
+        "indicator": "Recurring pattern typical of Arabic-speaking learners (for example missing copula, article omission or addition, preposition calques); a hypothesis only",
+        "criteria": [
+          "W_GRA",
+          "S_GRA"
+        ]
+      },
+      "D_TEXT_ONLY_LIMIT": {
+        "label": "Not assessable from typed text",
+        "skills": [
+          "speaking"
+        ],
+        "indicator": "Pronunciation, intonation, rhythm and hesitation cannot be judged from typed text",
+        "criteria": [
+          "S_PRON",
+          "S_FC"
+        ]
+      }
+    }
+  },
+  "bank_target_parts": 10
+}

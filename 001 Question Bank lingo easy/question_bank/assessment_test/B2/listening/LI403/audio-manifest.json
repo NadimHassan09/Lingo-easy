@@ -1,0 +1,70 @@
+{
+  "part_id": "LI403",
+  "part_uuid": "9ab21ab4-c021-494b-aedc-c077fc7135a0",
+  "audio_file": "li403_urban_gardening.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "4fa290b40c3c8548c67130dc30f1001c2e68d14c8680c798f386333c723f9c7d",
+  "voices": {
+    "S1": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Professor Hayes",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 15.98
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 16.43,
+      "end": 43.07
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 43.52,
+      "end": 72.54
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 72.99,
+      "end": 96.25
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 96.7,
+      "end": 136.56
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 137.01,
+      "end": 171.31
+    }
+  ],
+  "duration_seconds": 171.31,
+  "size_bytes": 1371116,
+  "audio_sha256": "047b5bb01d16b8f9045bcc9f4e87bbd32893ea1afed528af85a228114de2af1c",
+  "generated_at": "2026-10-30T20:54:05+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

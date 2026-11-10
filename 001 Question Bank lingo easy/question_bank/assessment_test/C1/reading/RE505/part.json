@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE505",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Should Museums Return Cultural Objects?",
+  "topic": "arts_and_culture",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "Should Museums Return Cultural Objects?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Many of the world's great museums hold objects acquired during colonial rule, from Benin bronzes to Egyptian mummies. In recent years, source countries and communities have demanded their return, and some institutions have complied. The debate is often presented as a conflict between justice and the preservation of cultural treasures. I want to argue that this framing is too crude, and that the strongest case for return is also the one most often overlooked."
+      },
+      {
+        "label": "B",
+        "text": "The traditional argument against return is that museums, with climate control, expert conservators and large international audiences, offer the best protection and access. There is something in this. Some objects have been damaged in conflicts, and no museum should be forced to send fragile works to places where they would be endangered. But the argument increasingly sounds like a justification of the status quo. Many countries now have well-resourced museums, and technologies such as digital scanning mean that objects can be shared widely without moving."
+      },
+      {
+        "label": "C",
+        "text": "A second argument holds that returning one object sets a precedent that would empty museums. This fear is exaggerated. Most requests concern a small number of objects acquired by clearly illegitimate means, such as looting during military expeditions. Where objects were bought or exchanged fairly, the case for return is much weaker, and few claimants contest that. Distinguishing between cases is difficult, but difficulty is not a reason to refuse every claim."
+      },
+      {
+        "label": "D",
+        "text": "The case for return, as I see it, rests less on law than on meaning. For the communities concerned, some objects are not merely art but part of living religious and social traditions, or records of their history. An object separated from its context becomes, in a distant gallery, a symbol of someone else's story. Return can restore a connection that was broken, and it can change the relationship between museums and their source communities from one of ownership to partnership."
+      },
+      {
+        "label": "E",
+        "text": "That partnership is already visible in loans and joint exhibitions. A museum can return an object and still collaborate on research, display or training. Perhaps the most hopeful sign is that many curators, once defenders of the status quo, now speak of stewardship rather than ownership. If museums are to remain relevant to a world that has grown suspicious of their origins, they will need to show that they can listen."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE505-Q01",
+          "number": 1,
+          "prompt": "How does the writer describe the usual framing of the debate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As justice versus preservation, which is too crude"
+            },
+            {
+              "id": "B",
+              "text": "As a fair and accurate description of the issue"
+            },
+            {
+              "id": "C",
+              "text": "As a purely legal conflict between countries"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "this framing is too crude"
+          },
+          "explanation": "The text says: \"this framing is too crude\".",
+          "uuid": "2a57485b-1529-51f6-afb6-3543ff671574"
+        },
+        {
+          "id": "RE505-Q02",
+          "number": 2,
+          "prompt": "What is the traditional argument against return?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Objects belong to the museum by law"
+            },
+            {
+              "id": "B",
+              "text": "Museums can protect and display objects best"
+            },
+            {
+              "id": "C",
+              "text": "Source countries do not want them"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "offer the best protection and access"
+          },
+          "explanation": "The text says: \"offer the best protection and access\".",
+          "uuid": "4a4ca940-b524-5c76-a74b-e669af3f82f8"
+        },
+        {
+          "id": "RE505-Q03",
+          "number": 3,
+          "prompt": "What does the writer concede about this argument?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Museums rarely damage the objects they hold"
+            },
+            {
+              "id": "B",
+              "text": "Some objects have been damaged in conflicts"
+            },
+            {
+              "id": "C",
+              "text": "Some countries still lack museums with enough space"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "some objects have been damaged in conflicts"
+          },
+          "explanation": "The text says: \"some objects have been damaged in conflicts\".",
+          "uuid": "f93cf692-1269-5af7-8d9d-d8a46ae140b2"
+        },
+        {
+          "id": "RE505-Q04",
+          "number": 4,
+          "prompt": "Why does the writer think the precedent fear is exaggerated?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Museums would simply refuse to consider requests"
+            },
+            {
+              "id": "B",
+              "text": "Governments have already banned most returns"
+            },
+            {
+              "id": "C",
+              "text": "Most requests concern few objects obtained illegitimately"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "a small number of objects acquired by clearly illegitimate means"
+          },
+          "explanation": "The text says: \"a small number of objects acquired by clearly illegitimate means\".",
+          "uuid": "825b5cf7-d4fc-5614-97b1-39b13113d640"
+        },
+        {
+          "id": "RE505-Q05",
+          "number": 5,
+          "prompt": "What does the writer say about the case for return where objects were fairly bought?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is stronger"
+            },
+            {
+              "id": "B",
+              "text": "It is irrelevant"
+            },
+            {
+              "id": "C",
+              "text": "It is much weaker"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "the case for return is much weaker"
+          },
+          "explanation": "The text says: \"the case for return is much weaker\".",
+          "uuid": "f828a684-e73c-5629-a480-fa54246e80fa"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE505-Q06",
+          "number": 6,
+          "prompt": "The writer believes museums should return every object acquired during colonial rule.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Where objects were bought or exchanged fairly, the case for return is much weaker"
+          },
+          "explanation": "The text says: \"Where objects were bought or exchanged fairly, the case for return is much weaker\".",
+          "uuid": "88059385-a5e5-5ec1-afe7-c592f3cd44a6"
+        },
+        {
+          "id": "RE505-Q07",
+          "number": 7,
+          "prompt": "The writer thinks the strongest argument for return concerns meaning rather than law.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "rests less on law than on meaning"
+          },
+          "explanation": "The text says: \"rests less on law than on meaning\".",
+          "uuid": "e250ff70-cb57-5064-bb66-07f1929be8b8"
+        },
+        {
+          "id": "RE505-Q08",
+          "number": 8,
+          "prompt": "The writer thinks digital technology makes some arguments for keeping objects less convincing.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "objects can be shared widely without moving"
+          },
+          "explanation": "The text says: \"objects can be shared widely without moving\".",
+          "uuid": "55aaf658-515d-5233-b2ca-3ec973002cfd"
+        },
+        {
+          "id": "RE505-Q09",
+          "number": 9,
+          "prompt": "The writer has worked as a curator.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "51e36cfa-1248-568f-adc7-b515b813f8da"
+        },
+        {
+          "id": "RE505-Q10",
+          "number": 10,
+          "prompt": "The writer thinks museums should stop working with source communities after returning an object.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "return an object and still collaborate"
+          },
+          "explanation": "The text says: \"return an object and still collaborate\".",
+          "uuid": "ab88e016-ff78-5f8a-83a1-343fb4265896"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE505-Q11",
+          "number": 11,
+          "prompt": "An acknowledgement that some places may be unsafe for fragile works",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "send fragile works to places where they would be endangered"
+          },
+          "explanation": "The text says: \"send fragile works to places where they would be endangered\".",
+          "uuid": "26fee7c9-c0ce-56c4-95a1-c267cbaf862e"
+        },
+        {
+          "id": "RE505-Q12",
+          "number": 12,
+          "prompt": "A description of an object's changed significance in a gallery far from home",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "a symbol of someone else's story"
+          },
+          "explanation": "The text says: \"a symbol of someone else's story\".",
+          "uuid": "acbcaf2c-2a16-559e-8f05-0db4829a3c45"
+        },
+        {
+          "id": "RE505-Q13",
+          "number": 13,
+          "prompt": "An example of how museums and communities can work together after a return",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "loans and joint exhibitions"
+          },
+          "explanation": "The text says: \"loans and joint exhibitions\".",
+          "uuid": "f0033529-c93a-5656-a564-1052a530eb76"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "b8f26661-d2a7-4b68-864e-5236ecb2494e",
+  "derived": {
+    "word_count": 384,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "1c26114f5d35f788"
+  }
+}

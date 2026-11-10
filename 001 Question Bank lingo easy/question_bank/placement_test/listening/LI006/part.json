@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0",
+  "id": "LI006",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Planning a Weekend Trip",
+  "topic": "travel",
+  "profile": "foundation",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li006_planning_a_weekend_trip.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Leah",
+        "gender": "female",
+        "accent": "british",
+        "role": "friend"
+      },
+      {
+        "id": "S2",
+        "name": "Sam",
+        "gender": "male",
+        "accent": "american",
+        "role": "friend"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Sam, have you decided where to go for the weekend?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I'm thinking about Brighton. It's near London, and the beach is nice. What do you think?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Good idea, but it might be crowded. It's a holiday weekend."
+      },
+      {
+        "speaker": "S2",
+        "text": "True. We could go on Friday evening instead of Saturday morning, to avoid the traffic."
+      },
+      {
+        "speaker": "S1",
+        "text": "That sounds better. How should we travel? By car or by train?"
+      },
+      {
+        "speaker": "S2",
+        "text": "The train is faster, about an hour, and there's no parking problem. A return ticket is twenty-two pounds if we travel after nine thirty."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay, the train then. What about the hotel?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I found a small hotel near the beach, forty-five pounds each per night, with breakfast. But it's only free on Friday and Saturday."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's fine. We'll come back on Sunday morning. What shall we do there?"
+      },
+      {
+        "speaker": "S2",
+        "text": "We can walk along the pier, and there's a famous aquarium. Also, a friend told me about a good fish restaurant."
+      },
+      {
+        "speaker": "S1",
+        "text": "I don't eat fish, but I'm happy to go if they have other dishes."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'll check the menu online. And if it rains, we can visit the museum."
+      },
+      {
+        "speaker": "S1",
+        "text": "What's the weather going to be like?"
+      },
+      {
+        "speaker": "S2",
+        "text": "The forecast says sunny on Saturday but cloudy on Sunday, so we should do the beach on Saturday."
+      },
+      {
+        "speaker": "S1",
+        "text": "Should we bring swimming costumes? The sea will be cold."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'll bring mine just in case, but I'm not sure I'll swim. At least we can sit on the sand and read."
+      },
+      {
+        "speaker": "S1",
+        "text": "Right. I'll bring a good book and some sun cream. Shall I book the train tickets?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, please. I'll do the hotel. Let's meet at the station at six on Friday."
+      },
+      {
+        "speaker": "S1",
+        "text": "Six is too early, because I finish work at five thirty. Is half past six okay?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, that's fine. The train leaves at seven ten, so we have time to buy a sandwich."
+      },
+      {
+        "speaker": "S1",
+        "text": "Perfect. I'll send you the booking confirmation tonight."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI006-Q01",
+          "number": 1,
+          "prompt": "Where does Sam want to go?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bristol"
+            },
+            {
+              "id": "B",
+              "text": "Brighton"
+            },
+            {
+              "id": "C",
+              "text": "Birmingham"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "thinking about Brighton"
+          },
+          "explanation": "The audio says: \"thinking about Brighton\".",
+          "uuid": "055a846e-5dae-5bb3-9215-6511d877937b"
+        },
+        {
+          "id": "LI006-Q02",
+          "number": 2,
+          "prompt": "Why does Sam suggest going on Friday evening?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To save money on the hotel"
+            },
+            {
+              "id": "B",
+              "text": "To see a show in town"
+            },
+            {
+              "id": "C",
+              "text": "To avoid the traffic"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "to avoid the traffic"
+          },
+          "explanation": "The audio says: \"to avoid the traffic\".",
+          "uuid": "2cfb818b-f11a-5087-a2e2-b7db1eed4c7e"
+        },
+        {
+          "id": "LI006-Q03",
+          "number": 3,
+          "prompt": "How long is the train journey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About two hours"
+            },
+            {
+              "id": "B",
+              "text": "About an hour"
+            },
+            {
+              "id": "C",
+              "text": "About thirty minutes"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about an hour"
+          },
+          "explanation": "The audio says: \"about an hour\".",
+          "uuid": "a03ac3c1-e7e3-5124-8009-72f2a7735a9c"
+        },
+        {
+          "id": "LI006-Q04",
+          "number": 4,
+          "prompt": "How much is a return ticket after 9.30?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12 pounds"
+            },
+            {
+              "id": "B",
+              "text": "45 pounds"
+            },
+            {
+              "id": "C",
+              "text": "22 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "twenty-two pounds if we travel after nine thirty"
+          },
+          "explanation": "The audio says: \"twenty-two pounds if we travel after nine thirty\".",
+          "uuid": "bb221094-73ab-5e4a-b088-c28b115b23fe"
+        },
+        {
+          "id": "LI006-Q05",
+          "number": 5,
+          "prompt": "What is the problem with the hotel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is a long way from the beach"
+            },
+            {
+              "id": "B",
+              "text": "It does not serve breakfast"
+            },
+            {
+              "id": "C",
+              "text": "It is only free for two nights"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "only free on Friday and Saturday"
+          },
+          "explanation": "The audio says: \"only free on Friday and Saturday\".",
+          "uuid": "3858ca24-64ac-5468-ac75-0e8d66ff18f2"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI006-Q06",
+          "number": 6,
+          "prompt": "When will they come back?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On Saturday night"
+            },
+            {
+              "id": "B",
+              "text": "On Sunday morning"
+            },
+            {
+              "id": "C",
+              "text": "On Monday"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "come back on Sunday morning"
+          },
+          "explanation": "The audio says: \"come back on Sunday morning\".",
+          "uuid": "9f2b3c3b-9740-5498-a578-40735e7e40d6"
+        },
+        {
+          "id": "LI006-Q07",
+          "number": 7,
+          "prompt": "Why does Leah hesitate about the fish restaurant?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She does not eat fish"
+            },
+            {
+              "id": "B",
+              "text": "It is too expensive"
+            },
+            {
+              "id": "C",
+              "text": "It is too far"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I don't eat fish"
+          },
+          "explanation": "The audio says: \"I don't eat fish\".",
+          "uuid": "8efd9c06-7e9a-5af5-8a90-99e1e5642047"
+        },
+        {
+          "id": "LI006-Q08",
+          "number": 8,
+          "prompt": "What will they do if it rains?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Go to the aquarium"
+            },
+            {
+              "id": "B",
+              "text": "Go home"
+            },
+            {
+              "id": "C",
+              "text": "Visit the museum"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "if it rains, we can visit the museum"
+          },
+          "explanation": "The audio says: \"if it rains, we can visit the museum\".",
+          "uuid": "7f5d0445-c05d-5522-8fc0-8769033397de"
+        },
+        {
+          "id": "LI006-Q09",
+          "number": 9,
+          "prompt": "How does Sam feel about swimming?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Determined to swim in the cold sea"
+            },
+            {
+              "id": "B",
+              "text": "Unsure whether he will swim"
+            },
+            {
+              "id": "C",
+              "text": "Afraid of swimming in the sea"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "not sure I'll swim"
+          },
+          "explanation": "The audio says: \"not sure I'll swim\".",
+          "uuid": "1764fd11-b03f-5cac-86f8-d1cae5dfc262"
+        },
+        {
+          "id": "LI006-Q10",
+          "number": 10,
+          "prompt": "Why do they change the meeting time?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sam has to work late on Friday"
+            },
+            {
+              "id": "B",
+              "text": "Leah finishes work at 5.30"
+            },
+            {
+              "id": "C",
+              "text": "The train will leave much earlier"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I finish work at five thirty"
+          },
+          "explanation": "The audio says: \"I finish work at five thirty\".",
+          "uuid": "647299ae-e3b9-54ea-ac9e-8e4bb58eebbf"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "82345fa4-7300-461b-bb12-df6023648b44",
+  "derived": {
+    "word_count": 312,
+    "level_counts": {
+      "A1": 1,
+      "A2": 3,
+      "B1": 3,
+      "B2": 2,
+      "C1": 1,
+      "C2": 0
+    },
+    "mean_band": 4.4,
+    "answer_counts": {
+      "A": 1,
+      "B": 5,
+      "C": 4
+    },
+    "content_hash": "314dbcab21ed172b"
+  }
+}

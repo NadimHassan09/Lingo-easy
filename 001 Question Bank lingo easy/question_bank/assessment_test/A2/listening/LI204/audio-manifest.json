@@ -1,0 +1,40 @@
+{
+  "part_id": "LI204",
+  "part_uuid": "5e06407b-d93e-4852-b748-9dd83d572989",
+  "audio_file": "li204_the_school_trip.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "88e6c41ea9ad5c34e7e98e9e34ef7de0fec969d9e99759170aed88c49c35d7ba",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Ms Clarke",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 70.18
+    }
+  ],
+  "duration_seconds": 70.18,
+  "size_bytes": 562028,
+  "audio_sha256": "b6fc3343aebdb8ad5ec588f6e29e3ca465d3cd82587f4b349aef3a7343a4c840",
+  "generated_at": "2026-10-30T20:47:39+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

@@ -1,0 +1,1072 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lingoeasy/speaking_part.schema.json",
+  "title": "Lingo Easy Speaking Part (productive-task schema v1.0; shares its structure with the other productive skill)",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "uuid",
+    "version",
+    "skill",
+    "assessment",
+    "target_cefr",
+    "level",
+    "ielts_reference",
+    "part_type",
+    "skill_tag",
+    "profile",
+    "topic",
+    "context",
+    "title",
+    "modality",
+    "task",
+    "expected_response",
+    "classification",
+    "difficulty",
+    "evaluation_blueprint",
+    "diagnostics",
+    "qa",
+    "provenance",
+    "meta",
+    "derived",
+    "task_format"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^(WR|SP)[0-9]{3}$"
+    },
+    "uuid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "skill": {
+      "const": "speaking"
+    },
+    "assessment": {
+      "$ref": "#/$defs/assessment"
+    },
+    "target_cefr": {
+      "$ref": "#/$defs/cefr"
+    },
+    "level": {
+      "type": "object",
+      "required": [
+        "cefr",
+        "band"
+      ],
+      "properties": {
+        "cefr": {
+          "type": "string",
+          "enum": [
+            "A1",
+            "A2",
+            "B1",
+            "B2",
+            "C1",
+            "C2"
+          ]
+        },
+        "band": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 9
+        }
+      }
+    },
+    "ielts_reference": {
+      "type": "object",
+      "required": [
+        "band_range",
+        "note"
+      ]
+    },
+    "part_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "skill_tag": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profile": {
+      "type": "string",
+      "pattern": "^(placement|level_[a-c][12])$"
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "modality": {
+      "$ref": "#/$defs/modality"
+    },
+    "expected_response": {
+      "$ref": "#/$defs/expected"
+    },
+    "classification": {
+      "$ref": "#/$defs/classification"
+    },
+    "difficulty": {
+      "$ref": "#/$defs/difficulty"
+    },
+    "evaluation_blueprint": {
+      "$ref": "#/$defs/blueprint"
+    },
+    "diagnostics": {
+      "$ref": "#/$defs/diagnostics"
+    },
+    "qa": {
+      "$ref": "#/$defs/qa"
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "status",
+        "source"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "draft",
+            "validated",
+            "reviewed",
+            "approved",
+            "rejected"
+          ]
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "derived": {
+      "type": "object",
+      "required": [
+        "content_hash"
+      ],
+      "properties": {
+        "content_hash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "audio_extension": {
+      "$ref": "#/$defs/audio_extension"
+    },
+    "task_format": {
+      "type": "string",
+      "enum": [
+        "discussion",
+        "familiar_topics",
+        "long_turn",
+        "long_turn_discussion",
+        "situational_response"
+      ]
+    },
+    "task": {
+      "type": "object",
+      "required": [
+        "title",
+        "format",
+        "scenario",
+        "prompt",
+        "instructions",
+        "main_question",
+        "follow_up_questions",
+        "preparation_seconds",
+        "suggested_speaking_seconds",
+        "typed_response_words"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scenario": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "instructions": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "main_question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "follow_up_questions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "preparation_seconds": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "suggested_speaking_seconds": {
+          "type": "integer",
+          "minimum": 10
+        },
+        "typed_response_words": {
+          "type": "object",
+          "required": [
+            "minimum",
+            "suggested_min",
+            "suggested_max"
+          ],
+          "properties": {
+            "minimum": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "suggested_min": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "suggested_max": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        "cue_card": {
+          "type": "object",
+          "required": [
+            "topic",
+            "points"
+          ]
+        }
+      }
+    }
+  },
+  "$defs": {
+    "cefr": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "str": {
+      "type": "string",
+      "minLength": 1
+    },
+    "strs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "required": [
+        "type",
+        "level"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "placement",
+            "assessment"
+          ]
+        },
+        "level": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "A1",
+            "A2",
+            "B1",
+            "B2",
+            "C1",
+            "C2",
+            null
+          ]
+        }
+      }
+    },
+    "modality": {
+      "type": "object",
+      "required": [
+        "current",
+        "planned"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "current": {
+          "const": "typed_text"
+        },
+        "planned": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "audio",
+              "typed_text"
+            ]
+          }
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "criterion": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "description",
+        "weight",
+        "assessable_in_current_modality",
+        "scored_in_text_mvp",
+        "successful_performance",
+        "weak_performance",
+        "expected_evidence",
+        "common_error_patterns",
+        "related_subskills",
+        "evaluation_limitations"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[WS]_[A-Z]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "assessable_in_current_modality": {
+          "enum": [
+            "yes",
+            "partial",
+            "no"
+          ]
+        },
+        "scored_in_text_mvp": {
+          "type": "boolean"
+        },
+        "successful_performance": {
+          "type": "string",
+          "minLength": 1
+        },
+        "weak_performance": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expected_evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "common_error_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "related_subskills": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "evaluation_limitations": {
+          "type": "string",
+          "minLength": 1
+        },
+        "diagnostic_categories": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "D_ARGUMENT",
+              "D_ARTICLE",
+              "D_COHESION",
+              "D_COMPARISON",
+              "D_GRAMMAR_RANGE",
+              "D_HEDGING",
+              "D_L1_TRANSFER",
+              "D_OFF_TASK",
+              "D_ORGANISATION",
+              "D_PREPOSITION",
+              "D_REGISTER",
+              "D_SENTENCE_CONSTRUCTION",
+              "D_SPELLING",
+              "D_SUPPORT",
+              "D_SVA",
+              "D_TENSE",
+              "D_TEXT_ONLY_LIMIT",
+              "D_UNDERDEVELOPED",
+              "D_VOCAB_RANGE",
+              "D_VOCAB_REPEAT",
+              "D_WORD_CHOICE"
+            ]
+          }
+        },
+        "l1_transfer_hypotheses": {
+          "type": "object"
+        }
+      }
+    },
+    "blueprint": {
+      "type": "object",
+      "required": [
+        "blueprint_version",
+        "response_modality",
+        "target_cefr",
+        "criteria",
+        "not_assessed_by_design",
+        "required_demonstrations",
+        "optional_demonstrations",
+        "not_penalised",
+        "scale",
+        "evaluator_output_contract",
+        "multiple_valid_responses"
+      ],
+      "properties": {
+        "blueprint_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "response_modality": {
+          "const": "typed_text"
+        },
+        "target_cefr": {
+          "type": "string",
+          "enum": [
+            "A1",
+            "A2",
+            "B1",
+            "B2",
+            "C1",
+            "C2"
+          ]
+        },
+        "criteria": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "$ref": "#/$defs/criterion"
+          }
+        },
+        "not_assessed_by_design": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "reason"
+            ]
+          }
+        },
+        "required_demonstrations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "optional_demonstrations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "not_penalised": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "scale": {
+          "type": "object"
+        },
+        "evaluator_output_contract": {
+          "type": "array",
+          "minItems": 5,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "multiple_valid_responses": {
+          "const": true
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text_mvp_limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "difficulty": {
+      "type": "object",
+      "required": [
+        "original_target_cefr",
+        "recommended_cefr",
+        "cefr_confidence",
+        "level_gap_steps",
+        "difficulty_index",
+        "language_demand",
+        "cognitive_demand",
+        "expected_performance",
+        "rationale",
+        "method",
+        "calibrated",
+        "human_review_required"
+      ],
+      "properties": {
+        "original_target_cefr": {
+          "type": "string",
+          "enum": [
+            "A1",
+            "A2",
+            "B1",
+            "B2",
+            "C1",
+            "C2"
+          ]
+        },
+        "recommended_cefr": {
+          "type": "string",
+          "enum": [
+            "A1",
+            "A2",
+            "B1",
+            "B2",
+            "C1",
+            "C2"
+          ]
+        },
+        "cefr_confidence": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "level_gap_steps": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "difficulty_index": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "language_demand": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cognitive_demand": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expected_performance": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "calibrated": {
+          "const": false
+        },
+        "human_review_required": {
+          "type": "boolean"
+        },
+        "review_priority": {
+          "enum": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        "components": {
+          "type": "object"
+        },
+        "prompt_readability": {
+          "type": "object"
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "required": [
+        "primary_subskill",
+        "secondary_subskills",
+        "cognitive_processes",
+        "learning_objectives"
+      ],
+      "properties": {
+        "primary_subskill": {
+          "type": "string",
+          "minLength": 1
+        },
+        "secondary_subskills": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "cognitive_processes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "learning_objectives": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "text",
+              "measurable_verb",
+              "criteria"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "measurable_verb": {
+                "type": "string",
+                "minLength": 1
+              },
+              "criteria": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "diagnostics": {
+      "type": "object",
+      "required": [
+        "targets",
+        "policy",
+        "observed_vs_inferred"
+      ],
+      "properties": {
+        "targets": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "D_ARGUMENT",
+              "D_ARTICLE",
+              "D_COHESION",
+              "D_COMPARISON",
+              "D_GRAMMAR_RANGE",
+              "D_HEDGING",
+              "D_L1_TRANSFER",
+              "D_OFF_TASK",
+              "D_ORGANISATION",
+              "D_PREPOSITION",
+              "D_REGISTER",
+              "D_SENTENCE_CONSTRUCTION",
+              "D_SPELLING",
+              "D_SUPPORT",
+              "D_SVA",
+              "D_TENSE",
+              "D_TEXT_ONLY_LIMIT",
+              "D_UNDERDEVELOPED",
+              "D_VOCAB_RANGE",
+              "D_VOCAB_REPEAT",
+              "D_WORD_CHOICE"
+            ]
+          }
+        },
+        "policy": {
+          "type": "object"
+        },
+        "observed_vs_inferred": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "grammar": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "level"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "level": {
+            "type": "string",
+            "enum": [
+              "A1",
+              "A2",
+              "B1",
+              "B2",
+              "C1",
+              "C2"
+            ]
+          },
+          "extension": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "expected": {
+      "type": "object",
+      "required": [
+        "content_points",
+        "required_elements",
+        "optional_elements",
+        "organisation",
+        "vocabulary_demands",
+        "grammar_demands",
+        "discourse_complexity",
+        "linguistic_demand",
+        "cognitive_demand",
+        "examples"
+      ],
+      "properties": {
+        "content_points": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required_elements": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "optional_elements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "organisation": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "vocabulary_demands": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "grammar_demands": {
+          "$ref": "#/$defs/grammar"
+        },
+        "discourse_complexity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "linguistic_demand": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cognitive_demand": {
+          "type": "string",
+          "minLength": 1
+        },
+        "examples": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "outline"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "pattern": "not an answer key"
+              },
+              "outline": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "qa": {
+      "type": "object",
+      "required": [
+        "structural_validation",
+        "semantic_rule_review",
+        "llm_review",
+        "human_review",
+        "findings"
+      ],
+      "properties": {
+        "structural_validation": {
+          "enum": [
+            "not_run",
+            "pass",
+            "fail"
+          ]
+        },
+        "semantic_rule_review": {
+          "enum": [
+            "not_run",
+            "pass",
+            "flagged"
+          ]
+        },
+        "llm_review": {
+          "enum": [
+            "not_performed",
+            "performed"
+          ]
+        },
+        "human_review": {
+          "enum": [
+            "not_reviewed",
+            "reviewed",
+            "approved"
+          ]
+        },
+        "findings": {
+          "type": "array"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "generator",
+        "generator_version",
+        "assembly",
+        "seed",
+        "generated_at",
+        "spec_source",
+        "spec_sha256",
+        "authoring",
+        "raw_spec"
+      ],
+      "properties": {
+        "generator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generator_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assembly": {
+          "const": "deterministic"
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "generated_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "spec_source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "spec_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "authoring": {
+          "type": "object",
+          "required": [
+            "method",
+            "provider",
+            "model",
+            "runtime_llm_calls"
+          ],
+          "properties": {
+            "method": {
+              "type": "string",
+              "minLength": 1
+            },
+            "provider": {
+              "type": "string",
+              "minLength": 1
+            },
+            "model": {
+              "type": "string",
+              "minLength": 1
+            },
+            "generation_parameters": {
+              "type": "string",
+              "minLength": 1
+            },
+            "runtime_llm_calls": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "raw_spec": {
+          "type": "object"
+        }
+      }
+    },
+    "audio_extension": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "OPTIONAL and RESERVED. Present only when real audio exists; never fabricated for text-only attempts. Defined here so adding audio later does not change the Part contract.",
+      "properties": {
+        "audio_asset_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "audio_duration_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "transcript": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stt_provider": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stt_confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "pronunciation_evaluation": {
+          "type": "object"
+        },
+        "fluency_evaluation": {
+          "type": "object"
+        },
+        "audio_evaluation_evidence": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}

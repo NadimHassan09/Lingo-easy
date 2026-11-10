@@ -1,0 +1,148 @@
+{
+  "part_id": "LI501",
+  "part_uuid": "83562582-b27b-4fa4-8893-85198aff839c",
+  "audio_file": "li501_life_in_the_deep_ocean.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "5bd0fd4fc2df270043b416edb21b0f86b5733de4ab9ac4b69cd10bde2bbf1af2",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Mark Doyle",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Dr Elena Ruiz",
+      "gender": "female",
+      "accent": "american",
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 11.52
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 11.97,
+      "end": 14.11
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 14.56,
+      "end": 21.44
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 21.89,
+      "end": 44.07
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 44.52,
+      "end": 47.33
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 47.78,
+      "end": 66.59
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 67.04,
+      "end": 70.31
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 70.76,
+      "end": 88.54
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 88.99,
+      "end": 91.32
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 91.77,
+      "end": 115.72
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 116.17,
+      "end": 119.0
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 119.45,
+      "end": 140.07
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 140.52,
+      "end": 146.93
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 147.38,
+      "end": 170.49
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 170.94,
+      "end": 175.88
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 176.33,
+      "end": 193.57
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 194.02,
+      "end": 196.75
+    }
+  ],
+  "duration_seconds": 196.75,
+  "size_bytes": 1574636,
+  "audio_sha256": "f1035dd1960c45964cd44527d6bca9070d9bebfc06368373a08d12804a4b2d52",
+  "generated_at": "2026-10-30T20:56:44+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

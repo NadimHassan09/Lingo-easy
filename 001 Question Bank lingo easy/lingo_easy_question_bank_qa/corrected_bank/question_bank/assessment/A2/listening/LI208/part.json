@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "id": "LI208",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "A Message About Dad's Party",
+  "topic": "family_and_relationships",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li208_a_message_about_dad_s_party.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Joe",
+        "gender": "male",
+        "accent": "new_zealand",
+        "role": "son"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hi Karen, it's Joe. I'm calling about Dad's birthday party on Saturday. First, the plan has changed a little. We're now having the party at my house, not at the restaurant, because the restaurant is closed for repairs. It starts at five o'clock instead of six, so please come a bit earlier if you can. Can you bring a cake? Mum is making the main food: roast chicken and salad. Uncle Peter is bringing drinks, and my wife is organising the music. Dad doesn't know about the party, so please don't tell him. I told him we're only having a family dinner. Aunt Lucy is bringing him in her car at half past five. We're going to hide in the living room and shout Surprise when he walks in. Oh, and parking is difficult near my house, so I suggest you take the bus. The number twenty-two stops on my street. It's about ten minutes from the stop to the house, and you can't miss the blue door. Call me back if you have any questions. Bye for now!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI208-Q01",
+          "number": 1,
+          "prompt": "Why is Joe calling?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To invite Karen to dinner"
+            },
+            {
+              "id": "B",
+              "text": "To ask for help with moving"
+            },
+            {
+              "id": "C",
+              "text": "To talk about Dad's party"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "calling about Dad's birthday party"
+          },
+          "explanation": "The audio says: \"calling about Dad's birthday party\".",
+          "uuid": "d78958bf-9964-50a5-8b4e-490c1b63c99c"
+        },
+        {
+          "id": "LI208-Q02",
+          "number": 2,
+          "prompt": "Where will the party be?",
+          "options": [
+            {
+              "id": "A",
+              "text": "At a restaurant"
+            },
+            {
+              "id": "B",
+              "text": "At Joe's house"
+            },
+            {
+              "id": "C",
+              "text": "At Karen's house"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "having the party at my house"
+          },
+          "explanation": "The audio says: \"having the party at my house\".",
+          "uuid": "0d071f17-9aba-5a52-8050-a7cfe18de36c"
+        },
+        {
+          "id": "LI208-Q03",
+          "number": 3,
+          "prompt": "Why is the party not at the restaurant?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too expensive this year"
+            },
+            {
+              "id": "B",
+              "text": "It is closed for repairs"
+            },
+            {
+              "id": "C",
+              "text": "It has no space for the family"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "closed for repairs"
+          },
+          "explanation": "The audio says: \"closed for repairs\".",
+          "uuid": "4f6ed85e-add5-526e-b55a-e2b3b0d650aa"
+        },
+        {
+          "id": "LI208-Q04",
+          "number": 4,
+          "prompt": "What time does the party start?",
+          "options": [
+            {
+              "id": "A",
+              "text": "6.00"
+            },
+            {
+              "id": "B",
+              "text": "5.30"
+            },
+            {
+              "id": "C",
+              "text": "5.00"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It starts at five o'clock"
+          },
+          "explanation": "The audio says: \"It starts at five o'clock\".",
+          "uuid": "1fafce8e-4460-5026-bf87-ff5e2391de1a"
+        },
+        {
+          "id": "LI208-Q05",
+          "number": 5,
+          "prompt": "What should Karen bring?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A cake"
+            },
+            {
+              "id": "B",
+              "text": "Drinks"
+            },
+            {
+              "id": "C",
+              "text": "Music"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Can you bring a cake"
+          },
+          "explanation": "The audio says: \"Can you bring a cake\".",
+          "uuid": "79898bbb-e81b-5dc8-949a-d50af97a9c3f"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI208-Q06",
+          "number": 6,
+          "prompt": "Who is making the main food?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Joe's wife"
+            },
+            {
+              "id": "B",
+              "text": "Mum"
+            },
+            {
+              "id": "C",
+              "text": "Aunt Lucy"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Mum is making the main food"
+          },
+          "explanation": "The audio says: \"Mum is making the main food\".",
+          "uuid": "a865d044-9cb0-5751-a19d-4239debca37f"
+        },
+        {
+          "id": "LI208-Q07",
+          "number": 7,
+          "prompt": "Who is bringing the drinks?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Aunt Lucy"
+            },
+            {
+              "id": "B",
+              "text": "Karen"
+            },
+            {
+              "id": "C",
+              "text": "Uncle Peter"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Uncle Peter is bringing drinks"
+          },
+          "explanation": "The audio says: \"Uncle Peter is bringing drinks\".",
+          "uuid": "33a119e7-568a-5abb-98a7-388a9cb3a0b9"
+        },
+        {
+          "id": "LI208-Q08",
+          "number": 8,
+          "prompt": "What has Dad been told?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are having a family dinner"
+            },
+            {
+              "id": "B",
+              "text": "They are going to the restaurant"
+            },
+            {
+              "id": "C",
+              "text": "He has been told nothing at all"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "we're only having a family dinner"
+          },
+          "explanation": "The audio says: \"we're only having a family dinner\".",
+          "uuid": "b56feb5e-4d9d-5a5a-a40f-def3772edd9f"
+        },
+        {
+          "id": "LI208-Q09",
+          "number": 9,
+          "prompt": "Who is bringing Dad to the party?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Uncle Peter"
+            },
+            {
+              "id": "B",
+              "text": "Mum"
+            },
+            {
+              "id": "C",
+              "text": "Aunt Lucy"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Aunt Lucy is bringing him"
+          },
+          "explanation": "The audio says: \"Aunt Lucy is bringing him\".",
+          "uuid": "9692c347-2f97-5a6e-850e-0ba3d067b500"
+        },
+        {
+          "id": "LI208-Q10",
+          "number": 10,
+          "prompt": "How should Karen travel to Joe's house?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By car"
+            },
+            {
+              "id": "B",
+              "text": "By taxi"
+            },
+            {
+              "id": "C",
+              "text": "By bus"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I suggest you take the bus"
+          },
+          "explanation": "The audio says: \"I suggest you take the bus\".",
+          "uuid": "208b504e-bce8-5a08-acef-02c0491b5e9d"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "2a810ea2-1dc8-46eb-89be-bd2e979f38b9",
+  "derived": {
+    "word_count": 180,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 2,
+      "B": 3,
+      "C": 5
+    },
+    "content_hash": "6ebdef6087f8135b"
+  }
+}

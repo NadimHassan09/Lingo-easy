@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE103",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "The Giant Panda",
+  "topic": "animals_and_nature",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "The Giant Panda",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Pandas live in China. They live in the mountains, where it is cold and wet. There are about 1,800 pandas in the wild today. Many people love pandas, and they are a famous symbol of China."
+      },
+      {
+        "label": "B",
+        "text": "A panda is big. It is about 1.5 metres long and can weigh 100 kilograms. Pandas are black and white. They have black ears, black eyes and black legs."
+      },
+      {
+        "label": "C",
+        "text": "Pandas eat a lot of bamboo. A panda eats for twelve hours every day. It eats up to twelve kilograms of bamboo, and it also drinks a lot of water. Pandas sometimes eat small animals or eggs, but not often."
+      },
+      {
+        "label": "D",
+        "text": "Baby pandas are very small. A new baby is only about the size of a mouse, and it is pink. It stays with its mother for about two years. Pandas do not live in groups. They live alone, and they sleep about ten hours a day."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE103-Q01",
+          "number": 1,
+          "prompt": "Where do pandas live?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In India"
+            },
+            {
+              "id": "B",
+              "text": "In Brazil"
+            },
+            {
+              "id": "C",
+              "text": "In China"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "Pandas live in China"
+          },
+          "explanation": "The text says: \"Pandas live in China\".",
+          "uuid": "adb57f32-eab6-5a2b-9f18-3ee6f221e09d"
+        },
+        {
+          "id": "RE103-Q02",
+          "number": 2,
+          "prompt": "What is the weather like where pandas live?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cold and wet"
+            },
+            {
+              "id": "B",
+              "text": "Hot and dry"
+            },
+            {
+              "id": "C",
+              "text": "Warm and sunny"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "it is cold and wet"
+          },
+          "explanation": "The text says: \"it is cold and wet\".",
+          "uuid": "f2a0d89c-3ac5-5728-bea9-2d563aceaad7"
+        },
+        {
+          "id": "RE103-Q03",
+          "number": 3,
+          "prompt": "How many pandas live in the wild?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 180"
+            },
+            {
+              "id": "B",
+              "text": "About 18,000"
+            },
+            {
+              "id": "C",
+              "text": "About 1,800"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "about 1,800 pandas"
+          },
+          "explanation": "The text says: \"about 1,800 pandas\".",
+          "uuid": "1effb77b-67b3-587a-b52f-7efb2c3b65ee"
+        },
+        {
+          "id": "RE103-Q04",
+          "number": 4,
+          "prompt": "How long is a panda?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 0.5 metres"
+            },
+            {
+              "id": "B",
+              "text": "About 1.5 metres"
+            },
+            {
+              "id": "C",
+              "text": "About 5 metres"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "about 1.5 metres long"
+          },
+          "explanation": "The text says: \"about 1.5 metres long\".",
+          "uuid": "25ffdd3d-2acc-5573-b79b-19bfdc0eeb96"
+        },
+        {
+          "id": "RE103-Q05",
+          "number": 5,
+          "prompt": "What colour are a panda's ears?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Black"
+            },
+            {
+              "id": "B",
+              "text": "White"
+            },
+            {
+              "id": "C",
+              "text": "Brown"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "They have black ears"
+          },
+          "explanation": "The text says: \"They have black ears\".",
+          "uuid": "676b6178-ef6f-52c1-a7b7-d9670c6530ed"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE103-Q06",
+          "number": 6,
+          "prompt": "Pandas are white and brown.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Pandas are black and white"
+          },
+          "explanation": "The text says: \"Pandas are black and white\".",
+          "uuid": "42c6ca1a-27b2-58ff-933d-3178cdea0673"
+        },
+        {
+          "id": "RE103-Q07",
+          "number": 7,
+          "prompt": "A panda eats for twelve hours every day.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "eats for twelve hours every day"
+          },
+          "explanation": "The text says: \"eats for twelve hours every day\".",
+          "uuid": "7a785642-7093-5e70-94e1-083edc1b25ec"
+        },
+        {
+          "id": "RE103-Q08",
+          "number": 8,
+          "prompt": "Pandas can swim very well.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "b4a8b2ea-ad04-5519-bd85-94be0070414c"
+        },
+        {
+          "id": "RE103-Q09",
+          "number": 9,
+          "prompt": "A new baby panda is pink.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "it is pink"
+          },
+          "explanation": "The text says: \"it is pink\".",
+          "uuid": "3ee5bbd9-ca2f-5028-98d8-77f6d85df1c7"
+        },
+        {
+          "id": "RE103-Q10",
+          "number": 10,
+          "prompt": "Pandas live in groups of ten.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Pandas do not live in groups"
+          },
+          "explanation": "The text says: \"Pandas do not live in groups\".",
+          "uuid": "00c60d7a-8f2b-5d2b-ba97-35f81b1f1c07"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE103-Q11",
+          "number": 11,
+          "prompt": "A panda eats up to twelve kilograms of _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "fish"
+            },
+            {
+              "id": "B",
+              "text": "grass"
+            },
+            {
+              "id": "C",
+              "text": "bamboo"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "twelve kilograms of bamboo"
+          },
+          "explanation": "The text says: \"twelve kilograms of bamboo\".",
+          "uuid": "2416f547-d229-5d00-ab80-383f80ba2c45"
+        },
+        {
+          "id": "RE103-Q12",
+          "number": 12,
+          "prompt": "A new baby panda is the size of a _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "cat"
+            },
+            {
+              "id": "B",
+              "text": "mouse"
+            },
+            {
+              "id": "C",
+              "text": "dog"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "size of a mouse"
+          },
+          "explanation": "The text says: \"size of a mouse\".",
+          "uuid": "76707da4-c8d7-5858-8074-7b8c216b5fdf"
+        },
+        {
+          "id": "RE103-Q13",
+          "number": 13,
+          "prompt": "A baby panda stays with its mother for about _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "two months"
+            },
+            {
+              "id": "B",
+              "text": "two years"
+            },
+            {
+              "id": "C",
+              "text": "ten years"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "about two years"
+          },
+          "explanation": "The text says: \"about two years\".",
+          "uuid": "30d797c7-d4b2-551a-8780-6b647c9e717d"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "95daa914-0a46-4400-8970-f1c444842836",
+  "derived": {
+    "word_count": 153,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 4
+    },
+    "content_hash": "50af24a53a26211d"
+  }
+}

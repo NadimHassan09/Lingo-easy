@@ -1,0 +1,166 @@
+{
+  "part_id": "LI510",
+  "part_uuid": "496cc281-6967-4fc8-992c-2e8a4a8cfcfe",
+  "audio_file": "li510_seminar_archaeology_and_ethics.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "e438e1d9bd8957a801079c0754e7d4968e53105a907ba64f40bf18b32258eedb",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    "S3": {
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Sinclair",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Tariq",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S3",
+      "name": "Julia",
+      "gender": "female",
+      "accent": "american",
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 7.58
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 8.03,
+      "end": 26.3
+    },
+    {
+      "index": 2,
+      "speaker": "S3",
+      "start": 26.75,
+      "end": 36.04
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 36.49,
+      "end": 42.05
+    },
+    {
+      "index": 4,
+      "speaker": "S2",
+      "start": 42.5,
+      "end": 60.1
+    },
+    {
+      "index": 5,
+      "speaker": "S3",
+      "start": 60.55,
+      "end": 64.67
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 65.12,
+      "end": 84.23
+    },
+    {
+      "index": 7,
+      "speaker": "S3",
+      "start": 84.68,
+      "end": 87.53
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 87.98,
+      "end": 91.54
+    },
+    {
+      "index": 9,
+      "speaker": "S3",
+      "start": 91.99,
+      "end": 116.32
+    },
+    {
+      "index": 10,
+      "speaker": "S2",
+      "start": 116.77,
+      "end": 124.91
+    },
+    {
+      "index": 11,
+      "speaker": "S1",
+      "start": 125.36,
+      "end": 142.78
+    },
+    {
+      "index": 12,
+      "speaker": "S3",
+      "start": 143.23,
+      "end": 149.57
+    },
+    {
+      "index": 13,
+      "speaker": "S1",
+      "start": 150.02,
+      "end": 166.89
+    },
+    {
+      "index": 14,
+      "speaker": "S2",
+      "start": 167.34,
+      "end": 172.43
+    },
+    {
+      "index": 15,
+      "speaker": "S1",
+      "start": 172.88,
+      "end": 197.02
+    },
+    {
+      "index": 16,
+      "speaker": "S3",
+      "start": 197.47,
+      "end": 200.09
+    },
+    {
+      "index": 17,
+      "speaker": "S1",
+      "start": 200.54,
+      "end": 208.17
+    }
+  ],
+  "duration_seconds": 208.17,
+  "size_bytes": 1666028,
+  "audio_sha256": "f2712f6921bffb56d4258a8a43394e7c86723a61e3f6510f2eaeb19cef6aa41e",
+  "generated_at": "2026-10-30T20:57:40+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

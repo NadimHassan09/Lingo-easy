@@ -1,0 +1,70 @@
+{
+  "part_id": "LI609",
+  "part_uuid": "33554c8a-e7c8-4f01-8502-719c97d88363",
+  "audio_file": "li609_the_printing_press_reconsidered.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "51e6db5654b32ac10808e58bd908280abea51017cf0eded1a676da174cd3b33e",
+  "voices": {
+    "S1": {
+      "voice": "en-NZ-MitchellNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Whitaker",
+      "gender": "male",
+      "accent": "new_zealand",
+      "voice": "en-NZ-MitchellNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 24.84
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 25.29,
+      "end": 65.56
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 66.01,
+      "end": 86.27
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 86.72,
+      "end": 124.64
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 125.09,
+      "end": 157.85
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 158.3,
+      "end": 191.06
+    }
+  ],
+  "duration_seconds": 191.06,
+  "size_bytes": 1529132,
+  "audio_sha256": "610327ef3c69cec9c2fa51c2ba26738a082e9d236a18c8bb860f88db82c92223",
+  "generated_at": "2026-10-30T20:58:35+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

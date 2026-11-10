@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0",
+  "id": "LI008",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Group Work on a Business Plan",
+  "topic": "business",
+  "profile": "intermediate",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li008_group_work_on_a_business_plan.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Ms Taylor",
+        "gender": "female",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Josh",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Mei",
+        "gender": "female",
+        "accent": "new_zealand",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Let's review your group's business plan. Josh, remind me what the business is."
+      },
+      {
+        "speaker": "S2",
+        "text": "It's a mobile coffee cart that serves students on campus. We'd start with one cart outside the library."
+      },
+      {
+        "speaker": "S1",
+        "text": "And your market research?"
+      },
+      {
+        "speaker": "S3",
+        "text": "We surveyed a hundred and twenty students. Seventy per cent said they buy coffee at least three times a week, and sixty per cent said they'd prefer a cheaper option than the campus café."
+      },
+      {
+        "speaker": "S1",
+        "text": "Those are encouraging figures, but how did you choose your sample? If you only asked students who were queuing for coffee, the results might be biased."
+      },
+      {
+        "speaker": "S3",
+        "text": "We approached people at random in the library and the student union, so I think it's fairly representative."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good. Now, costs. Josh?"
+      },
+      {
+        "speaker": "S2",
+        "text": "A second-hand cart costs about two thousand pounds, and we estimate monthly costs at six hundred pounds for ingredients and permits. If we sell two hundred cups a day at two pounds each, we'd earn about eight thousand pounds a month."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's the revenue, not profit. Have you included your own wages? And have you considered that sales fall in the holidays?"
+      },
+      {
+        "speaker": "S2",
+        "text": "We hadn't factored in the holidays. Term time is about thirty weeks a year."
+      },
+      {
+        "speaker": "S1",
+        "text": "Then your annual revenue is considerably lower than your monthly figure suggests. Please recalculate with realistic assumptions."
+      },
+      {
+        "speaker": "S3",
+        "text": "We'll do a best case, a worst case and a middle scenario."
+      },
+      {
+        "speaker": "S1",
+        "text": "Excellent approach. Now, what about competition from the campus café?"
+      },
+      {
+        "speaker": "S3",
+        "text": "We think the café's prices are too high, and our cart offers convenience, because it's closer to the lecture halls."
+      },
+      {
+        "speaker": "S1",
+        "text": "Convenience is a real advantage, but don't assume the café won't respond. They could lower prices or start a loyalty scheme. Your plan should explain what makes you hard to copy."
+      },
+      {
+        "speaker": "S2",
+        "text": "Our idea is to use only locally roasted beans and reusable cups, with a discount for students who bring their own."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's a distinctive selling point, and it fits with growing concern for the environment. However, check that reusable cups comply with hygiene regulations."
+      },
+      {
+        "speaker": "S3",
+        "text": "We've already contacted the council about the permit. They said it takes about three weeks, and the fee is eighty pounds a year. We also plan to open a social media page, so students can see the daily menu and special offers before they leave their lectures."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good. One last point: the presentation is on the ninth of May. Each of you should speak for about five minutes, and I'd like a one-page summary of the financial forecast."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI008-Q01",
+          "number": 1,
+          "prompt": "What is the students' business idea?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A campus café"
+            },
+            {
+              "id": "B",
+              "text": "A delivery service"
+            },
+            {
+              "id": "C",
+              "text": "A mobile coffee cart"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a mobile coffee cart that serves students"
+          },
+          "explanation": "The audio says: \"a mobile coffee cart that serves students\".",
+          "uuid": "811cb240-2e11-5d62-8c31-9b65d80ec0ea"
+        },
+        {
+          "id": "LI008-Q02",
+          "number": 2,
+          "prompt": "Where would the first cart be?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Outside the student union"
+            },
+            {
+              "id": "B",
+              "text": "Outside the library"
+            },
+            {
+              "id": "C",
+              "text": "Inside the café"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "outside the library"
+          },
+          "explanation": "The audio says: \"outside the library\".",
+          "uuid": "5d77d863-d6d5-5a59-93a9-09e79a6f7ff9"
+        },
+        {
+          "id": "LI008-Q03",
+          "number": 3,
+          "prompt": "What did sixty per cent of the surveyed students say?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They never buy coffee on campus"
+            },
+            {
+              "id": "B",
+              "text": "They like the campus café's prices"
+            },
+            {
+              "id": "C",
+              "text": "They would prefer a cheaper option"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "prefer a cheaper option than the campus café"
+          },
+          "explanation": "The audio says: \"prefer a cheaper option than the campus café\".",
+          "uuid": "0e1d3ce0-2ae0-5d16-81ab-d7cd745b47bc"
+        },
+        {
+          "id": "LI008-Q04",
+          "number": 4,
+          "prompt": "Why does the tutor question the students' sample?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Asking only people in a coffee queue could bias the results"
+            },
+            {
+              "id": "B",
+              "text": "The sample is too small to produce useful results"
+            },
+            {
+              "id": "C",
+              "text": "The sample was collected too long ago to be useful"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the results might be biased"
+          },
+          "explanation": "The audio says: \"the results might be biased\".",
+          "uuid": "0cd6428c-941e-5755-bc62-00632d7bbb03"
+        },
+        {
+          "id": "LI008-Q05",
+          "number": 5,
+          "prompt": "How did Mei choose the people she surveyed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She asked her friends on the same course"
+            },
+            {
+              "id": "B",
+              "text": "She sent an email to the whole student body"
+            },
+            {
+              "id": "C",
+              "text": "She approached people at random in two places"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "at random in the library and the student union"
+          },
+          "explanation": "The audio says: \"at random in the library and the student union\".",
+          "uuid": "fe85341d-d6e5-5b88-be38-e7df10a48fdb"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI008-Q06",
+          "number": 6,
+          "prompt": "What does the tutor say is wrong with the income calculation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It uses the wrong prices for a cup of coffee"
+            },
+            {
+              "id": "B",
+              "text": "It shows revenue not profit and ignores holidays"
+            },
+            {
+              "id": "C",
+              "text": "It includes far too many fixed costs in the total"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "sales fall in the holidays"
+          },
+          "explanation": "The audio says: \"sales fall in the holidays\".",
+          "uuid": "ce1ff7ee-76b9-5b68-ba4e-2778fa85df1f"
+        },
+        {
+          "id": "LI008-Q07",
+          "number": 7,
+          "prompt": "Why is the annual revenue lower than the monthly figure suggests?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The cart may break down in winter"
+            },
+            {
+              "id": "B",
+              "text": "Prices will fall during the holidays"
+            },
+            {
+              "id": "C",
+              "text": "The cart will only trade in term time"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Term time is about thirty weeks a year"
+          },
+          "explanation": "The audio says: \"Term time is about thirty weeks a year\".",
+          "uuid": "3c1d5c6f-531d-5f45-bbb0-2065a50881eb"
+        },
+        {
+          "id": "LI008-Q08",
+          "number": 8,
+          "prompt": "What does the tutor warn about the campus café?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It will close the kiosk during the summer term"
+            },
+            {
+              "id": "B",
+              "text": "It may respond with lower prices or a loyalty scheme"
+            },
+            {
+              "id": "C",
+              "text": "It will copy the design and menu of the cart"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "don't assume the café won't respond"
+          },
+          "explanation": "The audio says: \"don't assume the café won't respond\".",
+          "uuid": "9f6014c2-631c-501e-b365-3ad11594931c"
+        },
+        {
+          "id": "LI008-Q09",
+          "number": 9,
+          "prompt": "What will make the business distinctive?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Locally roasted beans and reusable cups"
+            },
+            {
+              "id": "B",
+              "text": "Very low prices for all students"
+            },
+            {
+              "id": "C",
+              "text": "Late opening hours in the evenings"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "locally roasted beans and reusable cups"
+          },
+          "explanation": "The audio says: \"locally roasted beans and reusable cups\".",
+          "uuid": "d1efdd13-afff-5a3c-840d-5f754e8a696d"
+        },
+        {
+          "id": "LI008-Q10",
+          "number": 10,
+          "prompt": "What must the students prepare for the presentation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A short video about the business"
+            },
+            {
+              "id": "B",
+              "text": "A one-page summary of the financial forecast"
+            },
+            {
+              "id": "C",
+              "text": "A printed menu with prices for the cart"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "one-page summary of the financial forecast"
+          },
+          "explanation": "The audio says: \"one-page summary of the financial forecast\".",
+          "uuid": "fb29f22d-8aa8-5d79-bfd1-f6f0d302a116"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "d4d34fef-b6ca-4aff-b1ec-8431bf0b66dd",
+  "derived": {
+    "word_count": 407,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 3,
+      "B2": 4,
+      "C1": 2,
+      "C2": 0
+    },
+    "mean_band": 5.55,
+    "answer_counts": {
+      "A": 2,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "bdf32ab3f2983c33"
+  }
+}

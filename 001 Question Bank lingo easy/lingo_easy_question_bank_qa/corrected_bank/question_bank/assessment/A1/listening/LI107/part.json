@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "id": "LI107",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Seeing the Doctor",
+  "topic": "health",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li107_seeing_the_doctor.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Helen",
+        "gender": "female",
+        "accent": "british",
+        "role": "receptionist"
+      },
+      {
+        "id": "S2",
+        "name": "Ali Khan",
+        "gender": "male",
+        "accent": "british",
+        "role": "patient"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, Park Medical Centre. How can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Good morning. My name is Ali Khan. I have a bad cold and a headache. I want to see the doctor."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay, Mr Khan. Is it today?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, today, please. Is the doctor free this afternoon?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Let me see. Doctor Green is free at two o'clock. Is that okay?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I work until three. Is there a time after three?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes. At three thirty."
+      },
+      {
+        "speaker": "S2",
+        "text": "That is fine. Where is the centre?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It is on Station Road, next to the bank. It is opposite the bus stop."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thank you. Do I need to bring anything?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Please bring your health card. And drink a lot of water today."
+      },
+      {
+        "speaker": "S2",
+        "text": "I will. Do I pay for the visit?"
+      },
+      {
+        "speaker": "S1",
+        "text": "No, it is free. See you at three thirty, Mr Khan."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thank you. Goodbye!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI107-Q01",
+          "number": 1,
+          "prompt": "What is wrong with Mr Khan?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He has a sore leg and a fever"
+            },
+            {
+              "id": "B",
+              "text": "He has a cold and a headache"
+            },
+            {
+              "id": "C",
+              "text": "He has a bad back and a cough"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a bad cold and a headache"
+          },
+          "explanation": "The audio says: \"a bad cold and a headache\".",
+          "uuid": "251daf17-b1de-5a18-9c6f-aad6eb66b33c"
+        },
+        {
+          "id": "LI107-Q02",
+          "number": 2,
+          "prompt": "When does he want to see the doctor?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tomorrow"
+            },
+            {
+              "id": "B",
+              "text": "Next week"
+            },
+            {
+              "id": "C",
+              "text": "Today"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Yes, today, please"
+          },
+          "explanation": "The audio says: \"Yes, today, please\".",
+          "uuid": "29c4523e-7d76-50ba-8258-b641d9e8ee9c"
+        },
+        {
+          "id": "LI107-Q03",
+          "number": 3,
+          "prompt": "What is the doctor's name?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Doctor Brown"
+            },
+            {
+              "id": "B",
+              "text": "Doctor Gray"
+            },
+            {
+              "id": "C",
+              "text": "Doctor Green"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Doctor Green is free"
+          },
+          "explanation": "The audio says: \"Doctor Green is free\".",
+          "uuid": "7983a6c0-c925-5d35-8f20-36b18f5dfca3"
+        },
+        {
+          "id": "LI107-Q04",
+          "number": 4,
+          "prompt": "Why can he not come at two o'clock?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He works until three"
+            },
+            {
+              "id": "B",
+              "text": "He has to pick up his children"
+            },
+            {
+              "id": "C",
+              "text": "He is on a train until three"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I work until three"
+          },
+          "explanation": "The audio says: \"I work until three\".",
+          "uuid": "683c6c47-8b15-5994-bd9d-927ccaba6b63"
+        },
+        {
+          "id": "LI107-Q05",
+          "number": 5,
+          "prompt": "What time is the visit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2.00"
+            },
+            {
+              "id": "B",
+              "text": "3.30"
+            },
+            {
+              "id": "C",
+              "text": "3.15"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "At three thirty"
+          },
+          "explanation": "The audio says: \"At three thirty\".",
+          "uuid": "fa663ad6-8e88-5cda-a62b-770e41a7635c"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI107-Q06",
+          "number": 6,
+          "prompt": "What is the name of the road?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bank Road"
+            },
+            {
+              "id": "B",
+              "text": "Station Road"
+            },
+            {
+              "id": "C",
+              "text": "Park Road"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It is on Station Road"
+          },
+          "explanation": "The audio says: \"It is on Station Road\".",
+          "uuid": "6b737dc7-b093-5afe-a41b-b26838b3c4d2"
+        },
+        {
+          "id": "LI107-Q07",
+          "number": 7,
+          "prompt": "Where is the centre?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Next to the station"
+            },
+            {
+              "id": "B",
+              "text": "Next to the school"
+            },
+            {
+              "id": "C",
+              "text": "Next to the bank"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "next to the bank"
+          },
+          "explanation": "The audio says: \"next to the bank\".",
+          "uuid": "c75f7080-ba61-57cd-8ae6-1541d572b1bc"
+        },
+        {
+          "id": "LI107-Q08",
+          "number": 8,
+          "prompt": "What must he bring?",
+          "options": [
+            {
+              "id": "A",
+              "text": "His health card"
+            },
+            {
+              "id": "B",
+              "text": "His passport"
+            },
+            {
+              "id": "C",
+              "text": "His phone"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Please bring your health card"
+          },
+          "explanation": "The audio says: \"Please bring your health card\".",
+          "uuid": "b67290d0-4053-523f-a954-5b18aca8f99e"
+        },
+        {
+          "id": "LI107-Q09",
+          "number": 9,
+          "prompt": "What does the receptionist say about water?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Drink a lot of it"
+            },
+            {
+              "id": "B",
+              "text": "Do not drink any"
+            },
+            {
+              "id": "C",
+              "text": "Drink only a little"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "drink a lot of water today"
+          },
+          "explanation": "The audio says: \"drink a lot of water today\".",
+          "uuid": "f8e53db7-15d0-5e9f-bfff-cab38be0baef"
+        },
+        {
+          "id": "LI107-Q10",
+          "number": 10,
+          "prompt": "Does Mr Khan pay for the visit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes, 10 pounds"
+            },
+            {
+              "id": "B",
+              "text": "No, it is free"
+            },
+            {
+              "id": "C",
+              "text": "Yes, 20 pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "No, it is free"
+          },
+          "explanation": "The audio says: \"No, it is free\".",
+          "uuid": "624219b5-1466-5f58-9aee-32212af51fa2"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "450af87c-82b7-4f1c-915a-de92c41b0bae",
+  "derived": {
+    "word_count": 137,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "3ff38429121e50d7"
+  }
+}

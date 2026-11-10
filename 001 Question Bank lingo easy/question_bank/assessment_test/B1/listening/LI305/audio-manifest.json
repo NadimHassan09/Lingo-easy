@@ -1,0 +1,154 @@
+{
+  "part_id": "LI305",
+  "part_uuid": "909a992d-ae99-47bf-bf37-88221c4a07f5",
+  "audio_file": "li305_a_complaint_at_the_hotel.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "9f36fe7df002fe6de3e139bb6fe093b0fa072923c8e35b78b9204f1e90fec5cc",
+  "voices": {
+    "S1": {
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Karen Fox",
+      "gender": "female",
+      "accent": "american",
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Mr Singh",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 4.44
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 4.89,
+      "end": 9.16
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 9.61,
+      "end": 17.12
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 17.57,
+      "end": 22.33
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 22.78,
+      "end": 40.94
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 41.39,
+      "end": 50.13
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 50.58,
+      "end": 57.47
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 57.92,
+      "end": 68.07
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 68.52,
+      "end": 72.89
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 73.34,
+      "end": 80.37
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 80.82,
+      "end": 87.16
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 87.61,
+      "end": 99.37
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 99.82,
+      "end": 107.16
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 107.61,
+      "end": 115.87
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 116.32,
+      "end": 121.48
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 121.93,
+      "end": 126.87
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 127.32,
+      "end": 134.86
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 135.31,
+      "end": 143.49
+    }
+  ],
+  "duration_seconds": 143.49,
+  "size_bytes": 1148588,
+  "audio_sha256": "bb7cc24bc72a63557573e4c66aa0997f5df3b0b2ba63f0a76b42a2b62645e694",
+  "generated_at": "2026-10-30T20:50:59+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

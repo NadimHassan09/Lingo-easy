@@ -1,0 +1,40 @@
+{
+  "part_id": "LI108",
+  "part_uuid": "c8d827c4-d048-44d5-abd4-157ed0cc1af0",
+  "audio_file": "li108_a_message_from_spain.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "3c5f0b2c0109205cd5edef816b77fabc922cf74f39b17a4c5969b7eb11a22aae",
+  "voices": {
+    "S1": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Jack",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 55.85
+    }
+  ],
+  "duration_seconds": 55.85,
+  "size_bytes": 447404,
+  "audio_sha256": "06f2159b7ad50caa627cd22a3dada400a10eb3894b36f01b51581f3b6f534448",
+  "generated_at": "2026-10-30T20:45:50+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

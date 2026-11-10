@@ -1,0 +1,467 @@
+{
+  "schema_version": "1.0",
+  "id": "LI105",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Weekend Plans",
+  "topic": "family_and_relationships",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li105_weekend_plans.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Ben",
+        "gender": "male",
+        "accent": "australian",
+        "role": "student"
+      },
+      {
+        "id": "S2",
+        "name": "Sara",
+        "gender": "female",
+        "accent": "british",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hi, Sara. What are you doing this weekend?"
+      },
+      {
+        "speaker": "S2",
+        "text": "On Saturday I am visiting my grandmother. She lives near the sea."
+      },
+      {
+        "speaker": "S1",
+        "text": "That sounds nice. How do you go there?"
+      },
+      {
+        "speaker": "S2",
+        "text": "By bus. It takes about forty minutes. And you? What are you doing?"
+      },
+      {
+        "speaker": "S1",
+        "text": "On Saturday morning I play football with my friends. Then I go shopping with my sister."
+      },
+      {
+        "speaker": "S2",
+        "text": "What do you want to buy?"
+      },
+      {
+        "speaker": "S1",
+        "text": "A birthday present for my father. He is fifty on Sunday."
+      },
+      {
+        "speaker": "S2",
+        "text": "Fifty! Is there a party?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, a small party at home. We have the party at six o'clock. Do you want to come?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I would love to, but I am at my grandmother's house on Sunday too. We always eat lunch together."
+      },
+      {
+        "speaker": "S1",
+        "text": "Oh, no problem. Then come next week. We are going to the cinema on Friday."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great idea! I like films. What film is it?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It is a funny film about a dog."
+      },
+      {
+        "speaker": "S2",
+        "text": "I love dogs! Please send me a message."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay, I will. Have a good weekend!"
+      },
+      {
+        "speaker": "S2",
+        "text": "You too, Ben. Bye!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI105-Q01",
+          "number": 1,
+          "prompt": "Who is Sara visiting on Saturday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Her sister"
+            },
+            {
+              "id": "B",
+              "text": "Her friend"
+            },
+            {
+              "id": "C",
+              "text": "Her grandmother"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I am visiting my grandmother"
+          },
+          "explanation": "The audio says: \"I am visiting my grandmother\".",
+          "uuid": "85b3d658-4023-54bc-977f-90cbecc40b8c"
+        },
+        {
+          "id": "LI105-Q02",
+          "number": 2,
+          "prompt": "Where does her grandmother live?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Near a park"
+            },
+            {
+              "id": "B",
+              "text": "In the city centre"
+            },
+            {
+              "id": "C",
+              "text": "Near the sea"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "She lives near the sea"
+          },
+          "explanation": "The audio says: \"She lives near the sea\".",
+          "uuid": "39fa68a8-1431-569e-a4f3-65ddd11da5aa"
+        },
+        {
+          "id": "LI105-Q03",
+          "number": 3,
+          "prompt": "How does Sara travel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By bus"
+            },
+            {
+              "id": "B",
+              "text": "By train"
+            },
+            {
+              "id": "C",
+              "text": "By car"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "By bus. It takes"
+          },
+          "explanation": "The audio says: \"By bus. It takes\".",
+          "uuid": "21be2260-8d55-5b50-bc44-f21aafaa6c19"
+        },
+        {
+          "id": "LI105-Q04",
+          "number": 4,
+          "prompt": "How long is the journey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 14 minutes"
+            },
+            {
+              "id": "B",
+              "text": "About 40 minutes"
+            },
+            {
+              "id": "C",
+              "text": "About 4 hours"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about forty minutes"
+          },
+          "explanation": "The audio says: \"about forty minutes\".",
+          "uuid": "c66289b1-1395-5064-847c-c9ac5cf087c4"
+        },
+        {
+          "id": "LI105-Q05",
+          "number": 5,
+          "prompt": "What does Ben do on Saturday morning?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He goes shopping"
+            },
+            {
+              "id": "B",
+              "text": "He plays football"
+            },
+            {
+              "id": "C",
+              "text": "He visits his father"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I play football with my friends"
+          },
+          "explanation": "The audio says: \"I play football with my friends\".",
+          "uuid": "681046f4-2100-568d-a006-1c3627f985c9"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI105-Q06",
+          "number": 6,
+          "prompt": "What does Ben want to buy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A present for his sister"
+            },
+            {
+              "id": "B",
+              "text": "A present for his father"
+            },
+            {
+              "id": "C",
+              "text": "A new football"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "A birthday present for my father"
+          },
+          "explanation": "The audio says: \"A birthday present for my father\".",
+          "uuid": "f5bdd2aa-b976-58bd-a88a-86e57412858c"
+        },
+        {
+          "id": "LI105-Q07",
+          "number": 7,
+          "prompt": "How old is Ben's father on Sunday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fifty"
+            },
+            {
+              "id": "B",
+              "text": "Forty"
+            },
+            {
+              "id": "C",
+              "text": "Sixty"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "He is fifty on Sunday"
+          },
+          "explanation": "The audio says: \"He is fifty on Sunday\".",
+          "uuid": "362ee3cb-5c1e-5d22-a007-3ddac9823dbc"
+        },
+        {
+          "id": "LI105-Q08",
+          "number": 8,
+          "prompt": "What time is the party?",
+          "options": [
+            {
+              "id": "A",
+              "text": "6.00"
+            },
+            {
+              "id": "B",
+              "text": "5.00"
+            },
+            {
+              "id": "C",
+              "text": "8.00"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "at six o'clock"
+          },
+          "explanation": "The audio says: \"at six o'clock\".",
+          "uuid": "9d2c8cb3-ca23-58b3-a398-e7e5c25a3736"
+        },
+        {
+          "id": "LI105-Q09",
+          "number": 9,
+          "prompt": "Why can Sara not go to the party?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She is ill and cannot leave home"
+            },
+            {
+              "id": "B",
+              "text": "She is at her grandmother's house"
+            },
+            {
+              "id": "C",
+              "text": "She has a football match that day"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I am at my grandmother's house on Sunday too"
+          },
+          "explanation": "The audio says: \"I am at my grandmother's house on Sunday too\".",
+          "uuid": "5a75f26b-fd82-552c-aca7-251b1e59f76f"
+        },
+        {
+          "id": "LI105-Q10",
+          "number": 10,
+          "prompt": "What is the film about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A cat"
+            },
+            {
+              "id": "B",
+              "text": "A dog"
+            },
+            {
+              "id": "C",
+              "text": "A football player"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "funny film about a dog"
+          },
+          "explanation": "The audio says: \"funny film about a dog\".",
+          "uuid": "554faa26-43cb-5174-a1c4-eabd5abb9e0b"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "9a40ae0c-f307-45c7-af03-a12038cbc13a",
+  "derived": {
+    "word_count": 167,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 3,
+      "B": 5,
+      "C": 2
+    },
+    "content_hash": "1db8b1cd60294d4f"
+  }
+}

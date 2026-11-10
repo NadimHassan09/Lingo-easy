@@ -1,0 +1,540 @@
+{
+  "schema_version": "1.0",
+  "id": "RE008",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Mass Tourism: Blessing or Curse?",
+  "topic": "tourism_and_events",
+  "profile": "intermediate",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "Mass Tourism: Blessing or Curse?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Every year, over a billion international trips are made, and tourism accounts for roughly one in ten jobs worldwide. For many countries, from Spain to Thailand, it is a major source of income. But as numbers grow, so do complaints. In cities such as Venice and Barcelona, residents have protested against crowds, rising rents and the transformation of their neighbourhoods into attractions for visitors."
+      },
+      {
+        "label": "B",
+        "text": "The economic benefits are real. Tourists spend money in hotels, restaurants and shops, and this creates employment, often for people with few formal qualifications. In some small island economies, tourism provides more than half of national income. It can also fund the protection of natural and historic sites: entrance fees from visitors pay for much of the conservation work at places such as Machu Picchu and the Galápagos Islands."
+      },
+      {
+        "label": "C",
+        "text": "However, the benefits are not shared evenly. A large part of the money paid by tourists may go to foreign airlines, international hotel chains and tour companies, rather than to local people, and visitors often never leave the resort where they stay. Wages in the industry are often low and seasonal, and rising property prices can force residents to move away from the places where they grew up. In Venice, the population of the historic centre has fallen from about 175,000 in 1951 to fewer than 50,000 today."
+      },
+      {
+        "label": "D",
+        "text": "The environmental costs are also considerable. Aviation produces a significant share of global carbon emissions, and a single long-haul flight can generate as much carbon as many people produce in a year of normal living. At the destination, tourists use more water and produce more waste than residents, and popular beaches, trails and reefs can be damaged by sheer numbers. Some governments have responded by limiting access: Bhutan charges a daily fee, and Machu Picchu restricts the number of visitors."
+      },
+      {
+        "label": "E",
+        "text": "Supporters of tourism argue that it can also encourage conservation and understanding. Money from wildlife tourism gives local communities a reason to protect animals rather than hunt them, and travelling can break down prejudices by showing people how others live. Sustainable tourism, they say, is possible if visitors choose operators that employ local people, stay longer in fewer places and avoid the busiest seasons. Some also recommend choosing smaller guesthouses and family-run restaurants, where more of the money stays in the community."
+      },
+      {
+        "label": "F",
+        "text": "The truth is that the impact depends on how tourism is managed, not simply on how many people come. Cities can regulate short-term rentals, spread visitors across the year and invest in local public transport. Visitors, for their part, can ask whether their choices benefit the place they visit. A destination loved to death serves nobody, but a destination that welcomes visitors on its own terms can benefit everyone."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE008-Q01",
+          "number": 1,
+          "prompt": "What fraction of jobs worldwide does tourism account for?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Roughly one in a hundred"
+            },
+            {
+              "id": "B",
+              "text": "Roughly one in two"
+            },
+            {
+              "id": "C",
+              "text": "Roughly one in ten"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "roughly one in ten jobs worldwide"
+          },
+          "explanation": "The text says: \"roughly one in ten jobs worldwide\".",
+          "uuid": "f67a846a-8844-5bf7-9db6-7be044a90f8c"
+        },
+        {
+          "id": "RE008-Q02",
+          "number": 2,
+          "prompt": "Why have residents of Venice and Barcelona protested?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because of noise from the airport"
+            },
+            {
+              "id": "B",
+              "text": "Because of crowds and rising rents"
+            },
+            {
+              "id": "C",
+              "text": "Because of new museums for visitors"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "crowds, rising rents"
+          },
+          "explanation": "The text says: \"crowds, rising rents\".",
+          "uuid": "f45cab38-f001-5108-8e00-83715ed65bc8"
+        },
+        {
+          "id": "RE008-Q03",
+          "number": 3,
+          "prompt": "What do entrance fees from visitors pay for?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Much of the conservation work"
+            },
+            {
+              "id": "B",
+              "text": "The building of new hotels"
+            },
+            {
+              "id": "C",
+              "text": "Cheaper flights for tourists"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "pay for much of the conservation work"
+          },
+          "explanation": "The text says: \"pay for much of the conservation work\".",
+          "uuid": "b731f60f-acb3-5cef-9339-9889250d42ea"
+        },
+        {
+          "id": "RE008-Q04",
+          "number": 4,
+          "prompt": "Why might little of the tourists' money stay in the local area?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Much of it goes to foreign airlines and hotel chains"
+            },
+            {
+              "id": "B",
+              "text": "Tourists rarely spend any money in the local shops"
+            },
+            {
+              "id": "C",
+              "text": "Local people refuse to work in the tourist industry"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "foreign airlines, international hotel chains"
+          },
+          "explanation": "The text says: \"foreign airlines, international hotel chains\".",
+          "uuid": "ffbdbe58-c962-5f88-b7d4-526a984e9d26"
+        },
+        {
+          "id": "RE008-Q05",
+          "number": 5,
+          "prompt": "What has happened to the population of Venice's historic centre?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has fallen to fewer than 50,000"
+            },
+            {
+              "id": "B",
+              "text": "It has doubled since the year 1951"
+            },
+            {
+              "id": "C",
+              "text": "It has stayed the same since then"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "fewer than 50,000 today"
+          },
+          "explanation": "The text says: \"fewer than 50,000 today\".",
+          "uuid": "99252fa8-5d3c-53a9-9df2-6085f712bb18"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE008-Q06",
+          "number": 6,
+          "prompt": "Tourists use less water than residents.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "use more water and produce more waste than residents"
+          },
+          "explanation": "The text says: \"use more water and produce more waste than residents\".",
+          "uuid": "a4be59e3-9d7c-53f3-bde8-d0609b5996c0"
+        },
+        {
+          "id": "RE008-Q07",
+          "number": 7,
+          "prompt": "Bhutan charges visitors a daily fee.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Bhutan charges a daily fee"
+          },
+          "explanation": "The text says: \"Bhutan charges a daily fee\".",
+          "uuid": "9d6119cd-064b-5895-90d7-344d8e9e3666"
+        },
+        {
+          "id": "RE008-Q08",
+          "number": 8,
+          "prompt": "Wildlife tourism gives communities a reason to protect animals.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "a reason to protect animals rather than hunt them"
+          },
+          "explanation": "The text says: \"a reason to protect animals rather than hunt them\".",
+          "uuid": "7e103e32-4411-5e50-b328-5b3c85383ebd"
+        },
+        {
+          "id": "RE008-Q09",
+          "number": 9,
+          "prompt": "Most tourists prefer to travel in the busiest seasons.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "f63e7c8d-45e0-5d19-82cf-7187b57bd39f"
+        },
+        {
+          "id": "RE008-Q10",
+          "number": 10,
+          "prompt": "The writer thinks the number of visitors is the only factor that matters.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "not simply on how many people come"
+          },
+          "explanation": "The text says: \"not simply on how many people come\".",
+          "uuid": "b33953b1-8465-58d8-8fcd-183d8308d119"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE008-Q11",
+          "number": 11,
+          "prompt": "A comparison between the environmental impact of a flight and ordinary living",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "as much carbon as many people produce in a year"
+          },
+          "explanation": "The text says: \"as much carbon as many people produce in a year\".",
+          "uuid": "e114aa2d-72ca-57f2-9b7e-6507b679a6e1"
+        },
+        {
+          "id": "RE008-Q12",
+          "number": 12,
+          "prompt": "A suggestion that visitors can reduce harm through their choices",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "choose operators that employ local people"
+          },
+          "explanation": "The text says: \"choose operators that employ local people\".",
+          "uuid": "ac033b31-21d6-52eb-8f95-22f75128c9cf"
+        },
+        {
+          "id": "RE008-Q13",
+          "number": 13,
+          "prompt": "A warning that excessive popularity can destroy a destination",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph E"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "A destination loved to death serves nobody"
+          },
+          "explanation": "The text says: \"A destination loved to death serves nobody\".",
+          "uuid": "7ef0d647-1e2e-5cab-849a-6831e8aa0bce"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "2366dd00-1721-400a-858d-a8fd618837a6",
+  "derived": {
+    "word_count": 457,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 3,
+      "B2": 5,
+      "C1": 3,
+      "C2": 1
+    },
+    "mean_band": 6.04,
+    "answer_counts": {
+      "A": 5,
+      "B": 3,
+      "C": 3,
+      "D": 2
+    },
+    "content_hash": "bb04ab9cc19d5fc0"
+  }
+}

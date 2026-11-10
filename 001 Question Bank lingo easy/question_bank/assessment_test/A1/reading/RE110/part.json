@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE110",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "The New Neighbours",
+  "topic": "family_and_relationships",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "The New Neighbours",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Last month, a new family moved into the flat next to mine. There are four people: a father, a mother and two girls. They come from Poland. The father's name is Marek, and the mother's name is Ewa."
+      },
+      {
+        "label": "B",
+        "text": "On the first day, I said hello and gave them some cake. Ewa was very happy. She said, 'Thank you! You are very kind.' Her English is good, but Marek's English is not very good, so he is learning at an evening class."
+      },
+      {
+        "label": "C",
+        "text": "The girls are called Zosia and Kasia. Zosia is nine and Kasia is twelve. They go to the school near our building. Zosia likes drawing, and Kasia likes music. She plays the piano every evening. I can hear it through the wall, and I like it."
+      },
+      {
+        "label": "D",
+        "text": "Last Saturday they invited me for dinner. We ate soup and a special Polish dish with potatoes and meat. It was delicious! After dinner, Marek showed me photos of their old home. It is a small town near a big forest. I hope they are happy here."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE110-Q01",
+          "number": 1,
+          "prompt": "When did the new family move in?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Last week"
+            },
+            {
+              "id": "B",
+              "text": "Last year"
+            },
+            {
+              "id": "C",
+              "text": "Last month"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "Last month, a new family moved"
+          },
+          "explanation": "The text says: \"Last month, a new family moved\".",
+          "uuid": "9dd0eb7e-3243-50c6-a995-2b3232c5f688"
+        },
+        {
+          "id": "RE110-Q02",
+          "number": 2,
+          "prompt": "How many people are in the family?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three"
+            },
+            {
+              "id": "B",
+              "text": "Six"
+            },
+            {
+              "id": "C",
+              "text": "Four"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "There are four people"
+          },
+          "explanation": "The text says: \"There are four people\".",
+          "uuid": "35aa8f85-661c-56db-91e2-c3ee425077d1"
+        },
+        {
+          "id": "RE110-Q03",
+          "number": 3,
+          "prompt": "Where does the family come from?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Portugal"
+            },
+            {
+              "id": "B",
+              "text": "Poland"
+            },
+            {
+              "id": "C",
+              "text": "Germany"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "They come from Poland"
+          },
+          "explanation": "The text says: \"They come from Poland\".",
+          "uuid": "4c06d694-4c88-5814-946d-98ad207a56d8"
+        },
+        {
+          "id": "RE110-Q04",
+          "number": 4,
+          "prompt": "What did the writer give them on the first day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Some cake"
+            },
+            {
+              "id": "B",
+              "text": "Some flowers"
+            },
+            {
+              "id": "C",
+              "text": "Some tea"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "gave them some cake"
+          },
+          "explanation": "The text says: \"gave them some cake\".",
+          "uuid": "3421dafc-6f9d-5fc2-8912-9ca0e705369c"
+        },
+        {
+          "id": "RE110-Q05",
+          "number": 5,
+          "prompt": "Why does Marek go to an evening class?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To learn English"
+            },
+            {
+              "id": "B",
+              "text": "To learn music"
+            },
+            {
+              "id": "C",
+              "text": "To find a job"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "he is learning at an evening class"
+          },
+          "explanation": "The text says: \"he is learning at an evening class\".",
+          "uuid": "7a1fb44f-23e5-5f6f-bc90-d467661d294e"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE110-Q06",
+          "number": 6,
+          "prompt": "Ewa's English is good.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Her English is good"
+          },
+          "explanation": "The text says: \"Her English is good\".",
+          "uuid": "5bee7688-c21a-5e1c-8db3-eff2af398a2b"
+        },
+        {
+          "id": "RE110-Q07",
+          "number": 7,
+          "prompt": "Zosia is twelve.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Zosia is nine"
+          },
+          "explanation": "The text says: \"Zosia is nine\".",
+          "uuid": "9c51104a-e05a-570d-af7a-0e960a2f8fa9"
+        },
+        {
+          "id": "RE110-Q08",
+          "number": 8,
+          "prompt": "Kasia plays the piano every morning.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "plays the piano every evening"
+          },
+          "explanation": "The text says: \"plays the piano every evening\".",
+          "uuid": "ac3ed796-468e-5c14-a44d-c27357e623a0"
+        },
+        {
+          "id": "RE110-Q09",
+          "number": 9,
+          "prompt": "The family invited the writer for lunch.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "invited me for dinner"
+          },
+          "explanation": "The text says: \"invited me for dinner\".",
+          "uuid": "7bb2b34d-f9ee-5b34-9419-59c26c8e559c"
+        },
+        {
+          "id": "RE110-Q10",
+          "number": 10,
+          "prompt": "The family has a dog.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "1598687f-5ab6-51e6-8118-fb5c6d0daf0d"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE110-Q11",
+          "number": 11,
+          "prompt": "Zosia likes _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "drawing"
+            },
+            {
+              "id": "B",
+              "text": "music"
+            },
+            {
+              "id": "C",
+              "text": "football"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Zosia likes drawing"
+          },
+          "explanation": "The text says: \"Zosia likes drawing\".",
+          "uuid": "5ccdb1f9-20e9-57aa-8439-b94455f09ac4"
+        },
+        {
+          "id": "RE110-Q12",
+          "number": 12,
+          "prompt": "For dinner, they ate soup and a special dish with _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "fish and rice"
+            },
+            {
+              "id": "B",
+              "text": "potatoes and meat"
+            },
+            {
+              "id": "C",
+              "text": "cheese and bread"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "potatoes and meat"
+          },
+          "explanation": "The text says: \"potatoes and meat\".",
+          "uuid": "8ecf3468-d92a-55ed-8483-079dfd3944e2"
+        },
+        {
+          "id": "RE110-Q13",
+          "number": 13,
+          "prompt": "Their old home is a small town near a big _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "lake"
+            },
+            {
+              "id": "B",
+              "text": "river"
+            },
+            {
+              "id": "C",
+              "text": "forest"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "near a big forest"
+          },
+          "explanation": "The text says: \"near a big forest\".",
+          "uuid": "60a19c47-70d1-5e36-a64e-0de5e7e6b0aa"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "6a1d2f72-dea4-470e-b88e-1e721758d06e",
+  "derived": {
+    "word_count": 174,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 4
+    },
+    "content_hash": "5613487606df650e"
+  }
+}

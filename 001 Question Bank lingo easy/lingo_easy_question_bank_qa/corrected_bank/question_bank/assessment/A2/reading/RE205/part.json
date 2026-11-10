@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE205",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Recycling at Our School",
+  "topic": "environment",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "Recycling at Our School",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Last year, our school had a big problem with rubbish. Every day, the students threw away hundreds of plastic bottles, paper cups and food. The cleaners filled twenty bags each week, and the school paid a lot of money to take the rubbish away."
+      },
+      {
+        "label": "B",
+        "text": "The head teacher, Mr Adams, asked the students for ideas. Some students suggested recycling. So in September the school bought coloured bins: blue for paper, green for glass, yellow for plastic and brown for food. A student group called the Green Team explained how to use them in a short video."
+      },
+      {
+        "label": "C",
+        "text": "At first, many students put their rubbish in the wrong bin, and the bins were very dirty. The Green Team put signs with pictures on each bin. They also gave a prize every month to the class with the best recycling. The winners got a free pizza lunch, so students became very interested."
+      },
+      {
+        "label": "D",
+        "text": "After six months, the school's rubbish fell by forty per cent. The money saved paid for new books in the library. The school also started a garden where students use the food waste to make soil for vegetables. Other schools in the town have now asked the Green Team for help, and they are planning a visit next month."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE205-Q01",
+          "number": 1,
+          "prompt": "What was the school's problem last year?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dirty classrooms"
+            },
+            {
+              "id": "B",
+              "text": "Too much rubbish"
+            },
+            {
+              "id": "C",
+              "text": "Too few bins"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "big problem with rubbish"
+          },
+          "explanation": "The text says: \"big problem with rubbish\".",
+          "uuid": "2d0c0e23-e4fe-576c-bb6a-943964a7b2da"
+        },
+        {
+          "id": "RE205-Q02",
+          "number": 2,
+          "prompt": "How many bags did the cleaners fill each week?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two"
+            },
+            {
+              "id": "B",
+              "text": "Two hundred"
+            },
+            {
+              "id": "C",
+              "text": "Twenty"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "filled twenty bags each week"
+          },
+          "explanation": "The text says: \"filled twenty bags each week\".",
+          "uuid": "5db2525b-6310-59bb-ba42-fe50d698c949"
+        },
+        {
+          "id": "RE205-Q03",
+          "number": 3,
+          "prompt": "Who asked the students for ideas?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The cleaners"
+            },
+            {
+              "id": "B",
+              "text": "The head teacher"
+            },
+            {
+              "id": "C",
+              "text": "The Green Team"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "The head teacher, Mr Adams, asked the students"
+          },
+          "explanation": "The text says: \"The head teacher, Mr Adams, asked the students\".",
+          "uuid": "51570b54-235d-5143-96bb-7d5408eb1636"
+        },
+        {
+          "id": "RE205-Q04",
+          "number": 4,
+          "prompt": "Which colour bin is for glass?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Green"
+            },
+            {
+              "id": "B",
+              "text": "Blue"
+            },
+            {
+              "id": "C",
+              "text": "Yellow"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "green for glass"
+          },
+          "explanation": "The text says: \"green for glass\".",
+          "uuid": "92e072ec-5df4-52c8-965f-16385551eba2"
+        },
+        {
+          "id": "RE205-Q05",
+          "number": 5,
+          "prompt": "How did the Green Team help?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They bought the bins"
+            },
+            {
+              "id": "B",
+              "text": "They cleaned the classrooms"
+            },
+            {
+              "id": "C",
+              "text": "They made a video"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "explained how to use them in a short video"
+          },
+          "explanation": "The text says: \"explained how to use them in a short video\".",
+          "uuid": "ac0bf1fc-8c49-5177-9bc1-583fa5139798"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE205-Q06",
+          "number": 6,
+          "prompt": "At first, students used the bins correctly.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "put their rubbish in the wrong bin"
+          },
+          "explanation": "The text says: \"put their rubbish in the wrong bin\".",
+          "uuid": "61f2998b-d956-54e9-8f07-6a4e4da1a603"
+        },
+        {
+          "id": "RE205-Q07",
+          "number": 7,
+          "prompt": "The Green Team put pictures on the bins.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "signs with pictures on each bin"
+          },
+          "explanation": "The text says: \"signs with pictures on each bin\".",
+          "uuid": "d722a2fd-d8b5-55f2-b2d4-d5bc6779b421"
+        },
+        {
+          "id": "RE205-Q08",
+          "number": 8,
+          "prompt": "The best class each month got a free pizza lunch.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "got a free pizza lunch"
+          },
+          "explanation": "The text says: \"got a free pizza lunch\".",
+          "uuid": "a92d9670-a48d-5610-96a6-825d10cfc855"
+        },
+        {
+          "id": "RE205-Q09",
+          "number": 9,
+          "prompt": "The school's rubbish fell by sixty per cent.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "fell by forty per cent"
+          },
+          "explanation": "The text says: \"fell by forty per cent\".",
+          "uuid": "785a890d-ca63-5c59-8f2a-fa2a400ff11d"
+        },
+        {
+          "id": "RE205-Q10",
+          "number": 10,
+          "prompt": "The students will visit another country next year.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "d6a431ee-9b67-5373-91d9-73e606136f47"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE205-Q11",
+          "number": 11,
+          "prompt": "The money saved paid for new _____ in the library.",
+          "options": [
+            {
+              "id": "A",
+              "text": "books"
+            },
+            {
+              "id": "B",
+              "text": "computers"
+            },
+            {
+              "id": "C",
+              "text": "tables"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "paid for new books"
+          },
+          "explanation": "The text says: \"paid for new books\".",
+          "uuid": "05d40cfc-3ed8-5bb5-86d8-b2451506fd01"
+        },
+        {
+          "id": "RE205-Q12",
+          "number": 12,
+          "prompt": "Students use food waste to make _____ for vegetables.",
+          "options": [
+            {
+              "id": "A",
+              "text": "juice"
+            },
+            {
+              "id": "B",
+              "text": "paper"
+            },
+            {
+              "id": "C",
+              "text": "soil"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "make soil for vegetables"
+          },
+          "explanation": "The text says: \"make soil for vegetables\".",
+          "uuid": "67cdab17-9731-5190-81f7-25081a2f5f2a"
+        },
+        {
+          "id": "RE205-Q13",
+          "number": 13,
+          "prompt": "Other schools have asked the Green Team for _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "help"
+            },
+            {
+              "id": "B",
+              "text": "money"
+            },
+            {
+              "id": "C",
+              "text": "bins"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "asked the Green Team for help"
+          },
+          "explanation": "The text says: \"asked the Green Team for help\".",
+          "uuid": "bf587ce9-8c1b-5168-808a-6794cb5b42f7"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "9cba5d94-1995-475b-a5bc-744abe602529",
+  "derived": {
+    "word_count": 207,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "124cbb4816c44025"
+  }
+}

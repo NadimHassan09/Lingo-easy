@@ -1,0 +1,76 @@
+{
+  "part_id": "LI010",
+  "part_uuid": "d4db5937-a32a-4d97-b27b-58ae04b25f6c",
+  "audio_file": "li010_why_do_we_sleep.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "06f9d6761126f046f710104c46ce839779a1819039783e09e5e71660846b1031",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Fiona Gray",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 14.16
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 14.61,
+      "end": 42.52
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 42.97,
+      "end": 69.01
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 69.46,
+      "end": 94.61
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 95.06,
+      "end": 123.77
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 124.22,
+      "end": 163.03
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 163.48,
+      "end": 197.7
+    }
+  ],
+  "duration_seconds": 197.7,
+  "size_bytes": 1582316,
+  "audio_sha256": "f1eb9ff777624ab7d178934a73157f978ce89459f88d460d34339ad002ebf653",
+  "generated_at": "2026-10-30T20:43:36+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

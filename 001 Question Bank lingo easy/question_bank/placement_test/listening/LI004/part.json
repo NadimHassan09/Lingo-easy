@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "id": "LI004",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "Why We Forget and What Helps",
+  "topic": "psychology",
+  "profile": "advanced",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li004_why_we_forget_and_what_helps.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Hannah Reyes",
+        "gender": "female",
+        "accent": "british",
+        "role": "psychology lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon. Today I want to look at a question every student has asked at some point: why do we forget things we have worked hard to learn? I'll start with the classic explanation, then look at what the research really shows, and finally talk about study methods that make a measurable difference."
+      },
+      {
+        "speaker": "S1",
+        "text": "The classic explanation comes from the German psychologist Hermann Ebbinghaus, who in the eighteen-eighties memorised lists of nonsense syllables and tested himself at different intervals. He found that forgetting is fastest at the start. Within the first hour, he lost roughly half of what he had learned, and after a day the figure was closer to two thirds. After that, the decline slows down dramatically."
+      },
+      {
+        "speaker": "S1",
+        "text": "It is tempting to conclude from this that memories simply fade, like ink in sunlight. However, most researchers now consider that picture too simple. One reason is that people can often recall a forgotten detail if they are given the right cue. A smell, a song, or even being in the same room as when they learned something can bring it back. This suggests that the memory was still there, and that what failed was retrieval, not storage."
+      },
+      {
+        "speaker": "S1",
+        "text": "A second finding concerns interference. Learning new material can disrupt older material, and the reverse can happen too. A student who studies Spanish and Italian in the same week often mixes up the vocabulary, not because either language has faded, but because the two sets of words compete with each other. Spacing the two subjects apart reduces this problem."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, many students believe that the best way to prepare for an exam is to read their notes several times. Unfortunately, the evidence is not encouraging. Rereading feels productive because the text becomes familiar, but familiarity is easily mistaken for knowledge. In one well-known experiment, students who reread a passage predicted they would remember most of it, yet they scored lower than students who had spent the same time testing themselves."
+      },
+      {
+        "speaker": "S1",
+        "text": "That brings me to the technique with the strongest support, which is retrieval practice. Every time you try to recall something without looking, you strengthen the route to that memory. It is uncomfortable, because you will often get answers wrong, but those mistakes are not wasted effort. They show you where the gaps are, and the act of correcting them helps the right answer stick."
+      },
+      {
+        "speaker": "S1",
+        "text": "The second technique is spacing. Instead of studying for six hours the night before, it is far more effective to study for one hour on six different days. The gaps give you the chance to forget a little, and the effort of remembering again makes the memory more durable. I should add a caution here. Spacing needs time to work. If the exam is only two days away, the advice is simply to test yourself as often as you can."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, a word about sleep. Several studies suggest that sleeping soon after learning improves recall the next day, probably because the brain replays and organises new information overnight. Some people go further and claim that sleeping with a recording of a lecture playing can teach you the material. I'm afraid that idea has not survived careful testing. It's an appealing thought, but there is no solid evidence for it."
+      },
+      {
+        "speaker": "S1",
+        "text": "To sum up, forgetting is mostly a problem of retrieval and interference rather than disappearance. The habits that feel most comfortable, such as rereading, are often the least effective, while the ones that feel difficult tend to work best. If I had to give you one piece of advice, it would be this: make your study sessions a little harder than feels natural, and spread them out."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI004-Q01",
+          "number": 1,
+          "prompt": "Roughly how much of what he had learned did Ebbinghaus lose within the first hour?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About half"
+            },
+            {
+              "id": "B",
+              "text": "Almost nothing"
+            },
+            {
+              "id": "C",
+              "text": "Nearly everything"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "he lost roughly half of what he had learned"
+          },
+          "explanation": "The lecturer says he lost roughly half of what he had learned in the first hour. Two thirds is the figure after a day.",
+          "uuid": "3d465a93-6124-5295-a47a-a066b07e1603"
+        },
+        {
+          "id": "LI004-Q02",
+          "number": 2,
+          "prompt": "What happens to forgetting after the first day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It continues at the same speed."
+            },
+            {
+              "id": "B",
+              "text": "It becomes much slower."
+            },
+            {
+              "id": "C",
+              "text": "It speeds up."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the decline slows down dramatically"
+          },
+          "explanation": "After the first day the decline slows down dramatically.",
+          "uuid": "9875528f-bae3-5eee-ab65-7080f5507134"
+        },
+        {
+          "id": "LI004-Q03",
+          "number": 3,
+          "prompt": "What does the evidence about cues suggest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Memories fade more quickly in unfamiliar places."
+            },
+            {
+              "id": "B",
+              "text": "Smells are remembered better than words."
+            },
+            {
+              "id": "C",
+              "text": "Some forgotten memories are still stored."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "synonym_paraphrase",
+            "target": "the memory was still there = still stored"
+          },
+          "evidence": {
+            "quote": "This suggests that the memory was still there"
+          },
+          "explanation": "Because a cue can bring a memory back, the memory was still there and retrieval failed. The lecturer does not compare smells with words.",
+          "uuid": "3bd0c6ed-56d4-584e-95ff-9aa835cc2ea8"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI004-Q04",
+          "number": 4,
+          "prompt": "Why might a student confuse Spanish and Italian vocabulary?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Both sets of words compete with each other."
+            },
+            {
+              "id": "B",
+              "text": "One of the languages has faded from memory."
+            },
+            {
+              "id": "C",
+              "text": "The student has not studied either language for long enough."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "cause_and_effect"
+          },
+          "evidence": {
+            "quote": "the two sets of words compete with each other"
+          },
+          "explanation": "The lecturer rejects the idea that either language has faded and says the two sets of words compete with each other.",
+          "uuid": "6af78974-3a1e-564e-b309-464923f8f5b9"
+        },
+        {
+          "id": "LI004-Q05",
+          "number": 5,
+          "prompt": "What is the lecturer's view of rereading notes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is useful only for short texts."
+            },
+            {
+              "id": "B",
+              "text": "It seems helpful but can be misleading."
+            },
+            {
+              "id": "C",
+              "text": "It causes interference between subjects."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "speaker_opinion",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "familiarity is easily mistaken for knowledge"
+          },
+          "explanation": "Rereading makes a text feel familiar, and familiarity is easily mistaken for knowledge, so it can mislead students.",
+          "uuid": "20b28b6c-2e4e-50cc-b761-c3f790a80606"
+        },
+        {
+          "id": "LI004-Q06",
+          "number": 6,
+          "prompt": "What did the experiment show about students who reread a passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They remembered more than students who tested themselves."
+            },
+            {
+              "id": "B",
+              "text": "They overestimated how much they would remember."
+            },
+            {
+              "id": "C",
+              "text": "They found the passage harder than other students did."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "predicted they would remember most of it"
+          },
+          "explanation": "They predicted they would remember most of it but scored lower than students who tested themselves.",
+          "uuid": "74f19017-8a56-5860-aa33-27709f8b0ab5"
+        },
+        {
+          "id": "LI004-Q07",
+          "number": 7,
+          "prompt": "What is the lecturer's attitude to mistakes made during self-testing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are the main reason many students give up."
+            },
+            {
+              "id": "B",
+              "text": "They weaken the memory unless they are corrected at once."
+            },
+            {
+              "id": "C",
+              "text": "They are useful because they reveal what still needs learning."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "They show you where the gaps are"
+          },
+          "explanation": "She admits self-testing is uncomfortable but says mistakes are not wasted effort because they show where the gaps are.",
+          "uuid": "756c0adb-275c-5017-835b-2b5e81fae9fb"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI004-Q08",
+          "number": 8,
+          "prompt": "What does the lecturer imply about spacing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It should be used in place of retrieval practice."
+            },
+            {
+              "id": "B",
+              "text": "It depends on how much time is left before the exam."
+            },
+            {
+              "id": "C",
+              "text": "It is suitable only for students with a lot of free time."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Spacing needs time to work"
+          },
+          "explanation": "Spacing needs time to work, so with only two days left the advice changes to testing yourself as often as possible.",
+          "uuid": "7fecd714-a1d5-574e-a0cd-4322f4ea2e94"
+        },
+        {
+          "id": "LI004-Q09",
+          "number": 9,
+          "prompt": "What is the lecturer's opinion of learning from a recording while asleep?",
+          "options": [
+            {
+              "id": "A",
+              "text": "An attractive idea that lacks solid support"
+            },
+            {
+              "id": "B",
+              "text": "A promising method that needs more testing"
+            },
+            {
+              "id": "C",
+              "text": "A technique that works only for vocabulary"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "collocation",
+            "target": "survive careful testing"
+          },
+          "evidence": {
+            "quote": "has not survived careful testing"
+          },
+          "explanation": "She calls it an appealing thought but says it has not survived careful testing and has no solid evidence. She does not call it promising.",
+          "uuid": "acfa46fd-9c59-51d2-a693-bdc76a6fab30"
+        },
+        {
+          "id": "LI004-Q10",
+          "number": 10,
+          "prompt": "Which statement best sums up the lecturer's overall message?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Memory problems are caused mostly by poor sleep and interference."
+            },
+            {
+              "id": "B",
+              "text": "Forgetting cannot be avoided, so students should focus on understanding."
+            },
+            {
+              "id": "C",
+              "text": "Effective study depends on effort and timing rather than comfort."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "gist",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "make your study sessions a little harder than feels natural"
+          },
+          "explanation": "She concludes that difficult, spaced-out study works best, while comfortable habits such as rereading are often the least effective.",
+          "uuid": "a3e464ad-2fd5-5706-8187-5acf2b5b59f1"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "93e03a22-2f56-44ed-8c2f-c0f154119901",
+  "derived": {
+    "word_count": 609,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 1,
+      "B2": 3,
+      "C1": 4,
+      "C2": 1
+    },
+    "mean_band": 6.35,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "5f6ba43659e97a04"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "synthetic-skipper:2026-01-01T00:00:00+00:00",
+  "learner_id": "synthetic-skipper",
+  "generated_at": "2026-01-01T00:00:00+00:00",
+  "generator_version": "adaptive/profile.py v1.0",
+  "attempts_included": [
+    "synthetic-skipper-a1"
+  ],
+  "synthetic": true,
+  "status": "insufficient_evidence",
+  "status_reason": {
+    "answered_questions": 3,
+    "attempts": 1,
+    "rule": "insufficient_evidence <6 answered; provisional if <2 attempts or <40 answered; otherwise established (still uncalibrated)"
+  },
+  "observed_performance": {
+    "overall": {
+      "n_answered": 3,
+      "n_correct": 2,
+      "accuracy": 0.667,
+      "wilson_low": 0.208,
+      "wilson_high": 0.939,
+      "supporting_attempt_record_ids": [
+        "synthetic-skipper-a1:LI001-Q10",
+        "synthetic-skipper-a1:RE003-Q02",
+        "synthetic-skipper-a1:RE002-Q08"
+      ]
+    },
+    "by_modality": {
+      "reading": {
+        "n_answered": 2,
+        "n_correct": 1,
+        "accuracy": 0.5,
+        "wilson_low": 0.095,
+        "wilson_high": 0.905,
+        "supporting_attempt_record_ids": [
+          "synthetic-skipper-a1:RE003-Q02",
+          "synthetic-skipper-a1:RE002-Q08"
+        ]
+      },
+      "listening": {
+        "n_answered": 1,
+        "n_correct": 1,
+        "accuracy": 1.0,
+        "wilson_low": 0.207,
+        "wilson_high": 1.0,
+        "supporting_attempt_record_ids": [
+          "synthetic-skipper-a1:LI001-Q10"
+        ]
+      }
+    }
+  },
+  "cefr_estimate": {
+    "level": null,
+    "status": "indicative",
+    "method": "last level with >=60% correct on >=4 items before the first level below that threshold; levels with <4 items are skipped",
+    "per_level": {
+      "B1": {
+        "n": 1,
+        "correct": 0
+      },
+      "B2": {
+        "n": 1,
+        "correct": 1
+      },
+      "C1": {
+        "n": 1,
+        "correct": 1
+      }
+    },
+    "items_used": 0,
+    "items_total": 3,
+    "confidence_label": "insufficient_evidence",
+    "caveat": "Not a calibrated placement. Provisional until learner-response data exists to calibrate items."
+  },
+  "subskills": {
+    "claim_verification": {
+      "n_answered": 0,
+      "n_correct": 0,
+      "accuracy": null,
+      "wilson_low": 0.0,
+      "wilson_high": 1.0,
+      "supporting_attempt_record_ids": [],
+      "status": "insufficient_evidence"
+    },
+    "detail_retrieval": {
+      "n_answered": 0,
+      "n_correct": 0,
+      "accuracy": null,
+      "wilson_low": 0.0,
+      "wilson_high": 1.0,
+      "supporting_attempt_record_ids": [],
+      "status": "insufficient_evidence"
+    },
+    "discourse_structure": {
+      "n_answered": 0,
+      "n_correct": 0,
+      "accuracy": null,
+      "wilson_low": 0.0,
+      "wilson_high": 1.0,
+      "supporting_attempt_record_ids": [],
+      "status": "insufficient_evidence"
+    },
+    "inference": {
+      "n_answered": 0,
+      "n_correct": 0,
+      "accuracy": null,
+      "wilson_low": 0.0,
+      "wilson_high": 1.0,
+      "supporting_attempt_record_ids": [],
+      "status": "insufficient_evidence"
+    },
+    "information_tracking": {
+      "n_answered": 0,
+      "n_correct": 0,
+      "accuracy": null,
+      "wilson_low": 0.0,
+      "wilson_high": 1.0,
+      "supporting_attempt_record_ids": [],
+      "status": "insufficient_evidence"
+    },
+    "main_idea_gist": {
+      "n_answered": 0,
+      "n_correct": 0,
+      "accuracy": null,
+      "wilson_low": 0.0,
+      "wilson_high": 1.0,
+      "supporting_attempt_record_ids": [],
+      "status": "insufficient_evidence"
+    },
+    "paraphrase_recognition": {
+      "n_answered": 1,
+      "n_correct": 0,
+      "accuracy": 0.0,
+      "wilson_low": 0.0,
+      "wilson_high": 0.793,
+      "supporting_attempt_record_ids": [
+        "synthetic-skipper-a1:RE003-Q02"
+      ],
+      "status": "insufficient_evidence"
+    },
+    "stance_attitude": {
+      "n_answered": 2,
+      "n_correct": 2,
+      "accuracy": 1.0,
+      "wilson_low": 0.342,
+      "wilson_high": 1.0,
+      "supporting_attempt_record_ids": [
+        "synthetic-skipper-a1:LI001-Q10",
+        "synthetic-skipper-a1:RE002-Q08"
+      ],
+      "status": "insufficient_evidence"
+    }
+  },
+  "consistency": {
+    "status": "not_assessable",
+    "reason": "needs >=2 attempts with >=10 answered questions"
+  },
+  "error_patterns": [],
+  "recommended_next_objectives": [],
+  "lesson_mapping_note": "lesson_ref is null: no lesson/exercise bank was found in the project, so objectives cannot yet be mapped to concrete lessons.",
+  "uncertainty": [
+    "Item difficulty is unvalidated (no learner-response calibration); accuracy against the 0.6 reference is a screening rule, not a measurement of mastery.",
+    "Sub-skill tags are rule-validated only; many items in the bank test detail retrieval, so other sub-skills have few observations.",
+    "Error patterns are hypotheses about reasoning; one wrong answer never establishes a misconception."
+  ],
+  "synthetic_note": "Simulated learner (theta=5.0 on the 1-9 band scale, answer_rate=0.06). Not real data."
+}

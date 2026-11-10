@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.0",
+  "id": "LI207",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Joining the Library",
+  "topic": "education",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li207_joining_the_library.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Carol",
+        "gender": "female",
+        "accent": "american",
+        "role": "librarian"
+      },
+      {
+        "id": "S2",
+        "name": "Ryan",
+        "gender": "male",
+        "accent": "british",
+        "role": "new member"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hello, welcome to the city library. How can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hi. I'd like to join the library, please. I've just moved here."
+      },
+      {
+        "speaker": "S1",
+        "text": "Wonderful. Membership is free for residents. Do you have something that shows your address?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I have a letter from my bank. Is that okay?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, that's fine. And I'll need a photo ID, like a driving licence."
+      },
+      {
+        "speaker": "S2",
+        "text": "I have my passport with me."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's perfect. Please fill in this form. It takes about five minutes."
+      },
+      {
+        "speaker": "S2",
+        "text": "Done. How many books can I borrow?"
+      },
+      {
+        "speaker": "S1",
+        "text": "You can borrow ten books at the same time, for three weeks. If you need more time, you can renew them online or by phone."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. And can I borrow DVDs as well?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, DVDs are two pounds each for a week. Music CDs are free."
+      },
+      {
+        "speaker": "S2",
+        "text": "Do you have a quiet room for studying? I'm preparing for an exam."
+      },
+      {
+        "speaker": "S1",
+        "text": "We have a study room on the second floor. It's open from nine to eight on weekdays, but you must book a table at the front desk."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thanks. Is there wifi?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, it's free. Here's your card. Don't lose it, because a new card costs three pounds."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI207-Q01",
+          "number": 1,
+          "prompt": "Why does Ryan want to join the library?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He has just moved to the city"
+            },
+            {
+              "id": "B",
+              "text": "He needs a quiet place to work"
+            },
+            {
+              "id": "C",
+              "text": "His old library was closed down"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I've just moved here"
+          },
+          "explanation": "The audio says: \"I've just moved here\".",
+          "uuid": "103c0543-6ce9-5cea-8723-584dd416b1a0"
+        },
+        {
+          "id": "LI207-Q02",
+          "number": 2,
+          "prompt": "How much is membership for residents?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is free"
+            },
+            {
+              "id": "B",
+              "text": "2 pounds"
+            },
+            {
+              "id": "C",
+              "text": "10 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Membership is free for residents"
+          },
+          "explanation": "The audio says: \"Membership is free for residents\".",
+          "uuid": "f5125b6d-9f77-5ddb-8a51-ea2470fea2f1"
+        },
+        {
+          "id": "LI207-Q03",
+          "number": 3,
+          "prompt": "What shows Ryan's address?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A phone bill from last month"
+            },
+            {
+              "id": "B",
+              "text": "A letter from his old school"
+            },
+            {
+              "id": "C",
+              "text": "A letter from his bank"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I have a letter from my bank"
+          },
+          "explanation": "The audio says: \"I have a letter from my bank\".",
+          "uuid": "66447bec-1804-59ee-a63e-ad8823c8ac9b"
+        },
+        {
+          "id": "LI207-Q04",
+          "number": 4,
+          "prompt": "Which photo ID does Ryan have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A passport"
+            },
+            {
+              "id": "B",
+              "text": "A driving licence"
+            },
+            {
+              "id": "C",
+              "text": "A student card"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I have my passport with me"
+          },
+          "explanation": "The audio says: \"I have my passport with me\".",
+          "uuid": "9771d906-7e1c-5c64-9dec-efc86f390c9b"
+        },
+        {
+          "id": "LI207-Q05",
+          "number": 5,
+          "prompt": "How long does the form take?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 15 minutes"
+            },
+            {
+              "id": "B",
+              "text": "About an hour"
+            },
+            {
+              "id": "C",
+              "text": "About 5 minutes"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It takes about five minutes"
+          },
+          "explanation": "The audio says: \"It takes about five minutes\".",
+          "uuid": "d65dbd03-ceb0-51fe-8e3e-a32bef4c9b04"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI207-Q06",
+          "number": 6,
+          "prompt": "How many books can Ryan borrow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three"
+            },
+            {
+              "id": "B",
+              "text": "Twenty"
+            },
+            {
+              "id": "C",
+              "text": "Ten"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "You can borrow ten books"
+          },
+          "explanation": "The audio says: \"You can borrow ten books\".",
+          "uuid": "aa8a36ab-a006-5f1e-9d9e-40acf7496531"
+        },
+        {
+          "id": "LI207-Q07",
+          "number": 7,
+          "prompt": "For how long can he keep the books?",
+          "options": [
+            {
+              "id": "A",
+              "text": "One week"
+            },
+            {
+              "id": "B",
+              "text": "Three weeks"
+            },
+            {
+              "id": "C",
+              "text": "Two months"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "for three weeks"
+          },
+          "explanation": "The audio says: \"for three weeks\".",
+          "uuid": "a41de798-6579-5685-a98c-f56556038c4b"
+        },
+        {
+          "id": "LI207-Q08",
+          "number": 8,
+          "prompt": "How much do DVDs cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nothing"
+            },
+            {
+              "id": "B",
+              "text": "2 pounds each week"
+            },
+            {
+              "id": "C",
+              "text": "2 pounds each month"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "DVDs are two pounds each for a week"
+          },
+          "explanation": "The audio says: \"DVDs are two pounds each for a week\".",
+          "uuid": "4ebf56ae-5fb9-505e-873a-835512b20103"
+        },
+        {
+          "id": "LI207-Q09",
+          "number": 9,
+          "prompt": "Where is the study room?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On the ground floor"
+            },
+            {
+              "id": "B",
+              "text": "In the café"
+            },
+            {
+              "id": "C",
+              "text": "On the second floor"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "study room on the second floor"
+          },
+          "explanation": "The audio says: \"study room on the second floor\".",
+          "uuid": "10622138-7666-50d6-90e6-3d5b0fe43308"
+        },
+        {
+          "id": "LI207-Q10",
+          "number": 10,
+          "prompt": "How much does a new card cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "13 pounds"
+            },
+            {
+              "id": "B",
+              "text": "Nothing"
+            },
+            {
+              "id": "C",
+              "text": "3 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a new card costs three pounds"
+          },
+          "explanation": "The audio says: \"a new card costs three pounds\".",
+          "uuid": "7e85258d-aa7a-5eef-91f2-601d70c83f14"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "612291a3-7874-4e23-b65e-482febc19b12",
+  "derived": {
+    "word_count": 191,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 3,
+      "B": 2,
+      "C": 5
+    },
+    "content_hash": "3c41883958fa45ba"
+  }
+}

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "RE408-Q03",
+  "set": {
+   "A": "The colours fade after a few washes",
+   "B": "Large amounts of water are wasted"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE408-Q04",
+  "set": {
+   "A": "Recycling clothes is against the law",
+   "B": "People refuse to donate worn clothes"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE408-Q05",
+  "set": {
+   "B": "Charities refuse to accept used clothes",
+   "C": "The clothes are burned before they arrive"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE409-Q03",
+  "set": {
+   "B": "To bring peace between Greek cities",
+   "C": "To choose which athletes could compete"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE409-Q04",
+  "set": {
+   "A": "Anyone who could pay the entry fee",
+   "B": "Both men and women of any class"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE409-Q05",
+  "set": {
+   "A": "A gold medal and a purse",
+   "C": "A bronze statue of Zeus"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE410-Q01",
+  "set": {
+   "A": "Predict where accidents will happen",
+   "B": "Charge drivers for waiting at junctions"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE410-Q02",
+  "set": {
+   "A": "Crime fell by about a third overall",
+   "C": "Costs doubled while energy use stayed the same"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE410-Q04",
+  "set": {
+   "A": "The company ran out of funding in 2020",
+   "B": "The technology failed in early tests"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE410-Q05",
+  "set": {
+   "B": "They have to pay much higher taxes",
+   "C": "They must move to another district"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ }
+]

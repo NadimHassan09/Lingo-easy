@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE309",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "The Trans-Siberian Railway",
+  "topic": "travel",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "The Trans-Siberian Railway",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The Trans-Siberian Railway is the longest railway line in the world. It runs for 9,289 kilometres from Moscow in the west to Vladivostok on the Pacific coast in the east. A complete journey takes about seven days and crosses eight time zones."
+      },
+      {
+        "label": "B",
+        "text": "Construction began in 1891 and took twenty-five years. Thousands of workers built the line across forests, mountains and frozen ground, often in temperatures far below zero. The railway was designed to connect the distant east of Russia to Moscow and to help the country develop its economy. Before it opened, a journey from Moscow to the Pacific could take months."
+      },
+      {
+        "label": "C",
+        "text": "Today, there are three classes of tickets. In first class, two passengers share a small bedroom. In second class, four passengers share a compartment with bunk beds. The cheapest option, third class, has open carriages with sixty beds. Each carriage has a hot-water boiler, so passengers can make tea and instant noodles at any time. A dining car serves hot meals, but many travellers prefer to buy food from local people who sell it on the platforms."
+      },
+      {
+        "label": "D",
+        "text": "Most visitors break the journey in several cities. Popular stops include Yekaterinburg, near the border between Europe and Asia, and Irkutsk, close to Lake Baikal, the deepest lake in the world. Many travellers say the best part of the trip is meeting other passengers. With so many hours together, people play cards, share stories and sometimes make friends for life."
+      },
+      {
+        "label": "E",
+        "text": "If you want to travel, book early. The most popular trains in summer are often full months before. Take warm clothes even in July, because the weather can change quickly. And most important, bring a good book and plenty of patience: after the first two days, even the most beautiful scenery starts to look familiar."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE309-Q01",
+          "number": 1,
+          "prompt": "How long is the Trans-Siberian Railway?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2,893 kilometres"
+            },
+            {
+              "id": "B",
+              "text": "19,289 kilometres"
+            },
+            {
+              "id": "C",
+              "text": "9,289 kilometres"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "9,289 kilometres from Moscow"
+          },
+          "explanation": "The text says: \"9,289 kilometres from Moscow\".",
+          "uuid": "31274fde-7208-520d-9d4d-e72e23e56540"
+        },
+        {
+          "id": "RE309-Q02",
+          "number": 2,
+          "prompt": "How long does a complete journey take?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About a week"
+            },
+            {
+              "id": "B",
+              "text": "About two days"
+            },
+            {
+              "id": "C",
+              "text": "About a month"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "takes about seven days"
+          },
+          "explanation": "The text says: \"takes about seven days\".",
+          "uuid": "b6b170be-6b53-5c55-a61f-f8cb0a72b717"
+        },
+        {
+          "id": "RE309-Q03",
+          "number": 3,
+          "prompt": "Why was the railway built?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To bring foreign tourists to Siberia"
+            },
+            {
+              "id": "B",
+              "text": "To transport oil across the country"
+            },
+            {
+              "id": "C",
+              "text": "To connect the east of Russia to Moscow"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "connect the distant east of Russia to Moscow"
+          },
+          "explanation": "The text says: \"connect the distant east of Russia to Moscow\".",
+          "uuid": "f85b102a-d360-5870-9e8e-31bc6a97d0d9"
+        },
+        {
+          "id": "RE309-Q04",
+          "number": 4,
+          "prompt": "What is third class like?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Small bedrooms for two"
+            },
+            {
+              "id": "B",
+              "text": "Compartments with four beds"
+            },
+            {
+              "id": "C",
+              "text": "Open carriages with sixty beds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "open carriages with sixty beds"
+          },
+          "explanation": "The text says: \"open carriages with sixty beds\".",
+          "uuid": "e4cad6da-6052-55b0-82e7-b378d455d15c"
+        },
+        {
+          "id": "RE309-Q05",
+          "number": 5,
+          "prompt": "What can passengers do with the hot-water boiler?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wash their clothes and plates"
+            },
+            {
+              "id": "B",
+              "text": "Cook meat and fresh fish"
+            },
+            {
+              "id": "C",
+              "text": "Make tea and noodles"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "make tea and instant noodles"
+          },
+          "explanation": "The text says: \"make tea and instant noodles\".",
+          "uuid": "ffb7a804-c896-55c8-bdfb-7a769a2ba1ee"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE309-Q06",
+          "number": 6,
+          "prompt": "Construction took twenty-five years.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "took twenty-five years"
+          },
+          "explanation": "The text says: \"took twenty-five years\".",
+          "uuid": "c912b99c-323e-55b4-a7b0-56c7ca651685"
+        },
+        {
+          "id": "RE309-Q07",
+          "number": 7,
+          "prompt": "In second class, two passengers share a compartment.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "four passengers share a compartment"
+          },
+          "explanation": "The text says: \"four passengers share a compartment\".",
+          "uuid": "1a2f8077-2afa-5483-9bee-2edd274694c2"
+        },
+        {
+          "id": "RE309-Q08",
+          "number": 8,
+          "prompt": "Lake Baikal is the deepest lake in the world.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "the deepest lake in the world"
+          },
+          "explanation": "The text says: \"the deepest lake in the world\".",
+          "uuid": "bd208e83-8d71-50ac-97a0-b91a2408d3b8"
+        },
+        {
+          "id": "RE309-Q09",
+          "number": 9,
+          "prompt": "The dining car is open all night.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "a4ce68d6-4131-578d-8f12-1a150d625519"
+        },
+        {
+          "id": "RE309-Q10",
+          "number": 10,
+          "prompt": "The most popular summer trains are often full months before.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "often full months before"
+          },
+          "explanation": "The text says: \"often full months before\".",
+          "uuid": "a76343a6-6bd4-5892-8f2e-903de05dd770"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE309-Q11",
+          "number": 11,
+          "prompt": "The railway crosses _____ time zones.",
+          "options": [
+            {
+              "id": "A",
+              "text": "three"
+            },
+            {
+              "id": "B",
+              "text": "eight"
+            },
+            {
+              "id": "C",
+              "text": "twelve"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "crosses eight time zones"
+          },
+          "explanation": "The text says: \"crosses eight time zones\".",
+          "uuid": "c1287063-bf6d-5fdb-b025-7886cf9e152d"
+        },
+        {
+          "id": "RE309-Q12",
+          "number": 12,
+          "prompt": "Yekaterinburg is near the border between Europe and _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Africa"
+            },
+            {
+              "id": "B",
+              "text": "Asia"
+            },
+            {
+              "id": "C",
+              "text": "America"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "between Europe and Asia"
+          },
+          "explanation": "The text says: \"between Europe and Asia\".",
+          "uuid": "d7e3645f-13d1-5d3d-8f95-3e259006a916"
+        },
+        {
+          "id": "RE309-Q13",
+          "number": 13,
+          "prompt": "The writer advises bringing a good book and plenty of _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "money"
+            },
+            {
+              "id": "B",
+              "text": "patience"
+            },
+            {
+              "id": "C",
+              "text": "luggage"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "plenty of patience"
+          },
+          "explanation": "The text says: \"plenty of patience\".",
+          "uuid": "9f527d2c-871d-5125-a6ea-91dece4dce66"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "4f36127e-fcf1-453a-9dc5-04eae6c96019",
+  "derived": {
+    "word_count": 298,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 5
+    },
+    "content_hash": "de79d18c9e78a569"
+  }
+}

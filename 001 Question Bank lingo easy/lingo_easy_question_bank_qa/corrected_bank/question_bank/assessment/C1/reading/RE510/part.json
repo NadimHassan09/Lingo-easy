@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE510",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Universal Basic Income",
+  "topic": "business",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "Universal Basic Income",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Universal basic income, a regular payment made to every citizen regardless of income or employment, has moved from the margins of economic debate to the centre of political discussion. Supporters, from technology entrepreneurs to social reformers, see it as a solution to poverty and a response to automation. Critics regard it as unaffordable and likely to discourage work. After reviewing the evidence, I conclude that it is neither the miracle its advocates claim nor the folly its opponents fear."
+      },
+      {
+        "label": "B",
+        "text": "The strongest argument in its favour is simplicity. Existing welfare systems are often complicated, with conditions that trap people in poverty: a claimant who takes a part-time job may lose benefits and end up no better off. A universal payment removes this penalty, since everyone keeps it. It also avoids the stigma and administrative cost of means-testing, and reaches people who fail to claim benefits for which they are eligible."
+      },
+      {
+        "label": "C",
+        "text": "Experiments provide some evidence. A trial in Finland in 2017 and 2018 gave two thousand unemployed people a monthly payment without conditions. Participants reported better wellbeing, less stress and greater trust in institutions, but the employment effect was small. Larger trials in Kenya, which gave payments to entire villages, found that recipients invested in small businesses and that local prices did not rise as sceptics feared. However, such trials are temporary and limited, and participants know the payments will end, so they may not predict how people would behave under a permanent national scheme."
+      },
+      {
+        "label": "D",
+        "text": "Cost is the central objection. Paying every adult in a country like Britain a modest income would require hundreds of billions of pounds a year. This could be financed by higher taxes, by abolishing existing benefits or both, but then the question arises of who gains and who loses. A payment large enough to live on would require substantial tax rises; a smaller one might leave vulnerable groups, such as disabled people, worse off than before. Details determine whether the policy is progressive or not."
+      },
+      {
+        "label": "E",
+        "text": "My view is that the principle deserves experimentation, but that it should not be presented as a replacement for public services such as healthcare and education, which money alone cannot provide. A phased introduction, perhaps beginning with a partial payment, could test its effects while limiting risk. Whatever the outcome, the debate has performed a useful function: it has forced us to ask what we owe each other, and whether work is the only basis on which people deserve security."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE510-Q01",
+          "number": 1,
+          "prompt": "How does the writer describe their conclusion about UBI?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is a success in most trials"
+            },
+            {
+              "id": "B",
+              "text": "It is neither a miracle nor a folly"
+            },
+            {
+              "id": "C",
+              "text": "It is a failure in practice"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "neither the miracle its advocates claim nor the folly"
+          },
+          "explanation": "The text says: \"neither the miracle its advocates claim nor the folly\".",
+          "uuid": "b2850259-962e-5883-85e3-07149caf2ef6"
+        },
+        {
+          "id": "RE510-Q02",
+          "number": 2,
+          "prompt": "What problem with existing welfare does the writer identify?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Benefits are paid at too high a level"
+            },
+            {
+              "id": "B",
+              "text": "Conditions can trap people in poverty"
+            },
+            {
+              "id": "C",
+              "text": "Payments are made too often to claimants"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "conditions that trap people in poverty"
+          },
+          "explanation": "The text says: \"conditions that trap people in poverty\".",
+          "uuid": "64b259d0-882f-5d73-9604-f7508247f811"
+        },
+        {
+          "id": "RE510-Q03",
+          "number": 3,
+          "prompt": "What did the Finnish trial find?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Better wellbeing but a small effect on employment"
+            },
+            {
+              "id": "B",
+              "text": "A large rise in employment among participants"
+            },
+            {
+              "id": "C",
+              "text": "A sharp rise in local prices and rents"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "the employment effect was small"
+          },
+          "explanation": "The text says: \"the employment effect was small\".",
+          "uuid": "f62fdd24-8bfb-5c64-a606-89e0a756b280"
+        },
+        {
+          "id": "RE510-Q04",
+          "number": 4,
+          "prompt": "What did the Kenyan trials show about prices?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prices doubled in the villages"
+            },
+            {
+              "id": "B",
+              "text": "Prices fell in nearby towns"
+            },
+            {
+              "id": "C",
+              "text": "Local prices did not rise"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "local prices did not rise"
+          },
+          "explanation": "The text says: \"local prices did not rise\".",
+          "uuid": "f6589a39-4341-5257-821f-3f23f08d41ae"
+        },
+        {
+          "id": "RE510-Q05",
+          "number": 5,
+          "prompt": "Why might trial results not predict a permanent scheme?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The trials were too large to manage"
+            },
+            {
+              "id": "B",
+              "text": "The trials excluded the poorest people"
+            },
+            {
+              "id": "C",
+              "text": "Participants know the payments will end"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "participants know the payments will end"
+          },
+          "explanation": "The text says: \"participants know the payments will end\".",
+          "uuid": "88fc86d0-1a15-5266-ac98-42859a5bee5e"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE510-Q06",
+          "number": 6,
+          "prompt": "The writer believes UBI will definitely discourage work.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "neither the miracle its advocates claim nor the folly"
+          },
+          "explanation": "The text says: \"neither the miracle its advocates claim nor the folly\".",
+          "uuid": "ff4867ce-6d13-5e22-8c8c-7ef6db3b6e88"
+        },
+        {
+          "id": "RE510-Q07",
+          "number": 7,
+          "prompt": "The writer thinks means-testing has hidden costs.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "stigma and administrative cost of means-testing"
+          },
+          "explanation": "The text says: \"stigma and administrative cost of means-testing\".",
+          "uuid": "e2ac6d17-adbb-501e-9c51-5aa8287591ef"
+        },
+        {
+          "id": "RE510-Q08",
+          "number": 8,
+          "prompt": "The writer believes a small payment would help all vulnerable groups.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "might leave vulnerable groups"
+          },
+          "explanation": "The text says: \"might leave vulnerable groups\".",
+          "uuid": "3776e7e7-92d8-565e-9ccc-517395574570"
+        },
+        {
+          "id": "RE510-Q09",
+          "number": 9,
+          "prompt": "The writer supports replacing healthcare with cash payments.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "should not be presented as a replacement for public services"
+          },
+          "explanation": "The text says: \"should not be presented as a replacement for public services\".",
+          "uuid": "775214ef-e158-5e76-901a-29d0f1f83e6d"
+        },
+        {
+          "id": "RE510-Q10",
+          "number": 10,
+          "prompt": "The writer has taken part in a UBI trial.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "0a9fc5fe-bf23-53cd-ad15-a27b2026d18e"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE510-Q11",
+          "number": 11,
+          "prompt": "A description of how part-time work can reduce benefits",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "may lose benefits and end up no better off"
+          },
+          "explanation": "The text says: \"may lose benefits and end up no better off\".",
+          "uuid": "db94d95b-b485-5d33-83cd-1584d9b5da0e"
+        },
+        {
+          "id": "RE510-Q12",
+          "number": 12,
+          "prompt": "An explanation of why the size of the payment matters",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "A payment large enough to live on"
+          },
+          "explanation": "The text says: \"A payment large enough to live on\".",
+          "uuid": "530a0290-7878-56a3-83be-74507db9ffb6"
+        },
+        {
+          "id": "RE510-Q13",
+          "number": 13,
+          "prompt": "A suggestion about how to introduce the scheme gradually",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "A phased introduction"
+          },
+          "explanation": "The text says: \"A phased introduction\".",
+          "uuid": "9f3d5d83-f229-57ae-9763-b25365767bb7"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "68772877-ecfb-4b60-b721-211ba8041899",
+  "derived": {
+    "word_count": 410,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 3,
+      "B": 5,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "a126efb3c0ca1dc2"
+  }
+}

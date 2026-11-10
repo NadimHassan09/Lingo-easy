@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "id": "LI502",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "The Placebo Effect",
+  "topic": "health",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li502_the_placebo_effect.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Professor Karim",
+        "gender": "female",
+        "accent": "british",
+        "role": "medical sciences lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning. Today I want to examine the placebo effect, which is one of the most fascinating, and most misunderstood, phenomena in medicine. A placebo is a treatment with no active ingredient, such as a sugar pill, and the placebo effect refers to the improvement that patients sometimes experience after taking it."
+      },
+      {
+        "speaker": "S1",
+        "text": "The earliest systematic study was carried out in 1955 by Henry Beecher, a doctor who reviewed fifteen trials and concluded that about thirty-five per cent of patients improved after receiving a placebo. That figure was quoted for decades. We now know it was misleading. Beecher didn't separate the placebo effect from other explanations, such as the natural course of the illness. Many patients recover with no treatment at all, so improvement after a sugar pill doesn't prove that the pill caused it."
+      },
+      {
+        "speaker": "S1",
+        "text": "More careful research has produced a more nuanced picture. The placebo effect is real, but it's strongest for conditions that depend on perception, such as pain, nausea and fatigue. It's much weaker, or absent, for conditions that can be measured objectively, such as blood cell counts or tumour size. In other words, a placebo may make you feel better without changing the underlying disease."
+      },
+      {
+        "speaker": "S1",
+        "text": "How does it work? One mechanism is expectation. When people believe that a treatment will help, the brain releases chemicals such as endorphins, which reduce pain. Brain scans show that the same regions are active as when a real painkiller is taken. A second mechanism is conditioning. If you have repeatedly taken a pill that relieved your headache, your body may learn to respond to the pill itself."
+      },
+      {
+        "speaker": "S1",
+        "text": "Some surprising findings have emerged. Larger pills work better than small ones, injections work better than tablets, and brand-name packaging produces stronger effects than plain packaging, even if the contents are identical. Most remarkably, in a few studies, patients were told honestly that they were receiving a placebo, and some still improved. Researchers called this open-label placebo, although the sample sizes were small, and the findings need replication."
+      },
+      {
+        "speaker": "S1",
+        "text": "This raises an ethical question. Should doctors ever prescribe placebos? Deceiving patients seems to violate trust, and most professional guidelines forbid it. Yet surveys suggest that a surprising proportion of doctors admit to giving treatments they believe have only a placebo benefit, such as vitamins. A reasonable position may be that the placebo effect is best harnessed indirectly: by taking time to listen, explaining treatments clearly and showing confidence in the plan, a doctor can improve outcomes without deception."
+      },
+      {
+        "speaker": "S1",
+        "text": "To sum up, the placebo effect is neither magic nor a myth. It tells us that the experience of illness is shaped by the mind as well as the body. For next week, please read the article by Kaptchuk and prepare a brief critique of its methodology."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI502-Q01",
+          "number": 1,
+          "prompt": "What did Beecher conclude from his review in 1955?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Placebos cured most of the patients tested"
+            },
+            {
+              "id": "B",
+              "text": "About a third of patients improved after a placebo"
+            },
+            {
+              "id": "C",
+              "text": "Placebos had no measurable effect on patients"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about thirty-five per cent of patients improved"
+          },
+          "explanation": "The audio says: \"about thirty-five per cent of patients improved\".",
+          "uuid": "944079e7-7d58-57cc-9d62-2c51e48c8c6d"
+        },
+        {
+          "id": "LI502-Q02",
+          "number": 2,
+          "prompt": "Why was Beecher's figure misleading?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He used too few trials in his review"
+            },
+            {
+              "id": "B",
+              "text": "He did not allow for natural recovery"
+            },
+            {
+              "id": "C",
+              "text": "He tested only painkillers, not other drugs"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "natural course of the illness"
+          },
+          "explanation": "The audio says: \"natural course of the illness\".",
+          "uuid": "2bec9347-5dbe-5b99-a0ae-e4972a3c291e"
+        },
+        {
+          "id": "LI502-Q03",
+          "number": 3,
+          "prompt": "For which conditions is the placebo effect strongest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Those that can be measured objectively"
+            },
+            {
+              "id": "B",
+              "text": "Those that are life-threatening"
+            },
+            {
+              "id": "C",
+              "text": "Those that depend on perception"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "conditions that depend on perception"
+          },
+          "explanation": "The audio says: \"conditions that depend on perception\".",
+          "uuid": "cde4abb5-b2fe-545f-bdd3-fd0d5a4324ca"
+        },
+        {
+          "id": "LI502-Q04",
+          "number": 4,
+          "prompt": "What does the lecturer imply about placebos and disease?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They can shrink tumours in the same way as drugs do"
+            },
+            {
+              "id": "B",
+              "text": "They work better than real drugs for pain relief"
+            },
+            {
+              "id": "C",
+              "text": "They may relieve symptoms without changing the disease"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "without changing the underlying disease"
+          },
+          "explanation": "The audio says: \"without changing the underlying disease\".",
+          "uuid": "b572352f-96ad-56e2-9647-473a8915a6a9"
+        },
+        {
+          "id": "LI502-Q05",
+          "number": 5,
+          "prompt": "How does expectation produce a placebo effect?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The brain releases pain-reducing chemicals"
+            },
+            {
+              "id": "B",
+              "text": "The body produces antibodies against the pill"
+            },
+            {
+              "id": "C",
+              "text": "The patient sleeps better and so feels better"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the brain releases chemicals such as endorphins"
+          },
+          "explanation": "The audio says: \"the brain releases chemicals such as endorphins\".",
+          "uuid": "8bd40fcc-29f5-5823-92e6-7decfc6674d2"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI502-Q06",
+          "number": 6,
+          "prompt": "What does the lecturer say about packaging?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Brand-name packaging produces stronger effects"
+            },
+            {
+              "id": "B",
+              "text": "Plain packaging works better than branded boxes"
+            },
+            {
+              "id": "C",
+              "text": "Packaging has no effect on how people respond"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "brand-name packaging produces stronger effects"
+          },
+          "explanation": "The audio says: \"brand-name packaging produces stronger effects\".",
+          "uuid": "acad400b-fe91-5fcc-a75f-4a4966b3234b"
+        },
+        {
+          "id": "LI502-Q07",
+          "number": 7,
+          "prompt": "What is the lecturer's attitude to the open-label studies?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cautious, because the samples were small"
+            },
+            {
+              "id": "B",
+              "text": "Enthusiastic about the proof"
+            },
+            {
+              "id": "C",
+              "text": "Dismissive because they were dishonest"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "findings need replication"
+          },
+          "explanation": "The audio says: \"findings need replication\".",
+          "uuid": "4d8a7983-2e7b-5034-950a-96f8eefe5172"
+        },
+        {
+          "id": "LI502-Q08",
+          "number": 8,
+          "prompt": "What does the lecturer say about doctors who give placebo-type treatments?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Very few doctors are willing to admit it"
+            },
+            {
+              "id": "B",
+              "text": "A surprising proportion admit doing so"
+            },
+            {
+              "id": "C",
+              "text": "All professional guidelines allow it"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a surprising proportion of doctors admit"
+          },
+          "explanation": "The audio says: \"a surprising proportion of doctors admit\".",
+          "uuid": "576f7faa-0670-5e6e-8f63-fe843fabf693"
+        },
+        {
+          "id": "LI502-Q09",
+          "number": 9,
+          "prompt": "What is the lecturer's suggestion about using placebos?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Doctors should prescribe vitamins as placebos openly"
+            },
+            {
+              "id": "B",
+              "text": "Placebos should be removed from medical research"
+            },
+            {
+              "id": "C",
+              "text": "Doctors should use the effect indirectly through communication"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "best harnessed indirectly"
+          },
+          "explanation": "The audio says: \"best harnessed indirectly\".",
+          "uuid": "523aa0ab-22d8-55c6-8bf4-7fe5bb35a4c2"
+        },
+        {
+          "id": "LI502-Q10",
+          "number": 10,
+          "prompt": "What is the lecturer's main concluding message?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illness is shaped by mind and body"
+            },
+            {
+              "id": "B",
+              "text": "Placebos are a myth in modern medicine"
+            },
+            {
+              "id": "C",
+              "text": "Medicine should ignore the role of the mind"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "gist",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "shaped by the mind as well as the body"
+          },
+          "explanation": "The audio says: \"shaped by the mind as well as the body\".",
+          "uuid": "48703acc-36c9-57c1-9fae-6ee06889a08c"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "28da9a0a-1648-4b4c-9581-b4e14e740aab",
+  "derived": {
+    "word_count": 463,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "content_hash": "51c74c610d88e8b2"
+  }
+}

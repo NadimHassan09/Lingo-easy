@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE406",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Is Space Tourism Worth It?",
+  "topic": "space_and_astronomy",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "Is Space Tourism Worth It?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In 2021, two billionaires flew to the edge of space within nine days of each other, and the era of space tourism was declared open. Tickets cost between several hundred thousand and tens of millions of dollars, so for now only the very rich can afford them. Supporters say that the industry will follow the path of aviation, becoming cheaper and safer over time. I am not convinced that the comparison is fair, and I believe that the case for developing space tourism is weaker than its promoters admit."
+      },
+      {
+        "label": "B",
+        "text": "Consider the environmental cost. A single rocket launch releases large amounts of carbon dioxide and black soot directly into the upper atmosphere, where its effects may last far longer than emissions released near the ground. Passengers on a short suborbital flight are estimated to be responsible for as much carbon as an average person produces in several months. Defenders point out that the total number of flights is tiny compared with aviation. That is true today, but the companies' business plans assume rapid growth."
+      },
+      {
+        "label": "C",
+        "text": "There is also a question of priorities. Money invested in space tourism could, in theory, support scientific missions, but the reality is that most of it comes from private investors seeking a return. Supporters claim that tourism will pay for technology that benefits everyone, as military spending has often done. Perhaps so, but the same funds could be used to tackle problems with a more direct effect on human lives, such as clean water or climate change."
+      },
+      {
+        "label": "D",
+        "text": "On the other hand, I admit there are arguments in favour. Seeing the Earth from space has a powerful effect on those who experience it, a phenomenon astronauts call the overview effect. Many return with a stronger sense of the planet's fragility. If more people had that experience, it might change attitudes. Yet it is hard to imagine that a few minutes of weightlessness for a small group of millionaires would have a wider impact on public opinion."
+      },
+      {
+        "label": "E",
+        "text": "Should space tourism be banned? No, I would not go that far. Private companies have reduced the cost of launches significantly, and some of their technology has useful applications. But governments should require operators to report their emissions, set safety standards and consider taxing flights. If it is going to be a luxury, then those who can afford it should pay the full cost, including the cost to the planet."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE406-Q01",
+          "number": 1,
+          "prompt": "What happened in 2021?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two billionaires flew to the edge of space within nine days"
+            },
+            {
+              "id": "B",
+              "text": "A tourist orbited the Moon in a privately owned rocket"
+            },
+            {
+              "id": "C",
+              "text": "The first hotel in space opened its doors to guests"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "within nine days of each other"
+          },
+          "explanation": "The text says: \"within nine days of each other\".",
+          "uuid": "73092681-d9b3-5175-afa3-a2058683937d"
+        },
+        {
+          "id": "RE406-Q02",
+          "number": 2,
+          "prompt": "What is the writer's position at the start?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Space tourism should be banned by governments"
+            },
+            {
+              "id": "B",
+              "text": "Space tourism is too expensive to continue"
+            },
+            {
+              "id": "C",
+              "text": "The case for space tourism is weaker than promoters say"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "weaker than its promoters admit"
+          },
+          "explanation": "The text says: \"weaker than its promoters admit\".",
+          "uuid": "03f1503e-a605-5ecf-8809-1c4d36909da6"
+        },
+        {
+          "id": "RE406-Q03",
+          "number": 3,
+          "prompt": "Why may rocket emissions be especially harmful?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They contain poisonous gases that harm lungs"
+            },
+            {
+              "id": "B",
+              "text": "They are released over crowded cities"
+            },
+            {
+              "id": "C",
+              "text": "They are released directly into the upper atmosphere"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "directly into the upper atmosphere"
+          },
+          "explanation": "The text says: \"directly into the upper atmosphere\".",
+          "uuid": "f24f8b25-6912-5c7a-9037-16a781e7c3f3"
+        },
+        {
+          "id": "RE406-Q04",
+          "number": 4,
+          "prompt": "What do defenders say about the number of flights?",
+          "options": [
+            {
+              "id": "A",
+              "text": "There are very few compared with aviation"
+            },
+            {
+              "id": "B",
+              "text": "There are far more than in aviation"
+            },
+            {
+              "id": "C",
+              "text": "They are decreasing every year"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "tiny compared with aviation"
+          },
+          "explanation": "The text says: \"tiny compared with aviation\".",
+          "uuid": "4278b217-733a-57af-8482-d4fcd9a85ca5"
+        },
+        {
+          "id": "RE406-Q05",
+          "number": 5,
+          "prompt": "What is the overview effect?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A stronger sense of the planet's fragility after seeing Earth from space"
+            },
+            {
+              "id": "B",
+              "text": "A feeling of fear that builds up during a long space flight"
+            },
+            {
+              "id": "C",
+              "text": "A feeling of dizziness caused by weightlessness and high speed"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "stronger sense of the planet's fragility"
+          },
+          "explanation": "The text says: \"stronger sense of the planet's fragility\".",
+          "uuid": "3d647af8-acde-5e26-9d14-72b7b3fe50a4"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE406-Q06",
+          "number": 6,
+          "prompt": "The writer is certain that space tourism will follow the path of aviation.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "I am not convinced that the comparison is fair"
+          },
+          "explanation": "The text says: \"I am not convinced that the comparison is fair\".",
+          "uuid": "511759ac-3939-50cb-a60f-16020b182632"
+        },
+        {
+          "id": "RE406-Q07",
+          "number": 7,
+          "prompt": "The writer believes the money could be better used on other global problems.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "the same funds could be used to tackle problems"
+          },
+          "explanation": "The text says: \"the same funds could be used to tackle problems\".",
+          "uuid": "05718de8-50ff-554c-bfcc-fab123a01fd2"
+        },
+        {
+          "id": "RE406-Q08",
+          "number": 8,
+          "prompt": "The writer thinks the overview effect would quickly change public opinion.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "hard to imagine that a few minutes of weightlessness"
+          },
+          "explanation": "The text says: \"hard to imagine that a few minutes of weightlessness\".",
+          "uuid": "334d0d97-786a-597d-9f96-ed98f1e6a99f"
+        },
+        {
+          "id": "RE406-Q09",
+          "number": 9,
+          "prompt": "The writer has flown on a suborbital flight.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "3a12ef8d-1c47-5356-99a3-7149873ff709"
+        },
+        {
+          "id": "RE406-Q10",
+          "number": 10,
+          "prompt": "The writer thinks governments should consider taxing flights.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "consider taxing flights"
+          },
+          "explanation": "The text says: \"consider taxing flights\".",
+          "uuid": "7c9da32a-7170-54b1-9093-9dec87e2a9fc"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE406-Q11",
+          "number": 11,
+          "prompt": "A comparison between passengers' carbon emissions and those of an average person",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "as much carbon as an average person produces in several months"
+          },
+          "explanation": "The text says: \"as much carbon as an average person produces in several months\".",
+          "uuid": "f424a2dd-4d14-5581-b552-bbf9b8d18edb"
+        },
+        {
+          "id": "RE406-Q12",
+          "number": 12,
+          "prompt": "A reference to military spending as an example of technology spreading benefits",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "as military spending has often done"
+          },
+          "explanation": "The text says: \"as military spending has often done\".",
+          "uuid": "9b33f220-e2f8-5381-a2f6-bde69eb8deb4"
+        },
+        {
+          "id": "RE406-Q13",
+          "number": 13,
+          "prompt": "A recommendation that those who can afford a luxury should cover all costs",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "those who can afford it should pay the full cost"
+          },
+          "explanation": "The text says: \"those who can afford it should pay the full cost\".",
+          "uuid": "c290bc89-20a2-5d75-b0bb-fa5e9dbf442b"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "b762df83-15da-4aa0-b09e-c3f58009f573",
+  "derived": {
+    "word_count": 398,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 3,
+      "D": 1
+    },
+    "content_hash": "84a4b116a8e22db2"
+  }
+}

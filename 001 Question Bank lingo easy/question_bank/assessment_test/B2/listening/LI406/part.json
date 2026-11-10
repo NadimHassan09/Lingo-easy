@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "id": "LI406",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "Do Libraries Have a Future?",
+  "topic": "media_and_communication",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li406_do_libraries_have_a_future.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Jo Marsh",
+        "gender": "female",
+        "accent": "australian",
+        "role": "radio presenter"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hello and welcome to Culture Matters. This week, we're asking whether public libraries still have a place in the digital age. Many people assume that libraries are dying, because you can download a book or find an answer in seconds on your phone. But the evidence from my research is more complicated."
+      },
+      {
+        "speaker": "S1",
+        "text": "First, the figures. In the past decade, the number of books borrowed in the UK has fallen by about a third. That's the statistic politicians like to quote when they want to cut library budgets. And it's true that more than seven hundred libraries have closed since 2010. However, the number of people actually visiting libraries has not fallen nearly as much. In many places, visits are the same or even higher. So what are people doing there, if they aren't borrowing as many books?"
+      },
+      {
+        "speaker": "S1",
+        "text": "I visited a library in Leeds last month to find out. In the morning, it was full of parents with toddlers attending a story session. Around lunchtime, older people were learning to use tablets in a free class. By the afternoon, school students had taken over the quiet room to do their homework. And I spoke to a man in his forties who was using the computers to apply for jobs, because he doesn't have internet at home. About one in ten households in the UK still doesn't have a reliable connection, and for them the library is essential."
+      },
+      {
+        "speaker": "S1",
+        "text": "Librarians told me their role has changed. They are no longer simply people who stamp books. They help with forms, run language classes and sometimes act as a first point of contact for people with problems they don't know how to solve. One librarian called it social care in disguise, which I found a striking phrase."
+      },
+      {
+        "speaker": "S1",
+        "text": "Not everyone is convinced. A critic I interviewed argued that libraries try to do too much, and that other organisations should provide these services. She thinks that money would be better spent on schools. But when I put that to the librarian, she answered that schools aren't open on Saturdays, and libraries are."
+      },
+      {
+        "speaker": "S1",
+        "text": "Some libraries are experimenting with new ideas. In Helsinki, a modern central library offers 3D printers, sewing machines and a recording studio. Members can borrow these in the same way as books. It was designed with citizens' input, and it attracts over three million visitors a year."
+      },
+      {
+        "speaker": "S1",
+        "text": "So, are libraries dying? My conclusion is no, but they're certainly changing. The challenge is whether funding will change with them. After the break, I'll be speaking to a council leader who has to decide the budget. Stay with us."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI406-Q01",
+          "number": 1,
+          "prompt": "What do many people assume about libraries?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That they are dying because of digital access"
+            },
+            {
+              "id": "B",
+              "text": "That they are too expensive to maintain"
+            },
+            {
+              "id": "C",
+              "text": "That they now hold too many old books"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "libraries are dying, because you can download a book"
+          },
+          "explanation": "The audio says: \"libraries are dying, because you can download a book\".",
+          "uuid": "e10ae74e-f08e-5ba0-8246-467ce9562c23"
+        },
+        {
+          "id": "LI406-Q02",
+          "number": 2,
+          "prompt": "How has the number of books borrowed changed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has almost doubled in ten years"
+            },
+            {
+              "id": "B",
+              "text": "It has fallen by about a third"
+            },
+            {
+              "id": "C",
+              "text": "It has stayed roughly the same overall"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "fallen by about a third"
+          },
+          "explanation": "The audio says: \"fallen by about a third\".",
+          "uuid": "b5d4f14d-0c37-5f70-80e0-aba977752a12"
+        },
+        {
+          "id": "LI406-Q03",
+          "number": 3,
+          "prompt": "What is surprising about the number of visitors?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has not fallen nearly as much"
+            },
+            {
+              "id": "B",
+              "text": "It has risen sharply everywhere"
+            },
+            {
+              "id": "C",
+              "text": "It has fallen by a half"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "has not fallen nearly as much"
+          },
+          "explanation": "The audio says: \"has not fallen nearly as much\".",
+          "uuid": "e4b0048d-7b56-55ea-8916-3b2ed0c56e95"
+        },
+        {
+          "id": "LI406-Q04",
+          "number": 4,
+          "prompt": "Who filled the Leeds library in the morning?",
+          "options": [
+            {
+              "id": "A",
+              "text": "School students after class"
+            },
+            {
+              "id": "B",
+              "text": "Older people with tablets"
+            },
+            {
+              "id": "C",
+              "text": "Parents with toddlers"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "parents with toddlers attending a story session"
+          },
+          "explanation": "The audio says: \"parents with toddlers attending a story session\".",
+          "uuid": "a4f29565-4cba-5a46-8da4-4a6505ece371"
+        },
+        {
+          "id": "LI406-Q05",
+          "number": 5,
+          "prompt": "Why was the man in his forties using the library computers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He was learning to code"
+            },
+            {
+              "id": "B",
+              "text": "He was meeting a friend"
+            },
+            {
+              "id": "C",
+              "text": "He has no internet at home"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "doesn't have internet at home"
+          },
+          "explanation": "The audio says: \"doesn't have internet at home\".",
+          "uuid": "c274ff18-97e4-58d7-952d-9d868ad774bd"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI406-Q06",
+          "number": 6,
+          "prompt": "What proportion of UK households lack a reliable connection?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About one in two"
+            },
+            {
+              "id": "B",
+              "text": "About one in ten"
+            },
+            {
+              "id": "C",
+              "text": "About one in a hundred"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "About one in ten households"
+          },
+          "explanation": "The audio says: \"About one in ten households\".",
+          "uuid": "4c8cf6d6-2221-59d5-8444-0fce97a10b67"
+        },
+        {
+          "id": "LI406-Q07",
+          "number": 7,
+          "prompt": "How did one librarian describe the role of libraries?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A second school for adults"
+            },
+            {
+              "id": "B",
+              "text": "Social care in disguise"
+            },
+            {
+              "id": "C",
+              "text": "A free advice centre"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "social care in disguise"
+          },
+          "explanation": "The audio says: \"social care in disguise\".",
+          "uuid": "29312121-0ba2-5144-85fa-74c996838d5e"
+        },
+        {
+          "id": "LI406-Q08",
+          "number": 8,
+          "prompt": "What was the critic's view?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Libraries need more books"
+            },
+            {
+              "id": "B",
+              "text": "Libraries try to do too much"
+            },
+            {
+              "id": "C",
+              "text": "Libraries should charge fees"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "libraries try to do too much"
+          },
+          "explanation": "The audio says: \"libraries try to do too much\".",
+          "uuid": "eeaa11db-329e-5923-854a-18502eecbc24"
+        },
+        {
+          "id": "LI406-Q09",
+          "number": 9,
+          "prompt": "How did the librarian answer the critic?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Schools are closed on Saturdays but libraries are open"
+            },
+            {
+              "id": "B",
+              "text": "Schools already receive more than enough public funding"
+            },
+            {
+              "id": "C",
+              "text": "Libraries are much cheaper to run than most schools"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "schools aren't open on Saturdays"
+          },
+          "explanation": "The audio says: \"schools aren't open on Saturdays\".",
+          "uuid": "71b05848-dc85-5a0c-8d8b-6c1feb69b6e7"
+        },
+        {
+          "id": "LI406-Q10",
+          "number": 10,
+          "prompt": "What is special about the Helsinki library?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Members can borrow equipment as well as books"
+            },
+            {
+              "id": "B",
+              "text": "It has replaced printed books with tablets"
+            },
+            {
+              "id": "C",
+              "text": "It is open every night until midnight"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "borrow these in the same way as books"
+          },
+          "explanation": "The audio says: \"borrow these in the same way as books\".",
+          "uuid": "05b62093-e1a5-5feb-82e3-d83b908515fd"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "9fe18c3a-1cce-4028-806f-13178bc03705",
+  "derived": {
+    "word_count": 432,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "content_hash": "d928fc4172dcffc9"
+  }
+}

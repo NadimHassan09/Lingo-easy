@@ -1,0 +1,76 @@
+{
+  "part_id": "LI502",
+  "part_uuid": "28da9a0a-1648-4b4c-9581-b4e14e740aab",
+  "audio_file": "li502_the_placebo_effect.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "d82e8aad421b47b308b838eff5fb87c09125b7e652dbdae7a990a86eb84574ab",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Professor Karim",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 19.44
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 19.89,
+      "end": 50.56
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 51.01,
+      "end": 75.56
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 76.01,
+      "end": 101.43
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 101.88,
+      "end": 130.1
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 130.55,
+      "end": 163.03
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 163.48,
+      "end": 178.74
+    }
+  ],
+  "duration_seconds": 178.74,
+  "size_bytes": 1430636,
+  "audio_sha256": "20b04b0c9bfaf9acff8ee128ff681fe930b1b2fc30b6ac694d19aea4346ef31d",
+  "generated_at": "2026-10-30T20:56:48+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

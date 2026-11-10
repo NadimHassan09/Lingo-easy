@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE207",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Cars in Cities",
+  "topic": "transport",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "Cars in Cities",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Many big cities have a serious problem with traffic. Cars fill the streets, the air is dirty, and people spend a lot of time waiting in queues. Some people think we should stop cars in city centres. Others disagree."
+      },
+      {
+        "label": "B",
+        "text": "People who want fewer cars give three main reasons. First, cars make the air dirty, and this causes health problems like asthma. Second, there are many accidents with cars, especially near schools. Third, cars use a lot of space. A car park for one hundred cars could be a park for children instead."
+      },
+      {
+        "label": "C",
+        "text": "However, other people say that cars are necessary. Shop owners worry that customers will not come if they cannot park. Older people and people with disabilities often find buses and trains difficult to use. Also, in some places the buses are slow, crowded and expensive, so people prefer their own car."
+      },
+      {
+        "label": "D",
+        "text": "Some cities have found a middle way. In Oslo, cars are not allowed in the centre, but the city has built many new bike roads and made the buses cheaper. In London, drivers pay a fee to enter the centre, and the money is used for public transport. These changes work best when there are good alternatives to the car."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE207-Q01",
+          "number": 1,
+          "prompt": "What problem do many big cities have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Too few shops"
+            },
+            {
+              "id": "B",
+              "text": "Too much traffic"
+            },
+            {
+              "id": "C",
+              "text": "Too many tourists"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "serious problem with traffic"
+          },
+          "explanation": "The text says: \"serious problem with traffic\".",
+          "uuid": "59efff4e-f4f0-5492-aed1-b630b9126fe4"
+        },
+        {
+          "id": "RE207-Q02",
+          "number": 2,
+          "prompt": "Which health problem is mentioned?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Asthma"
+            },
+            {
+              "id": "B",
+              "text": "Back pain"
+            },
+            {
+              "id": "C",
+              "text": "Headaches"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "health problems like asthma"
+          },
+          "explanation": "The text says: \"health problems like asthma\".",
+          "uuid": "815061bf-e2ab-55d9-aaf9-c9c24afae375"
+        },
+        {
+          "id": "RE207-Q03",
+          "number": 3,
+          "prompt": "Where are accidents more common?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Near hospitals"
+            },
+            {
+              "id": "B",
+              "text": "Near shops"
+            },
+            {
+              "id": "C",
+              "text": "Near schools"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "especially near schools"
+          },
+          "explanation": "The text says: \"especially near schools\".",
+          "uuid": "c63e4b45-6d3c-5270-a1f8-0018750fa603"
+        },
+        {
+          "id": "RE207-Q04",
+          "number": 4,
+          "prompt": "Why are shop owners worried?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rents are too high"
+            },
+            {
+              "id": "B",
+              "text": "Cars are too noisy"
+            },
+            {
+              "id": "C",
+              "text": "Customers may not come"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "customers will not come if they cannot park"
+          },
+          "explanation": "The text says: \"customers will not come if they cannot park\".",
+          "uuid": "1a1cfaf2-f41c-5119-a7e1-87226568e0c8"
+        },
+        {
+          "id": "RE207-Q05",
+          "number": 5,
+          "prompt": "What is the problem with buses in some places?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are slow, crowded and expensive"
+            },
+            {
+              "id": "B",
+              "text": "They are cheap but they run late"
+            },
+            {
+              "id": "C",
+              "text": "They only run in the city centre"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "slow, crowded and expensive"
+          },
+          "explanation": "The text says: \"slow, crowded and expensive\".",
+          "uuid": "d37d54a2-c53a-5684-b489-fabbe0622bac"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE207-Q06",
+          "number": 6,
+          "prompt": "A car park for one hundred cars could become a park.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "could be a park for children instead"
+          },
+          "explanation": "The text says: \"could be a park for children instead\".",
+          "uuid": "3215e983-999a-5e84-b599-d944f507e065"
+        },
+        {
+          "id": "RE207-Q07",
+          "number": 7,
+          "prompt": "Older people always find buses easy to use.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "often find buses and trains difficult to use"
+          },
+          "explanation": "The text says: \"often find buses and trains difficult to use\".",
+          "uuid": "7189b306-41b0-5b5a-8487-0dc604fc4e52"
+        },
+        {
+          "id": "RE207-Q08",
+          "number": 8,
+          "prompt": "Oslo does not allow cars in the centre.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "cars are not allowed in the centre"
+          },
+          "explanation": "The text says: \"cars are not allowed in the centre\".",
+          "uuid": "1c01d9f1-e10e-5830-b662-3c387839dc04"
+        },
+        {
+          "id": "RE207-Q09",
+          "number": 9,
+          "prompt": "Drivers in London pay a fee to enter the centre.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "drivers pay a fee to enter the centre"
+          },
+          "explanation": "The text says: \"drivers pay a fee to enter the centre\".",
+          "uuid": "e8150398-238b-595c-883a-a69555dd7daa"
+        },
+        {
+          "id": "RE207-Q10",
+          "number": 10,
+          "prompt": "Paris has the best bike roads in Europe.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "a9321bdc-e072-57e5-8be7-5f4930a61918"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE207-Q11",
+          "number": 11,
+          "prompt": "Cars make the air _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "warm"
+            },
+            {
+              "id": "B",
+              "text": "sweet"
+            },
+            {
+              "id": "C",
+              "text": "dirty"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "cars make the air dirty"
+          },
+          "explanation": "The text says: \"cars make the air dirty\".",
+          "uuid": "2756284d-2205-54ba-b381-126af2ba9f96"
+        },
+        {
+          "id": "RE207-Q12",
+          "number": 12,
+          "prompt": "In Oslo, the buses are now _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "cheaper"
+            },
+            {
+              "id": "B",
+              "text": "faster"
+            },
+            {
+              "id": "C",
+              "text": "smaller"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "made the buses cheaper"
+          },
+          "explanation": "The text says: \"made the buses cheaper\".",
+          "uuid": "1a851254-9195-5d49-953f-1d5927d1dd3e"
+        },
+        {
+          "id": "RE207-Q13",
+          "number": 13,
+          "prompt": "The money from London's fee is used for _____ transport.",
+          "options": [
+            {
+              "id": "A",
+              "text": "private"
+            },
+            {
+              "id": "B",
+              "text": "public"
+            },
+            {
+              "id": "C",
+              "text": "air"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "used for public transport"
+          },
+          "explanation": "The text says: \"used for public transport\".",
+          "uuid": "abb37322-ddd9-5cf9-85ca-18e50e42f975"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "a626db18-fb6b-40d8-ae19-1414c58aaf4e",
+  "derived": {
+    "word_count": 203,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 6,
+      "B": 3,
+      "C": 4
+    },
+    "content_hash": "8a9a928435978209"
+  }
+}

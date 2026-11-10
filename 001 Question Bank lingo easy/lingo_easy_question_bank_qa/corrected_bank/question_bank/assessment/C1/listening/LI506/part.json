@@ -1,0 +1,490 @@
+{
+  "schema_version": "1.0",
+  "id": "LI506",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Seminar: Self-Driving Cars",
+  "topic": "technology",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li506_seminar_self_driving_cars.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Kira",
+        "gender": "female",
+        "accent": "british",
+        "role": "student"
+      },
+      {
+        "id": "S2",
+        "name": "Leon",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Maya",
+        "gender": "female",
+        "accent": "australian",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "For our seminar, we need to argue a position on self-driving cars. Shall we agree on the main points first?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I'd argue that safety is the strongest case. Human error causes over ninety per cent of crashes, according to most estimates. A machine doesn't get tired or distracted."
+      },
+      {
+        "speaker": "S3",
+        "text": "That statistic is often quoted, but it's slightly misleading. It means human error is a factor in most crashes, not that machines would prevent them all. Software has its own failures, and they can be unexpected."
+      },
+      {
+        "speaker": "S2",
+        "text": "Fair, but even if the technology isn't perfect, it only has to be better than the average human driver."
+      },
+      {
+        "speaker": "S1",
+        "text": "Is that enough, though? Surveys suggest people want self-driving cars to be far safer than humans before they'll trust them. We tolerate human mistakes but we're less forgiving of machine mistakes."
+      },
+      {
+        "speaker": "S3",
+        "text": "Exactly. After one fatal accident involving a test vehicle, public support dropped sharply, even though thousands die on the roads every year."
+      },
+      {
+        "speaker": "S2",
+        "text": "So the obstacle is psychological, not technical?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Partly. There's also the legal issue. If a car causes an accident, who's responsible? The owner, the manufacturer, the software designer? Current laws don't have clear answers."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's the point I'd like to develop. In some proposals, the manufacturer would be liable when the system is in control. That might encourage safer design, but it could also make cars very expensive."
+      },
+      {
+        "speaker": "S2",
+        "text": "What about the economic effect? Millions of people drive for a living, such as taxi drivers and lorry drivers."
+      },
+      {
+        "speaker": "S3",
+        "text": "A lot of the debate assumes the jobs will disappear overnight, which is unrealistic. In reality, change would be gradual, probably over decades, and new jobs would appear, such as remote supervision."
+      },
+      {
+        "speaker": "S1",
+        "text": "Though those new jobs wouldn't be enough in number or located in the same places."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's a strong objection. We should put it in our presentation."
+      },
+      {
+        "speaker": "S3",
+        "text": "Another angle is accessibility. For people who can't drive because of age or disability, self-driving cars could offer independence."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's a compelling argument, and one that's often overlooked. We could use it to balance the more negative points."
+      },
+      {
+        "speaker": "S2",
+        "text": "So our structure could be: safety, then public trust and law, then jobs, and finally accessibility."
+      },
+      {
+        "speaker": "S1",
+        "text": "I like that. We'd end on a positive note. Who researches which section?"
+      },
+      {
+        "speaker": "S3",
+        "text": "I'll take law and trust. I've already found a report from the European Commission."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'll do safety and accessibility."
+      },
+      {
+        "speaker": "S1",
+        "text": "Then I'll cover jobs and write the introduction. Let's aim to have drafts by Thursday."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI506-Q01",
+          "number": 1,
+          "prompt": "Why does Leon think safety is the strongest argument?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Machines are cheaper than drivers"
+            },
+            {
+              "id": "B",
+              "text": "Human error causes most crashes"
+            },
+            {
+              "id": "C",
+              "text": "Roads will be emptier"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Human error causes over ninety per cent of crashes"
+          },
+          "explanation": "The audio says: \"Human error causes over ninety per cent of crashes\".",
+          "uuid": "1eccd4d1-e679-5d85-b812-74c12d3e68cc"
+        },
+        {
+          "id": "LI506-Q02",
+          "number": 2,
+          "prompt": "What does Maya say about the statistic Leon quotes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is out of date"
+            },
+            {
+              "id": "B",
+              "text": "It is slightly misleading"
+            },
+            {
+              "id": "C",
+              "text": "It is exaggerated by manufacturers"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "it's slightly misleading"
+          },
+          "explanation": "The audio says: \"it's slightly misleading\".",
+          "uuid": "a6f47e41-9336-5a6e-97ad-6af7599c7599"
+        },
+        {
+          "id": "LI506-Q03",
+          "number": 3,
+          "prompt": "Why did public support for self-driving cars fall?",
+          "options": [
+            {
+              "id": "A",
+              "text": "After a fatal accident with a test vehicle"
+            },
+            {
+              "id": "B",
+              "text": "After a rise in the price of cars"
+            },
+            {
+              "id": "C",
+              "text": "After a software update caused delays"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "public support dropped sharply"
+          },
+          "explanation": "The audio says: \"public support dropped sharply\".",
+          "uuid": "bf786d22-7743-5c5a-bd06-cf96df542d88"
+        },
+        {
+          "id": "LI506-Q04",
+          "number": 4,
+          "prompt": "What legal problem does Maya raise?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Self-driving cars are not yet allowed on roads"
+            },
+            {
+              "id": "B",
+              "text": "It is unclear who is responsible for accidents"
+            },
+            {
+              "id": "C",
+              "text": "Insurance companies refuse to cover the cars"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Current laws don't have clear answers"
+          },
+          "explanation": "The audio says: \"Current laws don't have clear answers\".",
+          "uuid": "24da81ed-f0fc-5c72-8cc6-ebbb23739ef7"
+        },
+        {
+          "id": "LI506-Q05",
+          "number": 5,
+          "prompt": "What effect might manufacturer liability have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Safer design but more expensive cars"
+            },
+            {
+              "id": "B",
+              "text": "Cheaper cars but more accidents"
+            },
+            {
+              "id": "C",
+              "text": "No change to design but higher insurance"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "make cars very expensive"
+          },
+          "explanation": "The audio says: \"make cars very expensive\".",
+          "uuid": "9fb0f7de-3d84-5ab7-86ee-a5ee353a2cfa"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI506-Q06",
+          "number": 6,
+          "prompt": "What is Maya's view of the effect on jobs?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Most driving jobs will vanish within a year"
+            },
+            {
+              "id": "B",
+              "text": "Driving jobs will stay almost unchanged"
+            },
+            {
+              "id": "C",
+              "text": "Change will be gradual and new jobs will appear"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "change would be gradual"
+          },
+          "explanation": "The audio says: \"change would be gradual\".",
+          "uuid": "c9e738a4-9394-58dd-8656-1539b9eeb760"
+        },
+        {
+          "id": "LI506-Q07",
+          "number": 7,
+          "prompt": "What objection does Kira make about the new jobs?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They would pay too little"
+            },
+            {
+              "id": "B",
+              "text": "They would need rare skills"
+            },
+            {
+              "id": "C",
+              "text": "There would not be enough of them"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "wouldn't be enough in number"
+          },
+          "explanation": "The audio says: \"wouldn't be enough in number\".",
+          "uuid": "246180d3-abc7-5c10-8aca-13042278978d"
+        },
+        {
+          "id": "LI506-Q08",
+          "number": 8,
+          "prompt": "What benefit of self-driving cars does Maya introduce?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lower emissions in crowded city centres"
+            },
+            {
+              "id": "B",
+              "text": "Independence for people who cannot drive"
+            },
+            {
+              "id": "C",
+              "text": "Shorter journeys on crowded roads"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "could offer independence"
+          },
+          "explanation": "The audio says: \"could offer independence\".",
+          "uuid": "b74592ec-eae7-556e-896a-6b4734dc824a"
+        },
+        {
+          "id": "LI506-Q09",
+          "number": 9,
+          "prompt": "In what order will they present their points?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Jobs, safety, trust and law, accessibility"
+            },
+            {
+              "id": "B",
+              "text": "Safety, trust and law, jobs, accessibility"
+            },
+            {
+              "id": "C",
+              "text": "Accessibility, safety, jobs, trust and law"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "safety, then public trust and law, then jobs, and finally accessibility"
+          },
+          "explanation": "The audio says: \"safety, then public trust and law, then jobs, and finally accessibility\".",
+          "uuid": "da80c2f5-9d76-5ecf-8ae0-66374fc748d1"
+        },
+        {
+          "id": "LI506-Q10",
+          "number": 10,
+          "prompt": "Who will write the introduction?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Kira"
+            },
+            {
+              "id": "B",
+              "text": "Leon"
+            },
+            {
+              "id": "C",
+              "text": "Maya"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "cover jobs and write the introduction"
+          },
+          "explanation": "The audio says: \"cover jobs and write the introduction\".",
+          "uuid": "0420cba5-5900-5b30-85a9-1230b10ed75b"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "1d449829-8f50-4ec0-a31c-ab601b73cff5",
+  "derived": {
+    "word_count": 405,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 3,
+      "B": 5,
+      "C": 2
+    },
+    "content_hash": "2424a155c1bd8a1d"
+  }
+}

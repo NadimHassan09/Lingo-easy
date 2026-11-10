@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE402",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "The Hidden Life of Soil",
+  "topic": "farming_and_agriculture",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "The Hidden Life of Soil",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Most people think of soil as dirt: something to wash off hands and clothes. Yet a handful of healthy soil contains more living organisms than there are people on Earth. Bacteria, fungi, worms and insects form a complex community that recycles dead plants and animals into the nutrients that crops need. Without this hidden work, farming as we know it would be impossible."
+      },
+      {
+        "label": "B",
+        "text": "The most important of these organisms may be fungi. Thin threads called hyphae spread through the soil and connect to plant roots, forming a partnership known as mycorrhiza. The fungus gains sugars from the plant, while the plant receives water and minerals that the fungus collects over a far larger area than roots could reach alone. Scientists estimate that about ninety per cent of land plants depend on this relationship."
+      },
+      {
+        "label": "C",
+        "text": "Unfortunately, modern farming practices can damage this community. Repeated ploughing breaks up the fungal networks and exposes soil to the air, which speeds up the loss of carbon. Heavy use of chemical fertilisers can make plants less dependent on their fungal partners, so the partnership weakens. In some regions, the top layer of fertile soil has been reduced by half in a hundred and fifty years, and it can take five hundred years to form just two and a half centimetres of new soil."
+      },
+      {
+        "label": "D",
+        "text": "A growing number of farmers are changing their methods. In no-till farming, seeds are planted directly into last year's crop residue without ploughing. Cover crops, such as clover or rye, are grown between harvests to protect the surface and feed soil life. Early results are encouraging: farms using these methods often report better water retention and, after a few years, lower fertiliser costs. However, yields can fall during the transition, which discourages some farmers from trying."
+      },
+      {
+        "label": "E",
+        "text": "The benefits go beyond farming. Healthy soil stores large amounts of carbon, and some scientists believe that improving soils worldwide could remove a significant share of the carbon dioxide produced by human activity. It would not replace the need to cut emissions, but it could help. As one researcher put it, we have spent a century studying the sky and ignoring the ground beneath our feet."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE402-Q01",
+          "number": 1,
+          "prompt": "What point does the writer make about a handful of soil?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is mostly dead plant material"
+            },
+            {
+              "id": "B",
+              "text": "It contains almost no usable nutrients"
+            },
+            {
+              "id": "C",
+              "text": "It contains very many living organisms"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "more living organisms than there are people on Earth"
+          },
+          "explanation": "The text says: \"more living organisms than there are people on Earth\".",
+          "uuid": "d519e0ad-83ca-50a8-8f1c-5efac03b46d2"
+        },
+        {
+          "id": "RE402-Q02",
+          "number": 2,
+          "prompt": "What does the plant receive in a mycorrhizal partnership?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Water and minerals"
+            },
+            {
+              "id": "B",
+              "text": "Sugars from the fungus"
+            },
+            {
+              "id": "C",
+              "text": "Carbon dioxide and light"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "the plant receives water and minerals"
+          },
+          "explanation": "The text says: \"the plant receives water and minerals\".",
+          "uuid": "54d0c2a4-354c-5253-9c92-0141fa8eb51c"
+        },
+        {
+          "id": "RE402-Q03",
+          "number": 3,
+          "prompt": "Why can ploughing harm the soil?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It buries the seeds too deeply for them to grow"
+            },
+            {
+              "id": "B",
+              "text": "It breaks fungal networks and speeds up carbon loss"
+            },
+            {
+              "id": "C",
+              "text": "It floods the soil with more water than it can hold"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "breaks up the fungal networks"
+          },
+          "explanation": "The text says: \"breaks up the fungal networks\".",
+          "uuid": "ae4cc9bb-efe0-59f6-86c0-682bce4e8d05"
+        },
+        {
+          "id": "RE402-Q04",
+          "number": 4,
+          "prompt": "How can chemical fertilisers affect plants?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Plants need much more water to survive"
+            },
+            {
+              "id": "B",
+              "text": "Plants stop producing seeds after a year"
+            },
+            {
+              "id": "C",
+              "text": "Plants may depend less on their fungal partners"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "less dependent on their fungal partners"
+          },
+          "explanation": "The text says: \"less dependent on their fungal partners\".",
+          "uuid": "c44181dc-0a65-5e3e-8b27-19fe94f6d479"
+        },
+        {
+          "id": "RE402-Q05",
+          "number": 5,
+          "prompt": "What is a problem with changing to no-till methods?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fertiliser costs rise in the first years"
+            },
+            {
+              "id": "B",
+              "text": "Water retention gets worse in dry years"
+            },
+            {
+              "id": "C",
+              "text": "Yields may fall during the transition"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "yields can fall during the transition"
+          },
+          "explanation": "The text says: \"yields can fall during the transition\".",
+          "uuid": "c60fd351-47ed-523d-bb27-2bc2e4950362"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE402-Q06",
+          "number": 6,
+          "prompt": "About ninety per cent of land plants depend on fungi.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "ninety per cent of land plants depend on this relationship"
+          },
+          "explanation": "The text says: \"ninety per cent of land plants depend on this relationship\".",
+          "uuid": "87facd5d-3b75-5c6e-8980-f02be3dc7f9d"
+        },
+        {
+          "id": "RE402-Q07",
+          "number": 7,
+          "prompt": "Lost soil is replaced quickly by natural processes.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "five hundred years to form just two and a half centimetres"
+          },
+          "explanation": "The text says: \"five hundred years to form just two and a half centimetres\".",
+          "uuid": "42276a87-87a2-5b14-9c48-b09d64d63ab1"
+        },
+        {
+          "id": "RE402-Q08",
+          "number": 8,
+          "prompt": "Cover crops are grown between harvests.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "grown between harvests to protect the surface"
+          },
+          "explanation": "The text says: \"grown between harvests to protect the surface\".",
+          "uuid": "1f5cc1d2-d30f-5464-8bbf-091d42dd8c65"
+        },
+        {
+          "id": "RE402-Q09",
+          "number": 9,
+          "prompt": "No-till farming is cheaper than ploughing in its first year.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "f8f5d2f8-f078-5ce6-b243-47a35b42bcf9"
+        },
+        {
+          "id": "RE402-Q10",
+          "number": 10,
+          "prompt": "Improving soils could replace the need to cut emissions.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "would not replace the need to cut emissions"
+          },
+          "explanation": "The text says: \"would not replace the need to cut emissions\".",
+          "uuid": "58c6d9ae-d38d-5d7e-b425-c5e3e1cab17d"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE402-Q11",
+          "number": 11,
+          "prompt": "A description of how living things turn dead matter into nutrients",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "recycles dead plants and animals into the nutrients"
+          },
+          "explanation": "The text says: \"recycles dead plants and animals into the nutrients\".",
+          "uuid": "6e9764a4-a786-55f3-8432-b85a7c9e61e8"
+        },
+        {
+          "id": "RE402-Q12",
+          "number": 12,
+          "prompt": "A claim about the amount of fertile soil lost over time",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "reduced by half in a hundred and fifty years"
+          },
+          "explanation": "The text says: \"reduced by half in a hundred and fifty years\".",
+          "uuid": "a02347be-66af-5088-9642-d1bd5a9f7c19"
+        },
+        {
+          "id": "RE402-Q13",
+          "number": 13,
+          "prompt": "A comment suggesting that scientists have neglected the ground",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "ignoring the ground beneath our feet"
+          },
+          "explanation": "The text says: \"ignoring the ground beneath our feet\".",
+          "uuid": "d3ced71c-5e7a-5ac6-a831-83e67ade1f9d"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "55ac6206-8c35-4f66-8f15-a688f1afc9b9",
+  "derived": {
+    "word_count": 360,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "70e8ab0bb2bf061e"
+  }
+}

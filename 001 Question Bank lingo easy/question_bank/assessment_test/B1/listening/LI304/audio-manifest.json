@@ -1,0 +1,70 @@
+{
+  "part_id": "LI304",
+  "part_uuid": "b93e277a-5da3-4801-ac35-3750ca8bfc99",
+  "audio_file": "li304_what_happens_to_recycled_plastic.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "19bfe4dc4ad466d426fe90491bfa1250c6ffb03d31924ee9b397dbe69485b8fc",
+  "voices": {
+    "S1": {
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Morgan",
+      "gender": "female",
+      "accent": "australian",
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 15.82
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 16.27,
+      "end": 36.16
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 36.61,
+      "end": 72.06
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 72.51,
+      "end": 102.13
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 102.58,
+      "end": 122.33
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 122.78,
+      "end": 136.67
+    }
+  ],
+  "duration_seconds": 136.67,
+  "size_bytes": 1094060,
+  "audio_sha256": "61c13425f00f9bddd6f5e30e86dc00fb3ff621ce3183e3e1cc6e7bc3ba81e6ef",
+  "generated_at": "2026-10-30T20:50:48+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

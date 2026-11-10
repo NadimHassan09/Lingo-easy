@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "id": "LI108",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "A Message from Spain",
+  "topic": "travel",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li108_a_message_from_spain.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Jack",
+        "gender": "male",
+        "accent": "american",
+        "role": "traveller"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hi Mum, it's Jack. I am in Spain! We are in a small hotel near the beach. The weather is hot and sunny. Yesterday we went to the beach and swam in the sea. Today we are visiting an old castle in the town. It costs ten euros for each person. Tomorrow we are taking a boat trip. We are leaving at nine in the morning, so I must get up early! The food here is very good. I eat fish and rice every day. My friend Tom does not like fish, so he eats chicken. We are flying home on Friday. The plane leaves at four o'clock in the afternoon. Can you pick us up from the airport? Please call me back tonight. I miss you. Bye!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI108-Q01",
+          "number": 1,
+          "prompt": "Where is Jack?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In Italy"
+            },
+            {
+              "id": "B",
+              "text": "In France"
+            },
+            {
+              "id": "C",
+              "text": "In Spain"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I am in Spain"
+          },
+          "explanation": "The audio says: \"I am in Spain\".",
+          "uuid": "06e256a8-0301-5285-abf1-368c41220eb2"
+        },
+        {
+          "id": "LI108-Q02",
+          "number": 2,
+          "prompt": "Where is the hotel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In the mountains"
+            },
+            {
+              "id": "B",
+              "text": "Near the beach"
+            },
+            {
+              "id": "C",
+              "text": "In the city centre"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "near the beach"
+          },
+          "explanation": "The audio says: \"near the beach\".",
+          "uuid": "8ae22441-f67b-50d8-ad7d-294761916463"
+        },
+        {
+          "id": "LI108-Q03",
+          "number": 3,
+          "prompt": "What is the weather like?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hot and sunny"
+            },
+            {
+              "id": "B",
+              "text": "Cold and rainy"
+            },
+            {
+              "id": "C",
+              "text": "Warm and cloudy"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "hot and sunny"
+          },
+          "explanation": "The audio says: \"hot and sunny\".",
+          "uuid": "33795c0e-5fbc-570f-859b-68f8a86f287b"
+        },
+        {
+          "id": "LI108-Q04",
+          "number": 4,
+          "prompt": "What did Jack do yesterday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He visited a castle"
+            },
+            {
+              "id": "B",
+              "text": "He took a boat trip"
+            },
+            {
+              "id": "C",
+              "text": "He swam in the sea"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "swam in the sea"
+          },
+          "explanation": "The audio says: \"swam in the sea\".",
+          "uuid": "deaff577-9515-547f-87f0-3439c64e799f"
+        },
+        {
+          "id": "LI108-Q05",
+          "number": 5,
+          "prompt": "What is Jack doing today?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Swimming in the sea"
+            },
+            {
+              "id": "B",
+              "text": "Shopping in the town"
+            },
+            {
+              "id": "C",
+              "text": "Visiting a castle"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Today we are visiting an old castle"
+          },
+          "explanation": "The audio says: \"Today we are visiting an old castle\".",
+          "uuid": "b70913e2-a3e5-523a-9e6c-e456ccf2d62c"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI108-Q06",
+          "number": 6,
+          "prompt": "How much is the castle for each person?",
+          "options": [
+            {
+              "id": "A",
+              "text": "10 euros"
+            },
+            {
+              "id": "B",
+              "text": "1 euro"
+            },
+            {
+              "id": "C",
+              "text": "20 euros"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "ten euros for each person"
+          },
+          "explanation": "The audio says: \"ten euros for each person\".",
+          "uuid": "490ab62f-2c11-5cd5-bee2-35bddd38be6d"
+        },
+        {
+          "id": "LI108-Q07",
+          "number": 7,
+          "prompt": "What are they doing tomorrow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Visiting a museum"
+            },
+            {
+              "id": "B",
+              "text": "Taking a boat trip"
+            },
+            {
+              "id": "C",
+              "text": "Flying home"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Tomorrow we are taking a boat trip"
+          },
+          "explanation": "The audio says: \"Tomorrow we are taking a boat trip\".",
+          "uuid": "09af655e-3ea1-5526-bd7c-96c45328166a"
+        },
+        {
+          "id": "LI108-Q08",
+          "number": 8,
+          "prompt": "What time are they leaving tomorrow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "9.00 in the evening"
+            },
+            {
+              "id": "B",
+              "text": "4.00 in the afternoon"
+            },
+            {
+              "id": "C",
+              "text": "9.00 in the morning"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "leaving at nine in the morning"
+          },
+          "explanation": "The audio says: \"leaving at nine in the morning\".",
+          "uuid": "d23aa9ab-7d9a-5f7d-a71f-3e02dda2c7e1"
+        },
+        {
+          "id": "LI108-Q09",
+          "number": 9,
+          "prompt": "What does Tom eat?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fish"
+            },
+            {
+              "id": "B",
+              "text": "Chicken"
+            },
+            {
+              "id": "C",
+              "text": "Rice"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "so he eats chicken"
+          },
+          "explanation": "The audio says: \"so he eats chicken\".",
+          "uuid": "053f45c5-b837-5c6b-bff7-aad9a5e90c55"
+        },
+        {
+          "id": "LI108-Q10",
+          "number": 10,
+          "prompt": "When are they flying home?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On Monday"
+            },
+            {
+              "id": "B",
+              "text": "On Sunday"
+            },
+            {
+              "id": "C",
+              "text": "On Friday"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "flying home on Friday"
+          },
+          "explanation": "The audio says: \"flying home on Friday\".",
+          "uuid": "829cd02b-2913-519a-9401-0f18a4894601"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "c8d827c4-d048-44d5-abd4-157ed0cc1af0",
+  "derived": {
+    "word_count": 128,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 2,
+      "B": 3,
+      "C": 5
+    },
+    "content_hash": "22df1b393061c076"
+  }
+}

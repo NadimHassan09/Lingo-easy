@@ -1,0 +1,40 @@
+{
+  "part_id": "LI210",
+  "part_uuid": "da006b40-02d3-4407-8a39-a730227638d9",
+  "audio_file": "li210_the_weather_report.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "a16ae5132f3818853783a6ed54d6e9764375e52459a58ea6fae0f9d256017d57",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Presenter",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 68.88
+    }
+  ],
+  "duration_seconds": 68.88,
+  "size_bytes": 551660,
+  "audio_sha256": "50cf47a33cef1e1b16d8463b29d1cc3dc08e48df2066fb7bcad25da8bc12b9d1",
+  "generated_at": "2026-10-30T20:49:52+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

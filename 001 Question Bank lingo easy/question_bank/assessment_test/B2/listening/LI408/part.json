@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI408",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "The Economics of Tourism",
+  "topic": "tourism_and_events",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li408_the_economics_of_tourism.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Professor Ward",
+        "gender": "female",
+        "accent": "british",
+        "role": "economics lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon. Today's topic is the economics of tourism, which is one of the world's largest industries. Before the pandemic, tourism accounted for about ten per cent of global economic activity and one in ten jobs. For some countries, such as the Maldives and Croatia, the share is much higher."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let's start with the benefits. The most obvious is employment. Tourism creates jobs for hotel staff, guides, drivers, restaurant workers and many others, and it requires relatively few formal qualifications, which makes it accessible for young people and women in particular. The second benefit is foreign currency. When tourists spend money in a country, it's treated like an export, even though nothing physically leaves. Third, tourism can encourage infrastructure development, such as airports and roads, which local people use too."
+      },
+      {
+        "speaker": "S1",
+        "text": "But economists also talk about leakage. This refers to the money that doesn't stay in the local economy. Think of a tourist who books an all-inclusive package with an international hotel chain. Much of the payment goes to the airline and the company's head office abroad, and the local community may see as little as ten or fifteen per cent. The hotel might also import food and furniture rather than buy locally, which reduces the benefit further."
+      },
+      {
+        "speaker": "S1",
+        "text": "Another concern is dependence. When an economy relies heavily on tourism, it becomes vulnerable to shocks, such as natural disasters, political unrest or a pandemic. In 2020, some island economies shrank by more than twenty per cent in a single year. Diversification is therefore the policy that most experts recommend."
+      },
+      {
+        "speaker": "S1",
+        "text": "Then there are the hidden costs. Local residents may face higher housing prices as properties are converted into holiday rentals. Barcelona and Venice are often cited. In response, some cities have introduced limits on the number of days a home can be rented, or charged a tourist tax. The revenue from such taxes can be spent on cleaning and public transport. Critics say the tax is too low to change behaviour, but supporters argue that it's fairer than asking residents alone to pay."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, sustainable tourism. The idea is to meet the needs of visitors without harming the environment or culture for future generations. Some places limit daily visitor numbers. The Galápagos Islands, for example, charge an entrance fee and restrict where tourists can go. There is a trade-off here: restrictions protect the environment but may reduce income, so governments have to decide how to balance the two. For next week, I'd like you to select a country and prepare a short analysis of its tourism economy, using at least three of the concepts from today's lecture."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI408-Q01",
+          "number": 1,
+          "prompt": "How much of global economic activity did tourism account for before the pandemic?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 1 per cent"
+            },
+            {
+              "id": "B",
+              "text": "About 25 per cent"
+            },
+            {
+              "id": "C",
+              "text": "About 10 per cent"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about ten per cent of global economic activity"
+          },
+          "explanation": "The audio says: \"about ten per cent of global economic activity\".",
+          "uuid": "367576d7-ee0d-51fe-99ef-8e183ab5525e"
+        },
+        {
+          "id": "LI408-Q02",
+          "number": 2,
+          "prompt": "Why is tourism employment accessible to many people?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is paid much better than most jobs"
+            },
+            {
+              "id": "B",
+              "text": "It needs few formal qualifications"
+            },
+            {
+              "id": "C",
+              "text": "It offers mainly seasonal contracts"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "relatively few formal qualifications"
+          },
+          "explanation": "The audio says: \"relatively few formal qualifications\".",
+          "uuid": "ed18d2e3-e168-5f57-923d-5fdcd3c97b0c"
+        },
+        {
+          "id": "LI408-Q03",
+          "number": 3,
+          "prompt": "Why is tourist spending treated like an export?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Foreign money enters the country"
+            },
+            {
+              "id": "B",
+              "text": "Goods are physically sent abroad"
+            },
+            {
+              "id": "C",
+              "text": "Tourists pay taxes in their home country"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "treated like an export"
+          },
+          "explanation": "The audio says: \"treated like an export\".",
+          "uuid": "bb160520-5e14-5436-8f4f-84a8b27edc46"
+        },
+        {
+          "id": "LI408-Q04",
+          "number": 4,
+          "prompt": "What does leakage mean?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Water that is lost from hotel pipes"
+            },
+            {
+              "id": "B",
+              "text": "Tourists who leave a resort too early"
+            },
+            {
+              "id": "C",
+              "text": "Money that does not stay in the local economy"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "money that doesn't stay in the local economy"
+          },
+          "explanation": "The audio says: \"money that doesn't stay in the local economy\".",
+          "uuid": "ede458fe-843a-595c-b4ee-ab46c6649565"
+        },
+        {
+          "id": "LI408-Q05",
+          "number": 5,
+          "prompt": "How much of an all-inclusive package may the local community receive?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About ninety per cent of the price"
+            },
+            {
+              "id": "B",
+              "text": "About half of the total price paid"
+            },
+            {
+              "id": "C",
+              "text": "As little as ten or fifteen per cent"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "as little as ten or fifteen per cent"
+          },
+          "explanation": "The audio says: \"as little as ten or fifteen per cent\".",
+          "uuid": "176d7a85-06e1-5f2f-9754-04c851590f1e"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI408-Q06",
+          "number": 6,
+          "prompt": "Why is dependence on tourism risky?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prices rise too fast for local people"
+            },
+            {
+              "id": "B",
+              "text": "The economy is vulnerable to shocks"
+            },
+            {
+              "id": "C",
+              "text": "Workers leave the country to find jobs"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "vulnerable to shocks"
+          },
+          "explanation": "The audio says: \"vulnerable to shocks\".",
+          "uuid": "9e42325f-8e0a-58c2-9e57-72126ea50b11"
+        },
+        {
+          "id": "LI408-Q07",
+          "number": 7,
+          "prompt": "Which policy do most experts recommend?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Higher prices"
+            },
+            {
+              "id": "B",
+              "text": "Diversification"
+            },
+            {
+              "id": "C",
+              "text": "Fewer hotels"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Diversification is therefore the policy"
+          },
+          "explanation": "The audio says: \"Diversification is therefore the policy\".",
+          "uuid": "d2ba8ccb-2562-588d-abc7-1f86243cda59"
+        },
+        {
+          "id": "LI408-Q08",
+          "number": 8,
+          "prompt": "What problem do residents of popular cities face?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lower wages in the hotel trade"
+            },
+            {
+              "id": "B",
+              "text": "Higher housing prices"
+            },
+            {
+              "id": "C",
+              "text": "Fewer shops selling everyday goods"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "higher housing prices"
+          },
+          "explanation": "The audio says: \"higher housing prices\".",
+          "uuid": "6627cd44-0ba5-519e-b001-e26a314c19b9"
+        },
+        {
+          "id": "LI408-Q09",
+          "number": 9,
+          "prompt": "What do critics say about the tourist tax?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too low to change behaviour"
+            },
+            {
+              "id": "B",
+              "text": "It is too complicated to collect"
+            },
+            {
+              "id": "C",
+              "text": "It is unfair to hotel owners"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "too low to change behaviour"
+          },
+          "explanation": "The audio says: \"too low to change behaviour\".",
+          "uuid": "4338e6be-1c57-5058-bb80-9afaaca95b69"
+        },
+        {
+          "id": "LI408-Q10",
+          "number": 10,
+          "prompt": "How does the Galápagos Islands protect its environment?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By banning tourists during the winter months"
+            },
+            {
+              "id": "B",
+              "text": "By charging a fee and limiting where tourists go"
+            },
+            {
+              "id": "C",
+              "text": "By building more hotels away from the coast"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "restrict where tourists can go"
+          },
+          "explanation": "The audio says: \"restrict where tourists can go\".",
+          "uuid": "be739f2d-6a52-582c-9c12-94ca50e4ad13"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "5705e16b-e998-4136-a0b4-e71cae857ac0",
+  "derived": {
+    "word_count": 436,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 2,
+      "B": 5,
+      "C": 3
+    },
+    "content_hash": "0dfacddb986eea4f"
+  }
+}

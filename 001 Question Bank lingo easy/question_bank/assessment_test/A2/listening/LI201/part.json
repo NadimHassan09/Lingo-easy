@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.0",
+  "id": "LI201",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Changing a Hotel Booking",
+  "topic": "travel",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li201_changing_a_hotel_booking.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Sarah",
+        "gender": "female",
+        "accent": "british",
+        "role": "hotel receptionist"
+      },
+      {
+        "id": "S2",
+        "name": "David Cole",
+        "gender": "male",
+        "accent": "american",
+        "role": "guest"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Seaview Hotel, good morning. Can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hello. I have a booking for this Friday, for three nights, but I need to change it. My name is David Cole."
+      },
+      {
+        "speaker": "S1",
+        "text": "One moment, Mr Cole. Yes, I can see it. A double room for three nights, from Friday the ninth."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's right. I would like to stay for four nights instead, until Tuesday morning. Is that possible?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Let me check. Yes, we have the same room for Monday night as well. It's ninety pounds a night, so the new total is three hundred and sixty pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's fine. Can I also have a room with a sea view? My wife loves the sea."
+      },
+      {
+        "speaker": "S1",
+        "text": "The sea-view rooms are on the second floor and they cost ten pounds more each night. But they are all booked that weekend, I'm afraid. Only a room facing the garden is available."
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, that's a pity. The garden room is okay, then."
+      },
+      {
+        "speaker": "S1",
+        "text": "Great. Breakfast is included, and it is served from seven thirty to ten o'clock in the dining room."
+      },
+      {
+        "speaker": "S2",
+        "text": "Wonderful. What time can we check in?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Check-in is from two o'clock, but you can leave your bags at reception if you arrive earlier."
+      },
+      {
+        "speaker": "S2",
+        "text": "We'll arrive at about noon, so that's useful. Do you have parking?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, there's a car park behind the hotel. It costs five pounds a day."
+      },
+      {
+        "speaker": "S2",
+        "text": "Perfect. Thank you for your help."
+      },
+      {
+        "speaker": "S1",
+        "text": "You're welcome, Mr Cole. We look forward to seeing you."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI201-Q01",
+          "number": 1,
+          "prompt": "What change does Mr Cole ask for first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Getting a cheaper room"
+            },
+            {
+              "id": "B",
+              "text": "Moving to a different date"
+            },
+            {
+              "id": "C",
+              "text": "Staying one more night"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "stay for four nights instead"
+          },
+          "explanation": "The audio says: \"stay for four nights instead\".",
+          "uuid": "c9e6752a-7424-57fd-9d7e-09f2bf5dd7c3"
+        },
+        {
+          "id": "LI201-Q02",
+          "number": 2,
+          "prompt": "When will Mr Cole leave the hotel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On Monday morning"
+            },
+            {
+              "id": "B",
+              "text": "On Tuesday evening"
+            },
+            {
+              "id": "C",
+              "text": "On Tuesday morning"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "until Tuesday morning"
+          },
+          "explanation": "The audio says: \"until Tuesday morning\".",
+          "uuid": "ba8f01b0-b766-59fb-bde6-772f465cd5a8"
+        },
+        {
+          "id": "LI201-Q03",
+          "number": 3,
+          "prompt": "What is the new total cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "270 pounds"
+            },
+            {
+              "id": "B",
+              "text": "360 pounds"
+            },
+            {
+              "id": "C",
+              "text": "450 pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "three hundred and sixty pounds"
+          },
+          "explanation": "The audio says: \"three hundred and sixty pounds\".",
+          "uuid": "6359e9ec-52c8-5a41-bc16-db10ed306e89"
+        },
+        {
+          "id": "LI201-Q04",
+          "number": 4,
+          "prompt": "Why does he ask for a sea-view room?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is cheaper than the garden room"
+            },
+            {
+              "id": "B",
+              "text": "His wife loves the sea"
+            },
+            {
+              "id": "C",
+              "text": "It is quieter at night"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "My wife loves the sea"
+          },
+          "explanation": "The audio says: \"My wife loves the sea\".",
+          "uuid": "30bd08d7-717a-5aa9-aade-1b2ab02925f2"
+        },
+        {
+          "id": "LI201-Q05",
+          "number": 5,
+          "prompt": "Why can he not have a sea-view room?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are all booked"
+            },
+            {
+              "id": "B",
+              "text": "They are too expensive"
+            },
+            {
+              "id": "C",
+              "text": "They are being repaired"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "all booked that weekend"
+          },
+          "explanation": "The audio says: \"all booked that weekend\".",
+          "uuid": "8f1efd78-6fbd-59ed-93ed-18b9a7d57b01"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI201-Q06",
+          "number": 6,
+          "prompt": "Which room does he take?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A room facing the garden"
+            },
+            {
+              "id": "B",
+              "text": "A room on the second floor"
+            },
+            {
+              "id": "C",
+              "text": "A room facing the street"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The garden room is okay"
+          },
+          "explanation": "The audio says: \"The garden room is okay\".",
+          "uuid": "b257bf7d-253e-5520-868a-01cd565282f6"
+        },
+        {
+          "id": "LI201-Q07",
+          "number": 7,
+          "prompt": "When is breakfast served?",
+          "options": [
+            {
+              "id": "A",
+              "text": "7.00 to 9.30"
+            },
+            {
+              "id": "B",
+              "text": "7.30 to 10.00"
+            },
+            {
+              "id": "C",
+              "text": "8.30 to 11.00"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "from seven thirty to ten o'clock"
+          },
+          "explanation": "The audio says: \"from seven thirty to ten o'clock\".",
+          "uuid": "fc616f10-5316-53f5-98e9-fea09569c0a1"
+        },
+        {
+          "id": "LI201-Q08",
+          "number": 8,
+          "prompt": "From what time can the guests check in?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2.00"
+            },
+            {
+              "id": "B",
+              "text": "12.00"
+            },
+            {
+              "id": "C",
+              "text": "4.00"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Check-in is from two o'clock"
+          },
+          "explanation": "The audio says: \"Check-in is from two o'clock\".",
+          "uuid": "29a599d7-9437-59b1-87c5-4076e29fa277"
+        },
+        {
+          "id": "LI201-Q09",
+          "number": 9,
+          "prompt": "What can they do if they arrive early?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wait in the hotel dining room"
+            },
+            {
+              "id": "B",
+              "text": "Leave their bags at reception"
+            },
+            {
+              "id": "C",
+              "text": "Leave their bags in the car park"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "leave your bags at reception"
+          },
+          "explanation": "The audio says: \"leave your bags at reception\".",
+          "uuid": "7ffb1d32-14e1-5620-a35a-4d728419c5d4"
+        },
+        {
+          "id": "LI201-Q10",
+          "number": 10,
+          "prompt": "How much does parking cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "5 pounds a day"
+            },
+            {
+              "id": "B",
+              "text": "15 pounds a day"
+            },
+            {
+              "id": "C",
+              "text": "5 pounds a night"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "five pounds a day"
+          },
+          "explanation": "The audio says: \"five pounds a day\".",
+          "uuid": "59f421ca-5d2f-59ba-ab6f-d3608cca4c42"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "e34252ad-a614-4db9-b3c9-a947fa6e6543",
+  "derived": {
+    "word_count": 241,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "content_hash": "f2fbcb76d7b1b60f"
+  }
+}

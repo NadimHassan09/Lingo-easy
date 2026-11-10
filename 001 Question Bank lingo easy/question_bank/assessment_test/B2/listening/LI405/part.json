@@ -1,0 +1,495 @@
+{
+  "schema_version": "1.0",
+  "id": "LI405",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Planning a Company Away Day",
+  "topic": "work_and_careers",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li405_planning_a_company_away_day.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Rachel",
+        "gender": "female",
+        "accent": "british",
+        "role": "office manager"
+      },
+      {
+        "id": "S2",
+        "name": "Tom",
+        "gender": "male",
+        "accent": "american",
+        "role": "colleague"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Tom, have you got a minute? I need to finalise the plans for the away day, and I'd like your opinion."
+      },
+      {
+        "speaker": "S2",
+        "text": "Sure. What's the situation?"
+      },
+      {
+        "speaker": "S1",
+        "text": "We have forty staff and a budget of two thousand pounds. The date is the fourteenth of June. My first thought was to go to the coast, but the coach would cost nearly four hundred pounds, so I'm not sure."
+      },
+      {
+        "speaker": "S2",
+        "text": "What about somewhere closer? The old mill by the river has a conference room we could hire for a day."
+      },
+      {
+        "speaker": "S1",
+        "text": "I looked into that. It's cheap, only three hundred and fifty, but the room holds just thirty people, so it's too small."
+      },
+      {
+        "speaker": "S2",
+        "text": "Hmm. What about the sports centre next to the office? We wouldn't need transport, and they have a large hall and a café."
+      },
+      {
+        "speaker": "S1",
+        "text": "I hadn't thought of that. And we could organise team sports in the afternoon."
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, but not everyone enjoys sport. Last year, several people said they felt uncomfortable with the football match."
+      },
+      {
+        "speaker": "S1",
+        "text": "True. We could offer a choice: football for some, a quiz or a treasure hunt for others."
+      },
+      {
+        "speaker": "S2",
+        "text": "That sounds fair. What about the morning?"
+      },
+      {
+        "speaker": "S1",
+        "text": "I'd like a workshop on communication between departments. That was the most frequent complaint in the staff survey."
+      },
+      {
+        "speaker": "S2",
+        "text": "Do you have a trainer in mind?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, Dr Miller from the business school. She's very good, but her fee is eight hundred pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's a lot of the budget. Could one of our own managers lead it instead?"
+      },
+      {
+        "speaker": "S1",
+        "text": "I considered that, but people tend to listen more carefully to someone from outside. I think it's worth paying."
+      },
+      {
+        "speaker": "S2",
+        "text": "All right. And lunch?"
+      },
+      {
+        "speaker": "S1",
+        "text": "The sports centre café can provide sandwiches and salads for twelve pounds a head. That's four hundred and eighty pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "So the hall hire, trainer and lunch come to quite a lot. Do we know the price of the hall?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Five hundred pounds for the full day. So the total is one thousand seven hundred and eighty. That leaves two hundred and twenty for activities."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's enough for prizes and equipment. One more thing: will senior management attend?"
+      },
+      {
+        "speaker": "S1",
+        "text": "The director said she'd come for the morning, but she has a meeting after lunch."
+      },
+      {
+        "speaker": "S2",
+        "text": "Fine. Shall I send the invitation?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, please, by Friday. And ask people to tell us about dietary requirements."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI405-Q01",
+          "number": 1,
+          "prompt": "What is the budget for the away day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2,000 pounds"
+            },
+            {
+              "id": "B",
+              "text": "1,780 pounds"
+            },
+            {
+              "id": "C",
+              "text": "4,000 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a budget of two thousand pounds"
+          },
+          "explanation": "The audio says: \"a budget of two thousand pounds\".",
+          "uuid": "83b71f58-aa70-5447-81a6-496d05e06780"
+        },
+        {
+          "id": "LI405-Q02",
+          "number": 2,
+          "prompt": "Why does Rachel doubt the coast idea?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The coast is too far for a day trip"
+            },
+            {
+              "id": "B",
+              "text": "The coach would cost nearly 400 pounds"
+            },
+            {
+              "id": "C",
+              "text": "The weather forecast is unreliable for June"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "coach would cost nearly four hundred pounds"
+          },
+          "explanation": "The audio says: \"coach would cost nearly four hundred pounds\".",
+          "uuid": "bc9a1310-7b82-542c-80ec-a31da7573f8b"
+        },
+        {
+          "id": "LI405-Q03",
+          "number": 3,
+          "prompt": "Why is the old mill not suitable?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The room is too small"
+            },
+            {
+              "id": "B",
+              "text": "It is too expensive"
+            },
+            {
+              "id": "C",
+              "text": "It is too far from the office"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "holds just thirty people"
+          },
+          "explanation": "The audio says: \"holds just thirty people\".",
+          "uuid": "698ea998-f708-5b11-a467-95c0f468705b"
+        },
+        {
+          "id": "LI405-Q04",
+          "number": 4,
+          "prompt": "What is an advantage of the sports centre?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is cheaper than the mill"
+            },
+            {
+              "id": "B",
+              "text": "It has a swimming pool"
+            },
+            {
+              "id": "C",
+              "text": "No transport is needed"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "We wouldn't need transport"
+          },
+          "explanation": "The audio says: \"We wouldn't need transport\".",
+          "uuid": "476a25e3-cd6b-56e9-9c84-b0b88ef582e2"
+        },
+        {
+          "id": "LI405-Q05",
+          "number": 5,
+          "prompt": "Why will the staff have a choice of afternoon activities?",
+          "options": [
+            {
+              "id": "A",
+              "text": "There are too many staff"
+            },
+            {
+              "id": "B",
+              "text": "Not everyone enjoys sport"
+            },
+            {
+              "id": "C",
+              "text": "Football costs too much"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "not everyone enjoys sport"
+          },
+          "explanation": "The audio says: \"not everyone enjoys sport\".",
+          "uuid": "14be96aa-8493-5441-ae77-89329756c2b8"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI405-Q06",
+          "number": 6,
+          "prompt": "What will the morning workshop be about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Team sports for all the staff"
+            },
+            {
+              "id": "B",
+              "text": "Communication between departments"
+            },
+            {
+              "id": "C",
+              "text": "Staff health and wellbeing at work"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "communication between departments"
+          },
+          "explanation": "The audio says: \"communication between departments\".",
+          "uuid": "3c1c6233-bdcd-5f5d-9af8-d036b42111f7"
+        },
+        {
+          "id": "LI405-Q07",
+          "number": 7,
+          "prompt": "Why does Rachel prefer an outside trainer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "People listen more carefully to outsiders"
+            },
+            {
+              "id": "B",
+              "text": "Managers are too busy to lead a workshop"
+            },
+            {
+              "id": "C",
+              "text": "Outside trainers are cheaper than managers"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "listen more carefully to someone from outside"
+          },
+          "explanation": "The audio says: \"listen more carefully to someone from outside\".",
+          "uuid": "de9f6c9a-cc3f-528b-bff1-7e62a9275c76"
+        },
+        {
+          "id": "LI405-Q08",
+          "number": 8,
+          "prompt": "How much will lunch cost in total?",
+          "options": [
+            {
+              "id": "A",
+              "text": "480 pounds"
+            },
+            {
+              "id": "B",
+              "text": "12 pounds"
+            },
+            {
+              "id": "C",
+              "text": "800 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "four hundred and eighty pounds"
+          },
+          "explanation": "The audio says: \"four hundred and eighty pounds\".",
+          "uuid": "d373dbef-1492-50bf-9455-641d6f31d2b3"
+        },
+        {
+          "id": "LI405-Q09",
+          "number": 9,
+          "prompt": "How much money is left for activities?",
+          "options": [
+            {
+              "id": "A",
+              "text": "220 pounds"
+            },
+            {
+              "id": "B",
+              "text": "120 pounds"
+            },
+            {
+              "id": "C",
+              "text": "500 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "two hundred and twenty for activities"
+          },
+          "explanation": "The audio says: \"two hundred and twenty for activities\".",
+          "uuid": "413e1fbe-3993-5fbf-becd-af5b129c9e2c"
+        },
+        {
+          "id": "LI405-Q10",
+          "number": 10,
+          "prompt": "When will the director be at the away day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "All day"
+            },
+            {
+              "id": "B",
+              "text": "In the afternoon only"
+            },
+            {
+              "id": "C",
+              "text": "In the morning only"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "she'd come for the morning"
+          },
+          "explanation": "The audio says: \"she'd come for the morning\".",
+          "uuid": "c25b68da-a06d-5345-8d62-2fe9396c6119"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "9d8b7d56-4e02-4bc3-8305-fbccdea1bf27",
+  "derived": {
+    "word_count": 378,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 5,
+      "B": 3,
+      "C": 2
+    },
+    "content_hash": "ca824b2223b50085"
+  }
+}

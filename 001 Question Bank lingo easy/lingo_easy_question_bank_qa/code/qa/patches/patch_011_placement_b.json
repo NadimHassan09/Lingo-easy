@@ -1,0 +1,181 @@
+[
+ {
+  "id": "RE006-Q03",
+  "set": {
+   "B": "Their clothes and personal belongings",
+   "C": "Their holidays and weekend plans"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE006-Q04",
+  "set": {
+   "A": "Flatmates cook meals for each other",
+   "B": "Flatmates often pay part of your rent"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE006-Q05",
+  "set": {
+   "A": "They had never argued with a flatmate",
+   "C": "They had moved out because of noise"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE006-Q13",
+  "set": {
+   "A": "Avoid sharing a flat with your friends",
+   "C": "Choose the cheapest flat you can find"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE007-Q02",
+  "set": {
+   "A": "Cells that attack germs in the blood",
+   "C": "Proteins made by the body's own cells"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE007-Q03",
+  "set": {
+   "A": "They carry oxygen to the infected tissue",
+   "B": "They make the body ill for several days"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE007-Q04",
+  "set": {
+   "A": "The germ is stronger the first time it enters",
+   "B": "Antibodies are harmful when they first appear"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE007-Q05",
+  "set": {
+   "A": "They kill every germ in the body at once",
+   "B": "They prevent all side effects of vaccines"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE008-Q02",
+  "set": {
+   "A": "Because of noise from the airport",
+   "C": "Because of new museums for visitors"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE008-Q03",
+  "set": {
+   "B": "The building of new hotels",
+   "C": "Cheaper flights for tourists"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE008-Q04",
+  "set": {
+   "B": "Tourists rarely spend money in local shops",
+   "C": "Local people refuse to work in tourism"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE008-Q05",
+  "set": {
+   "B": "It has doubled since the year 1951",
+   "C": "It has stayed the same since then"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE009-Q01",
+  "set": {
+   "C": "By around fifty per cent"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE009-Q03",
+  "set": {
+   "A": "It doubled over the same period",
+   "C": "It stayed the same as before"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE009-Q04",
+  "set": {
+   "A": "They are the largest source of plastic waste",
+   "B": "They are recycled more easily than most"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE009-Q05",
+  "set": {
+   "A": "It has no lasting effect on behaviour",
+   "C": "It makes shopping harder for families"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE010-Q01",
+  "set": {
+   "A": "News services for political parties",
+   "C": "Political campaigns for new voters"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE010-Q03",
+  "set": {
+   "A": "The company had not studied the effects",
+   "C": "The platform was losing users every year"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE010-Q04",
+  "set": {
+   "A": "Parents do not understand the law on age limits",
+   "C": "Platforms ignore emails sent by worried parents"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE010-Q05",
+  "set": {
+   "A": "They are strictly enforced by the platforms",
+   "B": "They are set too low for most teenagers"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ }
+]

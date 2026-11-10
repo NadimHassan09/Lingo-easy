@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI401",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "University Orientation Talk",
+  "topic": "education",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li401_university_orientation_talk.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Amara Singh",
+        "gender": "female",
+        "accent": "british",
+        "role": "head of student services"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, everyone, and welcome to Redbridge University. My name is Amara Singh, and I'm the head of student services. I know that the first week can feel overwhelming, so I'd like to explain a few things that will make your life easier."
+      },
+      {
+        "speaker": "S1",
+        "text": "First, registration. You should all have received an email with a link to the online system. Most of you have already completed it, but about thirty students still haven't confirmed their course choices. If that's you, please do it by Friday. After that date, there's a late fee of twenty-five pounds, which I'd rather you didn't have to pay."
+      },
+      {
+        "speaker": "S1",
+        "text": "Second, the library. It was recently refurbished and now has three floors. The ground floor is for group work, and talking is fine there. The first floor is for quiet study, and the second floor, which used to be open to everyone, is now silent study only. Some of you might think that's strict, but exam time is very busy, and students told us they needed a place with absolutely no noise. Your student card opens the doors, and you can borrow up to fifteen books at a time. The library is open until midnight on weekdays, but originally we planned to close at ten, so you can thank last year's student union for changing that."
+      },
+      {
+        "speaker": "S1",
+        "text": "Third, accommodation. Those living in halls will find the laundry in the basement of each building. Please don't leave your clothes in the machines for hours, because other students are waiting. If you live off campus, the number fourteen bus runs every ten minutes from the city centre, and your student card gives you a thirty per cent discount."
+      },
+      {
+        "speaker": "S1",
+        "text": "Fourth, support services. If you ever feel stressed or worried, you aren't alone. Many students do at some point. The counselling service is free and confidential, and you don't need a doctor's letter to use it. You can book an appointment online, or just walk in between two and four every afternoon. Also, the writing centre helps with essays. A lot of first-year students think the centre is only for people who are weak at writing, but that isn't true. In fact, some of our best students go there before every assignment."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, I'd like to encourage you to join a society. There are over a hundred, from chess to climbing. The societies fair takes place next Wednesday in the main hall, so don't miss it. Joining one is the quickest way to make friends who are outside your course. Thank you for listening, and enjoy your first week."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI401-Q01",
+          "number": 1,
+          "prompt": "What must the thirty students do by Friday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Confirm their course choices"
+            },
+            {
+              "id": "B",
+              "text": "Pay the late fee of twenty-five pounds"
+            },
+            {
+              "id": "C",
+              "text": "Collect their new student cards"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "haven't confirmed their course choices"
+          },
+          "explanation": "The audio says: \"haven't confirmed their course choices\".",
+          "uuid": "33e0c11c-440e-546a-ae8e-5993b607a0d1"
+        },
+        {
+          "id": "LI401-Q02",
+          "number": 2,
+          "prompt": "How much is the late fee?",
+          "options": [
+            {
+              "id": "A",
+              "text": "25 pounds"
+            },
+            {
+              "id": "B",
+              "text": "15 pounds"
+            },
+            {
+              "id": "C",
+              "text": "50 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a late fee of twenty-five pounds"
+          },
+          "explanation": "The audio says: \"a late fee of twenty-five pounds\".",
+          "uuid": "5f76e2b2-3911-5346-8f77-57af5110deeb"
+        },
+        {
+          "id": "LI401-Q03",
+          "number": 3,
+          "prompt": "Which part of the library is now for silent study only?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The second floor"
+            },
+            {
+              "id": "B",
+              "text": "The ground floor"
+            },
+            {
+              "id": "C",
+              "text": "The first floor"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "second floor, which used to be open to everyone, is now silent study only"
+          },
+          "explanation": "The audio says: \"second floor, which used to be open to everyone, is now silent study only\".",
+          "uuid": "42fc1c55-2052-56b2-9715-c8890214e6bb"
+        },
+        {
+          "id": "LI401-Q04",
+          "number": 4,
+          "prompt": "Why was the silent floor created?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The ground floor was too crowded"
+            },
+            {
+              "id": "B",
+              "text": "The exam period had become much longer"
+            },
+            {
+              "id": "C",
+              "text": "Students asked for a place with no noise"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "needed a place with absolutely no noise"
+          },
+          "explanation": "The audio says: \"needed a place with absolutely no noise\".",
+          "uuid": "897b50ec-b118-53d7-8a14-6600f5b7bdb5"
+        },
+        {
+          "id": "LI401-Q05",
+          "number": 5,
+          "prompt": "Who changed the library's closing time?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Last year's student union"
+            },
+            {
+              "id": "B",
+              "text": "The head of the library service"
+            },
+            {
+              "id": "C",
+              "text": "The university's governing council"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "thank last year's student union for changing that"
+          },
+          "explanation": "The audio says: \"thank last year's student union for changing that\".",
+          "uuid": "93de5343-0fc3-5c38-a46b-24c263eec68d"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI401-Q06",
+          "number": 6,
+          "prompt": "What does Amara ask students living in halls to do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Use the laundry only after ten at night"
+            },
+            {
+              "id": "B",
+              "text": "Report any broken machines in the basement"
+            },
+            {
+              "id": "C",
+              "text": "Not leave clothes in the washing machines for hours"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "leave your clothes in the machines for hours"
+          },
+          "explanation": "The audio says: \"leave your clothes in the machines for hours\".",
+          "uuid": "00c2f64e-379f-57a1-803a-2037e4d650a1"
+        },
+        {
+          "id": "LI401-Q07",
+          "number": 7,
+          "prompt": "What discount does the student card give on the bus?",
+          "options": [
+            {
+              "id": "A",
+              "text": "13 per cent"
+            },
+            {
+              "id": "B",
+              "text": "30 per cent"
+            },
+            {
+              "id": "C",
+              "text": "50 per cent"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "thirty per cent discount"
+          },
+          "explanation": "The audio says: \"thirty per cent discount\".",
+          "uuid": "da105f8f-bce3-5567-b3e2-0717ff9a3cfb"
+        },
+        {
+          "id": "LI401-Q08",
+          "number": 8,
+          "prompt": "When can students walk in to the counselling service?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Between 2 and 4 in the afternoon"
+            },
+            {
+              "id": "B",
+              "text": "Between 9 and 11 in the morning"
+            },
+            {
+              "id": "C",
+              "text": "Between 4 and 6 in the evening"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "between two and four every afternoon"
+          },
+          "explanation": "The audio says: \"between two and four every afternoon\".",
+          "uuid": "0efded48-0d6a-5957-9b5c-ff58de74249d"
+        },
+        {
+          "id": "LI401-Q09",
+          "number": 9,
+          "prompt": "What is a common mistake about the writing centre?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That it is only for first-year students"
+            },
+            {
+              "id": "B",
+              "text": "That it costs money"
+            },
+            {
+              "id": "C",
+              "text": "That it is only for weak writers"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "only for people who are weak at writing"
+          },
+          "explanation": "The audio says: \"only for people who are weak at writing\".",
+          "uuid": "4a68727a-3b02-5606-9b8d-e2561602ed68"
+        },
+        {
+          "id": "LI401-Q10",
+          "number": 10,
+          "prompt": "Why does Amara recommend joining a society?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It earns credit towards the final degree classification"
+            },
+            {
+              "id": "B",
+              "text": "It is a requirement for students who live in halls"
+            },
+            {
+              "id": "C",
+              "text": "It is the quickest way to meet people outside your course"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "quickest way to make friends who are outside your course"
+          },
+          "explanation": "The audio says: \"quickest way to make friends who are outside your course\".",
+          "uuid": "3a419985-8614-5df0-935f-e27ac485b6a1"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "b58c2494-29e1-4d87-b91f-89ae7712be79",
+  "derived": {
+    "word_count": 428,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 5,
+      "B": 1,
+      "C": 4
+    },
+    "content_hash": "40bbc212feba5076"
+  }
+}

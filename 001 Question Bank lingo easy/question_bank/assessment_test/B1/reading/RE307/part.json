@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE307",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Social Media and Friendship",
+  "topic": "media_and_communication",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "Social Media and Friendship",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "A decade ago, many people believed that social media would bring the world closer. Today, opinions are more divided. Some researchers say that sites like Instagram and TikTok make it easier to stay in touch, while others claim that they leave us lonelier than ever. This essay looks at both sides."
+      },
+      {
+        "label": "B",
+        "text": "There is no doubt that social media has benefits. Families who live in different countries can share photos and videos instantly. People with unusual hobbies can find others who share them, even if nobody in their town does. Shy people often find it easier to start conversations online than face to face. For these groups, social media can create real friendships."
+      },
+      {
+        "label": "C",
+        "text": "However, there are risks. When people compare their lives with the perfect pictures of others, they can feel unhappy about their own. One American study found that students who spent more than three hours a day on social media were more likely to report feeling lonely. Also, a message is not the same as a conversation. Without a voice or a face, it is easy to misunderstand what a friend really means."
+      },
+      {
+        "label": "D",
+        "text": "Does this mean we should delete our accounts? Probably not. The evidence suggests that the way we use these sites matters more than the time we spend on them. Writing to a friend or joining a group discussion seems to be good for us, whereas silently looking at other people's photos seems to make us feel worse."
+      },
+      {
+        "label": "E",
+        "text": "My own view is that social media works best as an addition to real-life friendships, not a replacement. A good rule is to use it to arrange meetings, and then to put the phone away when you are together."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE307-Q01",
+          "number": 1,
+          "prompt": "How have opinions about social media changed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are now more divided"
+            },
+            {
+              "id": "B",
+              "text": "Everyone now agrees it is bad"
+            },
+            {
+              "id": "C",
+              "text": "Fewer people have an opinion"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "opinions are more divided"
+          },
+          "explanation": "The text says: \"opinions are more divided\".",
+          "uuid": "508cc21c-44f2-5572-bf43-bdbf1461b86f"
+        },
+        {
+          "id": "RE307-Q02",
+          "number": 2,
+          "prompt": "How can social media help people with unusual hobbies?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They can find others who share them"
+            },
+            {
+              "id": "B",
+              "text": "They can sell their products"
+            },
+            {
+              "id": "C",
+              "text": "They can buy better equipment"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "find others who share them"
+          },
+          "explanation": "The text says: \"find others who share them\".",
+          "uuid": "f9e1932e-7cea-5365-8dcf-3cc50e537edb"
+        },
+        {
+          "id": "RE307-Q03",
+          "number": 3,
+          "prompt": "Who often find it easier to start conversations online?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Older people"
+            },
+            {
+              "id": "B",
+              "text": "Teachers"
+            },
+            {
+              "id": "C",
+              "text": "Shy people"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Shy people often find it easier"
+          },
+          "explanation": "The text says: \"Shy people often find it easier\".",
+          "uuid": "939c0c58-295e-569b-a3c0-09c8e8f9f5e8"
+        },
+        {
+          "id": "RE307-Q04",
+          "number": 4,
+          "prompt": "What did the American study find?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Heavy users made more new friends"
+            },
+            {
+              "id": "B",
+              "text": "Heavy users slept fewer hours each night"
+            },
+            {
+              "id": "C",
+              "text": "Heavy users were more likely to feel lonely"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "more likely to report feeling lonely"
+          },
+          "explanation": "The text says: \"more likely to report feeling lonely\".",
+          "uuid": "6bdd00bf-cce1-592d-ba1b-209d6e5fc8e5"
+        },
+        {
+          "id": "RE307-Q05",
+          "number": 5,
+          "prompt": "Why can online messages be misunderstood?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are too long"
+            },
+            {
+              "id": "B",
+              "text": "They are always sent late"
+            },
+            {
+              "id": "C",
+              "text": "There is no voice or face"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Without a voice or a face"
+          },
+          "explanation": "The text says: \"Without a voice or a face\".",
+          "uuid": "d5b15beb-9f42-5127-9667-a073e9b8dd3d"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE307-Q06",
+          "number": 6,
+          "prompt": "The writer thinks social media has no benefits.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "There is no doubt that social media has benefits"
+          },
+          "explanation": "The text says: \"There is no doubt that social media has benefits\".",
+          "uuid": "55dede1f-a0d4-508d-bfa5-918155053557"
+        },
+        {
+          "id": "RE307-Q07",
+          "number": 7,
+          "prompt": "The writer believes people should delete their accounts.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "we should delete our accounts? Probably not"
+          },
+          "explanation": "The text says: \"we should delete our accounts? Probably not\".",
+          "uuid": "94269aa9-33bf-5f46-a0ed-65b9afb86301"
+        },
+        {
+          "id": "RE307-Q08",
+          "number": 8,
+          "prompt": "The writer thinks how we use social media matters more than how long we use it.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "the way we use these sites matters more than the time we spend"
+          },
+          "explanation": "The text says: \"the way we use these sites matters more than the time we spend\".",
+          "uuid": "2be43e8e-f688-518d-8299-21e50de8e35c"
+        },
+        {
+          "id": "RE307-Q09",
+          "number": 9,
+          "prompt": "The writer thinks teenagers use social media more than adults.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "cdf85855-7690-51e3-a7a9-c5152aa4e711"
+        },
+        {
+          "id": "RE307-Q10",
+          "number": 10,
+          "prompt": "The writer recommends using social media to arrange meetings.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "use it to arrange meetings"
+          },
+          "explanation": "The text says: \"use it to arrange meetings\".",
+          "uuid": "09ca2f38-c5d2-5331-9c25-f1ff777c73ed"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE307-Q11",
+          "number": 11,
+          "prompt": "Writing to a friend seems to be _____ for us.",
+          "options": [
+            {
+              "id": "A",
+              "text": "good"
+            },
+            {
+              "id": "B",
+              "text": "bad"
+            },
+            {
+              "id": "C",
+              "text": "boring"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "seems to be good for us"
+          },
+          "explanation": "The text says: \"seems to be good for us\".",
+          "uuid": "2af51834-8767-51f4-a2ed-898f010d3bb1"
+        },
+        {
+          "id": "RE307-Q12",
+          "number": 12,
+          "prompt": "Silently looking at other people's photos seems to make us feel _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "better"
+            },
+            {
+              "id": "B",
+              "text": "worse"
+            },
+            {
+              "id": "C",
+              "text": "tired"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "make us feel worse"
+          },
+          "explanation": "The text says: \"make us feel worse\".",
+          "uuid": "815a0225-df1d-517c-91b3-54740a77f3a9"
+        },
+        {
+          "id": "RE307-Q13",
+          "number": 13,
+          "prompt": "The writer says we should put the phone away when we are _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "together"
+            },
+            {
+              "id": "B",
+              "text": "alone"
+            },
+            {
+              "id": "C",
+              "text": "at work"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "when you are together"
+          },
+          "explanation": "The text says: \"when you are together\".",
+          "uuid": "c4177975-611b-5d7e-b352-90d59a1871ec"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "3f25ac39-dbb3-4666-8261-541469a82b88",
+  "derived": {
+    "word_count": 281,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 6,
+      "B": 3,
+      "C": 4
+    },
+    "content_hash": "e6b176656e888e48"
+  }
+}

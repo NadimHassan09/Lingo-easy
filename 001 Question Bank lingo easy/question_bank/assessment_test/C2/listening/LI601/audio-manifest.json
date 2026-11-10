@@ -1,0 +1,70 @@
+{
+  "part_id": "LI601",
+  "part_uuid": "76e30af4-8df1-40dc-b935-e25208532764",
+  "audio_file": "li601_free_will_and_neuroscience.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "e129d483ab6c4ce710fd4408ebefdf74d0387281812a5b9bf2204e803e4472ed",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Imogen Hale",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 20.54
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 20.99,
+      "end": 51.86
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 52.31,
+      "end": 101.63
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 102.08,
+      "end": 150.27
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 150.72,
+      "end": 181.56
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 182.01,
+      "end": 230.3
+    }
+  ],
+  "duration_seconds": 230.3,
+  "size_bytes": 1843052,
+  "audio_sha256": "114d7d3cae89c3588f7cb2c9b40c4eb2dbaf5404484e090c0c4756dce7231c71",
+  "generated_at": "2026-10-30T20:57:43+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

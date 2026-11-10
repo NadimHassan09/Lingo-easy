@@ -1,0 +1,507 @@
+{
+  "schema_version": "1.0",
+  "id": "WR010",
+  "uuid": "7a3bd844-cb9d-5a55-954b-15487e252ccd",
+  "version": "1.1.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "placement",
+    "level": null
+  },
+  "target_cefr": "C2",
+  "level": {
+    "cefr": "C2",
+    "band": 9.0
+  },
+  "ielts_reference": {
+    "band_range": [
+      8.5,
+      9.0
+    ],
+    "note": "Approximate band-equivalent from config/blueprint.json cefr_to_band; not an IELTS score and not calibrated."
+  },
+  "profile": "placement",
+  "topic": "history",
+  "context": "A historian has argued that nations are prisoners of their past.",
+  "title": "History and a nation's future",
+  "part_type": "argumentative_essay",
+  "skill_tag": "argument_development",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "argumentative_essay",
+  "task": {
+    "title": "History and a nation's future",
+    "scenario": "A historian has argued that nations are prisoners of their past.",
+    "prompt": "'A nation's history constrains its future more than its choices do.' Evaluate this claim critically and develop your own precise position.",
+    "instructions": [
+      "Write about 340-400 words (at least 280).",
+      "You have about 45 minutes.",
+      "Make sure you cover all of the points listed.",
+      "You are writing for: an academic readership. Style: formal, scholarly."
+    ],
+    "required_points": [
+      "clarify what 'constrains' could mean",
+      "assess evidence for determinism and for agency",
+      "address the strongest objection to your view",
+      "state a nuanced conclusion"
+    ],
+    "audience": "an academic readership",
+    "register": "formal, scholarly",
+    "response_type": "argumentative_essay",
+    "word_count": {
+      "minimum": 280,
+      "suggested_min": 340,
+      "suggested_max": 400,
+      "maximum": 480
+    },
+    "suggested_minutes": 45
+  },
+  "expected_response": {
+    "content_points": [
+      "clarify what 'constrains' could mean",
+      "assess evidence for determinism and for agency",
+      "address the strongest objection to your view",
+      "state a nuanced conclusion"
+    ],
+    "required_elements": [
+      "Address: clarify what 'constrains' could mean",
+      "Address: assess evidence for determinism and for agency",
+      "Address: address the strongest objection to your view",
+      "Address: state a nuanced conclusion"
+    ],
+    "optional_elements": [
+      "an example"
+    ],
+    "organisation": [
+      "conceptual clarification",
+      "argument",
+      "counter-argument",
+      "conclusion"
+    ],
+    "vocabulary_demands": [
+      "history and agency",
+      "conceptual precision",
+      "scholarly qualification"
+    ],
+    "grammar_demands": [
+      {
+        "id": "complex_embedding",
+        "level": "C2",
+        "extension": true
+      },
+      {
+        "id": "concession_understatement",
+        "level": "C2",
+        "extension": true
+      },
+      {
+        "id": "stylistic_variation",
+        "level": "C2",
+        "extension": true
+      },
+      {
+        "id": "mixed_conditionals",
+        "level": "C1",
+        "extension": true
+      }
+    ],
+    "discourse_complexity": "Sophisticated extended discourse with layered argument and controlled flow.",
+    "linguistic_demand": "Precise, sophisticated and stylistically controlled discourse; subtle distinctions, synthesis of sources; full range of structures with consistent control.",
+    "cognitive_demand": "Hold and defend a qualified, nuanced position; Critically evaluate claims and evidence",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Clarify terms",
+          "Determinism evidence",
+          "Agency evidence",
+          "Objection",
+          "Conclusion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "argument_development",
+    "secondary_subskills": [
+      "register_adaptation"
+    ],
+    "cognitive_processes": [
+      "nuanced_stance",
+      "critical_evaluation"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.argument_development.C2.1",
+        "text": "Develop a precise and nuanced argument on an abstract historical claim",
+        "measurable_verb": "develop",
+        "criteria": [
+          "W_TA",
+          "W_CC",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "C2",
+    "recommended_cefr": "C1",
+    "cefr_confidence": "low",
+    "level_gap_steps": 1,
+    "difficulty_index": 0.9,
+    "language_demand": "Precise, sophisticated and stylistically controlled discourse; subtle distinctions, synthesis of sources; full range of structures with consistent control.",
+    "cognitive_demand": "Hold and defend a qualified, nuanced position; Critically evaluate claims and evidence",
+    "expected_performance": [
+      "Handles every demand of the task with precision and sophistication; position is subtle, qualified and fully sustained; no irrelevant material.",
+      "Seamless cohesion; devices are invisible and varied; paragraph and sentence-level links reinforce meaning.",
+      "Sophisticated, precise vocabulary with idiom and nuance; errors are rare slips."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 5.0, 'cognition': 4.5, 'length': 5.0, 'abstractness': 4.2, 'prompt_language': 2.0}; composite 4.5 -> C1. Original target C2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P1",
+    "components": {
+      "grammar": 5.0,
+      "cognition": 4.5,
+      "length": 5.0,
+      "abstractness": 4.2,
+      "prompt_language": 2.0
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 8.8,
+      "long_word_ratio": 0.159
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "C2",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Handles every demand of the task with precision and sophistication; position is subtle, qualified and fully sustained; no irrelevant material. Required points: clarify what 'constrains' could mean; assess evidence for determinism and for agency; address the strongest objection to your view; state a nuanced conclusion",
+        "weak_performance": "Task handled adequately but without the precision, qualification or synthesis expected; position generic.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: clarify what 'constrains' could mean; assess evidence for determinism and for agency; address the strongest objection to your view; state a nuanced conclusion.",
+        "common_error_patterns": [
+          "summarising instead of synthesising",
+          "over-generalising",
+          "failing to qualify"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Seamless cohesion; devices are invisible and varied; paragraph and sentence-level links reinforce meaning.",
+        "weak_performance": "Rare lapses in flow or reference; cohesion occasionally heavy-handed.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "heavy-handed connectors"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Sophisticated, precise vocabulary with idiom and nuance; errors are rare slips.",
+        "weak_performance": "Rare mismatch of connotation or collocation; vocabulary sometimes over-elaborate.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: history and agency; conceptual precision; scholarly qualification.",
+        "common_error_patterns": [
+          "connotation mismatch",
+          "over-ornate word choice"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ]
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Full range used with consistent accuracy; errors are rare and not systematic.",
+        "weak_performance": "Rare non-systematic slips.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: complex_embedding, concession_understatement, stylistic_variation, mixed_conditionals.",
+        "common_error_patterns": [
+          "rare slips in low-frequency structures"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ]
+      },
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "description": "Overall structure of the text and how far main ideas are developed, supported and linked to a position or purpose.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Highly controlled structure in which argument develops layer by layer; counter-positions integrated; support precise and selective.",
+        "weak_performance": "Some ideas asserted rather than developed; structure predictable.",
+        "expected_evidence": "Presence of position/thesis; paragraph topics; reasons and examples per point; conclusion.",
+        "common_error_patterns": [
+          "assertion without justification"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "Do not apply to very short A1/A2 texts; the task does not require essay structure there.",
+        "diagnostic_categories": [
+          "D_ORGANISATION",
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_COMPARISON"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      }
+    ],
+    "required_demonstrations": [
+      "Address every required point: clarify what 'constrains' could mean; assess evidence for determinism and for agency; address the strongest objection to your view; state a nuanced conclusion",
+      "Use language appropriate to: an academic readership"
+    ],
+    "optional_demonstrations": [
+      "an example"
+    ],
+    "not_penalised": [
+      "the position taken (any defensible, well-argued position is valid)",
+      "absence of specific rhetorical devices",
+      "factual inaccuracy beyond the supplied source material"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARGUMENT",
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_COMPARISON",
+      "D_GRAMMAR_RANGE",
+      "D_HEDGING",
+      "D_OFF_TASK",
+      "D_ORGANISATION",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SUPPORT",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "flagged",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": [
+      {
+        "severity": "warn",
+        "detail": "cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1)"
+      },
+      {
+        "severity": "warn",
+        "detail": "cefr_confidence_low: component spread sd=1.11"
+      }
+    ]
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.1.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:42:58+02:00",
+    "spec_source": "productive/specs/writing_*.py (P-10)",
+    "spec_sha256": "a647cfc5294fc5430a18f3271897834f3ae91d04697aeafc147be5323f79489f",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "P-10",
+      "lv": "C2",
+      "cat": "argumentative_essay",
+      "topic": "history",
+      "title": "History and a nation's future",
+      "scen": "A historian has argued that nations are prisoners of their past.",
+      "prompt": "'A nation's history constrains its future more than its choices do.' Evaluate this claim critically and develop your own precise position.",
+      "pts": [
+        "clarify what 'constrains' could mean",
+        "assess evidence for determinism and for agency",
+        "address the strongest objection to your view",
+        "state a nuanced conclusion"
+      ],
+      "aud": "an academic readership",
+      "reg": "formal, scholarly",
+      "w": [
+        280,
+        340,
+        400,
+        480
+      ],
+      "mins": 45,
+      "vocab": [
+        "history and agency",
+        "conceptual precision",
+        "scholarly qualification"
+      ],
+      "gram": [
+        "complex_embedding",
+        "concession_understatement",
+        "stylistic_variation",
+        "mixed_conditionals"
+      ],
+      "struct": [
+        "conceptual clarification",
+        "argument",
+        "counter-argument",
+        "conclusion"
+      ],
+      "sub": "argument_development",
+      "sub2": [
+        "register_adaptation"
+      ],
+      "cog": [
+        "nuanced_stance",
+        "critical_evaluation"
+      ],
+      "obj": [
+        "Develop a precise and nuanced argument on an abstract historical claim"
+      ],
+      "outline": [
+        "Clarify terms",
+        "Determinism evidence",
+        "Agency evidence",
+        "Objection",
+        "Conclusion"
+      ],
+      "opt": [
+        "an example"
+      ],
+      "abs": 3
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.1.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "ff0ed1e1513fc5d67f5f22f0f2bf36c9dfd3adea1cdc3250937405959aa37743"
+  }
+}

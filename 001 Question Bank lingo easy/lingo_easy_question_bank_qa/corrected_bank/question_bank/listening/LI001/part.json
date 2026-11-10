@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.0",
+  "id": "LI001",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Asking About a Flat to Rent",
+  "topic": "housing",
+  "profile": "foundation",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li001_asking_about_a_flat_to_rent.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Megan",
+        "gender": "female",
+        "accent": "australian",
+        "role": "letting agent"
+      },
+      {
+        "id": "S2",
+        "name": "Daniel",
+        "gender": "male",
+        "accent": "british",
+        "role": "customer looking for a flat"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, Harbour Lettings. Megan speaking. How can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hello. My name is Daniel Price. I saw your advert for a one-bedroom flat near the park, and I'd like to ask about it."
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, of course. That flat is on Garden Road. It's on the second floor, and it has a lovely view of the park."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. How much is the rent?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It's seven hundred pounds a month, and that includes water. You pay for the electricity yourself."
+      },
+      {
+        "speaker": "S2",
+        "text": "Okay, that's fine. Is the flat furnished?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, it is. There's a bed, a sofa and a small table in the kitchen, but there isn't a washing machine."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's all right. Can I see the flat this week?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes. Are you free on Thursday? We could meet at half past four."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thursday is good, but I finish work at five. Could we meet a bit later?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Let me check. Well, the owner is busy after five, but he could come at ten to five, if you can leave work early."
+      },
+      {
+        "speaker": "S2",
+        "text": "Hmm, I think I can do that. I'll ask my manager. If not, I'll call you back."
+      },
+      {
+        "speaker": "S1",
+        "text": "No problem. Now, is there anything else you would like to know?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes. I don't have a car, so how do I get there from the city centre? Is there a bus?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Number twelve bus stops outside the building, and it takes fifteen minutes to the centre. There's also a small supermarket on the corner."
+      },
+      {
+        "speaker": "S2",
+        "text": "That sounds perfect. And what about pets? I have a small cat."
+      },
+      {
+        "speaker": "S1",
+        "text": "I'm afraid the owner doesn't allow animals in the flat. He had a problem with the carpet last year. But he might think about it if you pay a bigger deposit."
+      },
+      {
+        "speaker": "S2",
+        "text": "I see. A bigger deposit is a possibility, but I'd need to think it over. How much is the normal deposit?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It's one month's rent, so seven hundred pounds. Please bring your passport and a letter from your employer when you come on Thursday."
+      },
+      {
+        "speaker": "S2",
+        "text": "Okay, I will. Thanks for your help, Megan. It sounds like a nice place, so I'm quite hopeful, though the cat might be a problem."
+      },
+      {
+        "speaker": "S1",
+        "text": "Don't worry, Daniel. We'll talk about it on Thursday. Goodbye!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI001-Q01",
+          "number": 1,
+          "prompt": "Which floor is the flat on?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The first floor"
+            },
+            {
+              "id": "B",
+              "text": "The second floor"
+            },
+            {
+              "id": "C",
+              "text": "The third floor"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It's on the second floor"
+          },
+          "explanation": "The agent says clearly that the flat is on the second floor.",
+          "uuid": "687e920f-fec0-54c5-9211-9e02325c948f"
+        },
+        {
+          "id": "LI001-Q02",
+          "number": 2,
+          "prompt": "How much is the rent each month?",
+          "options": [
+            {
+              "id": "A",
+              "text": "500 pounds"
+            },
+            {
+              "id": "B",
+              "text": "600 pounds"
+            },
+            {
+              "id": "C",
+              "text": "700 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "seven hundred pounds a month"
+          },
+          "explanation": "The agent says the rent is seven hundred pounds a month.",
+          "uuid": "3a5b5aa2-3ed4-5d13-8b75-26e9848e64ce"
+        },
+        {
+          "id": "LI001-Q03",
+          "number": 3,
+          "prompt": "What does the rent include?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Water"
+            },
+            {
+              "id": "B",
+              "text": "Electricity"
+            },
+            {
+              "id": "C",
+              "text": "Internet"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "that includes water"
+          },
+          "explanation": "The rent includes water. Daniel must pay for the electricity himself.",
+          "uuid": "693acdf7-ea92-5614-ae45-0e62aeedf3cd"
+        },
+        {
+          "id": "LI001-Q04",
+          "number": 4,
+          "prompt": "Which day will Daniel see the flat?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tuesday"
+            },
+            {
+              "id": "B",
+              "text": "Wednesday"
+            },
+            {
+              "id": "C",
+              "text": "Thursday"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Are you free on Thursday"
+          },
+          "explanation": "The agent suggests Thursday and Daniel agrees that Thursday is good.",
+          "uuid": "27f11ce8-35d6-56a2-8f01-60f17a90b256"
+        },
+        {
+          "id": "LI001-Q05",
+          "number": 5,
+          "prompt": "What time will the owner meet Daniel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Half past four"
+            },
+            {
+              "id": "B",
+              "text": "Ten to five"
+            },
+            {
+              "id": "C",
+              "text": "Ten past five"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "he could come at ten to five"
+          },
+          "explanation": "Half past four is too early for Daniel, so the owner offers ten to five.",
+          "uuid": "c45ca524-df52-5590-b9a1-7fa247abd33f"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI001-Q06",
+          "number": 6,
+          "prompt": "What will Daniel do about leaving work early?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ask his manager first"
+            },
+            {
+              "id": "B",
+              "text": "Move the visit to another day"
+            },
+            {
+              "id": "C",
+              "text": "Ask the owner to wait for him"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'll ask my manager. If not, I'll call you back"
+          },
+          "explanation": "Daniel will ask his manager first and only call the agent back if he cannot leave early.",
+          "uuid": "2dd12bbe-7318-5013-b2b6-58bc61188906"
+        },
+        {
+          "id": "LI001-Q07",
+          "number": 7,
+          "prompt": "How can Daniel get to the city centre from the flat?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By taxi"
+            },
+            {
+              "id": "B",
+              "text": "By bus"
+            },
+            {
+              "id": "C",
+              "text": "On foot"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Number twelve bus stops outside the building"
+          },
+          "explanation": "The number twelve bus stops outside the building and goes to the centre.",
+          "uuid": "eb557112-095c-5822-b7e9-ce1a9928555e"
+        },
+        {
+          "id": "LI001-Q08",
+          "number": 8,
+          "prompt": "What does the owner say about pets?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only small animals are allowed."
+            },
+            {
+              "id": "B",
+              "text": "Pets are fine with a letter."
+            },
+            {
+              "id": "C",
+              "text": "Animals are not allowed."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "synonym_paraphrase",
+            "target": "doesn't allow animals = animals are not allowed"
+          },
+          "evidence": {
+            "quote": "the owner doesn't allow animals in the flat"
+          },
+          "explanation": "The owner does not allow animals in the flat, even small ones.",
+          "uuid": "8f69416e-b360-5f80-9a20-50d50ca83764"
+        },
+        {
+          "id": "LI001-Q09",
+          "number": 9,
+          "prompt": "What might change the owner's mind about the cat?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A bigger deposit"
+            },
+            {
+              "id": "B",
+              "text": "A new carpet"
+            },
+            {
+              "id": "C",
+              "text": "A letter from Daniel's employer"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "conditionals_real"
+          },
+          "evidence": {
+            "quote": "he might think about it if you pay a bigger deposit"
+          },
+          "explanation": "The carpet was the owner's earlier problem, but he might change his mind if Daniel pays a bigger deposit.",
+          "uuid": "9c64afc9-ee46-580f-b562-a3e6edfa956a"
+        },
+        {
+          "id": "LI001-Q10",
+          "number": 10,
+          "prompt": "How does Daniel feel at the end of the call?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sure that he will take the flat"
+            },
+            {
+              "id": "B",
+              "text": "Hopeful, but worried about his cat"
+            },
+            {
+              "id": "C",
+              "text": "Disappointed and ready to look elsewhere"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "contrast_and_concession"
+          },
+          "evidence": {
+            "quote": "I'm quite hopeful, though the cat might be a problem"
+          },
+          "explanation": "He likes the flat and feels hopeful, but 'though the cat might be a problem' shows he is still worried.",
+          "uuid": "7f408c98-36e1-5aba-ab91-b9175ad317fd"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "ce3c4c24-d7ce-4e4b-94a9-ce2d564e624b",
+  "derived": {
+    "word_count": 365,
+    "level_counts": {
+      "A1": 1,
+      "A2": 3,
+      "B1": 3,
+      "B2": 3,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.25,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "7066de8909f80eec"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "part_id": "LI406",
+  "part_uuid": "9fe18c3a-1cce-4028-806f-13178bc03705",
+  "audio_file": "li406_do_libraries_have_a_future.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "6684a6cc40dfc36f6382879522598ddb2b521ebb89e78510abf4d0c06158afc1",
+  "voices": {
+    "S1": {
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Jo Marsh",
+      "gender": "female",
+      "accent": "australian",
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 21.53
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 21.98,
+      "end": 58.36
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 58.81,
+      "end": 96.61
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 97.06,
+      "end": 120.34
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 120.79,
+      "end": 143.3
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 143.75,
+      "end": 165.86
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 166.31,
+      "end": 185.03
+    }
+  ],
+  "duration_seconds": 185.03,
+  "size_bytes": 1480940,
+  "audio_sha256": "c5c0f098a37e05b6b18ccce89bb203eae7b32fadf3b8403d3cb6b716cd8006eb",
+  "generated_at": "2026-10-30T20:54:51+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

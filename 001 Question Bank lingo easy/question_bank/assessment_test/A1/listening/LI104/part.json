@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "id": "LI104",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Buying a Jacket",
+  "topic": "shopping_and_money",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li104_buying_a_jacket.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Kate",
+        "gender": "female",
+        "accent": "new_zealand",
+        "role": "shop assistant"
+      },
+      {
+        "id": "S2",
+        "name": "Mr Wood",
+        "gender": "male",
+        "accent": "british",
+        "role": "customer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hello. Can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, please. I want a jacket. A blue jacket."
+      },
+      {
+        "speaker": "S1",
+        "text": "We have two blue jackets. This one is thirty pounds and that one is forty-five pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "The thirty-pound jacket is nice. Do you have a large size?"
+      },
+      {
+        "speaker": "S1",
+        "text": "No, I am sorry. This one is medium. But we have a large in black."
+      },
+      {
+        "speaker": "S2",
+        "text": "Hmm. I like blue. Can I try the medium one?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Of course. The changing room is over there, next to the door."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thank you. Oh, it is too small. It is too small for me."
+      },
+      {
+        "speaker": "S1",
+        "text": "What about the black jacket in large? It is thirty pounds, too."
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, I like it. It is a good colour. I want this one, please."
+      },
+      {
+        "speaker": "S1",
+        "text": "Great. Do you want a bag?"
+      },
+      {
+        "speaker": "S2",
+        "text": "No, thank you. I have a bag. Can I pay by cash? I have fifty pounds."
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes. Here is your change, twenty pounds. Thank you very much!"
+      },
+      {
+        "speaker": "S2",
+        "text": "Thank you. Goodbye!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI104-Q01",
+          "number": 1,
+          "prompt": "What does the man want?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A shirt"
+            },
+            {
+              "id": "B",
+              "text": "A hat"
+            },
+            {
+              "id": "C",
+              "text": "A jacket"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I want a jacket"
+          },
+          "explanation": "The audio says: \"I want a jacket\".",
+          "uuid": "67a7606a-646b-5c9d-b765-349ed12c5022"
+        },
+        {
+          "id": "LI104-Q02",
+          "number": 2,
+          "prompt": "What colour does he want first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blue"
+            },
+            {
+              "id": "B",
+              "text": "Black"
+            },
+            {
+              "id": "C",
+              "text": "Green"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "A blue jacket"
+          },
+          "explanation": "The audio says: \"A blue jacket\".",
+          "uuid": "f568ccbf-b361-5add-97ad-a69504cc3e28"
+        },
+        {
+          "id": "LI104-Q03",
+          "number": 3,
+          "prompt": "How much is the cheaper blue jacket?",
+          "options": [
+            {
+              "id": "A",
+              "text": "13 pounds"
+            },
+            {
+              "id": "B",
+              "text": "30 pounds"
+            },
+            {
+              "id": "C",
+              "text": "45 pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "This one is thirty pounds"
+          },
+          "explanation": "The audio says: \"This one is thirty pounds\".",
+          "uuid": "f3947f7e-a914-561b-99cb-9339e33d9d18"
+        },
+        {
+          "id": "LI104-Q04",
+          "number": 4,
+          "prompt": "What size is the blue jacket?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Large"
+            },
+            {
+              "id": "B",
+              "text": "Small"
+            },
+            {
+              "id": "C",
+              "text": "Medium"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "This one is medium"
+          },
+          "explanation": "The audio says: \"This one is medium\".",
+          "uuid": "dbd1930e-06d0-5797-bb31-443a2fb28e77"
+        },
+        {
+          "id": "LI104-Q05",
+          "number": 5,
+          "prompt": "Where is the changing room?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Next to the window"
+            },
+            {
+              "id": "B",
+              "text": "Next to the door"
+            },
+            {
+              "id": "C",
+              "text": "Upstairs"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "next to the door"
+          },
+          "explanation": "The audio says: \"next to the door\".",
+          "uuid": "9e575670-2fe6-5779-9766-e29e98a159cc"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI104-Q06",
+          "number": 6,
+          "prompt": "Why does he not take the blue jacket?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too big"
+            },
+            {
+              "id": "B",
+              "text": "It is too expensive"
+            },
+            {
+              "id": "C",
+              "text": "It is too small"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "too small for me"
+          },
+          "explanation": "The audio says: \"too small for me\".",
+          "uuid": "469a4ed2-526c-5001-ab0c-f02135afbebc"
+        },
+        {
+          "id": "LI104-Q07",
+          "number": 7,
+          "prompt": "What colour jacket does he buy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blue"
+            },
+            {
+              "id": "B",
+              "text": "Grey"
+            },
+            {
+              "id": "C",
+              "text": "Black"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I want this one, please"
+          },
+          "explanation": "The audio says: \"I want this one, please\".",
+          "uuid": "cdf25e65-1beb-5924-8be2-c04ca9ac01d9"
+        },
+        {
+          "id": "LI104-Q08",
+          "number": 8,
+          "prompt": "Does he want a bag?",
+          "options": [
+            {
+              "id": "A",
+              "text": "No, he does not"
+            },
+            {
+              "id": "B",
+              "text": "Yes, a small bag"
+            },
+            {
+              "id": "C",
+              "text": "Yes, a big bag"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "No, thank you. I have a bag"
+          },
+          "explanation": "The audio says: \"No, thank you. I have a bag\".",
+          "uuid": "9f3970a4-4b2b-51cf-8c6f-cf70c3e8c06e"
+        },
+        {
+          "id": "LI104-Q09",
+          "number": 9,
+          "prompt": "How does he pay?",
+          "options": [
+            {
+              "id": "A",
+              "text": "With a card"
+            },
+            {
+              "id": "B",
+              "text": "With cash"
+            },
+            {
+              "id": "C",
+              "text": "With his phone"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "pay by cash"
+          },
+          "explanation": "The audio says: \"pay by cash\".",
+          "uuid": "e1f6a529-ed0a-5438-97cb-6150ce7eb17b"
+        },
+        {
+          "id": "LI104-Q10",
+          "number": 10,
+          "prompt": "How much change does he get?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20 pounds"
+            },
+            {
+              "id": "B",
+              "text": "10 pounds"
+            },
+            {
+              "id": "C",
+              "text": "50 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "your change, twenty pounds"
+          },
+          "explanation": "The audio says: \"your change, twenty pounds\".",
+          "uuid": "c8e523b3-9fc5-520a-9538-5e91df68bfc6"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "c0b425d2-def3-45ea-b53c-3d0a48f73765",
+  "derived": {
+    "word_count": 155,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 3,
+      "B": 3,
+      "C": 4
+    },
+    "content_hash": "81165d41aae07eac"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI304",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "What Happens to Recycled Plastic?",
+  "topic": "environment",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li304_what_happens_to_recycled_plastic.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Morgan",
+        "gender": "female",
+        "accent": "australian",
+        "role": "environmental science lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon. In today's lecture, I'm going to talk about plastic recycling: what happens to plastic after you put it in the recycling bin. Many people think that all plastic can be recycled, but that's not true."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let's start with the numbers. Every year, the world produces about three hundred and fifty million tonnes of plastic. Only around nine per cent of it is recycled. Most of the rest goes to landfill, is burned, or ends up in the environment, including the oceans."
+      },
+      {
+        "speaker": "S1",
+        "text": "So, how does recycling work? There are four main steps. First, the plastic is collected from homes and businesses. Second, it is sorted by type. This is done partly by machines and partly by people, and it's one of the hardest steps, because there are many kinds of plastic and they must not be mixed. Third, the plastic is washed to remove food and labels. Finally, it is melted and made into small pieces called pellets, which factories use to make new products."
+      },
+      {
+        "speaker": "S1",
+        "text": "Not every product can be recycled in the same way. Plastic bottles are the easiest. They can become new bottles, clothing or even carpets. For example, about twenty-five bottles are needed to make one fleece jacket. On the other hand, thin plastic bags and food wrappers are much harder to recycle, because they are light and often dirty. Many recycling centres do not accept them."
+      },
+      {
+        "speaker": "S1",
+        "text": "There are also problems with quality. Each time plastic is recycled, it becomes a little weaker, so it can usually be recycled only two or three times. Because of this, some scientists argue that we should focus on using less plastic, not only on recycling it."
+      },
+      {
+        "speaker": "S1",
+        "text": "Next week, we'll look at new materials that might replace plastic, such as seaweed packaging. Before then, please read the article in your course book and prepare two questions to ask in class."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI304-Q01",
+          "number": 1,
+          "prompt": "What is the lecture mainly about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "How plastic is made and sold in shops"
+            },
+            {
+              "id": "B",
+              "text": "What happens to plastic after it is recycled"
+            },
+            {
+              "id": "C",
+              "text": "Why plastic is so cheap to produce"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "gist",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "what happens to plastic after you put it in the recycling bin"
+          },
+          "explanation": "The audio says: \"what happens to plastic after you put it in the recycling bin\".",
+          "uuid": "31bc4f3b-c1c5-52cb-903d-284846c0f91d"
+        },
+        {
+          "id": "LI304-Q02",
+          "number": 2,
+          "prompt": "What do many people wrongly believe?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Plastic is always burned"
+            },
+            {
+              "id": "B",
+              "text": "All plastic can be recycled"
+            },
+            {
+              "id": "C",
+              "text": "Recycling is expensive"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "all plastic can be recycled"
+          },
+          "explanation": "The audio says: \"all plastic can be recycled\".",
+          "uuid": "968dff68-23d4-5360-878d-bcfcd30907bd"
+        },
+        {
+          "id": "LI304-Q03",
+          "number": 3,
+          "prompt": "How much plastic is recycled?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 19 per cent"
+            },
+            {
+              "id": "B",
+              "text": "About 9 per cent"
+            },
+            {
+              "id": "C",
+              "text": "About 90 per cent"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "around nine per cent of it is recycled"
+          },
+          "explanation": "The audio says: \"around nine per cent of it is recycled\".",
+          "uuid": "db74194c-d47c-5345-85d2-a90efcd1a94a"
+        },
+        {
+          "id": "LI304-Q04",
+          "number": 4,
+          "prompt": "Which step is one of the hardest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sorting the plastic"
+            },
+            {
+              "id": "B",
+              "text": "Collecting the plastic"
+            },
+            {
+              "id": "C",
+              "text": "Washing the plastic"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "one of the hardest steps"
+          },
+          "explanation": "The audio says: \"one of the hardest steps\".",
+          "uuid": "7503d21d-9495-56a2-b490-092509468753"
+        },
+        {
+          "id": "LI304-Q05",
+          "number": 5,
+          "prompt": "Why must different plastics be sorted?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They must not be mixed"
+            },
+            {
+              "id": "B",
+              "text": "They have different colours"
+            },
+            {
+              "id": "C",
+              "text": "They weigh different amounts"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "they must not be mixed"
+          },
+          "explanation": "The audio says: \"they must not be mixed\".",
+          "uuid": "305659b1-30a5-5c85-9090-139003e32039"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI304-Q06",
+          "number": 6,
+          "prompt": "What is made at the end of the process?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Small pieces called pellets"
+            },
+            {
+              "id": "B",
+              "text": "A smooth liquid plastic"
+            },
+            {
+              "id": "C",
+              "text": "Large flat sheets of plastic"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "melted and made into small pieces called pellets"
+          },
+          "explanation": "The audio says: \"melted and made into small pieces called pellets\".",
+          "uuid": "bf739f2a-a45d-5d34-a4b2-5057f3f11c5f"
+        },
+        {
+          "id": "LI304-Q07",
+          "number": 7,
+          "prompt": "Which plastic product is easiest to recycle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bags"
+            },
+            {
+              "id": "B",
+              "text": "Food wrappers"
+            },
+            {
+              "id": "C",
+              "text": "Bottles"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Plastic bottles are the easiest"
+          },
+          "explanation": "The audio says: \"Plastic bottles are the easiest\".",
+          "uuid": "7172d596-abad-51a2-944d-bc01f6edd0c7"
+        },
+        {
+          "id": "LI304-Q08",
+          "number": 8,
+          "prompt": "How many bottles are needed for a fleece jacket?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 5"
+            },
+            {
+              "id": "B",
+              "text": "About 250"
+            },
+            {
+              "id": "C",
+              "text": "About 25"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about twenty-five bottles are needed"
+          },
+          "explanation": "The audio says: \"about twenty-five bottles are needed\".",
+          "uuid": "73ff1fc9-6dfa-5735-a7e1-4905a716c347"
+        },
+        {
+          "id": "LI304-Q09",
+          "number": 9,
+          "prompt": "Why are thin plastic bags hard to recycle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are light and often dirty"
+            },
+            {
+              "id": "B",
+              "text": "They are too thick to melt"
+            },
+            {
+              "id": "C",
+              "text": "They are made from metal parts"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "light and often dirty"
+          },
+          "explanation": "The audio says: \"light and often dirty\".",
+          "uuid": "39300419-1555-5e30-8c48-62b462d72aed"
+        },
+        {
+          "id": "LI304-Q10",
+          "number": 10,
+          "prompt": "What do some scientists argue?",
+          "options": [
+            {
+              "id": "A",
+              "text": "We should use less plastic"
+            },
+            {
+              "id": "B",
+              "text": "We should recycle more often"
+            },
+            {
+              "id": "C",
+              "text": "We should ban bottles"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "speaker_opinion",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "focus on using less plastic"
+          },
+          "explanation": "The audio says: \"focus on using less plastic\".",
+          "uuid": "a3e8e93b-59c1-5ec3-a822-2fc1ab9e6b9c"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "b93e277a-5da3-4801-ac35-3750ca8bfc99",
+  "derived": {
+    "word_count": 311,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 5,
+      "B": 3,
+      "C": 2
+    },
+    "content_hash": "b3400dd0e3e7d505"
+  }
+}

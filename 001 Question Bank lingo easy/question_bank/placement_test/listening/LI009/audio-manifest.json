@@ -1,0 +1,70 @@
+{
+  "part_id": "LI009",
+  "part_uuid": "a0cd94fd-5008-467d-8659-a3bfeb287b3c",
+  "audio_file": "li009_community_voices_volunteering_in_ashbury.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "a755a79e0af0b4c0a08cb6b435a23db4b33c324ca353c70949b67383802a620f",
+  "voices": {
+    "S1": {
+      "voice": "en-NZ-MollyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Rachel Hart",
+      "gender": "female",
+      "accent": "new_zealand",
+      "voice": "en-NZ-MollyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 24.94
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 25.39,
+      "end": 61.12
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 61.57,
+      "end": 91.09
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 91.54,
+      "end": 125.36
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 125.81,
+      "end": 157.66
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 158.11,
+      "end": 188.51
+    }
+  ],
+  "duration_seconds": 188.51,
+  "size_bytes": 1508780,
+  "audio_sha256": "22f0cf39fe8d2af2fdbe9ad7f9b3aa826194f66af26b85e8592494a628dbf3fa",
+  "generated_at": "2026-10-30T20:43:07+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

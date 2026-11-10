@@ -1,0 +1,40 @@
+{
+  "part_id": "LI106",
+  "part_uuid": "5b6e1736-3b61-4933-8092-41a1e78d2bca",
+  "audio_file": "li106_omar_s_school_day.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "40fb7bc70400c0bf034de6bb020a4f818dbe4d0e7b86140884459910ac574004",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Omar",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 60.72
+    }
+  ],
+  "duration_seconds": 60.72,
+  "size_bytes": 486380,
+  "audio_sha256": "a60cdb3e89461af05c6f8e00074aab4fadd4e8819dba3e988525e3173d4063fe",
+  "generated_at": "2026-10-30T20:45:29+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "id": "LI001",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Booking a Weekend Room",
+  "topic": "travel",
+  "profile": "foundation",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li001_booking_a_weekend_room.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Anna",
+        "gender": "female",
+        "accent": "british",
+        "role": "hotel receptionist"
+      },
+      {
+        "id": "S2",
+        "name": "Tom",
+        "gender": "male",
+        "accent": "british",
+        "role": "customer booking a room"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hello, Seaview Hotel, how can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hi, I'd like to book a room for this weekend, please."
+      },
+      {
+        "speaker": "S1",
+        "text": "Of course. How many people is it for?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Just two, my wife and me."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay. We have a double room for ninety pounds a night."
+      },
+      {
+        "speaker": "S2",
+        "text": "That sounds fine. Does the price include breakfast?"
+      },
+      {
+        "speaker": "S1",
+        "text": "I'm afraid not. Breakfast is another twelve pounds per person, but there is a cafe next door that is much cheaper."
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, I see. We'll probably eat there then. Now, we've been driving a lot lately, so we'd rather not drive again. Is the hotel far from the station?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Not at all, it's only a five minute walk. If you like, I can send you a map by email."
+      },
+      {
+        "speaker": "S2",
+        "text": "That would be great, thank you. Although, to be honest, I wish you'd told me about the cafe earlier. I've already looked at your website and it said breakfast was included!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI001-Q01",
+          "number": 1,
+          "prompt": "How many people is the room for?",
+          "options": [
+            {
+              "id": "A",
+              "text": "One"
+            },
+            {
+              "id": "B",
+              "text": "Two"
+            },
+            {
+              "id": "C",
+              "text": "Three"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Just two, my wife and me"
+          },
+          "explanation": "The man says the room is for two people: himself and his wife.",
+          "uuid": "4d30d2ec-a079-5bb9-aad8-18e6c03d84b5"
+        },
+        {
+          "id": "LI001-Q02",
+          "number": 2,
+          "prompt": "How much does the room cost for one night?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12 pounds"
+            },
+            {
+              "id": "B",
+              "text": "19 pounds"
+            },
+            {
+              "id": "C",
+              "text": "90 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "double room for ninety pounds a night"
+          },
+          "explanation": "The receptionist gives the price of the double room as ninety pounds a night; twelve pounds is the breakfast price.",
+          "uuid": "9d3bebd2-2794-5db3-ae15-1e5499f12e28"
+        },
+        {
+          "id": "LI001-Q03",
+          "number": 3,
+          "prompt": "Why does the man ask about the station?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He would prefer not to drive."
+            },
+            {
+              "id": "B",
+              "text": "He wants to travel home by train."
+            },
+            {
+              "id": "C",
+              "text": "He is looking for a cheap taxi."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "purpose",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "synonym_paraphrase",
+            "target": "would rather not = would prefer not to"
+          },
+          "evidence": {
+            "quote": "we'd rather not drive again"
+          },
+          "explanation": "He says they have driven a lot and would rather not drive again, so he wants a hotel near the station.",
+          "uuid": "03fa58fc-ae66-5c1e-911b-740faf3df8b4"
+        },
+        {
+          "id": "LI001-Q04",
+          "number": 4,
+          "prompt": "How does the man feel at the end of the call?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Completely satisfied with the information."
+            },
+            {
+              "id": "B",
+              "text": "Grateful for the map but a little annoyed about breakfast."
+            },
+            {
+              "id": "C",
+              "text": "Worried that the hotel is too expensive."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "conditionals_unreal"
+          },
+          "evidence": {
+            "quote": "I wish you'd told me about the cafe earlier"
+          },
+          "explanation": "He thanks her for the map, but 'I wish you'd told me earlier' shows mild annoyance about the breakfast information.",
+          "uuid": "70157eb8-4623-54a0-b056-f4fc975dd8d5"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "notes": "Mini example (4 items) for pipeline testing only."
+  },
+  "uuid": "60e878d0-eac5-4425-b93d-8f3def386f23",
+  "derived": {
+    "word_count": 152,
+    "level_counts": {
+      "A1": 1,
+      "A2": 1,
+      "B1": 1,
+      "B2": 1,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.0,
+    "answer_counts": {
+      "A": 1,
+      "B": 2,
+      "C": 1
+    },
+    "content_hash": "a30ac675ac32a5d1"
+  }
+}

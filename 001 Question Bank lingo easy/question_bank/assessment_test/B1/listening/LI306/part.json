@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI306",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "Healthy Eating for Busy People",
+  "topic": "health",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li306_healthy_eating_for_busy_people.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Hana Patel",
+        "gender": "female",
+        "accent": "new_zealand",
+        "role": "nutrition expert"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Thank you all for coming this evening. I'm Dr Hana Patel, and tonight I'd like to talk about healthy eating for busy people."
+      },
+      {
+        "speaker": "S1",
+        "text": "Many of you told us in the survey that you don't have time to cook. Nearly sixty per cent said they eat ready meals at least three times a week. Ready meals aren't always bad, but they often contain a lot of salt. A single meal can have more than half of the salt an adult should eat in a whole day. So my first piece of advice is to read the label. Choose meals with less than one gram of salt per hundred grams."
+      },
+      {
+        "speaker": "S1",
+        "text": "Second, think about breakfast. Some people skip it to save time, but research shows that people who skip breakfast often eat more snacks before lunch. A bowl of porridge takes just five minutes and keeps you full until midday. If you really don't have time in the morning, prepare it the night before and keep it in the fridge."
+      },
+      {
+        "speaker": "S1",
+        "text": "Third, drink more water. Many of us confuse thirst with hunger. Before you reach for a biscuit at four o'clock, try drinking a glass of water and wait ten minutes. You might find that you don't need the biscuit. Aim for around two litres of fluid a day, although tea and coffee count too."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, let's talk about fruit and vegetables. The advice is five portions a day, and a portion is about the size of your fist. Frozen vegetables are just as healthy as fresh ones, because they are frozen soon after they are picked, and they are often cheaper. You can add a handful of frozen peas to almost any meal."
+      },
+      {
+        "speaker": "S1",
+        "text": "I want to emphasise that you don't have to change everything at once. Pick one idea and try it for two weeks. I'll be around after the talk if you have questions, and there are free leaflets on the table by the door."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI306-Q01",
+          "number": 1,
+          "prompt": "How many people said they eat ready meals at least three times a week?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nearly 60 per cent"
+            },
+            {
+              "id": "B",
+              "text": "Nearly 30 per cent"
+            },
+            {
+              "id": "C",
+              "text": "Nearly 90 per cent"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Nearly sixty per cent said they eat ready meals"
+          },
+          "explanation": "The audio says: \"Nearly sixty per cent said they eat ready meals\".",
+          "uuid": "d3b9b270-935c-57fb-aad8-5d799ed0bc39"
+        },
+        {
+          "id": "LI306-Q02",
+          "number": 2,
+          "prompt": "What is the main problem with ready meals?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They contain a lot of salt"
+            },
+            {
+              "id": "B",
+              "text": "They contain too much sugar"
+            },
+            {
+              "id": "C",
+              "text": "They are very expensive"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "often contain a lot of salt"
+          },
+          "explanation": "The audio says: \"often contain a lot of salt\".",
+          "uuid": "2c98c183-f25a-5298-b6b5-b4772e1e8cd9"
+        },
+        {
+          "id": "LI306-Q03",
+          "number": 3,
+          "prompt": "What should people choose when they read the label?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Meals with less than 1 gram of salt per 100 grams"
+            },
+            {
+              "id": "B",
+              "text": "Meals with no added sugar in the sauce"
+            },
+            {
+              "id": "C",
+              "text": "Meals with fewer than 400 calories per portion"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "less than one gram of salt per hundred grams"
+          },
+          "explanation": "The audio says: \"less than one gram of salt per hundred grams\".",
+          "uuid": "3f0b8dfc-2391-5721-a96f-63430ed9a3ac"
+        },
+        {
+          "id": "LI306-Q04",
+          "number": 4,
+          "prompt": "What does research show about people who skip breakfast?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They lose weight more quickly"
+            },
+            {
+              "id": "B",
+              "text": "They feel more awake in class"
+            },
+            {
+              "id": "C",
+              "text": "They often eat more snacks"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "eat more snacks before lunch"
+          },
+          "explanation": "The audio says: \"eat more snacks before lunch\".",
+          "uuid": "d323ab29-0f84-5d5c-94b0-df1495c0cc7c"
+        },
+        {
+          "id": "LI306-Q05",
+          "number": 5,
+          "prompt": "How long does porridge take to prepare?",
+          "options": [
+            {
+              "id": "A",
+              "text": "15 minutes"
+            },
+            {
+              "id": "B",
+              "text": "5 minutes"
+            },
+            {
+              "id": "C",
+              "text": "An hour"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "takes just five minutes"
+          },
+          "explanation": "The audio says: \"takes just five minutes\".",
+          "uuid": "98e3d98e-cc7b-5cc6-bf20-5f330290bed5"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI306-Q06",
+          "number": 6,
+          "prompt": "What does the speaker suggest before eating a biscuit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Drinking a glass of water"
+            },
+            {
+              "id": "B",
+              "text": "Eating a piece of fresh fruit"
+            },
+            {
+              "id": "C",
+              "text": "Going outside for a short walk"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "try drinking a glass of water"
+          },
+          "explanation": "The audio says: \"try drinking a glass of water\".",
+          "uuid": "a2f90bb4-8ab7-5eba-b982-dc068156a624"
+        },
+        {
+          "id": "LI306-Q07",
+          "number": 7,
+          "prompt": "How much fluid should people drink?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About half a litre a day"
+            },
+            {
+              "id": "B",
+              "text": "About 2 litres a day"
+            },
+            {
+              "id": "C",
+              "text": "About 5 litres a day"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "around two litres of fluid a day"
+          },
+          "explanation": "The audio says: \"around two litres of fluid a day\".",
+          "uuid": "fa299325-6edd-5ede-947a-50fcded08663"
+        },
+        {
+          "id": "LI306-Q08",
+          "number": 8,
+          "prompt": "How big is one portion of fruit or vegetables?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About the size of your fist"
+            },
+            {
+              "id": "B",
+              "text": "About the size of a plate"
+            },
+            {
+              "id": "C",
+              "text": "About a handful of peas"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about the size of your fist"
+          },
+          "explanation": "The audio says: \"about the size of your fist\".",
+          "uuid": "54c64569-5226-588e-91ec-cdfcc1b02b77"
+        },
+        {
+          "id": "LI306-Q09",
+          "number": 9,
+          "prompt": "What does the speaker say about frozen vegetables?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are less healthy than fresh ones"
+            },
+            {
+              "id": "B",
+              "text": "They are as healthy as fresh ones"
+            },
+            {
+              "id": "C",
+              "text": "They are more expensive than fresh ones"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "just as healthy as fresh ones"
+          },
+          "explanation": "The audio says: \"just as healthy as fresh ones\".",
+          "uuid": "38b86844-3c58-5567-bcd3-c0a577aa0a91"
+        },
+        {
+          "id": "LI306-Q10",
+          "number": 10,
+          "prompt": "What is the speaker's final advice?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Change several habits at the same time"
+            },
+            {
+              "id": "B",
+              "text": "Choose one idea and try it for two weeks"
+            },
+            {
+              "id": "C",
+              "text": "Keep a food diary for a whole month"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "try it for two weeks"
+          },
+          "explanation": "The audio says: \"try it for two weeks\".",
+          "uuid": "245bc755-0527-5857-be88-a872b87c5712"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "05af956d-9685-40db-af35-9deb1db56938",
+  "derived": {
+    "word_count": 323,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 1
+    },
+    "content_hash": "f0c3e9ceb1aa357a"
+  }
+}

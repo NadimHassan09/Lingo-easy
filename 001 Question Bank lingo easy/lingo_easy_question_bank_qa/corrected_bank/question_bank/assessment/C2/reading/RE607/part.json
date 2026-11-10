@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE607",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "The Microbiome: Hype and Hope",
+  "topic": "health",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "The Microbiome: Hype and Hope",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Your body contains roughly as many bacterial cells as human ones, most of them in the gut. Collectively known as the microbiome, these organisms help digest food, train the immune system and produce vitamins. Over the past two decades, research on the microbiome has expanded dramatically, with claims linking it to conditions as varied as obesity, depression, autism and cancer. The enthusiasm is understandable, but it has sometimes outrun the evidence."
+      },
+      {
+        "label": "B",
+        "text": "The strongest evidence concerns infection. In a condition caused by the bacterium Clostridioides difficile, which flourishes when antibiotics have killed rival gut bacteria, patients can suffer repeated, sometimes fatal, diarrhoea. Transplanting stool from a healthy donor restores a balanced community, and in trials it cured around nine in ten patients, a far higher rate than antibiotics. That result persuaded many sceptics that manipulating the microbiome can have real clinical value."
+      },
+      {
+        "label": "C",
+        "text": "For most other conditions, the picture is much less clear. Studies in mice show that transferring gut bacteria from obese animals to lean ones can cause weight gain, but such effects have been hard to reproduce in humans. A frequent difficulty is distinguishing cause from consequence: does an unusual microbiome contribute to a disease, or does the disease, through changes in diet or medication, alter the microbiome? Many published associations come from small studies, and different laboratories sometimes reach contradictory conclusions."
+      },
+      {
+        "label": "D",
+        "text": "The commercial market has moved faster than the science. Probiotic supplements, which contain live bacteria, are sold on the promise of improving health, yet for healthy people, rigorous trials show little benefit. Home tests that analyse a stool sample and offer personalised dietary advice rest on even weaker foundations, since there is no agreed definition of a healthy microbiome. Regulators in several countries have begun to challenge unsupported claims, though enforcement is uneven and the language of marketing often stays one step ahead of the rules. Consumers, meanwhile, are left to judge the claims largely alone."
+      },
+      {
+        "label": "E",
+        "text": "Nevertheless, there are grounds for cautious optimism. Researchers are developing treatments that target specific bacteria, and early trials of microbiome-based therapies for inflammatory bowel disease are encouraging. The most reliable advice for the present is unglamorous: eating a varied diet rich in fibre, and avoiding unnecessary antibiotics, is associated with a more diverse microbiome and better health. As often in medicine, the unspectacular advice is better supported than the spectacular promise."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE607-Q01",
+          "number": 1,
+          "prompt": "What is said about the number of bacterial cells in the body?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ten times more than human cells"
+            },
+            {
+              "id": "B",
+              "text": "Far fewer than human cells"
+            },
+            {
+              "id": "C",
+              "text": "Roughly as many as human cells"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "roughly as many bacterial cells as human ones"
+          },
+          "explanation": "The text says: \"roughly as many bacterial cells as human ones\".",
+          "uuid": "b6ca5981-d861-5bc6-9260-4ce2a9ce1bcb"
+        },
+        {
+          "id": "RE607-Q02",
+          "number": 2,
+          "prompt": "What does the writer suggest about enthusiasm for microbiome research?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is fully justified by the evidence"
+            },
+            {
+              "id": "B",
+              "text": "It has sometimes gone beyond the evidence"
+            },
+            {
+              "id": "C",
+              "text": "It has been suppressed by regulators"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "outrun the evidence"
+          },
+          "explanation": "The text says: \"outrun the evidence\".",
+          "uuid": "20a6149e-eefa-503d-956c-e7f32b4cde4b"
+        },
+        {
+          "id": "RE607-Q03",
+          "number": 3,
+          "prompt": "Why does C. difficile flourish?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Antibiotics have killed rival gut bacteria"
+            },
+            {
+              "id": "B",
+              "text": "Patients eat too much sugar in hospital"
+            },
+            {
+              "id": "C",
+              "text": "Patients lack vitamins after treatment"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "flourishes when antibiotics have killed rival gut bacteria"
+          },
+          "explanation": "The text says: \"flourishes when antibiotics have killed rival gut bacteria\".",
+          "uuid": "fd90411a-91b0-5d3b-85ce-48aaa8ac8d4e"
+        },
+        {
+          "id": "RE607-Q04",
+          "number": 4,
+          "prompt": "What persuaded many sceptics that the microbiome has clinical value?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The success of probiotics"
+            },
+            {
+              "id": "B",
+              "text": "The results of home tests"
+            },
+            {
+              "id": "C",
+              "text": "The success of stool transplants"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "persuaded many sceptics"
+          },
+          "explanation": "The text says: \"persuaded many sceptics\".",
+          "uuid": "74e963e5-ea06-5935-8219-a4f74f54211a"
+        },
+        {
+          "id": "RE607-Q05",
+          "number": 5,
+          "prompt": "What is a frequent difficulty in microbiome research?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Finding enough bacteria to study"
+            },
+            {
+              "id": "B",
+              "text": "Obtaining stool samples from volunteers"
+            },
+            {
+              "id": "C",
+              "text": "Distinguishing cause from consequence"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "distinguishing cause from consequence"
+          },
+          "explanation": "The text says: \"distinguishing cause from consequence\".",
+          "uuid": "ef1f91b9-3baf-59c5-b916-4a501232aab6"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE607-Q06",
+          "number": 6,
+          "prompt": "Stool transplants cured around nine in ten patients in trials.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "around nine in ten patients"
+          },
+          "explanation": "The text says: \"around nine in ten patients\".",
+          "uuid": "b99fbc6a-5e02-559c-ad81-0ecff74c96e7"
+        },
+        {
+          "id": "RE607-Q07",
+          "number": 7,
+          "prompt": "Results from studies in mice have always been reproduced in humans.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "hard to reproduce in humans"
+          },
+          "explanation": "The text says: \"hard to reproduce in humans\".",
+          "uuid": "ae99623d-ede2-56b1-b72e-01c4394b78c0"
+        },
+        {
+          "id": "RE607-Q08",
+          "number": 8,
+          "prompt": "Probiotic supplements have strong evidence of benefit for healthy people.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "show little benefit"
+          },
+          "explanation": "The text says: \"show little benefit\".",
+          "uuid": "cde54887-9988-5d4f-ac76-0bc163c62965"
+        },
+        {
+          "id": "RE607-Q09",
+          "number": 9,
+          "prompt": "Home microbiome tests are banned in every country.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "af7fce58-c8bc-5b05-aaeb-ce488ceb9444"
+        },
+        {
+          "id": "RE607-Q10",
+          "number": 10,
+          "prompt": "The writer recommends a varied diet rich in fibre.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "varied diet rich in fibre"
+          },
+          "explanation": "The text says: \"varied diet rich in fibre\".",
+          "uuid": "77eb756c-7452-5791-8b67-9832de29dba1"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE607-Q11",
+          "number": 11,
+          "prompt": "A condition for which manipulating the microbiome has proven effective",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "cured around nine in ten patients"
+          },
+          "explanation": "The text says: \"cured around nine in ten patients\".",
+          "uuid": "6a43b9b7-6a49-565e-b231-88628af8abe3"
+        },
+        {
+          "id": "RE607-Q12",
+          "number": 12,
+          "prompt": "A criticism of the lack of agreement about what is healthy",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "no agreed definition of a healthy microbiome"
+          },
+          "explanation": "The text says: \"no agreed definition of a healthy microbiome\".",
+          "uuid": "029abc31-8961-57f8-bbc3-373cb7fabe14"
+        },
+        {
+          "id": "RE607-Q13",
+          "number": 13,
+          "prompt": "A comment that simple advice is better supported than dramatic promises",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "the unspectacular advice is better supported"
+          },
+          "explanation": "The text says: \"the unspectacular advice is better supported\".",
+          "uuid": "a74d0e53-9fd4-51aa-bda0-0f4151821d2d"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "5428bcb6-05a0-4764-aa7c-a1965bbb7011",
+  "derived": {
+    "word_count": 390,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 5,
+      "D": 1
+    },
+    "content_hash": "8226dd8964cb97b8"
+  }
+}

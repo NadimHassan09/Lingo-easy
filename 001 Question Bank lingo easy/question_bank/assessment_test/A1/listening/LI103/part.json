@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "id": "LI103",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "Lucy's Flat",
+  "topic": "housing",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li103_lucy_s_flat.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Lucy",
+        "gender": "female",
+        "accent": "british",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hello, my name is Lucy. I live in a small flat in London with my brother. The flat is on the third floor. There is a lift, but it is old, so I use the stairs. We have two bedrooms, a kitchen and a bathroom. The living room is big. It has a green sofa and a television. I like the kitchen because it has a big window. My room is small, but I like it. There is a bed, a desk and a lamp. My brother's room is bigger. He has a lot of books. Near the flat there is a park and a small shop. I go to the park on Sundays with my dog. His name is Max. The rent for our flat is nine hundred pounds a month. It is not cheap, but we like the flat very much. Come and see it soon!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI103-Q01",
+          "number": 1,
+          "prompt": "What is the speaker's name?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lily"
+            },
+            {
+              "id": "B",
+              "text": "Lucy"
+            },
+            {
+              "id": "C",
+              "text": "Laura"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "my name is Lucy"
+          },
+          "explanation": "The audio says: \"my name is Lucy\".",
+          "uuid": "6b7ff102-f457-5fcf-9cb1-58576dd2ddd1"
+        },
+        {
+          "id": "LI103-Q02",
+          "number": 2,
+          "prompt": "Where does Lucy live?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In Leeds"
+            },
+            {
+              "id": "B",
+              "text": "In London"
+            },
+            {
+              "id": "C",
+              "text": "In Dublin"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "small flat in London"
+          },
+          "explanation": "The audio says: \"small flat in London\".",
+          "uuid": "376de361-9326-5842-be94-aa91d72be0f4"
+        },
+        {
+          "id": "LI103-Q03",
+          "number": 3,
+          "prompt": "Who does Lucy live with?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Her mother"
+            },
+            {
+              "id": "B",
+              "text": "Her brother"
+            },
+            {
+              "id": "C",
+              "text": "Her friend"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "with my brother"
+          },
+          "explanation": "The audio says: \"with my brother\".",
+          "uuid": "8b06f7f1-27ff-54ae-8a0d-f2f0fb397e8c"
+        },
+        {
+          "id": "LI103-Q04",
+          "number": 4,
+          "prompt": "Which floor is the flat on?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The third floor"
+            },
+            {
+              "id": "B",
+              "text": "The first floor"
+            },
+            {
+              "id": "C",
+              "text": "The thirteenth floor"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "on the third floor"
+          },
+          "explanation": "The audio says: \"on the third floor\".",
+          "uuid": "a15ebcf7-3b35-5913-9c6e-c716db4af921"
+        },
+        {
+          "id": "LI103-Q05",
+          "number": 5,
+          "prompt": "How does Lucy go up to the flat?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By the lift"
+            },
+            {
+              "id": "B",
+              "text": "By escalator"
+            },
+            {
+              "id": "C",
+              "text": "By the stairs"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "so I use the stairs"
+          },
+          "explanation": "The audio says: \"so I use the stairs\".",
+          "uuid": "908ed8b2-36db-5740-9738-e8da08b4a598"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI103-Q06",
+          "number": 6,
+          "prompt": "How many bedrooms are there?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two"
+            },
+            {
+              "id": "B",
+              "text": "One"
+            },
+            {
+              "id": "C",
+              "text": "Three"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "We have two bedrooms"
+          },
+          "explanation": "The audio says: \"We have two bedrooms\".",
+          "uuid": "7d5a6be7-8f17-5f1c-8203-49bf40af8928"
+        },
+        {
+          "id": "LI103-Q07",
+          "number": 7,
+          "prompt": "What colour is the sofa?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blue"
+            },
+            {
+              "id": "B",
+              "text": "Brown"
+            },
+            {
+              "id": "C",
+              "text": "Green"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a green sofa"
+          },
+          "explanation": "The audio says: \"a green sofa\".",
+          "uuid": "20cd0332-7612-5c36-b41e-3e0e71424c26"
+        },
+        {
+          "id": "LI103-Q08",
+          "number": 8,
+          "prompt": "What does the kitchen have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A big table"
+            },
+            {
+              "id": "B",
+              "text": "A new fridge"
+            },
+            {
+              "id": "C",
+              "text": "A big window"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "it has a big window"
+          },
+          "explanation": "The audio says: \"it has a big window\".",
+          "uuid": "3f60dfc8-c059-59f9-906d-d0c8a59cc466"
+        },
+        {
+          "id": "LI103-Q09",
+          "number": 9,
+          "prompt": "What is the dog's name?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mac"
+            },
+            {
+              "id": "B",
+              "text": "Max"
+            },
+            {
+              "id": "C",
+              "text": "Mike"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "His name is Max"
+          },
+          "explanation": "The audio says: \"His name is Max\".",
+          "uuid": "aba0ae79-7e9c-5ff3-b1bf-442db0a0a460"
+        },
+        {
+          "id": "LI103-Q10",
+          "number": 10,
+          "prompt": "How much is the rent?",
+          "options": [
+            {
+              "id": "A",
+              "text": "900 pounds a month"
+            },
+            {
+              "id": "B",
+              "text": "590 pounds a month"
+            },
+            {
+              "id": "C",
+              "text": "1,900 pounds a month"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "nine hundred pounds a month"
+          },
+          "explanation": "The audio says: \"nine hundred pounds a month\".",
+          "uuid": "71745e85-0c55-5c76-8d60-fa322d64efca"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "15bddb71-63cc-4aa0-a4de-c44e36b98b14",
+  "derived": {
+    "word_count": 148,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "fb9486316590ad54"
+  }
+}

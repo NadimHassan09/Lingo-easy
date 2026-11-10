@@ -1,0 +1,512 @@
+{
+  "schema_version": "1.0",
+  "id": "WR609",
+  "uuid": "44e320d1-000d-5e83-abd0-d00a6b3b5570",
+  "version": "1.0.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "assessment",
+    "level": "C2"
+  },
+  "target_cefr": "C2",
+  "profile": "level_c2",
+  "topic": "space_and_astronomy",
+  "context": "You have been invited to give a short written address at a conference on science policy. The audience includes scientists, officials and journalists.",
+  "title": "Address on space spending",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "proposal",
+  "task": {
+    "title": "Address on space spending",
+    "scenario": "You have been invited to give a short written address at a conference on science policy. The audience includes scientists, officials and journalists.",
+    "prompt": "Write the text of an address in which you argue for or against the view that large public spending on space exploration is justified while urgent problems remain on Earth.",
+    "instructions": [
+      "Write about 320-380 words (at least 260).",
+      "You have about 45 minutes.",
+      "Make sure you cover all of the points below.",
+      "You are writing for: a mixed expert audience. Style: formal, rhetorical."
+    ],
+    "required_points": [
+      "establish a clear stance with an engaging opening",
+      "build a layered argument that anticipates objections",
+      "adapt your style for a listening audience while remaining formal",
+      "close memorably"
+    ],
+    "audience": "a mixed expert audience",
+    "register": "formal, rhetorical",
+    "response_type": "proposal",
+    "word_count": {
+      "minimum": 260,
+      "suggested_min": 320,
+      "suggested_max": 380,
+      "maximum": 460
+    },
+    "suggested_minutes": 45
+  },
+  "expected_response": {
+    "content_points": [
+      "establish a clear stance with an engaging opening",
+      "build a layered argument that anticipates objections",
+      "adapt your style for a listening audience while remaining formal",
+      "close memorably"
+    ],
+    "required_elements": [
+      "Address: establish a clear stance with an engaging opening",
+      "Address: build a layered argument that anticipates objections",
+      "Address: adapt your style for a listening audience while remaining formal",
+      "Address: close memorably"
+    ],
+    "optional_elements": [
+      "a rhetorical question",
+      "a metaphor"
+    ],
+    "organisation": [
+      "opening",
+      "argument with anticipated objections",
+      "memorable ending"
+    ],
+    "vocabulary_demands": [
+      "science policy",
+      "rhetorical devices",
+      "formal-persuasive collocations"
+    ],
+    "grammar_demands": [
+      {
+        "id": "stylistic_variation",
+        "level": "C2",
+        "extension": true
+      },
+      {
+        "id": "register_shifting",
+        "level": "C2",
+        "extension": true
+      },
+      {
+        "id": "inversion_emphasis",
+        "level": "C1",
+        "extension": false
+      },
+      {
+        "id": "precise_collocation_idiom",
+        "level": "C2",
+        "extension": true
+      }
+    ],
+    "discourse_complexity": "Sophisticated extended discourse with layered argument and controlled flow.",
+    "linguistic_demand": "Precise, sophisticated and stylistically controlled discourse; subtle distinctions, synthesis of sources; full range of structures with consistent control.",
+    "cognitive_demand": "Adapt style and register to audience and purpose; Persuade a defined audience; Hold and defend a qualified, nuanced position",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Hook",
+          "Stance",
+          "Argument and objection",
+          "Closing"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "register_adaptation",
+    "secondary_subskills": [
+      "argument_development"
+    ],
+    "cognitive_processes": [
+      "adapt_register",
+      "persuade",
+      "nuanced_stance"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.register_adaptation.C2.1",
+        "text": "Adapt formal rhetorical style to a listening audience while sustaining a layered argument",
+        "measurable_verb": "adapt",
+        "criteria": [
+          "W_TA",
+          "W_CC",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "C2",
+    "recommended_cefr": "C1",
+    "cefr_confidence": "low",
+    "level_gap_steps": 1,
+    "difficulty_index": 0.89,
+    "language_demand": "Precise, sophisticated and stylistically controlled discourse; subtle distinctions, synthesis of sources; full range of structures with consistent control.",
+    "cognitive_demand": "Adapt style and register to audience and purpose; Persuade a defined audience; Hold and defend a qualified, nuanced position",
+    "expected_performance": [
+      "Handles every demand of the task with precision and sophistication; position is subtle, qualified and fully sustained; no irrelevant material.",
+      "Seamless cohesion; devices are invisible and varied; paragraph and sentence-level links reinforce meaning.",
+      "Sophisticated, precise vocabulary with idiom and nuance; errors are rare slips."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 5.0, 'cognition': 4.5, 'length': 4.69, 'abstractness': 4.2, 'prompt_language': 2.22}; composite 4.45 -> C1. Original target C2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P1",
+    "components": {
+      "grammar": 5.0,
+      "cognition": 4.5,
+      "length": 4.69,
+      "abstractness": 4.2,
+      "prompt_language": 2.22
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 11.4,
+      "long_word_ratio": 0.14
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "C2",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Handles every demand of the task with precision and sophistication; position is subtle, qualified and fully sustained; no irrelevant material. Required points: establish a clear stance with an engaging opening; build a layered argument that anticipates objections; adapt your style for a listening audience while remaining formal; close memorably",
+        "weak_performance": "Task handled adequately but without the precision, qualification or synthesis expected; position generic.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: establish a clear stance with an engaging opening; build a layered argument that anticipates objections; adapt your style for a listening audience while remaining formal; close memorably.",
+        "common_error_patterns": [
+          "summarising instead of synthesising",
+          "over-generalising",
+          "failing to qualify"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Seamless cohesion; devices are invisible and varied; paragraph and sentence-level links reinforce meaning.",
+        "weak_performance": "Rare lapses in flow or reference; cohesion occasionally heavy-handed.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "heavy-handed connectors"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Sophisticated, precise vocabulary with idiom and nuance; errors are rare slips.",
+        "weak_performance": "Rare mismatch of connotation or collocation; vocabulary sometimes over-elaborate.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: science policy; rhetorical devices; formal-persuasive collocations.",
+        "common_error_patterns": [
+          "connotation mismatch",
+          "over-ornate word choice"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ]
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Full range used with consistent accuracy; errors are rare and not systematic.",
+        "weak_performance": "Rare non-systematic slips.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: stylistic_variation, register_shifting, inversion_emphasis, precise_collocation_idiom.",
+        "common_error_patterns": [
+          "rare slips in low-frequency structures"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ]
+      },
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "description": "Overall structure of the text and how far main ideas are developed, supported and linked to a position or purpose.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Highly controlled structure in which argument develops layer by layer; counter-positions integrated; support precise and selective.",
+        "weak_performance": "Some ideas asserted rather than developed; structure predictable.",
+        "expected_evidence": "Presence of position/thesis; paragraph topics; reasons and examples per point; conclusion.",
+        "common_error_patterns": [
+          "assertion without justification"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "Do not apply to very short A1/A2 texts; the task does not require essay structure there.",
+        "diagnostic_categories": [
+          "D_ORGANISATION",
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "description": "Whether tone, formality, conventions of text type and politeness suit the audience and purpose.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Register shifted skilfully; tone and conventions fully appropriate and precisely calibrated. Audience: a mixed expert audience. Register: formal, rhetorical",
+        "weak_performance": "Slight over- or under-statement of tone.",
+        "expected_evidence": "Greeting/closing; politeness markers; formality of vocabulary and structures; conventions.",
+        "common_error_patterns": [
+          "over-formal for audience"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "register_adaptation"
+        ],
+        "evaluation_limitations": "Only scored where the task defines an audience/register; otherwise treat as not applicable.",
+        "diagnostic_categories": [
+          "D_REGISTER"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [],
+    "required_demonstrations": [
+      "Address every required point: establish a clear stance with an engaging opening; build a layered argument that anticipates objections; adapt your style for a listening audience while remaining formal; close memorably",
+      "Use language appropriate to: a mixed expert audience"
+    ],
+    "optional_demonstrations": [
+      "a rhetorical question",
+      "a metaphor"
+    ],
+    "not_penalised": [
+      "the position taken (any defensible, well-argued position is valid)",
+      "absence of specific rhetorical devices",
+      "factual inaccuracy beyond the supplied source material"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARGUMENT",
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_COMPARISON",
+      "D_GRAMMAR_RANGE",
+      "D_HEDGING",
+      "D_OFF_TASK",
+      "D_ORGANISATION",
+      "D_PREPOSITION",
+      "D_REGISTER",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SUPPORT",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "flagged",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": [
+      {
+        "severity": "warn",
+        "detail": "cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1)"
+      },
+      {
+        "severity": "warn",
+        "detail": "cefr_confidence_low: component spread sd=0.98"
+      }
+    ]
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/writing_*.py (C2-09)",
+    "spec_sha256": "6e3d374d6532581fc7d8e6b9dd8d88937d53ba9ef91ce8862ad51331b9b8395f",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "C2-09",
+      "lv": "C2",
+      "cat": "proposal",
+      "topic": "space_and_astronomy",
+      "title": "Address on space spending",
+      "scen": "You have been invited to give a short written address at a conference on science policy. The audience includes scientists, officials and journalists.",
+      "prompt": "Write the text of an address in which you argue for or against the view that large public spending on space exploration is justified while urgent problems remain on Earth.",
+      "pts": [
+        "establish a clear stance with an engaging opening",
+        "build a layered argument that anticipates objections",
+        "adapt your style for a listening audience while remaining formal",
+        "close memorably"
+      ],
+      "aud": "a mixed expert audience",
+      "reg": "formal, rhetorical",
+      "w": [
+        260,
+        320,
+        380,
+        460
+      ],
+      "mins": 45,
+      "vocab": [
+        "science policy",
+        "rhetorical devices",
+        "formal-persuasive collocations"
+      ],
+      "gram": [
+        "stylistic_variation",
+        "register_shifting",
+        "inversion_emphasis",
+        "precise_collocation_idiom"
+      ],
+      "struct": [
+        "opening",
+        "argument with anticipated objections",
+        "memorable ending"
+      ],
+      "sub": "register_adaptation",
+      "sub2": [
+        "argument_development"
+      ],
+      "cog": [
+        "adapt_register",
+        "persuade",
+        "nuanced_stance"
+      ],
+      "obj": [
+        "Adapt formal rhetorical style to a listening audience while sustaining a layered argument"
+      ],
+      "outline": [
+        "Hook",
+        "Stance",
+        "Argument and objection",
+        "Closing"
+      ],
+      "opt": [
+        "a rhetorical question",
+        "a metaphor"
+      ],
+      "abs": 3
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "a885ef6aedbea54aede5d419dbd71662df51d1784ed1088abe6a90e2f746bcb6"
+  }
+}

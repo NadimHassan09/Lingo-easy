@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "id": "LI102",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "At the Train Station",
+  "topic": "transport",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li102_at_the_train_station.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Mr Harris",
+        "gender": "male",
+        "accent": "british",
+        "role": "ticket clerk"
+      },
+      {
+        "id": "S2",
+        "name": "Emily",
+        "gender": "female",
+        "accent": "american",
+        "role": "traveller"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning. Can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, please. I want a ticket to Oxford."
+      },
+      {
+        "speaker": "S1",
+        "text": "Single or return?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Return, please. How much is it?"
+      },
+      {
+        "speaker": "S1",
+        "text": "A return ticket is twenty-four pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "Okay. When is the next train?"
+      },
+      {
+        "speaker": "S1",
+        "text": "The next train is at ten fifteen. It is on platform three."
+      },
+      {
+        "speaker": "S2",
+        "text": "Platform three. Thank you. How long is the journey?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It takes one hour. You arrive at eleven fifteen."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. Is there a café at the station?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, there is. It is next to platform one. It opens at eight o'clock."
+      },
+      {
+        "speaker": "S2",
+        "text": "Good. I am hungry!"
+      },
+      {
+        "speaker": "S1",
+        "text": "Do you want a seat reservation? It is two pounds more."
+      },
+      {
+        "speaker": "S2",
+        "text": "No, thank you. The train is not busy today."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay. How do you want to pay?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Can I pay by card?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, you can. Please put your card here. Thank you. Here is your ticket. Have a nice day!"
+      },
+      {
+        "speaker": "S2",
+        "text": "Thanks. Goodbye!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI102-Q01",
+          "number": 1,
+          "prompt": "Where does the woman want to go?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bristol"
+            },
+            {
+              "id": "B",
+              "text": "Cambridge"
+            },
+            {
+              "id": "C",
+              "text": "Oxford"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a ticket to Oxford"
+          },
+          "explanation": "The audio says: \"a ticket to Oxford\".",
+          "uuid": "bd9df682-0af6-5bf9-9895-de11fa4bae9c"
+        },
+        {
+          "id": "LI102-Q02",
+          "number": 2,
+          "prompt": "What kind of ticket does she buy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A return ticket"
+            },
+            {
+              "id": "B",
+              "text": "A single ticket"
+            },
+            {
+              "id": "C",
+              "text": "A weekly ticket"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Return, please. How much"
+          },
+          "explanation": "The audio says: \"Return, please. How much\".",
+          "uuid": "734e047d-f176-5c1f-b3b3-5d2aaf5c2473"
+        },
+        {
+          "id": "LI102-Q03",
+          "number": 3,
+          "prompt": "How much is the ticket?",
+          "options": [
+            {
+              "id": "A",
+              "text": "14 pounds"
+            },
+            {
+              "id": "B",
+              "text": "24 pounds"
+            },
+            {
+              "id": "C",
+              "text": "42 pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "twenty-four pounds"
+          },
+          "explanation": "The audio says: \"twenty-four pounds\".",
+          "uuid": "febfd4cb-977d-5783-9d9d-1040280b0c7c"
+        },
+        {
+          "id": "LI102-Q04",
+          "number": 4,
+          "prompt": "What time is the next train?",
+          "options": [
+            {
+              "id": "A",
+              "text": "10.50"
+            },
+            {
+              "id": "B",
+              "text": "11.15"
+            },
+            {
+              "id": "C",
+              "text": "10.15"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "at ten fifteen"
+          },
+          "explanation": "The audio says: \"at ten fifteen\".",
+          "uuid": "42408a84-7d6c-5c3a-bc30-4ffe9617ad62"
+        },
+        {
+          "id": "LI102-Q05",
+          "number": 5,
+          "prompt": "Which platform is the train on?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Platform 1"
+            },
+            {
+              "id": "B",
+              "text": "Platform 13"
+            },
+            {
+              "id": "C",
+              "text": "Platform 3"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "on platform three"
+          },
+          "explanation": "The audio says: \"on platform three\".",
+          "uuid": "115cb6a9-e4f8-5bc7-a888-de7cca252391"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI102-Q06",
+          "number": 6,
+          "prompt": "How long is the journey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two hours"
+            },
+            {
+              "id": "B",
+              "text": "Thirty minutes"
+            },
+            {
+              "id": "C",
+              "text": "One hour"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It takes one hour"
+          },
+          "explanation": "The audio says: \"It takes one hour\".",
+          "uuid": "2efdb0ab-1cdb-5c40-8059-8733932f0926"
+        },
+        {
+          "id": "LI102-Q07",
+          "number": 7,
+          "prompt": "Where is the café?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Next to platform one"
+            },
+            {
+              "id": "B",
+              "text": "Next to the ticket office"
+            },
+            {
+              "id": "C",
+              "text": "Outside the station"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "next to platform one"
+          },
+          "explanation": "The audio says: \"next to platform one\".",
+          "uuid": "06283f2a-c909-5a27-9a69-69df4dfee15d"
+        },
+        {
+          "id": "LI102-Q08",
+          "number": 8,
+          "prompt": "What time does the café open?",
+          "options": [
+            {
+              "id": "A",
+              "text": "8.00"
+            },
+            {
+              "id": "B",
+              "text": "7.00"
+            },
+            {
+              "id": "C",
+              "text": "9.00"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It opens at eight o'clock"
+          },
+          "explanation": "The audio says: \"It opens at eight o'clock\".",
+          "uuid": "12d74fb6-ec95-5a01-8b11-607d59ba65ca"
+        },
+        {
+          "id": "LI102-Q09",
+          "number": 9,
+          "prompt": "Does the woman book a seat?",
+          "options": [
+            {
+              "id": "A",
+              "text": "No, she does not"
+            },
+            {
+              "id": "B",
+              "text": "Yes, for two pounds"
+            },
+            {
+              "id": "C",
+              "text": "Yes, for ten pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "No, thank you"
+          },
+          "explanation": "The audio says: \"No, thank you\".",
+          "uuid": "00e9a614-bfea-54e7-b097-1448782e6ec6"
+        },
+        {
+          "id": "LI102-Q10",
+          "number": 10,
+          "prompt": "How does the woman pay?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By cash"
+            },
+            {
+              "id": "B",
+              "text": "By phone"
+            },
+            {
+              "id": "C",
+              "text": "By card"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Can I pay by card"
+          },
+          "explanation": "The audio says: \"Can I pay by card\".",
+          "uuid": "28b15ed0-9c82-50ed-adfc-1cea3c81fef2"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "01aee56b-2edb-4e12-afe7-47c6afb56d9a",
+  "derived": {
+    "word_count": 144,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 4,
+      "B": 1,
+      "C": 5
+    },
+    "content_hash": "1b394ac62d69b509"
+  }
+}

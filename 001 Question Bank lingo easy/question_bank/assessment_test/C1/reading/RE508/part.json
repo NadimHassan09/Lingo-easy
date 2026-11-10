@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE508",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Rewilding: Restoring Nature",
+  "topic": "animals_and_nature",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "Rewilding: Restoring Nature",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In 1995, thirty-one grey wolves were released into Yellowstone National Park, where they had been absent for seventy years. Within a few years, scientists noticed changes that reached far beyond the wolves themselves. Elk, which had grazed freely, began avoiding open areas near rivers, allowing willows and aspens to recover. Beavers returned to use the willows, creating ponds that provided habitat for fish, birds and amphibians. Even river courses, some claimed, began to stabilise. The episode has become the most famous example of rewilding."
+      },
+      {
+        "label": "B",
+        "text": "Rewilding is the practice of restoring ecosystems to a more natural state, often by reintroducing missing species and then reducing human management. Its advocates argue that many landscapes, especially in Europe, are impoverished by centuries of farming and hunting. Projects range from allowing rivers to flood naturally to releasing beavers, bison, lynx and even large herbivores that act as ecosystem engineers. Supporters also point out that rewilding can be cheaper than intensive land management."
+      },
+      {
+        "label": "C",
+        "text": "However, the Yellowstone story is less simple than it appears. Subsequent research has questioned how far wolves were responsible for the recovery of vegetation, noting that changes in climate, hunting policy for elk and the effects of drought also played a part. The idea of a trophic cascade, in which predators shape ecosystems from the top down, remains plausible but is harder to demonstrate than popular accounts suggest. Ecologists urge caution in claiming that restoring a single species will repair a complex system."
+      },
+      {
+        "label": "D",
+        "text": "Human communities add further complications. Farmers in Scotland and Scandinavia fear for their livestock, and conflict over wolves and lynx has led to illegal killings. Rewilding can also be perceived as a project imposed by wealthy conservationists on rural people who depend on the land. Successful schemes have therefore tended to involve local communities from the beginning, providing compensation for livestock losses and creating income from nature tourism."
+      },
+      {
+        "label": "E",
+        "text": "Perhaps the most valuable contribution of rewilding is a change in attitude. Traditional conservation sought to preserve landscapes as they were, whereas rewilding accepts that nature is dynamic and that the aim should be to restore processes, not to freeze a particular picture. This is a more modest goal in some ways, and a more ambitious one in others. Whether or not it always works, it invites us to ask what we are prepared to share the land with."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE508-Q01",
+          "number": 1,
+          "prompt": "What happened in Yellowstone in 1995?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Elk were removed from the park by rangers"
+            },
+            {
+              "id": "B",
+              "text": "Wolves were reintroduced after seventy years"
+            },
+            {
+              "id": "C",
+              "text": "Beavers were hunted in large numbers"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "where they had been absent for seventy years"
+          },
+          "explanation": "The text says: \"where they had been absent for seventy years\".",
+          "uuid": "1579b7f9-ac69-5563-8f65-a435ff310ddb"
+        },
+        {
+          "id": "RE508-Q02",
+          "number": 2,
+          "prompt": "How did the behaviour of the elk change?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They moved to nearby towns"
+            },
+            {
+              "id": "B",
+              "text": "They stopped grazing in the park"
+            },
+            {
+              "id": "C",
+              "text": "They avoided open areas near rivers"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "began avoiding open areas near rivers"
+          },
+          "explanation": "The text says: \"began avoiding open areas near rivers\".",
+          "uuid": "d6143d85-08ee-5597-be22-0a0e106bd781"
+        },
+        {
+          "id": "RE508-Q03",
+          "number": 3,
+          "prompt": "According to supporters, why can rewilding be attractive?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It can be cheaper than intensive management"
+            },
+            {
+              "id": "B",
+              "text": "It increases the amount of farmland"
+            },
+            {
+              "id": "C",
+              "text": "It creates more land for hunting"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "can be cheaper than intensive land management"
+          },
+          "explanation": "The text says: \"can be cheaper than intensive land management\".",
+          "uuid": "aeb8ac28-d5bb-5a8f-8d65-2527bb21a05d"
+        },
+        {
+          "id": "RE508-Q04",
+          "number": 4,
+          "prompt": "What does the writer say about the claim that wolves restored the vegetation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has been shown to be false"
+            },
+            {
+              "id": "B",
+              "text": "Other factors also played a part"
+            },
+            {
+              "id": "C",
+              "text": "It has been proved by many experiments"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "also played a part"
+          },
+          "explanation": "The text says: \"also played a part\".",
+          "uuid": "f5cfcaac-f843-56c2-abb1-1e717c10efc5"
+        },
+        {
+          "id": "RE508-Q05",
+          "number": 5,
+          "prompt": "What do successful rewilding schemes tend to have in common?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They use very little human management"
+            },
+            {
+              "id": "B",
+              "text": "They involve local communities from the start"
+            },
+            {
+              "id": "C",
+              "text": "They avoid reintroducing missing species"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "involve local communities from the beginning"
+          },
+          "explanation": "The text says: \"involve local communities from the beginning\".",
+          "uuid": "76c5d23b-b71c-578c-b231-2c53868a516f"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE508-Q06",
+          "number": 6,
+          "prompt": "Thirty-one wolves were released in Yellowstone.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "thirty-one grey wolves were released"
+          },
+          "explanation": "The text says: \"thirty-one grey wolves were released\".",
+          "uuid": "78d82b11-f9e3-53ca-bf51-fc74d167287b"
+        },
+        {
+          "id": "RE508-Q07",
+          "number": 7,
+          "prompt": "The idea of a trophic cascade has been completely disproved.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "remains plausible but is harder to demonstrate"
+          },
+          "explanation": "The text says: \"remains plausible but is harder to demonstrate\".",
+          "uuid": "90908adf-ed8f-5683-9e40-44cf77494dba"
+        },
+        {
+          "id": "RE508-Q08",
+          "number": 8,
+          "prompt": "Illegal killings of wolves and lynx have occurred.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "led to illegal killings"
+          },
+          "explanation": "The text says: \"led to illegal killings\".",
+          "uuid": "efecd3fa-c28d-54d4-9c3f-efc039c97388"
+        },
+        {
+          "id": "RE508-Q09",
+          "number": 9,
+          "prompt": "Rewilding has been tried in Australia.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "12501345-5a13-549d-a36f-afdd86f25dec"
+        },
+        {
+          "id": "RE508-Q10",
+          "number": 10,
+          "prompt": "Traditional conservation aimed to preserve landscapes as they were.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "preserve landscapes as they were"
+          },
+          "explanation": "The text says: \"preserve landscapes as they were\".",
+          "uuid": "89286d37-c7f1-5675-8b7f-b74118a67a47"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE508-Q11",
+          "number": 11,
+          "prompt": "An example of a chain of effects starting from the arrival of a predator",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "allowing willows and aspens to recover"
+          },
+          "explanation": "The text says: \"allowing willows and aspens to recover\".",
+          "uuid": "5dee62ef-1375-5b8d-81c3-902e1b6c1ccf"
+        },
+        {
+          "id": "RE508-Q12",
+          "number": 12,
+          "prompt": "A mention of financial support for people affected by wildlife",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "providing compensation for livestock losses"
+          },
+          "explanation": "The text says: \"providing compensation for livestock losses\".",
+          "uuid": "d1a8624c-2f84-54ca-a825-4fd01afa3991"
+        },
+        {
+          "id": "RE508-Q13",
+          "number": 13,
+          "prompt": "A comment on how rewilding changes ideas about nature",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "nature is dynamic"
+          },
+          "explanation": "The text says: \"nature is dynamic\".",
+          "uuid": "35be1a11-d5bc-5fc5-8c88-535e42d70d05"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "6718e423-063f-4583-adbf-0c49c8207c34",
+  "derived": {
+    "word_count": 389,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 3,
+      "D": 1
+    },
+    "content_hash": "f078480cc601a868"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI504",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "Behavioural Economics and Nudging",
+  "topic": "business",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li504_behavioural_economics_and_nudging.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Marcus Lee",
+        "gender": "male",
+        "accent": "american",
+        "role": "economics lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Let me begin with a puzzle. Imagine two countries with similar populations and cultures. In the first, only fifteen per cent of citizens are registered as organ donors. In the second, almost ninety-nine per cent are. What explains the difference? Attitudes to donation? Religion? In fact, the main difference is the default option on the form. In the first country, you must actively choose to become a donor. In the second, you're a donor automatically unless you choose to opt out. This is a classic example of what behavioural economists call a nudge."
+      },
+      {
+        "speaker": "S1",
+        "text": "The term was popularised by Richard Thaler and Cass Sunstein in 2008. A nudge is a feature of the environment that predictably changes behaviour without forbidding any option or significantly changing economic incentives. Putting fruit at eye level in a canteen is a nudge; banning chocolate isn't."
+      },
+      {
+        "speaker": "S1",
+        "text": "Why do nudges work? Traditional economics assumes that people are rational: they weigh costs and benefits carefully and choose what's best for them. Behavioural economics challenges this. Our decisions are shaped by shortcuts, or heuristics, and biases. One is inertia: we tend to stick with the default because changing requires effort. Another is loss aversion, the finding that a loss feels roughly twice as painful as an equivalent gain feels pleasant. A third is social proof. In an experiment in hotels, a sign saying that most guests reuse their towels increased reuse by about twenty-six per cent, compared with a sign about environmental benefits."
+      },
+      {
+        "speaker": "S1",
+        "text": "Nudges have been used in public policy. In Britain, automatic enrolment into workplace pensions raised participation from about fifty per cent to over ninety per cent. Few people opted out, even though they could. Governments find nudges attractive because they are cheap and politically acceptable, since they preserve freedom of choice."
+      },
+      {
+        "speaker": "S1",
+        "text": "However, there are criticisms. The first is ethical. If a government designs the choices we face, who decides which outcomes are good? Critics call this paternalism. Supporters reply that every choice environment is designed by someone, so it's better for the design to be transparent and serve the public interest. The second criticism concerns effectiveness. A recent analysis found that the average effect of nudges in published studies was much smaller than initially claimed, partly because studies with positive results are more likely to be published. And nudges address individual behaviour, whereas some problems, such as climate change, need structural solutions."
+      },
+      {
+        "speaker": "S1",
+        "text": "I'd suggest that nudges are best seen as one tool among many, useful but not a substitute for regulation or investment. Your assignment is to find an example of a nudge in your daily life and evaluate it."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI504-Q01",
+          "number": 1,
+          "prompt": "What explains the difference in organ donation rates between the two countries?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Different religious beliefs"
+            },
+            {
+              "id": "B",
+              "text": "The default option on the form"
+            },
+            {
+              "id": "C",
+              "text": "Different attitudes to donation"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "default option on the form"
+          },
+          "explanation": "The audio says: \"default option on the form\".",
+          "uuid": "13b5c0eb-e022-590b-aa09-1583f536fb07"
+        },
+        {
+          "id": "LI504-Q02",
+          "number": 2,
+          "prompt": "According to the lecturer, what is a nudge?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A small financial reward that is paid to people for changing behaviour"
+            },
+            {
+              "id": "B",
+              "text": "A law that bans the choices that are known to be harmful to people"
+            },
+            {
+              "id": "C",
+              "text": "A feature of the environment that changes behaviour without forbidding options"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "without forbidding any option"
+          },
+          "explanation": "The audio says: \"without forbidding any option\".",
+          "uuid": "ec381bf3-9620-591b-afdf-9a8560e3e9ab"
+        },
+        {
+          "id": "LI504-Q03",
+          "number": 3,
+          "prompt": "Which of these is a nudge?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Banning chocolate in the canteen"
+            },
+            {
+              "id": "B",
+              "text": "Putting fruit at eye level"
+            },
+            {
+              "id": "C",
+              "text": "Taxing sugary drinks heavily"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Putting fruit at eye level in a canteen is a nudge"
+          },
+          "explanation": "The audio says: \"Putting fruit at eye level in a canteen is a nudge\".",
+          "uuid": "72f7b101-147d-5f39-b218-8a78497e4434"
+        },
+        {
+          "id": "LI504-Q04",
+          "number": 4,
+          "prompt": "What is loss aversion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "People prefer to avoid risk whenever they save money"
+            },
+            {
+              "id": "B",
+              "text": "People prefer familiar brands to unknown brands of the same kind"
+            },
+            {
+              "id": "C",
+              "text": "Losses feel about twice as painful as equal gains feel good"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "roughly twice as painful"
+          },
+          "explanation": "The audio says: \"roughly twice as painful\".",
+          "uuid": "48f72f44-55b6-5473-9e8d-babad86e142a"
+        },
+        {
+          "id": "LI504-Q05",
+          "number": 5,
+          "prompt": "What did the hotel experiment show?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A sign about other guests worked better than one about the environment"
+            },
+            {
+              "id": "B",
+              "text": "Signs about the environmental benefits worked better than signs about guests"
+            },
+            {
+              "id": "C",
+              "text": "Signs made little difference to how often towels were reused"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "most guests reuse their towels increased reuse"
+          },
+          "explanation": "The audio says: \"most guests reuse their towels increased reuse\".",
+          "uuid": "19d8e894-3dc6-5e14-87e5-183f235b76ec"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI504-Q06",
+          "number": 6,
+          "prompt": "What happened when Britain introduced automatic pension enrolment?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Participation rose above ninety per cent"
+            },
+            {
+              "id": "B",
+              "text": "Participation fell to about half"
+            },
+            {
+              "id": "C",
+              "text": "Most employees decided to opt out"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "over ninety per cent"
+          },
+          "explanation": "The audio says: \"over ninety per cent\".",
+          "uuid": "fa34adca-0bf6-568e-b6ca-44f839326acd"
+        },
+        {
+          "id": "LI504-Q07",
+          "number": 7,
+          "prompt": "Why do governments find nudges attractive?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are very effective at changing habits"
+            },
+            {
+              "id": "B",
+              "text": "They are legally required in public policy"
+            },
+            {
+              "id": "C",
+              "text": "They are cheap and preserve freedom of choice"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "preserve freedom of choice"
+          },
+          "explanation": "The audio says: \"preserve freedom of choice\".",
+          "uuid": "a527ff8f-b71e-5b80-b4b7-ab6c09ba3ce4"
+        },
+        {
+          "id": "LI504-Q08",
+          "number": 8,
+          "prompt": "How do supporters respond to the paternalism criticism?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every choice environment is designed by someone"
+            },
+            {
+              "id": "B",
+              "text": "Governments should not design anything"
+            },
+            {
+              "id": "C",
+              "text": "Citizens should vote on every default"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "every choice environment is designed by someone"
+          },
+          "explanation": "The audio says: \"every choice environment is designed by someone\".",
+          "uuid": "bc37a7b3-ab8d-5a98-861c-33f2ee4b2c17"
+        },
+        {
+          "id": "LI504-Q09",
+          "number": 9,
+          "prompt": "Why may published nudge effects be exaggerated?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Positive results are more likely to be published"
+            },
+            {
+              "id": "B",
+              "text": "The experiments were usually too short to measure"
+            },
+            {
+              "id": "C",
+              "text": "Nudges stopped working after the first year"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "more likely to be published"
+          },
+          "explanation": "The audio says: \"more likely to be published\".",
+          "uuid": "6e5b0310-eed2-54b1-8eb4-797e83a1e3c2"
+        },
+        {
+          "id": "LI504-Q10",
+          "number": 10,
+          "prompt": "What is the lecturer's overall view of nudges?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are the best policy tool"
+            },
+            {
+              "id": "B",
+              "text": "They are one tool among many"
+            },
+            {
+              "id": "C",
+              "text": "They are ethically unacceptable"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "one tool among many"
+          },
+          "explanation": "The audio says: \"one tool among many\".",
+          "uuid": "5847851d-4bf5-562e-91b2-c2130917fa65"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "c2b33d84-9142-4d05-97ec-589c2170edea",
+  "derived": {
+    "word_count": 436,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "content_hash": "19b8466f96088312"
+  }
+}

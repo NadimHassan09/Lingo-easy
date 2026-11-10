@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE302",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Living in a Tiny House",
+  "topic": "housing",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "Living in a Tiny House",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In recent years, a new type of home has become popular in many countries: the tiny house. These houses are usually between fifteen and forty square metres, which is smaller than many hotel rooms. Some are built on wheels so that the owners can move them, while others stand on a fixed base."
+      },
+      {
+        "label": "B",
+        "text": "People choose tiny houses for several reasons. The most common one is money. A normal family house may cost hundreds of thousands of pounds, but a tiny house can cost as little as thirty thousand. Smaller homes also cost less to heat and to clean. For people who want to own a home without a large mortgage, this is very attractive."
+      },
+      {
+        "label": "C",
+        "text": "Others are interested in the lifestyle. Living in a small space means owning fewer things. Sarah Jones, who lives in a tiny house in Wales, says she sold two-thirds of her belongings before moving in. At first it was hard, she says, but now she spends less time tidying and more time outside. Many tiny-house owners say they feel less stressed and have more time for friends."
+      },
+      {
+        "label": "D",
+        "text": "Of course, there are problems. Space is limited, so visitors cannot stay overnight, and it can be difficult to live with a partner or children. In many places the law does not allow people to park a tiny house wherever they like, and finding a legal place to live can take months. Storage is another challenge: a tiny house has no room for a bicycle, a large fridge, or a big family dinner."
+      },
+      {
+        "label": "E",
+        "text": "Even so, interest keeps growing. Television programmes about tiny houses are popular, and some towns have created special areas where owners can rent a small piece of land. Experts say tiny houses will not replace normal homes, but they could be a useful option for students, older people and anyone who wants a simpler life."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE302-Q01",
+          "number": 1,
+          "prompt": "How big is a typical tiny house?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Between 50 and 100 square metres"
+            },
+            {
+              "id": "B",
+              "text": "Between 5 and 10 square metres"
+            },
+            {
+              "id": "C",
+              "text": "Between 15 and 40 square metres"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "between fifteen and forty square metres"
+          },
+          "explanation": "The text says: \"between fifteen and forty square metres\".",
+          "uuid": "a6137f4a-21f3-508b-8fb7-4323680159f4"
+        },
+        {
+          "id": "RE302-Q02",
+          "number": 2,
+          "prompt": "What is the most common reason for choosing a tiny house?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fashion"
+            },
+            {
+              "id": "B",
+              "text": "Space"
+            },
+            {
+              "id": "C",
+              "text": "Money"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "The most common one is money"
+          },
+          "explanation": "The text says: \"The most common one is money\".",
+          "uuid": "c2292bd9-76cd-5233-ab18-f405d75c758e"
+        },
+        {
+          "id": "RE302-Q03",
+          "number": 3,
+          "prompt": "How much can a tiny house cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "At least 300,000 pounds"
+            },
+            {
+              "id": "B",
+              "text": "As little as 30,000 pounds"
+            },
+            {
+              "id": "C",
+              "text": "Exactly 130,000 pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "as little as thirty thousand"
+          },
+          "explanation": "The text says: \"as little as thirty thousand\".",
+          "uuid": "79d570dd-65f9-5b83-b778-562e3495b3ca"
+        },
+        {
+          "id": "RE302-Q04",
+          "number": 4,
+          "prompt": "What did Sarah Jones do before moving in?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She sold most of her things"
+            },
+            {
+              "id": "B",
+              "text": "She bought new furniture"
+            },
+            {
+              "id": "C",
+              "text": "She built the house herself"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "sold two-thirds of her belongings"
+          },
+          "explanation": "The text says: \"sold two-thirds of her belongings\".",
+          "uuid": "9c7c7b94-c797-54b4-82a4-d9b2a8e613c0"
+        },
+        {
+          "id": "RE302-Q05",
+          "number": 5,
+          "prompt": "Why can owners find it hard to park a tiny house?",
+          "options": [
+            {
+              "id": "A",
+              "text": "There are not enough roads for them"
+            },
+            {
+              "id": "B",
+              "text": "Parking spaces are too expensive to rent"
+            },
+            {
+              "id": "C",
+              "text": "The law does not allow parking anywhere"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "does not allow people to park a tiny house wherever they like"
+          },
+          "explanation": "The text says: \"does not allow people to park a tiny house wherever they like\".",
+          "uuid": "c48e6479-1a20-5d69-b3f8-8dec5a0c9726"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE302-Q06",
+          "number": 6,
+          "prompt": "All tiny houses have wheels.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "Some are built on wheels"
+          },
+          "explanation": "The text says: \"Some are built on wheels\".",
+          "uuid": "8ac4f7fb-647a-5851-8a41-32a6aa71d0a1"
+        },
+        {
+          "id": "RE302-Q07",
+          "number": 7,
+          "prompt": "Tiny houses cost less to heat.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "cost less to heat and to clean"
+          },
+          "explanation": "The text says: \"cost less to heat and to clean\".",
+          "uuid": "eca99f9e-8b3b-5f95-a759-88df39f42d88"
+        },
+        {
+          "id": "RE302-Q08",
+          "number": 8,
+          "prompt": "Many tiny-house owners say they feel less stressed.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "feel less stressed"
+          },
+          "explanation": "The text says: \"feel less stressed\".",
+          "uuid": "94c6fa01-a56c-50db-bd93-46a0cef957df"
+        },
+        {
+          "id": "RE302-Q09",
+          "number": 9,
+          "prompt": "It is easy to live in a tiny house with children.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "difficult to live with a partner or children"
+          },
+          "explanation": "The text says: \"difficult to live with a partner or children\".",
+          "uuid": "2fa43e11-2b15-5a26-a477-7a17be5cd0e9"
+        },
+        {
+          "id": "RE302-Q10",
+          "number": 10,
+          "prompt": "Tiny houses are cheaper in Wales than in Scotland.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "ddd0a315-91cc-52d0-8b15-dd04f73847bf"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE302-Q11",
+          "number": 11,
+          "prompt": "Sarah now spends less time _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "working"
+            },
+            {
+              "id": "B",
+              "text": "tidying"
+            },
+            {
+              "id": "C",
+              "text": "sleeping"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "spends less time tidying"
+          },
+          "explanation": "The text says: \"spends less time tidying\".",
+          "uuid": "c80e3fb3-5cc5-5c64-942c-3adf1ccf28d1"
+        },
+        {
+          "id": "RE302-Q12",
+          "number": 12,
+          "prompt": "Some towns have created areas where owners can _____ land.",
+          "options": [
+            {
+              "id": "A",
+              "text": "rent"
+            },
+            {
+              "id": "B",
+              "text": "buy"
+            },
+            {
+              "id": "C",
+              "text": "sell"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "can rent a small piece of land"
+          },
+          "explanation": "The text says: \"can rent a small piece of land\".",
+          "uuid": "1297cc79-ec2b-57c8-bb6f-a34b92212d69"
+        },
+        {
+          "id": "RE302-Q13",
+          "number": 13,
+          "prompt": "Tiny houses could be useful for students, _____ people and anyone who wants a simpler life.",
+          "options": [
+            {
+              "id": "A",
+              "text": "rich"
+            },
+            {
+              "id": "B",
+              "text": "older"
+            },
+            {
+              "id": "C",
+              "text": "young"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "students, older people"
+          },
+          "explanation": "The text says: \"students, older people\".",
+          "uuid": "3c9ba52f-96f2-5200-b4ef-2bc54777792c"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "2de34ed8-8e5a-4117-999c-3b54f459bc98",
+  "derived": {
+    "word_count": 311,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 4
+    },
+    "content_hash": "0ab1c42dd060f3c3"
+  }
+}

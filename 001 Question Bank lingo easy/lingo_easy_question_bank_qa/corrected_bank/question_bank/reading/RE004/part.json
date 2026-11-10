@@ -1,0 +1,548 @@
+{
+  "schema_version": "1.0",
+  "id": "RE004",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Phones in the Classroom: The Case for Caution",
+  "topic": "education",
+  "profile": "advanced",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "Phones in the Classroom: The Case for Caution",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In recent years a growing number of schools have introduced bans on pupils' smartphones, and the policy is usually presented as a simple answer to a simple problem: phones distract children, so remove the phones. Parents tend to welcome the idea, and several governments have encouraged it. Opponents are less vocal but no less certain that technology belongs in the classroom. I want to argue that a ban is reasonable in principle, but that its supporters have claimed more for it than the evidence allows, and that on its own it solves rather less than people hope. Both camps, in other words, tend to argue from conviction rather than from data."
+      },
+      {
+        "label": "B",
+        "text": "The case for a ban is not weak. Studies in several countries have found that even a silent phone on a desk reduces concentration, because part of a pupil's attention stays with the device. Teachers report that lessons start faster and that break times become livelier when phones are locked away. For younger children, who have little experience of managing their own habits, removing the temptation altogether is arguably kinder than expecting a degree of self-control that many adults themselves lack. These are genuine benefits, and a fair discussion should not dismiss them."
+      },
+      {
+        "label": "C",
+        "text": "Yet the strongest claim made for bans, that they raise exam results, is far less secure. Where improvements have been measured, they are modest and concentrated among pupils who were already struggling; confident students appear to gain very little. Moreover, many of these studies compare schools that chose to introduce bans with those that did not, and such schools may differ in other ways, such as strong leadership or a more settled community. It would therefore be a mistake to treat the ban as the cause of the improvement, when it may simply be one sign of a school that was already well run. Until better-designed studies are available, confident claims about test scores deserve a degree of scepticism."
+      },
+      {
+        "label": "D",
+        "text": "A second concern is what a ban leaves untouched. Pupils will spend hours on their phones after school, and a rule that ends at the school gate does nothing to teach them how to judge online information, protect their privacy or recognise when a screen is making them anxious. Some head teachers have therefore begun to pair bans with lessons on digital habits, taught by teachers and, in a few cases, by older pupils. Early results are encouraging, though the programmes are too new to judge with confidence. A school that stops at prohibition has, in effect, moved the problem somewhere else rather than solved it."
+      },
+      {
+        "label": "E",
+        "text": "Critics of bans raise a different objection: that phones are valuable learning tools, offering a dictionary, a calculator and a camera in a single pocket. This is true, and a blanket ban does sacrifice those uses. But the argument proves less than it appears to. Most schools that prohibit phones still provide tablets or computers for lessons, so the loss is smaller than critics suggest, and the benefits of a pocket dictionary are small compared with the cost of a classroom in which half the pupils are glancing at notifications. Nor is it clear that pupils learn more from a quick search than from a teacher's explanation, which a phone can interrupt as easily as it can enrich."
+      },
+      {
+        "label": "F",
+        "text": "What, then, should a sensible school do? Prohibit phones during lessons, certainly, and probably at break as well for younger pupils. But it should be honest that this is a limited measure, evaluate its results over several years, and spend at least as much effort on teaching pupils to use technology wisely as on keeping it out of sight. A ban that is treated as a complete answer will disappoint; one that is treated as a first step may well succeed."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE004-Q01",
+          "number": 1,
+          "prompt": "What are a growing number of schools doing with pupils' smartphones?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Selling them to parents"
+            },
+            {
+              "id": "B",
+              "text": "Repairing them for pupils"
+            },
+            {
+              "id": "C",
+              "text": "Banning them"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "a growing number of schools have introduced bans on pupils' smartphones"
+          },
+          "explanation": "The first sentence says a growing number of schools have introduced bans on pupils' smartphones.",
+          "uuid": "20ec01aa-0247-5450-96d2-8d1687bc6951"
+        },
+        {
+          "id": "RE004-Q02",
+          "number": 2,
+          "prompt": "According to paragraph B, what effect can a silent phone on a desk have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It reduces pupils' concentration."
+            },
+            {
+              "id": "B",
+              "text": "It helps pupils feel more secure."
+            },
+            {
+              "id": "C",
+              "text": "It makes no difference unless it rings."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "even a silent phone on a desk reduces concentration"
+          },
+          "explanation": "Studies found that even a silent phone reduces concentration because part of a pupil's attention stays with the device.",
+          "uuid": "32ed2dde-c771-5a51-8b27-e2d95979637b"
+        },
+        {
+          "id": "RE004-Q03",
+          "number": 3,
+          "prompt": "Why does the writer think a ban may be kinder for younger children?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are more likely to be bullied by classmates online."
+            },
+            {
+              "id": "B",
+              "text": "They find school lessons harder than older pupils do."
+            },
+            {
+              "id": "C",
+              "text": "They have little practice in controlling their own habits."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "who have little experience of managing their own habits"
+          },
+          "explanation": "Younger children have little experience of managing their own habits, so removing the temptation is kinder than expecting self-control.",
+          "uuid": "92cab909-2c83-5d29-b29b-e528c8be5266"
+        },
+        {
+          "id": "RE004-Q04",
+          "number": 4,
+          "prompt": "Why does the writer mention schools with strong leadership in paragraph C?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To suggest that other factors may explain improvements"
+            },
+            {
+              "id": "B",
+              "text": "To show that bans work best in well-run schools"
+            },
+            {
+              "id": "C",
+              "text": "To argue that head teachers should decide on bans"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "text_organisation",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "such schools may differ in other ways, such as strong leadership"
+          },
+          "explanation": "The writer says schools that introduce bans may differ in other ways, so the ban may not be the cause of better results.",
+          "uuid": "8346df2b-9654-5357-9cc2-cce93bdeee71"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE004-Q05",
+          "number": 5,
+          "prompt": "Most parents are against school bans on smartphones.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "Parents tend to welcome the idea"
+          },
+          "explanation": "The first paragraph says parents tend to welcome the idea of a ban.",
+          "uuid": "f5e4b0bc-6451-58f6-aa90-b05168505875"
+        },
+        {
+          "id": "RE004-Q06",
+          "number": 6,
+          "prompt": "The writer accepts that there are real arguments in favour of a ban.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "The case for a ban is not weak"
+          },
+          "explanation": "The writer begins paragraph B by saying the case for a ban is not weak.",
+          "uuid": "ce167962-d25f-572e-81af-3e5dd62cbd53"
+        },
+        {
+          "id": "RE004-Q07",
+          "number": 7,
+          "prompt": "The writer thinks the evidence proves that bans improve exam results.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "cause_and_effect"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "It would therefore be a mistake to treat the ban as the cause of the improvement"
+          },
+          "explanation": "The writer says it would be a mistake to treat the ban as the cause of better results.",
+          "uuid": "0cf929cf-cb14-518f-8165-4c6acb06f1df"
+        },
+        {
+          "id": "RE004-Q08",
+          "number": 8,
+          "prompt": "The writer believes schools should teach digital habits in every year group.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "Paragraph D mentions lessons on digital habits but never says which year groups should receive them.",
+          "uuid": "e1113ee3-8f90-5e7b-a436-c90a1f45f800"
+        },
+        {
+          "id": "RE004-Q09",
+          "number": 9,
+          "prompt": "The writer thinks the learning benefits of phones outweigh the disruption they cause in lessons.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "the benefits of a pocket dictionary are small compared with the cost of a classroom"
+          },
+          "explanation": "The writer says the benefits are small compared with the cost of a classroom full of distracted pupils.",
+          "uuid": "79309a34-bc45-51ad-a64a-65b62cd327fd"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE004-Q10",
+          "number": 10,
+          "prompt": "An explanation of why some studies of bans may be unreliable",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "such schools may differ in other ways"
+          },
+          "explanation": "Paragraph C explains that schools which chose bans may differ in other ways. Paragraph B only reports the findings of studies.",
+          "uuid": "5296cb37-d820-591f-b80f-6c308dc52bc7"
+        },
+        {
+          "id": "RE004-Q11",
+          "number": 11,
+          "prompt": "A recommendation that schools check whether their policy works over a period of time",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph E"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "evaluate its results over several years"
+          },
+          "explanation": "Paragraph F advises schools to evaluate their results over several years.",
+          "uuid": "e43e8c55-bc56-5a77-acbc-7fc88be8b6d6"
+        },
+        {
+          "id": "RE004-Q12",
+          "number": 12,
+          "prompt": "A suggestion that schools should deal with matters that a ban cannot cover",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "a rule that ends at the school gate does nothing to teach them"
+          },
+          "explanation": "Paragraph D says a ban does nothing to teach pupils how to use phones wisely outside school and suggests pairing it with lessons.",
+          "uuid": "52c29dbf-22e5-55aa-a3d7-6763cf434d71"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE004-Q13",
+          "number": 13,
+          "prompt": "Which statement best sums up the writer's position?",
+          "options": [
+            {
+              "id": "A",
+              "text": "School phone bans are worthwhile but should not be treated as a complete solution."
+            },
+            {
+              "id": "B",
+              "text": "Bans are unjustified because the evidence for them is too weak to rely on."
+            },
+            {
+              "id": "C",
+              "text": "Schools should drop bans and teach pupils responsible phone use instead."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "main_idea",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "A ban that is treated as a complete answer will disappoint"
+          },
+          "explanation": "The writer supports a ban as a first step but says it will disappoint if treated as a complete answer. Replacing bans with lessons ignores that the writer still recommends prohibiting phones in lessons.",
+          "uuid": "552e35f4-10bc-5acf-b62c-b7c7b6d02e3a"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "8492349b-c972-4312-bcd5-c57a3088e86c",
+  "derived": {
+    "word_count": 630,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 2,
+      "B2": 5,
+      "C1": 4,
+      "C2": 1
+    },
+    "mean_band": 6.19,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "d50dfcbd2293b621"
+  }
+}

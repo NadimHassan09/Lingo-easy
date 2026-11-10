@@ -1,0 +1,148 @@
+{
+  "part_id": "LI610",
+  "part_uuid": "236a247f-8b2f-4ab8-86ba-bc909f3b1b48",
+  "audio_file": "li610_advice_on_a_phd_proposal.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "90cc1177f5ebd957e0dd9b6f71bb0a1c0d35714cb674d0620e9781cbf41ea053",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Professor Moller",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Rafael",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 9.14
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 9.59,
+      "end": 13.94
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 14.39,
+      "end": 29.7
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 30.15,
+      "end": 34.54
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 34.99,
+      "end": 49.97
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 50.42,
+      "end": 59.51
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 59.96,
+      "end": 78.18
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 78.63,
+      "end": 81.73
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 82.18,
+      "end": 105.29
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 105.74,
+      "end": 109.17
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 109.62,
+      "end": 127.21
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 127.66,
+      "end": 130.66
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 131.11,
+      "end": 147.41
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 147.86,
+      "end": 153.81
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 154.26,
+      "end": 165.54
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 165.99,
+      "end": 170.48
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 170.93,
+      "end": 188.62
+    }
+  ],
+  "duration_seconds": 188.62,
+  "size_bytes": 1509548,
+  "audio_sha256": "6b7641e035cc2c06c89a2148e2c9e31227ac999e6f16f3f345ba3baa15414a15",
+  "generated_at": "2026-10-30T20:58:40+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

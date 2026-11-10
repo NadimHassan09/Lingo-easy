@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "id": "LI106",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "Omar's School Day",
+  "topic": "education",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li106_omar_s_school_day.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Omar",
+        "gender": "male",
+        "accent": "british",
+        "role": "school student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "My name is Omar and I am twelve years old. I go to school by bus. The bus comes at seven forty, and school starts at eight thirty. My first lesson on Monday is maths. I like maths because my teacher, Mr Brown, is funny. After maths, we have English and then science. At ten thirty we have a break for twenty minutes. I eat an apple and talk to my friends. Lunch is at twelve o'clock. There is pasta, chicken or a salad. I always have pasta. In the afternoon we have art and sport. Sport is my favourite lesson. We play basketball in the gym. School finishes at three forty. After school, I do my homework and then I play computer games for one hour. I go to bed at nine o'clock."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI106-Q01",
+          "number": 1,
+          "prompt": "How old is Omar?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2"
+            },
+            {
+              "id": "B",
+              "text": "20"
+            },
+            {
+              "id": "C",
+              "text": "12"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I am twelve years old"
+          },
+          "explanation": "The audio says: \"I am twelve years old\".",
+          "uuid": "806f9bf1-33e3-5c96-9a19-8100cc9d2f26"
+        },
+        {
+          "id": "LI106-Q02",
+          "number": 2,
+          "prompt": "How does Omar go to school?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By bus"
+            },
+            {
+              "id": "B",
+              "text": "By car"
+            },
+            {
+              "id": "C",
+              "text": "On foot"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I go to school by bus"
+          },
+          "explanation": "The audio says: \"I go to school by bus\".",
+          "uuid": "7cce3a78-b645-5e4b-a8d7-023f9432572d"
+        },
+        {
+          "id": "LI106-Q03",
+          "number": 3,
+          "prompt": "What time does school start?",
+          "options": [
+            {
+              "id": "A",
+              "text": "7.40"
+            },
+            {
+              "id": "B",
+              "text": "8.30"
+            },
+            {
+              "id": "C",
+              "text": "9.30"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "school starts at eight thirty"
+          },
+          "explanation": "The audio says: \"school starts at eight thirty\".",
+          "uuid": "335c38c8-0a51-578a-9ffb-c2c6a9b3d4b2"
+        },
+        {
+          "id": "LI106-Q04",
+          "number": 4,
+          "prompt": "What is the first lesson on Monday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "English"
+            },
+            {
+              "id": "B",
+              "text": "Maths"
+            },
+            {
+              "id": "C",
+              "text": "Science"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "My first lesson on Monday is maths"
+          },
+          "explanation": "The audio says: \"My first lesson on Monday is maths\".",
+          "uuid": "9f6def42-247f-514e-baef-8d538c5d2c58"
+        },
+        {
+          "id": "LI106-Q05",
+          "number": 5,
+          "prompt": "Why does Omar like maths?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The lesson is short"
+            },
+            {
+              "id": "B",
+              "text": "The teacher is funny"
+            },
+            {
+              "id": "C",
+              "text": "It is easy"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "my teacher, Mr Brown, is funny"
+          },
+          "explanation": "The audio says: \"my teacher, Mr Brown, is funny\".",
+          "uuid": "47425789-7ae8-55bf-8152-90098987d581"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI106-Q06",
+          "number": 6,
+          "prompt": "How long is the break?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20 minutes"
+            },
+            {
+              "id": "B",
+              "text": "10 minutes"
+            },
+            {
+              "id": "C",
+              "text": "30 minutes"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a break for twenty minutes"
+          },
+          "explanation": "The audio says: \"a break for twenty minutes\".",
+          "uuid": "d6780124-7d79-5ac9-9315-4d2383358e6a"
+        },
+        {
+          "id": "LI106-Q07",
+          "number": 7,
+          "prompt": "What does Omar eat at the break?",
+          "options": [
+            {
+              "id": "A",
+              "text": "An apple"
+            },
+            {
+              "id": "B",
+              "text": "A sandwich"
+            },
+            {
+              "id": "C",
+              "text": "A banana"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I eat an apple"
+          },
+          "explanation": "The audio says: \"I eat an apple\".",
+          "uuid": "2c88222d-a54b-5639-ba56-0e44be6f6bd7"
+        },
+        {
+          "id": "LI106-Q08",
+          "number": 8,
+          "prompt": "What does Omar always have for lunch?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Chicken"
+            },
+            {
+              "id": "B",
+              "text": "Pasta"
+            },
+            {
+              "id": "C",
+              "text": "A salad"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I always have pasta"
+          },
+          "explanation": "The audio says: \"I always have pasta\".",
+          "uuid": "0c7f9ce4-ca9d-52fa-9597-658baa223d61"
+        },
+        {
+          "id": "LI106-Q09",
+          "number": 9,
+          "prompt": "What is Omar's favourite lesson?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Art"
+            },
+            {
+              "id": "B",
+              "text": "English"
+            },
+            {
+              "id": "C",
+              "text": "Sport"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Sport is my favourite lesson"
+          },
+          "explanation": "The audio says: \"Sport is my favourite lesson\".",
+          "uuid": "89e5e76a-3eda-58ae-8ea4-eeb4c1adf42d"
+        },
+        {
+          "id": "LI106-Q10",
+          "number": 10,
+          "prompt": "What time does school finish?",
+          "options": [
+            {
+              "id": "A",
+              "text": "3.14"
+            },
+            {
+              "id": "B",
+              "text": "4.30"
+            },
+            {
+              "id": "C",
+              "text": "3.40"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "School finishes at three forty"
+          },
+          "explanation": "The audio says: \"School finishes at three forty\".",
+          "uuid": "ad6e01df-28da-5260-b1a5-c866edb3c226"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "5b6e1736-3b61-4933-8092-41a1e78d2bca",
+  "derived": {
+    "word_count": 134,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "09709485837466d1"
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE409",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "The Ancient Olympic Games",
+  "topic": "history",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "The Ancient Olympic Games",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The first recorded Olympic Games took place in 776 BC at Olympia, a religious site in southern Greece, and continued every four years for nearly twelve centuries. At first, there was a single event, a foot race of about 190 metres, and competitors were drawn from nearby towns. Over time, more events were added, including wrestling, boxing, chariot racing and the pentathlon, and athletes began to arrive from across the Greek world."
+      },
+      {
+        "label": "B",
+        "text": "The Games were primarily a religious festival honouring Zeus. A huge statue of the god stood in the temple at Olympia, and each Games began with a sacrifice of one hundred oxen. To allow athletes and spectators to travel safely, a sacred truce was announced before every festival, during which wars were suspended. Although the truce was not always respected, the idea that sport might temporarily bring enemies together is often cited as a model."
+      },
+      {
+        "label": "C",
+        "text": "Competitors were men only; married women were not allowed even to watch, although unmarried girls could attend. Athletes competed naked and were usually from wealthy families, since training required time and money. There were no team events and no silver or bronze medals: the winner received a wreath of olive leaves, and the other competitors were largely forgotten. Yet the rewards back home could be extraordinary, including free meals for life, statues and large sums of money."
+      },
+      {
+        "label": "D",
+        "text": "Cheating was taken seriously. Athletes had to swear an oath that they had trained for ten months and would compete fairly. Those caught bribing opponents were fined, and the money paid for bronze statues of Zeus, placed along the path to the stadium with the names of the offenders engraved on them. These statues served as a permanent warning to future competitors."
+      },
+      {
+        "label": "E",
+        "text": "The Games ended in the late fourth century AD, when the Roman emperor Theodosius, a Christian, banned pagan festivals. Olympia was later damaged by earthquakes and floods, and buried under layers of soil. Archaeologists began to uncover it in the nineteenth century, which inspired a French educator, Pierre de Coubertin, to organise the first modern Olympics in Athens in 1896."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE409-Q01",
+          "number": 1,
+          "prompt": "What was the single event at the first recorded Games?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A foot race"
+            },
+            {
+              "id": "B",
+              "text": "A wrestling match"
+            },
+            {
+              "id": "C",
+              "text": "A chariot race"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "a single event, a foot race"
+          },
+          "explanation": "The text says: \"a single event, a foot race\".",
+          "uuid": "256f452b-080f-564c-98c4-80b1eb027a8e"
+        },
+        {
+          "id": "RE409-Q02",
+          "number": 2,
+          "prompt": "Who were the first competitors?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Athletes from all over Greece"
+            },
+            {
+              "id": "B",
+              "text": "Soldiers from Rome"
+            },
+            {
+              "id": "C",
+              "text": "Men from nearby towns"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "competitors were drawn from nearby towns"
+          },
+          "explanation": "The text says: \"competitors were drawn from nearby towns\".",
+          "uuid": "dfe97ac4-386d-5b72-a54f-1e64b4312d1d"
+        },
+        {
+          "id": "RE409-Q03",
+          "number": 3,
+          "prompt": "What was the purpose of the sacred truce?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To let people travel safely to the festival"
+            },
+            {
+              "id": "B",
+              "text": "To bring peace between Greek cities"
+            },
+            {
+              "id": "C",
+              "text": "To choose which athletes could compete"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "allow athletes and spectators to travel safely"
+          },
+          "explanation": "The text says: \"allow athletes and spectators to travel safely\".",
+          "uuid": "31dbb06d-62e3-5986-809a-68606deee24c"
+        },
+        {
+          "id": "RE409-Q04",
+          "number": 4,
+          "prompt": "Who could compete in the ancient Games?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Anyone who could pay the entry fee"
+            },
+            {
+              "id": "B",
+              "text": "Both men and women of any class"
+            },
+            {
+              "id": "C",
+              "text": "Men, usually from wealthy families"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "usually from wealthy families"
+          },
+          "explanation": "The text says: \"usually from wealthy families\".",
+          "uuid": "a9542a5c-b079-5090-98a9-2ecd60f070b6"
+        },
+        {
+          "id": "RE409-Q05",
+          "number": 5,
+          "prompt": "What did the winner receive at Olympia?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A gold medal and a purse"
+            },
+            {
+              "id": "B",
+              "text": "A wreath of olive leaves"
+            },
+            {
+              "id": "C",
+              "text": "A bronze statue of Zeus"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "wreath of olive leaves"
+          },
+          "explanation": "The text says: \"wreath of olive leaves\".",
+          "uuid": "6d7460d8-f60c-5e73-85a3-ec49fbd6e53f"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE409-Q06",
+          "number": 6,
+          "prompt": "Each Games began with a sacrifice of one hundred oxen.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "sacrifice of one hundred oxen"
+          },
+          "explanation": "The text says: \"sacrifice of one hundred oxen\".",
+          "uuid": "bafb7919-7c60-5624-84d4-c24c52d7875c"
+        },
+        {
+          "id": "RE409-Q07",
+          "number": 7,
+          "prompt": "Unmarried girls could watch the Games.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "unmarried girls could attend"
+          },
+          "explanation": "The text says: \"unmarried girls could attend\".",
+          "uuid": "65a2f598-f84f-56b8-b69f-a71f9a269d8d"
+        },
+        {
+          "id": "RE409-Q08",
+          "number": 8,
+          "prompt": "Athletes who bribed opponents had to pay fines.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "bribing opponents were fined"
+          },
+          "explanation": "The text says: \"bribing opponents were fined\".",
+          "uuid": "16d951be-6c6f-5152-aea6-05ee7255a8cd"
+        },
+        {
+          "id": "RE409-Q09",
+          "number": 9,
+          "prompt": "The Games were stopped because of a war with Persia.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "banned pagan festivals"
+          },
+          "explanation": "The text says: \"banned pagan festivals\".",
+          "uuid": "16e4063c-e045-5bc1-ad85-89e2414b5d2b"
+        },
+        {
+          "id": "RE409-Q10",
+          "number": 10,
+          "prompt": "Pierre de Coubertin came from a wealthy family.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "7135f1f1-f093-585f-953e-c089cf3811c5"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE409-Q11",
+          "number": 11,
+          "prompt": "A reference to a punishment that also served as a warning",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "permanent warning to future competitors"
+          },
+          "explanation": "The text says: \"permanent warning to future competitors\".",
+          "uuid": "22d0acff-2e51-55ef-aa94-e02ed1b6781d"
+        },
+        {
+          "id": "RE409-Q12",
+          "number": 12,
+          "prompt": "An explanation of how the Games came to an end",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "banned pagan festivals"
+          },
+          "explanation": "The text says: \"banned pagan festivals\".",
+          "uuid": "a755d6ae-a5fc-520c-b209-e918af4eb0f0"
+        },
+        {
+          "id": "RE409-Q13",
+          "number": 13,
+          "prompt": "A description of how the events became more varied over time",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "more events were added"
+          },
+          "explanation": "The text says: \"more events were added\".",
+          "uuid": "3aed8cb4-20a8-5a7c-8656-9a671804990f"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "a7d7073d-2a81-44db-bea9-2e0170a6a1a7",
+  "derived": {
+    "word_count": 346,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 6,
+      "B": 2,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "d1071be7abb983a8"
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "id": "WR109",
+  "uuid": "bfad23f6-5229-5664-a851-b18f043e45ed",
+  "version": "1.0.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "assessment",
+    "level": "A1"
+  },
+  "target_cefr": "A1",
+  "profile": "level_a1",
+  "topic": "shopping_and_money",
+  "context": "Your brother is going to the shop. You write him a note.",
+  "title": "A shopping note",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "personal_message",
+  "task": {
+    "title": "A shopping note",
+    "scenario": "Your brother is going to the shop. You write him a note.",
+    "prompt": "Write a note to your brother. Tell him what to buy.",
+    "instructions": [
+      "Write about 30-50 words (at least 20).",
+      "You have about 6 minutes.",
+      "Make sure you cover all of the points below.",
+      "You are writing for: your brother. Style: informal, simple."
+    ],
+    "required_points": [
+      "three things to buy",
+      "how many of each",
+      "how much money he can use"
+    ],
+    "audience": "your brother",
+    "register": "informal, simple",
+    "response_type": "personal_message",
+    "word_count": {
+      "minimum": 20,
+      "suggested_min": 30,
+      "suggested_max": 50,
+      "maximum": 80
+    },
+    "suggested_minutes": 6
+  },
+  "expected_response": {
+    "content_points": [
+      "three things to buy",
+      "how many of each",
+      "how much money he can use"
+    ],
+    "required_elements": [
+      "Address: three things to buy",
+      "Address: how many of each",
+      "Address: how much money he can use"
+    ],
+    "optional_elements": [
+      "a shop name"
+    ],
+    "organisation": [
+      "a short note with a list or short sentences"
+    ],
+    "vocabulary_demands": [
+      "food and shop words",
+      "numbers",
+      "money"
+    ],
+    "grammar_demands": [
+      {
+        "id": "word_order",
+        "level": "A1",
+        "extension": false
+      },
+      {
+        "id": "quantifiers",
+        "level": "A2",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Isolated sentences or very short sequences.",
+    "linguistic_demand": "Short, concrete sentences about familiar personal topics; high-frequency vocabulary; present simple.",
+    "cognitive_demand": "Request, offer, invite, apologise",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Hi ...,",
+          "Please buy two bottles of water, a bag of rice and some bread.",
+          "Here is 20 pounds.",
+          "Thanks!"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "message_writing",
+    "secondary_subskills": [
+      "sentence_construction"
+    ],
+    "cognitive_processes": [
+      "make_request_or_offer"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.message_writing.A1.1",
+        "text": "Write a short note with simple instructions, quantities and a money limit",
+        "measurable_verb": "write",
+        "criteria": [
+          "W_TA",
+          "W_GRA",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "A1",
+    "recommended_cefr": "A1",
+    "cefr_confidence": "low",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.094,
+    "language_demand": "Short, concrete sentences about familiar personal topics; high-frequency vocabulary; present simple.",
+    "cognitive_demand": "Request, offer, invite, apologise",
+    "expected_performance": [
+      "Addresses most of the required points with at least one simple sentence each; meaning is clear even with errors.",
+      "Correct simple present sentences with basic word order; some errors in agreement or articles do not stop understanding.",
+      "Uses basic words correctly for the topic (family, food, daily life); spelling of common words mostly correct."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 0.5, 'cognition': 1.0, 'length': 0.0, 'abstractness': 0.5, 'prompt_language': 0.0}; composite 0.47 -> A1. Original target A1. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [
+      "quantifiers"
+    ],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 0.5,
+      "cognition": 1.0,
+      "length": 0.0,
+      "abstractness": 0.5,
+      "prompt_language": 0.0
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 5.0,
+      "long_word_ratio": 0.0
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "A1",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.3,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Addresses most of the required points with at least one simple sentence each; meaning is clear even with errors. Required points: three things to buy; how many of each; how much money he can use",
+        "weak_performance": "Only one or two points, or sentences unrelated to the task; meaning often unclear.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: three things to buy; how many of each; how much money he can use.",
+        "common_error_patterns": [
+          "copying the prompt",
+          "writing about a different topic",
+          "very short answer"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Correct simple present sentences with basic word order; some errors in agreement or articles do not stop understanding.",
+        "weak_performance": "Fragments; missing verbs; frequent word-order errors.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: word_order, quantifiers.",
+        "common_error_patterns": [
+          "missing verb 'be' (He tall)",
+          "article omission",
+          "he/she/it agreement"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "missing 'be' in present sentences (Arabic nominal sentences)",
+            "omission or addition of 'the'",
+            "he/she confusion"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Uses basic words correctly for the topic (family, food, daily life); spelling of common words mostly correct.",
+        "weak_performance": "Very few words; repeated copying; wrong or invented words.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: food and shop words; numbers; money.",
+        "common_error_patterns": [
+          "spelling of common words",
+          "wrong word"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "missing 'be' in present sentences (Arabic nominal sentences)",
+            "omission or addition of 'the'",
+            "he/she confusion"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.1,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Sentences are in a sensible order; simple linking such as 'and' and 'but' is used correctly.",
+        "weak_performance": "Sentences appear in random order; no linking.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "no linking words",
+          "random order"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "description": "Whether tone, formality, conventions of text type and politeness suit the audience and purpose.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Greeting and ending suitable for a simple message. Audience: your brother. Register: informal, simple",
+        "weak_performance": "No greeting or ending where expected.",
+        "expected_evidence": "Greeting/closing; politeness markers; formality of vocabulary and structures; conventions.",
+        "common_error_patterns": [
+          "no greeting"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Only scored where the task defines an audience/register; otherwise treat as not applicable.",
+        "diagnostic_categories": [
+          "D_REGISTER"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      }
+    ],
+    "required_demonstrations": [
+      "Address every required point: three things to buy; how many of each; how much money he can use",
+      "Use language appropriate to: your brother"
+    ],
+    "optional_demonstrations": [
+      "a shop name"
+    ],
+    "not_penalised": [
+      "missing paragraphs or linking beyond 'and' and 'but'",
+      "minor spelling slips that do not hide meaning",
+      "absence of any structure above present simple"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_PREPOSITION",
+      "D_REGISTER",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "flagged",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": [
+      {
+        "severity": "warn",
+        "detail": "grammar_demand_adjacent_above: max grammar level A2 > target A1 (adjacent-level demand; document)"
+      },
+      {
+        "severity": "warn",
+        "detail": "cefr_confidence_low: component spread sd=0.37"
+      }
+    ]
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/writing_*.py (A1-09)",
+    "spec_sha256": "d394d37bdce13c03c18f3791e0d206cefdae1fb00b71fe23ebb16ee7ba6e0045",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "A1-09",
+      "lv": "A1",
+      "cat": "personal_message",
+      "topic": "shopping_and_money",
+      "title": "A shopping note",
+      "scen": "Your brother is going to the shop. You write him a note.",
+      "prompt": "Write a note to your brother. Tell him what to buy.",
+      "pts": [
+        "three things to buy",
+        "how many of each",
+        "how much money he can use"
+      ],
+      "aud": "your brother",
+      "reg": "informal, simple",
+      "w": [
+        20,
+        30,
+        50,
+        80
+      ],
+      "mins": 6,
+      "vocab": [
+        "food and shop words",
+        "numbers",
+        "money"
+      ],
+      "gram": [
+        "word_order",
+        "quantifiers"
+      ],
+      "struct": [
+        "a short note with a list or short sentences"
+      ],
+      "sub": "message_writing",
+      "sub2": [
+        "sentence_construction"
+      ],
+      "cog": [
+        "make_request_or_offer"
+      ],
+      "obj": [
+        "Write a short note with simple instructions, quantities and a money limit"
+      ],
+      "outline": [
+        "Hi ...,",
+        "Please buy two bottles of water, a bag of rice and some bread.",
+        "Here is 20 pounds.",
+        "Thanks!"
+      ],
+      "opt": [
+        "a shop name"
+      ],
+      "abs": 0
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "f4510a1a28d3f8c1ce294296e06bf26d4f3843928273c8c53996fded7537f9b5"
+  }
+}

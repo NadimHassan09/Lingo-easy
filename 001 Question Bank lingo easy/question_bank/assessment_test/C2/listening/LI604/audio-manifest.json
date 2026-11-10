@@ -1,0 +1,76 @@
+{
+  "part_id": "LI604",
+  "part_uuid": "c4f49c1c-f7df-4a20-befc-100fc68f64d4",
+  "audio_file": "li604_the_evolution_of_cooperation.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "48f101d7411c41483ec19929697cd176b2eab5e119fd56a8233faad37f234053",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Professor Reed",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 23.04
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 23.49,
+      "end": 58.07
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 58.52,
+      "end": 90.68
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 91.13,
+      "end": 129.13
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 129.58,
+      "end": 158.06
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 158.51,
+      "end": 186.76
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 187.21,
+      "end": 204.44
+    }
+  ],
+  "duration_seconds": 204.44,
+  "size_bytes": 1636268,
+  "audio_sha256": "b18c52dea6dda9aa32ed52dbef5927aad20b93f21d6249f1b6a5dbd2da313189",
+  "generated_at": "2026-10-30T20:57:59+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

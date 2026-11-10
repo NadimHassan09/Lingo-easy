@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE604",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Forgery and the Value of Art",
+  "topic": "arts_and_culture",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "Forgery and the Value of Art",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In 1937, the Dutch art world celebrated the discovery of a masterpiece: a monumental religious painting attributed to Johannes Vermeer. It was bought by a Rotterdam museum for an enormous sum, and critics praised it as the finest work of the master's career. The painting was in fact painted a few years earlier by Han van Meegeren, a failed artist who had taken revenge on critics by fooling them. His forgeries, sold to leading collectors, including the Nazi leader Hermann Göring, made him a fortune."
+      },
+      {
+        "label": "B",
+        "text": "Van Meegeren's technique was meticulous. He bought genuine seventeenth-century canvases, scraped off the paint and used pigments of the period, such as lapis lazuli, ground by hand. To harden the paint as if with centuries of age, he mixed it with a synthetic resin and baked finished paintings in an oven. The craquelure, the web of fine cracks that develops with age, was created by rolling the canvas around a cylinder. He was exposed only after the war, when he was arrested for selling a national treasure to the enemy and confessed to forgery to escape a charge of treason."
+      },
+      {
+        "label": "C",
+        "text": "The case raises uncomfortable questions about how we value art. If a forgery is so convincing that experts are deceived, why does it matter that it is fake? One answer is that the value of a work lies partly in its history: it is a trace of a particular person's vision at a particular moment. A copy, however skilful, lacks this link. Another answer is that we value originality, the achievement of doing something first. By that standard, even a perfect imitation lacks what made the original important."
+      },
+      {
+        "label": "D",
+        "text": "Yet some philosophers dispute this, arguing that if experience is all that matters, a forgery that gives the same pleasure should be as valuable. The difficulty is that our experience is not independent of what we believe. Studies show that people rate the same painting more highly when told it is by a famous artist. Knowledge changes seeing. Van Meegeren's victims did not merely fail to detect a fake; they saw in it the qualities they expected to find."
+      },
+      {
+        "label": "E",
+        "text": "Today, technology has changed detection. Scientists analyse pigments, canvas fibres and even the pattern of brushstrokes, sometimes with the help of machine learning. Van Meegeren's use of a modern resin would be identified in minutes. But the market for art depends on trust, and the greatest vulnerability is not in the laboratory but in the human wish to believe that a rare treasure has been found."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE604-Q01",
+          "number": 1,
+          "prompt": "Why did Van Meegeren create the forgeries, according to the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To finance a museum"
+            },
+            {
+              "id": "B",
+              "text": "To honour Vermeer"
+            },
+            {
+              "id": "C",
+              "text": "As revenge on critics"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "taken revenge on critics by fooling them"
+          },
+          "explanation": "The text says: \"taken revenge on critics by fooling them\".",
+          "uuid": "669a1c23-665e-589b-8a99-5b1d8b66d491"
+        },
+        {
+          "id": "RE604-Q02",
+          "number": 2,
+          "prompt": "How did he make the paint look old?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He buried the finished paintings in damp soil"
+            },
+            {
+              "id": "B",
+              "text": "He painted with brushes from the period"
+            },
+            {
+              "id": "C",
+              "text": "He mixed it with a resin and baked the paintings"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "baked finished paintings in an oven"
+          },
+          "explanation": "The text says: \"baked finished paintings in an oven\".",
+          "uuid": "7c9ba213-3be2-514d-af80-aac2cb491fd4"
+        },
+        {
+          "id": "RE604-Q03",
+          "number": 3,
+          "prompt": "How did he create the web of fine cracks?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By leaving the paintings in strong sunlight"
+            },
+            {
+              "id": "B",
+              "text": "By rolling the canvas around a cylinder"
+            },
+            {
+              "id": "C",
+              "text": "By soaking the canvases in warm water"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "rolling the canvas around a cylinder"
+          },
+          "explanation": "The text says: \"rolling the canvas around a cylinder\".",
+          "uuid": "5df8247e-987d-5fc9-a7a0-df2bbda74266"
+        },
+        {
+          "id": "RE604-Q04",
+          "number": 4,
+          "prompt": "Why did he confess to forgery?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To gain fame as a master forger"
+            },
+            {
+              "id": "B",
+              "text": "To sell more of his paintings abroad"
+            },
+            {
+              "id": "C",
+              "text": "To escape a charge of treason"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "escape a charge of treason"
+          },
+          "explanation": "The text says: \"escape a charge of treason\".",
+          "uuid": "cfadf367-83a4-58ea-a763-47ac6881c0e2"
+        },
+        {
+          "id": "RE604-Q05",
+          "number": 5,
+          "prompt": "What does the writer say about knowledge and seeing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Seeing is independent of our beliefs"
+            },
+            {
+              "id": "B",
+              "text": "Expert eyes see the truth directly"
+            },
+            {
+              "id": "C",
+              "text": "What we believe affects what we see"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Knowledge changes seeing"
+          },
+          "explanation": "The text says: \"Knowledge changes seeing\".",
+          "uuid": "5d7b256f-adf0-5a19-a43f-a89c3308d727"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE604-Q06",
+          "number": 6,
+          "prompt": "The Rotterdam museum bought the painting for a small sum.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "bought by a Rotterdam museum for an enormous sum"
+          },
+          "explanation": "The text says: \"bought by a Rotterdam museum for an enormous sum\".",
+          "uuid": "e129c51f-a341-53d5-b8f2-e4fd03c53600"
+        },
+        {
+          "id": "RE604-Q07",
+          "number": 7,
+          "prompt": "Van Meegeren used only modern synthetic pigments.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "pigments of the period"
+          },
+          "explanation": "The text says: \"pigments of the period\".",
+          "uuid": "468c8942-a7a6-59e0-91d9-3e798c7797a8"
+        },
+        {
+          "id": "RE604-Q08",
+          "number": 8,
+          "prompt": "People rate a painting more highly when told it is by a famous artist.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "rate the same painting more highly when told it is by a famous artist"
+          },
+          "explanation": "The text says: \"rate the same painting more highly when told it is by a famous artist\".",
+          "uuid": "196a27ca-6d19-51d4-b63a-da05673c9b7b"
+        },
+        {
+          "id": "RE604-Q09",
+          "number": 9,
+          "prompt": "Van Meegeren was imprisoned for ten years.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "edb99b21-60e9-5fe0-81a1-572648ebc6ff"
+        },
+        {
+          "id": "RE604-Q10",
+          "number": 10,
+          "prompt": "Scientists can now use machine learning to help detect forgeries.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "help of machine learning"
+          },
+          "explanation": "The text says: \"help of machine learning\".",
+          "uuid": "1c67bf06-1b3c-5926-aead-7f9c3908e8da"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE604-Q11",
+          "number": 11,
+          "prompt": "A description of how an artificial sign of age was produced",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "rolling the canvas around a cylinder"
+          },
+          "explanation": "The text says: \"rolling the canvas around a cylinder\".",
+          "uuid": "1a037407-1583-5625-b3b9-c752fc61a3a8"
+        },
+        {
+          "id": "RE604-Q12",
+          "number": 12,
+          "prompt": "An argument that a work's value comes partly from its link to its creator",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "a trace of a particular person's vision"
+          },
+          "explanation": "The text says: \"a trace of a particular person's vision\".",
+          "uuid": "e07f7aa5-224d-5281-89d6-4e3d2dc1b594"
+        },
+        {
+          "id": "RE604-Q13",
+          "number": 13,
+          "prompt": "A warning that the weakness in the art market is human rather than technical",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "the human wish to believe"
+          },
+          "explanation": "The text says: \"the human wish to believe\".",
+          "uuid": "99a2f54a-7d05-57f4-9493-c5db9ab511b2"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "2d167718-9837-473c-948c-575e4f535225",
+  "derived": {
+    "word_count": 419,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 2,
+      "B": 5,
+      "C": 5,
+      "D": 1
+    },
+    "content_hash": "6453df7f924c8387"
+  }
+}

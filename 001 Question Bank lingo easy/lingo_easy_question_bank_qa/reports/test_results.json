@@ -1,0 +1,319 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "exit_status": 0,
+  "tests_run": 55,
+  "passed": 55,
+  "failed": 0,
+  "errors": 0,
+  "tests": [
+    {
+      "test": "test_pipeline.ApiTests.test_flow_and_single_submission.test_flow_and_single_submission",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.ApiTests.test_start_validation.test_start_validation",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.ApiTests.test_validation_errors.test_validation_errors",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_counts_and_no_repeats.test_counts_and_no_repeats",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_profile_and_type_variety.test_profile_and_type_variety",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_public_exam_leaks_nothing.test_public_exam_leaks_nothing",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_same_seed_same_parts_different_exam_id.test_same_seed_same_parts_different_exam_id",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_shortage_is_an_error_not_a_partial_exam.test_shortage_is_an_error_not_a_partial_exam",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_status_filter.test_status_filter",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.AssembleTests.test_stored_exam_written.test_stored_exam_written",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_all_correct.test_all_correct",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_all_wrong_and_unanswered.test_all_wrong_and_unanswered",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_breakdowns_add_up.test_breakdowns_add_up",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_level_rule_stops_at_first_failure.test_level_rule_stops_at_first_failure",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.EvaluateTests.test_unknown_item_rejected.test_unknown_item_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.HttpTests.test_endpoints.test_endpoints",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.RandomisationAndAssessmentTests.test_assessment_uses_only_its_level.test_assessment_uses_only_its_level",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.RandomisationAndAssessmentTests.test_options_and_part_order_vary_but_key_stays_correct.test_options_and_part_order_vary_but_key_stays_correct",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_pipeline.RandomisationAndAssessmentTests.test_tfng_options_never_shuffled.test_tfng_options_never_shuffled",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_attempt_records_complete_and_schema_valid.test_attempt_records_complete_and_schema_valid",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_diagnostic_traceability_to_source.test_diagnostic_traceability_to_source",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_profile_from_multiple_attempts_is_traceable.test_profile_from_multiple_attempts_is_traceable",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_profile_single_wrong_answer_is_not_a_weakness.test_profile_single_wrong_answer_is_not_a_weakness",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.AttemptAndProfileTests.test_wilson_interval_sane.test_wilson_interval_sane",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_blueprint_failure_is_structured_not_relaxed.test_blueprint_failure_is_structured_not_relaxed",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_blueprint_is_internally_consistent.test_blueprint_is_internally_consistent",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_constraints_hold_across_many_seeds.test_constraints_hold_across_many_seeds",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_determinism_same_seed.test_determinism_same_seed",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_distribution_summary_numbers_match_manifests.test_distribution_summary_numbers_match_manifests",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_forbidden_pair_is_never_selected_together.test_forbidden_pair_is_never_selected_together",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_insufficient_bank_coverage_raises_shortage.test_insufficient_bank_coverage_raises_shortage",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_key_remains_correct_after_option_shuffle.test_key_remains_correct_after_option_shuffle",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.BlueprintAndAssemblerTests.test_validate_exam_detects_violations.test_validate_exam_detects_violations",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_answer_membership_and_exactly_one_correct.test_answer_membership_and_exactly_one_correct",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_asset_audit_reports_missing_audio.test_asset_audit_reports_missing_audio",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_bank_has_no_hard_integrity_failures.test_bank_has_no_hard_integrity_failures",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_detects_known_problems_in_invalid_fixtures.test_detects_known_problems_in_invalid_fixtures",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_duplicate_identifiers_would_be_reported.test_duplicate_identifiers_would_be_reported",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_evidence_is_in_source.test_evidence_is_in_source",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_levels_and_tags_match_config.test_levels_and_tags_match_config",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.IntegrityTests.test_question_and_part_ids_and_uuids_unique.test_question_and_part_ids_and_uuids_unique",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.MiniSchemaTests.test_basic_rules.test_basic_rules",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.RegressionTests.test_change_log_is_complete_and_traceable.test_change_log_is_complete_and_traceable",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.RegressionTests.test_unchanged_questions_identical_and_changed_only_in_distractors.test_unchanged_questions_identical_and_changed_only_in_distractors",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_all_v2_records_valid.test_all_v2_records_valid",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_cefr_recommendations_never_applied_to_bank.test_cefr_recommendations_never_applied_to_bank",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_invalid_v2_fixtures_rejected.test_invalid_v2_fixtures_rejected",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_migration_preserves_ids_uuids_and_counts.test_migration_preserves_ids_uuids_and_counts",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_no_learner_data_in_bank.test_no_learner_data_in_bank",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_taxonomy_values_valid.test_taxonomy_values_valid",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SchemaAndMigrationTests.test_v1_bank_still_valid_for_existing_validator.test_v1_bank_still_valid_for_existing_validator",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SemanticChecksTests.test_balanced_item_passes.test_balanced_item_passes",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SemanticChecksTests.test_length_cue_and_extreme_wording_are_flagged.test_length_cue_and_extreme_wording_are_flagged",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SemanticChecksTests.test_number_not_in_source_flagged.test_number_not_in_source_flagged",
+      "outcome": "ok"
+    },
+    {
+      "test": "test_qa.SemanticChecksTests.test_number_parser.test_number_parser",
+      "outcome": "ok"
+    }
+  ],
+  "executed_commands": [
+    {
+      "command": "python -m qa.stage1_inventory_integrity",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 2.0,
+      "timestamp": "2026-10-22T19:24:31+03:00"
+    },
+    {
+      "command": "python -m qa.apply_patches",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 0.2,
+      "timestamp": "2026-10-22T19:24:31+03:00"
+    },
+    {
+      "command": "python -m qa.stage3_semantic",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 0.7,
+      "timestamp": "2026-10-22T19:24:32+03:00"
+    },
+    {
+      "command": "python -m qa.stage4_cefr",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 1.3,
+      "timestamp": "2026-10-22T19:24:33+03:00"
+    },
+    {
+      "command": "python -m qa.stage5_taxonomy",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 0.7,
+      "timestamp": "2026-10-22T19:24:34+03:00"
+    },
+    {
+      "command": "python -m qa.stage6_diagnostics",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 1.1,
+      "timestamp": "2026-10-22T19:24:35+03:00"
+    },
+    {
+      "command": "python -m qa.stage7_blueprint",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 0.2,
+      "timestamp": "2026-10-22T19:24:35+03:00"
+    },
+    {
+      "command": "python -m qa.stage8_simulation 1000",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 134.9,
+      "timestamp": "2026-10-22T19:26:50+03:00"
+    },
+    {
+      "command": "python -m qa.stage9_adaptive_examples",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 0.8,
+      "timestamp": "2026-10-22T19:26:51+03:00"
+    },
+    {
+      "command": "python -m qa.stage10_review_queue",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 0.6,
+      "timestamp": "2026-10-22T19:26:52+03:00"
+    },
+    {
+      "command": "python scripts/validate_part.py --bank question_bank",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 0.7,
+      "timestamp": "2026-10-22T19:26:52+03:00"
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "cwd": "D:\\001 Question Bank lingo easy",
+      "exit_status": 0,
+      "seconds": 22.2,
+      "timestamp": "2026-10-22T19:27:15+03:00"
+    }
+  ],
+  "notes": [
+    "Counts parsed from unittest -v output of the run above; nothing is carried over from earlier runs."
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "part_id": "LI602",
+  "part_uuid": "83c0a622-2424-4196-a79d-5588e84a2ce7",
+  "audio_file": "li602_seminar_can_poetry_be_translated.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "3374b77907d9aa5af4e6f14f5dfea08a6ac7f6d23d50895882f412e29eda26be",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    },
+    "S3": {
+      "voice": "en-GB-LibbyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Professor Kovacs",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Daniel",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S3",
+      "name": "Priya",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-LibbyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 12.22
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 12.67,
+      "end": 27.31
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 27.76,
+      "end": 29.63
+    },
+    {
+      "index": 3,
+      "speaker": "S3",
+      "start": 30.08,
+      "end": 51.82
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 52.27,
+      "end": 68.33
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 68.78,
+      "end": 74.27
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 74.72,
+      "end": 88.21
+    },
+    {
+      "index": 7,
+      "speaker": "S3",
+      "start": 88.66,
+      "end": 97.71
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 98.16,
+      "end": 117.58
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 118.03,
+      "end": 121.75
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 122.2,
+      "end": 135.01
+    },
+    {
+      "index": 11,
+      "speaker": "S3",
+      "start": 135.46,
+      "end": 140.26
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 140.71,
+      "end": 165.5
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 165.95,
+      "end": 169.34
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 169.79,
+      "end": 186.8
+    },
+    {
+      "index": 15,
+      "speaker": "S3",
+      "start": 187.25,
+      "end": 190.45
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 190.9,
+      "end": 198.86
+    }
+  ],
+  "duration_seconds": 198.86,
+  "size_bytes": 1591532,
+  "audio_sha256": "aa9088b5efc2009ab5be4c34c36a2ce5b71f42e81f89cb080b6a2eb68945cdb3",
+  "generated_at": "2026-10-30T20:57:49+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

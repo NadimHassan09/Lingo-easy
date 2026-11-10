@@ -1,0 +1,172 @@
+{
+  "part_id": "LI007",
+  "part_uuid": "8b01d5d5-596b-4dc1-a1b2-2610b18dabc8",
+  "audio_file": "li007_opening_a_bank_account.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "7d7b10af9d26b860b4540269d387bbe6b2e7a6d1e5aa1a577360eded066b426f",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Mr Evans",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Ms Tanaka",
+      "gender": "female",
+      "accent": "american",
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 2.95
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 3.4,
+      "end": 10.29
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 10.74,
+      "end": 16.45
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 16.9,
+      "end": 22.57
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 23.02,
+      "end": 37.94
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 38.39,
+      "end": 45.59
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 46.04,
+      "end": 54.97
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 55.42,
+      "end": 61.93
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 62.38,
+      "end": 76.63
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 77.08,
+      "end": 84.52
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 84.97,
+      "end": 95.0
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 95.45,
+      "end": 101.0
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 101.45,
+      "end": 109.97
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 110.42,
+      "end": 112.96
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 113.41,
+      "end": 125.41
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 125.86,
+      "end": 130.18
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 130.63,
+      "end": 144.82
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 145.27,
+      "end": 156.71
+    },
+    {
+      "index": 18,
+      "speaker": "S1",
+      "start": 157.16,
+      "end": 169.38
+    },
+    {
+      "index": 19,
+      "speaker": "S2",
+      "start": 169.83,
+      "end": 174.99
+    },
+    {
+      "index": 20,
+      "speaker": "S1",
+      "start": 175.44,
+      "end": 183.22
+    }
+  ],
+  "duration_seconds": 183.22,
+  "size_bytes": 1466348,
+  "audio_sha256": "49e96b39745ab6494c00ba4338deb691747ea72dcbc52ff7446bdc5b6670b5af",
+  "generated_at": "2026-10-30T20:42:33+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

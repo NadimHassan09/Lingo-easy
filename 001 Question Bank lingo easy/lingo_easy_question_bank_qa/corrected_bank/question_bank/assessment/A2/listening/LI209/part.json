@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "id": "LI209",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "A Job Interview",
+  "topic": "work_and_careers",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li209_a_job_interview.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Mrs Evans",
+        "gender": "female",
+        "accent": "british",
+        "role": "interviewer"
+      },
+      {
+        "id": "S2",
+        "name": "Tom",
+        "gender": "male",
+        "accent": "american",
+        "role": "job candidate"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, Tom. Please sit down. Thank you for coming."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thank you for inviting me."
+      },
+      {
+        "speaker": "S1",
+        "text": "So, you're applying for the receptionist job at our dental clinic. Can you tell me about your experience?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes. For two years, I worked at a hotel front desk. I answered the phone, welcomed guests and used the computer system."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good. Why did you leave the hotel?"
+      },
+      {
+        "speaker": "S2",
+        "text": "The hotel closed last month. I'd like to work in a smaller place where I can meet the same people each week."
+      },
+      {
+        "speaker": "S1",
+        "text": "I see. This job is from Monday to Friday, eight thirty to five. Is that a problem?"
+      },
+      {
+        "speaker": "S2",
+        "text": "No, that's fine. Actually, I prefer regular hours."
+      },
+      {
+        "speaker": "S1",
+        "text": "Great. What languages do you speak?"
+      },
+      {
+        "speaker": "S2",
+        "text": "English and Spanish. I'm also learning a little French."
+      },
+      {
+        "speaker": "S1",
+        "text": "Spanish is very useful. Many of our patients are from Spain. Now, how would you deal with an angry patient?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I'd stay calm, listen carefully and say sorry for the problem. Then I'd ask the dentist for help if necessary."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's a good answer. The salary is twenty-two thousand pounds a year. Is that acceptable?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, it is."
+      },
+      {
+        "speaker": "S1",
+        "text": "Excellent. We'll make a decision by Friday. Do you have any questions?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes. Is there training for new staff?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, you will have a two-week course with an experienced receptionist."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI209-Q01",
+          "number": 1,
+          "prompt": "What job is Tom applying for?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A dentist at a private clinic"
+            },
+            {
+              "id": "B",
+              "text": "A receptionist at a dental clinic"
+            },
+            {
+              "id": "C",
+              "text": "A hotel manager in the city"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "applying for the receptionist job at our dental clinic"
+          },
+          "explanation": "The audio says: \"applying for the receptionist job at our dental clinic\".",
+          "uuid": "076a72b5-79b8-595f-88af-617491ddb1fe"
+        },
+        {
+          "id": "LI209-Q02",
+          "number": 2,
+          "prompt": "How long did Tom work at the hotel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two years"
+            },
+            {
+              "id": "B",
+              "text": "Two months"
+            },
+            {
+              "id": "C",
+              "text": "Ten years"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "For two years, I worked"
+          },
+          "explanation": "The audio says: \"For two years, I worked\".",
+          "uuid": "f9baf8a4-bca0-50e9-b3ad-ae0493d7bbef"
+        },
+        {
+          "id": "LI209-Q03",
+          "number": 3,
+          "prompt": "Why did Tom leave the hotel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The pay was low"
+            },
+            {
+              "id": "B",
+              "text": "He wanted a holiday"
+            },
+            {
+              "id": "C",
+              "text": "It closed"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The hotel closed last month"
+          },
+          "explanation": "The audio says: \"The hotel closed last month\".",
+          "uuid": "1d47269d-e017-5ce2-9cfb-24db807ee72b"
+        },
+        {
+          "id": "LI209-Q04",
+          "number": 4,
+          "prompt": "What are the working hours of the new job?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monday to Friday, 8.30 to 5.00"
+            },
+            {
+              "id": "B",
+              "text": "Monday to Saturday, 8.30 to 5.00"
+            },
+            {
+              "id": "C",
+              "text": "Monday to Friday, 9.00 to 6.00"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Monday to Friday, eight thirty to five"
+          },
+          "explanation": "The audio says: \"Monday to Friday, eight thirty to five\".",
+          "uuid": "5b18d6a6-abc6-5c4d-bffe-52b2ee957b71"
+        },
+        {
+          "id": "LI209-Q05",
+          "number": 5,
+          "prompt": "What kind of hours does Tom prefer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Regular hours"
+            },
+            {
+              "id": "B",
+              "text": "Night hours"
+            },
+            {
+              "id": "C",
+              "text": "Short hours"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I prefer regular hours"
+          },
+          "explanation": "The audio says: \"I prefer regular hours\".",
+          "uuid": "13cc5872-a15c-530c-bc32-2d0aaf4da2a5"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI209-Q06",
+          "number": 6,
+          "prompt": "Which two languages does Tom speak?",
+          "options": [
+            {
+              "id": "A",
+              "text": "English and French"
+            },
+            {
+              "id": "B",
+              "text": "English and Spanish"
+            },
+            {
+              "id": "C",
+              "text": "Spanish and French"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "English and Spanish"
+          },
+          "explanation": "The audio says: \"English and Spanish\".",
+          "uuid": "a1e7ebd0-daf1-5c6b-9089-5a0293983564"
+        },
+        {
+          "id": "LI209-Q07",
+          "number": 7,
+          "prompt": "Why is Spanish useful for the job?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The dentist is Spanish"
+            },
+            {
+              "id": "B",
+              "text": "The clinic is in Spain"
+            },
+            {
+              "id": "C",
+              "text": "Many patients are from Spain"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Many of our patients are from Spain"
+          },
+          "explanation": "The audio says: \"Many of our patients are from Spain\".",
+          "uuid": "55c2945a-c5bb-5d92-99f9-a0d63c7516f6"
+        },
+        {
+          "id": "LI209-Q08",
+          "number": 8,
+          "prompt": "What would Tom do with an angry patient?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ask the patient to leave"
+            },
+            {
+              "id": "B",
+              "text": "Call the police"
+            },
+            {
+              "id": "C",
+              "text": "Stay calm and listen"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'd stay calm, listen carefully"
+          },
+          "explanation": "The audio says: \"I'd stay calm, listen carefully\".",
+          "uuid": "430d558a-ab4a-56d7-8f91-96502f329856"
+        },
+        {
+          "id": "LI209-Q09",
+          "number": 9,
+          "prompt": "What is the salary?",
+          "options": [
+            {
+              "id": "A",
+              "text": "22,000 pounds a year"
+            },
+            {
+              "id": "B",
+              "text": "12,000 pounds a year"
+            },
+            {
+              "id": "C",
+              "text": "32,000 pounds a year"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "twenty-two thousand pounds a year"
+          },
+          "explanation": "The audio says: \"twenty-two thousand pounds a year\".",
+          "uuid": "57061fc2-596b-524a-972c-4879edb55b35"
+        },
+        {
+          "id": "LI209-Q10",
+          "number": 10,
+          "prompt": "What training is there for new staff?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A one-day class"
+            },
+            {
+              "id": "B",
+              "text": "A two-week course"
+            },
+            {
+              "id": "C",
+              "text": "An online test"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a two-week course"
+          },
+          "explanation": "The audio says: \"a two-week course\".",
+          "uuid": "262e39ff-b4e3-500b-a4b5-38cdc6800bbb"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "92c8abe9-cc8b-40df-9fff-e4e3ebe665f6",
+  "derived": {
+    "word_count": 214,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "content_hash": "1ccc9daf483b33a3"
+  }
+}

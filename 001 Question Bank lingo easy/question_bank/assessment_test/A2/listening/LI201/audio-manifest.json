@@ -1,0 +1,136 @@
+{
+  "part_id": "LI201",
+  "part_uuid": "e34252ad-a614-4db9-b3c9-a947fa6e6543",
+  "audio_file": "li201_changing_a_hotel_booking.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "7a7bbb7f955c3c022c5a44d1f30eb53047fcc2fc6c9be8435cc5c6df427e83a7",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Sarah",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "David Cole",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 4.49
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 4.94,
+      "end": 14.59
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 15.04,
+      "end": 24.18
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 24.63,
+      "end": 33.44
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 33.89,
+      "end": 45.17
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 45.62,
+      "end": 53.42
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 53.87,
+      "end": 66.42
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 66.87,
+      "end": 72.73
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 73.18,
+      "end": 80.69
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 81.14,
+      "end": 85.82
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 86.27,
+      "end": 92.48
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 92.93,
+      "end": 99.05
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 99.5,
+      "end": 105.6
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 106.05,
+      "end": 110.35
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 110.8,
+      "end": 115.64
+    }
+  ],
+  "duration_seconds": 115.64,
+  "size_bytes": 925868,
+  "audio_sha256": "5a95e95d4dfc70826e17016aa677b70ca5e443065da8c6cb9e1e3eec0b7e172a",
+  "generated_at": "2026-10-30T20:46:26+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

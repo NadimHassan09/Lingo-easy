@@ -1,0 +1,184 @@
+{
+  "part_id": "LI405",
+  "part_uuid": "9d8b7d56-4e02-4bc3-8305-fbccdea1bf27",
+  "audio_file": "li405_planning_a_company_away_day.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "24efc2c75e902f02ac909dde37fde69afc655803f1a22ee562238dcee64ce5be",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Rachel",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Tom",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 7.25
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 7.7,
+      "end": 11.56
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 12.01,
+      "end": 25.14
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 25.59,
+      "end": 32.98
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 33.43,
+      "end": 41.64
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 42.09,
+      "end": 51.5
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 51.95,
+      "end": 57.25
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 57.7,
+      "end": 66.2
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 66.65,
+      "end": 73.06
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 73.51,
+      "end": 77.75
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 78.2,
+      "end": 85.91
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 86.36,
+      "end": 89.0
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 89.45,
+      "end": 96.58
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 97.03,
+      "end": 102.86
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 103.31,
+      "end": 110.68
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 111.13,
+      "end": 114.56
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 115.01,
+      "end": 122.93
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 123.38,
+      "end": 130.07
+    },
+    {
+      "index": 18,
+      "speaker": "S1",
+      "start": 130.52,
+      "end": 140.63
+    },
+    {
+      "index": 19,
+      "speaker": "S2",
+      "start": 141.08,
+      "end": 147.87
+    },
+    {
+      "index": 20,
+      "speaker": "S1",
+      "start": 148.32,
+      "end": 153.26
+    },
+    {
+      "index": 21,
+      "speaker": "S2",
+      "start": 153.71,
+      "end": 157.79
+    },
+    {
+      "index": 22,
+      "speaker": "S1",
+      "start": 158.24,
+      "end": 165.04
+    }
+  ],
+  "duration_seconds": 165.04,
+  "size_bytes": 1321004,
+  "audio_sha256": "ab66edf5588a0cc7aa09d2f84788e83001ec6bdd8973087ae4c347fcac99ac4e",
+  "generated_at": "2026-10-30T20:54:42+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

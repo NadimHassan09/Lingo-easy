@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0",
+  "id": "LI503",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "A Research Methods Tutorial",
+  "topic": "education",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li503_a_research_methods_tutorial.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Walsh",
+        "gender": "male",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Aisha",
+        "gender": "female",
+        "accent": "british",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Ben",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Let's look at your research design. Aisha, remind me of your research question."
+      },
+      {
+        "speaker": "S2",
+        "text": "We want to find out whether students who spend more time on social media experience higher stress during exams."
+      },
+      {
+        "speaker": "S1",
+        "text": "Fine. And your method?"
+      },
+      {
+        "speaker": "S3",
+        "text": "An online questionnaire sent to second-year students, using the university mailing list. We expect around three hundred responses."
+      },
+      {
+        "speaker": "S1",
+        "text": "Three hundred would be good, but I'm concerned about self-selection. Students who are very stressed may be less likely to complete a questionnaire, and those who are heavy social media users may be more likely to respond to a message sent online. Either could distort your results."
+      },
+      {
+        "speaker": "S2",
+        "text": "We hadn't considered that. Could we offer an incentive, like a prize draw?"
+      },
+      {
+        "speaker": "S1",
+        "text": "That can help, but it introduces its own bias. You might also approach students in person, in the library, for example, though that has a different bias because it only reaches those who study there. The honest approach is to acknowledge the limitation in your discussion section."
+      },
+      {
+        "speaker": "S3",
+        "text": "What about the analysis? We're planning to calculate a correlation."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good, but remember what a correlation can and cannot show. Suppose you find that heavy users are more stressed. That doesn't mean social media causes stress. Perhaps stressed students turn to their phones for relief. Or a third factor, such as poor sleep, could affect both."
+      },
+      {
+        "speaker": "S2",
+        "text": "So we should use cautious language, like is associated with."
+      },
+      {
+        "speaker": "S1",
+        "text": "Precisely. Now, your questions. How will you measure stress?"
+      },
+      {
+        "speaker": "S3",
+        "text": "We found a standard scale with ten questions, widely used in psychology."
+      },
+      {
+        "speaker": "S1",
+        "text": "Excellent. Using an established scale is far better than inventing your own, since its reliability has already been tested. But how will you measure social media use?"
+      },
+      {
+        "speaker": "S2",
+        "text": "By asking people to estimate their daily hours."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's the weak point. People are notoriously poor at estimating screen time. Many phones record usage automatically. Could participants share that data?"
+      },
+      {
+        "speaker": "S3",
+        "text": "That might raise privacy concerns."
+      },
+      {
+        "speaker": "S1",
+        "text": "It might, which is why your ethics application needs to explain exactly what you will collect, how it will be stored and when it will be deleted. A simple solution is to ask them to report the figure from their phone settings, without sharing the full record."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's a good compromise. Should we run a pilot?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Absolutely. Test the questionnaire with ten or fifteen students first. You'd be surprised how often a question that seems clear to the author confuses everyone else. Do it before the end of this month, so that you can still make changes."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI503-Q01",
+          "number": 1,
+          "prompt": "What are the students trying to find out?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether exam stress causes people to use social media"
+            },
+            {
+              "id": "B",
+              "text": "Whether students sleep enough during exam periods"
+            },
+            {
+              "id": "C",
+              "text": "Whether heavy social media use is linked to exam stress"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "higher stress during exams"
+          },
+          "explanation": "The audio says: \"higher stress during exams\".",
+          "uuid": "ce2b6590-1dff-5b34-adeb-d7b6a367d4b5"
+        },
+        {
+          "id": "LI503-Q02",
+          "number": 2,
+          "prompt": "What problem does the tutor raise about the online questionnaire?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three hundred responses is too many"
+            },
+            {
+              "id": "B",
+              "text": "Self-selection could distort the results"
+            },
+            {
+              "id": "C",
+              "text": "Students dislike online forms"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'm concerned about self-selection"
+          },
+          "explanation": "The audio says: \"I'm concerned about self-selection\".",
+          "uuid": "2145e616-cc9f-5c6e-a3cc-d56a716b8d93"
+        },
+        {
+          "id": "LI503-Q03",
+          "number": 3,
+          "prompt": "What does the tutor say about offering a prize draw?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It can help but introduces its own bias"
+            },
+            {
+              "id": "B",
+              "text": "It is against university rules"
+            },
+            {
+              "id": "C",
+              "text": "It would double the response rate"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "it introduces its own bias"
+          },
+          "explanation": "The audio says: \"it introduces its own bias\".",
+          "uuid": "618beeeb-34f6-57b0-b3d2-4c2157e8ca9d"
+        },
+        {
+          "id": "LI503-Q04",
+          "number": 4,
+          "prompt": "How should the students deal with the limitation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hide it in an appendix at the end"
+            },
+            {
+              "id": "B",
+              "text": "Acknowledge it in the discussion section"
+            },
+            {
+              "id": "C",
+              "text": "Remove all the affected responses from the data"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "acknowledge the limitation in your discussion section"
+          },
+          "explanation": "The audio says: \"acknowledge the limitation in your discussion section\".",
+          "uuid": "8562ae18-f265-5099-b5a5-cb2d171be7ae"
+        },
+        {
+          "id": "LI503-Q05",
+          "number": 5,
+          "prompt": "What alternative explanation for a correlation does the tutor give?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Phones may cause poor sleep before exams"
+            },
+            {
+              "id": "B",
+              "text": "Teachers may set too much work in exam weeks"
+            },
+            {
+              "id": "C",
+              "text": "Stressed students may use their phones for relief"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "stressed students turn to their phones for relief"
+          },
+          "explanation": "The audio says: \"stressed students turn to their phones for relief\".",
+          "uuid": "22f4d3a7-2917-56dd-ab58-902af200107e"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI503-Q06",
+          "number": 6,
+          "prompt": "What wording does the tutor approve of?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Is the main cause of"
+            },
+            {
+              "id": "B",
+              "text": "Has been proved to lead to"
+            },
+            {
+              "id": "C",
+              "text": "Is associated with"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Precisely. Now, your questions"
+          },
+          "explanation": "The audio says: \"Precisely. Now, your questions\".",
+          "uuid": "ade9a90c-c6cc-546d-a4c9-8a8e67dcf0c4"
+        },
+        {
+          "id": "LI503-Q07",
+          "number": 7,
+          "prompt": "Why does the tutor prefer an established scale?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is shorter than other available scales"
+            },
+            {
+              "id": "B",
+              "text": "Its reliability has already been tested"
+            },
+            {
+              "id": "C",
+              "text": "It is free to use without permission"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "its reliability has already been tested"
+          },
+          "explanation": "The audio says: \"its reliability has already been tested\".",
+          "uuid": "1721c574-38a5-5fda-8317-4e1d4b48b2be"
+        },
+        {
+          "id": "LI503-Q08",
+          "number": 8,
+          "prompt": "What does the tutor see as the weak point?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Using a ten-question scale of stress"
+            },
+            {
+              "id": "B",
+              "text": "Sending the questionnaire by university email"
+            },
+            {
+              "id": "C",
+              "text": "Asking students to estimate their daily hours"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "poor at estimating screen time"
+          },
+          "explanation": "The audio says: \"poor at estimating screen time\".",
+          "uuid": "8d542de4-c3e1-562b-b52a-adfecb6eab8d"
+        },
+        {
+          "id": "LI503-Q09",
+          "number": 9,
+          "prompt": "How does the tutor suggest dealing with privacy concerns?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ask for the figure only, not the full record"
+            },
+            {
+              "id": "B",
+              "text": "Collect no data on social media use at all"
+            },
+            {
+              "id": "C",
+              "text": "Destroy all the data after the pilot study"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "without sharing the full record"
+          },
+          "explanation": "The audio says: \"without sharing the full record\".",
+          "uuid": "ac28eb09-e0e9-58a2-820f-5420021ec4e1"
+        },
+        {
+          "id": "LI503-Q10",
+          "number": 10,
+          "prompt": "What does the tutor advise about the pilot?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Test with the whole second-year group before the deadline"
+            },
+            {
+              "id": "B",
+              "text": "Test with ten or fifteen students before the end of the month"
+            },
+            {
+              "id": "C",
+              "text": "Skip it if the deadline is too close to the end"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "ten or fifteen students first"
+          },
+          "explanation": "The audio says: \"ten or fifteen students first\".",
+          "uuid": "adab3fab-352b-51d9-bd40-a862e030cca7"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "f3f11714-bd1a-4af0-b135-9756d654c785",
+  "derived": {
+    "word_count": 409,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 2,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "2a458fb618474d7d"
+  }
+}

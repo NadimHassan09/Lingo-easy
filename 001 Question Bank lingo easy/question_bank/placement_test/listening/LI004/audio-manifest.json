@@ -1,0 +1,88 @@
+{
+  "part_id": "LI004",
+  "part_uuid": "93e03a22-2f56-44ed-8c2f-c0f154119901",
+  "audio_file": "li004_why_we_forget_and_what_helps.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "adfcdc3f62794f3cbe014ce22d167258fe3dffbc6bd62ee0e766955f55fa3106",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Hannah Reyes",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 17.26
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 17.71,
+      "end": 41.87
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 42.32,
+      "end": 69.01
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 69.46,
+      "end": 91.9
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 92.35,
+      "end": 119.11
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 119.56,
+      "end": 141.67
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 142.12,
+      "end": 167.82
+    },
+    {
+      "index": 7,
+      "speaker": "S1",
+      "start": 168.27,
+      "end": 194.26
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 194.71,
+      "end": 217.03
+    }
+  ],
+  "duration_seconds": 217.03,
+  "size_bytes": 1736876,
+  "audio_sha256": "078229c3a606921611239c71a841f0e59b5be0395c933f42ba01fcee16bbf7b0",
+  "generated_at": "2026-10-30T20:41:34+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

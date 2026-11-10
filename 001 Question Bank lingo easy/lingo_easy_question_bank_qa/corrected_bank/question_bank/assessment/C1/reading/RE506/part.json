@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE506",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "How Languages Change",
+  "topic": "language_and_linguistics",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "How Languages Change",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "All languages change. English speakers today would struggle to read the English of Chaucer, written about 1390, and would find Old English, the language of Beowulf, as foreign as German. Yet no speaker ever decided to change the language, and few notice it happening in their own lifetimes. The mechanisms of linguistic change have fascinated scholars for centuries, and modern research has made them better understood, though not entirely predictable."
+      },
+      {
+        "label": "B",
+        "text": "Change begins in the speech of individuals. A new pronunciation, word or grammatical form appears, usually among younger speakers or a particular social group, and may spread if others imitate it. Whether it does depends partly on prestige: forms associated with admired groups spread more readily. Sociolinguists such as William Labov showed in studies of New York speech that changes often start in the middle of the social scale and are pushed upwards by people seeking to sound more successful."
+      },
+      {
+        "label": "C",
+        "text": "Sound change is the most systematic type. Over generations, sounds tend to shift in regular patterns. The Great Vowel Shift, which took place in English between about 1400 and 1700, changed the pronunciation of long vowels, so that the word house, once pronounced roughly like hoose, acquired its modern sound. Because the shift affected all words with the same vowel, while spelling had become fixed, written English now preserves traces of an older pronunciation, which is why English spelling seems so inconsistent."
+      },
+      {
+        "label": "D",
+        "text": "Vocabulary changes faster, driven by technology, contact and fashion. Languages borrow from each other: English has taken words from more than a hundred languages, including algebra from Arabic and kindergarten from German. Meanings also drift. Nice once meant foolish, and awful meant inspiring awe. Speakers often regard such changes as decay, but linguists see them as natural: no variety is more correct than another, only more or less accepted in a given setting."
+      },
+      {
+        "label": "E",
+        "text": "Can change be controlled? Some countries have language academies, such as the Académie française, which publish recommendations for correct usage. Their influence is limited. Despite efforts to replace English borrowings with French equivalents, many French speakers continue to say le weekend. In the long run, a language belongs to those who use it, and it will change as long as there are people who speak it. A language that stops changing is, in practice, a dead one."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE506-Q01",
+          "number": 1,
+          "prompt": "What does the writer say about English speakers and Old English?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It would be easy to read"
+            },
+            {
+              "id": "B",
+              "text": "It is identical to Chaucer's English"
+            },
+            {
+              "id": "C",
+              "text": "It would seem as foreign as German"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "as foreign as German"
+          },
+          "explanation": "The text says: \"as foreign as German\".",
+          "uuid": "bee243b4-3b3c-5fd5-b045-fc118082b428"
+        },
+        {
+          "id": "RE506-Q02",
+          "number": 2,
+          "prompt": "What is true of most speakers with regard to language change?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They agree on changes in advance"
+            },
+            {
+              "id": "B",
+              "text": "They rarely notice it in their own lifetimes"
+            },
+            {
+              "id": "C",
+              "text": "They resist it successfully for generations"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "few notice it happening in their own lifetimes"
+          },
+          "explanation": "The text says: \"few notice it happening in their own lifetimes\".",
+          "uuid": "dae6252c-e7e4-506a-9539-912b46e0a17e"
+        },
+        {
+          "id": "RE506-Q03",
+          "number": 3,
+          "prompt": "What did Labov find about changes in New York speech?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They usually start among the wealthiest speakers"
+            },
+            {
+              "id": "B",
+              "text": "They usually start in universities and schools"
+            },
+            {
+              "id": "C",
+              "text": "They often start in the middle of the social scale"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "start in the middle of the social scale"
+          },
+          "explanation": "The text says: \"start in the middle of the social scale\".",
+          "uuid": "08b07cff-4263-5e07-82d3-9cfe210aabda"
+        },
+        {
+          "id": "RE506-Q04",
+          "number": 4,
+          "prompt": "Why does English spelling seem inconsistent?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It preserves traces of an older pronunciation"
+            },
+            {
+              "id": "B",
+              "text": "Spelling reformers introduced many mistakes"
+            },
+            {
+              "id": "C",
+              "text": "Dictionaries disagree about correct forms"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "preserves traces of an older pronunciation"
+          },
+          "explanation": "The text says: \"preserves traces of an older pronunciation\".",
+          "uuid": "7de9db3a-4b82-5df0-a13f-3fffd4413cd2"
+        },
+        {
+          "id": "RE506-Q05",
+          "number": 5,
+          "prompt": "How do linguists regard changes in meaning such as nice?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As natural rather than decay"
+            },
+            {
+              "id": "B",
+              "text": "As evidence of decline"
+            },
+            {
+              "id": "C",
+              "text": "As errors to be corrected"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "linguists see them as natural"
+          },
+          "explanation": "The text says: \"linguists see them as natural\".",
+          "uuid": "858d75ec-f4ac-54e3-9960-d55d8ab68e42"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE506-Q06",
+          "number": 6,
+          "prompt": "The Great Vowel Shift took place between about 1400 and 1700.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "between about 1400 and 1700"
+          },
+          "explanation": "The text says: \"between about 1400 and 1700\".",
+          "uuid": "6106dac4-17d8-504e-8ad2-2cc63b241093"
+        },
+        {
+          "id": "RE506-Q07",
+          "number": 7,
+          "prompt": "English has borrowed words from fewer than fifty languages.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "more than a hundred languages"
+          },
+          "explanation": "The text says: \"more than a hundred languages\".",
+          "uuid": "724fe098-1c7a-5941-bc68-118ff5be510c"
+        },
+        {
+          "id": "RE506-Q08",
+          "number": 8,
+          "prompt": "The word algebra comes into English from German.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "algebra from Arabic"
+          },
+          "explanation": "The text says: \"algebra from Arabic\".",
+          "uuid": "085afcc9-7226-579b-8871-14abcc81f46c"
+        },
+        {
+          "id": "RE506-Q09",
+          "number": 9,
+          "prompt": "The Académie française has stopped French speakers from using English words.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "many French speakers continue to say"
+          },
+          "explanation": "The text says: \"many French speakers continue to say\".",
+          "uuid": "f6f691c5-7443-57b3-a09f-52d36eb5d990"
+        },
+        {
+          "id": "RE506-Q10",
+          "number": 10,
+          "prompt": "The writer believes English will eventually become a dead language.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "e38d6e78-fdea-5a9d-a488-214744aecde7"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE506-Q11",
+          "number": 11,
+          "prompt": "An explanation of how a new form is more likely to spread",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "forms associated with admired groups spread more readily"
+          },
+          "explanation": "The text says: \"forms associated with admired groups spread more readily\".",
+          "uuid": "3d9f6110-4ea7-5e16-ab80-30a06c078400"
+        },
+        {
+          "id": "RE506-Q12",
+          "number": 12,
+          "prompt": "An example of a word whose meaning has changed over time",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Nice once meant foolish"
+          },
+          "explanation": "The text says: \"Nice once meant foolish\".",
+          "uuid": "67970fc6-55a2-5ee9-9d33-9fedd08665a5"
+        },
+        {
+          "id": "RE506-Q13",
+          "number": 13,
+          "prompt": "A statement about whether official bodies can control language",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Their influence is limited"
+          },
+          "explanation": "The text says: \"Their influence is limited\".",
+          "uuid": "efaf356b-f966-549f-a1f6-bace404313d7"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "21a65e52-1bf6-414e-812a-f3a9bdba214d",
+  "derived": {
+    "word_count": 382,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 3,
+      "B": 5,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "436a4b06b60a9de7"
+  }
+}

@@ -1,0 +1,141 @@
+﻿part_id,skill,bank,target_cefr,structural_validation,semantic_rule_review,errors,warnings,findings,heuristic_cefr,cefr_gap,evidence_class,llm_review,human_review
+SP001,speaking,placement,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+SP002,speaking,placement,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+SP003,speaking,placement,A2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.19,A2,0,automated_rules_only,not_performed,not_reviewed
+SP004,speaking,placement,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+SP005,speaking,placement,B1,pass,flagged,0,3,cognitive_demand_below_target: max cognitive level A2 < target B1 | cefr_estimate_differs_from_target: heuristic A2 vs target B1 (gap 1) | cefr_confidence_low: component spread sd=0.58,A2,1,automated_rules_only,not_performed,not_reviewed
+SP006,speaking,placement,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+SP007,speaking,placement,B2,pass,flagged,0,1,grammar_demand_adjacent_above: max grammar level C1 > target B2 (adjacent-level demand; document),B2,0,automated_rules_only,not_performed,not_reviewed
+SP008,speaking,placement,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+SP009,speaking,placement,C1,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic B2 vs target C1 (gap 1) | cefr_confidence_low: component spread sd=1.27,B2,1,automated_rules_only,not_performed,not_reviewed
+SP010,speaking,placement,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.12,C1,1,automated_rules_only,not_performed,not_reviewed
+SP101,speaking,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+SP102,speaking,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+SP103,speaking,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+SP104,speaking,A1,A1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.39,A1,0,automated_rules_only,not_performed,not_reviewed
+SP105,speaking,A1,A1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.4,A1,0,automated_rules_only,not_performed,not_reviewed
+SP106,speaking,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+SP107,speaking,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+SP108,speaking,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+SP109,speaking,A1,A1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.38,A1,0,automated_rules_only,not_performed,not_reviewed
+SP110,speaking,A1,A1,pass,flagged,0,2,grammar_demand_adjacent_above: max grammar level A2 > target A1 (adjacent-level demand; document) | cefr_confidence_low: component spread sd=0.19,A1,0,automated_rules_only,not_performed,not_reviewed
+SP201,speaking,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+SP202,speaking,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+SP203,speaking,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+SP204,speaking,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+SP205,speaking,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+SP206,speaking,A2,A2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.21,A2,0,automated_rules_only,not_performed,not_reviewed
+SP207,speaking,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+SP208,speaking,A2,A2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.28,A2,0,automated_rules_only,not_performed,not_reviewed
+SP209,speaking,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+SP210,speaking,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+SP301,speaking,B1,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+SP302,speaking,B1,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+SP303,speaking,B1,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.59,B1,0,automated_rules_only,not_performed,not_reviewed
+SP304,speaking,B1,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+SP305,speaking,B1,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+SP306,speaking,B1,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.39,B1,0,automated_rules_only,not_performed,not_reviewed
+SP307,speaking,B1,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.62,B1,0,automated_rules_only,not_performed,not_reviewed
+SP308,speaking,B1,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+SP309,speaking,B1,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+SP310,speaking,B1,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.39,B1,0,automated_rules_only,not_performed,not_reviewed
+SP401,speaking,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+SP402,speaking,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+SP403,speaking,B2,B2,pass,flagged,0,1,cefr_estimate_differs_from_target: heuristic B1 vs target B2 (gap 1),B1,1,automated_rules_only,not_performed,not_reviewed
+SP404,speaking,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+SP405,speaking,B2,B2,pass,flagged,0,1,grammar_demand_adjacent_above: max grammar level C1 > target B2 (adjacent-level demand; document),B2,0,automated_rules_only,not_performed,not_reviewed
+SP406,speaking,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+SP407,speaking,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+SP408,speaking,B2,B2,pass,flagged,0,1,cefr_estimate_differs_from_target: heuristic B1 vs target B2 (gap 1),B1,1,automated_rules_only,not_performed,not_reviewed
+SP409,speaking,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+SP410,speaking,B2,B2,pass,flagged,0,1,grammar_demand_adjacent_above: max grammar level C1 > target B2 (adjacent-level demand; document),B2,0,automated_rules_only,not_performed,not_reviewed
+SP501,speaking,C1,C1,pass,flagged,0,1,cefr_confidence_low: component spread sd=1.11,C1,0,automated_rules_only,not_performed,not_reviewed
+SP502,speaking,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+SP503,speaking,C1,C1,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic B2 vs target C1 (gap 1) | cefr_confidence_low: component spread sd=1.05,B2,1,automated_rules_only,not_performed,not_reviewed
+SP504,speaking,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+SP505,speaking,C1,C1,pass,flagged,0,1,cefr_confidence_low: component spread sd=1.09,C1,0,automated_rules_only,not_performed,not_reviewed
+SP506,speaking,C1,C1,pass,flagged,0,1,cefr_confidence_low: component spread sd=1.21,C1,0,automated_rules_only,not_performed,not_reviewed
+SP507,speaking,C1,C1,pass,flagged,0,1,cefr_confidence_low: component spread sd=1.12,C1,0,automated_rules_only,not_performed,not_reviewed
+SP508,speaking,C1,C1,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic B2 vs target C1 (gap 1) | cefr_confidence_low: component spread sd=1.24,B2,1,automated_rules_only,not_performed,not_reviewed
+SP509,speaking,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+SP510,speaking,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+SP601,speaking,C2,C2,pass,flagged,0,1,cefr_confidence_low: component spread sd=1.06,C2,0,automated_rules_only,not_performed,not_reviewed
+SP602,speaking,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.36,C1,1,automated_rules_only,not_performed,not_reviewed
+SP603,speaking,C2,C2,pass,flagged,0,3,cognitive_demand_below_target: max cognitive level C1 < target C2 | cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.17,C1,1,automated_rules_only,not_performed,not_reviewed
+SP604,speaking,C2,C2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.68,C2,0,automated_rules_only,not_performed,not_reviewed
+SP605,speaking,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.31,C1,1,automated_rules_only,not_performed,not_reviewed
+SP606,speaking,C2,C2,pass,flagged,0,1,cefr_confidence_low: component spread sd=1.08,C2,0,automated_rules_only,not_performed,not_reviewed
+SP607,speaking,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.22,C1,1,automated_rules_only,not_performed,not_reviewed
+SP608,speaking,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.31,C1,1,automated_rules_only,not_performed,not_reviewed
+SP609,speaking,C2,C2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.96,C2,0,automated_rules_only,not_performed,not_reviewed
+SP610,speaking,C2,C2,pass,flagged,0,3,cognitive_demand_below_target: max cognitive level C1 < target C2 | cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.39,C1,1,automated_rules_only,not_performed,not_reviewed
+WR001,writing,placement,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+WR002,writing,placement,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR003,writing,placement,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR004,writing,placement,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+WR005,writing,placement,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.59,B1,0,automated_rules_only,not_performed,not_reviewed
+WR006,writing,placement,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+WR007,writing,placement,B2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.72,B2,0,automated_rules_only,not_performed,not_reviewed
+WR008,writing,placement,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+WR009,writing,placement,C1,pass,flagged,0,1,cefr_confidence_low: component spread sd=1.17,C1,0,automated_rules_only,not_performed,not_reviewed
+WR010,writing,placement,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.11,C1,1,automated_rules_only,not_performed,not_reviewed
+WR101,writing,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+WR102,writing,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+WR103,writing,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+WR104,writing,A1,A1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.39,A1,0,automated_rules_only,not_performed,not_reviewed
+WR105,writing,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+WR106,writing,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+WR107,writing,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+WR108,writing,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+WR109,writing,A1,A1,pass,flagged,0,2,grammar_demand_adjacent_above: max grammar level A2 > target A1 (adjacent-level demand; document) | cefr_confidence_low: component spread sd=0.37,A1,0,automated_rules_only,not_performed,not_reviewed
+WR110,writing,A1,A1,pass,pass,0,0,,A1,0,automated_rules_only,not_performed,not_reviewed
+WR201,writing,A2,A2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.3,A2,0,automated_rules_only,not_performed,not_reviewed
+WR202,writing,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR203,writing,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR204,writing,A2,A2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.31,A2,0,automated_rules_only,not_performed,not_reviewed
+WR205,writing,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR206,writing,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR207,writing,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR208,writing,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR209,writing,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR210,writing,A2,A2,pass,pass,0,0,,A2,0,automated_rules_only,not_performed,not_reviewed
+WR301,writing,B1,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.41,B1,0,automated_rules_only,not_performed,not_reviewed
+WR302,writing,B1,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.69,B1,0,automated_rules_only,not_performed,not_reviewed
+WR303,writing,B1,B1,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic A2 vs target B1 (gap 1) | cefr_confidence_low: component spread sd=0.54,A2,1,automated_rules_only,not_performed,not_reviewed
+WR304,writing,B1,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+WR305,writing,B1,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.71,B1,0,automated_rules_only,not_performed,not_reviewed
+WR306,writing,B1,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.71,B1,0,automated_rules_only,not_performed,not_reviewed
+WR307,writing,B1,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+WR308,writing,B1,B1,pass,pass,0,0,,B1,0,automated_rules_only,not_performed,not_reviewed
+WR309,writing,B1,B1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.6,B1,0,automated_rules_only,not_performed,not_reviewed
+WR310,writing,B1,B1,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic A2 vs target B1 (gap 1) | cefr_confidence_low: component spread sd=0.62,A2,1,automated_rules_only,not_performed,not_reviewed
+WR401,writing,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+WR402,writing,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+WR403,writing,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+WR404,writing,B2,B2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.74,B2,0,automated_rules_only,not_performed,not_reviewed
+WR405,writing,B2,B2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic B1 vs target B2 (gap 1) | cefr_confidence_low: component spread sd=0.85,B1,1,automated_rules_only,not_performed,not_reviewed
+WR406,writing,B2,B2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic B1 vs target B2 (gap 1) | cefr_confidence_low: component spread sd=0.61,B1,1,automated_rules_only,not_performed,not_reviewed
+WR407,writing,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+WR408,writing,B2,B2,pass,flagged,0,1,cefr_estimate_differs_from_target: heuristic B1 vs target B2 (gap 1),B1,1,automated_rules_only,not_performed,not_reviewed
+WR409,writing,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+WR410,writing,B2,B2,pass,pass,0,0,,B2,0,automated_rules_only,not_performed,not_reviewed
+WR501,writing,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+WR502,writing,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+WR503,writing,C1,C1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.81,C1,0,automated_rules_only,not_performed,not_reviewed
+WR504,writing,C1,C1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.88,C1,0,automated_rules_only,not_performed,not_reviewed
+WR505,writing,C1,C1,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.84,C1,0,automated_rules_only,not_performed,not_reviewed
+WR506,writing,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+WR507,writing,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+WR508,writing,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+WR509,writing,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+WR510,writing,C1,C1,pass,pass,0,0,,C1,0,automated_rules_only,not_performed,not_reviewed
+WR601,writing,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.1,C1,1,automated_rules_only,not_performed,not_reviewed
+WR602,writing,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.19,C1,1,automated_rules_only,not_performed,not_reviewed
+WR603,writing,C2,C2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.92,C2,0,automated_rules_only,not_performed,not_reviewed
+WR604,writing,C2,C2,pass,flagged,0,3,cognitive_demand_below_target: max cognitive level C1 < target C2 | cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.16,C1,1,automated_rules_only,not_performed,not_reviewed
+WR605,writing,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.26,C1,1,automated_rules_only,not_performed,not_reviewed
+WR606,writing,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=1.26,C1,1,automated_rules_only,not_performed,not_reviewed
+WR607,writing,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=0.75,C1,1,automated_rules_only,not_performed,not_reviewed
+WR608,writing,C2,C2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.73,C2,0,automated_rules_only,not_performed,not_reviewed
+WR609,writing,C2,C2,pass,flagged,0,2,cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1) | cefr_confidence_low: component spread sd=0.98,C1,1,automated_rules_only,not_performed,not_reviewed
+WR610,writing,C2,C2,pass,flagged,0,1,cefr_confidence_low: component spread sd=0.77,C2,0,automated_rules_only,not_performed,not_reviewed

@@ -1,0 +1,54 @@
+{
+  "distractors_total": 3329,
+  "distractors_meaningful_text_grounded_medium_or_high": 541,
+  "by_evidence_class": {
+    "text_grounded": 956,
+    "item_structure": 2373
+  },
+  "by_confidence": {
+    "medium": 1239,
+    "low": 2090
+  },
+  "top_error_tags": [
+    [
+      "topic_association_guess",
+      1549
+    ],
+    [
+      "attention_to_wrong_part_of_source",
+      616
+    ],
+    [
+      "number_or_time_confusion",
+      362
+    ],
+    [
+      "paraphrase_not_recognised",
+      333
+    ],
+    [
+      "insufficient_evidence_to_classify",
+      322
+    ],
+    [
+      "negation_or_contradiction_missed",
+      279
+    ],
+    [
+      "evidence_not_located",
+      279
+    ],
+    [
+      "unsupported_inference",
+      236
+    ],
+    [
+      "attitude_misread",
+      56
+    ],
+    [
+      "missed_explicit_detail",
+      54
+    ]
+  ]
+}

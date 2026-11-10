@@ -1,0 +1,130 @@
+{
+  "part_id": "LI203",
+  "part_uuid": "e0ff5c56-992e-4013-ba09-49838301d744",
+  "audio_file": "li203_asking_for_directions.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "537f33e882b19df894fa2a1ff44e10bc702e3ebf9c00d937f6f441f11148b8c2",
+  "voices": {
+    "S1": {
+      "voice": "en-NZ-MollyNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Jenny",
+      "gender": "female",
+      "accent": "new_zealand",
+      "voice": "en-NZ-MollyNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Mark",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 5.47
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 5.92,
+      "end": 15.33
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 15.78,
+      "end": 21.54
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 21.99,
+      "end": 29.91
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 30.36,
+      "end": 36.07
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 36.52,
+      "end": 42.43
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 42.88,
+      "end": 53.39
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 53.84,
+      "end": 63.15
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 63.6,
+      "end": 66.86
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 67.31,
+      "end": 74.54
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 74.99,
+      "end": 80.08
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 80.53,
+      "end": 87.7
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 88.15,
+      "end": 92.98
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 93.43,
+      "end": 97.82
+    }
+  ],
+  "duration_seconds": 97.82,
+  "size_bytes": 783212,
+  "audio_sha256": "92206090e48f159e89631e8c3139744a9b23af52a615f7ef93d21d9b067a392a",
+  "generated_at": "2026-10-30T20:46:40+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

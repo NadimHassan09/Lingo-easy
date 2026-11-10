@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE501",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "The Paradox of Choice",
+  "topic": "psychology",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "The Paradox of Choice",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Walk into any supermarket and you will find over thirty thousand products, including dozens of varieties of toothpaste and more than a hundred kinds of breakfast cereal. Economists have traditionally treated such abundance as an unmixed blessing: more options mean a greater chance of finding exactly what we want. Since the early 2000s, however, a body of psychological research has suggested that the relationship between choice and satisfaction is far less straightforward."
+      },
+      {
+        "label": "B",
+        "text": "The most cited study, conducted by Sheena Iyengar and Mark Lepper, involved a stall selling jams. On one day, shoppers could taste twenty-four varieties; on another, only six. The larger display attracted more attention, but customers who saw the smaller one were roughly ten times more likely to buy. Subsequent researchers have struggled to reproduce this striking result consistently, and a later analysis of nearly fifty experiments found that the average effect of extra choice was close to zero. The finding is therefore better understood as showing that overload can occur in certain conditions, rather than that it always does."
+      },
+      {
+        "label": "C",
+        "text": "What are those conditions? The evidence suggests that choice overload is most likely when the options are complex and hard to compare, when people lack clear preferences, and when there is pressure to make the best decision. A person who knows exactly which running shoes they want is unaffected by a wall of alternatives; someone choosing a pension plan for the first time may find it paralysing. The psychologist Barry Schwartz distinguishes between maximisers, who seek the best possible option, and satisficers, who accept one that is good enough. Maximisers, he argues, make objectively better choices but are less happy with them, since they are haunted by the possibility that something better existed."
+      },
+      {
+        "label": "D",
+        "text": "This suggests practical strategies. One is to limit the number of alternatives considered, deciding in advance how many to examine. Another is to set criteria before looking, so that the market does not define your preferences for you. A third is to accept irreversibility: studies show that people are happier with decisions they cannot change than with those they can, perhaps because they stop searching for flaws once the matter is closed."
+      },
+      {
+        "label": "E",
+        "text": "Critics of the paradox of choice argue that, in the real world, reduced choice would harm those who benefit from variety, such as people with specific dietary needs or unusual tastes. They are right to caution against sweeping conclusions. Yet the research has had a lasting influence on design, from simpler menus to streamlined websites. The most defensible lesson is not that we should want fewer options, but that the way options are presented matters as much as their number."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE501-Q01",
+          "number": 1,
+          "prompt": "What have economists traditionally assumed about abundant choice?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That it confuses shoppers"
+            },
+            {
+              "id": "B",
+              "text": "That it lowers prices"
+            },
+            {
+              "id": "C",
+              "text": "That it benefits consumers"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "an unmixed blessing"
+          },
+          "explanation": "The text says: \"an unmixed blessing\".",
+          "uuid": "62f3be56-4927-5362-91f4-3a3622679ddc"
+        },
+        {
+          "id": "RE501-Q02",
+          "number": 2,
+          "prompt": "What does the writer say about the jam study?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has been confirmed by a large number of later studies"
+            },
+            {
+              "id": "B",
+              "text": "Its result has been difficult to reproduce consistently"
+            },
+            {
+              "id": "C",
+              "text": "It was carried out in several different countries"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "struggled to reproduce this striking result consistently"
+          },
+          "explanation": "The text says: \"struggled to reproduce this striking result consistently\".",
+          "uuid": "16827f15-f213-532e-93c2-f245f62a7708"
+        },
+        {
+          "id": "RE501-Q03",
+          "number": 3,
+          "prompt": "What did the analysis of nearly fifty experiments suggest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Extra choice reduced sales in most studies"
+            },
+            {
+              "id": "B",
+              "text": "Extra choice raised sales in most studies"
+            },
+            {
+              "id": "C",
+              "text": "Extra choice had almost no average effect"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "the average effect of extra choice was close to zero"
+          },
+          "explanation": "The text says: \"the average effect of extra choice was close to zero\".",
+          "uuid": "1fa43975-33c7-5094-8d2a-7ff3859de4e8"
+        },
+        {
+          "id": "RE501-Q04",
+          "number": 4,
+          "prompt": "According to Schwartz, what is true of maximisers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They choose well but feel less satisfied"
+            },
+            {
+              "id": "B",
+              "text": "They choose poorly but feel quite happy"
+            },
+            {
+              "id": "C",
+              "text": "They avoid decisions whenever possible"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "less happy with them"
+          },
+          "explanation": "The text says: \"less happy with them\".",
+          "uuid": "9d96505a-746a-54b9-bd74-3580c6612736"
+        },
+        {
+          "id": "RE501-Q05",
+          "number": 5,
+          "prompt": "Why might people prefer decisions they cannot change?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They have more time to think"
+            },
+            {
+              "id": "B",
+              "text": "They are given a discount"
+            },
+            {
+              "id": "C",
+              "text": "They stop looking for flaws"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "stop searching for flaws once the matter is closed"
+          },
+          "explanation": "The text says: \"stop searching for flaws once the matter is closed\".",
+          "uuid": "b372f2b8-ac2f-5daf-9eb7-fc804e89a1c5"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE501-Q06",
+          "number": 6,
+          "prompt": "The writer believes choice overload occurs in every situation.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "overload can occur in certain conditions, rather than that it always does"
+          },
+          "explanation": "The text says: \"overload can occur in certain conditions, rather than that it always does\".",
+          "uuid": "cb5d1d45-0b57-5907-a7bb-e935a69a9b98"
+        },
+        {
+          "id": "RE501-Q07",
+          "number": 7,
+          "prompt": "The writer thinks someone with clear preferences is unlikely to suffer from overload.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "unaffected by a wall of alternatives"
+          },
+          "explanation": "The text says: \"unaffected by a wall of alternatives\".",
+          "uuid": "38267cde-4bac-5cac-9179-bf0f616cb885"
+        },
+        {
+          "id": "RE501-Q08",
+          "number": 8,
+          "prompt": "The writer agrees that critics are right to warn against exaggeration.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "They are right to caution against sweeping conclusions"
+          },
+          "explanation": "The text says: \"They are right to caution against sweeping conclusions\".",
+          "uuid": "961b3ffd-4f24-5b6f-946c-b497c57550b1"
+        },
+        {
+          "id": "RE501-Q09",
+          "number": 9,
+          "prompt": "The writer has personal experience of being a maximiser.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "871e877f-55cf-513b-b1f8-0f4e16b5ba38"
+        },
+        {
+          "id": "RE501-Q10",
+          "number": 10,
+          "prompt": "The writer concludes that people should always want fewer options.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "not that we should want fewer options"
+          },
+          "explanation": "The text says: \"not that we should want fewer options\".",
+          "uuid": "70560d7a-9582-5a06-99b1-8d08a0105e1e"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE501-Q11",
+          "number": 11,
+          "prompt": "An explanation of when choice overload is most likely",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "most likely when the options are complex"
+          },
+          "explanation": "The text says: \"most likely when the options are complex\".",
+          "uuid": "d8bb4d6f-2339-5900-885e-d3164a88b0df"
+        },
+        {
+          "id": "RE501-Q12",
+          "number": 12,
+          "prompt": "A suggestion that decisions should be limited in advance",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "deciding in advance how many to examine"
+          },
+          "explanation": "The text says: \"deciding in advance how many to examine\".",
+          "uuid": "861648b4-4b50-5123-a4fc-7183c09b9483"
+        },
+        {
+          "id": "RE501-Q13",
+          "number": 13,
+          "prompt": "A reference to the continuing influence of the research on design",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "lasting influence on design"
+          },
+          "explanation": "The text says: \"lasting influence on design\".",
+          "uuid": "4681c25e-306b-5a56-9bb1-a4940e4b9a36"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "b2405218-ea8f-40fc-9753-f57d36e1a5bb",
+  "derived": {
+    "word_count": 438,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 13,
+      "C2": 0
+    },
+    "mean_band": 7.46,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 5,
+      "D": 1
+    },
+    "content_hash": "fd5cd40a7cdf181d"
+  }
+}

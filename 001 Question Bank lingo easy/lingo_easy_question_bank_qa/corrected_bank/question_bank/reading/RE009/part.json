@@ -1,0 +1,540 @@
+{
+  "schema_version": "1.0",
+  "id": "RE009",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Should Plastic Bags Be Taxed?",
+  "topic": "environment",
+  "profile": "intermediate",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "Should Plastic Bags Be Taxed?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "When Ireland introduced a charge of fifteen cents on plastic bags in 2002, the result surprised even its supporters. Within weeks, bag use fell by about ninety per cent. Since then, dozens of countries have followed with taxes or bans, and the idea has become a symbol of environmental policy. But does a small charge on bags really help the planet, or is it merely a gesture? I believe the evidence supports the policy, though with important qualifications."
+      },
+      {
+        "label": "B",
+        "text": "The case in favour is straightforward. Plastic bags are used for a few minutes but last for centuries, and they are among the most common items found on beaches and in the stomachs of sea animals. Reducing their use clearly cuts litter. In England, where a charge of five pence was introduced in 2015, sales of single-use bags in supermarkets fell by more than ninety-five per cent in the following years, and the number of bags found on the seabed fell by about sixty per cent."
+      },
+      {
+        "label": "C",
+        "text": "Critics argue that bags are a minor part of the plastic problem. Packaging, bottles and fishing nets account for far more waste, and bags make up only a tiny share of total plastic. That is true, but it misses the point. The bag charge has symbolic value: it asks millions of people to think about waste, and may encourage them to accept bigger changes. Research on behaviour suggests that people who adopt one environmentally friendly habit are more likely to adopt others, although the effect is not guaranteed."
+      },
+      {
+        "label": "D",
+        "text": "A more serious objection concerns substitutes. Some people replace single-use bags with thicker reusable ones, which are made from more plastic and have a larger environmental footprint. A study by the Danish government concluded that a cotton bag must be used over a hundred times, and some types many more, before its environmental impact falls below that of a single-use plastic bag. Reusable bags that are stored in a cupboard and never used are, in effect, a waste."
+      },
+      {
+        "label": "E",
+        "text": "This does not mean the policy is mistaken, only that its design matters. Charges should apply to thicker bags as well, so that shoppers do not simply swap one type for another. Income from the charge, which can be substantial, should be used visibly, for example on cleaning beaches or recycling schemes, to maintain public support. And governments should avoid presenting bag taxes as a solution to the plastic crisis, which demands larger action on packaging and production."
+      },
+      {
+        "label": "F",
+        "text": "Seen in that light, the plastic bag charge is a modest but useful tool. Its great merit is that it is simple, cheap to administer and popular once introduced; polls in several countries show that opposition drops sharply after a few months. Its limitation is that it can lead us to feel that we have done enough. The challenge is to treat it as a first step, not the last."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE009-Q01",
+          "number": 1,
+          "prompt": "How much did bag use fall in Ireland within weeks?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By about nine per cent"
+            },
+            {
+              "id": "B",
+              "text": "By about ninety per cent"
+            },
+            {
+              "id": "C",
+              "text": "By around fifty per cent"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "fell by about ninety per cent"
+          },
+          "explanation": "The text says: \"fell by about ninety per cent\".",
+          "uuid": "c082317b-77e7-5156-aa71-d71b36dc9386"
+        },
+        {
+          "id": "RE009-Q02",
+          "number": 2,
+          "prompt": "How long do plastic bags last?",
+          "options": [
+            {
+              "id": "A",
+              "text": "For a few weeks"
+            },
+            {
+              "id": "B",
+              "text": "For a few years"
+            },
+            {
+              "id": "C",
+              "text": "For centuries"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "last for centuries"
+          },
+          "explanation": "The text says: \"last for centuries\".",
+          "uuid": "60551ea1-a4e0-556b-8c20-19528c8f8c2e"
+        },
+        {
+          "id": "RE009-Q03",
+          "number": 3,
+          "prompt": "What happened to the number of bags found on the seabed in England?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It doubled over the same period"
+            },
+            {
+              "id": "B",
+              "text": "It fell by about sixty per cent"
+            },
+            {
+              "id": "C",
+              "text": "It stayed the same as before"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "fell by about sixty per cent"
+          },
+          "explanation": "The text says: \"fell by about sixty per cent\".",
+          "uuid": "c119be10-e3d3-596e-afcc-3a7d735e104f"
+        },
+        {
+          "id": "RE009-Q04",
+          "number": 4,
+          "prompt": "What do critics say about plastic bags?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are the largest source of plastic waste"
+            },
+            {
+              "id": "B",
+              "text": "They are recycled more easily than most"
+            },
+            {
+              "id": "C",
+              "text": "They are a minor part of the plastic problem"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "bags are a minor part of the plastic problem"
+          },
+          "explanation": "The text says: \"bags are a minor part of the plastic problem\".",
+          "uuid": "053cf8ff-da99-5e53-9e1a-14cfacf9cd71"
+        },
+        {
+          "id": "RE009-Q05",
+          "number": 5,
+          "prompt": "What does the writer say about the symbolic value of the charge?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has no lasting effect on behaviour"
+            },
+            {
+              "id": "B",
+              "text": "It asks millions of people to think about waste"
+            },
+            {
+              "id": "C",
+              "text": "It makes shopping harder for families"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "asks millions of people to think about waste"
+          },
+          "explanation": "The text says: \"asks millions of people to think about waste\".",
+          "uuid": "ec2a7fa3-79c5-5a9b-b06c-8de457679e69"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE009-Q06",
+          "number": 6,
+          "prompt": "The writer believes the evidence supports the bag charge.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "the evidence supports the policy"
+          },
+          "explanation": "The text says: \"the evidence supports the policy\".",
+          "uuid": "e9a01054-c56e-59b2-9ce2-0ccf6f83f884"
+        },
+        {
+          "id": "RE009-Q07",
+          "number": 7,
+          "prompt": "The writer thinks bags are the biggest source of plastic waste.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "bags make up only a tiny share of total plastic"
+          },
+          "explanation": "The text says: \"bags make up only a tiny share of total plastic\".",
+          "uuid": "898715de-4157-5e70-95c7-cb0015084c2c"
+        },
+        {
+          "id": "RE009-Q08",
+          "number": 8,
+          "prompt": "The writer accepts that some reusable bags can be worse for the environment if rarely used.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "stored in a cupboard and never used are, in effect, a waste"
+          },
+          "explanation": "The text says: \"stored in a cupboard and never used are, in effect, a waste\".",
+          "uuid": "4ccbdeb7-9c69-57ee-b6e7-ec0704800153"
+        },
+        {
+          "id": "RE009-Q09",
+          "number": 9,
+          "prompt": "The writer thinks bag taxes should be presented as the solution to the plastic crisis.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "avoid presenting bag taxes as a solution"
+          },
+          "explanation": "The text says: \"avoid presenting bag taxes as a solution\".",
+          "uuid": "7794de14-f961-5d71-83cb-5ddde11f87ed"
+        },
+        {
+          "id": "RE009-Q10",
+          "number": 10,
+          "prompt": "The writer has campaigned for a ban on plastic bags.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "f2483a8a-555c-58e0-9888-2017393826ef"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE009-Q11",
+          "number": 11,
+          "prompt": "A study comparing the environmental footprint of different bags",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "A study by the Danish government"
+          },
+          "explanation": "The text says: \"A study by the Danish government\".",
+          "uuid": "c17b797f-0cb9-5d6d-8d51-2a00196e2312"
+        },
+        {
+          "id": "RE009-Q12",
+          "number": 12,
+          "prompt": "A recommendation about how to spend money raised by the charge",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "should be used visibly"
+          },
+          "explanation": "The text says: \"should be used visibly\".",
+          "uuid": "78fe4f42-b1dc-57a2-aa32-2610cc281f73"
+        },
+        {
+          "id": "RE009-Q13",
+          "number": 13,
+          "prompt": "A warning that people may feel they have done enough",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph E"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "feel that we have done enough"
+          },
+          "explanation": "The text says: \"feel that we have done enough\".",
+          "uuid": "a4b71524-3b13-52e9-aff2-22e2eb077b3f"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "a1144a19-984e-4841-9b24-3593e4798fa3",
+  "derived": {
+    "word_count": 482,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 3,
+      "B2": 5,
+      "C1": 3,
+      "C2": 1
+    },
+    "mean_band": 6.0,
+    "answer_counts": {
+      "A": 2,
+      "B": 5,
+      "C": 4,
+      "D": 2
+    },
+    "content_hash": "487d261b50bae4a9"
+  }
+}

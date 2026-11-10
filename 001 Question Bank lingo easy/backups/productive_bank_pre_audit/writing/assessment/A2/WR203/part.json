@@ -1,0 +1,485 @@
+{
+  "schema_version": "1.0",
+  "id": "WR203",
+  "uuid": "79457e21-4a4c-5949-aee8-038bdea4d815",
+  "version": "1.0.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "assessment",
+    "level": "A2"
+  },
+  "target_cefr": "A2",
+  "profile": "level_a2",
+  "topic": "education",
+  "context": "You cannot go to your next English lesson. You must write to your teacher, Ms Taylor.",
+  "title": "Missing a class",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "email_formal",
+  "task": {
+    "title": "Missing a class",
+    "scenario": "You cannot go to your next English lesson. You must write to your teacher, Ms Taylor.",
+    "prompt": "Write an email to your teacher. Explain why you cannot come.",
+    "instructions": [
+      "Write about 70-100 words (at least 50).",
+      "You have about 14 minutes.",
+      "Make sure you cover all of the points below.",
+      "You are writing for: a teacher. Style: polite, semi-formal."
+    ],
+    "required_points": [
+      "say who you are and which class you are in",
+      "say why you cannot come",
+      "ask about the homework",
+      "say thank you"
+    ],
+    "audience": "a teacher",
+    "register": "polite, semi-formal",
+    "response_type": "email_formal",
+    "word_count": {
+      "minimum": 50,
+      "suggested_min": 70,
+      "suggested_max": 100,
+      "maximum": 150
+    },
+    "suggested_minutes": 14
+  },
+  "expected_response": {
+    "content_points": [
+      "say who you are and which class you are in",
+      "say why you cannot come",
+      "ask about the homework",
+      "say thank you"
+    ],
+    "required_elements": [
+      "Address: say who you are and which class you are in",
+      "Address: say why you cannot come",
+      "Address: ask about the homework",
+      "Address: say thank you"
+    ],
+    "optional_elements": [
+      "an apology"
+    ],
+    "organisation": [
+      "Dear Ms Taylor",
+      "short body",
+      "closing with name"
+    ],
+    "vocabulary_demands": [
+      "school words",
+      "illnesses and reasons",
+      "polite phrases"
+    ],
+    "grammar_demands": [
+      {
+        "id": "modals_obligation_advice",
+        "level": "A2",
+        "extension": false
+      },
+      {
+        "id": "past_simple",
+        "level": "A2",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Short connected text, one paragraph at most.",
+    "linguistic_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Give a simple reason or purpose; Request, offer, invite, apologise",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Dear Ms Taylor,",
+          "I am ... from your Tuesday class.",
+          "I cannot come because ...",
+          "Could you tell me the homework?",
+          "Thank you. Best wishes, ..."
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "message_writing",
+    "secondary_subskills": [
+      "formal_correspondence"
+    ],
+    "cognitive_processes": [
+      "explain_reason",
+      "make_request_or_offer"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.message_writing.A2.1",
+        "text": "Write a short polite message that gives a reason and asks for information",
+        "measurable_verb": "write",
+        "criteria": [
+          "W_TA",
+          "W_CC",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "A2",
+    "recommended_cefr": "A2",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.168,
+    "language_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Give a simple reason or purpose; Request, offer, invite, apologise",
+    "expected_performance": [
+      "Covers all required points briefly and keeps to the topic; purpose of the message or text is clear.",
+      "Ideas follow a clear order; common linkers (and, but, because, so, then) are used mostly correctly.",
+      "Uses everyday vocabulary suited to the topic with some variety; errors rarely block meaning."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 1.0, 'cognition': 1.0, 'length': 0.92, 'abstractness': 0.5, 'prompt_language': 0.07}; composite 0.84 -> A2. Original target A2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 1.0,
+      "cognition": 1.0,
+      "length": 0.92,
+      "abstractness": 0.5,
+      "prompt_language": 0.07
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 5.5,
+      "long_word_ratio": 0.0
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "A2",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Covers all required points briefly and keeps to the topic; purpose of the message or text is clear. Required points: say who you are and which class you are in; say why you cannot come; ask about the homework; say thank you",
+        "weak_performance": "Several required points missing, or the purpose of the text is unclear.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: say who you are and which class you are in; say why you cannot come; ask about the homework; say thank you.",
+        "common_error_patterns": [
+          "answering only the first point",
+          "no reason given",
+          "missing greeting or ending in a message"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Ideas follow a clear order; common linkers (and, but, because, so, then) are used mostly correctly.",
+        "weak_performance": "Ideas listed without links; frequent repetition of 'and'.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "only and / then",
+          "using 'because' without a result"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Uses everyday vocabulary suited to the topic with some variety; errors rarely block meaning.",
+        "weak_performance": "Same words repeated; frequent wrong word choice or spelling affects meaning.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: school words; illnesses and reasons; polite phrases.",
+        "common_error_patterns": [
+          "confusing similar words (make/do)",
+          "literal translation from Arabic"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Simple sentences and some past or future forms are correct; some complex sentences attempted with errors that rarely block meaning.",
+        "weak_performance": "Frequent errors in tense and agreement; very few complex sentences.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: modals_obligation_advice, past_simple.",
+        "common_error_patterns": [
+          "past simple irregular forms",
+          "preposition of time/place",
+          "plural nouns"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "description": "Whether tone, formality, conventions of text type and politeness suit the audience and purpose.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Tone is polite or friendly as the task requires; uses basic message conventions. Audience: a teacher. Register: polite, semi-formal",
+        "weak_performance": "Too informal in a polite message or too stiff in a friendly one.",
+        "expected_evidence": "Greeting/closing; politeness markers; formality of vocabulary and structures; conventions.",
+        "common_error_patterns": [
+          "too informal for a teacher",
+          "Dear Friend to a shop"
+        ],
+        "related_subskills": [
+          "formal_correspondence",
+          "message_writing"
+        ],
+        "evaluation_limitations": "Only scored where the task defines an audience/register; otherwise treat as not applicable.",
+        "diagnostic_categories": [
+          "D_REGISTER"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      }
+    ],
+    "required_demonstrations": [
+      "Address every required point: say who you are and which class you are in; say why you cannot come; ask about the homework; say thank you",
+      "Use language appropriate to: a teacher"
+    ],
+    "optional_demonstrations": [
+      "an apology"
+    ],
+    "not_penalised": [
+      "absence of complex sentences or of conditionals",
+      "minor spelling or punctuation slips that do not hide meaning",
+      "informal vocabulary where the task is informal"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_GRAMMAR_RANGE",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_PREPOSITION",
+      "D_REGISTER",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/writing_*.py (A2-03)",
+    "spec_sha256": "c0867c5419cb55052b9b0a64f0599da931933cf76754030b72121e8cf6c2faa6",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "A2-03",
+      "lv": "A2",
+      "cat": "email_formal",
+      "topic": "education",
+      "title": "Missing a class",
+      "scen": "You cannot go to your next English lesson. You must write to your teacher, Ms Taylor.",
+      "prompt": "Write an email to your teacher. Explain why you cannot come.",
+      "pts": [
+        "say who you are and which class you are in",
+        "say why you cannot come",
+        "ask about the homework",
+        "say thank you"
+      ],
+      "aud": "a teacher",
+      "reg": "polite, semi-formal",
+      "w": [
+        50,
+        70,
+        100,
+        150
+      ],
+      "mins": 14,
+      "vocab": [
+        "school words",
+        "illnesses and reasons",
+        "polite phrases"
+      ],
+      "gram": [
+        "modals_obligation_advice",
+        "past_simple"
+      ],
+      "struct": [
+        "Dear Ms Taylor",
+        "short body",
+        "closing with name"
+      ],
+      "sub": "message_writing",
+      "sub2": [
+        "formal_correspondence"
+      ],
+      "cog": [
+        "explain_reason",
+        "make_request_or_offer"
+      ],
+      "obj": [
+        "Write a short polite message that gives a reason and asks for information"
+      ],
+      "outline": [
+        "Dear Ms Taylor,",
+        "I am ... from your Tuesday class.",
+        "I cannot come because ...",
+        "Could you tell me the homework?",
+        "Thank you. Best wishes, ..."
+      ],
+      "opt": [
+        "an apology"
+      ],
+      "abs": 0
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "71f3670f3e350ac669f32f894f23d17be674ede87d0b6a3807b506f40a80a273"
+  }
+}

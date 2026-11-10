@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "id": "LI603",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Panel: Heritage and Tourism",
+  "topic": "tourism_and_events",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li603_panel_heritage_and_tourism.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Rosa Alvarez",
+        "gender": "female",
+        "accent": "australian",
+        "role": "panel chair"
+      },
+      {
+        "id": "S2",
+        "name": "Ken Ito",
+        "gender": "male",
+        "accent": "british",
+        "role": "heritage site manager"
+      },
+      {
+        "id": "S3",
+        "name": "Professor Lena Berg",
+        "gender": "female",
+        "accent": "british",
+        "role": "sociologist"
+      },
+      {
+        "id": "S4",
+        "name": "Omar Haddad",
+        "gender": "male",
+        "accent": "american",
+        "role": "tour operator"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Welcome to our panel on heritage and tourism. Let me start with a provocative question: is tourism killing the sites it celebrates? Ken, you manage a world heritage site."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'd say it's both saving and threatening them, which is why I find the question frustrating. Our site receives about nine hundred thousand visitors a year. Ticket income pays for around seventy per cent of conservation. Without tourists, the temple would deteriorate faster. But the footfall also wears down the steps and the humidity from breathing affects the wall paintings."
+      },
+      {
+        "speaker": "S3",
+        "text": "What I find striking is the way we talk about authenticity. Visitors want an unspoiled experience, but they're, by definition, part of what spoils it. And local residents often find that the version of their culture presented to tourists is a simplified performance."
+      },
+      {
+        "speaker": "S4",
+        "text": "I'd challenge that, Lena. In my experience, communities aren't passive. In the villages where we operate, dancers and craftspeople decide what to perform and what to keep private. They keep the sacred ceremonies for themselves, and the shows are for visitors. That's not necessarily inauthentic; it's boundary-setting."
+      },
+      {
+        "speaker": "S3",
+        "text": "That's a fair point, and it's consistent with some research. But there is a power imbalance. When income depends on tourists' expectations, the pressure to conform can be subtle but strong."
+      },
+      {
+        "speaker": "S1",
+        "text": "Omar, what is your response, as someone in the industry?"
+      },
+      {
+        "speaker": "S4",
+        "text": "I'd concede that the industry hasn't always acted responsibly. Cruise ships that unload five thousand passengers for a few hours do little for local economies. But the alternative isn't no tourism, it's better-managed tourism, and operators like me have a commercial interest in protecting the sites, since nobody pays to see a damaged one."
+      },
+      {
+        "speaker": "S2",
+        "text": "With respect, Omar, that logic can be short-term. Damage often shows up years after the cause. We're seeing erosion today from visitor numbers a decade ago."
+      },
+      {
+        "speaker": "S1",
+        "text": "So what policies would help? Ken?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Timed tickets to spread visitors across the day, a daily cap, and higher prices for foreign visitors, as we do for some areas. The cap is the hardest politically because it reduces revenue in the short term."
+      },
+      {
+        "speaker": "S3",
+        "text": "I'd add that revenue should visibly benefit the local community. In some places, income goes to the national government or foreign companies, and residents see only the disadvantages: crowds and rising rents."
+      },
+      {
+        "speaker": "S4",
+        "text": "Agreed in principle, though the mechanisms are complicated. A fixed percentage of ticket revenue to a community fund seems workable."
+      },
+      {
+        "speaker": "S1",
+        "text": "We've talked about physical damage. What about the digital alternative? Virtual reality tours are increasingly offered. Could they reduce pressure?"
+      },
+      {
+        "speaker": "S3",
+        "text": "They might help for the most fragile sites, but I suspect they'd increase interest rather than substitute for it, much as photographs of famous paintings don't stop people queuing at the museum."
+      },
+      {
+        "speaker": "S2",
+        "text": "We've created a digital replica of one chamber that's closed to the public. Visitors find it moving, but they still want to see the real thing."
+      },
+      {
+        "speaker": "S1",
+        "text": "A good note to end on. Thank you all."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI603-Q01",
+          "number": 1,
+          "prompt": "How does Ken answer the question whether tourism is killing heritage sites?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is destroying most of them"
+            },
+            {
+              "id": "B",
+              "text": "It makes little difference either way"
+            },
+            {
+              "id": "C",
+              "text": "It is both saving and threatening them"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "both saving and threatening them"
+          },
+          "explanation": "The audio says: \"both saving and threatening them\".",
+          "uuid": "e24c0396-e61f-523a-8c72-453060e4324d"
+        },
+        {
+          "id": "LI603-Q02",
+          "number": 2,
+          "prompt": "What share of conservation costs does ticket income cover at Ken's site?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 70 per cent"
+            },
+            {
+              "id": "B",
+              "text": "About 17 per cent"
+            },
+            {
+              "id": "C",
+              "text": "About 40 per cent"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "around seventy per cent of conservation"
+          },
+          "explanation": "The audio says: \"around seventy per cent of conservation\".",
+          "uuid": "72eec124-07c5-590f-8836-53091403329f"
+        },
+        {
+          "id": "LI603-Q03",
+          "number": 3,
+          "prompt": "How do visitors damage the wall paintings?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They touch them as they walk past"
+            },
+            {
+              "id": "B",
+              "text": "Their breathing raises the humidity"
+            },
+            {
+              "id": "C",
+              "text": "They photograph them with a flash"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "humidity from breathing affects the wall paintings"
+          },
+          "explanation": "The audio says: \"humidity from breathing affects the wall paintings\".",
+          "uuid": "be09473c-34a9-5bd1-b3ad-194dec0af9dd"
+        },
+        {
+          "id": "LI603-Q04",
+          "number": 4,
+          "prompt": "What paradox does Lena point out about authenticity?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Visitors help to spoil the experience they seek"
+            },
+            {
+              "id": "B",
+              "text": "Visitors prefer to see fake performances"
+            },
+            {
+              "id": "C",
+              "text": "Residents dislike any authentic experience"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "part of what spoils it"
+          },
+          "explanation": "The audio says: \"part of what spoils it\".",
+          "uuid": "35111987-cdd0-51a5-a431-80d1d141401c"
+        },
+        {
+          "id": "LI603-Q05",
+          "number": 5,
+          "prompt": "What does Omar say about the sacred ceremonies in the villages?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are the main attraction"
+            },
+            {
+              "id": "B",
+              "text": "The communities keep them private"
+            },
+            {
+              "id": "C",
+              "text": "They are performed daily"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "keep the sacred ceremonies for themselves"
+          },
+          "explanation": "The audio says: \"keep the sacred ceremonies for themselves\".",
+          "uuid": "a34c4812-5970-5f4e-b545-692835aea943"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI603-Q06",
+          "number": 6,
+          "prompt": "How does Lena respond to Omar's point?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She withdraws her earlier argument"
+            },
+            {
+              "id": "B",
+              "text": "She accepts his view of the villages"
+            },
+            {
+              "id": "C",
+              "text": "She notes a power imbalance"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a power imbalance"
+          },
+          "explanation": "The audio says: \"a power imbalance\".",
+          "uuid": "f7450055-2d67-5e0b-8a77-0a11beb9b891"
+        },
+        {
+          "id": "LI603-Q07",
+          "number": 7,
+          "prompt": "What does Omar concede about the industry?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tour operators often ignore the damage that they cause to sites"
+            },
+            {
+              "id": "B",
+              "text": "Some forms of tourism, such as cruises, bring little benefit locally"
+            },
+            {
+              "id": "C",
+              "text": "Tourism should be banned altogether in very fragile places"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "do little for local economies"
+          },
+          "explanation": "The audio says: \"do little for local economies\".",
+          "uuid": "47310089-9746-595a-80b1-f752aff1ffd3"
+        },
+        {
+          "id": "LI603-Q08",
+          "number": 8,
+          "prompt": "Why does Ken reject Omar's argument about protecting sites?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Operators do not have the money to repair sites"
+            },
+            {
+              "id": "B",
+              "text": "Damage appears long after its cause"
+            },
+            {
+              "id": "C",
+              "text": "Visitors do not cause damage to the sites"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "years after the cause"
+          },
+          "explanation": "The audio says: \"years after the cause\".",
+          "uuid": "282c395e-206b-568f-be4a-4cd3b391c293"
+        },
+        {
+          "id": "LI603-Q09",
+          "number": 9,
+          "prompt": "Which policy does Ken find hardest politically?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Timed tickets"
+            },
+            {
+              "id": "B",
+              "text": "Higher prices for foreigners"
+            },
+            {
+              "id": "C",
+              "text": "A daily cap on visitors"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The cap is the hardest politically"
+          },
+          "explanation": "The audio says: \"The cap is the hardest politically\".",
+          "uuid": "108342f1-a26a-511e-8cbf-2a02d18cbf94"
+        },
+        {
+          "id": "LI603-Q10",
+          "number": 10,
+          "prompt": "What does Lena predict about virtual reality tours?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They would increase interest rather than replace visits"
+            },
+            {
+              "id": "B",
+              "text": "They would remove most of the pressure on sites"
+            },
+            {
+              "id": "C",
+              "text": "They would be too expensive for most visitors"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "increase interest rather than substitute for it"
+          },
+          "explanation": "The audio says: \"increase interest rather than substitute for it\".",
+          "uuid": "ca78fa83-4e36-52fb-9f97-fad9ef01d376"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "a36f6c41-489a-4123-8ea6-b96895c7bb11",
+  "derived": {
+    "word_count": 485,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "d641803414897126"
+  }
+}

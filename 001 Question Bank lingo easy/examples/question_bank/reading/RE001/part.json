@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "id": "RE001",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Bees on the Rooftop",
+  "topic": "animals_and_nature",
+  "profile": "intermediate",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "Bees on the Rooftop",
+    "paragraphs": [
+      { "label": "A", "text": "Beekeeping is no longer only a countryside activity. In the last ten years, thousands of people have started keeping bees on the roofs of offices, hotels and apartment blocks in cities around the world." },
+      { "label": "B", "text": "One reason for this trend is that cities can actually be better for bees than farmland. Large farms often grow a single crop and spray chemicals, whereas city gardens, parks and balconies offer a wide variety of flowers that bloom at different times of the year. As a result, urban bees tend to produce honey throughout the whole summer." },
+      { "label": "C", "text": "However, experts warn that the boom may be creating a new problem. When too many hives are placed in the same area, honeybees compete with wild bee species for a limited amount of food, and some of those wild species, which are far better at pollinating native plants, may decline. Rather than adding more hives, some researchers argue, cities would do more good by planting flowers that support all kinds of pollinators." }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE001-Q01", "number": 1,
+          "prompt": "Where do more and more people now keep bees?",
+          "options": [ { "id": "A", "text": "On farms" }, { "id": "B", "text": "On the roofs of city buildings" }, { "id": "C", "text": "In national parks" } ],
+          "answer": "B",
+          "level": { "cefr": "A2", "band": 3.5 },
+          "skill_tag": "specific_detail",
+          "language_focus": { "type": "none" },
+          "evidence": { "paragraph": "A", "quote": "on the roofs of offices, hotels and apartment blocks" },
+          "explanation": "Paragraph A says people keep bees on the roofs of offices, hotels and apartment blocks."
+        },
+        {
+          "id": "RE001-Q02", "number": 2,
+          "prompt": "Why can cities be better for bees than farmland?",
+          "options": [
+            { "id": "A", "text": "They offer many different kinds of flowers." },
+            { "id": "B", "text": "They have fewer insects." },
+            { "id": "C", "text": "They are warmer all year." }
+          ],
+          "answer": "A",
+          "level": { "cefr": "B1", "band": 4.5 },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": { "type": "vocabulary", "lexical_type": "synonym_paraphrase", "target": "a wide variety of = many different kinds of" },
+          "evidence": { "paragraph": "B", "quote": "a wide variety of flowers that bloom at different times of the year" },
+          "explanation": "'A wide variety of flowers' is paraphrased as 'many different kinds of flowers'."
+        },
+        {
+          "id": "RE001-Q03", "number": 3,
+          "prompt": "According to the experts, what may happen when too many hives share one area?",
+          "options": [
+            { "id": "A", "text": "Wild bees may start to make honey." },
+            { "id": "B", "text": "Honeybees may take food away from wild bee species." },
+            { "id": "C", "text": "Flowers may stop growing." }
+          ],
+          "answer": "B",
+          "level": { "cefr": "B2", "band": 6.0 },
+          "skill_tag": "specific_detail",
+          "language_focus": { "type": "vocabulary", "lexical_type": "collocation", "target": "compete with ... for" },
+          "evidence": { "paragraph": "C", "quote": "honeybees compete with wild bee species for a limited amount of food" },
+          "explanation": "Honeybees compete with wild species for limited food, so wild bees may lose out."
+        },
+        {
+          "id": "RE001-Q04", "number": 4,
+          "prompt": "What do the researchers suggest about adding more hives?",
+          "options": [
+            { "id": "A", "text": "It is the best way to help all pollinators." },
+            { "id": "B", "text": "It should only be done on farmland." },
+            { "id": "C", "text": "It may help less than planting flowers for all pollinators." }
+          ],
+          "answer": "C",
+          "level": { "cefr": "C1", "band": 7.5 },
+          "skill_tag": "inference",
+          "language_focus": { "type": "grammar", "rule": "contrast_and_concession" },
+          "evidence": { "paragraph": "C", "quote": "cities would do more good by planting flowers that support all kinds of pollinators" },
+          "explanation": "'Rather than adding more hives... would do more good by planting flowers' implies planting is the more helpful action."
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": { "status": "draft", "source": "ai_generated", "generator": "lingoeasy-reading-generator@1.0", "notes": "Mini example (4 items) for pipeline testing only." }
+}

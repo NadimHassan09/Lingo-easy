@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE308",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Saving the Honeybee",
+  "topic": "animals_and_nature",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "Saving the Honeybee",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Honeybees are small, but they play a very large role in our lives. About one-third of the food we eat depends on pollination, the process by which insects carry pollen from one flower to another, and honeybees do much of this work. Apples, almonds, blueberries and many other crops would be much rarer without them."
+      },
+      {
+        "label": "B",
+        "text": "Sadly, bee numbers are falling in many parts of the world. In the United States, beekeepers lose around forty per cent of their colonies each year. Scientists have identified several causes. Pesticides, which farmers use to kill harmful insects, also poison bees. Loss of wild flowers, as fields are turned into farmland and car parks, leaves bees with less food. A tiny insect called the varroa mite attacks bees and spreads disease."
+      },
+      {
+        "label": "C",
+        "text": "Some people say that we do not need to worry because there are many other pollinators, such as butterflies, wild bees and flies. This is partly true, but wild pollinators are declining too, and they cannot replace honeybees on large farms. I believe that this argument underestimates the danger."
+      },
+      {
+        "label": "D",
+        "text": "What can be done? Governments can ban the most dangerous pesticides, as the European Union has done with some of them. Farmers can leave strips of wild flowers at the edges of their fields. Ordinary people can help, too. If you have a garden or a balcony, you can plant flowers such as lavender and sunflowers, which provide food for bees from spring to autumn. It is also a good idea to avoid using chemicals on your plants."
+      },
+      {
+        "label": "E",
+        "text": "Some people worry about bee stings and want to remove nests near their homes. But bees rarely sting unless they feel threatened. If you find a nest, contact a local beekeeper instead of killing the bees; many will collect them for free. Protecting bees is not just about honey. It is about protecting the food on our tables."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE308-Q01",
+          "number": 1,
+          "prompt": "How much of our food depends on pollination?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About ten per cent"
+            },
+            {
+              "id": "B",
+              "text": "Almost all of it"
+            },
+            {
+              "id": "C",
+              "text": "About one third"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "one-third of the food we eat depends on pollination"
+          },
+          "explanation": "The text says: \"one-third of the food we eat depends on pollination\".",
+          "uuid": "303a02f5-6a60-537c-a4df-a23f34015f39"
+        },
+        {
+          "id": "RE308-Q02",
+          "number": 2,
+          "prompt": "How many colonies do US beekeepers lose each year?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Around 40 per cent"
+            },
+            {
+              "id": "B",
+              "text": "Around 4 per cent"
+            },
+            {
+              "id": "C",
+              "text": "Around 90 per cent"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "around forty per cent of their colonies"
+          },
+          "explanation": "The text says: \"around forty per cent of their colonies\".",
+          "uuid": "9a294d6a-a20e-5237-a51c-6a3ecb25bb11"
+        },
+        {
+          "id": "RE308-Q03",
+          "number": 3,
+          "prompt": "Why are pesticides a problem for bees?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They taste bad"
+            },
+            {
+              "id": "B",
+              "text": "They stop flowers growing"
+            },
+            {
+              "id": "C",
+              "text": "They also poison bees"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "also poison bees"
+          },
+          "explanation": "The text says: \"also poison bees\".",
+          "uuid": "8f77a97b-1c4f-58b4-b52a-71174682d7ce"
+        },
+        {
+          "id": "RE308-Q04",
+          "number": 4,
+          "prompt": "What does the varroa mite do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It eats the pollen that bees collect"
+            },
+            {
+              "id": "B",
+              "text": "It attacks bees and spreads disease"
+            },
+            {
+              "id": "C",
+              "text": "It builds nests inside the beehives"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "attacks bees and spreads disease"
+          },
+          "explanation": "The text says: \"attacks bees and spreads disease\".",
+          "uuid": "b2dcb62f-f406-5e1c-aff7-6ad318df7f19"
+        },
+        {
+          "id": "RE308-Q05",
+          "number": 5,
+          "prompt": "Which flowers does the writer suggest planting?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Red roses and yellow tulips"
+            },
+            {
+              "id": "B",
+              "text": "White lilies and small daisies"
+            },
+            {
+              "id": "C",
+              "text": "Lavender and sunflowers"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "such as lavender and sunflowers"
+          },
+          "explanation": "The text says: \"such as lavender and sunflowers\".",
+          "uuid": "51d0aef2-e53b-5507-8c7a-751f839797c7"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE308-Q06",
+          "number": 6,
+          "prompt": "The writer thinks other pollinators can easily replace honeybees.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "they cannot replace honeybees on large farms"
+          },
+          "explanation": "The text says: \"they cannot replace honeybees on large farms\".",
+          "uuid": "49f65e12-008e-5863-9f14-d0967ff6e491"
+        },
+        {
+          "id": "RE308-Q07",
+          "number": 7,
+          "prompt": "The writer believes the danger of losing bees is exaggerated.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "this argument underestimates the danger"
+          },
+          "explanation": "The text says: \"this argument underestimates the danger\".",
+          "uuid": "8ed2a154-cc37-53db-836c-f639f0b8d056"
+        },
+        {
+          "id": "RE308-Q08",
+          "number": 8,
+          "prompt": "The writer approves of banning dangerous pesticides.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Governments can ban the most dangerous pesticides"
+          },
+          "explanation": "The text says: \"Governments can ban the most dangerous pesticides\".",
+          "uuid": "94932f0a-421c-51f4-bbd6-f0000ffed189"
+        },
+        {
+          "id": "RE308-Q09",
+          "number": 9,
+          "prompt": "The writer has a garden.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "bfa38dd5-fc25-5208-89c2-474c5271f549"
+        },
+        {
+          "id": "RE308-Q10",
+          "number": 10,
+          "prompt": "The writer thinks people should kill bee nests near their homes.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "contact a local beekeeper instead of killing the bees"
+          },
+          "explanation": "The text says: \"contact a local beekeeper instead of killing the bees\".",
+          "uuid": "222d3ab0-28b3-55da-98aa-3a1fe2e56445"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE308-Q11",
+          "number": 11,
+          "prompt": "Farmers can leave strips of wild flowers at the edges of their _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "roads"
+            },
+            {
+              "id": "B",
+              "text": "fields"
+            },
+            {
+              "id": "C",
+              "text": "gardens"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "edges of their fields"
+          },
+          "explanation": "The text says: \"edges of their fields\".",
+          "uuid": "1ce99d93-9285-5c9a-99ad-43d1aa907b61"
+        },
+        {
+          "id": "RE308-Q12",
+          "number": 12,
+          "prompt": "Bees rarely sting unless they feel _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "threatened"
+            },
+            {
+              "id": "B",
+              "text": "hungry"
+            },
+            {
+              "id": "C",
+              "text": "cold"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "unless they feel threatened"
+          },
+          "explanation": "The text says: \"unless they feel threatened\".",
+          "uuid": "081778ca-08d9-5307-afcd-e2773e2e0f2b"
+        },
+        {
+          "id": "RE308-Q13",
+          "number": 13,
+          "prompt": "Many beekeepers will collect a nest for _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "free"
+            },
+            {
+              "id": "B",
+              "text": "honey"
+            },
+            {
+              "id": "C",
+              "text": "money"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "collect them for free"
+          },
+          "explanation": "The text says: \"collect them for free\".",
+          "uuid": "5444a6d9-ff24-562b-b2b4-cfead8cc9ee9"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "0bf9051a-95a9-4b6b-8d29-7cb0dea859c3",
+  "derived": {
+    "word_count": 313,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 4
+    },
+    "content_hash": "3de536a112d6d0cc"
+  }
+}

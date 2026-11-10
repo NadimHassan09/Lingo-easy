@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lingo-easy/adaptive_profile_schema",
+  "title": "Adaptive learner profile (derived, versioned, explainable)",
+  "description": "Derived from learner attempt records by adaptive/profile.py. Never stored in the question bank. Every claim lists supporting_attempt_record_ids. Confidence labels are not calibrated probabilities.",
+  "type": "object",
+  "required": ["schema_version", "profile_id", "learner_id", "generated_at", "generator_version", "attempts_included", "status", "status_reason", "observed_performance", "cefr_estimate", "subskills", "consistency", "error_patterns", "recommended_next_objectives", "uncertainty"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "profile_id": {"type": "string"},
+    "learner_id": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "generator_version": {"type": "string"},
+    "synthetic": {"type": "boolean", "description": "true for example profiles built from simulated learners"},
+    "synthetic_note": {"type": "string"},
+    "attempts_included": {"type": "array", "items": {"type": "string"}},
+    "status": {"enum": ["insufficient_evidence", "provisional", "established_for_this_instrument"]},
+    "status_reason": {"type": "object"},
+    "observed_performance": {"type": "object", "required": ["overall", "by_modality"]},
+    "cefr_estimate": {"type": "object", "required": ["level", "status", "method", "per_level", "items_used", "confidence_label", "caveat"],
+                      "properties": {"level": {"type": ["string", "null"]}, "status": {"const": "indicative"}, "confidence_label": {"enum": ["insufficient_evidence", "low", "moderate"]}}},
+    "subskills": {"type": "object", "additionalProperties": {"type": "object", "required": ["n_answered", "n_correct", "accuracy", "wilson_low", "wilson_high", "status", "supporting_attempt_record_ids"],
+                  "properties": {"status": {"enum": ["insufficient_evidence", "weakness", "strength", "typical_or_unclear"]}}}},
+    "consistency": {"type": "object", "required": ["status"], "properties": {"status": {"enum": ["not_assessable", "consistent", "inconsistent"]}}},
+    "error_patterns": {"type": "array", "items": {"type": "object", "required": ["error_tag", "occurrences", "claim_strength", "supporting_attempt_record_ids"],
+                       "properties": {"claim_strength": {"enum": ["weak_hypothesis", "hypothesis_supported_by_repetition"]}}}},
+    "recommended_next_objectives": {"type": "array", "items": {"type": "object", "required": ["objective_id", "subskill", "target_cefr", "priority", "reason", "evidence_refs", "lesson_ref"]}},
+    "lesson_mapping_note": {"type": "string"},
+    "uncertainty": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE106",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Seasons in Canada",
+  "topic": "environment",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "Seasons in Canada",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In Canada, there are four seasons: spring, summer, autumn and winter. The weather is very different in each season."
+      },
+      {
+        "label": "B",
+        "text": "Winter is long and very cold. In many places the temperature is minus twenty degrees. There is a lot of snow, and the lakes freeze. People wear thick coats, hats and gloves. Children go to school on snowy days, and many people enjoy skiing and ice hockey."
+      },
+      {
+        "label": "C",
+        "text": "Spring starts in March, but it is still cold at first. In April the snow melts, and flowers begin to grow. It rains a lot in spring. Summer is warm and sunny. In July the temperature is about twenty-five degrees. Many families go camping near lakes and swim in the water."
+      },
+      {
+        "label": "D",
+        "text": "Autumn is the most beautiful season for many people. The leaves on the trees change colour from green to red, orange and yellow. The weather is cool, and the days become shorter. In October, families eat a big dinner together to say thank you for the food. Then winter comes again."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE106-Q01",
+          "number": 1,
+          "prompt": "How many seasons are there in Canada?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two"
+            },
+            {
+              "id": "B",
+              "text": "Six"
+            },
+            {
+              "id": "C",
+              "text": "Four"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "there are four seasons"
+          },
+          "explanation": "The text says: \"there are four seasons\".",
+          "uuid": "db03bd55-e838-5f97-aa70-067089ec31c3"
+        },
+        {
+          "id": "RE106-Q02",
+          "number": 2,
+          "prompt": "What is winter like?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Short and warm"
+            },
+            {
+              "id": "B",
+              "text": "Long and wet"
+            },
+            {
+              "id": "C",
+              "text": "Long and very cold"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Winter is long and very cold"
+          },
+          "explanation": "The text says: \"Winter is long and very cold\".",
+          "uuid": "ed9202d6-0025-50d9-97e1-55e5e9505898"
+        },
+        {
+          "id": "RE106-Q03",
+          "number": 3,
+          "prompt": "What is the winter temperature in many places?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minus 20 degrees"
+            },
+            {
+              "id": "B",
+              "text": "Minus 2 degrees"
+            },
+            {
+              "id": "C",
+              "text": "Plus 20 degrees"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "minus twenty degrees"
+          },
+          "explanation": "The text says: \"minus twenty degrees\".",
+          "uuid": "06f83f7d-61cc-52cb-b72f-2fe24f0131e6"
+        },
+        {
+          "id": "RE106-Q04",
+          "number": 4,
+          "prompt": "What do people wear in winter?",
+          "options": [
+            {
+              "id": "A",
+              "text": "T-shirts, shorts and sandals"
+            },
+            {
+              "id": "B",
+              "text": "Rain boots and sun glasses"
+            },
+            {
+              "id": "C",
+              "text": "Thick coats, hats and gloves"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "thick coats, hats and gloves"
+          },
+          "explanation": "The text says: \"thick coats, hats and gloves\".",
+          "uuid": "9a33b762-891b-58e3-9908-69476663f74e"
+        },
+        {
+          "id": "RE106-Q05",
+          "number": 5,
+          "prompt": "Which winter sports are popular?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Swimming and tennis"
+            },
+            {
+              "id": "B",
+              "text": "Football and golf"
+            },
+            {
+              "id": "C",
+              "text": "Skiing and ice hockey"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "skiing and ice hockey"
+          },
+          "explanation": "The text says: \"skiing and ice hockey\".",
+          "uuid": "b9585d52-ac6c-5f95-9cb3-d4f3ae58f3c1"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE106-Q06",
+          "number": 6,
+          "prompt": "Spring starts in March.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Spring starts in March"
+          },
+          "explanation": "The text says: \"Spring starts in March\".",
+          "uuid": "a341308b-f081-5e4b-93b3-fe2d3809f6e1"
+        },
+        {
+          "id": "RE106-Q07",
+          "number": 7,
+          "prompt": "It does not rain in spring.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "It rains a lot in spring"
+          },
+          "explanation": "The text says: \"It rains a lot in spring\".",
+          "uuid": "1e1498fe-82d1-5dc1-8527-a3f5f7214b89"
+        },
+        {
+          "id": "RE106-Q08",
+          "number": 8,
+          "prompt": "In July the temperature is about twenty-five degrees.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "about twenty-five degrees"
+          },
+          "explanation": "The text says: \"about twenty-five degrees\".",
+          "uuid": "02f4d923-5cfd-5ae3-89a2-77703d190837"
+        },
+        {
+          "id": "RE106-Q09",
+          "number": 9,
+          "prompt": "Canadian summers are the hottest in the world.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "ed42a669-6f5c-5ff1-b498-6ec8aa71a247"
+        },
+        {
+          "id": "RE106-Q10",
+          "number": 10,
+          "prompt": "In autumn the leaves turn blue.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "from green to red, orange and yellow"
+          },
+          "explanation": "The text says: \"from green to red, orange and yellow\".",
+          "uuid": "d59c5492-c194-5fef-9606-abfe04c98b3f"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE106-Q11",
+          "number": 11,
+          "prompt": "In April, the _____ melts.",
+          "options": [
+            {
+              "id": "A",
+              "text": "ice cream"
+            },
+            {
+              "id": "B",
+              "text": "snow"
+            },
+            {
+              "id": "C",
+              "text": "rain"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "the snow melts"
+          },
+          "explanation": "The text says: \"the snow melts\".",
+          "uuid": "e54a11cf-c7f4-57eb-854d-75623c4da14e"
+        },
+        {
+          "id": "RE106-Q12",
+          "number": 12,
+          "prompt": "In summer, many families go _____ near lakes.",
+          "options": [
+            {
+              "id": "A",
+              "text": "skiing"
+            },
+            {
+              "id": "B",
+              "text": "shopping"
+            },
+            {
+              "id": "C",
+              "text": "camping"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "go camping near lakes"
+          },
+          "explanation": "The text says: \"go camping near lakes\".",
+          "uuid": "ad2a9f25-ff6a-5940-b445-498b99fc9b0f"
+        },
+        {
+          "id": "RE106-Q13",
+          "number": 13,
+          "prompt": "In October, families eat a big _____ together.",
+          "options": [
+            {
+              "id": "A",
+              "text": "dinner"
+            },
+            {
+              "id": "B",
+              "text": "breakfast"
+            },
+            {
+              "id": "C",
+              "text": "lunch"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "eat a big dinner together"
+          },
+          "explanation": "The text says: \"eat a big dinner together\".",
+          "uuid": "f083922a-c7fe-5f7c-93d4-a9d2ff28e846"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "f869736e-2ffd-4f74-a2fd-52b7d172a82e",
+  "derived": {
+    "word_count": 169,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 6
+    },
+    "content_hash": "653e8303c45202cc"
+  }
+}

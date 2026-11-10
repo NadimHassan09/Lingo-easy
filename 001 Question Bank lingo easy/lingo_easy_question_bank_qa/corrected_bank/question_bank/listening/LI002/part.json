@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "id": "LI002",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Choosing a Technology Project Topic",
+  "topic": "technology",
+  "profile": "intermediate",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li002_choosing_a_technology_project_topic.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Carter",
+        "gender": "female",
+        "accent": "british",
+        "role": "university tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Priya",
+        "gender": "female",
+        "accent": "new_zealand",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Marcus",
+        "gender": "male",
+        "accent": "australian",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon, both. Thanks for coming. Today we need to settle the topic for your technology presentation, so let's hear your first ideas. Priya, would you like to start?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, thanks, Dr Carter. I'd like to look at smartphone apps for language learning. I use three of them myself, so I already know quite a lot about how they work."
+      },
+      {
+        "speaker": "S3",
+        "text": "Honestly, I'm not convinced. There are hundreds of studies on that already, and I think we'd only repeat what everyone says. I'd prefer something local, like the new electric buses in our city."
+      },
+      {
+        "speaker": "S1",
+        "text": "Marcus, that's a fair point about apps, but I'm worried about buses too. Remember that the presentation is only ten minutes long, and the council hasn't published much yet, so you might struggle to find enough information."
+      },
+      {
+        "speaker": "S2",
+        "text": "I see what you mean. Perhaps we could combine the two ideas, but I'm not sure how."
+      },
+      {
+        "speaker": "S3",
+        "text": "Well, what about studying how students really use technology for their courses? We could interview twenty people on campus. It sounds simple, but at least the data would be ours."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's a much more promising direction. However, you would need ethical approval before you speak to anyone, and that usually takes about three weeks."
+      },
+      {
+        "speaker": "S2",
+        "text": "Three weeks? That's too long. We have to present on the twelfth of November, and that's only a month away."
+      },
+      {
+        "speaker": "S3",
+        "text": "Right. In that case, we could send out an online questionnaire instead. Doesn't that only need a short form?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Exactly. A questionnaire needs only a short form, and approval normally comes back within a few days."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. I'll draft the questions tonight. Do you have any advice about how to write them?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Two things. Keep them short, and keep the wording neutral. If you ask, Don't you agree that apps are very useful, you're pushing people towards one answer, and the results will mean very little."
+      },
+      {
+        "speaker": "S2",
+        "text": "That makes sense. When should I send you the draft?"
+      },
+      {
+        "speaker": "S1",
+        "text": "By Friday, please. No, wait, I'm at a conference on Friday, so make it Thursday morning."
+      },
+      {
+        "speaker": "S3",
+        "text": "That's fine. One thing still worries me, though. Even with neutral questions, mostly students who enjoy technology will reply, so our results could look more positive than they really are."
+      },
+      {
+        "speaker": "S1",
+        "text": "Quite. That's a form of bias, and it's worth discussing in your conclusion. Don't treat it as a failure, though. Examiners value honesty about limitations far more than a perfect-looking study."
+      },
+      {
+        "speaker": "S2",
+        "text": "So we'd say our findings are suggestive, rather than conclusive?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Precisely. And if your sample is small, avoid words like prove or show. Something like the data points towards is much safer, and it also sounds more professional."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI002-Q01",
+          "number": 1,
+          "prompt": "What topic does Priya suggest first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Language learning apps"
+            },
+            {
+              "id": "B",
+              "text": "Electric buses in the city"
+            },
+            {
+              "id": "C",
+              "text": "Online banking services"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'd like to look at smartphone apps for language learning"
+          },
+          "explanation": "Priya's first idea is smartphone apps for language learning. Electric buses is Marcus's idea.",
+          "uuid": "dcc83ddb-21cc-5191-89e5-09dec6823156"
+        },
+        {
+          "id": "LI002-Q02",
+          "number": 2,
+          "prompt": "How long will the presentation be?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Five minutes"
+            },
+            {
+              "id": "B",
+              "text": "Ten minutes"
+            },
+            {
+              "id": "C",
+              "text": "Twenty minutes"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the presentation is only ten minutes long"
+          },
+          "explanation": "Dr Carter says the presentation is only ten minutes long.",
+          "uuid": "ff962339-ef6a-5fb0-ae60-412e5001b3cf"
+        },
+        {
+          "id": "LI002-Q03",
+          "number": 3,
+          "prompt": "Why is Dr Carter doubtful about the electric buses idea?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The topic is too technical."
+            },
+            {
+              "id": "B",
+              "text": "The council is against the project."
+            },
+            {
+              "id": "C",
+              "text": "There is little information available."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the council hasn't published much yet"
+          },
+          "explanation": "The council has not published much, so the students might not find enough information. The tutor never says the topic is too technical.",
+          "uuid": "a7b91aeb-3890-58be-8c65-e8d27a72bbe9"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI002-Q04",
+          "number": 4,
+          "prompt": "Why do the students decide not to interview people?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Permission would take too long."
+            },
+            {
+              "id": "B",
+              "text": "Twenty people is too few."
+            },
+            {
+              "id": "C",
+              "text": "Dr Carter does not like the idea."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Three weeks? That's too long"
+          },
+          "explanation": "Dr Carter likes the direction, but ethical approval takes about three weeks, which Priya says is too long.",
+          "uuid": "57193f54-8c0e-57c8-8302-7d9b42bc9487"
+        },
+        {
+          "id": "LI002-Q05",
+          "number": 5,
+          "prompt": "What will they use to collect information instead?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Phone calls to students"
+            },
+            {
+              "id": "B",
+              "text": "Observation in classes"
+            },
+            {
+              "id": "C",
+              "text": "An online questionnaire"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "we could send out an online questionnaire instead"
+          },
+          "explanation": "After interviews are rejected, Marcus proposes an online questionnaire and the tutor agrees.",
+          "uuid": "f1564d2a-9837-5c20-ad08-b4f1e9045794"
+        },
+        {
+          "id": "LI002-Q06",
+          "number": 6,
+          "prompt": "What does Dr Carter advise about the questions?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They should be tested on other students first."
+            },
+            {
+              "id": "B",
+              "text": "They should not lead people to an answer."
+            },
+            {
+              "id": "C",
+              "text": "They should be as long as possible."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "speaker_opinion",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "synonym_paraphrase",
+            "target": "keep the wording neutral = not lead people to an answer"
+          },
+          "evidence": {
+            "quote": "keep the wording neutral"
+          },
+          "explanation": "She says neutral wording matters because a leading question pushes people towards one answer.",
+          "uuid": "36f0eb9b-e02b-547b-acff-c45a447d888c"
+        },
+        {
+          "id": "LI002-Q07",
+          "number": 7,
+          "prompt": "When must Priya send the draft questions?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Friday morning"
+            },
+            {
+              "id": "B",
+              "text": "Thursday morning"
+            },
+            {
+              "id": "C",
+              "text": "Thursday evening"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "so make it Thursday morning"
+          },
+          "explanation": "Dr Carter first says Friday, then corrects herself because of a conference and asks for Thursday morning.",
+          "uuid": "4f36ab74-a318-5bf9-aa6e-4fa45343ecdd"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI002-Q08",
+          "number": 8,
+          "prompt": "What is Marcus worried about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Students may not understand the questions."
+            },
+            {
+              "id": "B",
+              "text": "The questionnaire will take too long to write."
+            },
+            {
+              "id": "C",
+              "text": "The replies may make the results seem too positive."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "our results could look more positive than they really are"
+          },
+          "explanation": "Marcus fears that only technology fans will reply, so the results may look more positive than reality.",
+          "uuid": "e8caa8fd-01bc-51ec-a65a-73134b24371f"
+        },
+        {
+          "id": "LI002-Q09",
+          "number": 9,
+          "prompt": "What is Dr Carter's attitude to the problem Marcus describes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is normal and should be discussed openly."
+            },
+            {
+              "id": "B",
+              "text": "It is a serious weakness that will lower their mark."
+            },
+            {
+              "id": "C",
+              "text": "It is something they should avoid mentioning."
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "academic_word",
+            "target": "limitations"
+          },
+          "evidence": {
+            "quote": "Examiners value honesty about limitations"
+          },
+          "explanation": "She says not to treat it as a failure and that examiners respect honesty about limitations, so it should be discussed openly.",
+          "uuid": "90b652c5-0f72-57cf-beec-95af6a453a28"
+        },
+        {
+          "id": "LI002-Q10",
+          "number": 10,
+          "prompt": "What does Dr Carter suggest about reporting their findings?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Confident, definite wording makes a study look more reliable."
+            },
+            {
+              "id": "B",
+              "text": "Cautious wording suits a small sample."
+            },
+            {
+              "id": "C",
+              "text": "Results should be repeated in several ways."
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "hedging_and_tentative_language"
+          },
+          "evidence": {
+            "quote": "avoid words like prove or show"
+          },
+          "explanation": "She warns against strong verbs like prove and recommends cautious phrases such as the data points towards, which match a small sample.",
+          "uuid": "3723f58e-26cf-5ed5-b1b5-6dd1490cafb1"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "f34eb1a9-58ef-47a4-9480-5e660d69a87f",
+  "derived": {
+    "word_count": 433,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 2,
+      "B2": 4,
+      "C1": 2,
+      "C2": 1
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "096513a19dcd43f2"
+  }
+}

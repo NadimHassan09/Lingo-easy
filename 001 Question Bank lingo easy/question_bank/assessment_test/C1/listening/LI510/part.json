@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "id": "LI510",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Seminar: Archaeology and Ethics",
+  "topic": "history",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li510_seminar_archaeology_and_ethics.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Sinclair",
+        "gender": "female",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Tariq",
+        "gender": "male",
+        "accent": "british",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Julia",
+        "gender": "female",
+        "accent": "american",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Today I want to discuss the ethics of excavation. Tariq, you've been reading about the debate on human remains."
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes. Museums hold thousands of skeletons, some many thousands of years old. In the past, archaeologists regarded them as scientific specimens. Now, descendant communities argue that the remains should be respected, and in some cases returned for reburial."
+      },
+      {
+        "speaker": "S3",
+        "text": "But isn't there a risk that science loses valuable evidence? DNA analysis has transformed what we can learn, such as migration patterns."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's the central tension. Tariq, how have some countries tried to resolve it?"
+      },
+      {
+        "speaker": "S2",
+        "text": "In the United States, a law passed in 1990 requires museums to consult with Native American tribes and return remains and sacred objects when a cultural link can be shown. Many scholars were worried at first, but a lot of tribes have actually agreed to scientific study before reburial."
+      },
+      {
+        "speaker": "S3",
+        "text": "So the law didn't end research, it changed the relationship."
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes. The key idea is consent. Although people can't consent on behalf of the long dead, descendants can speak for their heritage. It's also worth noting that descendant isn't always simple. Who is entitled to speak for a community when ancient remains have no clear link to any present group?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Kennewick Man, for example."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good example. Julia, remind us."
+      },
+      {
+        "speaker": "S3",
+        "text": "Kennewick Man is a skeleton about nine thousand years old, found on a riverbank in Washington State in 1996. Five tribes claimed him as an ancestor, but scientists argued that he lacked a clear cultural link. After years in court, DNA testing in 2015 showed that he was closely related to modern Native Americans, and he was reburied in 2017."
+      },
+      {
+        "speaker": "S2",
+        "text": "So technology resolved a legal dispute, but it raises another question. Should science determine who counts as a descendant?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Precisely, and I don't think there's a simple answer. Let's turn to a second issue, the antiquities market. Looting is a major problem. Objects without a recorded context lose most of their scientific value, because we can't tell where they came from or what they were found with."
+      },
+      {
+        "speaker": "S3",
+        "text": "But some argue that buying antiquities saves them from destruction, particularly in conflict zones."
+      },
+      {
+        "speaker": "S1",
+        "text": "That argument is made, but it's problematic. Demand encourages more looting, so buying may cause further damage. Many museums now refuse to acquire objects unless they have documented history going back to before 1970, the year of a UNESCO convention."
+      },
+      {
+        "speaker": "S2",
+        "text": "What about the objects already in museums, like the Parthenon sculptures?"
+      },
+      {
+        "speaker": "S1",
+        "text": "That's the most visible example. Britain's position is that the sculptures were acquired legally and are better preserved and seen by a global audience in London. Greece argues that they're part of a single monument and should be reunited. Both positions contain some force, and I don't want to tell you which is correct. What I want you to do is examine the quality of each side's arguments for your essay."
+      },
+      {
+        "speaker": "S3",
+        "text": "Is the essay due before the break?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, by the eighth of December. Choose one case study and include at least two sources that disagree with each other."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI510-Q01",
+          "number": 1,
+          "prompt": "How did archaeologists traditionally regard human remains?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As sacred objects"
+            },
+            {
+              "id": "B",
+              "text": "As public property"
+            },
+            {
+              "id": "C",
+              "text": "As scientific specimens"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "regarded them as scientific specimens"
+          },
+          "explanation": "The audio says: \"regarded them as scientific specimens\".",
+          "uuid": "4b9ef157-1bb9-5460-93a3-dd41f09ef9de"
+        },
+        {
+          "id": "LI510-Q02",
+          "number": 2,
+          "prompt": "What risk does Julia raise?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Science could lose valuable evidence"
+            },
+            {
+              "id": "B",
+              "text": "Museums could lose a great deal of money"
+            },
+            {
+              "id": "C",
+              "text": "Tribes could lose access to their land"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "science loses valuable evidence"
+          },
+          "explanation": "The audio says: \"science loses valuable evidence\".",
+          "uuid": "2f212243-c349-5ec1-a5ed-33da91b0dbf1"
+        },
+        {
+          "id": "LI510-Q03",
+          "number": 3,
+          "prompt": "What does the 1990 American law require museums to do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Consult tribes and return remains when a link is shown"
+            },
+            {
+              "id": "B",
+              "text": "Destroy remains that cannot be identified by scientists"
+            },
+            {
+              "id": "C",
+              "text": "Stop all DNA research on human remains in museums"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "return remains and sacred objects when a cultural link can be shown"
+          },
+          "explanation": "The audio says: \"return remains and sacred objects when a cultural link can be shown\".",
+          "uuid": "faaee1b3-644c-52e4-80a0-5995d1b48ff1"
+        },
+        {
+          "id": "LI510-Q04",
+          "number": 4,
+          "prompt": "What has happened since the law was introduced?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Research on human remains has largely come to an end"
+            },
+            {
+              "id": "B",
+              "text": "Museums have generally refused to comply with the new law"
+            },
+            {
+              "id": "C",
+              "text": "Many tribes have agreed to scientific study before reburial"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "agreed to scientific study before reburial"
+          },
+          "explanation": "The audio says: \"agreed to scientific study before reburial\".",
+          "uuid": "b9b01a63-62ba-5b66-998e-1e0a1d385892"
+        },
+        {
+          "id": "LI510-Q05",
+          "number": 5,
+          "prompt": "What complication does the tutor raise about descendants?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Many descendants now live in other countries"
+            },
+            {
+              "id": "B",
+              "text": "Some remains have no clear link to any present group"
+            },
+            {
+              "id": "C",
+              "text": "Descendants disagree about who should pay"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "no clear link to any present group"
+          },
+          "explanation": "The audio says: \"no clear link to any present group\".",
+          "uuid": "616fad6e-d5db-5ea3-9c44-85045be7aa76"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI510-Q06",
+          "number": 6,
+          "prompt": "What happened to Kennewick Man?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He was returned to a museum"
+            },
+            {
+              "id": "B",
+              "text": "He was proved to be European"
+            },
+            {
+              "id": "C",
+              "text": "He was reburied after DNA testing"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "reburied in 2017"
+          },
+          "explanation": "The audio says: \"reburied in 2017\".",
+          "uuid": "5f9c272a-5f41-5b8f-85b6-3a71dfeb4fe7"
+        },
+        {
+          "id": "LI510-Q07",
+          "number": 7,
+          "prompt": "Why do looted objects lose scientific value?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are damaged during sale"
+            },
+            {
+              "id": "B",
+              "text": "They are hidden in private homes"
+            },
+            {
+              "id": "C",
+              "text": "Their context is not recorded"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "lose most of their scientific value"
+          },
+          "explanation": "The audio says: \"lose most of their scientific value\".",
+          "uuid": "f04d63c3-31d0-5606-8797-ed2be1446424"
+        },
+        {
+          "id": "LI510-Q08",
+          "number": 8,
+          "prompt": "What problem does the tutor see in buying antiquities to save them?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prices become too high for museums"
+            },
+            {
+              "id": "B",
+              "text": "Demand encourages more looting"
+            },
+            {
+              "id": "C",
+              "text": "Museums have no space to store objects"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Demand encourages more looting"
+          },
+          "explanation": "The audio says: \"Demand encourages more looting\".",
+          "uuid": "ba10db7f-e0c2-57e5-98fe-b8e9bfc64318"
+        },
+        {
+          "id": "LI510-Q09",
+          "number": 9,
+          "prompt": "What policy do many museums follow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They refuse objects without a documented history before 1970"
+            },
+            {
+              "id": "B",
+              "text": "They buy objects only from dealers who are licensed abroad"
+            },
+            {
+              "id": "C",
+              "text": "They accept donations from any wealthy private collector"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "documented history going back to before 1970"
+          },
+          "explanation": "The audio says: \"documented history going back to before 1970\".",
+          "uuid": "993fd1fe-1f67-56c8-88c3-2794bd8e4c03"
+        },
+        {
+          "id": "LI510-Q10",
+          "number": 10,
+          "prompt": "What must the essay include?",
+          "options": [
+            {
+              "id": "A",
+              "text": "At least two sources that disagree"
+            },
+            {
+              "id": "B",
+              "text": "A report on a visit to a museum"
+            },
+            {
+              "id": "C",
+              "text": "A personal opinion supported by one source"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "two sources that disagree with each other"
+          },
+          "explanation": "The audio says: \"two sources that disagree with each other\".",
+          "uuid": "1d8ecf88-f4c4-5b54-9eac-e2b4a093749c"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "496cc281-6967-4fc8-992c-2e8a4a8cfcfe",
+  "derived": {
+    "word_count": 501,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 4,
+      "B": 2,
+      "C": 4
+    },
+    "content_hash": "f9e1d1820b3d3ba1"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "id": "LI610",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Advice on a PhD Proposal",
+  "topic": "education",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li610_advice_on_a_phd_proposal.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Professor Moller",
+        "gender": "female",
+        "accent": "british",
+        "role": "supervisor"
+      },
+      {
+        "id": "S2",
+        "name": "Rafael",
+        "gender": "male",
+        "accent": "american",
+        "role": "doctoral student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Come in, Rafael. I've read your proposal. There's a lot of promise in it, but I have some concerns, and I'd like us to discuss them."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'm ready. I know the first draft was rough."
+      },
+      {
+        "speaker": "S1",
+        "text": "It wasn't rough, it was ambitious, which is the problem. Your research question asks how digital technology has transformed higher education. That's a topic for a library of books, not a thesis. I'd like to see something narrower."
+      },
+      {
+        "speaker": "S2",
+        "text": "I understood that a broad question would give me more flexibility."
+      },
+      {
+        "speaker": "S1",
+        "text": "It gives you more possibilities, but also more ways to get lost. The most successful doctoral students I've supervised started with a focused question and let the thesis widen as the research developed. What are you genuinely curious about?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Honestly, how lecturers decide whether to use online tools in their classes. I've noticed big differences even within a single department."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's much more tractable. It's a question about decision-making, and you could investigate it with interviews and perhaps a survey. Now, your methodology section. You propose a survey of five hundred lecturers across ten universities. That is ambitious for a first-year project."
+      },
+      {
+        "speaker": "S2",
+        "text": "I was hoping for statistical power."
+      },
+      {
+        "speaker": "S1",
+        "text": "Understandable, but think about the response rates. Surveys of academics typically get ten to fifteen per cent, so you'd need to contact more than three thousand people to reach five hundred. And a survey tells you what people do, but not why. For your question, interviews with thirty or forty lecturers might be more revealing, with a short survey added later if time allows."
+      },
+      {
+        "speaker": "S2",
+        "text": "That would also make the ethics process easier."
+      },
+      {
+        "speaker": "S1",
+        "text": "It would. Next, the literature review. It's currently a list of summaries: this author said this, that author said that. A review should be an argument. What's been established? Where do studies conflict? What's missing that your research addresses?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I thought I should show that I'd read widely."
+      },
+      {
+        "speaker": "S1",
+        "text": "You do, but breadth isn't the only measure. A shorter, sharper review that identifies a gap persuasively is worth far more. Also, I noticed that most of your sources are from the United States. Is your study meant to apply internationally?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I hadn't thought about that. I suppose I'd be looking at UK universities."
+      },
+      {
+        "speaker": "S1",
+        "text": "Then the UK context matters, since funding, regulation and student numbers differ. You should engage with British studies, or explain why American findings are relevant."
+      },
+      {
+        "speaker": "S2",
+        "text": "Understood. How long should I take to revise?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Three weeks. Send me a two-page outline first, not a full draft. If the question and method are right, the rest will follow more easily. And Rafael, don't be discouraged. The aim of this process is to refine the idea, and your enthusiasm is an asset."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI610-Q01",
+          "number": 1,
+          "prompt": "How does the supervisor describe the first draft?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rough and in need of rewriting"
+            },
+            {
+              "id": "B",
+              "text": "Ambitious, which is the problem"
+            },
+            {
+              "id": "C",
+              "text": "Impressive and nearly complete"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "it was ambitious, which is the problem"
+          },
+          "explanation": "The audio says: \"it was ambitious, which is the problem\".",
+          "uuid": "326044e8-6a95-542f-a74d-dd841af7973b"
+        },
+        {
+          "id": "LI610-Q02",
+          "number": 2,
+          "prompt": "What is wrong with the research question?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too narrow"
+            },
+            {
+              "id": "B",
+              "text": "It is far too broad"
+            },
+            {
+              "id": "C",
+              "text": "It has already been answered"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a topic for a library of books"
+          },
+          "explanation": "The audio says: \"a topic for a library of books\".",
+          "uuid": "c452912f-0c35-5baf-8727-8d9e5cb3fd51"
+        },
+        {
+          "id": "LI610-Q03",
+          "number": 3,
+          "prompt": "What does the supervisor say about successful doctoral students?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They start broad and narrow it down later"
+            },
+            {
+              "id": "B",
+              "text": "They avoid committing to a question early"
+            },
+            {
+              "id": "C",
+              "text": "They start focused and let the thesis widen"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "let the thesis widen as the research developed"
+          },
+          "explanation": "The audio says: \"let the thesis widen as the research developed\".",
+          "uuid": "41ab671d-3381-585d-b7ad-0f3ead79bfe2"
+        },
+        {
+          "id": "LI610-Q04",
+          "number": 4,
+          "prompt": "What does Rafael say he is really curious about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "How students manage to pay for their courses"
+            },
+            {
+              "id": "B",
+              "text": "How universities are ranked in national tables"
+            },
+            {
+              "id": "C",
+              "text": "How lecturers decide whether to use online tools"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "how lecturers decide whether to use online tools"
+          },
+          "explanation": "The audio says: \"how lecturers decide whether to use online tools\".",
+          "uuid": "919e7a82-6aec-56e1-b59c-a777a09f53b0"
+        },
+        {
+          "id": "LI610-Q05",
+          "number": 5,
+          "prompt": "What problem does the supervisor foresee with the survey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Respondents may not answer honestly"
+            },
+            {
+              "id": "B",
+              "text": "Low response rates among academics"
+            },
+            {
+              "id": "C",
+              "text": "Ethics rules may not allow surveys"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "ten to fifteen per cent"
+          },
+          "explanation": "The audio says: \"ten to fifteen per cent\".",
+          "uuid": "3f702ece-476b-5a7d-abe9-229a3c87618a"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI610-Q06",
+          "number": 6,
+          "prompt": "What does the supervisor suggest instead?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Interviews with thirty or forty lecturers"
+            },
+            {
+              "id": "B",
+              "text": "A large survey of one thousand students"
+            },
+            {
+              "id": "C",
+              "text": "An experiment run in several classrooms"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "thirty or forty lecturers"
+          },
+          "explanation": "The audio says: \"thirty or forty lecturers\".",
+          "uuid": "bb03b72c-e8ca-5abd-88cb-6e3456a357fb"
+        },
+        {
+          "id": "LI610-Q07",
+          "number": 7,
+          "prompt": "What is wrong with the literature review?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It lists summaries instead of making an argument"
+            },
+            {
+              "id": "B",
+              "text": "It does not include enough recent sources"
+            },
+            {
+              "id": "C",
+              "text": "It relies on sources that are out of date"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "A review should be an argument"
+          },
+          "explanation": "The audio says: \"A review should be an argument\".",
+          "uuid": "cb6ac783-3227-57aa-8013-2d275e32ba90"
+        },
+        {
+          "id": "LI610-Q08",
+          "number": 8,
+          "prompt": "What would improve the review?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A shorter review that identifies a gap persuasively"
+            },
+            {
+              "id": "B",
+              "text": "A longer list of sources that covers more authors"
+            },
+            {
+              "id": "C",
+              "text": "More direct quotations from each of the authors"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "identifies a gap persuasively"
+          },
+          "explanation": "The audio says: \"identifies a gap persuasively\".",
+          "uuid": "12cfb942-50de-5dc0-8384-5dac58c9df64"
+        },
+        {
+          "id": "LI610-Q09",
+          "number": 9,
+          "prompt": "What does the supervisor advise about the American sources?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Remove the American studies from the review"
+            },
+            {
+              "id": "B",
+              "text": "Add more American studies to balance the review"
+            },
+            {
+              "id": "C",
+              "text": "Engage with British studies or justify using them"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "engage with British studies"
+          },
+          "explanation": "The audio says: \"engage with British studies\".",
+          "uuid": "c2dc1446-4142-5ee9-9530-4d886174890f"
+        },
+        {
+          "id": "LI610-Q10",
+          "number": 10,
+          "prompt": "What should Rafael send first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A first full draft"
+            },
+            {
+              "id": "B",
+              "text": "A two-page outline"
+            },
+            {
+              "id": "C",
+              "text": "A short reading list"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "two-page outline first"
+          },
+          "explanation": "The audio says: \"two-page outline first\".",
+          "uuid": "eae31398-ff01-588f-9491-d4686f31c392"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "236a247f-8b2f-4ab8-86ba-bc909f3b1b48",
+  "derived": {
+    "word_count": 448,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "97a464bc7cb7e77d"
+  }
+}

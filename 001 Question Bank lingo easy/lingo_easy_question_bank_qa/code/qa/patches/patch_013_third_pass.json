@@ -1,0 +1,43 @@
+[
+ {
+  "id": "LI607-Q01",
+  "set": {
+   "C": "Governments pay for every planning decision made"
+  },
+  "reason": "third pass: removes 'all of' phrasing that the extreme-wording check flags; key unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE605-Q05",
+  "set": {
+   "A": "Cheaper electricity for factory owners everywhere"
+  },
+  "reason": "third pass: removes 'all of' phrasing that the extreme-wording check flags; key unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q05",
+  "set": {
+   "B": "She sent an email to the whole student body"
+  },
+  "reason": "third pass: removes 'all of' phrasing that the extreme-wording check flags; key unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q09",
+  "set": {
+   "A": "Volunteering costs organisations very little to run each year"
+  },
+  "reason": "third pass: removes 'all of' phrasing that the extreme-wording check flags; key unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE006-Q13",
+  "set": {
+   "A": "Avoid sharing a flat with your close friends",
+   "C": "Choose the cheapest flat that you can find"
+  },
+  "reason": "third pass: removes 'all of' phrasing that the extreme-wording check flags; key unchanged",
+  "confidence": "medium"
+ }
+]

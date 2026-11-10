@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "id": "LI409",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Arranging a Museum Visit",
+  "topic": "arts_and_culture",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li409_arranging_a_museum_visit.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Sarah Fraser",
+        "gender": "female",
+        "accent": "british",
+        "role": "museum education officer"
+      },
+      {
+        "id": "S2",
+        "name": "Paul Reed",
+        "gender": "male",
+        "accent": "american",
+        "role": "history teacher"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Thank you for calling Hartley Museum, Education Department. Sarah Fraser speaking."
+      },
+      {
+        "speaker": "S2",
+        "text": "Hello, my name is Paul Reed. I teach history at Greenfield School, and I'd like to bring a class of Year 9 students to the museum next month."
+      },
+      {
+        "speaker": "S1",
+        "text": "Lovely. How many students are there?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Twenty-eight, plus three adults. We were thinking of Tuesday the eleventh, but that depends on what's available."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let me check. Tuesday the eleventh is fully booked, I'm afraid. We do have Wednesday the twelfth or Friday the fourteenth."
+      },
+      {
+        "speaker": "S2",
+        "text": "Friday's better for us because it's the last lesson before the weekend and students won't miss a test. Can we have the morning?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, ten o'clock. The visit lasts about two hours, including a workshop. What's your topic?"
+      },
+      {
+        "speaker": "S2",
+        "text": "We're studying the Roman occupation of Britain, so the Roman gallery is the main thing."
+      },
+      {
+        "speaker": "S1",
+        "text": "Perfect. We have a workshop called Life in a Roman Fort, where students handle real objects and try on replica armour. It costs three pounds fifty per student, and the adults come free."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's reasonable. Is the workshop in addition to the entrance fee?"
+      },
+      {
+        "speaker": "S1",
+        "text": "School groups don't pay an entrance fee. So the total would be ninety-eight pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "Good. Do you offer a worksheet or something to keep the students focused?"
+      },
+      {
+        "speaker": "S1",
+        "text": "We do. Our teacher pack has a worksheet and a quiz. I can email it to you in advance so you can prepare."
+      },
+      {
+        "speaker": "S2",
+        "text": "That would be very helpful. And how do we get there? The school has no minibus."
+      },
+      {
+        "speaker": "S1",
+        "text": "The number twenty-one bus stops outside the museum. Many schools use it. Alternatively, there's a coach parking bay on Kent Street."
+      },
+      {
+        "speaker": "S2",
+        "text": "We'll use a coach. Is there anything I need to do about accessibility? One of my students uses a wheelchair."
+      },
+      {
+        "speaker": "S1",
+        "text": "The whole museum is accessible, and there's a lift to every floor. However, the Roman gallery has a very narrow door, so I'd suggest she goes through the side entrance. A member of staff will help."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thank you. What should I do to confirm the booking?"
+      },
+      {
+        "speaker": "S1",
+        "text": "I'll send a form today. Return it within seven days with a deposit of twenty pounds, and your place is secure. If you need to cancel, please let us know at least a week before the visit so another school can take your slot."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI409-Q01",
+          "number": 1,
+          "prompt": "What does Paul teach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Geography"
+            },
+            {
+              "id": "B",
+              "text": "Art"
+            },
+            {
+              "id": "C",
+              "text": "History"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I teach history at Greenfield"
+          },
+          "explanation": "The audio says: \"I teach history at Greenfield\".",
+          "uuid": "90d46389-0ea2-55f5-a3fe-10995364f27e"
+        },
+        {
+          "id": "LI409-Q02",
+          "number": 2,
+          "prompt": "Why can the class not visit on Tuesday the eleventh?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is fully booked"
+            },
+            {
+              "id": "B",
+              "text": "The museum is closed"
+            },
+            {
+              "id": "C",
+              "text": "There is no workshop"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Tuesday the eleventh is fully booked"
+          },
+          "explanation": "The audio says: \"Tuesday the eleventh is fully booked\".",
+          "uuid": "b2c92363-f2ba-5ef6-9c1e-8a96f252d8a0"
+        },
+        {
+          "id": "LI409-Q03",
+          "number": 3,
+          "prompt": "Why does Paul prefer Friday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "There are fewer visitors"
+            },
+            {
+              "id": "B",
+              "text": "The workshop is cheaper"
+            },
+            {
+              "id": "C",
+              "text": "Students will not miss a test"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "students won't miss a test"
+          },
+          "explanation": "The audio says: \"students won't miss a test\".",
+          "uuid": "2244b6b2-37fe-5dd6-a8e4-076c1b4b9a51"
+        },
+        {
+          "id": "LI409-Q04",
+          "number": 4,
+          "prompt": "What topic is the class studying?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Medieval castles in northern England"
+            },
+            {
+              "id": "B",
+              "text": "The Roman occupation of Britain"
+            },
+            {
+              "id": "C",
+              "text": "Ancient Egypt and the pyramids"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Roman occupation of Britain"
+          },
+          "explanation": "The audio says: \"Roman occupation of Britain\".",
+          "uuid": "390a23ed-76bf-502e-a95f-c03ddfca4bb2"
+        },
+        {
+          "id": "LI409-Q05",
+          "number": 5,
+          "prompt": "What can students do in the workshop?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paint small replica pots"
+            },
+            {
+              "id": "B",
+              "text": "Try on replica armour"
+            },
+            {
+              "id": "C",
+              "text": "Dig for real objects outside"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "try on replica armour"
+          },
+          "explanation": "The audio says: \"try on replica armour\".",
+          "uuid": "644370a2-ddeb-53d4-aa7d-09194c6143e8"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI409-Q06",
+          "number": 6,
+          "prompt": "How much will the workshop cost altogether?",
+          "options": [
+            {
+              "id": "A",
+              "text": "98 pounds"
+            },
+            {
+              "id": "B",
+              "text": "28 pounds"
+            },
+            {
+              "id": "C",
+              "text": "112 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the total would be ninety-eight pounds"
+          },
+          "explanation": "The audio says: \"the total would be ninety-eight pounds\".",
+          "uuid": "ec820ff0-77f2-55bd-9ff9-af83dc07d978"
+        },
+        {
+          "id": "LI409-Q07",
+          "number": 7,
+          "prompt": "What is in the teacher pack?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A map and tickets"
+            },
+            {
+              "id": "B",
+              "text": "A film and a book"
+            },
+            {
+              "id": "C",
+              "text": "A worksheet and a quiz"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "worksheet and a quiz"
+          },
+          "explanation": "The audio says: \"worksheet and a quiz\".",
+          "uuid": "2092bbea-7860-5418-a6e1-b5c071889eba"
+        },
+        {
+          "id": "LI409-Q08",
+          "number": 8,
+          "prompt": "How will the group travel to the museum?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By bus number 21"
+            },
+            {
+              "id": "B",
+              "text": "By minibus"
+            },
+            {
+              "id": "C",
+              "text": "By coach"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "We'll use a coach"
+          },
+          "explanation": "The audio says: \"We'll use a coach\".",
+          "uuid": "c77f44f2-95bc-5e63-bf56-cfbef98edb09"
+        },
+        {
+          "id": "LI409-Q09",
+          "number": 9,
+          "prompt": "Why will the student in a wheelchair use the side entrance?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Roman gallery door is narrow"
+            },
+            {
+              "id": "B",
+              "text": "The main lift is broken"
+            },
+            {
+              "id": "C",
+              "text": "The main entrance is closed"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "very narrow door"
+          },
+          "explanation": "The audio says: \"very narrow door\".",
+          "uuid": "fe6c3415-f0f7-5099-83cd-274611d1963c"
+        },
+        {
+          "id": "LI409-Q10",
+          "number": 10,
+          "prompt": "What must Paul do to secure the booking?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Phone the museum again tomorrow morning"
+            },
+            {
+              "id": "B",
+              "text": "Return the form with a deposit within seven days"
+            },
+            {
+              "id": "C",
+              "text": "Pay the full price of the workshop today"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Return it within seven days with a deposit of twenty pounds"
+          },
+          "explanation": "The audio says: \"Return it within seven days with a deposit of twenty pounds\".",
+          "uuid": "c46ae271-e552-50fc-a603-5f88593acf76"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "bc472887-2dc5-49d8-b4a8-3da4cd95dc73",
+  "derived": {
+    "word_count": 380,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 3,
+      "B": 3,
+      "C": 4
+    },
+    "content_hash": "e9433e1311ea1445"
+  }
+}

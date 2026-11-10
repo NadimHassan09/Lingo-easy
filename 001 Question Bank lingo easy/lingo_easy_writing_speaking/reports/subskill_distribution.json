@@ -1,0 +1,77 @@
+{
+  "primary": {
+    "writing": {
+      "personal_expression": 2,
+      "narrative_writing": 5,
+      "message_writing": 9,
+      "opinion_writing": 4,
+      "comparison_evaluation": 10,
+      "argument_development": 20,
+      "sentence_construction": 2,
+      "descriptive_writing": 8,
+      "formal_correspondence": 3,
+      "report_writing": 2,
+      "synthesis_summary": 2,
+      "register_adaptation": 3
+    },
+    "speaking": {
+      "personal_information_talk": 4,
+      "narrative_speaking": 7,
+      "interactional_response": 17,
+      "opinion_justification": 5,
+      "abstract_discussion": 13,
+      "extended_turn": 11,
+      "routine_description": 3,
+      "descriptive_speaking": 7,
+      "explanation_clarification": 1,
+      "comparison_evaluation": 2
+    }
+  },
+  "secondary": {
+    "writing": {
+      "sentence_construction": 11,
+      "formal_correspondence": 8,
+      "argument_development": 11,
+      "discourse_organisation": 15,
+      "comparison_evaluation": 9,
+      "register_adaptation": 7,
+      "personal_expression": 1,
+      "narrative_writing": 2,
+      "descriptive_writing": 4,
+      "opinion_writing": 6,
+      "message_writing": 2,
+      "report_writing": 1
+    },
+    "speaking": {
+      "routine_description": 4,
+      "extended_turn": 11,
+      "explanation_clarification": 19,
+      "narrative_speaking": 1,
+      "opinion_justification": 16,
+      "nuance_hedging": 18,
+      "abstract_discussion": 11,
+      "comparison_evaluation": 9,
+      "interactional_response": 1,
+      "descriptive_speaking": 2,
+      "personal_information_talk": 5,
+      "speculation_hypothesis": 8
+    }
+  },
+  "criteria_usage": {
+    "writing": {
+      "W_TA": 70,
+      "W_GRA": 70,
+      "W_LR": 70,
+      "W_CC": 70,
+      "W_REG": 29,
+      "W_ORG": 33
+    },
+    "speaking": {
+      "S_REL": 70,
+      "S_LR": 70,
+      "S_GRA": 70,
+      "S_DEV": 70,
+      "S_FC": 70
+    }
+  }
+}

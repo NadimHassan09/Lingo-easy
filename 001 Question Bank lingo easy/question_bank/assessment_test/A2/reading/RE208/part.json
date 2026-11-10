@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE208",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Helping at an Animal Shelter",
+  "topic": "volunteering_and_community",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "Helping at an Animal Shelter",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Every Saturday, sixteen-year-old Amy volunteers at an animal shelter near her home. The shelter looks after dogs, cats and rabbits that have no home. Some animals were found on the street, and others were given up by families who could not keep them."
+      },
+      {
+        "label": "B",
+        "text": "Amy's day starts at eight o'clock. First, she feeds the animals and cleans their rooms. This takes about two hours. Then she takes the dogs for a walk in the field behind the shelter. The dogs are so excited, says Amy. They run and jump and they love meeting people. After lunch, she plays with the cats and brushes the rabbits."
+      },
+      {
+        "label": "C",
+        "text": "The work can be hard, and sometimes it is sad. Last month, a very thin dog arrived at the shelter, and Amy was worried about him. She gave him food and water every few hours. After three weeks, he was healthy, and a kind family took him home. That was the best day, says Amy."
+      },
+      {
+        "label": "D",
+        "text": "The shelter has twelve paid workers and about forty volunteers. It needs more help, especially in summer when many families go on holiday and leave their pets. To volunteer, you must be at least sixteen years old and fill in a form. There is a short training day, and the shelter provides gloves and a T-shirt."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE208-Q01",
+          "number": 1,
+          "prompt": "How often does Amy volunteer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every day"
+            },
+            {
+              "id": "B",
+              "text": "Once a month"
+            },
+            {
+              "id": "C",
+              "text": "Every Saturday"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "Every Saturday, sixteen-year-old Amy volunteers"
+          },
+          "explanation": "The text says: \"Every Saturday, sixteen-year-old Amy volunteers\".",
+          "uuid": "ed24e617-e57d-53ca-9f03-78eb29cd4b8f"
+        },
+        {
+          "id": "RE208-Q02",
+          "number": 2,
+          "prompt": "Which animals does the shelter look after?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dogs, cats and rabbits"
+            },
+            {
+              "id": "B",
+              "text": "Horses, birds and rabbits"
+            },
+            {
+              "id": "C",
+              "text": "Cats, fish and small birds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "dogs, cats and rabbits"
+          },
+          "explanation": "The text says: \"dogs, cats and rabbits\".",
+          "uuid": "96a9cf10-fe67-5673-adf2-0c9661c3472b"
+        },
+        {
+          "id": "RE208-Q03",
+          "number": 3,
+          "prompt": "What does Amy do first each day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She takes the dogs for a long walk"
+            },
+            {
+              "id": "B",
+              "text": "She plays with the cats and brushes them"
+            },
+            {
+              "id": "C",
+              "text": "She feeds the animals and cleans their rooms"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "she feeds the animals and cleans their rooms"
+          },
+          "explanation": "The text says: \"she feeds the animals and cleans their rooms\".",
+          "uuid": "0cc128b3-7abe-57cf-b6a8-80c66a4c978c"
+        },
+        {
+          "id": "RE208-Q04",
+          "number": 4,
+          "prompt": "How long does the cleaning and feeding take?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About twenty minutes"
+            },
+            {
+              "id": "B",
+              "text": "About two hours"
+            },
+            {
+              "id": "C",
+              "text": "About five hours"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "This takes about two hours"
+          },
+          "explanation": "The text says: \"This takes about two hours\".",
+          "uuid": "3ed41f25-d64f-5fb4-af5a-75f0ff12a1c3"
+        },
+        {
+          "id": "RE208-Q05",
+          "number": 5,
+          "prompt": "What does Amy do after lunch?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She walks the dogs in the field behind"
+            },
+            {
+              "id": "B",
+              "text": "She plays with the cats and brushes the rabbits"
+            },
+            {
+              "id": "C",
+              "text": "She feeds the animals and cleans rooms"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "plays with the cats and brushes the rabbits"
+          },
+          "explanation": "The text says: \"plays with the cats and brushes the rabbits\".",
+          "uuid": "753a267a-45b4-5cfc-8fce-97c26263835c"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE208-Q06",
+          "number": 6,
+          "prompt": "Some animals come from families who could not keep them.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "given up by families who could not keep them"
+          },
+          "explanation": "The text says: \"given up by families who could not keep them\".",
+          "uuid": "17d5ab9c-7a7e-510f-bab1-8176ef97245d"
+        },
+        {
+          "id": "RE208-Q07",
+          "number": 7,
+          "prompt": "The dog that arrived last month was fat.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "a very thin dog arrived"
+          },
+          "explanation": "The text says: \"a very thin dog arrived\".",
+          "uuid": "7d70cab5-3f3b-5fe3-84e0-950552239cf2"
+        },
+        {
+          "id": "RE208-Q08",
+          "number": 8,
+          "prompt": "It took three weeks for the dog to get healthy.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "After three weeks, he was healthy"
+          },
+          "explanation": "The text says: \"After three weeks, he was healthy\".",
+          "uuid": "ab255f71-f805-53ef-b02d-95a0b72199b4"
+        },
+        {
+          "id": "RE208-Q09",
+          "number": 9,
+          "prompt": "The shelter has more paid workers than volunteers.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "twelve paid workers and about forty volunteers"
+          },
+          "explanation": "The text says: \"twelve paid workers and about forty volunteers\".",
+          "uuid": "3a1e0496-cfe9-5b5f-90ad-c1b9a318b9c1"
+        },
+        {
+          "id": "RE208-Q10",
+          "number": 10,
+          "prompt": "Amy wants to be a vet.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "08fb5a8f-523b-511d-bf9c-fd2f7a00f43c"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE208-Q11",
+          "number": 11,
+          "prompt": "The shelter needs more help in _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "winter"
+            },
+            {
+              "id": "B",
+              "text": "spring"
+            },
+            {
+              "id": "C",
+              "text": "summer"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "especially in summer"
+          },
+          "explanation": "The text says: \"especially in summer\".",
+          "uuid": "8012fcb0-4d2e-56ab-8bdc-81607e563813"
+        },
+        {
+          "id": "RE208-Q12",
+          "number": 12,
+          "prompt": "Volunteers must be at least _____ years old.",
+          "options": [
+            {
+              "id": "A",
+              "text": "sixteen"
+            },
+            {
+              "id": "B",
+              "text": "fourteen"
+            },
+            {
+              "id": "C",
+              "text": "eighteen"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "at least sixteen years old"
+          },
+          "explanation": "The text says: \"at least sixteen years old\".",
+          "uuid": "74e77b76-8237-5ace-b117-acf40305c113"
+        },
+        {
+          "id": "RE208-Q13",
+          "number": 13,
+          "prompt": "The shelter provides gloves and a _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "T-shirt"
+            },
+            {
+              "id": "B",
+              "text": "coat"
+            },
+            {
+              "id": "C",
+              "text": "hat"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "gloves and a T-shirt"
+          },
+          "explanation": "The text says: \"gloves and a T-shirt\".",
+          "uuid": "705405d9-1eb3-5404-ad45-388eb95f54ec"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "8ca053d4-18a1-420d-8d66-4a358b64bf8e",
+  "derived": {
+    "word_count": 218,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "71cde7f416315458"
+  }
+}

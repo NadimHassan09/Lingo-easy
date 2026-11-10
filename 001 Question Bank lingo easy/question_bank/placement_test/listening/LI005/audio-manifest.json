@@ -1,0 +1,70 @@
+{
+  "part_id": "LI005",
+  "part_uuid": "fd22741b-4c96-4d15-b92f-d8d8154e16fd",
+  "audio_file": "li005_welcome_to_the_sports_centre.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "845a75b8153894d196799b258be48601e55784e7c03c9740819b222cd59ec274",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dan",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 13.42
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 13.87,
+      "end": 42.4
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 42.85,
+      "end": 67.62
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 68.07,
+      "end": 89.26
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 89.71,
+      "end": 117.84
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 118.29,
+      "end": 139.99
+    }
+  ],
+  "duration_seconds": 139.99,
+  "size_bytes": 1120556,
+  "audio_sha256": "b2f81eb95948d369676a7d7850cf5af78b204eee0fad6243b9e333a7251dd83e",
+  "generated_at": "2026-10-30T20:41:43+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

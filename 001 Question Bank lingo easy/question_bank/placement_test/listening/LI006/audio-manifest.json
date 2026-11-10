@@ -1,0 +1,172 @@
+{
+  "part_id": "LI006",
+  "part_uuid": "82345fa4-7300-461b-bb12-df6023648b44",
+  "audio_file": "li006_planning_a_weekend_trip.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "5bc22b7f3b7ed084f3fd566eeb31971bd21153bbef236aad404926d42fd9da82",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Leah",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Sam",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 4.08
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 4.53,
+      "end": 12.69
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 13.14,
+      "end": 18.52
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 18.97,
+      "end": 26.09
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 26.54,
+      "end": 32.45
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 32.9,
+      "end": 42.93
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 43.38,
+      "end": 47.72
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 48.17,
+      "end": 57.99
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 58.44,
+      "end": 64.27
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 64.72,
+      "end": 73.41
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 73.86,
+      "end": 78.54
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 78.99,
+      "end": 85.54
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 85.99,
+      "end": 88.66
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 89.11,
+      "end": 95.78
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 96.23,
+      "end": 100.98
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 101.43,
+      "end": 109.09
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 109.54,
+      "end": 116.14
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 116.59,
+      "end": 124.99
+    },
+    {
+      "index": 18,
+      "speaker": "S1",
+      "start": 125.44,
+      "end": 132.25
+    },
+    {
+      "index": 19,
+      "speaker": "S2",
+      "start": 132.7,
+      "end": 140.02
+    },
+    {
+      "index": 20,
+      "speaker": "S1",
+      "start": 140.47,
+      "end": 145.2
+    }
+  ],
+  "duration_seconds": 145.2,
+  "size_bytes": 1162220,
+  "audio_sha256": "d3229837c3f08d3f63b1c0187a4c8b9b64ed370cf4b0f80d620715295c3b31ef",
+  "generated_at": "2026-10-30T20:59:11+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

@@ -1,0 +1,505 @@
+{
+  "schema_version": "1.0",
+  "id": "LI410",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Group Project: Renewable Energy",
+  "topic": "energy",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li410_group_project_renewable_energy.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Ahmed",
+        "gender": "male",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Chloe",
+        "gender": "female",
+        "accent": "australian",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Raj",
+        "gender": "male",
+        "accent": "british",
+        "role": "student"
+      },
+      {
+        "id": "S4",
+        "name": "Ivy",
+        "gender": "female",
+        "accent": "american",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Welcome, all three of you. Let's review the plan for your group project on renewable energy."
+      },
+      {
+        "speaker": "S2",
+        "text": "We've decided to compare wind, solar and hydroelectric power for a country like Scotland."
+      },
+      {
+        "speaker": "S3",
+        "text": "My concern is that hydroelectric is already well established, so there's less to say about it. Wouldn't tidal power be more original?"
+      },
+      {
+        "speaker": "S4",
+        "text": "Tidal is exciting, but there's far less data. I think we'd struggle to find reliable figures."
+      },
+      {
+        "speaker": "S1",
+        "text": "Ivy has a point. Tidal power has potential, but projects are few, and the data is limited. Could you include it briefly as a future option?"
+      },
+      {
+        "speaker": "S2",
+        "text": "A single slide at the end, maybe."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good. Now, what criteria will you use to compare the three types?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Cost per unit of electricity, reliability and environmental impact."
+      },
+      {
+        "speaker": "S3",
+        "text": "I'd like to add public acceptance. In Scotland, some people oppose wind farms because they dislike how they look."
+      },
+      {
+        "speaker": "S1",
+        "text": "Excellent addition, Raj. That's a human factor which engineers often forget. Chloe, who'll do the cost analysis?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I will. I found a report from the government with the figures. The problem is that it's from 2019, and prices have fallen since then."
+      },
+      {
+        "speaker": "S1",
+        "text": "Then check for a more recent source, and if you can't find one, say clearly that the data is old. What about reliability?"
+      },
+      {
+        "speaker": "S4",
+        "text": "I'm taking that. Solar is weak in Scotland in winter because there are only a few hours of daylight. Wind is stronger in winter but varies from day to day."
+      },
+      {
+        "speaker": "S1",
+        "text": "Right. Remember that reliability can be improved with storage, such as batteries. Don't ignore that."
+      },
+      {
+        "speaker": "S4",
+        "text": "I hadn't planned to cover storage in detail."
+      },
+      {
+        "speaker": "S1",
+        "text": "A short section would be useful. It makes your conclusions more realistic."
+      },
+      {
+        "speaker": "S3",
+        "text": "I'm doing environmental impact and public acceptance. I'm particularly interested in the effect of wind turbines on birds."
+      },
+      {
+        "speaker": "S1",
+        "text": "Careful with that. Studies disagree about the size of the effect, and some old numbers are exaggerated. Use recent peer-reviewed sources."
+      },
+      {
+        "speaker": "S3",
+        "text": "Understood. What format should the final report be?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Three thousand words, plus a presentation of fifteen minutes. The report is due on the twelfth of December and the presentation takes place in the following week. Each of you must write a section and sign it, but the introduction and conclusion should be written together."
+      },
+      {
+        "speaker": "S2",
+        "text": "What about the mark? Is it individual?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Sixty per cent is for the group result and forty per cent is individual. I'll ask each of you to complete a short form about the group's teamwork as well."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI410-Q01",
+          "number": 1,
+          "prompt": "What will the students compare?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Coal, gas and nuclear power"
+            },
+            {
+              "id": "B",
+              "text": "Wind, solar and hydroelectric power"
+            },
+            {
+              "id": "C",
+              "text": "Wind, tidal and nuclear power"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "wind, solar and hydroelectric power"
+          },
+          "explanation": "The audio says: \"wind, solar and hydroelectric power\".",
+          "uuid": "ac00e36f-3048-5c7d-99a1-b9d08b04484d"
+        },
+        {
+          "id": "LI410-Q02",
+          "number": 2,
+          "prompt": "What does Raj suggest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Studying tidal power instead of hydroelectric"
+            },
+            {
+              "id": "B",
+              "text": "Studying only wind power in Scotland"
+            },
+            {
+              "id": "C",
+              "text": "Adding nuclear power to the comparison"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "tidal power be more original"
+          },
+          "explanation": "The audio says: \"tidal power be more original\".",
+          "uuid": "16da302f-ef5f-5b17-8ac1-39050668076d"
+        },
+        {
+          "id": "LI410-Q03",
+          "number": 3,
+          "prompt": "Why does Ivy disagree with Raj?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tidal power is too old"
+            },
+            {
+              "id": "B",
+              "text": "There is little reliable data"
+            },
+            {
+              "id": "C",
+              "text": "Tidal power is too cheap"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "far less data"
+          },
+          "explanation": "The audio says: \"far less data\".",
+          "uuid": "eb910685-eebe-5cbd-ba59-1c97e9c5f2d6"
+        },
+        {
+          "id": "LI410-Q04",
+          "number": 4,
+          "prompt": "What is the compromise about tidal power?",
+          "options": [
+            {
+              "id": "A",
+              "text": "One slide at the end"
+            },
+            {
+              "id": "B",
+              "text": "A paragraph in the report"
+            },
+            {
+              "id": "C",
+              "text": "Leaving it out of the project"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "A single slide at the end"
+          },
+          "explanation": "The audio says: \"A single slide at the end\".",
+          "uuid": "f638d500-ad03-529a-bd1d-2861ef1750ad"
+        },
+        {
+          "id": "LI410-Q05",
+          "number": 5,
+          "prompt": "Which criterion does Raj add?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cost per unit of energy"
+            },
+            {
+              "id": "B",
+              "text": "Impact on local jobs"
+            },
+            {
+              "id": "C",
+              "text": "Public acceptance"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'd like to add public acceptance"
+          },
+          "explanation": "The audio says: \"I'd like to add public acceptance\".",
+          "uuid": "3d1a76a8-2e27-5550-ac03-c536f39867b1"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI410-Q06",
+          "number": 6,
+          "prompt": "What is the problem with Chloe's cost report?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is from 2019"
+            },
+            {
+              "id": "B",
+              "text": "It is too short"
+            },
+            {
+              "id": "C",
+              "text": "It is from another country"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "it's from 2019"
+          },
+          "explanation": "The audio says: \"it's from 2019\".",
+          "uuid": "62ca536c-f5e5-569d-b8de-1ba2cc32780a"
+        },
+        {
+          "id": "LI410-Q07",
+          "number": 7,
+          "prompt": "Why is solar power unreliable in Scotland?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It rains almost every day of the year"
+            },
+            {
+              "id": "B",
+              "text": "There are few hours of daylight in winter"
+            },
+            {
+              "id": "C",
+              "text": "Panels are too expensive to install there"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "only a few hours of daylight"
+          },
+          "explanation": "The audio says: \"only a few hours of daylight\".",
+          "uuid": "c2d964f8-79db-5287-8d68-e5eb3310f282"
+        },
+        {
+          "id": "LI410-Q08",
+          "number": 8,
+          "prompt": "Why does the tutor want a section on storage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It makes the conclusions more realistic"
+            },
+            {
+              "id": "B",
+              "text": "It reduces the word count of the report"
+            },
+            {
+              "id": "C",
+              "text": "It is part of the official marking scheme"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It makes your conclusions more realistic"
+          },
+          "explanation": "The audio says: \"It makes your conclusions more realistic\".",
+          "uuid": "fb3c4b58-84b7-5a27-9ebf-7b20dcd686ff"
+        },
+        {
+          "id": "LI410-Q09",
+          "number": 9,
+          "prompt": "What does the tutor warn about studies on wind turbines and birds?",
+          "options": [
+            {
+              "id": "A",
+              "text": "There are only a few studies, all from Asia"
+            },
+            {
+              "id": "B",
+              "text": "They disagree and some old numbers are exaggerated"
+            },
+            {
+              "id": "C",
+              "text": "They are all recent and come to the same result"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Studies disagree about the size of the effect"
+          },
+          "explanation": "The audio says: \"Studies disagree about the size of the effect\".",
+          "uuid": "ec1a8d66-8530-567a-bba5-1460d0539150"
+        },
+        {
+          "id": "LI410-Q10",
+          "number": 10,
+          "prompt": "How are the marks divided?",
+          "options": [
+            {
+              "id": "A",
+              "text": "50 per cent group and 50 per cent individual"
+            },
+            {
+              "id": "B",
+              "text": "All marks are individual"
+            },
+            {
+              "id": "C",
+              "text": "60 per cent group and 40 per cent individual"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Sixty per cent is for the group result"
+          },
+          "explanation": "The audio says: \"Sixty per cent is for the group result\".",
+          "uuid": "a016b3aa-e89e-54a6-a8b7-151d17eeb731"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "4e49b56c-9d10-4610-bbbf-7197d755a71f",
+  "derived": {
+    "word_count": 402,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "content_hash": "f44f98541f994983"
+  }
+}

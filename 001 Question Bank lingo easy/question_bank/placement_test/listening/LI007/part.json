@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0",
+  "id": "LI007",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Opening a Bank Account",
+  "topic": "shopping_and_money",
+  "profile": "intermediate",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li007_opening_a_bank_account.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Mr Evans",
+        "gender": "male",
+        "accent": "british",
+        "role": "bank clerk"
+      },
+      {
+        "id": "S2",
+        "name": "Ms Tanaka",
+        "gender": "female",
+        "accent": "american",
+        "role": "customer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, how can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hello. I've just moved to the city to start a new job, and I'd like to open a bank account."
+      },
+      {
+        "speaker": "S1",
+        "text": "Of course. Are you interested in a current account or a savings account?"
+      },
+      {
+        "speaker": "S2",
+        "text": "A current account first. I need something for my salary and bills."
+      },
+      {
+        "speaker": "S1",
+        "text": "We have two types. The standard account has no monthly fee, but you pay a small charge if you go overdrawn. The premium account costs five pounds a month, and it includes travel insurance and a larger overdraft."
+      },
+      {
+        "speaker": "S2",
+        "text": "I travel a lot for work, so the premium might be worth it. What does the travel insurance cover?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It covers medical costs abroad and lost luggage, up to a limit of two thousand pounds, but it doesn't cover pre-existing medical conditions."
+      },
+      {
+        "speaker": "S2",
+        "text": "I see. I'll think about that. What do I need to open the account?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Two documents: proof of identity, such as a passport, and proof of address. A utility bill is usually accepted, but since you've just moved, you can bring a letter from your employer or your tenancy agreement."
+      },
+      {
+        "speaker": "S2",
+        "text": "I have my tenancy agreement with me, but it's in my other bag in the car. Can I come back this afternoon?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Certainly. We're open until four. Alternatively, you could start the application online and upload a photo of the documents."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's convenient. How long does it take until I can use the account?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Usually about a week. You'll receive a debit card in the post, and your PIN comes separately a day later, for security."
+      },
+      {
+        "speaker": "S2",
+        "text": "Does the bank have a mobile app?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, and it's quite good. You can check your balance, transfer money and freeze your card if you lose it. Notifications tell you when money comes in or goes out."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's useful. And what about savings?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Our online saver pays three per cent interest, though the rate can change, and you can withdraw money at any time. There's also a fixed account at four point two per cent for twelve months, but you can't touch the money until the end."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'll look at savings later; I'd prefer to settle in first. One more thing: I'd like to send money to my family abroad every month. Are there charges?"
+      },
+      {
+        "speaker": "S1",
+        "text": "For international transfers, we charge a flat fee of three pounds if you use the app, or ten pounds at a branch. The exchange rate is the market rate plus a margin of one per cent."
+      },
+      {
+        "speaker": "S2",
+        "text": "The app, then. Thank you, you've been very helpful."
+      },
+      {
+        "speaker": "S1",
+        "text": "Not at all. If you decide on the premium account, mention it when you come back, and I'll arrange everything."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI007-Q01",
+          "number": 1,
+          "prompt": "Why does Ms Tanaka want a bank account?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She is opening a small business here"
+            },
+            {
+              "id": "B",
+              "text": "She is a student at the university"
+            },
+            {
+              "id": "C",
+              "text": "She has moved to start a new job"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I'd like to open a bank account"
+          },
+          "explanation": "The audio says: \"I'd like to open a bank account\".",
+          "uuid": "8e804e37-0d3d-57bf-ab5b-803a6c32e556"
+        },
+        {
+          "id": "LI007-Q02",
+          "number": 2,
+          "prompt": "What is the disadvantage of the standard account?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A small charge if you go overdrawn"
+            },
+            {
+              "id": "B",
+              "text": "A fixed monthly fee of five pounds"
+            },
+            {
+              "id": "C",
+              "text": "A debit card that costs extra"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "you pay a small charge if you go overdrawn"
+          },
+          "explanation": "The audio says: \"you pay a small charge if you go overdrawn\".",
+          "uuid": "3772847f-caaa-58db-99ab-18e54e88c2d3"
+        },
+        {
+          "id": "LI007-Q03",
+          "number": 3,
+          "prompt": "Why might the premium account be worth it for her?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She travels a lot for work"
+            },
+            {
+              "id": "B",
+              "text": "She wants a savings account"
+            },
+            {
+              "id": "C",
+              "text": "She will live abroad"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I travel a lot for work"
+          },
+          "explanation": "The audio says: \"I travel a lot for work\".",
+          "uuid": "794ac500-0e6b-5019-9f36-2b931ce5f8fa"
+        },
+        {
+          "id": "LI007-Q04",
+          "number": 4,
+          "prompt": "What does the travel insurance not cover?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lost luggage on international flights"
+            },
+            {
+              "id": "B",
+              "text": "Pre-existing medical conditions"
+            },
+            {
+              "id": "C",
+              "text": "Medical costs in hospitals abroad"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "doesn't cover pre-existing medical conditions"
+          },
+          "explanation": "The audio says: \"doesn't cover pre-existing medical conditions\".",
+          "uuid": "83898aba-691d-5a15-b6b5-9a749a84dd4d"
+        },
+        {
+          "id": "LI007-Q05",
+          "number": 5,
+          "prompt": "Which documents are needed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Proof of identity and proof of address"
+            },
+            {
+              "id": "B",
+              "text": "A passport and a recent photograph"
+            },
+            {
+              "id": "C",
+              "text": "A letter from the bank and a payslip"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "proof of identity, such as a passport, and proof of address"
+          },
+          "explanation": "The audio says: \"proof of identity, such as a passport, and proof of address\".",
+          "uuid": "16bcee2d-9a27-5e50-8c39-53d2aa980e99"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI007-Q06",
+          "number": 6,
+          "prompt": "Why can she not provide proof of address now?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Her tenancy agreement is in the car"
+            },
+            {
+              "id": "B",
+              "text": "She does not have an address yet"
+            },
+            {
+              "id": "C",
+              "text": "She has lost the documents on the way"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "in my other bag in the car"
+          },
+          "explanation": "The audio says: \"in my other bag in the car\".",
+          "uuid": "34ccb009-0921-515f-8aad-1cf57bba8c4b"
+        },
+        {
+          "id": "LI007-Q07",
+          "number": 7,
+          "prompt": "How long does it take before she can use the account?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About a week"
+            },
+            {
+              "id": "B",
+              "text": "About a day"
+            },
+            {
+              "id": "C",
+              "text": "About a month"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Usually about a week"
+          },
+          "explanation": "The audio says: \"Usually about a week\".",
+          "uuid": "22ffdb43-8688-571c-acc2-b482a7a545fc"
+        },
+        {
+          "id": "LI007-Q08",
+          "number": 8,
+          "prompt": "Why does the PIN arrive separately?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It takes longer to print"
+            },
+            {
+              "id": "B",
+              "text": "For security"
+            },
+            {
+              "id": "C",
+              "text": "It is cheaper"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "separately a day later, for security"
+          },
+          "explanation": "The audio says: \"separately a day later, for security\".",
+          "uuid": "b6baeb20-bd56-5e29-9902-d8ce2b0e634e"
+        },
+        {
+          "id": "LI007-Q09",
+          "number": 9,
+          "prompt": "What is true of the fixed savings account?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The rate can change at any time"
+            },
+            {
+              "id": "B",
+              "text": "The money cannot be touched until the end"
+            },
+            {
+              "id": "C",
+              "text": "Money can be withdrawn at any time"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "can't touch the money until the end"
+          },
+          "explanation": "The audio says: \"can't touch the money until the end\".",
+          "uuid": "0b8e7bbc-861e-5717-aa6e-7c957d90a2d7"
+        },
+        {
+          "id": "LI007-Q10",
+          "number": 10,
+          "prompt": "How will Ms Tanaka send money abroad?",
+          "options": [
+            {
+              "id": "A",
+              "text": "At a branch, for a fee of ten pounds"
+            },
+            {
+              "id": "B",
+              "text": "By sending a cheque through the post"
+            },
+            {
+              "id": "C",
+              "text": "Using the app, for a flat fee of three pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The app, then"
+          },
+          "explanation": "The audio says: \"The app, then\".",
+          "uuid": "5378fd74-cc41-51de-af35-2ea31a0da01d"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "8b01d5d5-596b-4dc1-a1b2-2610b18dabc8",
+  "derived": {
+    "word_count": 439,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 3,
+      "B2": 4,
+      "C1": 2,
+      "C2": 0
+    },
+    "mean_band": 5.55,
+    "answer_counts": {
+      "A": 5,
+      "B": 3,
+      "C": 2
+    },
+    "content_hash": "dd12c47e4a96f6af"
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "id": "LI604",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "The Evolution of Cooperation",
+  "topic": "animals_and_nature",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li604_the_evolution_of_cooperation.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Professor Reed",
+        "gender": "male",
+        "accent": "british",
+        "role": "evolutionary biology lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Darwin's theory of natural selection seems to predict that organisms should be selfish: those that put their own survival and reproduction first should outcompete those that help others. Yet cooperation is everywhere in nature, from ants that die to defend the colony to humans who share food with strangers. Today I'll outline the main explanations that biologists have proposed for this apparent paradox."
+      },
+      {
+        "speaker": "S1",
+        "text": "The first is kin selection, formalised by William Hamilton in the 1960s. His insight was that natural selection acts on genes, and that a gene for helping relatives can spread if the cost to the helper is outweighed by the benefit to the relative, multiplied by how closely they are related. Siblings share on average half their genes, cousins an eighth. Hamilton's rule helps explain why worker ants and bees, which are unusually closely related, sacrifice their own reproduction. However, it cannot explain cooperation between unrelated individuals."
+      },
+      {
+        "speaker": "S1",
+        "text": "For that, we need the second explanation: reciprocal altruism, proposed by Robert Trivers. If two individuals interact repeatedly, each can benefit from helping the other, provided the favour is returned. Vampire bats provide a classic example. A bat that fails to find food for two nights can starve, so bats regurgitate blood to feed roost-mates who've been unsuccessful. Researchers found that bats are more likely to help those that have helped them before, and that the pattern is not only explained by relatedness."
+      },
+      {
+        "speaker": "S1",
+        "text": "Reciprocity, though, invites cheating. Why not accept help and never give it? In the 1980s, the political scientist Robert Axelrod ran a famous computer tournament to find the best strategy for a repeated game called the prisoner's dilemma. The winner was strikingly simple: tit for tat. It starts by cooperating, then copies whatever the other player did last time. It's nice, retaliatory, forgiving and clear. The tournament showed that cooperation can emerge among selfish players, but only if they expect to meet again. When interactions are one-off, cheating pays."
+      },
+      {
+        "speaker": "S1",
+        "text": "The third mechanism is reputation. In humans, and perhaps some other species, individuals benefit from being seen as cooperative. This can explain why people give to charity more generously when others are watching. Experiments even show that images of eyes on a poster can increase honesty in a university coffee room, where people pay into a box for their drinks. But I'd urge caution: some of these findings have proved harder to replicate than originally claimed."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, group selection. This idea, that groups containing more cooperators outcompete selfish groups, was widely dismissed in the 1970s, but a modified version has regained support. Its defenders argue that, where groups compete, traits that benefit the group can spread even if they carry a cost to individuals. Critics retort that the same results can be explained by kin selection, so the disagreement may be partly about terminology."
+      },
+      {
+        "speaker": "S1",
+        "text": "What I'd like you to take away is that these explanations aren't rivals so much as complementary tools; different ones carry more weight in different species. For the seminar, read Axelrod's original paper and consider whether human cooperation is best explained by one mechanism or several."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI604-Q01",
+          "number": 1,
+          "prompt": "What problem do the explanations in the lecture address?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Why animals compete with each other for food and territory"
+            },
+            {
+              "id": "B",
+              "text": "Why cooperation exists when selection seems to favour selfishness"
+            },
+            {
+              "id": "C",
+              "text": "Why many species of animal have become extinct recently"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "gist",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "this apparent paradox"
+          },
+          "explanation": "The audio says: \"this apparent paradox\".",
+          "uuid": "2d978802-6e0d-5f94-aa3f-d8579f4ae158"
+        },
+        {
+          "id": "LI604-Q02",
+          "number": 2,
+          "prompt": "According to Hamilton, when can a gene for helping relatives spread?",
+          "options": [
+            {
+              "id": "A",
+              "text": "When the helper gains a direct benefit for itself later on"
+            },
+            {
+              "id": "B",
+              "text": "When relatives happen to be living close to the helper"
+            },
+            {
+              "id": "C",
+              "text": "When the benefit, weighted by relatedness, outweighs the cost"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "multiplied by how closely they are related"
+          },
+          "explanation": "The audio says: \"multiplied by how closely they are related\".",
+          "uuid": "af41da29-e07b-50ed-bd2a-3702104f81c5"
+        },
+        {
+          "id": "LI604-Q03",
+          "number": 3,
+          "prompt": "What limitation of kin selection does the lecturer give?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It cannot explain cooperation between unrelated individuals"
+            },
+            {
+              "id": "B",
+              "text": "It applies only to insects that live in large colonies"
+            },
+            {
+              "id": "C",
+              "text": "It was largely disproved by research in the 1960s"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "cannot explain cooperation between unrelated individuals"
+          },
+          "explanation": "The audio says: \"cannot explain cooperation between unrelated individuals\".",
+          "uuid": "a7ee5cf2-f5e5-5c08-8779-2e7986544e18"
+        },
+        {
+          "id": "LI604-Q04",
+          "number": 4,
+          "prompt": "What do vampire bats do for unsuccessful roost-mates?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They lead them to places with prey"
+            },
+            {
+              "id": "B",
+              "text": "They guard the roost against predators"
+            },
+            {
+              "id": "C",
+              "text": "They share food by regurgitating blood"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "regurgitate blood to feed roost-mates"
+          },
+          "explanation": "The audio says: \"regurgitate blood to feed roost-mates\".",
+          "uuid": "b4b32b09-644c-54a9-81f1-6e8f34c5549f"
+        },
+        {
+          "id": "LI604-Q05",
+          "number": 5,
+          "prompt": "What shows that relatedness is not the only factor in bat cooperation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bats help only their siblings and offspring"
+            },
+            {
+              "id": "B",
+              "text": "Bats help only individuals from other colonies"
+            },
+            {
+              "id": "C",
+              "text": "Bats help those who have helped them before"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "more likely to help those that have helped them before"
+          },
+          "explanation": "The audio says: \"more likely to help those that have helped them before\".",
+          "uuid": "63e945db-cde0-5568-a95f-da9180458906"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI604-Q06",
+          "number": 6,
+          "prompt": "How does tit for tat work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It cooperates first, then copies the other player's last move"
+            },
+            {
+              "id": "B",
+              "text": "It cheats first, then copies the other player"
+            },
+            {
+              "id": "C",
+              "text": "It cooperates, but punishes cheats without forgiving"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "copies whatever the other player did last time"
+          },
+          "explanation": "The audio says: \"copies whatever the other player did last time\".",
+          "uuid": "a6a0dfc4-4120-5e41-9cdd-731fff154176"
+        },
+        {
+          "id": "LI604-Q07",
+          "number": 7,
+          "prompt": "When can cooperation emerge among selfish players, according to Axelrod's tournament?",
+          "options": [
+            {
+              "id": "A",
+              "text": "When they are related to each other"
+            },
+            {
+              "id": "B",
+              "text": "When they expect to meet again"
+            },
+            {
+              "id": "C",
+              "text": "When they are watched by other players"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "only if they expect to meet again"
+          },
+          "explanation": "The audio says: \"only if they expect to meet again\".",
+          "uuid": "443bdf94-6d33-5c3c-9829-0aab541369e2"
+        },
+        {
+          "id": "LI604-Q08",
+          "number": 8,
+          "prompt": "What is the lecturer's attitude to the eyes-on-a-poster experiments?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cautious, because replication has been difficult"
+            },
+            {
+              "id": "B",
+              "text": "Convinced they prove reputation matters"
+            },
+            {
+              "id": "C",
+              "text": "Dismissive because they are unscientific"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "harder to replicate than originally claimed"
+          },
+          "explanation": "The audio says: \"harder to replicate than originally claimed\".",
+          "uuid": "24a2851a-2c68-5444-851e-dde0eb82161e"
+        },
+        {
+          "id": "LI604-Q09",
+          "number": 9,
+          "prompt": "What is said about the modern form of group selection?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It was not discussed at all by biologists during the 1970s"
+            },
+            {
+              "id": "B",
+              "text": "It has been rejected by most evolutionary biologists"
+            },
+            {
+              "id": "C",
+              "text": "Critics argue kin selection could explain the same results"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "partly about terminology"
+          },
+          "explanation": "The audio says: \"partly about terminology\".",
+          "uuid": "cff813c9-d684-5127-8bc8-07255d5dcd15"
+        },
+        {
+          "id": "LI604-Q10",
+          "number": 10,
+          "prompt": "How does the lecturer view the explanations overall?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As competing theories"
+            },
+            {
+              "id": "B",
+              "text": "As mostly outdated"
+            },
+            {
+              "id": "C",
+              "text": "As complementary tools"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "gist",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "so much as complementary tools"
+          },
+          "explanation": "The audio says: \"so much as complementary tools\".",
+          "uuid": "7af11751-683a-5f3b-a187-aee4ae61f674"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "c4f49c1c-f7df-4a20-befc-100fc68f64d4",
+  "derived": {
+    "word_count": 514,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 3,
+      "B": 2,
+      "C": 5
+    },
+    "content_hash": "f1b9adf34c209316"
+  }
+}

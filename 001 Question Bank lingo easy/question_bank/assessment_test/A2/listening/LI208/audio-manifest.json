@@ -1,0 +1,40 @@
+{
+  "part_id": "LI208",
+  "part_uuid": "2a810ea2-1dc8-46eb-89be-bd2e979f38b9",
+  "audio_file": "li208_a_message_about_dad_s_party.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "ed341fabedac61887b35851a7eca2e2363ca9f176d37dbaec808d6e7434aad7d",
+  "voices": {
+    "S1": {
+      "voice": "en-NZ-MitchellNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Joe",
+      "gender": "male",
+      "accent": "new_zealand",
+      "voice": "en-NZ-MitchellNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 75.82
+    }
+  ],
+  "duration_seconds": 75.82,
+  "size_bytes": 607148,
+  "audio_sha256": "a56de74914f893409c1b5e34655a6e134c5672202eb6c3942ddc8c8ec97c8692",
+  "generated_at": "2026-10-30T20:49:20+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

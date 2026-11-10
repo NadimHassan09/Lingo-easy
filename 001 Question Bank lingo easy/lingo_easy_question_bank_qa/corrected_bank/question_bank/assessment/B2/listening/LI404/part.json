@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0",
+  "id": "LI404",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Joining a Gym",
+  "topic": "sports_and_fitness",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li404_joining_a_gym.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dan",
+        "gender": "male",
+        "accent": "british",
+        "role": "gym manager"
+      },
+      {
+        "id": "S2",
+        "name": "Ella",
+        "gender": "female",
+        "accent": "american",
+        "role": "prospective member"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Hello, welcome to PowerFit. Are you interested in joining?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, I am. I've been looking at a few gyms in the area. What types of membership do you offer?"
+      },
+      {
+        "speaker": "S1",
+        "text": "We have three. The basic membership is thirty pounds a month and gives you access to the gym floor and the changing rooms. The standard one is forty-five pounds and also includes classes. And the premium is sixty, with the pool and sauna."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'm mostly interested in classes, particularly yoga and spinning. Is the standard one enough?"
+      },
+      {
+        "speaker": "S1",
+        "text": "For classes, yes. Though I should mention that spinning is very popular, so you need to book at least a day ahead."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's fine. How long is the contract?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Twelve months. But if you pay for the full year at once, you get two months free."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'd rather not pay everything at once. Can I cancel if I move?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, with one month's notice. If you move more than twenty miles away, there's no cancellation fee at all. Otherwise it's fifty pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "Okay. A friend of mine, Sophie, is a member here. Does she get anything for recommending me?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Ah, yes. If you mention her name when you sign up, you get your first month at half price and she gets a free month too."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. I'd also like to see the studio where the classes are held."
+      },
+      {
+        "speaker": "S1",
+        "text": "Of course. I'll show you the studio in a moment. It was refurbished last spring and has air conditioning. However, there's a small problem this week. The yoga class on Thursday has moved from the studio to the sports hall, because the floor is being repaired."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's not a problem. And what are the opening hours?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Monday to Friday, six in the morning until ten at night. On weekends, it's eight until six. Actually, I should correct that. Sunday is eight until four, because we close earlier."
+      },
+      {
+        "speaker": "S2",
+        "text": "Good to know. Is there parking?"
+      },
+      {
+        "speaker": "S1",
+        "text": "There's a car park behind the building. It's free for the first two hours, then two pounds an hour. Alternatively, there's a bike shelter."
+      },
+      {
+        "speaker": "S2",
+        "text": "I cycle, so that suits me. One last question. Is there a joining fee?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Normally it's twenty pounds, but this month we're waiving it."
+      },
+      {
+        "speaker": "S2",
+        "text": "Excellent. Then I think I'll sign up for the standard membership today."
+      },
+      {
+        "speaker": "S1",
+        "text": "Wonderful. Let me get the form."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI404-Q01",
+          "number": 1,
+          "prompt": "What does Ella mainly want to use at the gym?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The pool"
+            },
+            {
+              "id": "B",
+              "text": "The classes"
+            },
+            {
+              "id": "C",
+              "text": "The gym floor"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "mostly interested in classes"
+          },
+          "explanation": "The audio says: \"mostly interested in classes\".",
+          "uuid": "30cb6114-48b9-59bb-b837-f5a030aca179"
+        },
+        {
+          "id": "LI404-Q02",
+          "number": 2,
+          "prompt": "What advice does Dan give about spinning?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Arrive an hour early"
+            },
+            {
+              "id": "B",
+              "text": "Bring your own bike"
+            },
+            {
+              "id": "C",
+              "text": "Book at least a day ahead"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "book at least a day ahead"
+          },
+          "explanation": "The audio says: \"book at least a day ahead\".",
+          "uuid": "928e74a5-3263-591d-abe9-be187a4c7462"
+        },
+        {
+          "id": "LI404-Q03",
+          "number": 3,
+          "prompt": "What is the benefit of paying for the year at once?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two months are free"
+            },
+            {
+              "id": "B",
+              "text": "The price drops by half"
+            },
+            {
+              "id": "C",
+              "text": "The joining fee is removed"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "you get two months free"
+          },
+          "explanation": "The audio says: \"you get two months free\".",
+          "uuid": "d3dfb764-7e4e-5332-b51b-c7dd2a56dd61"
+        },
+        {
+          "id": "LI404-Q04",
+          "number": 4,
+          "prompt": "When is there no cancellation fee?",
+          "options": [
+            {
+              "id": "A",
+              "text": "If the member is ill for more than a month"
+            },
+            {
+              "id": "B",
+              "text": "If the member cancels after six full months"
+            },
+            {
+              "id": "C",
+              "text": "If the member moves more than twenty miles away"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "no cancellation fee at all"
+          },
+          "explanation": "The audio says: \"no cancellation fee at all\".",
+          "uuid": "88047067-7e9e-5e39-b398-263cd4d3d748"
+        },
+        {
+          "id": "LI404-Q05",
+          "number": 5,
+          "prompt": "What does Ella get for mentioning Sophie?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Her first month at half price"
+            },
+            {
+              "id": "B",
+              "text": "A free month on the premium plan"
+            },
+            {
+              "id": "C",
+              "text": "A free guest pass for Sophie"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "your first month at half price"
+          },
+          "explanation": "The audio says: \"your first month at half price\".",
+          "uuid": "e5c538bc-6318-5246-884c-8ad7bfef9e1c"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI404-Q06",
+          "number": 6,
+          "prompt": "What is the problem this week?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The pool is closed"
+            },
+            {
+              "id": "B",
+              "text": "The Thursday yoga class has moved"
+            },
+            {
+              "id": "C",
+              "text": "The studio has no air conditioning"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "moved from the studio to the sports hall"
+          },
+          "explanation": "The audio says: \"moved from the studio to the sports hall\".",
+          "uuid": "762a92ee-4798-566a-a41b-aa4756c74fa0"
+        },
+        {
+          "id": "LI404-Q07",
+          "number": 7,
+          "prompt": "When does the gym close on Sundays?",
+          "options": [
+            {
+              "id": "A",
+              "text": "At 6.00"
+            },
+            {
+              "id": "B",
+              "text": "At 4.00"
+            },
+            {
+              "id": "C",
+              "text": "At 10.00"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Sunday is eight until four"
+          },
+          "explanation": "The audio says: \"Sunday is eight until four\".",
+          "uuid": "6c403d1d-c205-5354-98a7-e47fc9f4c2eb"
+        },
+        {
+          "id": "LI404-Q08",
+          "number": 8,
+          "prompt": "How much does parking cost after the first two hours?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is free"
+            },
+            {
+              "id": "B",
+              "text": "2 pounds a day"
+            },
+            {
+              "id": "C",
+              "text": "2 pounds an hour"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "then two pounds an hour"
+          },
+          "explanation": "The audio says: \"then two pounds an hour\".",
+          "uuid": "e17747e8-7812-53ad-bc8c-405a4709797b"
+        },
+        {
+          "id": "LI404-Q09",
+          "number": 9,
+          "prompt": "What happens to the joining fee this month?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is doubled"
+            },
+            {
+              "id": "B",
+              "text": "It is waived"
+            },
+            {
+              "id": "C",
+              "text": "It is paid monthly"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "this month we're waiving it"
+          },
+          "explanation": "The audio says: \"this month we're waiving it\".",
+          "uuid": "f3e78994-ddba-5435-b9be-ce465f38c3de"
+        },
+        {
+          "id": "LI404-Q10",
+          "number": 10,
+          "prompt": "Which membership does Ella choose?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Basic"
+            },
+            {
+              "id": "B",
+              "text": "Premium"
+            },
+            {
+              "id": "C",
+              "text": "Standard"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "sign up for the standard membership today"
+          },
+          "explanation": "The audio says: \"sign up for the standard membership today\".",
+          "uuid": "1af72493-6dcf-5b0b-a3da-068466287ae3"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "7483f3a4-d1c3-47ed-849b-aeeaa1fb4f0d",
+  "derived": {
+    "word_count": 384,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 2,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "9cd332f1475b734c"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "part_id": "LI202",
+  "part_uuid": "d6bc1c13-09bc-4132-8c7e-d8c82243ce4c",
+  "audio_file": "li202_the_cooking_class.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "908fac1766340805ff2883bd3e7956f112bd174c55ee09532ad1869ee64e758d",
+  "voices": {
+    "S1": {
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Chef Rosa",
+      "gender": "female",
+      "accent": "american",
+      "voice": "en-US-JennyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 69.34
+    }
+  ],
+  "duration_seconds": 69.34,
+  "size_bytes": 555308,
+  "audio_sha256": "e3f03d12d53bcdb0bcace585577c5a704a061faabeabe4ed02a73dccbcb58f72",
+  "generated_at": "2026-10-30T20:46:32+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

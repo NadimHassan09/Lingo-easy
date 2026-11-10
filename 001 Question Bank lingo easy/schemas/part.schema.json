@@ -1,0 +1,405 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lingoeasy.local/schemas/part.schema.json",
+  "title": "Lingo Easy question-bank part",
+  "description": "One Listening part or one Reading passage with its requirements (items). Structural contract only: counts, level coverage, evidence-in-text, answer balance and controlled-vocabulary checks live in scripts/validate_part.py + config/*.json.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "skill",
+    "part_type",
+    "title",
+    "topic",
+    "profile",
+    "text_cefr",
+    "question_groups",
+    "meta"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^(LI|RE)[0-9]{3,4}$"
+    },
+    "skill": {
+      "enum": [
+        "listening",
+        "reading"
+      ]
+    },
+    "part_type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "topic": {
+      "type": "string"
+    },
+    "profile": {
+      "enum": [
+        "foundation",
+        "intermediate",
+        "advanced",
+        "level_a1",
+        "level_a2",
+        "level_b1",
+        "level_b2",
+        "level_c1",
+        "level_c2"
+      ]
+    },
+    "text_cefr": {
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "audio": {
+      "type": "object",
+      "description": "Listening only. 'file' is the mp3 name the TTS step must produce; no audio is generated at this stage.",
+      "required": [
+        "file",
+        "speakers",
+        "transcript"
+      ],
+      "properties": {
+        "file": {
+          "type": "string",
+          "pattern": "^[a-z]{2}[0-9]{3,4}_[a-z0-9_]+\\.mp3$"
+        },
+        "speakers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "gender",
+              "accent"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^S[0-9]$"
+              },
+              "name": {
+                "type": "string"
+              },
+              "gender": {
+                "enum": [
+                  "female",
+                  "male"
+                ]
+              },
+              "accent": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string",
+                "description": "Optional short role, e.g. 'hotel receptionist'. Used for the TTS audio profile."
+              }
+            }
+          }
+        },
+        "transcript": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "speaker",
+              "text"
+            ],
+            "properties": {
+              "speaker": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "passage": {
+      "type": "object",
+      "description": "Reading only.",
+      "required": [
+        "title",
+        "paragraphs"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "paragraphs": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "text"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "pattern": "^[A-Z]$"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "question_groups": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "presentation",
+          "instruction",
+          "items"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "presentation": {
+            "type": "string"
+          },
+          "instruction": {
+            "type": "string"
+          },
+          "context": {
+            "type": "string",
+            "description": "Optional shared text shown above the group (e.g. a gapped note). Must not contain the answer."
+          },
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "number",
+                "prompt",
+                "options",
+                "answer",
+                "level",
+                "skill_tag",
+                "language_focus",
+                "evidence",
+                "explanation"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^(LI|RE)[0-9]{3,4}-Q[0-9]{2}$"
+                },
+                "number": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "prompt": {
+                  "type": "string"
+                },
+                "options": {
+                  "type": "array",
+                  "minItems": 3,
+                  "maxItems": 4,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "text"
+                    ],
+                    "properties": {
+                      "id": {
+                        "enum": [
+                          "A",
+                          "B",
+                          "C",
+                          "D"
+                        ]
+                      },
+                      "text": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "answer": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                  ]
+                },
+                "level": {
+                  "type": "object",
+                  "required": [
+                    "cefr",
+                    "band"
+                  ],
+                  "properties": {
+                    "cefr": {
+                      "enum": [
+                        "A1",
+                        "A2",
+                        "B1",
+                        "B2",
+                        "C1",
+                        "C2"
+                      ]
+                    },
+                    "band": {
+                      "type": "number",
+                      "minimum": 1.0,
+                      "maximum": 9.0
+                    }
+                  }
+                },
+                "skill_tag": {
+                  "type": "string"
+                },
+                "language_focus": {
+                  "type": "object",
+                  "required": [
+                    "type"
+                  ],
+                  "properties": {
+                    "type": {
+                      "enum": [
+                        "grammar",
+                        "vocabulary",
+                        "none"
+                      ]
+                    },
+                    "rule": {
+                      "type": "string"
+                    },
+                    "lexical_type": {
+                      "type": "string"
+                    },
+                    "target": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "evidence": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "quote": {
+                      "type": "string"
+                    },
+                    "paragraph": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "explanation": {
+                  "type": "string"
+                },
+                "uuid": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+                  "description": "Assigned once by validate_part.py --stamp. Generators must not write it."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "description": "Reserved for images; empty for now.",
+      "items": {
+        "type": "object"
+      }
+    },
+    "derived": {
+      "type": "object",
+      "description": "Written ONLY by validate_part.py --stamp. Generators must not fill it.",
+      "properties": {
+        "word_count": {
+          "type": "integer"
+        },
+        "mean_band": {
+          "type": "number"
+        },
+        "level_counts": {
+          "type": "object"
+        },
+        "answer_counts": {
+          "type": "object"
+        },
+        "content_hash": {
+          "type": "string"
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "status",
+        "source",
+        "generator"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "draft",
+            "validated",
+            "reviewed",
+            "approved",
+            "rejected"
+          ]
+        },
+        "source": {
+          "enum": [
+            "ai_generated",
+            "human_authored",
+            "adapted"
+          ]
+        },
+        "generator": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "uuid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "description": "Assigned once by validate_part.py --stamp. Generators must not write it."
+    }
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI009",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "Community Voices: Volunteering in Ashbury",
+  "topic": "volunteering_and_community",
+  "profile": "intermediate",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li009_community_voices_volunteering_in_ashbury.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Rachel Hart",
+        "gender": "female",
+        "accent": "new_zealand",
+        "role": "radio reporter"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "This is Community Voices, and I'm Rachel Hart. This week, I visited the town of Ashbury to find out why it has one of the highest volunteering rates in the country. According to the latest figures, almost half of residents give their time to a charity or community group at least once a month, compared with a national average of a quarter."
+      },
+      {
+        "speaker": "S1",
+        "text": "I began at the Ashbury Food Bank, which opened in 2015 and now feeds about four hundred families a week. The manager, a retired teacher called Mr Collins, told me that the food bank had only five volunteers at the beginning. Today there are over a hundred, and many are teenagers who come after school. He believes the secret is to give people responsibility from the first day. Instead of just stacking shelves, volunteers decide how to organise the stock and welcome visitors."
+      },
+      {
+        "speaker": "S1",
+        "text": "Next, I met Priya, a student who volunteers at the town's repair café, where residents bring broken toasters, lamps and bicycles to be mended for free. She told me she originally joined to add something to her CV, but she stayed because she enjoyed being useful. I think that's an interesting point: motives change. People may start for selfish reasons and continue for unselfish ones."
+      },
+      {
+        "speaker": "S1",
+        "text": "Not everything is rosy, however. Local charities say that volunteers are harder to recruit for regular commitments. Young people prefer one-off events, such as a beach clean-up, to weekly shifts. The coordinator of the youth centre told me she had to cancel an evening club last year because not enough volunteers could promise to come each week. Her solution has been to split the work into smaller tasks, so that a volunteer can help for just an hour."
+      },
+      {
+        "speaker": "S1",
+        "text": "There is also the question of cost. Volunteering is often described as free, but organisations must train, supervise and insure their helpers. A study by the council found that every pound spent on volunteer support generated about eight pounds' worth of benefit, which seems a good return. Even so, the council has reduced its grant for volunteer coordinators this year, and some worry that the town could lose its advantage."
+      },
+      {
+        "speaker": "S1",
+        "text": "What can other places learn? Three things stand out. First, make it easy: clear information, flexible hours and a friendly welcome. Second, give volunteers real responsibility. And third, recognise their contribution, even with something as simple as a thank-you card. From Ashbury, I'm Rachel Hart. Next week: the rise of community gardens."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI009-Q01",
+          "number": 1,
+          "prompt": "How often do almost half of Ashbury's residents volunteer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every week of the year"
+            },
+            {
+              "id": "B",
+              "text": "Once or twice a year"
+            },
+            {
+              "id": "C",
+              "text": "At least once a month"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "at least once a month"
+          },
+          "explanation": "The audio says: \"at least once a month\".",
+          "uuid": "cbecb761-2cb8-5e4c-b876-58e183419a65"
+        },
+        {
+          "id": "LI009-Q02",
+          "number": 2,
+          "prompt": "How many families does the food bank feed each week?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 40"
+            },
+            {
+              "id": "B",
+              "text": "About 400"
+            },
+            {
+              "id": "C",
+              "text": "About 4,000"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about four hundred families a week"
+          },
+          "explanation": "The audio says: \"about four hundred families a week\".",
+          "uuid": "ea77877f-bdc3-545c-ad5a-01736ae181a9"
+        },
+        {
+          "id": "LI009-Q03",
+          "number": 3,
+          "prompt": "Who helps at the food bank after school?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Retired teachers"
+            },
+            {
+              "id": "B",
+              "text": "Council staff"
+            },
+            {
+              "id": "C",
+              "text": "Teenagers"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "many are teenagers who come after school"
+          },
+          "explanation": "The audio says: \"many are teenagers who come after school\".",
+          "uuid": "4c987dcb-86bc-5ba9-85bb-35bc03793ec7"
+        },
+        {
+          "id": "LI009-Q04",
+          "number": 4,
+          "prompt": "What does Mr Collins believe is the secret of success?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Offering volunteers a small payment for their time"
+            },
+            {
+              "id": "B",
+              "text": "Advertising widely in the town and on local radio"
+            },
+            {
+              "id": "C",
+              "text": "Giving people responsibility from the first day"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "give people responsibility from the first day"
+          },
+          "explanation": "The audio says: \"give people responsibility from the first day\".",
+          "uuid": "b6930589-19b3-5fa3-bbd6-9740981ee8c5"
+        },
+        {
+          "id": "LI009-Q05",
+          "number": 5,
+          "prompt": "Why did Priya first become a volunteer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To meet friends"
+            },
+            {
+              "id": "B",
+              "text": "To improve her CV"
+            },
+            {
+              "id": "C",
+              "text": "To learn a skill"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "add something to her CV"
+          },
+          "explanation": "The audio says: \"add something to her CV\".",
+          "uuid": "f164ebe8-a5ca-53d5-8999-61156de79ef1"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI009-Q06",
+          "number": 6,
+          "prompt": "What point does the reporter make about motives?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are mostly selfish ones"
+            },
+            {
+              "id": "B",
+              "text": "They are irrelevant to charities"
+            },
+            {
+              "id": "C",
+              "text": "They can change over time"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "speaker_opinion",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "an interesting point: motives change"
+          },
+          "explanation": "The audio says: \"an interesting point: motives change\".",
+          "uuid": "84ba0e96-2898-5858-a3e9-93fda05bcfff"
+        },
+        {
+          "id": "LI009-Q07",
+          "number": 7,
+          "prompt": "What problem do charities have with volunteers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Volunteers demand payment for their time"
+            },
+            {
+              "id": "B",
+              "text": "Recruiting for regular commitments is hard"
+            },
+            {
+              "id": "C",
+              "text": "Volunteers are generally too young to help"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "harder to recruit for regular commitments"
+          },
+          "explanation": "The audio says: \"harder to recruit for regular commitments\".",
+          "uuid": "b372c410-8ea0-53bd-bae1-f251a95a1a99"
+        },
+        {
+          "id": "LI009-Q08",
+          "number": 8,
+          "prompt": "How did the youth centre coordinator solve her problem?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She started paying the volunteers"
+            },
+            {
+              "id": "B",
+              "text": "She split the work into smaller tasks"
+            },
+            {
+              "id": "C",
+              "text": "She closed the evening club for good"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "split the work into smaller tasks"
+          },
+          "explanation": "The audio says: \"split the work into smaller tasks\".",
+          "uuid": "9f71729e-a3bc-5a93-9bd3-25ba8f974dcb"
+        },
+        {
+          "id": "LI009-Q09",
+          "number": 9,
+          "prompt": "What did the council study find?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Volunteering costs organisations very little to run each year"
+            },
+            {
+              "id": "B",
+              "text": "Every pound spent brought about eight pounds' worth of benefit"
+            },
+            {
+              "id": "C",
+              "text": "Volunteers save the council about eight pounds each year"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about eight pounds' worth of benefit"
+          },
+          "explanation": "The audio says: \"about eight pounds' worth of benefit\".",
+          "uuid": "5eeaf56b-7ec7-5e76-99c7-7b90a4ef4488"
+        },
+        {
+          "id": "LI009-Q10",
+          "number": 10,
+          "prompt": "Why do some people worry about the council's decision?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The town could lose its advantage"
+            },
+            {
+              "id": "B",
+              "text": "Volunteers may be asked to pay fees"
+            },
+            {
+              "id": "C",
+              "text": "The grant is now too large to manage"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "speaker_opinion",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "could lose its advantage"
+          },
+          "explanation": "The audio says: \"could lose its advantage\".",
+          "uuid": "a99f13e0-551b-52bf-a030-a732b5872c74"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "a0cd94fd-5008-467d-8659-a3bfeb287b3c",
+  "derived": {
+    "word_count": 413,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 3,
+      "B2": 4,
+      "C1": 2,
+      "C2": 0
+    },
+    "mean_band": 5.55,
+    "answer_counts": {
+      "A": 1,
+      "B": 5,
+      "C": 4
+    },
+    "content_hash": "241c3de8b72f887c"
+  }
+}

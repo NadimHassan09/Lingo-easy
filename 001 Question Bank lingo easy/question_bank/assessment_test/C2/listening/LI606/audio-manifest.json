@@ -1,0 +1,172 @@
+{
+  "part_id": "LI606",
+  "part_uuid": "15e220d9-012c-4280-be42-fb7d583ab936",
+  "audio_file": "li606_tutorial_critiquing_a_statistical_claim.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "e6a88ca1096e643f1e0d8eed244de62cf392129b16ac0c2bcff4a7a45cb32b22",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    },
+    "S3": {
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Lindqvist",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Marcus",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S3",
+      "name": "Zara",
+      "gender": "female",
+      "accent": "australian",
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 5.62
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 6.07,
+      "end": 15.91
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 16.36,
+      "end": 19.24
+    },
+    {
+      "index": 3,
+      "speaker": "S3",
+      "start": 19.69,
+      "end": 29.55
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 30.0,
+      "end": 43.27
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 43.72,
+      "end": 47.59
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 48.04,
+      "end": 63.59
+    },
+    {
+      "index": 7,
+      "speaker": "S3",
+      "start": 64.04,
+      "end": 69.15
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 69.6,
+      "end": 72.79
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 73.24,
+      "end": 82.15
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 82.6,
+      "end": 102.49
+    },
+    {
+      "index": 11,
+      "speaker": "S3",
+      "start": 102.94,
+      "end": 111.51
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 111.96,
+      "end": 122.62
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 123.07,
+      "end": 129.69
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 130.14,
+      "end": 149.84
+    },
+    {
+      "index": 15,
+      "speaker": "S3",
+      "start": 150.29,
+      "end": 152.72
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 153.17,
+      "end": 171.5
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 171.95,
+      "end": 176.03
+    },
+    {
+      "index": 18,
+      "speaker": "S1",
+      "start": 176.48,
+      "end": 181.12
+    }
+  ],
+  "duration_seconds": 181.12,
+  "size_bytes": 1449644,
+  "audio_sha256": "5a9c6719349118a875802f045660af0589a3404295b6a9490b8c89cd51e27d16",
+  "generated_at": "2026-10-30T20:58:11+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

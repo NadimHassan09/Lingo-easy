@@ -1,0 +1,142 @@
+{
+  "part_id": "LI109",
+  "part_uuid": "aa19b88b-62fd-4268-9afe-6106f56ffd03",
+  "audio_file": "li109_joining_a_sports_club.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "f0f6217cded46485e2e05ffb56d59269bd85e2adf3f26f3cfe74d559bd698f0b",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-NZ-MitchellNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Nina",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Paul",
+      "gender": "male",
+      "accent": "new_zealand",
+      "voice": "en-NZ-MitchellNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 4.3
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 4.75,
+      "end": 11.03
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 11.48,
+      "end": 17.6
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 18.05,
+      "end": 25.88
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 26.33,
+      "end": 31.8
+    },
+    {
+      "index": 5,
+      "speaker": "S2",
+      "start": 32.25,
+      "end": 37.94
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 38.39,
+      "end": 46.74
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 47.19,
+      "end": 50.07
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 50.52,
+      "end": 56.71
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 57.16,
+      "end": 62.11
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 62.56,
+      "end": 70.93
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 71.38,
+      "end": 76.42
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 76.87,
+      "end": 81.84
+    },
+    {
+      "index": 13,
+      "speaker": "S2",
+      "start": 82.29,
+      "end": 86.3
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 86.75,
+      "end": 90.73
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 91.18,
+      "end": 95.31
+    }
+  ],
+  "duration_seconds": 95.31,
+  "size_bytes": 763244,
+  "audio_sha256": "b2f9433074146840e7837935c85e8390915744c2b5a0b30f90b6521dd40c912c",
+  "generated_at": "2026-10-30T20:46:04+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

@@ -1,0 +1,515 @@
+{
+  "schema_version": "1.0",
+  "id": "RE105",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Three Jobs",
+  "topic": "work_and_careers",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "Three Jobs",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Maria is a doctor. She works in a big hospital in the city. She starts work at eight o'clock in the morning. She sees about twenty patients every day. She likes her job because she helps people, but sometimes she is very tired. Her friends say she is a kind and clever woman."
+      },
+      {
+        "label": "B",
+        "text": "Pedro is a chef. He works in a restaurant near the station. He starts work at two o'clock in the afternoon and finishes at eleven at night. He cooks fish, chicken and pasta. His favourite dish is pasta with tomatoes. He does not like the weekends because the restaurant is very busy."
+      },
+      {
+        "label": "C",
+        "text": "Anna is a teacher. She teaches English to children in a primary school. Her class has twenty-five students. They are seven years old. Anna likes her job because the children are funny. She has long holidays in July and August, and she often travels with her family."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE105-Q01",
+          "number": 1,
+          "prompt": "Where does Maria work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In a school"
+            },
+            {
+              "id": "B",
+              "text": "In a restaurant"
+            },
+            {
+              "id": "C",
+              "text": "In a hospital"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "works in a big hospital"
+          },
+          "explanation": "The text says: \"works in a big hospital\".",
+          "uuid": "b8c4acf0-cf2f-5b2c-80b8-7ada88a662fb"
+        },
+        {
+          "id": "RE105-Q02",
+          "number": 2,
+          "prompt": "What time does Maria start work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2.00"
+            },
+            {
+              "id": "B",
+              "text": "11.00"
+            },
+            {
+              "id": "C",
+              "text": "8.00"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "starts work at eight o'clock"
+          },
+          "explanation": "The text says: \"starts work at eight o'clock\".",
+          "uuid": "9c9e07fa-d9cf-538b-9ab2-30b65f6dd2e3"
+        },
+        {
+          "id": "RE105-Q03",
+          "number": 3,
+          "prompt": "How many patients does Maria see each day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 12"
+            },
+            {
+              "id": "B",
+              "text": "About 20"
+            },
+            {
+              "id": "C",
+              "text": "About 200"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "about twenty patients every day"
+          },
+          "explanation": "The text says: \"about twenty patients every day\".",
+          "uuid": "6e27edca-46a6-52e6-917c-62a8136622fc"
+        },
+        {
+          "id": "RE105-Q04",
+          "number": 4,
+          "prompt": "Why does Maria like her job?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She helps people"
+            },
+            {
+              "id": "B",
+              "text": "She earns a lot"
+            },
+            {
+              "id": "C",
+              "text": "She works at night"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "because she helps people"
+          },
+          "explanation": "The text says: \"because she helps people\".",
+          "uuid": "08ade8f2-bc27-5ccc-ae8a-0b1d8f35b6fb"
+        },
+        {
+          "id": "RE105-Q05",
+          "number": 5,
+          "prompt": "Where is Pedro's restaurant?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Near the hospital"
+            },
+            {
+              "id": "B",
+              "text": "Near the station"
+            },
+            {
+              "id": "C",
+              "text": "Near the school"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "restaurant near the station"
+          },
+          "explanation": "The text says: \"restaurant near the station\".",
+          "uuid": "b6387aad-17a6-56a6-8315-df1cf8f1c93b"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE105-Q06",
+          "number": 6,
+          "prompt": "Pedro finishes work at eleven at night.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "finishes at eleven at night"
+          },
+          "explanation": "The text says: \"finishes at eleven at night\".",
+          "uuid": "97e50bf3-4e73-544e-a240-be9ecb8fa460"
+        },
+        {
+          "id": "RE105-Q07",
+          "number": 7,
+          "prompt": "Pedro's favourite dish is fish.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "favourite dish is pasta with tomatoes"
+          },
+          "explanation": "The text says: \"favourite dish is pasta with tomatoes\".",
+          "uuid": "f577248a-8c59-5bd5-bb37-b57e9a36b961"
+        },
+        {
+          "id": "RE105-Q08",
+          "number": 8,
+          "prompt": "Pedro likes the weekends.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "does not like the weekends"
+          },
+          "explanation": "The text says: \"does not like the weekends\".",
+          "uuid": "1ce3b0c2-8813-52dd-b9d4-afd00da57917"
+        },
+        {
+          "id": "RE105-Q09",
+          "number": 9,
+          "prompt": "Anna teaches maths.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "teaches English to children"
+          },
+          "explanation": "The text says: \"teaches English to children\".",
+          "uuid": "d2bcb1f4-32d7-58d1-9d1a-3b8c82ae6fbd"
+        },
+        {
+          "id": "RE105-Q10",
+          "number": 10,
+          "prompt": "Anna is married.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "46bd0626-42f1-5bb6-860b-c632d9efe779"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE105-Q11",
+          "number": 11,
+          "prompt": "Anna's class has _____ students.",
+          "options": [
+            {
+              "id": "A",
+              "text": "twenty-five"
+            },
+            {
+              "id": "B",
+              "text": "fifteen"
+            },
+            {
+              "id": "C",
+              "text": "fifty"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "twenty-five students"
+          },
+          "explanation": "The text says: \"twenty-five students\".",
+          "uuid": "b1d43f89-9ac3-5b0f-ba4c-66b7d5a6c82c"
+        },
+        {
+          "id": "RE105-Q12",
+          "number": 12,
+          "prompt": "The children in Anna's class are _____ years old.",
+          "options": [
+            {
+              "id": "A",
+              "text": "eleven"
+            },
+            {
+              "id": "B",
+              "text": "five"
+            },
+            {
+              "id": "C",
+              "text": "seven"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "They are seven years old"
+          },
+          "explanation": "The text says: \"They are seven years old\".",
+          "uuid": "158ef14e-39fc-500a-97c9-b0e88c01bfe5"
+        },
+        {
+          "id": "RE105-Q13",
+          "number": 13,
+          "prompt": "Anna has long holidays in _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "June and July"
+            },
+            {
+              "id": "B",
+              "text": "July and August"
+            },
+            {
+              "id": "C",
+              "text": "August and September"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "holidays in July and August"
+          },
+          "explanation": "The text says: \"holidays in July and August\".",
+          "uuid": "e566ade6-c71d-5f6a-8bea-b72a02be6974"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "3c27d263-86b0-44d8-a200-9bf49b13918d",
+  "derived": {
+    "word_count": 153,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 3,
+      "B": 6,
+      "C": 4
+    },
+    "content_hash": "b4c5948a37d14fd8"
+  }
+}

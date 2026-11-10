@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE210",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Tea Around the World",
+  "topic": "food_and_nutrition",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "Tea Around the World",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "After water, tea is the most popular drink in the world. People first drank tea in China about five thousand years ago. Today, every country has its own way of making and drinking it."
+      },
+      {
+        "label": "B",
+        "text": "In Britain, people usually drink black tea with milk. Many add a spoonful of sugar. Afternoon tea is a famous tradition: at four o'clock, people drink tea with small sandwiches and cakes. In India, tea is often made with milk, sugar and spices such as ginger and cardamom. This drink is called chai, and street sellers make it in small pots."
+      },
+      {
+        "label": "C",
+        "text": "In Morocco, people drink green tea with fresh mint and a lot of sugar. They pour it from a high place into small glasses, which makes bubbles on top. Drinking this tea is a sign of friendship, and the host always offers it to guests. In Japan, tea is more formal. In a tea ceremony, a person prepares a special green tea slowly, and the guests drink it in silence."
+      },
+      {
+        "label": "D",
+        "text": "Tea is also good for your health. It contains a little less caffeine than coffee and can help you feel calm. Many people think that green tea is the healthiest. However, tea can stain your teeth, and you should not drink it too hot. Which type do you prefer?"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE210-Q01",
+          "number": 1,
+          "prompt": "Where did people first drink tea?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In China"
+            },
+            {
+              "id": "B",
+              "text": "In India"
+            },
+            {
+              "id": "C",
+              "text": "In Britain"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "first drank tea in China"
+          },
+          "explanation": "The text says: \"first drank tea in China\".",
+          "uuid": "282abb11-8969-5ab8-85eb-290999e99a97"
+        },
+        {
+          "id": "RE210-Q02",
+          "number": 2,
+          "prompt": "How long ago did people start drinking tea?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 500 years ago"
+            },
+            {
+              "id": "B",
+              "text": "About 50,000 years ago"
+            },
+            {
+              "id": "C",
+              "text": "About 5,000 years ago"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "about five thousand years ago"
+          },
+          "explanation": "The text says: \"about five thousand years ago\".",
+          "uuid": "4c040363-2827-5e3f-9d4c-fc2b21dd99fb"
+        },
+        {
+          "id": "RE210-Q03",
+          "number": 3,
+          "prompt": "When is afternoon tea in Britain?",
+          "options": [
+            {
+              "id": "A",
+              "text": "At twelve o'clock"
+            },
+            {
+              "id": "B",
+              "text": "At four o'clock"
+            },
+            {
+              "id": "C",
+              "text": "At eight o'clock"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "at four o'clock, people drink tea"
+          },
+          "explanation": "The text says: \"at four o'clock, people drink tea\".",
+          "uuid": "d758fade-61e4-5218-a064-1ff254521378"
+        },
+        {
+          "id": "RE210-Q04",
+          "number": 4,
+          "prompt": "What is chai?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Green tea with fresh mint leaves"
+            },
+            {
+              "id": "B",
+              "text": "Black tea with lemon and honey"
+            },
+            {
+              "id": "C",
+              "text": "Tea with milk, sugar and spices"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "made with milk, sugar and spices"
+          },
+          "explanation": "The text says: \"made with milk, sugar and spices\".",
+          "uuid": "12559e58-345e-54e1-9fcf-cfd3bafeee7c"
+        },
+        {
+          "id": "RE210-Q05",
+          "number": 5,
+          "prompt": "How do people in Morocco pour their tea?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Very slowly"
+            },
+            {
+              "id": "B",
+              "text": "Through a cloth"
+            },
+            {
+              "id": "C",
+              "text": "From a high place"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "pour it from a high place"
+          },
+          "explanation": "The text says: \"pour it from a high place\".",
+          "uuid": "87906e84-9b99-5de1-ae8d-36251deae6df"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE210-Q06",
+          "number": 6,
+          "prompt": "Tea is the most popular drink in the world after water.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "After water, tea is the most popular drink"
+          },
+          "explanation": "The text says: \"After water, tea is the most popular drink\".",
+          "uuid": "d0d4a902-7c38-5887-9313-7991a86c75ea"
+        },
+        {
+          "id": "RE210-Q07",
+          "number": 7,
+          "prompt": "British people never put milk in tea.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "black tea with milk"
+          },
+          "explanation": "The text says: \"black tea with milk\".",
+          "uuid": "c5c6a50d-7a70-5e50-bfcc-7acb59372a08"
+        },
+        {
+          "id": "RE210-Q08",
+          "number": 8,
+          "prompt": "In Morocco, tea is a sign of friendship.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "a sign of friendship"
+          },
+          "explanation": "The text says: \"a sign of friendship\".",
+          "uuid": "df925907-fcf1-59fc-ade0-a4daaa50440a"
+        },
+        {
+          "id": "RE210-Q09",
+          "number": 9,
+          "prompt": "In a Japanese tea ceremony, guests talk a lot.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "drink it in silence"
+          },
+          "explanation": "The text says: \"drink it in silence\".",
+          "uuid": "d741874f-8cf9-5e2a-afea-e904c20906ab"
+        },
+        {
+          "id": "RE210-Q10",
+          "number": 10,
+          "prompt": "Chinese tea is better than Indian tea.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "851004be-bac9-5a8a-bf24-4ef7e9a99a08"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE210-Q11",
+          "number": 11,
+          "prompt": "Chai is made by street sellers in small _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "pots"
+            },
+            {
+              "id": "B",
+              "text": "cups"
+            },
+            {
+              "id": "C",
+              "text": "shops"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "make it in small pots"
+          },
+          "explanation": "The text says: \"make it in small pots\".",
+          "uuid": "b634a9bf-a416-51b8-8432-3d4656a45608"
+        },
+        {
+          "id": "RE210-Q12",
+          "number": 12,
+          "prompt": "Moroccan tea has fresh _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "lemon"
+            },
+            {
+              "id": "B",
+              "text": "ginger"
+            },
+            {
+              "id": "C",
+              "text": "mint"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "fresh mint and a lot of sugar"
+          },
+          "explanation": "The text says: \"fresh mint and a lot of sugar\".",
+          "uuid": "0f2a0280-af53-5470-b694-4c667afaeb5d"
+        },
+        {
+          "id": "RE210-Q13",
+          "number": 13,
+          "prompt": "Tea contains a little less _____ than coffee.",
+          "options": [
+            {
+              "id": "A",
+              "text": "caffeine"
+            },
+            {
+              "id": "B",
+              "text": "sugar"
+            },
+            {
+              "id": "C",
+              "text": "water"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "a little less caffeine than coffee"
+          },
+          "explanation": "The text says: \"a little less caffeine than coffee\".",
+          "uuid": "514d9ecc-625f-58be-82d6-a8b730546a06"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "71619176-e22c-45ec-bb17-b1c8f30c4601",
+  "derived": {
+    "word_count": 214,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 5,
+      "B": 3,
+      "C": 5
+    },
+    "content_hash": "ff83849ec1b38d43"
+  }
+}

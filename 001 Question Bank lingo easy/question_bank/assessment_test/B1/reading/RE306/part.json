@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE306",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "A Career in Nursing",
+  "topic": "work_and_careers",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "A Career in Nursing",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Nursing is one of the largest professions in the world, with more than twenty-seven million nurses. Their work is varied: some care for patients in hospitals, others visit people at home, and some work in schools, prisons or on ships. What they have in common is that they help people when those people need help most."
+      },
+      {
+        "label": "B",
+        "text": "To become a nurse in most countries, you need to study at university for three or four years. The course includes classroom lessons, but at least half of the time is spent in hospitals and clinics, working with real patients under the supervision of experienced nurses. Students learn how to take blood pressure, give injections, clean wounds and, equally importantly, how to talk to frightened people."
+      },
+      {
+        "label": "C",
+        "text": "A typical shift in a hospital lasts twelve hours, and many nurses work at night or at weekends. The work is physically demanding, because nurses spend most of the day on their feet and often have to lift patients. It can also be emotionally difficult. Nurses see people in pain, and sometimes they lose patients. Many say that support from colleagues is the most important thing that helps them cope."
+      },
+      {
+        "label": "D",
+        "text": "Despite these difficulties, most nurses love their job. A recent survey found that eight out of ten would choose the same career again. They say the best part is seeing patients get better and receiving thanks from families. Nurses can also choose a speciality, such as children's nursing or emergency care, and there are good opportunities to become managers or teachers."
+      },
+      {
+        "label": "E",
+        "text": "Unfortunately, many countries do not have enough nurses. The number of older people is growing, so the need will continue to rise. Governments are trying to attract more people by improving pay, offering scholarships and making conditions better. For anyone who likes practical work and helping others, nursing can be a rewarding career."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE306-Q01",
+          "number": 1,
+          "prompt": "Where do nurses work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In many places, including schools and ships"
+            },
+            {
+              "id": "B",
+              "text": "Only in large hospitals in the big cities"
+            },
+            {
+              "id": "C",
+              "text": "Only in the homes of elderly patients"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "schools, prisons or on ships"
+          },
+          "explanation": "The text says: \"schools, prisons or on ships\".",
+          "uuid": "0e911007-b8d0-58f9-915f-901c318fa288"
+        },
+        {
+          "id": "RE306-Q02",
+          "number": 2,
+          "prompt": "How long is a nursing degree in most countries?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three or four years"
+            },
+            {
+              "id": "B",
+              "text": "One or two years"
+            },
+            {
+              "id": "C",
+              "text": "Six or seven years"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "three or four years"
+          },
+          "explanation": "The text says: \"three or four years\".",
+          "uuid": "6614d2a6-90c8-5315-a555-57b7c13816cf"
+        },
+        {
+          "id": "RE306-Q03",
+          "number": 3,
+          "prompt": "How much of the course is spent in hospitals and clinics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About a quarter"
+            },
+            {
+              "id": "B",
+              "text": "All of it"
+            },
+            {
+              "id": "C",
+              "text": "At least half"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "at least half of the time"
+          },
+          "explanation": "The text says: \"at least half of the time\".",
+          "uuid": "1de0a339-1e50-5afe-ba5a-057ff68cc99b"
+        },
+        {
+          "id": "RE306-Q04",
+          "number": 4,
+          "prompt": "What makes the work physically hard?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nurses write long reports every night"
+            },
+            {
+              "id": "B",
+              "text": "Nurses stand a lot and lift patients"
+            },
+            {
+              "id": "C",
+              "text": "Nurses drive long distances to patients"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "on their feet and often have to lift patients"
+          },
+          "explanation": "The text says: \"on their feet and often have to lift patients\".",
+          "uuid": "c00a6e2a-f8c7-50ec-a028-3207be0cd730"
+        },
+        {
+          "id": "RE306-Q05",
+          "number": 5,
+          "prompt": "What helps nurses to cope emotionally?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Higher pay at weekends"
+            },
+            {
+              "id": "B",
+              "text": "Longer holidays in summer"
+            },
+            {
+              "id": "C",
+              "text": "Support from colleagues"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "support from colleagues is the most important thing"
+          },
+          "explanation": "The text says: \"support from colleagues is the most important thing\".",
+          "uuid": "5023253d-1485-5d01-a46b-75de3be24ceb"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE306-Q06",
+          "number": 6,
+          "prompt": "A typical shift in a hospital lasts twelve hours.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "lasts twelve hours"
+          },
+          "explanation": "The text says: \"lasts twelve hours\".",
+          "uuid": "57b781c1-1497-5755-9221-e48ebb766924"
+        },
+        {
+          "id": "RE306-Q07",
+          "number": 7,
+          "prompt": "Most nurses regret their career choice.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "eight out of ten would choose the same career again"
+          },
+          "explanation": "The text says: \"eight out of ten would choose the same career again\".",
+          "uuid": "a839d9ce-458d-5b33-8cc5-d8cb14cbe14a"
+        },
+        {
+          "id": "RE306-Q08",
+          "number": 8,
+          "prompt": "Nurses cannot choose a speciality.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "choose a speciality, such as children's nursing"
+          },
+          "explanation": "The text says: \"choose a speciality, such as children's nursing\".",
+          "uuid": "9e6217c5-1f30-5c67-9f05-d9d0cb1b37c4"
+        },
+        {
+          "id": "RE306-Q09",
+          "number": 9,
+          "prompt": "The number of older people is falling.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "number of older people is growing"
+          },
+          "explanation": "The text says: \"number of older people is growing\".",
+          "uuid": "d0a30b4f-83c1-56f1-9454-3f1d01840531"
+        },
+        {
+          "id": "RE306-Q10",
+          "number": 10,
+          "prompt": "Nurses in Canada earn more than nurses in Spain.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "bf462eba-fc17-58d1-af40-4bc270b3896c"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE306-Q11",
+          "number": 11,
+          "prompt": "Students learn to take blood pressure, give injections and clean _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "floors"
+            },
+            {
+              "id": "B",
+              "text": "windows"
+            },
+            {
+              "id": "C",
+              "text": "wounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "give injections, clean wounds"
+          },
+          "explanation": "The text says: \"give injections, clean wounds\".",
+          "uuid": "2588b1fb-6198-5694-bbf6-423e188709f4"
+        },
+        {
+          "id": "RE306-Q12",
+          "number": 12,
+          "prompt": "Nurses say the best part is seeing patients get _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "visitors"
+            },
+            {
+              "id": "B",
+              "text": "food"
+            },
+            {
+              "id": "C",
+              "text": "better"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "seeing patients get better"
+          },
+          "explanation": "The text says: \"seeing patients get better\".",
+          "uuid": "aa92750b-eb9a-5ec3-a7b8-cddcb78e8b55"
+        },
+        {
+          "id": "RE306-Q13",
+          "number": 13,
+          "prompt": "Governments are improving pay and offering _____ to attract more people.",
+          "options": [
+            {
+              "id": "A",
+              "text": "uniforms"
+            },
+            {
+              "id": "B",
+              "text": "scholarships"
+            },
+            {
+              "id": "C",
+              "text": "houses"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "offering scholarships and making"
+          },
+          "explanation": "The text says: \"offering scholarships and making\".",
+          "uuid": "ed96a1ee-65cf-5445-b455-77a2d5176e40"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "3e0c038d-f318-4400-a2e9-3ba2d4208ea0",
+  "derived": {
+    "word_count": 307,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 3,
+      "B": 5,
+      "C": 5
+    },
+    "content_hash": "d87c1688e74a0fd5"
+  }
+}

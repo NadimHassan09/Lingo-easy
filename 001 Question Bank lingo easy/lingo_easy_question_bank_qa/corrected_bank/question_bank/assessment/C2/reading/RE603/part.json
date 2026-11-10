@@ -1,0 +1,535 @@
+{
+  "schema_version": "1.0",
+  "id": "RE603",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Governing the Commons",
+  "topic": "environment",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "Governing the Commons",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In 1968, the ecologist Garrett Hardin published an essay entitled The Tragedy of the Commons, in which he argued that resources owned by everyone will inevitably be overexploited. His illustration was a shared pasture: each herder gains the full benefit of adding one more animal, while the cost of overgrazing is shared among all. Rational self-interest, therefore, leads to ruin. The essay became one of the most cited in the social sciences, and it was invoked to justify two solutions: privatisation or central government control."
+      },
+      {
+        "label": "B",
+        "text": "The political scientist Elinor Ostrom challenged this conclusion on empirical grounds. Studying communities from Swiss mountain villages to Japanese forests and Spanish irrigation systems, she found many examples of people managing shared resources successfully for centuries, without privatisation and without external control. Hardin's herders, she pointed out, were imaginary individuals who cannot communicate. Real communities talk, make rules and punish cheats. For this work, she became in 2009 the first woman to win the Nobel Prize in Economics."
+      },
+      {
+        "label": "C",
+        "text": "From her case studies, Ostrom distilled design principles that distinguish durable arrangements. Boundaries must be clear, so that it is known who may use the resource. Rules must fit local conditions and be made with the participation of those affected. Monitoring should be carried out by users themselves or by people accountable to them, and sanctions should begin mild and escalate with repeated offences. Finally, there must be accessible means of resolving conflicts. Where these conditions were absent, commons were more likely to fail."
+      },
+      {
+        "label": "D",
+        "text": "Critics point out that Ostrom's examples tend to involve small, stable communities with a long shared history, and that her principles may not scale to global problems like climate change, where the relevant community is the whole of humanity, without a common authority. This is a fair objection, though some scholars note that Ostrom herself advocated polycentric governance, in which action takes place at several levels simultaneously, from neighbourhoods to international agreements, rather than relying on a single global solution."
+      },
+      {
+        "label": "E",
+        "text": "Hardin's essay was not worthless. It drew attention to a real danger, and there are indeed commons that have collapsed, such as many ocean fisheries. But it presented a possible outcome as an inevitable one. The more important lesson of Ostrom's work is that the choice is not binary. Between the market and the state lies a large territory of cooperation, and the fate of a shared resource depends less on who owns it than on whether those who use it can organise themselves."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE603-Q01",
+          "number": 1,
+          "prompt": "What was Hardin's illustration?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A fishing fleet"
+            },
+            {
+              "id": "B",
+              "text": "A city park"
+            },
+            {
+              "id": "C",
+              "text": "A shared pasture"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "His illustration was a shared pasture"
+          },
+          "explanation": "The text says: \"His illustration was a shared pasture\".",
+          "uuid": "6559b0b2-93cb-5f84-8550-0ad6471704e5"
+        },
+        {
+          "id": "RE603-Q02",
+          "number": 2,
+          "prompt": "Which two solutions was the essay used to justify?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Education or strict prohibition"
+            },
+            {
+              "id": "B",
+              "text": "Taxation or public subsidies"
+            },
+            {
+              "id": "C",
+              "text": "Privatisation or government control"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "privatisation or central government control"
+          },
+          "explanation": "The text says: \"privatisation or central government control\".",
+          "uuid": "54809cc3-97cc-523c-89d3-31861f0bbdda"
+        },
+        {
+          "id": "RE603-Q03",
+          "number": 3,
+          "prompt": "On what basis did Ostrom challenge Hardin's conclusion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mathematical models of herders' behaviour"
+            },
+            {
+              "id": "B",
+              "text": "Philosophical argument about human nature"
+            },
+            {
+              "id": "C",
+              "text": "Empirical studies of real communities"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "challenged this conclusion on empirical grounds"
+          },
+          "explanation": "The text says: \"challenged this conclusion on empirical grounds\".",
+          "uuid": "33b8b941-2a46-5795-aba3-9d7b16df0d8f"
+        },
+        {
+          "id": "RE603-Q04",
+          "number": 4,
+          "prompt": "What does Ostrom say is wrong with Hardin's herders?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are imaginary and cannot communicate"
+            },
+            {
+              "id": "B",
+              "text": "They are far too numerous to organise"
+            },
+            {
+              "id": "C",
+              "text": "They are dishonest in their dealings"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "imaginary individuals who cannot communicate"
+          },
+          "explanation": "The text says: \"imaginary individuals who cannot communicate\".",
+          "uuid": "87cf123b-b903-5f21-b358-be28fce22835"
+        },
+        {
+          "id": "RE603-Q05",
+          "number": 5,
+          "prompt": "According to Ostrom's principles, how should sanctions work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They should be severe from the start"
+            },
+            {
+              "id": "B",
+              "text": "They should be avoided in small groups"
+            },
+            {
+              "id": "C",
+              "text": "They should start mild and escalate"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "begin mild and escalate with repeated offences"
+          },
+          "explanation": "The text says: \"begin mild and escalate with repeated offences\".",
+          "uuid": "1b065858-6e2d-5566-9083-f36fb52c3426"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE603-Q06",
+          "number": 6,
+          "prompt": "The writer believes Hardin's essay was entirely without value.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Hardin's essay was not worthless"
+          },
+          "explanation": "The text says: \"Hardin's essay was not worthless\".",
+          "uuid": "d51a9068-8684-508a-b84c-021d24498016"
+        },
+        {
+          "id": "RE603-Q07",
+          "number": 7,
+          "prompt": "The writer accepts that some commons have collapsed.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "commons that have collapsed"
+          },
+          "explanation": "The text says: \"commons that have collapsed\".",
+          "uuid": "54809b51-0af4-5221-ae75-90463ea30913"
+        },
+        {
+          "id": "RE603-Q08",
+          "number": 8,
+          "prompt": "The writer thinks who owns a resource is the main factor in its survival.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "depends less on who owns it"
+          },
+          "explanation": "The text says: \"depends less on who owns it\".",
+          "uuid": "c097b5b8-de39-5e37-959c-fdf02177fc82"
+        },
+        {
+          "id": "RE603-Q09",
+          "number": 9,
+          "prompt": "The writer has visited Swiss mountain villages.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "c99fd8f7-fe49-50a1-87fa-d7d36d63a31e"
+        },
+        {
+          "id": "RE603-Q10",
+          "number": 10,
+          "prompt": "The writer regards the criticism that Ostrom's principles may not scale as reasonable.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "This is a fair objection"
+          },
+          "explanation": "The text says: \"This is a fair objection\".",
+          "uuid": "47292e7d-bed8-5dd5-902a-a10436b4d138"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE603-Q11",
+          "number": 11,
+          "prompt": "A list of features that make shared arrangements last",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Boundaries must be clear"
+          },
+          "explanation": "The text says: \"Boundaries must be clear\".",
+          "uuid": "fa9cb7a9-403e-59c7-9698-188ecce0094e"
+        },
+        {
+          "id": "RE603-Q12",
+          "number": 12,
+          "prompt": "A mention of a prize won by a researcher",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Nobel Prize in Economics"
+          },
+          "explanation": "The text says: \"Nobel Prize in Economics\".",
+          "uuid": "739beabd-7607-55fb-8031-a96de58d9a6a"
+        },
+        {
+          "id": "RE603-Q13",
+          "number": 13,
+          "prompt": "A reference to governance operating at several levels at once",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "advocated polycentric governance, in which"
+          },
+          "explanation": "The text says: \"advocated polycentric governance, in which\".",
+          "uuid": "c8c1ffb8-7cf4-5f65-99fe-9784546f98eb"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "fe5e9d32-abbc-49ae-bc45-b05bba2b3c63",
+  "derived": {
+    "word_count": 412,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 6
+    },
+    "content_hash": "5a11bb6dbd482be3"
+  }
+}

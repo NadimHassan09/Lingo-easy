@@ -1,0 +1,70 @@
+{
+  "part_id": "LI401",
+  "part_uuid": "b58c2494-29e1-4d87-b91f-89ae7712be79",
+  "audio_file": "li401_university_orientation_talk.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "2eda327633428c8aaf5ccda805e90fe4e682e243ebd4cd5a3958635998736af8",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Amara Singh",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 15.36
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 15.81,
+      "end": 38.39
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 38.84,
+      "end": 79.36
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 79.81,
+      "end": 101.12
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 101.57,
+      "end": 136.49
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 136.94,
+      "end": 157.72
+    }
+  ],
+  "duration_seconds": 157.72,
+  "size_bytes": 1262444,
+  "audio_sha256": "4d83aef2b8a749ec0ab57b975f7ab836ab8bc2be55460768e3840d2b1604fd32",
+  "generated_at": "2026-10-30T20:53:11+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

@@ -1,0 +1,490 @@
+{
+  "schema_version": "1.0",
+  "id": "WR506",
+  "uuid": "005861da-3774-537a-8337-29bbafcc65f3",
+  "version": "1.0.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "assessment",
+    "level": "C1"
+  },
+  "target_cefr": "C1",
+  "profile": "level_c1",
+  "topic": "arts_and_culture",
+  "context": "A national budget debate has raised the question of whether arts organisations should receive public money.",
+  "title": "Public funding for the arts",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "argumentative_essay",
+  "task": {
+    "title": "Public funding for the arts",
+    "scenario": "A national budget debate has raised the question of whether arts organisations should receive public money.",
+    "prompt": "Is it justifiable for governments to fund the arts when other public services also need money? Develop a balanced argument.",
+    "instructions": [
+      "Write about 300-350 words (at least 250).",
+      "You have about 40 minutes.",
+      "Make sure you cover all of the points below.",
+      "You are writing for: a thoughtful general readership. Style: formal."
+    ],
+    "required_points": [
+      "identify the values that justify arts funding",
+      "consider the strongest objections",
+      "discuss how funding decisions could be made fairly",
+      "reach a considered conclusion"
+    ],
+    "audience": "a thoughtful general readership",
+    "register": "formal",
+    "response_type": "argumentative_essay",
+    "word_count": {
+      "minimum": 250,
+      "suggested_min": 300,
+      "suggested_max": 350,
+      "maximum": 420
+    },
+    "suggested_minutes": 40
+  },
+  "expected_response": {
+    "content_points": [
+      "identify the values that justify arts funding",
+      "consider the strongest objections",
+      "discuss how funding decisions could be made fairly",
+      "reach a considered conclusion"
+    ],
+    "required_elements": [
+      "Address: identify the values that justify arts funding",
+      "Address: consider the strongest objections",
+      "Address: discuss how funding decisions could be made fairly",
+      "Address: reach a considered conclusion"
+    ],
+    "optional_elements": [
+      "comparison with another sector"
+    ],
+    "organisation": [
+      "introduction",
+      "arguments in favour",
+      "objections",
+      "criteria for fairness",
+      "conclusion"
+    ],
+    "vocabulary_demands": [
+      "culture and public value",
+      "budgets and priorities",
+      "abstract nouns"
+    ],
+    "grammar_demands": [
+      {
+        "id": "nominalisation",
+        "level": "C1",
+        "extension": false
+      },
+      {
+        "id": "hedging_and_tentative_language",
+        "level": "C1",
+        "extension": false
+      },
+      {
+        "id": "participle_clauses",
+        "level": "C1",
+        "extension": false
+      },
+      {
+        "id": "inversion_emphasis",
+        "level": "C1",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Fully organised extended discourse with explicit argument structure.",
+    "linguistic_demand": "Well-structured, detailed discourse on complex and abstract topics; qualified positions; flexible register; nominalisation and hedging.",
+    "cognitive_demand": "Critically evaluate claims and evidence; Integrate several viewpoints or sources",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Frame",
+          "Public value argument",
+          "Objections",
+          "Fair criteria",
+          "Conclusion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "argument_development",
+    "secondary_subskills": [
+      "discourse_organisation"
+    ],
+    "cognitive_processes": [
+      "critical_evaluation",
+      "synthesise_viewpoints"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.argument_development.C1.1",
+        "text": "Develop a balanced argument on a public-policy issue using abstract concepts",
+        "measurable_verb": "develop",
+        "criteria": [
+          "W_TA",
+          "W_CC",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "C1",
+    "recommended_cefr": "C1",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.77,
+    "language_demand": "Well-structured, detailed discourse on complex and abstract topics; qualified positions; flexible register; nominalisation and hedging.",
+    "cognitive_demand": "Critically evaluate claims and evidence; Integrate several viewpoints or sources",
+    "expected_performance": [
+      "Addresses all parts fully and insightfully; position is nuanced and sustained; ideas are well supported and weighed against alternatives.",
+      "Skilful sequencing and paragraphing; cohesive devices and reference used flexibly with only occasional over- or under-use.",
+      "Wide range used flexibly and precisely; natural collocation; occasional slips only."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 4.0, 'cognition': 4.0, 'length': 4.27, 'abstractness': 4.2, 'prompt_language': 1.79}; composite 3.85 -> C1. Original target C1. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 4.0,
+      "cognition": 4.0,
+      "length": 4.27,
+      "abstractness": 4.2,
+      "prompt_language": 1.79
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 7.2,
+      "long_word_ratio": 0.163
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "C1",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Addresses all parts fully and insightfully; position is nuanced and sustained; ideas are well supported and weighed against alternatives. Required points: identify the values that justify arts funding; consider the strongest objections; discuss how funding decisions could be made fairly; reach a considered conclusion",
+        "weak_performance": "Parts of the task treated superficially; position not weighed against alternatives; support thin or repetitive.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: identify the values that justify arts funding; consider the strongest objections; discuss how funding decisions could be made fairly; reach a considered conclusion.",
+        "common_error_patterns": [
+          "describing rather than evaluating",
+          "ignoring the counter-argument",
+          "position changes midway"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Skilful sequencing and paragraphing; cohesive devices and reference used flexibly with only occasional over- or under-use.",
+        "weak_performance": "Some lack of flexibility in cohesion; occasional faulty reference.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "over-signposting",
+          "weak substitution and ellipsis"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Wide range used flexibly and precisely; natural collocation; occasional slips only.",
+        "weak_performance": "Occasional imprecision, awkward collocation or register mismatch.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: culture and public value; budgets and priorities; abstract nouns.",
+        "common_error_patterns": [
+          "near-synonym misuse",
+          "over-informal words"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ]
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Wide range of complex structures used flexibly; the majority of sentences are error-free.",
+        "weak_performance": "Occasional errors in complex or low-frequency forms.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: nominalisation, hedging_and_tentative_language, participle_clauses, inversion_emphasis.",
+        "common_error_patterns": [
+          "article and preposition slips in complex phrases",
+          "run-on sentences"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ]
+      },
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "description": "Overall structure of the text and how far main ideas are developed, supported and linked to a position or purpose.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Well-organised argument in which each paragraph advances the position; counter-arguments are anticipated; support is specific.",
+        "weak_performance": "Uneven development; counter-arguments missing; some paragraphs only descriptive.",
+        "expected_evidence": "Presence of position/thesis; paragraph topics; reasons and examples per point; conclusion.",
+        "common_error_patterns": [
+          "description instead of evaluation",
+          "unanswered counter-argument"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "Do not apply to very short A1/A2 texts; the task does not require essay structure there.",
+        "diagnostic_categories": [
+          "D_ORGANISATION",
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_COMPARISON"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      }
+    ],
+    "required_demonstrations": [
+      "Address every required point: identify the values that justify arts funding; consider the strongest objections; discuss how funding decisions could be made fairly; reach a considered conclusion",
+      "Use language appropriate to: a thoughtful general readership"
+    ],
+    "optional_demonstrations": [
+      "comparison with another sector"
+    ],
+    "not_penalised": [
+      "absence of C2 stylistic devices",
+      "the writer's opinion itself (judge how it is argued, not which side is chosen)",
+      "factual inaccuracy beyond the supplied source material"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARGUMENT",
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_COMPARISON",
+      "D_GRAMMAR_RANGE",
+      "D_HEDGING",
+      "D_OFF_TASK",
+      "D_ORGANISATION",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SUPPORT",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/writing_*.py (C1-06)",
+    "spec_sha256": "6f9680b72663ab20d167ee8ea5539961b4c9f0eec40fad9d6ca546ab6103c517",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "C1-06",
+      "lv": "C1",
+      "cat": "argumentative_essay",
+      "topic": "arts_and_culture",
+      "title": "Public funding for the arts",
+      "scen": "A national budget debate has raised the question of whether arts organisations should receive public money.",
+      "prompt": "Is it justifiable for governments to fund the arts when other public services also need money? Develop a balanced argument.",
+      "pts": [
+        "identify the values that justify arts funding",
+        "consider the strongest objections",
+        "discuss how funding decisions could be made fairly",
+        "reach a considered conclusion"
+      ],
+      "aud": "a thoughtful general readership",
+      "reg": "formal",
+      "w": [
+        250,
+        300,
+        350,
+        420
+      ],
+      "mins": 40,
+      "vocab": [
+        "culture and public value",
+        "budgets and priorities",
+        "abstract nouns"
+      ],
+      "gram": [
+        "nominalisation",
+        "hedging_and_tentative_language",
+        "participle_clauses",
+        "inversion_emphasis"
+      ],
+      "struct": [
+        "introduction",
+        "arguments in favour",
+        "objections",
+        "criteria for fairness",
+        "conclusion"
+      ],
+      "sub": "argument_development",
+      "sub2": [
+        "discourse_organisation"
+      ],
+      "cog": [
+        "critical_evaluation",
+        "synthesise_viewpoints"
+      ],
+      "obj": [
+        "Develop a balanced argument on a public-policy issue using abstract concepts"
+      ],
+      "outline": [
+        "Frame",
+        "Public value argument",
+        "Objections",
+        "Fair criteria",
+        "Conclusion"
+      ],
+      "opt": [
+        "comparison with another sector"
+      ],
+      "abs": 3
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "1a48318b58f54650ca14c2b2786c860437a111181f91e6f4de2c50cb3a379815"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE203",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "The Story of the Bicycle",
+  "topic": "history",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "The Story of the Bicycle",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The first bicycle was made in 1817 by a German man called Karl von Drais. It had two wheels, but it had no pedals. The rider sat on it and pushed the ground with his feet. People called it a running machine, and it was used mainly by rich people for fun."
+      },
+      {
+        "label": "B",
+        "text": "In the 1860s, French inventors added pedals to the front wheel. This bicycle was called a boneshaker because the road was bumpy and the wheels were made of wood and metal. It was heavy and uncomfortable, so it was not popular with many people."
+      },
+      {
+        "label": "C",
+        "text": "Later, in 1870, a bicycle with a very big front wheel appeared. It was faster, but it was also dangerous. The rider sat high above the ground, and falling from it could cause serious accidents. Women and older people did not use it."
+      },
+      {
+        "label": "D",
+        "text": "The big change came in the 1880s. A new design, called the safety bicycle, had two wheels of the same size and a chain to the back wheel. It was easier to ride, and it was much safer. Soon, millions of people were buying bicycles. Today, there are more than one billion bicycles in the world, and many cities are building special roads for them."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE203-Q01",
+          "number": 1,
+          "prompt": "Who made the first bicycle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pierre Lallement"
+            },
+            {
+              "id": "B",
+              "text": "Henry Smith"
+            },
+            {
+              "id": "C",
+              "text": "Karl von Drais"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "made in 1817 by a German man called Karl von Drais"
+          },
+          "explanation": "The text says: \"made in 1817 by a German man called Karl von Drais\".",
+          "uuid": "2c211eda-9b95-5602-9d52-3c859cd5497d"
+        },
+        {
+          "id": "RE203-Q02",
+          "number": 2,
+          "prompt": "How did the rider move the first bicycle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By pushing the ground with his feet"
+            },
+            {
+              "id": "B",
+              "text": "By using pedals on the front wheel"
+            },
+            {
+              "id": "C",
+              "text": "By turning a handle with his hands"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "pushed the ground with his feet"
+          },
+          "explanation": "The text says: \"pushed the ground with his feet\".",
+          "uuid": "86d63d52-ff46-5930-89ad-ed1a47aa7811"
+        },
+        {
+          "id": "RE203-Q03",
+          "number": 3,
+          "prompt": "Who used the first bicycles mainly?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Farmers"
+            },
+            {
+              "id": "B",
+              "text": "Soldiers"
+            },
+            {
+              "id": "C",
+              "text": "Rich people"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "used mainly by rich people"
+          },
+          "explanation": "The text says: \"used mainly by rich people\".",
+          "uuid": "5dd930d4-d5cc-5042-a2a6-59468811c736"
+        },
+        {
+          "id": "RE203-Q04",
+          "number": 4,
+          "prompt": "Why was the boneshaker uncomfortable?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The rider had to push it with his feet"
+            },
+            {
+              "id": "B",
+              "text": "The roads were bumpy and the wheels were hard"
+            },
+            {
+              "id": "C",
+              "text": "It had thin wheels made of rubber"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "the road was bumpy and the wheels were made of wood and metal"
+          },
+          "explanation": "The text says: \"the road was bumpy and the wheels were made of wood and metal\".",
+          "uuid": "1df326af-f4c8-5637-9bfd-cdf64220fb1a"
+        },
+        {
+          "id": "RE203-Q05",
+          "number": 5,
+          "prompt": "What was dangerous about the big-wheel bicycle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The rider sat high above the ground"
+            },
+            {
+              "id": "B",
+              "text": "It had no brakes on the front wheel"
+            },
+            {
+              "id": "C",
+              "text": "It was very slow on bumpy roads"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "sat high above the ground"
+          },
+          "explanation": "The text says: \"sat high above the ground\".",
+          "uuid": "55e51d90-f250-5379-99e7-6893ee200c00"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE203-Q06",
+          "number": 6,
+          "prompt": "The first bicycle had pedals.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "it had no pedals"
+          },
+          "explanation": "The text says: \"it had no pedals\".",
+          "uuid": "ac647dc7-24f6-55a2-b16d-18418c88b406"
+        },
+        {
+          "id": "RE203-Q07",
+          "number": 7,
+          "prompt": "The boneshaker was popular with many people.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "it was not popular with many people"
+          },
+          "explanation": "The text says: \"it was not popular with many people\".",
+          "uuid": "5a91b90d-5276-5c77-9bed-7e69d82e28cf"
+        },
+        {
+          "id": "RE203-Q08",
+          "number": 8,
+          "prompt": "Women often used the big-wheel bicycle.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Women and older people did not use it"
+          },
+          "explanation": "The text says: \"Women and older people did not use it\".",
+          "uuid": "25a4c992-3d1a-55e1-bd6c-118e38bf4724"
+        },
+        {
+          "id": "RE203-Q09",
+          "number": 9,
+          "prompt": "The safety bicycle had a chain.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "a chain to the back wheel"
+          },
+          "explanation": "The text says: \"a chain to the back wheel\".",
+          "uuid": "17558dc5-6dff-5a1d-b9cb-fbcd89f34d42"
+        },
+        {
+          "id": "RE203-Q10",
+          "number": 10,
+          "prompt": "The first bicycle race was in France.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "55ef0a73-8d24-5103-b3ad-0018fbc75d4c"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE203-Q11",
+          "number": 11,
+          "prompt": "French inventors added _____ in the 1860s.",
+          "options": [
+            {
+              "id": "A",
+              "text": "brakes"
+            },
+            {
+              "id": "B",
+              "text": "pedals"
+            },
+            {
+              "id": "C",
+              "text": "lights"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "added pedals to the front wheel"
+          },
+          "explanation": "The text says: \"added pedals to the front wheel\".",
+          "uuid": "8c988608-b830-586f-807c-017187e9d186"
+        },
+        {
+          "id": "RE203-Q12",
+          "number": 12,
+          "prompt": "The safety bicycle had two wheels of the _____ size.",
+          "options": [
+            {
+              "id": "A",
+              "text": "different"
+            },
+            {
+              "id": "B",
+              "text": "same"
+            },
+            {
+              "id": "C",
+              "text": "small"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "wheels of the same size"
+          },
+          "explanation": "The text says: \"wheels of the same size\".",
+          "uuid": "ae5f917c-e7c1-5f07-b000-8af800031ec9"
+        },
+        {
+          "id": "RE203-Q13",
+          "number": 13,
+          "prompt": "Today there are more than one _____ bicycles in the world.",
+          "options": [
+            {
+              "id": "A",
+              "text": "billion"
+            },
+            {
+              "id": "B",
+              "text": "million"
+            },
+            {
+              "id": "C",
+              "text": "thousand"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "more than one billion bicycles"
+          },
+          "explanation": "The text says: \"more than one billion bicycles\".",
+          "uuid": "8a8a3a0b-2e58-5162-a206-7b035b92205c"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "12ec5aa5-8e6a-45f8-92e7-52352cf0a845",
+  "derived": {
+    "word_count": 204,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 4,
+      "B": 6,
+      "C": 3
+    },
+    "content_hash": "fceb01c43a9245bd"
+  }
+}

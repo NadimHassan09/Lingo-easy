@@ -1,0 +1,467 @@
+{
+  "schema_version": "1.0",
+  "id": "LI109",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Joining a Sports Club",
+  "topic": "sports_and_fitness",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li109_joining_a_sports_club.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Nina",
+        "gender": "female",
+        "accent": "british",
+        "role": "receptionist"
+      },
+      {
+        "id": "S2",
+        "name": "Paul",
+        "gender": "male",
+        "accent": "new_zealand",
+        "role": "new member"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Welcome to City Sports Club. Can I help you?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hello. I want to join the club. How much is it?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It is twenty pounds a month for adults. For students it is twelve pounds."
+      },
+      {
+        "speaker": "S2",
+        "text": "I am a student. I study at the university. I have my student card here."
+      },
+      {
+        "speaker": "S1",
+        "text": "Great. So it is twelve pounds. What sport do you like?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I like swimming and tennis. When is the swimming pool open?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It is open from six in the morning to ten at night, every day. The tennis courts are open from nine to six."
+      },
+      {
+        "speaker": "S2",
+        "text": "Do I need to book a tennis court?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, please book online or call us. It is five pounds for one hour."
+      },
+      {
+        "speaker": "S2",
+        "text": "That is okay. Are there classes for beginners?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes. We have a yoga class on Tuesday and a dance class on Thursday. Both start at seven in the evening."
+      },
+      {
+        "speaker": "S2",
+        "text": "I would like the dance class. I am a beginner."
+      },
+      {
+        "speaker": "S1",
+        "text": "Wonderful. Please fill in this form with your name and address."
+      },
+      {
+        "speaker": "S2",
+        "text": "Sure. Do I need a towel?"
+      },
+      {
+        "speaker": "S1",
+        "text": "You can buy a towel in our shop, or bring your own."
+      },
+      {
+        "speaker": "S2",
+        "text": "I will bring my own. Thank you!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI109-Q01",
+          "number": 1,
+          "prompt": "How much is the club for adults each month?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20 pounds"
+            },
+            {
+              "id": "B",
+              "text": "12 pounds"
+            },
+            {
+              "id": "C",
+              "text": "30 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "twenty pounds a month for adults"
+          },
+          "explanation": "The audio says: \"twenty pounds a month for adults\".",
+          "uuid": "d70aa11d-3a2e-5d43-b6f0-ec4237317333"
+        },
+        {
+          "id": "LI109-Q02",
+          "number": 2,
+          "prompt": "How much does Paul pay each month?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12 pounds"
+            },
+            {
+              "id": "B",
+              "text": "2 pounds"
+            },
+            {
+              "id": "C",
+              "text": "20 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "So it is twelve pounds"
+          },
+          "explanation": "The audio says: \"So it is twelve pounds\".",
+          "uuid": "468d3c86-db2d-5a84-b30e-90db14788510"
+        },
+        {
+          "id": "LI109-Q03",
+          "number": 3,
+          "prompt": "Which sports does Paul like?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Football and tennis"
+            },
+            {
+              "id": "B",
+              "text": "Swimming and yoga"
+            },
+            {
+              "id": "C",
+              "text": "Swimming and tennis"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I like swimming and tennis"
+          },
+          "explanation": "The audio says: \"I like swimming and tennis\".",
+          "uuid": "45762326-f8aa-539c-9317-69929fed9396"
+        },
+        {
+          "id": "LI109-Q04",
+          "number": 4,
+          "prompt": "What time does the pool open?",
+          "options": [
+            {
+              "id": "A",
+              "text": "6.00 in the morning"
+            },
+            {
+              "id": "B",
+              "text": "9.00 in the morning"
+            },
+            {
+              "id": "C",
+              "text": "10.00 at night"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "open from six in the morning"
+          },
+          "explanation": "The audio says: \"open from six in the morning\".",
+          "uuid": "f5ab5624-0609-50b6-8233-3fa76b3bc9e6"
+        },
+        {
+          "id": "LI109-Q05",
+          "number": 5,
+          "prompt": "How can Paul book a tennis court?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only at the desk"
+            },
+            {
+              "id": "B",
+              "text": "By letter"
+            },
+            {
+              "id": "C",
+              "text": "Online or by phone"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "book online or call us"
+          },
+          "explanation": "The audio says: \"book online or call us\".",
+          "uuid": "a98e9b27-adbe-5765-9e0d-0fd5deb919c2"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI109-Q06",
+          "number": 6,
+          "prompt": "How much is a tennis court for one hour?",
+          "options": [
+            {
+              "id": "A",
+              "text": "15 pounds"
+            },
+            {
+              "id": "B",
+              "text": "50 pounds"
+            },
+            {
+              "id": "C",
+              "text": "5 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "five pounds for one hour"
+          },
+          "explanation": "The audio says: \"five pounds for one hour\".",
+          "uuid": "5521d728-6107-5bb3-b961-87ebd57932c6"
+        },
+        {
+          "id": "LI109-Q07",
+          "number": 7,
+          "prompt": "What time do both classes start?",
+          "options": [
+            {
+              "id": "A",
+              "text": "7.00 in the morning"
+            },
+            {
+              "id": "B",
+              "text": "9.00 in the evening"
+            },
+            {
+              "id": "C",
+              "text": "7.00 in the evening"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Both start at seven in the evening"
+          },
+          "explanation": "The audio says: \"Both start at seven in the evening\".",
+          "uuid": "ba3aa286-b107-5d09-991b-4361a9d46d5d"
+        },
+        {
+          "id": "LI109-Q08",
+          "number": 8,
+          "prompt": "Which class does Paul choose?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The yoga class"
+            },
+            {
+              "id": "B",
+              "text": "The dance class"
+            },
+            {
+              "id": "C",
+              "text": "The tennis class"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I would like the dance class"
+          },
+          "explanation": "The audio says: \"I would like the dance class\".",
+          "uuid": "07aa4a09-ad2c-5844-be87-84a6b398f694"
+        },
+        {
+          "id": "LI109-Q09",
+          "number": 9,
+          "prompt": "What must Paul write on the form?",
+          "options": [
+            {
+              "id": "A",
+              "text": "His age and job"
+            },
+            {
+              "id": "B",
+              "text": "His phone number"
+            },
+            {
+              "id": "C",
+              "text": "His name and address"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "with your name and address"
+          },
+          "explanation": "The audio says: \"with your name and address\".",
+          "uuid": "534e941d-108f-52de-a7f9-2bd2d6252d2f"
+        },
+        {
+          "id": "LI109-Q10",
+          "number": 10,
+          "prompt": "What will Paul do about a towel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bring his own"
+            },
+            {
+              "id": "B",
+              "text": "Buy one in the shop"
+            },
+            {
+              "id": "C",
+              "text": "Borrow one"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I will bring my own"
+          },
+          "explanation": "The audio says: \"I will bring my own\".",
+          "uuid": "514fa8e9-a15f-5400-ab99-ed6ed7d19156"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "aa19b88b-62fd-4268-9afe-6106f56ffd03",
+  "derived": {
+    "word_count": 191,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 4,
+      "B": 1,
+      "C": 5
+    },
+    "content_hash": "8ca5e96acb5a144b"
+  }
+}

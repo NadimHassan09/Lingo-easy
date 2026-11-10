@@ -1,0 +1,70 @@
+{
+  "part_id": "LI306",
+  "part_uuid": "05af956d-9685-40db-af35-9deb1db56938",
+  "audio_file": "li306_healthy_eating_for_busy_people.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "c6f1021c338b8e0c47afc8174114adebae5c70697aee55220419dd8b42d19c9e",
+  "voices": {
+    "S1": {
+      "voice": "en-NZ-MollyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Hana Patel",
+      "gender": "female",
+      "accent": "new_zealand",
+      "voice": "en-NZ-MollyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 9.62
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 10.07,
+      "end": 41.06
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 41.51,
+      "end": 65.56
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 66.01,
+      "end": 89.05
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 89.5,
+      "end": 113.57
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 114.02,
+      "end": 130.15
+    }
+  ],
+  "duration_seconds": 130.15,
+  "size_bytes": 1041836,
+  "audio_sha256": "ac423c2cfd52beed8749bd634e9f3d4e125067a995037c21b2504b9f8e6d1656",
+  "generated_at": "2026-10-30T20:51:08+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

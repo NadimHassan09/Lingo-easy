@@ -1,0 +1,697 @@
+[
+ {
+  "id": "RE306-Q01",
+  "set": {
+   "B": "Only in large hospitals in the big cities",
+   "C": "Only in the homes of elderly patients"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE310-Q01",
+  "set": {
+   "B": "The idea that all learners make progress at a similar speed",
+   "C": "The idea that adults should study a language only in classes"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI401-Q10",
+  "set": {
+   "A": "It earns credit towards the final degree classification",
+   "B": "It is a requirement for students who live in halls"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI406-Q09",
+  "set": {
+   "B": "Schools already receive more than enough public funding",
+   "C": "Libraries are much cheaper to run than most schools"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI410-Q04",
+  "set": {
+   "C": "Leaving it out of the project"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI410-Q09",
+  "set": {
+   "A": "There are only a few studies, all from Asia",
+   "C": "They are all recent and come to the same result"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE401-Q03",
+  "set": {
+   "C": "Habits cannot be changed once they have formed"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE402-Q03",
+  "set": {
+   "A": "It buries the seeds too deeply for them to grow",
+   "C": "It floods the soil with more water than it can hold"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE406-Q01",
+  "set": {
+   "B": "A tourist orbited the Moon in a privately owned rocket",
+   "C": "The first hotel in space opened its doors to guests"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE406-Q05",
+  "set": {
+   "B": "A feeling of fear that builds up during a long space flight",
+   "C": "A feeling of dizziness caused by weightlessness and high speed"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE408-Q02",
+  "set": {
+   "B": "They are smaller than those of the car industry as a whole",
+   "C": "They are falling quickly as factories close down in Europe"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI502-Q04",
+  "set": {
+   "A": "They can shrink tumours in the same way as drugs do",
+   "B": "They work better than real drugs for pain relief"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI503-Q10",
+  "set": {
+   "A": "Test with the whole second-year group before the deadline",
+   "C": "Skip it if the deadline is too close to the end"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q02",
+  "set": {
+   "A": "A small financial reward that is paid to people for changing behaviour",
+   "B": "A law that bans the choices that are known to be harmful to people"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q04",
+  "set": {
+   "A": "People prefer to avoid risk whenever they save money",
+   "B": "People prefer familiar brands to unknown brands of the same kind"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q05",
+  "set": {
+   "B": "Signs about the environmental benefits worked better than signs about guests",
+   "C": "Signs made little difference to how often towels were reused"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI509-Q08",
+  "set": {
+   "A": "Full payment in advance and no more than one round of changes",
+   "C": "A signed contract and a deposit paid by the end of next week"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI510-Q03",
+  "set": {
+   "B": "Destroy remains that cannot be identified by scientists",
+   "C": "Stop all DNA research on human remains in museums"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI510-Q04",
+  "set": {
+   "A": "Research on human remains has largely come to an end",
+   "B": "Museums have generally refused to comply with the new law"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI510-Q09",
+  "set": {
+   "B": "They buy objects only from dealers who are licensed abroad",
+   "C": "They accept donations from any wealthy private collector"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE502-Q03",
+  "set": {
+   "A": "They own larger homes that use energy more efficiently",
+   "C": "They work from home for several days in every week"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE504-Q05",
+  "set": {
+   "A": "They are too difficult to make in a modern laboratory",
+   "C": "They are banned by international health regulators"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE507-Q01",
+  "set": {
+   "B": "They were not properly tested"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE509-Q01",
+  "set": {
+   "A": "Eyewitnesses played only a small part in the wrongful convictions",
+   "C": "Witnesses lied deliberately in most of the cases studied"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q07",
+  "set": {
+   "A": "Free will requires that our choices have no prior causes at all",
+   "C": "Free will cannot exist if the brain is a physical organ"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q09",
+  "set": {
+   "B": "Criminal law will not need any significant change"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI601-Q10",
+  "set": {
+   "A": "Neuroscience has finally answered the question once and for all",
+   "C": "Neuroscience has no real bearing on the question at all"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q04",
+  "set": {
+   "B": "Literal versions read well even when they have no rhyme",
+   "C": "Rhyme matters little in most modern poetry written in English"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI602-Q09",
+  "set": {
+   "B": "Heaney introduced an error that critics later corrected in print",
+   "C": "Words for fortresses cannot be translated into English dialects at all"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI603-Q07",
+  "set": {
+   "A": "Tour operators often ignore the damage that they cause to sites",
+   "C": "Tourism should be banned altogether in very fragile places"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q01",
+  "set": {
+   "A": "Why animals compete with each other for food and territory",
+   "C": "Why many species of animal have become extinct recently"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q02",
+  "set": {
+   "A": "When the helper gains a direct benefit for itself later on",
+   "B": "When relatives happen to be living close to the helper"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q03",
+  "set": {
+   "B": "It applies only to insects that live in large colonies",
+   "C": "It was largely disproved by research in the 1960s"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI604-Q09",
+  "set": {
+   "A": "It was not discussed at all by biologists during the 1970s",
+   "B": "It has been rejected by most evolutionary biologists"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI605-Q06",
+  "set": {
+   "B": "A way of persuading readers to take a particular political side",
+   "C": "A way of recording the recent history of a country accurately"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI605-Q07",
+  "set": {
+   "A": "To avoid offending the governments of real countries abroad",
+   "C": "To save himself time on research into real historical events"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q02",
+  "set": {
+   "A": "The sample covers too few people for the results to be reliable",
+   "C": "The study has no control group with which to compare drinkers"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q05",
+  "set": {
+   "A": "A fall to a risk of almost zero per cent",
+   "C": "A fall to roughly two and a half per cent"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q08",
+  "set": {
+   "A": "Dismiss the whole study because of who paid for it",
+   "C": "Ignore the funding, since it has no bearing on results"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI606-Q10",
+  "set": {
+   "A": "Coffee reduces a person's risk of death by about a third",
+   "B": "Coffee causes people to live significantly longer lives"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q01",
+  "set": {
+   "B": "Planners are usually active members of political parties",
+   "C": "Governments pay for all of the planning decisions made"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI607-Q08",
+  "set": {
+   "A": "Parks are replaced by new office buildings in city centres",
+   "B": "Trees are planted in the wrong parts of the city by mistake"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI608-Q02",
+  "set": {
+   "A": "It was carried out too slowly and at far too great a cost",
+   "B": "It was kept secret from colleagues and used too few embryos"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI608-Q05",
+  "set": {
+   "A": "Parents have no right to decide anything for their children",
+   "C": "Parents are rarely told which edits are being planned for them"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI608-Q07",
+  "set": {
+   "B": "She dismisses it as a poor and unconvincing kind of argument",
+   "C": "She treats it as valid in every circumstance without exception"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI609-Q02",
+  "set": {
+   "A": "Inventing the first form of printing in Europe"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI609-Q05",
+  "set": {
+   "B": "Only the church and the officials who served it",
+   "C": "Only aristocrats and the members of the royal court"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI610-Q08",
+  "set": {
+   "B": "A longer list of sources that covers more authors",
+   "C": "More direct quotations from each of the authors"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE601-Q02",
+  "set": {
+   "A": "Consciousness has a special non-physical origin of its own",
+   "C": "Consciousness cannot be studied by any scientific method"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE601-Q03",
+  "set": {
+   "A": "Biochemistry has not yet fully explained how life began",
+   "B": "Life is harder to define than consciousness ever could be"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE602-Q02",
+  "set": {
+   "A": "It supports Whorf's strongest claims about the Hopi language",
+   "C": "It supports Whorf's critics, who deny any influence of language"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE602-Q03",
+  "set": {
+   "A": "English speakers distinguished the blue shades more quickly",
+   "C": "Both groups performed equally fast on the colour tasks"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE605-Q01",
+  "set": {
+   "B": "Computers had doubled output in most industries by 1987",
+   "C": "Computers were too expensive for most firms to buy"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE605-Q02",
+  "set": {
+   "B": "It is mostly exported to other countries each year",
+   "C": "It is taxed so heavily that its sales fall sharply"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE605-Q04",
+  "set": {
+   "A": "Electricity was too unreliable for use in factories",
+   "B": "Workers refused to operate the new electric machines"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE605-Q05",
+  "set": {
+   "A": "Cheaper electricity for all of the manufacturers",
+   "C": "Larger factories that employed many more workers"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE606-Q01",
+  "set": {
+   "A": "As a conflict between art and modern politics",
+   "B": "As a question of public cost against public benefit"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE609-Q01",
+  "set": {
+   "A": "The use of much larger bilingual dictionaries by programmers",
+   "B": "The use of professional editors to check every sentence"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE610-Q02",
+  "set": {
+   "A": "That all people are born with equal abilities and chances",
+   "C": "That the law treats rich and poor people in the same way"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE610-Q05",
+  "set": {
+   "B": "It requires us to rewrite the whole theory of law"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI005-Q04",
+  "set": {
+   "A": "A free towel at each of your visits",
+   "B": "A free month of evening yoga classes"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q04",
+  "set": {
+   "B": "The sample is too small to produce useful results",
+   "C": "The sample was collected too long ago to be useful"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q05",
+  "set": {
+   "A": "She asked her friends on the same course",
+   "B": "She sent an email to all of the students"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q06",
+  "set": {
+   "A": "It uses the wrong prices for a cup of coffee",
+   "C": "It includes far too many fixed costs in the total"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q08",
+  "set": {
+   "A": "It will close the kiosk during the summer term",
+   "C": "It will copy the design and menu of the cart"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q04",
+  "set": {
+   "A": "Offering volunteers a small payment for their time",
+   "B": "Advertising widely in the town and on local radio"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q09",
+  "set": {
+   "A": "Volunteering costs organisations almost nothing to run each year",
+   "C": "Volunteers save the council about eight pounds each year"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE003-Q04",
+  "set": {
+   "A": "They see little value in their own traditions and customs",
+   "C": "They are told to stop by local officials and teachers"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE003-Q11",
+  "set": {
+   "A": "the spread of new technology around the world",
+   "C": "rapid growth in the populations of big cities"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE004-Q03",
+  "set": {
+   "A": "They are more likely to be bullied by classmates online.",
+   "B": "They find school lessons harder than older pupils do."
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE005-Q13",
+  "set": {
+   "A": "To criticise the way that some stations are designed",
+   "C": "To advertise the walking tours that run once a year"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE006-Q03",
+  "set": {
+   "B": "Their clothes, shoes and other personal belongings",
+   "C": "Their holidays and plans for the weekend and evenings"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE006-Q05",
+  "set": {
+   "A": "They had hardly ever argued with a flatmate"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE007-Q03",
+  "set": {
+   "A": "They carry oxygen around to the infected tissue",
+   "B": "They make the body ill for several days at a time"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE008-Q04",
+  "set": {
+   "B": "Tourists rarely spend any money in the local shops",
+   "C": "Local people refuse to work in the tourist industry"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE010-Q03",
+  "set": {
+   "A": "The company had not studied the effects of its product",
+   "C": "The platform was losing a large number of users each year"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE010-Q04",
+  "set": {
+   "A": "Parents do not understand the law on age limits for children",
+   "C": "Platforms ignore the emails that worried parents send them"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE010-Q05",
+  "set": {
+   "A": "They are strictly enforced by the platforms themselves",
+   "B": "They are set far too low for most of the teenagers"
+  },
+  "reason": "second pass: distractors lengthened/rephrased to remove residual length cue or extreme wording; key text and letter unchanged",
+  "confidence": "medium"
+ }
+]

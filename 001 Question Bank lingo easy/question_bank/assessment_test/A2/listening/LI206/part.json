@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "id": "LI206",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "Walking Holidays",
+  "topic": "travel",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li206_walking_holidays.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Presenter",
+        "gender": "female",
+        "accent": "british",
+        "role": "radio presenter"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Welcome to Holiday Hour. This week, we're talking about walking holidays in the north of England. Many people think walking holidays are only for experts, but that isn't true. You can choose a route for beginners or for experienced walkers. The most popular route is the Lake Trail. It is about forty kilometres long, and most people finish it in four days. You stay in small hotels each night, and a van carries your bags, so you only carry water and a lunch. The best time to go is between May and September, when the days are long and the weather is usually dry. However, you should always take a rain jacket, because the weather can change quickly. Good boots are very important too. Don't buy new boots just before the trip, because they can hurt your feet. A group holiday costs about four hundred pounds, including hotels, dinners and the van. If you go alone, it's more expensive. Booking early is a good idea, because the popular weeks in July and August are often full. For more information, visit our website, where you can also see a short film about the Lake Trail."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI206-Q01",
+          "number": 1,
+          "prompt": "Where are the walking holidays?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In the north of Scotland"
+            },
+            {
+              "id": "B",
+              "text": "In the north of England"
+            },
+            {
+              "id": "C",
+              "text": "In the south of England"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "in the north of England"
+          },
+          "explanation": "The audio says: \"in the north of England\".",
+          "uuid": "c05a41cf-b035-5398-874a-5bf97e4a80ac"
+        },
+        {
+          "id": "LI206-Q02",
+          "number": 2,
+          "prompt": "Who can do the walks?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Beginners and experts"
+            },
+            {
+              "id": "B",
+              "text": "Only people who walk daily"
+            },
+            {
+              "id": "C",
+              "text": "Only families with children"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a route for beginners or for experienced walkers"
+          },
+          "explanation": "The audio says: \"a route for beginners or for experienced walkers\".",
+          "uuid": "380cc21c-0957-53a4-b8de-7abee33db125"
+        },
+        {
+          "id": "LI206-Q03",
+          "number": 3,
+          "prompt": "How long is the Lake Trail?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 14 kilometres"
+            },
+            {
+              "id": "B",
+              "text": "About 400 kilometres"
+            },
+            {
+              "id": "C",
+              "text": "About 40 kilometres"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about forty kilometres long"
+          },
+          "explanation": "The audio says: \"about forty kilometres long\".",
+          "uuid": "9f41011c-e057-5c3a-b8a9-1341e59c8c52"
+        },
+        {
+          "id": "LI206-Q04",
+          "number": 4,
+          "prompt": "How many days do most people need?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Four"
+            },
+            {
+              "id": "B",
+              "text": "Two"
+            },
+            {
+              "id": "C",
+              "text": "Seven"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "finish it in four days"
+          },
+          "explanation": "The audio says: \"finish it in four days\".",
+          "uuid": "8fd42408-b62d-51a9-909b-e7c140cbf6c4"
+        },
+        {
+          "id": "LI206-Q05",
+          "number": 5,
+          "prompt": "Who carries the walkers' bags?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The hotel"
+            },
+            {
+              "id": "B",
+              "text": "A guide"
+            },
+            {
+              "id": "C",
+              "text": "A van"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a van carries your bags"
+          },
+          "explanation": "The audio says: \"a van carries your bags\".",
+          "uuid": "7ba40a1b-213b-52e6-9ebc-6d113664753b"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI206-Q06",
+          "number": 6,
+          "prompt": "When is the best time to go?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Between March and May"
+            },
+            {
+              "id": "B",
+              "text": "Between October and December"
+            },
+            {
+              "id": "C",
+              "text": "Between May and September"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "between May and September"
+          },
+          "explanation": "The audio says: \"between May and September\".",
+          "uuid": "3ac93ce1-2d80-50af-9bfc-9f33809470cb"
+        },
+        {
+          "id": "LI206-Q07",
+          "number": 7,
+          "prompt": "What should walkers always take?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sun cream"
+            },
+            {
+              "id": "B",
+              "text": "A rain jacket"
+            },
+            {
+              "id": "C",
+              "text": "A map and compass"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "always take a rain jacket"
+          },
+          "explanation": "The audio says: \"always take a rain jacket\".",
+          "uuid": "362fe5f1-c6df-5d84-8c37-883335fbc257"
+        },
+        {
+          "id": "LI206-Q08",
+          "number": 8,
+          "prompt": "Why should walkers not buy new boots just before the trip?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They can hurt your feet"
+            },
+            {
+              "id": "B",
+              "text": "They are too heavy to carry"
+            },
+            {
+              "id": "C",
+              "text": "They are hard to find in shops"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "they can hurt your feet"
+          },
+          "explanation": "The audio says: \"they can hurt your feet\".",
+          "uuid": "84b5ca64-c5cd-5344-8ea5-32b92f029436"
+        },
+        {
+          "id": "LI206-Q09",
+          "number": 9,
+          "prompt": "How much is a group holiday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 400 pounds"
+            },
+            {
+              "id": "B",
+              "text": "About 140 pounds"
+            },
+            {
+              "id": "C",
+              "text": "About 4,000 pounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "costs about four hundred pounds"
+          },
+          "explanation": "The audio says: \"costs about four hundred pounds\".",
+          "uuid": "08bbcec5-d48b-577e-88c5-df22724efe87"
+        },
+        {
+          "id": "LI206-Q10",
+          "number": 10,
+          "prompt": "Why is it good to book early?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prices go up after the first of May"
+            },
+            {
+              "id": "B",
+              "text": "The trail closes in the winter months"
+            },
+            {
+              "id": "C",
+              "text": "July and August are often full"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "July and August are often full"
+          },
+          "explanation": "The audio says: \"July and August are often full\".",
+          "uuid": "39e5b3bc-b96f-507a-b553-19e6672425e7"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "826a39fd-1c02-41c2-9516-56f3bd54f36c",
+  "derived": {
+    "word_count": 194,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 4,
+      "B": 2,
+      "C": 4
+    },
+    "content_hash": "f62fb37ffc19c9e6"
+  }
+}

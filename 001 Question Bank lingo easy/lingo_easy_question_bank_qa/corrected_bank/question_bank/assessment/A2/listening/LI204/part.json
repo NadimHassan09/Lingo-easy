@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "id": "LI204",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "The School Trip",
+  "topic": "education",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li204_the_school_trip.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Ms Clarke",
+        "gender": "female",
+        "accent": "british",
+        "role": "teacher"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, everyone. I have some important news about next week's school trip to the science museum. We are going on Thursday, not Wednesday, because the museum is closed on Wednesdays. The bus will leave from the school gate at eight forty-five, so please be there at eight thirty. The journey takes about an hour. At the museum, there are two parts. In the morning, you will see the space exhibition and watch a short film about the planets. After that, you will have lunch in the museum café. Please bring a packed lunch if you do not want to buy food, because the café is quite expensive. In the afternoon, we will do a workshop where you build a small rocket. Each group has four students, and I will tell you your group on Monday. Remember to wear comfortable shoes, because we will walk a lot. You must not bring your mobile phones into the workshop. Finally, the trip costs twelve pounds, which you should give to your form teacher by Friday. If you have any problems, please talk to me after class."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI204-Q01",
+          "number": 1,
+          "prompt": "On which day is the trip?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wednesday"
+            },
+            {
+              "id": "B",
+              "text": "Friday"
+            },
+            {
+              "id": "C",
+              "text": "Thursday"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "We are going on Thursday"
+          },
+          "explanation": "The audio says: \"We are going on Thursday\".",
+          "uuid": "aef1c900-2a8f-5bfa-927f-e3e57ad5616b"
+        },
+        {
+          "id": "LI204-Q02",
+          "number": 2,
+          "prompt": "Why is the trip not on Wednesday?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The museum is closed"
+            },
+            {
+              "id": "B",
+              "text": "The bus is not free"
+            },
+            {
+              "id": "C",
+              "text": "There is a school test"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "museum is closed on Wednesdays"
+          },
+          "explanation": "The audio says: \"museum is closed on Wednesdays\".",
+          "uuid": "25b8bade-c4ee-5c9c-b800-28707f0597ad"
+        },
+        {
+          "id": "LI204-Q03",
+          "number": 3,
+          "prompt": "What time will the bus leave?",
+          "options": [
+            {
+              "id": "A",
+              "text": "8.30"
+            },
+            {
+              "id": "B",
+              "text": "9.45"
+            },
+            {
+              "id": "C",
+              "text": "8.45"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "leave from the school gate at eight forty-five"
+          },
+          "explanation": "The audio says: \"leave from the school gate at eight forty-five\".",
+          "uuid": "3534eba3-e942-5368-b67c-48b014be025e"
+        },
+        {
+          "id": "LI204-Q04",
+          "number": 4,
+          "prompt": "What time should students be at the school gate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "8.15"
+            },
+            {
+              "id": "B",
+              "text": "8.45"
+            },
+            {
+              "id": "C",
+              "text": "8.30"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "please be there at eight thirty"
+          },
+          "explanation": "The audio says: \"please be there at eight thirty\".",
+          "uuid": "99d1f406-3640-546a-9364-ff62eaced3b6"
+        },
+        {
+          "id": "LI204-Q05",
+          "number": 5,
+          "prompt": "How long is the journey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About thirty minutes"
+            },
+            {
+              "id": "B",
+              "text": "About two hours"
+            },
+            {
+              "id": "C",
+              "text": "About one hour"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The journey takes about an hour"
+          },
+          "explanation": "The audio says: \"The journey takes about an hour\".",
+          "uuid": "10bd583b-cdf2-566e-84cf-581a016b5c72"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI204-Q06",
+          "number": 6,
+          "prompt": "What will the students do in the morning?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Build a small rocket in groups"
+            },
+            {
+              "id": "B",
+              "text": "See an exhibition and watch a film"
+            },
+            {
+              "id": "C",
+              "text": "Do a workshop and then have lunch"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "see the space exhibition and watch a short film"
+          },
+          "explanation": "The audio says: \"see the space exhibition and watch a short film\".",
+          "uuid": "8568ff07-582c-5e87-8289-19abb25c4559"
+        },
+        {
+          "id": "LI204-Q07",
+          "number": 7,
+          "prompt": "Why should students bring a packed lunch?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The café is closed"
+            },
+            {
+              "id": "B",
+              "text": "The café is expensive"
+            },
+            {
+              "id": "C",
+              "text": "The café is far away"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the café is quite expensive"
+          },
+          "explanation": "The audio says: \"the café is quite expensive\".",
+          "uuid": "eb5b6507-78e4-5ebb-b1a4-6a4f250c08ba"
+        },
+        {
+          "id": "LI204-Q08",
+          "number": 8,
+          "prompt": "What will students make in the workshop?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A model planet"
+            },
+            {
+              "id": "B",
+              "text": "A film"
+            },
+            {
+              "id": "C",
+              "text": "A small rocket"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "build a small rocket"
+          },
+          "explanation": "The audio says: \"build a small rocket\".",
+          "uuid": "41d5dd99-40f8-561d-b9dc-30155ba7d540"
+        },
+        {
+          "id": "LI204-Q09",
+          "number": 9,
+          "prompt": "When will the teacher tell the groups?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On Monday"
+            },
+            {
+              "id": "B",
+              "text": "On Thursday"
+            },
+            {
+              "id": "C",
+              "text": "On Friday"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I will tell you your group on Monday"
+          },
+          "explanation": "The audio says: \"I will tell you your group on Monday\".",
+          "uuid": "e82a7546-5d19-54c5-bdaf-4ba16fed8d45"
+        },
+        {
+          "id": "LI204-Q10",
+          "number": 10,
+          "prompt": "How much does the trip cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2 pounds"
+            },
+            {
+              "id": "B",
+              "text": "12 pounds"
+            },
+            {
+              "id": "C",
+              "text": "20 pounds"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the trip costs twelve pounds"
+          },
+          "explanation": "The audio says: \"the trip costs twelve pounds\".",
+          "uuid": "99b97777-fd92-5ee9-b258-c62500941196"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "5e06407b-d93e-4852-b748-9dd83d572989",
+  "derived": {
+    "word_count": 185,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 2,
+      "B": 3,
+      "C": 5
+    },
+    "content_hash": "bb0c187ef266a6d0"
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "schema_version": "1.0",
+  "id": "SP209",
+  "uuid": "235187a6-e791-5be9-9f27-4cbfee0a8e92",
+  "version": "1.0.0",
+  "skill": "speaking",
+  "assessment": {
+    "type": "assessment",
+    "level": "A2"
+  },
+  "target_cefr": "A2",
+  "profile": "level_a2",
+  "topic": "tourism_and_events",
+  "context": "You and a friend are planning a day out in the city.",
+  "title": "Planning a day out",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_format": "situational_response",
+  "task": {
+    "title": "Planning a day out",
+    "format": "situational_response",
+    "scenario": "You and a friend are planning a day out in the city.",
+    "prompt": "Imagine you talk to a friend. Make suggestions and agree on a plan.",
+    "instructions": [
+      "Type your answer the way you would say it, in complete sentences.",
+      "Answer every question or point. Add reasons and examples when you can.",
+      "In this version your answer is typed. Pronunciation is not assessed."
+    ],
+    "main_question": "Where shall we go on Saturday? Suggest an idea.",
+    "follow_up_questions": [
+      "What shall we do there?",
+      "How shall we get there?",
+      "What time shall we meet?"
+    ],
+    "preparation_seconds": 0,
+    "suggested_speaking_seconds": 90,
+    "typed_response_words": {
+      "minimum": 35,
+      "suggested_min": 50,
+      "suggested_max": 90
+    }
+  },
+  "expected_response": {
+    "content_points": [
+      "Where shall we go on Saturday? Suggest an idea.",
+      "What shall we do there?",
+      "How shall we get there?",
+      "What time shall we meet?"
+    ],
+    "required_elements": [
+      "Respond to: Where shall we go on Saturday? Suggest an idea.",
+      "Respond to: What shall we do there?",
+      "Respond to: How shall we get there?",
+      "Respond to: What time shall we meet?"
+    ],
+    "optional_elements": [
+      "extra detail, examples or a personal anecdote"
+    ],
+    "organisation": [
+      "answer each question or cue point in turn, adding reasons and examples"
+    ],
+    "vocabulary_demands": [
+      "places to visit",
+      "suggestions",
+      "times"
+    ],
+    "grammar_demands": [
+      {
+        "id": "modals_obligation_advice",
+        "level": "A2",
+        "extension": false
+      },
+      {
+        "id": "future_forms",
+        "level": "A2",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Short connected text, one paragraph at most.",
+    "linguistic_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Plan, advise, suggest; Request, offer, invite, apologise",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Let us go to the zoo.",
+          "We can see the animals and have lunch.",
+          "We can go by metro.",
+          "Let us meet at ten."
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "interactional_response",
+    "secondary_subskills": [
+      "explanation_clarification"
+    ],
+    "cognitive_processes": [
+      "plan_and_suggest",
+      "make_request_or_offer"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.S.interactional_response.A2.1",
+        "text": "Make and respond to suggestions to agree on a plan",
+        "measurable_verb": "make",
+        "criteria": [
+          "S_REL",
+          "S_LR",
+          "S_GRA"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "A2",
+    "recommended_cefr": "A2",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.188,
+    "language_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Plan, advise, suggest; Request, offer, invite, apologise",
+    "expected_performance": [
+      "Answers all questions or points with relevant details.",
+      "Uses everyday topic vocabulary with some variety.",
+      "Simple past, future and some subordinate clauses attempted; errors rarely block meaning."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 1.0, 'cognition': 1.5, 'length': 0.7, 'abstractness': 0.5, 'prompt_language': 0.29}; composite 0.94 -> A2. Original target A2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 1.0,
+      "cognition": 1.5,
+      "length": 0.7,
+      "abstractness": 0.5,
+      "prompt_language": 0.29
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 5.3,
+      "long_word_ratio": 0.027
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "A2",
+    "criteria": [
+      {
+        "id": "S_REL",
+        "name": "Relevance and task fulfilment",
+        "description": "Whether the response answers the question asked, covers the cue points or situation, and is appropriate to the role and audience.",
+        "weight": 0.3,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Answers all questions or points with relevant details. Needs to respond to: Where shall we go on Saturday? Suggest an idea. | What shall we do there? | How shall we get there? | What time shall we meet?",
+        "weak_performance": "Does not answer some questions; off topic in parts.",
+        "expected_evidence": "Each question or cue point addressed; relevance of content; fit with the situation. Check each question or cue point in turn.",
+        "common_error_patterns": [
+          "ignoring a question"
+        ],
+        "related_subskills": [
+          "explanation_clarification",
+          "interactional_response"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed.",
+        "diagnostic_categories": [
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK"
+        ]
+      },
+      {
+        "id": "S_LR",
+        "name": "Lexical resource",
+        "description": "Range and precision of vocabulary used to talk about the topic.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Uses everyday topic vocabulary with some variety.",
+        "weak_performance": "Repeats basic words; errors in word choice cause confusion.",
+        "expected_evidence": "Topic vocabulary; variety; paraphrase; collocation. Expected vocabulary demands: places to visit; suggestions; times.",
+        "common_error_patterns": [
+          "confusing similar words"
+        ],
+        "related_subskills": [
+          "explanation_clarification",
+          "interactional_response"
+        ],
+        "evaluation_limitations": "Do not penalise a correct plain word.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "S_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range and accuracy of structures used; typed text may contain writing conventions the learner would not use in speech.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Simple past, future and some subordinate clauses attempted; errors rarely block meaning.",
+        "weak_performance": "Frequent tense and agreement errors.",
+        "expected_evidence": "Structures used; error frequency and type. Structures invited by the task: modals_obligation_advice, future_forms.",
+        "common_error_patterns": [
+          "past forms",
+          "prepositions"
+        ],
+        "related_subskills": [
+          "explanation_clarification",
+          "interactional_response"
+        ],
+        "evaluation_limitations": "Do not penalise spelling or punctuation errors in the typed text; they do not describe spoken grammar.",
+        "diagnostic_categories": [
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "S_DEV",
+        "name": "Development of ideas",
+        "description": "How far ideas are explained, justified and supported with reasons, examples or comparisons.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Gives a simple reason or detail for some answers.",
+        "weak_performance": "Statements without reasons.",
+        "expected_evidence": "Reasons, examples, comparisons, consequences, qualification.",
+        "common_error_patterns": [
+          "no reasons"
+        ],
+        "related_subskills": [
+          "explanation_clarification",
+          "interactional_response"
+        ],
+        "evaluation_limitations": "Judge development relative to the format (a Part 1-style answer is short by design).",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "S_FC",
+        "name": "Fluency and coherence",
+        "description": "How smoothly and logically a response is organised and extended. In the text MVP only the coherence and organisation aspects can be observed; real-time fluency (speed, pauses, hesitation) cannot.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "partial",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Answers in connected sentences with simple linkers (because, so, then).",
+        "weak_performance": "Disconnected sentences; very short responses.",
+        "expected_evidence": "Length and completeness of responses; order of ideas; discourse markers; (typed text: no timing evidence).",
+        "common_error_patterns": [
+          "no linking"
+        ],
+        "related_subskills": [
+          "explanation_clarification",
+          "interactional_response"
+        ],
+        "evaluation_limitations": "TEXT MVP: hesitation, speech rate, self-correction and filled pauses cannot be observed. Judge organisation only; never infer 'fluent speech' from typed text.",
+        "diagnostic_categories": [
+          "D_VOCAB_REPEAT",
+          "D_COHESION",
+          "D_ORGANISATION",
+          "D_TEXT_ONLY_LIMIT"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "S_PRON",
+        "name": "Pronunciation",
+        "reason": "TEXT MVP: no pronunciation score may be assigned. Do not infer pronunciation from spelling. Reserved for the future audio pipeline."
+      }
+    ],
+    "required_demonstrations": [
+      "Respond to every question or cue point: Where shall we go on Saturday? Suggest an idea. | What shall we do there? | How shall we get there? | What time shall we meet?",
+      "Use language appropriate to: You and a friend are planning a day out in the city."
+    ],
+    "optional_demonstrations": [
+      "extra detail, examples or personal anecdotes",
+      "the cue-card points in any order"
+    ],
+    "not_penalised": [
+      "short answers to short questions",
+      "spelling or punctuation errors (text MVP)",
+      "absence of complex grammar"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task.",
+    "text_mvp_limitations": [
+      "Pronunciation, intonation, stress and rhythm cannot be assessed from typed text: do not assign a pronunciation score.",
+      "Fluency in the sense of speech rate, pauses and hesitation cannot be assessed; only organisation and coherence can.",
+      "Do not state or imply that this evaluation is a complete assessment of speaking."
+    ]
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_GRAMMAR_RANGE",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SVA",
+      "D_TENSE",
+      "D_TEXT_ONLY_LIMIT",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/speaking_*.py (A2-09)",
+    "spec_sha256": "81e50af389b5ebc15234afa81fd4bc5587478b5cb7af13fc0a5639e89d0c7214",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "A2-09",
+      "lv": "A2",
+      "fmt": "situational_response",
+      "topic": "tourism_and_events",
+      "title": "Planning a day out",
+      "scen": "You and a friend are planning a day out in the city.",
+      "prompt": "Imagine you talk to a friend. Make suggestions and agree on a plan.",
+      "main": "Where shall we go on Saturday? Suggest an idea.",
+      "cue": [],
+      "follow": [
+        "What shall we do there?",
+        "How shall we get there?",
+        "What time shall we meet?"
+      ],
+      "prep": 0,
+      "dur": 90,
+      "w": [
+        35,
+        50,
+        90
+      ],
+      "vocab": [
+        "places to visit",
+        "suggestions",
+        "times"
+      ],
+      "gram": [
+        "modals_obligation_advice",
+        "future_forms"
+      ],
+      "sub": "interactional_response",
+      "sub2": [
+        "explanation_clarification"
+      ],
+      "cog": [
+        "plan_and_suggest",
+        "make_request_or_offer"
+      ],
+      "obj": [
+        "Make and respond to suggestions to agree on a plan"
+      ],
+      "outline": [
+        "Let us go to the zoo.",
+        "We can see the animals and have lunch.",
+        "We can go by metro.",
+        "Let us meet at ten."
+      ],
+      "abs": 0
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "8ca73b17ea84ec2c6208590af4e0f943ae52b947dae89856d9ee5f316b1aba92"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "id": "LI501",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Life in the Deep Ocean",
+  "topic": "animals_and_nature",
+  "profile": "level_c1",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li501_life_in_the_deep_ocean.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Mark Doyle",
+        "gender": "male",
+        "accent": "british",
+        "role": "radio presenter"
+      },
+      {
+        "id": "S2",
+        "name": "Dr Elena Ruiz",
+        "gender": "female",
+        "accent": "american",
+        "role": "marine biologist"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Welcome to Science Today. My guest is Dr Elena Ruiz, a marine biologist who has just returned from an expedition to the deep ocean. Elena, welcome."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thank you for having me."
+      },
+      {
+        "speaker": "S1",
+        "text": "People often say we know more about the surface of the Moon than the ocean floor. Is that really true?"
+      },
+      {
+        "speaker": "S2",
+        "text": "In a sense, yes, though it needs a qualification. We have mapped nearly all of the Moon's surface in high resolution, whereas only about a quarter of the ocean floor has been mapped to a comparable standard. But it's not that we can't see it. The real obstacle is that water absorbs radio waves, so satellites can't penetrate it the way they do the atmosphere."
+      },
+      {
+        "speaker": "S1",
+        "text": "And what did your expedition find?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Our aim was to study hydrothermal vents, which are cracks in the ocean floor where superheated water escapes. Strikingly, these vents support entire ecosystems that don't depend on sunlight at all. Bacteria use chemicals from the vents to produce energy, and larger creatures feed on the bacteria."
+      },
+      {
+        "speaker": "S1",
+        "text": "That sounds like something from science fiction."
+      },
+      {
+        "speaker": "S2",
+        "text": "It certainly changed how biologists think about life. For a long time, textbooks claimed that all life ultimately depended on the sun. The vents showed that this was wrong, and that has implications for the search for life on other planets, such as the icy moons of Jupiter and Saturn."
+      },
+      {
+        "speaker": "S1",
+        "text": "Is the work dangerous?"
+      },
+      {
+        "speaker": "S2",
+        "text": "The risks are mostly to the equipment rather than to us. We work through remotely operated vehicles, which are controlled from the ship. The pressure at three thousand metres is about three hundred times higher than at the surface, and even a small leak can destroy a camera in seconds. On this trip we lost one vehicle, which was a significant blow, as each costs about a million dollars."
+      },
+      {
+        "speaker": "S1",
+        "text": "Did you discover any new species?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Several, though I'd hesitate to give a precise number, because describing a species formally takes years. We collected samples of what appear to be at least eleven unknown animals, including a pale shrimp with no eyes. The usual caution applies: until the specimens have been examined by specialists, we call them candidates."
+      },
+      {
+        "speaker": "S1",
+        "text": "There's growing interest in mining the deep sea for metals used in batteries. What's your view?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I'm deeply concerned. Proponents argue that seabed mining would be less damaging than mining on land, and there's an element of truth in that. But the deep sea is slow to recover. We revisited a site that had been disturbed in an experiment forty years earlier, and the tracks were still visible. My view is that we shouldn't proceed until we understand what we might lose."
+      },
+      {
+        "speaker": "S1",
+        "text": "Others say that without those metals, the transition to green energy will stall."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's a legitimate worry, and I wouldn't dismiss it. However, there are alternatives, such as improving recycling and designing batteries that use different materials. Industry has a tendency to say there's no choice, but in my experience a choice usually exists."
+      },
+      {
+        "speaker": "S1",
+        "text": "Dr Ruiz, thank you."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI501-Q01",
+          "number": 1,
+          "prompt": "How much of the ocean floor has been mapped to a high standard?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About three quarters"
+            },
+            {
+              "id": "B",
+              "text": "About a quarter"
+            },
+            {
+              "id": "C",
+              "text": "Roughly half of it"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "only about a quarter of the ocean floor"
+          },
+          "explanation": "The audio says: \"only about a quarter of the ocean floor\".",
+          "uuid": "25af7c7e-5d09-52ee-9788-4fbba6f71ad5"
+        },
+        {
+          "id": "LI501-Q02",
+          "number": 2,
+          "prompt": "Why is mapping the ocean floor difficult?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Water absorbs radio waves"
+            },
+            {
+              "id": "B",
+              "text": "The ocean is too deep for any equipment"
+            },
+            {
+              "id": "C",
+              "text": "Governments forbid exploration"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "water absorbs radio waves"
+          },
+          "explanation": "The audio says: \"water absorbs radio waves\".",
+          "uuid": "d2669708-5a85-5cb2-947f-7bf3b6bfbe8b"
+        },
+        {
+          "id": "LI501-Q03",
+          "number": 3,
+          "prompt": "What is remarkable about the hydrothermal vent ecosystems?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They exist near the surface"
+            },
+            {
+              "id": "B",
+              "text": "They do not depend on sunlight"
+            },
+            {
+              "id": "C",
+              "text": "They contain no bacteria"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "don't depend on sunlight at all"
+          },
+          "explanation": "The audio says: \"don't depend on sunlight at all\".",
+          "uuid": "78ac5017-4912-53b1-a071-e32c46e16456"
+        },
+        {
+          "id": "LI501-Q04",
+          "number": 4,
+          "prompt": "What does Dr Ruiz say the discovery of vent life implies?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The search for life elsewhere may be widened"
+            },
+            {
+              "id": "B",
+              "text": "Life has been found on Jupiter's moons"
+            },
+            {
+              "id": "C",
+              "text": "Sunlight is unimportant for life near the surface"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "implications for the search for life on other planets"
+          },
+          "explanation": "The audio says: \"implications for the search for life on other planets\".",
+          "uuid": "1c6d4e22-00dc-5154-bff7-62f8296ddc3c"
+        },
+        {
+          "id": "LI501-Q05",
+          "number": 5,
+          "prompt": "According to Dr Ruiz, what is mostly at risk during the work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The crew"
+            },
+            {
+              "id": "B",
+              "text": "The ship"
+            },
+            {
+              "id": "C",
+              "text": "The equipment"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "risks are mostly to the equipment rather than to us"
+          },
+          "explanation": "The audio says: \"risks are mostly to the equipment rather than to us\".",
+          "uuid": "9251bdd0-26ed-5c40-b296-87335bb7b5c3"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI501-Q06",
+          "number": 6,
+          "prompt": "Why does Dr Ruiz hesitate to give an exact number of new species?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Formal description takes years"
+            },
+            {
+              "id": "B",
+              "text": "The samples were damaged"
+            },
+            {
+              "id": "C",
+              "text": "The species look similar"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "describing a species formally takes years"
+          },
+          "explanation": "The audio says: \"describing a species formally takes years\".",
+          "uuid": "37623271-5c84-5d2e-84ad-b64b111cdbfb"
+        },
+        {
+          "id": "LI501-Q07",
+          "number": 7,
+          "prompt": "What is Dr Ruiz's attitude to the claim that seabed mining is less damaging than mining on land?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She fully accepts it and supports mining"
+            },
+            {
+              "id": "B",
+              "text": "She partly accepts it but still opposes mining"
+            },
+            {
+              "id": "C",
+              "text": "She dismisses it because land mining is safer"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "there's an element of truth in that"
+          },
+          "explanation": "The audio says: \"there's an element of truth in that\".",
+          "uuid": "53d5db0e-2b1b-503e-9f25-655eea2f1605"
+        },
+        {
+          "id": "LI501-Q08",
+          "number": 8,
+          "prompt": "What did the revisited experimental site show?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The ecosystem had fully recovered"
+            },
+            {
+              "id": "B",
+              "text": "Recovery is very slow"
+            },
+            {
+              "id": "C",
+              "text": "Species had been replaced"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the tracks were still visible"
+          },
+          "explanation": "The audio says: \"the tracks were still visible\".",
+          "uuid": "fe620547-dbc3-5a40-9e20-ba840514b561"
+        },
+        {
+          "id": "LI501-Q09",
+          "number": 9,
+          "prompt": "What does Dr Ruiz say about the green energy argument?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is exaggerated by the mining industry"
+            },
+            {
+              "id": "B",
+              "text": "It proves that deep-sea mining is necessary"
+            },
+            {
+              "id": "C",
+              "text": "It is a legitimate worry, but alternatives exist"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I wouldn't dismiss it"
+          },
+          "explanation": "The audio says: \"I wouldn't dismiss it\".",
+          "uuid": "7d44f897-1d62-5207-929e-b26ea7517f43"
+        },
+        {
+          "id": "LI501-Q10",
+          "number": 10,
+          "prompt": "What is Dr Ruiz's view of the industry claim that there is no choice?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is correct in most cases"
+            },
+            {
+              "id": "B",
+              "text": "It cannot be tested"
+            },
+            {
+              "id": "C",
+              "text": "A choice usually exists"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a choice usually exists"
+          },
+          "explanation": "The audio says: \"a choice usually exists\".",
+          "uuid": "9538bfcd-2b5f-5317-9f4c-49ae0a673c95"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "83562582-b27b-4fa4-8893-85198aff839c",
+  "derived": {
+    "word_count": 497,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 10,
+      "C2": 0
+    },
+    "mean_band": 7.45,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "c7dcc4e9e6d10a70"
+  }
+}

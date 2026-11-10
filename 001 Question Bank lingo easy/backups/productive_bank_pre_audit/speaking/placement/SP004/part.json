@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "id": "SP004",
+  "uuid": "92f47068-30d5-58f8-ab7e-0744efa4b6a8",
+  "version": "1.0.0",
+  "skill": "speaking",
+  "assessment": {
+    "type": "placement",
+    "level": null
+  },
+  "target_cefr": "B1",
+  "profile": "placement",
+  "topic": "media_and_communication",
+  "context": "A friend asks how you stay in touch with people.",
+  "title": "Keeping in touch",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_format": "familiar_topics",
+  "task": {
+    "title": "Keeping in touch",
+    "format": "familiar_topics",
+    "scenario": "A friend asks how you stay in touch with people.",
+    "prompt": "Answer the questions. Give reasons and examples.",
+    "instructions": [
+      "Type your answer the way you would say it, in complete sentences.",
+      "Answer every question or point. Add reasons and examples when you can.",
+      "In this version your answer is typed. Pronunciation is not assessed."
+    ],
+    "main_question": "How do you usually keep in touch with friends and family who live far away?",
+    "follow_up_questions": [
+      "Do you think messaging is better than phone calls? Why?",
+      "Tell me about a time when technology helped you to contact someone.",
+      "How do you think communication will change in the future?"
+    ],
+    "preparation_seconds": 0,
+    "suggested_speaking_seconds": 150,
+    "typed_response_words": {
+      "minimum": 60,
+      "suggested_min": 90,
+      "suggested_max": 160
+    }
+  },
+  "expected_response": {
+    "content_points": [
+      "How do you usually keep in touch with friends and family who live far away?",
+      "Do you think messaging is better than phone calls? Why?",
+      "Tell me about a time when technology helped you to contact someone.",
+      "How do you think communication will change in the future?"
+    ],
+    "required_elements": [
+      "Respond to: How do you usually keep in touch with friends and family who live far away?",
+      "Respond to: Do you think messaging is better than phone calls? Why?",
+      "Respond to: Tell me about a time when technology helped you to contact someone.",
+      "Respond to: How do you think communication will change in the future?"
+    ],
+    "optional_elements": [
+      "extra detail, examples or a personal anecdote"
+    ],
+    "organisation": [
+      "answer each question or cue point in turn, adding reasons and examples"
+    ],
+    "vocabulary_demands": [
+      "communication",
+      "technology",
+      "opinion language"
+    ],
+    "grammar_demands": [
+      {
+        "id": "present_perfect",
+        "level": "B1",
+        "extension": false
+      },
+      {
+        "id": "conditionals_real",
+        "level": "B1",
+        "extension": false
+      },
+      {
+        "id": "comparatives_superlatives",
+        "level": "A2",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "One to three paragraphs or a connected multi-sentence turn.",
+    "linguistic_demand": "Connected paragraphs on familiar and some abstract topics; narration, opinion with reasons; range of linkers; basic complex sentences.",
+    "cognitive_demand": "State and support a personal opinion; Compare and contrast two options; Narrate events in sequence",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "How I keep in touch",
+          "Preference + reason",
+          "Story",
+          "Future"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "opinion_justification",
+    "secondary_subskills": [
+      "narrative_speaking"
+    ],
+    "cognitive_processes": [
+      "express_opinion",
+      "compare_contrast",
+      "narrate_sequence"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.S.opinion_justification.B1.1",
+        "text": "Give opinions with reasons and tell a short story to illustrate",
+        "measurable_verb": "give",
+        "criteria": [
+          "S_REL",
+          "S_LR",
+          "S_GRA"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "B1",
+    "recommended_cefr": "B1",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.386,
+    "language_demand": "Connected paragraphs on familiar and some abstract topics; narration, opinion with reasons; range of linkers; basic complex sentences.",
+    "cognitive_demand": "State and support a personal opinion; Compare and contrast two options; Narrate events in sequence",
+    "expected_performance": [
+      "Answers relevantly with some detail and reasons; keeps to the situation.",
+      "Enough vocabulary to discuss familiar topics; attempts paraphrase when a word is missing.",
+      "Mix of simple and complex structures; tenses mostly controlled."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 2.0, 'cognition': 2.0, 'length': 2.11, 'abstractness': 2.0, 'prompt_language': 1.07}; composite 1.93 -> B1. Original target B1. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 2.0,
+      "cognition": 2.0,
+      "length": 2.11,
+      "abstractness": 2.0,
+      "prompt_language": 1.07
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 7.7,
+      "long_word_ratio": 0.074
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "B1",
+    "criteria": [
+      {
+        "id": "S_REL",
+        "name": "Relevance and task fulfilment",
+        "description": "Whether the response answers the question asked, covers the cue points or situation, and is appropriate to the role and audience.",
+        "weight": 0.3,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Answers relevantly with some detail and reasons; keeps to the situation. Needs to respond to: How do you usually keep in touch with friends and family who live far away? | Do you think messaging is better than phone calls? Why? | Tell me about a time when technology helped you to contact someone. | How do you think communication will change in the future?",
+        "weak_performance": "Misses cue points or answers only part of a question.",
+        "expected_evidence": "Each question or cue point addressed; relevance of content; fit with the situation. Check each question or cue point in turn.",
+        "common_error_patterns": [
+          "answering only the first part"
+        ],
+        "related_subskills": [
+          "narrative_speaking",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed.",
+        "diagnostic_categories": [
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK"
+        ]
+      },
+      {
+        "id": "S_LR",
+        "name": "Lexical resource",
+        "description": "Range and precision of vocabulary used to talk about the topic.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Enough vocabulary to discuss familiar topics; attempts paraphrase when a word is missing.",
+        "weak_performance": "Repetition; word-choice errors sometimes block meaning.",
+        "expected_evidence": "Topic vocabulary; variety; paraphrase; collocation. Expected vocabulary demands: communication; technology; opinion language.",
+        "common_error_patterns": [
+          "repeating 'good', 'nice'"
+        ],
+        "related_subskills": [
+          "narrative_speaking",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "Do not penalise a correct plain word.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "tense mixing in narration",
+            "'the' with general nouns",
+            "preposition calques"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "S_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range and accuracy of structures used; typed text may contain writing conventions the learner would not use in speech.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Mix of simple and complex structures; tenses mostly controlled.",
+        "weak_performance": "Limited range; errors in complex sentences.",
+        "expected_evidence": "Structures used; error frequency and type. Structures invited by the task: present_perfect, conditionals_real, comparatives_superlatives.",
+        "common_error_patterns": [
+          "tense shifts",
+          "relative clauses"
+        ],
+        "related_subskills": [
+          "narrative_speaking",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "Do not penalise spelling or punctuation errors in the typed text; they do not describe spoken grammar.",
+        "diagnostic_categories": [
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "tense mixing in narration",
+            "'the' with general nouns",
+            "preposition calques"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "S_DEV",
+        "name": "Development of ideas",
+        "description": "How far ideas are explained, justified and supported with reasons, examples or comparisons.",
+        "weight": 0.1,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Gives reasons and simple examples; develops answers beyond one sentence.",
+        "weak_performance": "Reasons given but not explained.",
+        "expected_evidence": "Reasons, examples, comparisons, consequences, qualification.",
+        "common_error_patterns": [
+          "no examples"
+        ],
+        "related_subskills": [
+          "narrative_speaking",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "Judge development relative to the format (a Part 1-style answer is short by design).",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "S_FC",
+        "name": "Fluency and coherence",
+        "description": "How smoothly and logically a response is organised and extended. In the text MVP only the coherence and organisation aspects can be observed; real-time fluency (speed, pauses, hesitation) cannot.",
+        "weight": 0.1,
+        "assessable_in_current_modality": "partial",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Keeps going with relevant, connected sentences; uses a range of simple linkers.",
+        "weak_performance": "Frequent restarts or listing without links (in typed text: lists, fragments).",
+        "expected_evidence": "Length and completeness of responses; order of ideas; discourse markers; (typed text: no timing evidence).",
+        "common_error_patterns": [
+          "list-like answers"
+        ],
+        "related_subskills": [
+          "narrative_speaking",
+          "opinion_justification"
+        ],
+        "evaluation_limitations": "TEXT MVP: hesitation, speech rate, self-correction and filled pauses cannot be observed. Judge organisation only; never infer 'fluent speech' from typed text.",
+        "diagnostic_categories": [
+          "D_VOCAB_REPEAT",
+          "D_COHESION",
+          "D_ORGANISATION",
+          "D_TEXT_ONLY_LIMIT"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "S_PRON",
+        "name": "Pronunciation",
+        "reason": "TEXT MVP: no pronunciation score may be assigned. Do not infer pronunciation from spelling. Reserved for the future audio pipeline."
+      }
+    ],
+    "required_demonstrations": [
+      "Respond to every question or cue point: How do you usually keep in touch with friends and family who live far away? | Do you think messaging is better than phone calls? Why? | Tell me about a time when technology helped you to contact someone. | How do you think communication will change in the future?",
+      "Use language appropriate to: A friend asks how you stay in touch with people."
+    ],
+    "optional_demonstrations": [
+      "extra detail, examples or personal anecdotes",
+      "the cue-card points in any order"
+    ],
+    "not_penalised": [
+      "spelling or punctuation errors (text MVP)",
+      "informal spoken-style contractions",
+      "absence of advanced structures"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task.",
+    "text_mvp_limitations": [
+      "Pronunciation, intonation, stress and rhythm cannot be assessed from typed text: do not assign a pronunciation score.",
+      "Fluency in the sense of speech rate, pauses and hesitation cannot be assessed; only organisation and coherence can.",
+      "Do not state or imply that this evaluation is a complete assessment of speaking."
+    ]
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARGUMENT",
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_COMPARISON",
+      "D_GRAMMAR_RANGE",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_ORGANISATION",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SUPPORT",
+      "D_SVA",
+      "D_TENSE",
+      "D_TEXT_ONLY_LIMIT",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/speaking_*.py (P-04)",
+    "spec_sha256": "c6dbd0e339d39ca05c90f3b7a2264abdab632d2c7abd1a611f56c464c1d24cc9",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "P-04",
+      "lv": "B1",
+      "fmt": "familiar_topics",
+      "topic": "media_and_communication",
+      "title": "Keeping in touch",
+      "scen": "A friend asks how you stay in touch with people.",
+      "prompt": "Answer the questions. Give reasons and examples.",
+      "main": "How do you usually keep in touch with friends and family who live far away?",
+      "cue": [],
+      "follow": [
+        "Do you think messaging is better than phone calls? Why?",
+        "Tell me about a time when technology helped you to contact someone.",
+        "How do you think communication will change in the future?"
+      ],
+      "prep": 0,
+      "dur": 150,
+      "w": [
+        60,
+        90,
+        160
+      ],
+      "vocab": [
+        "communication",
+        "technology",
+        "opinion language"
+      ],
+      "gram": [
+        "present_perfect",
+        "conditionals_real",
+        "comparatives_superlatives"
+      ],
+      "sub": "opinion_justification",
+      "sub2": [
+        "narrative_speaking"
+      ],
+      "cog": [
+        "express_opinion",
+        "compare_contrast",
+        "narrate_sequence"
+      ],
+      "obj": [
+        "Give opinions with reasons and tell a short story to illustrate"
+      ],
+      "outline": [
+        "How I keep in touch",
+        "Preference + reason",
+        "Story",
+        "Future"
+      ],
+      "abs": 1
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "23f28311112ea04058ba3deceb16bdf8e9ae8c591c14b76e6b524118e51aedfb"
+  }
+}

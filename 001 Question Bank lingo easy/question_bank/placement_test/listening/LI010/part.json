@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "id": "LI010",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "Why Do We Sleep?",
+  "topic": "health",
+  "profile": "advanced",
+  "text_cefr": "C1",
+  "audio": {
+    "file": "li010_why_do_we_sleep.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Fiona Gray",
+        "gender": "female",
+        "accent": "british",
+        "role": "sleep science lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning. We spend about a third of our lives asleep, yet scientists still disagree about exactly why. Today I'll outline the main theories and the evidence for them, and then consider what happens when we don't get enough sleep."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let me begin with what we know. Sleep isn't a single state. It consists of cycles lasting about ninety minutes, each containing lighter and deeper phases, as well as REM sleep, when most vivid dreaming occurs. Across a night, we go through four or five cycles. Deep sleep dominates the first half of the night, and REM sleep becomes longer towards morning, which is one reason why cutting sleep short at either end affects different functions."
+      },
+      {
+        "speaker": "S1",
+        "text": "The first theory is restoration: sleep allows the body and brain to repair themselves. There's good evidence for this. Growth hormone is released mainly during deep sleep, and recent research has shown that during sleep the brain clears waste products that accumulate while we're awake, including a protein associated with Alzheimer's disease. It acts like a night-time cleaning system, with the fluid around brain cells flowing more freely when we sleep."
+      },
+      {
+        "speaker": "S1",
+        "text": "The second theory concerns memory. Sleep seems to consolidate what we've learned, strengthening important connections and discarding trivial ones. In one experiment, participants who learned a task and then slept performed significantly better than those who stayed awake for the same period. But the findings are less consistent for different types of memory, and some researchers argue that the effect is smaller than often claimed."
+      },
+      {
+        "speaker": "S1",
+        "text": "A third theory is evolutionary. Sleep might have evolved as a way of conserving energy, or keeping animals safe in the dark, when foraging would be inefficient and dangerous. This doesn't explain why sleep has persisted in species where an animal is vulnerable while unconscious. Dolphins, for example, sleep with one half of the brain at a time so that they can keep surfacing to breathe. This suggests that sleep serves functions important enough to outweigh the risks."
+      },
+      {
+        "speaker": "S1",
+        "text": "What about lack of sleep? The consequences are well documented. After one night of poor sleep, attention and mood suffer. Over the long term, chronic sleep deprivation is linked with obesity, diabetes, heart disease and depression. However, correlation isn't causation: people with these conditions may sleep badly because of their illness. Researchers try to disentangle the two through experiments in which healthy volunteers are restricted to five hours' sleep for a week. After seven days, they showed signs of reduced insulin sensitivity, which points to a causal link at least for metabolic problems."
+      },
+      {
+        "speaker": "S1",
+        "text": "There's a popular belief that we can catch up on lost sleep at weekends. The evidence is mixed. Extra sleep helps reduce tiredness, but studies suggest it doesn't fully reverse the metabolic effects of a week of short nights. So regularity matters, not just total hours. To summarise: sleep serves multiple purposes, probably including repair, memory processing and energy regulation, and no single theory accounts for all the evidence. For your tutorial, choose one of these theories and prepare a critical evaluation of the evidence."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI010-Q01",
+          "number": 1,
+          "prompt": "How much of our lives do we spend asleep?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About a half"
+            },
+            {
+              "id": "B",
+              "text": "About a quarter"
+            },
+            {
+              "id": "C",
+              "text": "About a third"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about a third of our lives"
+          },
+          "explanation": "The audio says: \"about a third of our lives\".",
+          "uuid": "626cd612-bae6-5d35-903e-70e7db8f6f7b"
+        },
+        {
+          "id": "LI010-Q02",
+          "number": 2,
+          "prompt": "How long is a typical sleep cycle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 90 minutes"
+            },
+            {
+              "id": "B",
+              "text": "About 9 minutes"
+            },
+            {
+              "id": "C",
+              "text": "About 5 hours"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "cycles lasting about ninety minutes"
+          },
+          "explanation": "The audio says: \"cycles lasting about ninety minutes\".",
+          "uuid": "513d9509-af2e-5c02-b1e6-833052df424f"
+        },
+        {
+          "id": "LI010-Q03",
+          "number": 3,
+          "prompt": "When does deep sleep dominate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Towards the end of the night"
+            },
+            {
+              "id": "B",
+              "text": "Evenly throughout the night"
+            },
+            {
+              "id": "C",
+              "text": "In the first half of the night"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Deep sleep dominates the first half of the night"
+          },
+          "explanation": "The audio says: \"Deep sleep dominates the first half of the night\".",
+          "uuid": "75b5185e-7e57-5bc8-870d-d28e7d07c228"
+        },
+        {
+          "id": "LI010-Q04",
+          "number": 4,
+          "prompt": "What does the brain clear during sleep?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Memories of the previous day's events"
+            },
+            {
+              "id": "B",
+              "text": "Waste products that build up while awake"
+            },
+            {
+              "id": "C",
+              "text": "Excess hormones in the bloodstream"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "clears waste products that accumulate while we're awake"
+          },
+          "explanation": "The audio says: \"clears waste products that accumulate while we're awake\".",
+          "uuid": "11210bb5-f0ab-528b-bf31-3a4d5021c87e"
+        },
+        {
+          "id": "LI010-Q05",
+          "number": 5,
+          "prompt": "What problem does the lecturer mention with the memory theory?",
+          "options": [
+            {
+              "id": "A",
+              "text": "No experiments on memory have been done"
+            },
+            {
+              "id": "B",
+              "text": "Findings are inconsistent across memory types"
+            },
+            {
+              "id": "C",
+              "text": "Sleep appears to harm memory formation"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "less consistent for different types of memory"
+          },
+          "explanation": "The audio says: \"less consistent for different types of memory\".",
+          "uuid": "5a17bf41-058f-5a6c-b3e1-cd3043495065"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI010-Q06",
+          "number": 6,
+          "prompt": "Why does the lecturer mention dolphins?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To show sleep serves functions that outweigh its risks"
+            },
+            {
+              "id": "B",
+              "text": "To show that all animals sleep in the same way"
+            },
+            {
+              "id": "C",
+              "text": "To prove that sleep mainly conserves energy"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "functions important enough to outweigh the risks"
+          },
+          "explanation": "The audio says: \"functions important enough to outweigh the risks\".",
+          "uuid": "b240b034-7b7f-5852-afea-755034cc2f2a"
+        },
+        {
+          "id": "LI010-Q07",
+          "number": 7,
+          "prompt": "Why does the lecturer say correlation is not causation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sleep studies use unreliable measurements"
+            },
+            {
+              "id": "B",
+              "text": "Illness may cause poor sleep rather than the reverse"
+            },
+            {
+              "id": "C",
+              "text": "Volunteers often misreport how long they slept"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "may sleep badly because of their illness"
+          },
+          "explanation": "The audio says: \"may sleep badly because of their illness\".",
+          "uuid": "e198251f-8793-5e65-8055-e7443adaf12a"
+        },
+        {
+          "id": "LI010-Q08",
+          "number": 8,
+          "prompt": "What does the restricted-sleep experiment suggest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A causal link, at least for metabolic problems"
+            },
+            {
+              "id": "B",
+              "text": "That sleep has little effect on health"
+            },
+            {
+              "id": "C",
+              "text": "That insulin levels are unrelated to sleep"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "points to a causal link at least for metabolic problems"
+          },
+          "explanation": "The audio says: \"points to a causal link at least for metabolic problems\".",
+          "uuid": "c1e2fd31-7971-5531-b129-0bf2c7b8f76f"
+        },
+        {
+          "id": "LI010-Q09",
+          "number": 9,
+          "prompt": "What do studies say about catching up on sleep at weekends?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It fully restores the body's normal health"
+            },
+            {
+              "id": "B",
+              "text": "It makes people feel more tired"
+            },
+            {
+              "id": "C",
+              "text": "It does not fully reverse the metabolic effects"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "doesn't fully reverse the metabolic effects"
+          },
+          "explanation": "The audio says: \"doesn't fully reverse the metabolic effects\".",
+          "uuid": "c3681d4c-25a6-5dc2-ac58-c4c99d640570"
+        },
+        {
+          "id": "LI010-Q10",
+          "number": 10,
+          "prompt": "What is the lecturer's overall conclusion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sleep has several purposes and no single theory explains everything"
+            },
+            {
+              "id": "B",
+              "text": "Restoration is the one theory that explains all the evidence"
+            },
+            {
+              "id": "C",
+              "text": "The evidence is too weak to support any theory"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "gist",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "no single theory accounts for all the evidence"
+          },
+          "explanation": "The audio says: \"no single theory accounts for all the evidence\".",
+          "uuid": "11617464-05b3-5997-93b5-910afdab6fb0"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "d4db5937-a32a-4d97-b27b-58ae04b25f6c",
+  "derived": {
+    "word_count": 509,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 1,
+      "B2": 3,
+      "C1": 3,
+      "C2": 2
+    },
+    "mean_band": 6.6,
+    "answer_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "content_hash": "8fb2ea88db7ee268"
+  }
+}

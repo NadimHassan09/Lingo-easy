@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.0",
+  "id": "LI605",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "A Novelist on Writing",
+  "topic": "arts_and_culture",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li605_a_novelist_on_writing.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Helen Marsh",
+        "gender": "female",
+        "accent": "british",
+        "role": "radio host"
+      },
+      {
+        "id": "S2",
+        "name": "James Okoro",
+        "gender": "male",
+        "accent": "british",
+        "role": "novelist"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "My guest today is the novelist James Okoro, whose fourth novel, The Salt Road, has just been published. James, you've said that you don't plan your novels in advance. Is that really true?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Mostly. I start with a situation, usually an image, and I follow it to see what happens. With The Salt Road, it was a woman standing at a railway station waiting for someone who doesn't arrive. I didn't know who she was or why, and that uncertainty is what kept me writing."
+      },
+      {
+        "speaker": "S1",
+        "text": "Doesn't that lead to a lot of rewriting?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Enormous amounts. The first draft is about twice as long as the final book, and I throw away much of it. But I don't regard that as wasted. The material I cut is how I discover what the book is about. I don't believe writers always know their subject at the start, whatever they claim in interviews."
+      },
+      {
+        "speaker": "S1",
+        "text": "You've often been described as a political novelist. Do you accept that label?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Reluctantly. My books are set against political upheaval, and the characters are affected by it, but I'm not trying to argue a position. If I wanted to do that, I'd write essays. A novel, for me, is a way of exploring how people live with things they can't control. If readers come away with a political message, that's their reading, and I don't object, but it isn't my starting point."
+      },
+      {
+        "speaker": "S1",
+        "text": "The Salt Road is set in a fictional country. Why invent one?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Two reasons. The practical one is that I'm freed from the obligation to get every historical detail right, which can paralyse a writer. The deeper reason is that a real place brings assumptions with it. Readers think they already know what's going on in a country they've read about in the news. A fictional setting forces them to pay attention to the people instead."
+      },
+      {
+        "speaker": "S1",
+        "text": "Some critics have praised the novel's restraint. The most painful events happen off the page."
+      },
+      {
+        "speaker": "S2",
+        "text": "That was deliberate. I've never found violence on the page convincing; it tends to become either spectacle or sentimentality. What's more interesting is the aftermath, how a family tries to carry on at breakfast the next morning. I trust readers to feel the enormity of what's happened without being told."
+      },
+      {
+        "speaker": "S1",
+        "text": "Do you read reviews?"
+      },
+      {
+        "speaker": "S2",
+        "text": "I used to, obsessively. Now I read a handful from people whose judgement I trust, and ignore the rest. Praise is pleasant but doesn't teach you much, whereas a thoughtful criticism can change how I write the next book."
+      },
+      {
+        "speaker": "S1",
+        "text": "What advice would you give to aspiring writers?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Read widely, including things you don't expect to enjoy. And finish things. Many people start novels, but few reach the end of a draft, and it's only then you learn how to revise. A bad finished draft is worth more than a brilliant unfinished one."
+      },
+      {
+        "speaker": "S1",
+        "text": "James Okoro, thank you."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI605-Q01",
+          "number": 1,
+          "prompt": "How does James usually begin a novel?",
+          "options": [
+            {
+              "id": "A",
+              "text": "With a detailed outline"
+            },
+            {
+              "id": "B",
+              "text": "With a situation or image"
+            },
+            {
+              "id": "C",
+              "text": "With a political idea"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I start with a situation"
+          },
+          "explanation": "The audio says: \"I start with a situation\".",
+          "uuid": "55d2e1e0-da12-5699-9b32-3cc46a9a5d41"
+        },
+        {
+          "id": "LI605-Q02",
+          "number": 2,
+          "prompt": "What kept him writing The Salt Road?",
+          "options": [
+            {
+              "id": "A",
+              "text": "His uncertainty about the woman at the station"
+            },
+            {
+              "id": "B",
+              "text": "A firm deadline that his publisher had set"
+            },
+            {
+              "id": "C",
+              "text": "A clear plan for the ending of the book"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "that uncertainty is what kept me writing"
+          },
+          "explanation": "The audio says: \"that uncertainty is what kept me writing\".",
+          "uuid": "cb63c69c-838c-5834-b960-a3fd40614291"
+        },
+        {
+          "id": "LI605-Q03",
+          "number": 3,
+          "prompt": "How long is a first draft compared with the final book?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About half as long"
+            },
+            {
+              "id": "B",
+              "text": "About twice as long"
+            },
+            {
+              "id": "C",
+              "text": "The same length"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about twice as long as the final book"
+          },
+          "explanation": "The audio says: \"about twice as long as the final book\".",
+          "uuid": "404b4648-b429-5812-89c8-dcf54a1c625c"
+        },
+        {
+          "id": "LI605-Q04",
+          "number": 4,
+          "prompt": "What does James think about the material he cuts?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It helps him discover what the book is about"
+            },
+            {
+              "id": "B",
+              "text": "It is wasted effort that he regrets"
+            },
+            {
+              "id": "C",
+              "text": "It becomes the starting point of the next book"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "how I discover what the book is about"
+          },
+          "explanation": "The audio says: \"how I discover what the book is about\".",
+          "uuid": "f343a06e-8044-5339-a4f9-7abe7d0d2ebd"
+        },
+        {
+          "id": "LI605-Q05",
+          "number": 5,
+          "prompt": "How does James feel about being called a political novelist?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Proud of the label because it brings readers"
+            },
+            {
+              "id": "B",
+              "text": "Angry with critics who misread his novels"
+            },
+            {
+              "id": "C",
+              "text": "Reluctant, because he is not arguing a position"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "not trying to argue a position"
+          },
+          "explanation": "The audio says: \"not trying to argue a position\".",
+          "uuid": "232dd68a-cacd-50ab-9861-0106de75af99"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI605-Q06",
+          "number": 6,
+          "prompt": "What does James say a novel is for him?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A way of exploring how people live with things they cannot control"
+            },
+            {
+              "id": "B",
+              "text": "A way of persuading readers to take a particular political side"
+            },
+            {
+              "id": "C",
+              "text": "A way of recording the recent history of a country accurately"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "things they can't control"
+          },
+          "explanation": "The audio says: \"things they can't control\".",
+          "uuid": "7613161b-1f4c-5345-8112-d6fadd19ba56"
+        },
+        {
+          "id": "LI605-Q07",
+          "number": 7,
+          "prompt": "Why did he invent a country?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To avoid offending the governments of real countries abroad"
+            },
+            {
+              "id": "B",
+              "text": "So readers pay attention to the people, not their assumptions"
+            },
+            {
+              "id": "C",
+              "text": "To save himself time on research into real historical events"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "pay attention to the people instead"
+          },
+          "explanation": "The audio says: \"pay attention to the people instead\".",
+          "uuid": "378a3b82-d425-5aeb-be7b-a1c298c39603"
+        },
+        {
+          "id": "LI605-Q08",
+          "number": 8,
+          "prompt": "Why does he avoid showing violence on the page?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Publishers forbid scenes of violence in novels"
+            },
+            {
+              "id": "B",
+              "text": "Readers dislike reading about violent events"
+            },
+            {
+              "id": "C",
+              "text": "It tends to become spectacle or sentimentality"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "spectacle or sentimentality"
+          },
+          "explanation": "The audio says: \"spectacle or sentimentality\".",
+          "uuid": "af0f34b3-bb18-53b3-ae0f-326743a7f91c"
+        },
+        {
+          "id": "LI605-Q09",
+          "number": 9,
+          "prompt": "Which reviews does James now read?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every review that is published"
+            },
+            {
+              "id": "B",
+              "text": "A few from people he trusts"
+            },
+            {
+              "id": "C",
+              "text": "Only those written by other novelists"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "from people whose judgement I trust"
+          },
+          "explanation": "The audio says: \"from people whose judgement I trust\".",
+          "uuid": "98e72042-600d-57dd-9a34-ff29a84ce56a"
+        },
+        {
+          "id": "LI605-Q10",
+          "number": 10,
+          "prompt": "What is his advice to aspiring writers?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Plan every chapter"
+            },
+            {
+              "id": "B",
+              "text": "Finish what you start"
+            },
+            {
+              "id": "C",
+              "text": "Avoid reading novels"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "And finish things"
+          },
+          "explanation": "The audio says: \"And finish things\".",
+          "uuid": "f523ea15-0d67-536b-90d7-d93ef5328594"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "486875ae-2fda-4e73-90bb-f2a8104cb543",
+  "derived": {
+    "word_count": 474,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 3,
+      "B": 5,
+      "C": 2
+    },
+    "content_hash": "58ad33913d2c6265"
+  }
+}

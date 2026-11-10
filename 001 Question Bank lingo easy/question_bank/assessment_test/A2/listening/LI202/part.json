@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "id": "LI202",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "The Cooking Class",
+  "topic": "food_and_nutrition",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li202_the_cooking_class.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Chef Rosa",
+        "gender": "female",
+        "accent": "american",
+        "role": "cooking teacher"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Welcome to the Tuesday evening cooking class. My name is Chef Rosa, and I will be your teacher for the next six weeks. Each class starts at six thirty and finishes at eight thirty. Please arrive ten minutes early, because we begin on time. Tonight we are making a vegetable soup and homemade bread. Everything is on the tables: onions, carrots, potatoes and flour. First, please wash your hands and put on an apron. The aprons are in the blue box by the door. Next week we will cook pasta with a tomato sauce, and the week after that we will make a chicken curry. If you are allergic to any food, please tell me now. For example, Mr Lee told me last week that he cannot eat nuts, so there are none in tonight's bread. At the end of each class, you can eat what you cook, or you can take it home in a box. The class costs one hundred and twenty pounds for six weeks. Does anyone have any questions before we start?"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI202-Q01",
+          "number": 1,
+          "prompt": "How long is the course?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Six weeks"
+            },
+            {
+              "id": "B",
+              "text": "Four weeks"
+            },
+            {
+              "id": "C",
+              "text": "Ten weeks"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "for the next six weeks"
+          },
+          "explanation": "The audio says: \"for the next six weeks\".",
+          "uuid": "ea2d2848-147f-5d73-bba8-f805310170d7"
+        },
+        {
+          "id": "LI202-Q02",
+          "number": 2,
+          "prompt": "What time does each class finish?",
+          "options": [
+            {
+              "id": "A",
+              "text": "6.30"
+            },
+            {
+              "id": "B",
+              "text": "8.30"
+            },
+            {
+              "id": "C",
+              "text": "9.00"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "finishes at eight thirty"
+          },
+          "explanation": "The audio says: \"finishes at eight thirty\".",
+          "uuid": "3c4c24fd-4c87-5ec9-9a4b-c1931a915897"
+        },
+        {
+          "id": "LI202-Q03",
+          "number": 3,
+          "prompt": "Why should students arrive ten minutes early?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They must wash the tables"
+            },
+            {
+              "id": "B",
+              "text": "The class begins on time"
+            },
+            {
+              "id": "C",
+              "text": "They must choose a seat"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "because we begin on time"
+          },
+          "explanation": "The audio says: \"because we begin on time\".",
+          "uuid": "9795c96b-d373-594b-bb39-28df1d82a9da"
+        },
+        {
+          "id": "LI202-Q04",
+          "number": 4,
+          "prompt": "What are the students making tonight?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pasta with a tomato sauce"
+            },
+            {
+              "id": "B",
+              "text": "A chicken curry with rice"
+            },
+            {
+              "id": "C",
+              "text": "Vegetable soup and bread"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a vegetable soup and homemade bread"
+          },
+          "explanation": "The audio says: \"a vegetable soup and homemade bread\".",
+          "uuid": "d0bd7dc9-efd4-5b69-9619-b99d0ee7089d"
+        },
+        {
+          "id": "LI202-Q05",
+          "number": 5,
+          "prompt": "Where are the aprons?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On the tables by the window"
+            },
+            {
+              "id": "B",
+              "text": "In the red box by the sink"
+            },
+            {
+              "id": "C",
+              "text": "In the blue box by the door"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "aprons are in the blue box by the door"
+          },
+          "explanation": "The audio says: \"aprons are in the blue box by the door\".",
+          "uuid": "a265812b-06f3-526b-85d0-16095c511e75"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI202-Q06",
+          "number": 6,
+          "prompt": "What will they cook next week?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vegetable soup and bread"
+            },
+            {
+              "id": "B",
+              "text": "A chicken curry with rice"
+            },
+            {
+              "id": "C",
+              "text": "Pasta with tomato sauce"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "pasta with a tomato sauce"
+          },
+          "explanation": "The audio says: \"pasta with a tomato sauce\".",
+          "uuid": "ca7b45a9-922a-54cc-9de2-f4e1af2947d6"
+        },
+        {
+          "id": "LI202-Q07",
+          "number": 7,
+          "prompt": "What will they cook in two weeks?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Chicken curry"
+            },
+            {
+              "id": "B",
+              "text": "Pasta"
+            },
+            {
+              "id": "C",
+              "text": "Homemade bread"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "make a chicken curry"
+          },
+          "explanation": "The audio says: \"make a chicken curry\".",
+          "uuid": "4bcd45c0-a0ee-5942-b9f5-e06bc7c38ad3"
+        },
+        {
+          "id": "LI202-Q08",
+          "number": 8,
+          "prompt": "Why is there no nut in tonight's bread?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A student cannot eat nuts"
+            },
+            {
+              "id": "B",
+              "text": "Nuts are too expensive"
+            },
+            {
+              "id": "C",
+              "text": "The teacher does not like nuts"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "he cannot eat nuts"
+          },
+          "explanation": "The audio says: \"he cannot eat nuts\".",
+          "uuid": "bc3f6c19-dc95-5057-97d9-5f302b997b8d"
+        },
+        {
+          "id": "LI202-Q09",
+          "number": 9,
+          "prompt": "What can students do with the food at the end?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sell it"
+            },
+            {
+              "id": "B",
+              "text": "Give it to the teacher"
+            },
+            {
+              "id": "C",
+              "text": "Take it home"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "take it home in a box"
+          },
+          "explanation": "The audio says: \"take it home in a box\".",
+          "uuid": "586af1dd-5d56-5303-ac8b-48ba49400124"
+        },
+        {
+          "id": "LI202-Q10",
+          "number": 10,
+          "prompt": "How much does the course cost?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12 pounds"
+            },
+            {
+              "id": "B",
+              "text": "210 pounds"
+            },
+            {
+              "id": "C",
+              "text": "120 pounds"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "one hundred and twenty pounds"
+          },
+          "explanation": "The audio says: \"one hundred and twenty pounds\".",
+          "uuid": "7b50de1b-a96a-5fd7-877e-472668fb285f"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "d6bc1c13-09bc-4132-8c7e-d8c82243ce4c",
+  "derived": {
+    "word_count": 176,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 3,
+      "B": 2,
+      "C": 5
+    },
+    "content_hash": "4c05aa84c42e566d"
+  }
+}

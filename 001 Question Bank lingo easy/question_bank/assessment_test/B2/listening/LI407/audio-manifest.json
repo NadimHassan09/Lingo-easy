@@ -1,0 +1,184 @@
+{
+  "part_id": "LI407",
+  "part_uuid": "d2b813eb-55e8-489e-b1ab-24f7c8e3ea9e",
+  "audio_file": "li407_seminar_on_bird_migration.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "b9a4097a47b0d87fbd4c9abe6e67cade1e61e171b7db78a6009b57111a947776",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S3": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Okafor",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Hannah",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S3",
+      "name": "Sam",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 7.34
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 7.79,
+      "end": 16.31
+    },
+    {
+      "index": 2,
+      "speaker": "S3",
+      "start": 16.76,
+      "end": 26.0
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 26.45,
+      "end": 33.1
+    },
+    {
+      "index": 4,
+      "speaker": "S2",
+      "start": 33.55,
+      "end": 46.49
+    },
+    {
+      "index": 5,
+      "speaker": "S3",
+      "start": 46.94,
+      "end": 55.46
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 55.91,
+      "end": 71.17
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 71.62,
+      "end": 75.25
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 75.7,
+      "end": 78.5
+    },
+    {
+      "index": 9,
+      "speaker": "S3",
+      "start": 78.95,
+      "end": 91.77
+    },
+    {
+      "index": 10,
+      "speaker": "S1",
+      "start": 92.22,
+      "end": 104.08
+    },
+    {
+      "index": 11,
+      "speaker": "S2",
+      "start": 104.53,
+      "end": 109.97
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 110.42,
+      "end": 121.27
+    },
+    {
+      "index": 13,
+      "speaker": "S3",
+      "start": 121.72,
+      "end": 127.19
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 127.64,
+      "end": 136.86
+    },
+    {
+      "index": 15,
+      "speaker": "S3",
+      "start": 137.31,
+      "end": 142.01
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 142.46,
+      "end": 150.91
+    },
+    {
+      "index": 17,
+      "speaker": "S2",
+      "start": 151.36,
+      "end": 155.01
+    },
+    {
+      "index": 18,
+      "speaker": "S1",
+      "start": 155.46,
+      "end": 165.9
+    },
+    {
+      "index": 19,
+      "speaker": "S3",
+      "start": 166.35,
+      "end": 173.17
+    },
+    {
+      "index": 20,
+      "speaker": "S1",
+      "start": 173.62,
+      "end": 183.29
+    }
+  ],
+  "duration_seconds": 183.29,
+  "size_bytes": 1466924,
+  "audio_sha256": "90347b04c738421349ed8f41ca65e52cfe1f79a5991207792f577d60a5b2c3fa",
+  "generated_at": "2026-10-30T20:55:07+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

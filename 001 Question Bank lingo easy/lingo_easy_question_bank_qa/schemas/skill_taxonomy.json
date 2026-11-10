@@ -1,0 +1,767 @@
+{
+  "version": "1.0",
+  "status": "proposed normalised taxonomy; original skill_tag values are preserved in the bank and mapped here",
+  "dimensions": {
+    "skill": [
+      "reading",
+      "listening"
+    ],
+    "item_format": [
+      "multiple_choice",
+      "true_false_not_given",
+      "yes_no_not_given",
+      "sentence_completion",
+      "matching_information"
+    ]
+  },
+  "subskills": [
+    {
+      "id": "detail_retrieval",
+      "description": "Locate explicit information (name, number, time, place, fact) stated in the source."
+    },
+    {
+      "id": "paraphrase_recognition",
+      "description": "Match information to a restated (paraphrased) version of it."
+    },
+    {
+      "id": "main_idea_gist",
+      "description": "Identify the overall topic, main point or conclusion of a text or recording."
+    },
+    {
+      "id": "inference",
+      "description": "Draw a conclusion that is implied but not stated."
+    },
+    {
+      "id": "stance_attitude",
+      "description": "Identify a speaker's or writer's opinion, attitude or claim."
+    },
+    {
+      "id": "discourse_structure",
+      "description": "Follow how a text/recording is organised (signposting, sequence, paragraph function)."
+    },
+    {
+      "id": "purpose_function",
+      "description": "Identify why something is said or included."
+    },
+    {
+      "id": "reference_resolution",
+      "description": "Resolve what a pronoun or reference expression points to."
+    },
+    {
+      "id": "vocabulary_in_context",
+      "description": "Infer the meaning of a word or phrase from context."
+    },
+    {
+      "id": "claim_verification",
+      "description": "Judge whether a statement agrees with, contradicts, or is not addressed by the source."
+    },
+    {
+      "id": "information_tracking",
+      "description": "Select the final/confirmed information when earlier options are changed, corrected or rejected."
+    }
+  ],
+  "cognitive_processes": [
+    {
+      "id": "retrieve",
+      "description": "Find explicit information."
+    },
+    {
+      "id": "interpret",
+      "description": "Understand restated or implied-by-wording meaning."
+    },
+    {
+      "id": "infer",
+      "description": "Go beyond the text to implied meaning."
+    },
+    {
+      "id": "integrate",
+      "description": "Combine information across parts of the source."
+    },
+    {
+      "id": "evaluate",
+      "description": "Judge a claim against the source."
+    }
+  ],
+  "answer_types": [
+    "time_or_date",
+    "number_or_amount",
+    "reason",
+    "person",
+    "place",
+    "thing_or_event",
+    "judgement",
+    "location_of_information",
+    "other"
+  ],
+  "content_categories": [
+    "travel",
+    "education",
+    "health",
+    "technology",
+    "environment",
+    "work_and_careers",
+    "food_and_nutrition",
+    "sports_and_fitness",
+    "arts_and_culture",
+    "science",
+    "history",
+    "architecture_and_cities",
+    "transport",
+    "shopping_and_money",
+    "housing",
+    "family_and_relationships",
+    "media_and_communication",
+    "animals_and_nature",
+    "business",
+    "psychology",
+    "space_and_astronomy",
+    "volunteering_and_community",
+    "language_and_linguistics",
+    "energy",
+    "farming_and_agriculture",
+    "tourism_and_events"
+  ],
+  "error_categories": [
+    {
+      "id": "missed_explicit_detail",
+      "description": "Failed to locate or notice information stated explicitly."
+    },
+    {
+      "id": "attention_to_wrong_part_of_source",
+      "description": "Picked information from a different part of the source than the one asked about."
+    },
+    {
+      "id": "confusion_proposed_vs_confirmed",
+      "description": "Chose an option that was proposed, rejected or corrected before the final information."
+    },
+    {
+      "id": "confusion_between_speakers",
+      "description": "Attributed information to the wrong speaker."
+    },
+    {
+      "id": "paraphrase_not_recognised",
+      "description": "Did not recognise a restated version of the information."
+    },
+    {
+      "id": "unsupported_inference",
+      "description": "Chose a plausible but unsupported conclusion."
+    },
+    {
+      "id": "reference_misinterpretation",
+      "description": "Misread what a reference word points to."
+    },
+    {
+      "id": "main_idea_vs_detail_confusion",
+      "description": "Took a supporting detail for the main idea (or vice versa)."
+    },
+    {
+      "id": "attitude_misread",
+      "description": "Misjudged the speaker's/writer's stance."
+    },
+    {
+      "id": "vocabulary_misunderstanding",
+      "description": "Misunderstood a word or phrase."
+    },
+    {
+      "id": "grammatical_misinterpretation",
+      "description": "Misread a grammatical structure (e.g. negation, comparison)."
+    },
+    {
+      "id": "number_or_time_confusion",
+      "description": "Confused similar numbers, times, dates or amounts."
+    },
+    {
+      "id": "negation_or_contradiction_missed",
+      "description": "Missed that the source contradicts the statement."
+    },
+    {
+      "id": "evidence_not_located",
+      "description": "Could not find the relevant evidence (e.g. chose Not Given when it is stated)."
+    },
+    {
+      "id": "topic_association_guess",
+      "description": "Chose an option because it is topically related, without evidence."
+    },
+    {
+      "id": "insufficient_evidence_to_classify",
+      "description": "No reliable hypothesis can be made from the item alone."
+    }
+  ],
+  "original_tag_mapping": [
+    {
+      "modality": "listening",
+      "tag": "gist",
+      "primary_subskill": "main_idea_gist",
+      "cognitive_process": "integrate",
+      "tag_describes": "sub-skill",
+      "note": ""
+    },
+    {
+      "modality": "listening",
+      "tag": "specific_detail",
+      "primary_subskill": "detail_retrieval",
+      "cognitive_process": "retrieve",
+      "tag_describes": "sub-skill",
+      "note": ""
+    },
+    {
+      "modality": "listening",
+      "tag": "numbers_dates_times",
+      "primary_subskill": "detail_retrieval",
+      "cognitive_process": "retrieve",
+      "tag_describes": "content/answer type",
+      "note": "Describes the kind of answer (numeric), not a separate skill."
+    },
+    {
+      "modality": "listening",
+      "tag": "speaker_opinion",
+      "primary_subskill": "stance_attitude",
+      "cognitive_process": "interpret",
+      "tag_describes": "sub-skill",
+      "note": "Overlaps with speaker_attitude."
+    },
+    {
+      "modality": "listening",
+      "tag": "speaker_attitude",
+      "primary_subskill": "stance_attitude",
+      "cognitive_process": "infer",
+      "tag_describes": "sub-skill",
+      "note": "Overlaps with speaker_opinion."
+    },
+    {
+      "modality": "listening",
+      "tag": "purpose",
+      "primary_subskill": "purpose_function",
+      "cognitive_process": "interpret",
+      "tag_describes": "sub-skill",
+      "note": ""
+    },
+    {
+      "modality": "listening",
+      "tag": "inference",
+      "primary_subskill": "inference",
+      "cognitive_process": "infer",
+      "tag_describes": "cognitive process",
+      "note": ""
+    },
+    {
+      "modality": "listening",
+      "tag": "sequence",
+      "primary_subskill": "discourse_structure",
+      "cognitive_process": "integrate",
+      "tag_describes": "sub-skill",
+      "note": ""
+    },
+    {
+      "modality": "listening",
+      "tag": "paraphrase_recognition",
+      "primary_subskill": "paraphrase_recognition",
+      "cognitive_process": "interpret",
+      "tag_describes": "sub-skill",
+      "note": ""
+    },
+    {
+      "modality": "listening",
+      "tag": "distractor_resolution",
+      "primary_subskill": "information_tracking",
+      "cognitive_process": "integrate",
+      "tag_describes": "item-construction feature / test-taking strategy",
+      "note": "Describes how the item is built (a corrected/rejected option), not a language skill."
+    },
+    {
+      "modality": "listening",
+      "tag": "organisation_signposting",
+      "primary_subskill": "discourse_structure",
+      "cognitive_process": "integrate",
+      "tag_describes": "linguistic feature",
+      "note": ""
+    },
+    {
+      "modality": "reading",
+      "tag": "main_idea",
+      "primary_subskill": "main_idea_gist",
+      "cognitive_process": "integrate",
+      "tag_describes": "sub-skill",
+      "note": ""
+    },
+    {
+      "modality": "reading",
+      "tag": "specific_detail",
+      "primary_subskill": "detail_retrieval",
+      "cognitive_process": "retrieve",
+      "tag_describes": "sub-skill",
+      "note": ""
+    },
+    {
+      "modality": "reading",
+      "tag": "inference",
+      "primary_subskill": "inference",
+      "cognitive_process": "infer",
+      "tag_describes": "cognitive process",
+      "note": ""
+    },
+    {
+      "modality": "reading",
+      "tag": "writer_claim",
+      "primary_subskill": "stance_attitude",
+      "cognitive_process": "evaluate",
+      "tag_describes": "sub-skill",
+      "note": "In this bank it is used with Yes/No/Not Given items."
+    },
+    {
+      "modality": "reading",
+      "tag": "fact_check",
+      "primary_subskill": "claim_verification",
+      "cognitive_process": "evaluate",
+      "tag_describes": "question format",
+      "note": "Describes the True/False/Not Given format."
+    },
+    {
+      "modality": "reading",
+      "tag": "vocabulary_in_context",
+      "primary_subskill": "vocabulary_in_context",
+      "cognitive_process": "interpret",
+      "tag_describes": "sub-skill",
+      "note": "Not used in the current bank."
+    },
+    {
+      "modality": "reading",
+      "tag": "reference_resolution",
+      "primary_subskill": "reference_resolution",
+      "cognitive_process": "interpret",
+      "tag_describes": "sub-skill",
+      "note": "Not used in the current bank."
+    },
+    {
+      "modality": "reading",
+      "tag": "paraphrase_matching",
+      "primary_subskill": "paraphrase_recognition",
+      "cognitive_process": "interpret",
+      "tag_describes": "sub-skill",
+      "note": "Used for matching-information items as well as MCQ."
+    },
+    {
+      "modality": "reading",
+      "tag": "text_organisation",
+      "primary_subskill": "discourse_structure",
+      "cognitive_process": "integrate",
+      "tag_describes": "sub-skill",
+      "note": ""
+    },
+    {
+      "modality": "reading",
+      "tag": "heading_matching",
+      "primary_subskill": "discourse_structure",
+      "cognitive_process": "integrate",
+      "tag_describes": "question format",
+      "note": "Describes the matching-headings format; not used."
+    },
+    {
+      "modality": "reading",
+      "tag": "summary_gap",
+      "primary_subskill": "detail_retrieval",
+      "cognitive_process": "retrieve",
+      "tag_describes": "question format",
+      "note": "Used for sentence-completion items; the format, not a skill."
+    }
+  ],
+  "learning_objectives": [
+    {
+      "id": "LO.detail_retrieval.A1",
+      "subskill": "detail_retrieval",
+      "cefr": "A1",
+      "description": "At CEFR A1: locate explicit information (name, number, time, place, fact) stated in the source, using A1-level language and text."
+    },
+    {
+      "id": "LO.detail_retrieval.A2",
+      "subskill": "detail_retrieval",
+      "cefr": "A2",
+      "description": "At CEFR A2: locate explicit information (name, number, time, place, fact) stated in the source, using A2-level language and text."
+    },
+    {
+      "id": "LO.detail_retrieval.B1",
+      "subskill": "detail_retrieval",
+      "cefr": "B1",
+      "description": "At CEFR B1: locate explicit information (name, number, time, place, fact) stated in the source, using B1-level language and text."
+    },
+    {
+      "id": "LO.detail_retrieval.B2",
+      "subskill": "detail_retrieval",
+      "cefr": "B2",
+      "description": "At CEFR B2: locate explicit information (name, number, time, place, fact) stated in the source, using B2-level language and text."
+    },
+    {
+      "id": "LO.detail_retrieval.C1",
+      "subskill": "detail_retrieval",
+      "cefr": "C1",
+      "description": "At CEFR C1: locate explicit information (name, number, time, place, fact) stated in the source, using C1-level language and text."
+    },
+    {
+      "id": "LO.detail_retrieval.C2",
+      "subskill": "detail_retrieval",
+      "cefr": "C2",
+      "description": "At CEFR C2: locate explicit information (name, number, time, place, fact) stated in the source, using C2-level language and text."
+    },
+    {
+      "id": "LO.paraphrase_recognition.A1",
+      "subskill": "paraphrase_recognition",
+      "cefr": "A1",
+      "description": "At CEFR A1: match information to a restated (paraphrased) version of it, using A1-level language and text."
+    },
+    {
+      "id": "LO.paraphrase_recognition.A2",
+      "subskill": "paraphrase_recognition",
+      "cefr": "A2",
+      "description": "At CEFR A2: match information to a restated (paraphrased) version of it, using A2-level language and text."
+    },
+    {
+      "id": "LO.paraphrase_recognition.B1",
+      "subskill": "paraphrase_recognition",
+      "cefr": "B1",
+      "description": "At CEFR B1: match information to a restated (paraphrased) version of it, using B1-level language and text."
+    },
+    {
+      "id": "LO.paraphrase_recognition.B2",
+      "subskill": "paraphrase_recognition",
+      "cefr": "B2",
+      "description": "At CEFR B2: match information to a restated (paraphrased) version of it, using B2-level language and text."
+    },
+    {
+      "id": "LO.paraphrase_recognition.C1",
+      "subskill": "paraphrase_recognition",
+      "cefr": "C1",
+      "description": "At CEFR C1: match information to a restated (paraphrased) version of it, using C1-level language and text."
+    },
+    {
+      "id": "LO.paraphrase_recognition.C2",
+      "subskill": "paraphrase_recognition",
+      "cefr": "C2",
+      "description": "At CEFR C2: match information to a restated (paraphrased) version of it, using C2-level language and text."
+    },
+    {
+      "id": "LO.main_idea_gist.A1",
+      "subskill": "main_idea_gist",
+      "cefr": "A1",
+      "description": "At CEFR A1: identify the overall topic, main point or conclusion of a text or recording, using A1-level language and text."
+    },
+    {
+      "id": "LO.main_idea_gist.A2",
+      "subskill": "main_idea_gist",
+      "cefr": "A2",
+      "description": "At CEFR A2: identify the overall topic, main point or conclusion of a text or recording, using A2-level language and text."
+    },
+    {
+      "id": "LO.main_idea_gist.B1",
+      "subskill": "main_idea_gist",
+      "cefr": "B1",
+      "description": "At CEFR B1: identify the overall topic, main point or conclusion of a text or recording, using B1-level language and text."
+    },
+    {
+      "id": "LO.main_idea_gist.B2",
+      "subskill": "main_idea_gist",
+      "cefr": "B2",
+      "description": "At CEFR B2: identify the overall topic, main point or conclusion of a text or recording, using B2-level language and text."
+    },
+    {
+      "id": "LO.main_idea_gist.C1",
+      "subskill": "main_idea_gist",
+      "cefr": "C1",
+      "description": "At CEFR C1: identify the overall topic, main point or conclusion of a text or recording, using C1-level language and text."
+    },
+    {
+      "id": "LO.main_idea_gist.C2",
+      "subskill": "main_idea_gist",
+      "cefr": "C2",
+      "description": "At CEFR C2: identify the overall topic, main point or conclusion of a text or recording, using C2-level language and text."
+    },
+    {
+      "id": "LO.inference.A1",
+      "subskill": "inference",
+      "cefr": "A1",
+      "description": "At CEFR A1: draw a conclusion that is implied but not stated, using A1-level language and text."
+    },
+    {
+      "id": "LO.inference.A2",
+      "subskill": "inference",
+      "cefr": "A2",
+      "description": "At CEFR A2: draw a conclusion that is implied but not stated, using A2-level language and text."
+    },
+    {
+      "id": "LO.inference.B1",
+      "subskill": "inference",
+      "cefr": "B1",
+      "description": "At CEFR B1: draw a conclusion that is implied but not stated, using B1-level language and text."
+    },
+    {
+      "id": "LO.inference.B2",
+      "subskill": "inference",
+      "cefr": "B2",
+      "description": "At CEFR B2: draw a conclusion that is implied but not stated, using B2-level language and text."
+    },
+    {
+      "id": "LO.inference.C1",
+      "subskill": "inference",
+      "cefr": "C1",
+      "description": "At CEFR C1: draw a conclusion that is implied but not stated, using C1-level language and text."
+    },
+    {
+      "id": "LO.inference.C2",
+      "subskill": "inference",
+      "cefr": "C2",
+      "description": "At CEFR C2: draw a conclusion that is implied but not stated, using C2-level language and text."
+    },
+    {
+      "id": "LO.stance_attitude.A1",
+      "subskill": "stance_attitude",
+      "cefr": "A1",
+      "description": "At CEFR A1: identify a speaker's or writer's opinion, attitude or claim, using A1-level language and text."
+    },
+    {
+      "id": "LO.stance_attitude.A2",
+      "subskill": "stance_attitude",
+      "cefr": "A2",
+      "description": "At CEFR A2: identify a speaker's or writer's opinion, attitude or claim, using A2-level language and text."
+    },
+    {
+      "id": "LO.stance_attitude.B1",
+      "subskill": "stance_attitude",
+      "cefr": "B1",
+      "description": "At CEFR B1: identify a speaker's or writer's opinion, attitude or claim, using B1-level language and text."
+    },
+    {
+      "id": "LO.stance_attitude.B2",
+      "subskill": "stance_attitude",
+      "cefr": "B2",
+      "description": "At CEFR B2: identify a speaker's or writer's opinion, attitude or claim, using B2-level language and text."
+    },
+    {
+      "id": "LO.stance_attitude.C1",
+      "subskill": "stance_attitude",
+      "cefr": "C1",
+      "description": "At CEFR C1: identify a speaker's or writer's opinion, attitude or claim, using C1-level language and text."
+    },
+    {
+      "id": "LO.stance_attitude.C2",
+      "subskill": "stance_attitude",
+      "cefr": "C2",
+      "description": "At CEFR C2: identify a speaker's or writer's opinion, attitude or claim, using C2-level language and text."
+    },
+    {
+      "id": "LO.discourse_structure.A1",
+      "subskill": "discourse_structure",
+      "cefr": "A1",
+      "description": "At CEFR A1: follow how a text/recording is organised (signposting, sequence, paragraph function), using A1-level language and text."
+    },
+    {
+      "id": "LO.discourse_structure.A2",
+      "subskill": "discourse_structure",
+      "cefr": "A2",
+      "description": "At CEFR A2: follow how a text/recording is organised (signposting, sequence, paragraph function), using A2-level language and text."
+    },
+    {
+      "id": "LO.discourse_structure.B1",
+      "subskill": "discourse_structure",
+      "cefr": "B1",
+      "description": "At CEFR B1: follow how a text/recording is organised (signposting, sequence, paragraph function), using B1-level language and text."
+    },
+    {
+      "id": "LO.discourse_structure.B2",
+      "subskill": "discourse_structure",
+      "cefr": "B2",
+      "description": "At CEFR B2: follow how a text/recording is organised (signposting, sequence, paragraph function), using B2-level language and text."
+    },
+    {
+      "id": "LO.discourse_structure.C1",
+      "subskill": "discourse_structure",
+      "cefr": "C1",
+      "description": "At CEFR C1: follow how a text/recording is organised (signposting, sequence, paragraph function), using C1-level language and text."
+    },
+    {
+      "id": "LO.discourse_structure.C2",
+      "subskill": "discourse_structure",
+      "cefr": "C2",
+      "description": "At CEFR C2: follow how a text/recording is organised (signposting, sequence, paragraph function), using C2-level language and text."
+    },
+    {
+      "id": "LO.purpose_function.A1",
+      "subskill": "purpose_function",
+      "cefr": "A1",
+      "description": "At CEFR A1: identify why something is said or included, using A1-level language and text."
+    },
+    {
+      "id": "LO.purpose_function.A2",
+      "subskill": "purpose_function",
+      "cefr": "A2",
+      "description": "At CEFR A2: identify why something is said or included, using A2-level language and text."
+    },
+    {
+      "id": "LO.purpose_function.B1",
+      "subskill": "purpose_function",
+      "cefr": "B1",
+      "description": "At CEFR B1: identify why something is said or included, using B1-level language and text."
+    },
+    {
+      "id": "LO.purpose_function.B2",
+      "subskill": "purpose_function",
+      "cefr": "B2",
+      "description": "At CEFR B2: identify why something is said or included, using B2-level language and text."
+    },
+    {
+      "id": "LO.purpose_function.C1",
+      "subskill": "purpose_function",
+      "cefr": "C1",
+      "description": "At CEFR C1: identify why something is said or included, using C1-level language and text."
+    },
+    {
+      "id": "LO.purpose_function.C2",
+      "subskill": "purpose_function",
+      "cefr": "C2",
+      "description": "At CEFR C2: identify why something is said or included, using C2-level language and text."
+    },
+    {
+      "id": "LO.reference_resolution.A1",
+      "subskill": "reference_resolution",
+      "cefr": "A1",
+      "description": "At CEFR A1: resolve what a pronoun or reference expression points to, using A1-level language and text."
+    },
+    {
+      "id": "LO.reference_resolution.A2",
+      "subskill": "reference_resolution",
+      "cefr": "A2",
+      "description": "At CEFR A2: resolve what a pronoun or reference expression points to, using A2-level language and text."
+    },
+    {
+      "id": "LO.reference_resolution.B1",
+      "subskill": "reference_resolution",
+      "cefr": "B1",
+      "description": "At CEFR B1: resolve what a pronoun or reference expression points to, using B1-level language and text."
+    },
+    {
+      "id": "LO.reference_resolution.B2",
+      "subskill": "reference_resolution",
+      "cefr": "B2",
+      "description": "At CEFR B2: resolve what a pronoun or reference expression points to, using B2-level language and text."
+    },
+    {
+      "id": "LO.reference_resolution.C1",
+      "subskill": "reference_resolution",
+      "cefr": "C1",
+      "description": "At CEFR C1: resolve what a pronoun or reference expression points to, using C1-level language and text."
+    },
+    {
+      "id": "LO.reference_resolution.C2",
+      "subskill": "reference_resolution",
+      "cefr": "C2",
+      "description": "At CEFR C2: resolve what a pronoun or reference expression points to, using C2-level language and text."
+    },
+    {
+      "id": "LO.vocabulary_in_context.A1",
+      "subskill": "vocabulary_in_context",
+      "cefr": "A1",
+      "description": "At CEFR A1: infer the meaning of a word or phrase from context, using A1-level language and text."
+    },
+    {
+      "id": "LO.vocabulary_in_context.A2",
+      "subskill": "vocabulary_in_context",
+      "cefr": "A2",
+      "description": "At CEFR A2: infer the meaning of a word or phrase from context, using A2-level language and text."
+    },
+    {
+      "id": "LO.vocabulary_in_context.B1",
+      "subskill": "vocabulary_in_context",
+      "cefr": "B1",
+      "description": "At CEFR B1: infer the meaning of a word or phrase from context, using B1-level language and text."
+    },
+    {
+      "id": "LO.vocabulary_in_context.B2",
+      "subskill": "vocabulary_in_context",
+      "cefr": "B2",
+      "description": "At CEFR B2: infer the meaning of a word or phrase from context, using B2-level language and text."
+    },
+    {
+      "id": "LO.vocabulary_in_context.C1",
+      "subskill": "vocabulary_in_context",
+      "cefr": "C1",
+      "description": "At CEFR C1: infer the meaning of a word or phrase from context, using C1-level language and text."
+    },
+    {
+      "id": "LO.vocabulary_in_context.C2",
+      "subskill": "vocabulary_in_context",
+      "cefr": "C2",
+      "description": "At CEFR C2: infer the meaning of a word or phrase from context, using C2-level language and text."
+    },
+    {
+      "id": "LO.claim_verification.A1",
+      "subskill": "claim_verification",
+      "cefr": "A1",
+      "description": "At CEFR A1: judge whether a statement agrees with, contradicts, or is not addressed by the source, using A1-level language and text."
+    },
+    {
+      "id": "LO.claim_verification.A2",
+      "subskill": "claim_verification",
+      "cefr": "A2",
+      "description": "At CEFR A2: judge whether a statement agrees with, contradicts, or is not addressed by the source, using A2-level language and text."
+    },
+    {
+      "id": "LO.claim_verification.B1",
+      "subskill": "claim_verification",
+      "cefr": "B1",
+      "description": "At CEFR B1: judge whether a statement agrees with, contradicts, or is not addressed by the source, using B1-level language and text."
+    },
+    {
+      "id": "LO.claim_verification.B2",
+      "subskill": "claim_verification",
+      "cefr": "B2",
+      "description": "At CEFR B2: judge whether a statement agrees with, contradicts, or is not addressed by the source, using B2-level language and text."
+    },
+    {
+      "id": "LO.claim_verification.C1",
+      "subskill": "claim_verification",
+      "cefr": "C1",
+      "description": "At CEFR C1: judge whether a statement agrees with, contradicts, or is not addressed by the source, using C1-level language and text."
+    },
+    {
+      "id": "LO.claim_verification.C2",
+      "subskill": "claim_verification",
+      "cefr": "C2",
+      "description": "At CEFR C2: judge whether a statement agrees with, contradicts, or is not addressed by the source, using C2-level language and text."
+    },
+    {
+      "id": "LO.information_tracking.A1",
+      "subskill": "information_tracking",
+      "cefr": "A1",
+      "description": "At CEFR A1: select the final/confirmed information when earlier options are changed, corrected or rejected, using A1-level language and text."
+    },
+    {
+      "id": "LO.information_tracking.A2",
+      "subskill": "information_tracking",
+      "cefr": "A2",
+      "description": "At CEFR A2: select the final/confirmed information when earlier options are changed, corrected or rejected, using A2-level language and text."
+    },
+    {
+      "id": "LO.information_tracking.B1",
+      "subskill": "information_tracking",
+      "cefr": "B1",
+      "description": "At CEFR B1: select the final/confirmed information when earlier options are changed, corrected or rejected, using B1-level language and text."
+    },
+    {
+      "id": "LO.information_tracking.B2",
+      "subskill": "information_tracking",
+      "cefr": "B2",
+      "description": "At CEFR B2: select the final/confirmed information when earlier options are changed, corrected or rejected, using B2-level language and text."
+    },
+    {
+      "id": "LO.information_tracking.C1",
+      "subskill": "information_tracking",
+      "cefr": "C1",
+      "description": "At CEFR C1: select the final/confirmed information when earlier options are changed, corrected or rejected, using C1-level language and text."
+    },
+    {
+      "id": "LO.information_tracking.C2",
+      "subskill": "information_tracking",
+      "cefr": "C2",
+      "description": "At CEFR C2: select the final/confirmed information when earlier options are changed, corrected or rejected, using C2-level language and text."
+    }
+  ],
+  "note_on_learning_objectives": "Placeholder objectives generated from sub-skill x CEFR level; they are NOT validated can-do statements and need curriculum-team review."
+}

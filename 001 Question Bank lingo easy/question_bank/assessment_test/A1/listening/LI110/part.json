@@ -1,0 +1,467 @@
+{
+  "schema_version": "1.0",
+  "id": "LI110",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Lost Property",
+  "topic": "tourism_and_events",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "audio": {
+    "file": "li110_lost_property.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Greg",
+        "gender": "male",
+        "accent": "australian",
+        "role": "lost property clerk"
+      },
+      {
+        "id": "S2",
+        "name": "Maria Lopez",
+        "gender": "female",
+        "accent": "american",
+        "role": "passenger"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon. Lost property. How can I help?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hello. I have lost my bag. I think I left it on the bus."
+      },
+      {
+        "speaker": "S1",
+        "text": "I am sorry to hear that. Which bus was it?"
+      },
+      {
+        "speaker": "S2",
+        "text": "The number fifteen, from the museum to the station, at about two o'clock."
+      },
+      {
+        "speaker": "S1",
+        "text": "What colour is the bag?"
+      },
+      {
+        "speaker": "S2",
+        "text": "It is small and red, with a long strap."
+      },
+      {
+        "speaker": "S1",
+        "text": "What is in the bag?"
+      },
+      {
+        "speaker": "S2",
+        "text": "My purse, my keys and a book. The book is a green one. It is about cooking."
+      },
+      {
+        "speaker": "S1",
+        "text": "Okay. Let me look. Oh, is this your bag?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes! That is it! Thank you so much."
+      },
+      {
+        "speaker": "S1",
+        "text": "A driver brought it here an hour ago. What is your name?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Maria Lopez."
+      },
+      {
+        "speaker": "S1",
+        "text": "Please show me something with your name on it, Mrs Lopez."
+      },
+      {
+        "speaker": "S2",
+        "text": "Here is my library card."
+      },
+      {
+        "speaker": "S1",
+        "text": "Thank you. Here is your bag. Please check your things."
+      },
+      {
+        "speaker": "S2",
+        "text": "Everything is here. Thank you again. Have a nice day!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI110-Q01",
+          "number": 1,
+          "prompt": "What did the woman lose?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A coat"
+            },
+            {
+              "id": "B",
+              "text": "A bag"
+            },
+            {
+              "id": "C",
+              "text": "A phone"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I have lost my bag"
+          },
+          "explanation": "The audio says: \"I have lost my bag\".",
+          "uuid": "62a952db-1d85-5b2e-bb2e-65622b739349"
+        },
+        {
+          "id": "LI110-Q02",
+          "number": 2,
+          "prompt": "Where did she leave it?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In a taxi"
+            },
+            {
+              "id": "B",
+              "text": "In a shop"
+            },
+            {
+              "id": "C",
+              "text": "On the bus"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "I left it on the bus"
+          },
+          "explanation": "The audio says: \"I left it on the bus\".",
+          "uuid": "19974262-294e-50fa-bf68-85c60b9c10be"
+        },
+        {
+          "id": "LI110-Q03",
+          "number": 3,
+          "prompt": "Which bus was it?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Number 15"
+            },
+            {
+              "id": "B",
+              "text": "Number 5"
+            },
+            {
+              "id": "C",
+              "text": "Number 50"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "The number fifteen"
+          },
+          "explanation": "The audio says: \"The number fifteen\".",
+          "uuid": "d681c47c-7473-5f8f-9fb2-c97dba753032"
+        },
+        {
+          "id": "LI110-Q04",
+          "number": 4,
+          "prompt": "What time was the journey?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 12.00"
+            },
+            {
+              "id": "B",
+              "text": "About 2.00"
+            },
+            {
+              "id": "C",
+              "text": "About 4.00"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "at about two o'clock"
+          },
+          "explanation": "The audio says: \"at about two o'clock\".",
+          "uuid": "ca2acae3-acf4-5dd1-89c0-3e4e1a067299"
+        },
+        {
+          "id": "LI110-Q05",
+          "number": 5,
+          "prompt": "What is the bag like?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Small and red"
+            },
+            {
+              "id": "B",
+              "text": "Big and red"
+            },
+            {
+              "id": "C",
+              "text": "Small and green"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "small and red"
+          },
+          "explanation": "The audio says: \"small and red\".",
+          "uuid": "8265b948-935a-526d-bd46-e731adc96fea"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI110-Q06",
+          "number": 6,
+          "prompt": "What is in the bag?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A phone, keys and a book"
+            },
+            {
+              "id": "B",
+              "text": "A purse, a hat and a book"
+            },
+            {
+              "id": "C",
+              "text": "A purse, keys and a book"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "My purse, my keys and a book"
+          },
+          "explanation": "The audio says: \"My purse, my keys and a book\".",
+          "uuid": "7834d0eb-20b0-59ac-bf8f-9c7dc8f9a634"
+        },
+        {
+          "id": "LI110-Q07",
+          "number": 7,
+          "prompt": "What is the book about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Travel"
+            },
+            {
+              "id": "B",
+              "text": "Cooking"
+            },
+            {
+              "id": "C",
+              "text": "Music"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It is about cooking"
+          },
+          "explanation": "The audio says: \"It is about cooking\".",
+          "uuid": "aaecac7d-697b-5aa3-bbdb-e93d896416b7"
+        },
+        {
+          "id": "LI110-Q08",
+          "number": 8,
+          "prompt": "Who brought the bag to the office?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A police officer"
+            },
+            {
+              "id": "B",
+              "text": "A student"
+            },
+            {
+              "id": "C",
+              "text": "A bus driver"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "A driver brought it here"
+          },
+          "explanation": "The audio says: \"A driver brought it here\".",
+          "uuid": "b1ea3886-9f4a-5209-8b1c-b830677c6504"
+        },
+        {
+          "id": "LI110-Q09",
+          "number": 9,
+          "prompt": "What is the woman's last name?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lopez"
+            },
+            {
+              "id": "B",
+              "text": "Perez"
+            },
+            {
+              "id": "C",
+              "text": "Lopes"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "with your name on it, Mrs Lopez"
+          },
+          "explanation": "The audio says: \"with your name on it, Mrs Lopez\".",
+          "uuid": "c8d71904-8038-5299-a376-46fa7ca312d6"
+        },
+        {
+          "id": "LI110-Q10",
+          "number": 10,
+          "prompt": "What does she show to the clerk?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Her passport"
+            },
+            {
+              "id": "B",
+              "text": "Her bus ticket"
+            },
+            {
+              "id": "C",
+              "text": "Her library card"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Here is my library card"
+          },
+          "explanation": "The audio says: \"Here is my library card\".",
+          "uuid": "e59392ed-1505-555d-b565-1b5d4306f3b6"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "5b006290-0488-483a-83b3-b40f07e66a18",
+  "derived": {
+    "word_count": 148,
+    "level_counts": {
+      "A1": 10,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.65,
+    "answer_counts": {
+      "A": 3,
+      "B": 3,
+      "C": 4
+    },
+    "content_hash": "4afa72f136a9cb9c"
+  }
+}

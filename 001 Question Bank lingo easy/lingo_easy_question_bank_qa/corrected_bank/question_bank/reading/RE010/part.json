@@ -1,0 +1,540 @@
+{
+  "schema_version": "1.0",
+  "id": "RE010",
+  "skill": "reading",
+  "part_type": "argumentative",
+  "title": "Should Social Media Be Regulated?",
+  "topic": "media_and_communication",
+  "profile": "advanced",
+  "text_cefr": "C1",
+  "passage": {
+    "title": "Should Social Media Be Regulated?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few technologies have changed daily life as quickly as social media. In less than two decades, platforms that began as ways of sharing photographs among friends have become the main source of news for millions, a stage for political campaigns and a market worth hundreds of billions of dollars. As their influence has grown, so has the call for governments to regulate them. Supporters of regulation point to harms ranging from misinformation to damage to adolescent wellbeing; opponents warn about threats to free expression and to innovation. In my view, the case for some regulation is strong, but the form it takes matters at least as much as the principle. I will argue that the debate is badly served by those who treat it as a simple choice between control and liberty."
+      },
+      {
+        "label": "B",
+        "text": "The strongest argument concerns the structure of the business. Most platforms earn revenue from advertising, which rewards engagement: content that provokes strong emotions, including anger, tends to spread faster than content that informs. Internal documents from one large company, leaked in 2021, suggested that its own researchers had found that its recommendation system amplified divisive material. Critics conclude that harmful effects are not accidents but consequences of design, and therefore that voluntary promises by companies cannot be relied upon."
+      },
+      {
+        "label": "C",
+        "text": "A second argument concerns children. Studies in several countries have found associations between heavy use and anxiety, poor sleep and low self-esteem among teenage girls in particular, although researchers disagree about causation and the size of the effect. Even so, many parents feel powerless, because a child excluded from a platform may be excluded from friendships. Age limits already exist, but they are widely ignored, since verification is rarely enforced. Regulation could require genuine checks and ban the most manipulative design features, such as endless scrolling, for young users."
+      },
+      {
+        "label": "D",
+        "text": "Opponents raise serious objections. The first is free speech. Governments that demand removal of harmful content may define harm broadly, and in some countries, regulations have been used to silence political opponents. Even in democracies, deciding what counts as misinformation is rarely straightforward: positions that were dismissed as false early in the pandemic later became accepted by experts. Handing such decisions to officials, or to companies under threat of fines, risks both error and abuse. The second objection is practical. Rules written for today's platforms may be obsolete within a few years, and heavy compliance costs favour giant companies that can afford lawyers over start-ups that cannot."
+      },
+      {
+        "label": "E",
+        "text": "These objections suggest how regulation should be designed, not that it should be abandoned. Rather than prescribing what may be said, rules could focus on transparency: requiring companies to explain how their recommendation systems work, to give independent researchers access to data and to allow users to choose feeds that are not personalised. Such measures leave decisions about content to individuals and courts while exposing the mechanisms that shape what people see. Competition policy, too, could help, by making it easier to move one's contacts to another service and so reducing the power of any single platform."
+      },
+      {
+        "label": "F",
+        "text": "No approach will be perfect, and regulators will make mistakes, some of them costly and some of them embarrassing, as past attempts to regulate new technologies have shown. But the alternative is not freedom; it is a system in which a handful of private companies, accountable chiefly to shareholders and largely invisible to the public, determine the conditions of public debate. That arrangement is itself a form of regulation, one that nobody voted for. The real question is therefore not whether social media will be governed, but by whom, according to what principles, and with what safeguards against abuse."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE010-Q01",
+          "number": 1,
+          "prompt": "What did social media platforms begin as?",
+          "options": [
+            {
+              "id": "A",
+              "text": "News services for political parties"
+            },
+            {
+              "id": "B",
+              "text": "Ways of sharing photographs among friends"
+            },
+            {
+              "id": "C",
+              "text": "Political campaigns for new voters"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "ways of sharing photographs among friends"
+          },
+          "explanation": "The text says: \"ways of sharing photographs among friends\".",
+          "uuid": "0885c54a-5e6e-531a-962d-575b9ecc46ba"
+        },
+        {
+          "id": "RE010-Q02",
+          "number": 2,
+          "prompt": "What does advertising revenue reward?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accuracy"
+            },
+            {
+              "id": "B",
+              "text": "Brevity"
+            },
+            {
+              "id": "C",
+              "text": "Engagement"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "advertising, which rewards engagement"
+          },
+          "explanation": "The text says: \"advertising, which rewards engagement\".",
+          "uuid": "6e41fc03-0737-55a4-a68e-d475fe088e77"
+        },
+        {
+          "id": "RE010-Q03",
+          "number": 3,
+          "prompt": "What did the leaked internal documents suggest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The company had not studied the effects of its product"
+            },
+            {
+              "id": "B",
+              "text": "The recommendation system amplified divisive material"
+            },
+            {
+              "id": "C",
+              "text": "The platform was losing a large number of users each year"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "recommendation system amplified divisive material"
+          },
+          "explanation": "The text says: \"recommendation system amplified divisive material\".",
+          "uuid": "c4bb6a82-bd89-5e47-b937-639009d735f4"
+        },
+        {
+          "id": "RE010-Q04",
+          "number": 4,
+          "prompt": "Why do many parents feel powerless?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Parents do not understand the law on age limits for children"
+            },
+            {
+              "id": "B",
+              "text": "A child excluded from a platform may be excluded from friendships"
+            },
+            {
+              "id": "C",
+              "text": "Platforms ignore the emails that worried parents send them"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "may be excluded from friendships"
+          },
+          "explanation": "The text says: \"may be excluded from friendships\".",
+          "uuid": "1946ce93-e6a4-5312-9476-0ed966b92dfa"
+        },
+        {
+          "id": "RE010-Q05",
+          "number": 5,
+          "prompt": "What does the writer say about existing age limits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are strictly enforced by the platforms themselves"
+            },
+            {
+              "id": "B",
+              "text": "They are set far too low for most of the teenagers"
+            },
+            {
+              "id": "C",
+              "text": "They are widely ignored because verification is rarely enforced"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "widely ignored, since verification is rarely enforced"
+          },
+          "explanation": "The text says: \"widely ignored, since verification is rarely enforced\".",
+          "uuid": "f24f6e91-acfc-5dd3-9f5d-0eb786ca9955"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE010-Q06",
+          "number": 6,
+          "prompt": "The writer thinks the harmful effects of social media are accidents.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "not accidents but consequences of design"
+          },
+          "explanation": "The text says: \"not accidents but consequences of design\".",
+          "uuid": "4019f19f-129f-530a-9231-01a3db0ef494"
+        },
+        {
+          "id": "RE010-Q07",
+          "number": 7,
+          "prompt": "The writer says researchers agree about the size of the effects on teenagers.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "researchers disagree about causation and the size of the effect"
+          },
+          "explanation": "The text says: \"researchers disagree about causation and the size of the effect\".",
+          "uuid": "8ac166cf-10f0-5c6e-9693-fbe15c201628"
+        },
+        {
+          "id": "RE010-Q08",
+          "number": 8,
+          "prompt": "The writer thinks deciding what counts as misinformation is easy.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Even in democracies, deciding what counts as misinformation is rarely straightforward"
+          },
+          "explanation": "The text says: \"Even in democracies, deciding what counts as misinformation is rarely straightforward\".",
+          "uuid": "c79752d5-1eb0-5ab4-a8f6-6cedbe200586"
+        },
+        {
+          "id": "RE010-Q09",
+          "number": 9,
+          "prompt": "The writer believes transparency rules would leave decisions about content to individuals and courts.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "leave decisions about content to individuals and courts"
+          },
+          "explanation": "The text says: \"leave decisions about content to individuals and courts\".",
+          "uuid": "d74c10bf-5a24-5d3a-9748-3451f21fb7a3"
+        },
+        {
+          "id": "RE010-Q10",
+          "number": 10,
+          "prompt": "The writer has worked for a regulator.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "33c1a133-d5b5-5508-b3f1-3241a701ddf7"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE010-Q11",
+          "number": 11,
+          "prompt": "A criticism that regulation might favour large companies",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "heavy compliance costs favour giant companies"
+          },
+          "explanation": "The text says: \"heavy compliance costs favour giant companies\".",
+          "uuid": "8eeb491a-9830-5fe6-86c2-6987108f96a4"
+        },
+        {
+          "id": "RE010-Q12",
+          "number": 12,
+          "prompt": "A suggestion that making it easier to switch services would limit a platform's power",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 8.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "move one's contacts to another service"
+          },
+          "explanation": "The text says: \"move one's contacts to another service\".",
+          "uuid": "591bb1d7-fd52-5837-8d35-5ddfaa22b877"
+        },
+        {
+          "id": "RE010-Q13",
+          "number": 13,
+          "prompt": "An argument that the absence of regulation is itself a kind of governance",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph E"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "That arrangement is itself a form of regulation"
+          },
+          "explanation": "The text says: \"That arrangement is itself a form of regulation\".",
+          "uuid": "d4557141-903d-5818-b3f2-2898b4e4b3a3"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "c165fa88-4642-4005-83d9-28c694a216ee",
+  "derived": {
+    "word_count": 605,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 1,
+      "B2": 5,
+      "C1": 3,
+      "C2": 3
+    },
+    "mean_band": 6.69,
+    "answer_counts": {
+      "A": 1,
+      "B": 6,
+      "C": 4,
+      "D": 2
+    },
+    "content_hash": "d3c96303c3c1f583"
+  }
+}

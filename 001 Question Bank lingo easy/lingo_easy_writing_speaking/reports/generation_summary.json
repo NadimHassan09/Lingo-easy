@@ -1,0 +1,1170 @@
+{
+  "generated_at": "2026-10-30T19:42:58+02:00",
+  "generator": "lingoeasy-productive-generator@1.1.0",
+  "seed": 20261030,
+  "totals": {
+    "writing": 70,
+    "speaking": 70,
+    "required": {
+      "writing": 70,
+      "speaking": 70
+    }
+  },
+  "per_bank": {
+    "writing": {
+      "placement": 10,
+      "A1": 10,
+      "A2": 10,
+      "B1": 10,
+      "B2": 10,
+      "C1": 10,
+      "C2": 10
+    },
+    "speaking": {
+      "placement": 10,
+      "A1": 10,
+      "A2": 10,
+      "B1": 10,
+      "B2": 10,
+      "C1": 10,
+      "C2": 10
+    }
+  },
+  "status_counts": {
+    "validated": 140
+  },
+  "structural_validation": {
+    "pass": 140
+  },
+  "semantic_rule_review": {
+    "pass": 73,
+    "flagged": 67
+  },
+  "llm_review": "not performed (the authoring model's own output was not independently reviewed by a second system)",
+  "human_review": "none: no part is reviewed or approved",
+  "runtime_llm_calls": 0,
+  "authoring_model": "claude-sonnet-5-5",
+  "duplicates": {
+    "candidates": 6,
+    "confirmed_duplicates": 0
+  },
+  "placement_design": {
+    "writing": {
+      "level_counts": {
+        "A1": 1,
+        "A2": 2,
+        "B1": 2,
+        "B2": 2,
+        "C1": 2,
+        "C2": 1
+      },
+      "difficulty_progression": [
+        {
+          "id": "WR001",
+          "target": "A1",
+          "heuristic": "A1",
+          "difficulty_index": 0.018,
+          "task_type": "sentence_set",
+          "topic": "sports_and_fitness",
+          "primary_subskill": "personal_expression",
+          "evidence_provided": "Describe people, places, objects, routines; Retrieve and state personal facts"
+        },
+        {
+          "id": "WR002",
+          "target": "A2",
+          "heuristic": "A2",
+          "difficulty_index": 0.18,
+          "task_type": "narrative_recount",
+          "topic": "work_and_careers",
+          "primary_subskill": "narrative_writing",
+          "evidence_provided": "Narrate events in sequence; Give a simple reason or purpose"
+        },
+        {
+          "id": "WR003",
+          "target": "A2",
+          "heuristic": "A2",
+          "difficulty_index": 0.146,
+          "task_type": "personal_message",
+          "topic": "housing",
+          "primary_subskill": "message_writing",
+          "evidence_provided": "Request, offer, invite, apologise; Give a simple reason or purpose"
+        },
+        {
+          "id": "WR004",
+          "target": "B1",
+          "heuristic": "B1",
+          "difficulty_index": 0.356,
+          "task_type": "opinion_paragraph",
+          "topic": "education",
+          "primary_subskill": "opinion_writing",
+          "evidence_provided": "State and support a personal opinion; Give a simple reason or purpose"
+        },
+        {
+          "id": "WR005",
+          "target": "B1",
+          "heuristic": "B1",
+          "difficulty_index": 0.312,
+          "task_type": "narrative_recount",
+          "topic": "family_and_relationships",
+          "primary_subskill": "narrative_writing",
+          "evidence_provided": "Narrate events in sequence; Give a simple reason or purpose; State and support a personal opinion"
+        },
+        {
+          "id": "WR006",
+          "target": "B2",
+          "heuristic": "B2",
+          "difficulty_index": 0.552,
+          "task_type": "discussion_two_views",
+          "topic": "animals_and_nature",
+          "primary_subskill": "comparison_evaluation",
+          "evidence_provided": "Weigh advantages and disadvantages; State and support a personal opinion"
+        },
+        {
+          "id": "WR007",
+          "target": "B2",
+          "heuristic": "B2",
+          "difficulty_index": 0.514,
+          "task_type": "email_formal",
+          "topic": "arts_and_culture",
+          "primary_subskill": "argument_development",
+          "evidence_provided": "Persuade a defined audience; Plan, advise, suggest"
+        },
+        {
+          "id": "WR008",
+          "target": "C1",
+          "heuristic": "C1",
+          "difficulty_index": 0.788,
+          "task_type": "argumentative_essay",
+          "topic": "environment",
+          "primary_subskill": "argument_development",
+          "evidence_provided": "Critically evaluate claims and evidence; Integrate several viewpoints or sources"
+        },
+        {
+          "id": "WR009",
+          "target": "C1",
+          "heuristic": "C1",
+          "difficulty_index": 0.732,
+          "task_type": "discussion_two_views",
+          "topic": "technology",
+          "primary_subskill": "comparison_evaluation",
+          "evidence_provided": "Critically evaluate claims and evidence; Analyse causes, effects and solutions"
+        },
+        {
+          "id": "WR010",
+          "target": "C2",
+          "heuristic": "C1",
+          "difficulty_index": 0.9,
+          "task_type": "argumentative_essay",
+          "topic": "history",
+          "primary_subskill": "argument_development",
+          "evidence_provided": "Hold and defend a qualified, nuanced position; Critically evaluate claims and evidence"
+        }
+      ],
+      "limitations": [
+        "One task at A1 and one at C2 gives presence of evidence only, not a reliable estimate at the extremes.",
+        "Two tasks at each middle level are insufficient to separate adjacent levels with confidence.",
+        "Ten tasks per skill is a product constraint, not psychometric reliability. Placement estimates need empirical calibration with learner data.",
+        "The task order a learner sees (adaptive or fixed) is a product decision not made here."
+      ]
+    },
+    "speaking": {
+      "level_counts": {
+        "A1": 1,
+        "A2": 2,
+        "B1": 2,
+        "B2": 2,
+        "C1": 2,
+        "C2": 1
+      },
+      "difficulty_progression": [
+        {
+          "id": "SP001",
+          "target": "A1",
+          "heuristic": "A1",
+          "difficulty_index": 0.022,
+          "task_type": "familiar_topics",
+          "topic": "food_and_nutrition",
+          "primary_subskill": "personal_information_talk",
+          "evidence_provided": "Describe people, places, objects, routines; Retrieve and state personal facts"
+        },
+        {
+          "id": "SP002",
+          "target": "A2",
+          "heuristic": "A2",
+          "difficulty_index": 0.17,
+          "task_type": "long_turn",
+          "topic": "travel",
+          "primary_subskill": "narrative_speaking",
+          "evidence_provided": "Describe people, places, objects, routines; Narrate events in sequence; Give a simple reason or purpose"
+        },
+        {
+          "id": "SP003",
+          "target": "A2",
+          "heuristic": "A2",
+          "difficulty_index": 0.138,
+          "task_type": "situational_response",
+          "topic": "shopping_and_money",
+          "primary_subskill": "interactional_response",
+          "evidence_provided": "Request, offer, invite, apologise; Give a simple reason or purpose"
+        },
+        {
+          "id": "SP004",
+          "target": "B1",
+          "heuristic": "B1",
+          "difficulty_index": 0.386,
+          "task_type": "familiar_topics",
+          "topic": "media_and_communication",
+          "primary_subskill": "opinion_justification",
+          "evidence_provided": "State and support a personal opinion; Compare and contrast two options; Narrate events in sequence"
+        },
+        {
+          "id": "SP005",
+          "target": "B1",
+          "heuristic": "A2",
+          "difficulty_index": 0.27,
+          "task_type": "long_turn",
+          "topic": "sports_and_fitness",
+          "primary_subskill": "narrative_speaking",
+          "evidence_provided": "Narrate events in sequence; Give a simple reason or purpose"
+        },
+        {
+          "id": "SP006",
+          "target": "B2",
+          "heuristic": "B2",
+          "difficulty_index": 0.568,
+          "task_type": "discussion",
+          "topic": "farming_and_agriculture",
+          "primary_subskill": "abstract_discussion",
+          "evidence_provided": "Weigh advantages and disadvantages; State and support a personal opinion; Speculate about hypothetical or future situations"
+        },
+        {
+          "id": "SP007",
+          "target": "B2",
+          "heuristic": "B2",
+          "difficulty_index": 0.554,
+          "task_type": "situational_response",
+          "topic": "work_and_careers",
+          "primary_subskill": "interactional_response",
+          "evidence_provided": "Persuade a defined audience; Weigh advantages and disadvantages; Request, offer, invite, apologise"
+        },
+        {
+          "id": "SP008",
+          "target": "C1",
+          "heuristic": "C1",
+          "difficulty_index": 0.794,
+          "task_type": "discussion",
+          "topic": "energy",
+          "primary_subskill": "abstract_discussion",
+          "evidence_provided": "Critically evaluate claims and evidence; Integrate several viewpoints or sources"
+        },
+        {
+          "id": "SP009",
+          "target": "C1",
+          "heuristic": "B2",
+          "difficulty_index": 0.68,
+          "task_type": "long_turn",
+          "topic": "space_and_astronomy",
+          "primary_subskill": "extended_turn",
+          "evidence_provided": "Critically evaluate claims and evidence; Analyse causes, effects and solutions"
+        },
+        {
+          "id": "SP010",
+          "target": "C2",
+          "heuristic": "C1",
+          "difficulty_index": 0.898,
+          "task_type": "discussion",
+          "topic": "arts_and_culture",
+          "primary_subskill": "abstract_discussion",
+          "evidence_provided": "Hold and defend a qualified, nuanced position; Critically evaluate claims and evidence"
+        }
+      ],
+      "limitations": [
+        "One task at A1 and one at C2 gives presence of evidence only, not a reliable estimate at the extremes.",
+        "Two tasks at each middle level are insufficient to separate adjacent levels with confidence.",
+        "Ten tasks per skill is a product constraint, not psychometric reliability. Placement estimates need empirical calibration with learner data.",
+        "The task order a learner sees (adaptive or fixed) is a product decision not made here."
+      ]
+    }
+  },
+  "bank_contents": {
+    "writing": {
+      "placement": [
+        {
+          "id": "WR001",
+          "title": "A sport I like",
+          "type": "sentence_set",
+          "topic": "sports_and_fitness"
+        },
+        {
+          "id": "WR002",
+          "title": "A very busy day",
+          "type": "narrative_recount",
+          "topic": "work_and_careers"
+        },
+        {
+          "id": "WR003",
+          "title": "A note to a neighbour",
+          "type": "personal_message",
+          "topic": "housing"
+        },
+        {
+          "id": "WR004",
+          "title": "Study alone or in a group?",
+          "type": "opinion_paragraph",
+          "topic": "education"
+        },
+        {
+          "id": "WR005",
+          "title": "A family event I remember",
+          "type": "narrative_recount",
+          "topic": "family_and_relationships"
+        },
+        {
+          "id": "WR006",
+          "title": "Zoos and conservation",
+          "type": "discussion_two_views",
+          "topic": "animals_and_nature"
+        },
+        {
+          "id": "WR007",
+          "title": "Saving the town library",
+          "type": "email_formal",
+          "topic": "arts_and_culture"
+        },
+        {
+          "id": "WR008",
+          "title": "Growth and the environment",
+          "type": "argumentative_essay",
+          "topic": "environment"
+        },
+        {
+          "id": "WR009",
+          "title": "Smart cities and privacy",
+          "type": "discussion_two_views",
+          "topic": "technology"
+        },
+        {
+          "id": "WR010",
+          "title": "History and a nation's future",
+          "type": "argumentative_essay",
+          "topic": "history"
+        }
+      ],
+      "A1": [
+        {
+          "id": "WR101",
+          "title": "About me",
+          "type": "sentence_set",
+          "topic": "education"
+        },
+        {
+          "id": "WR102",
+          "title": "My family",
+          "type": "sentence_set",
+          "topic": "family_and_relationships"
+        },
+        {
+          "id": "WR103",
+          "title": "My day",
+          "type": "sentence_set",
+          "topic": "health"
+        },
+        {
+          "id": "WR104",
+          "title": "Text a friend",
+          "type": "personal_message",
+          "topic": "arts_and_culture"
+        },
+        {
+          "id": "WR105",
+          "title": "My room",
+          "type": "descriptive_paragraph",
+          "topic": "housing"
+        },
+        {
+          "id": "WR106",
+          "title": "My favourite food",
+          "type": "sentence_set",
+          "topic": "food_and_nutrition"
+        },
+        {
+          "id": "WR107",
+          "title": "An animal I like",
+          "type": "descriptive_paragraph",
+          "topic": "animals_and_nature"
+        },
+        {
+          "id": "WR108",
+          "title": "A postcard",
+          "type": "personal_message",
+          "topic": "travel"
+        },
+        {
+          "id": "WR109",
+          "title": "A shopping note",
+          "type": "personal_message",
+          "topic": "shopping_and_money"
+        },
+        {
+          "id": "WR110",
+          "title": "My town",
+          "type": "descriptive_paragraph",
+          "topic": "architecture_and_cities"
+        }
+      ],
+      "A2": [
+        {
+          "id": "WR201",
+          "title": "A birthday invitation",
+          "type": "email_informal",
+          "topic": "tourism_and_events"
+        },
+        {
+          "id": "WR202",
+          "title": "Last weekend",
+          "type": "narrative_recount",
+          "topic": "sports_and_fitness"
+        },
+        {
+          "id": "WR203",
+          "title": "Missing a class",
+          "type": "email_formal",
+          "topic": "education"
+        },
+        {
+          "id": "WR204",
+          "title": "A place to relax",
+          "type": "descriptive_paragraph",
+          "topic": "animals_and_nature"
+        },
+        {
+          "id": "WR205",
+          "title": "Holiday plans",
+          "type": "personal_message",
+          "topic": "travel"
+        },
+        {
+          "id": "WR206",
+          "title": "Which phone?",
+          "type": "email_informal",
+          "topic": "technology"
+        },
+        {
+          "id": "WR207",
+          "title": "A restaurant I like",
+          "type": "review",
+          "topic": "food_and_nutrition"
+        },
+        {
+          "id": "WR208",
+          "title": "A problem with an order",
+          "type": "email_formal",
+          "topic": "shopping_and_money"
+        },
+        {
+          "id": "WR209",
+          "title": "Bus or taxi?",
+          "type": "opinion_paragraph",
+          "topic": "transport"
+        },
+        {
+          "id": "WR210",
+          "title": "A job I want",
+          "type": "descriptive_paragraph",
+          "topic": "work_and_careers"
+        }
+      ],
+      "B1": [
+        {
+          "id": "WR301",
+          "title": "Learning something new",
+          "type": "narrative_recount",
+          "topic": "education"
+        },
+        {
+          "id": "WR302",
+          "title": "Phones in class",
+          "type": "opinion_paragraph",
+          "topic": "technology"
+        },
+        {
+          "id": "WR303",
+          "title": "Choosing a language course",
+          "type": "email_formal",
+          "topic": "language_and_linguistics"
+        },
+        {
+          "id": "WR304",
+          "title": "Working from home",
+          "type": "advantages_disadvantages",
+          "topic": "work_and_careers"
+        },
+        {
+          "id": "WR305",
+          "title": "Advice for a tired friend",
+          "type": "email_informal",
+          "topic": "health"
+        },
+        {
+          "id": "WR306",
+          "title": "A festival in my country",
+          "type": "descriptive_paragraph",
+          "topic": "tourism_and_events"
+        },
+        {
+          "id": "WR307",
+          "title": "Cars in city centres",
+          "type": "email_formal",
+          "topic": "transport"
+        },
+        {
+          "id": "WR308",
+          "title": "An unexpected problem on a trip",
+          "type": "narrative_recount",
+          "topic": "travel"
+        },
+        {
+          "id": "WR309",
+          "title": "Improving our neighbourhood",
+          "type": "proposal",
+          "topic": "volunteering_and_community"
+        },
+        {
+          "id": "WR310",
+          "title": "A film or series I recommend",
+          "type": "review",
+          "topic": "media_and_communication"
+        }
+      ],
+      "B2": [
+        {
+          "id": "WR401",
+          "title": "Paying for renewable energy",
+          "type": "argumentative_essay",
+          "topic": "energy"
+        },
+        {
+          "id": "WR402",
+          "title": "Online and classroom learning",
+          "type": "discussion_two_views",
+          "topic": "education"
+        },
+        {
+          "id": "WR403",
+          "title": "Tourism and local communities",
+          "type": "advantages_disadvantages",
+          "topic": "tourism_and_events"
+        },
+        {
+          "id": "WR404",
+          "title": "Unhealthy diets among young people",
+          "type": "problem_solution",
+          "topic": "food_and_nutrition"
+        },
+        {
+          "id": "WR405",
+          "title": "A repeated billing error",
+          "type": "email_formal",
+          "topic": "business"
+        },
+        {
+          "id": "WR406",
+          "title": "Report on staff wellbeing",
+          "type": "report",
+          "topic": "work_and_careers"
+        },
+        {
+          "id": "WR407",
+          "title": "Social media and friendship",
+          "type": "argumentative_essay",
+          "topic": "media_and_communication"
+        },
+        {
+          "id": "WR408",
+          "title": "A city redevelopment project",
+          "type": "review",
+          "topic": "architecture_and_cities"
+        },
+        {
+          "id": "WR409",
+          "title": "City or countryside",
+          "type": "discussion_two_views",
+          "topic": "housing"
+        },
+        {
+          "id": "WR410",
+          "title": "Who should pay for research?",
+          "type": "argumentative_essay",
+          "topic": "science"
+        }
+      ],
+      "C1": [
+        {
+          "id": "WR501",
+          "title": "Automation and the future of work",
+          "type": "argumentative_essay",
+          "topic": "work_and_careers"
+        },
+        {
+          "id": "WR502",
+          "title": "Preserving the past or building the future",
+          "type": "discussion_two_views",
+          "topic": "history"
+        },
+        {
+          "id": "WR503",
+          "title": "A proposal for urban green space",
+          "type": "proposal",
+          "topic": "environment"
+        },
+        {
+          "id": "WR504",
+          "title": "Trends in household energy use",
+          "type": "report",
+          "topic": "energy"
+        },
+        {
+          "id": "WR505",
+          "title": "Responding to a claim about exams",
+          "type": "synthesis_response",
+          "topic": "education"
+        },
+        {
+          "id": "WR506",
+          "title": "Public funding for the arts",
+          "type": "argumentative_essay",
+          "topic": "arts_and_culture"
+        },
+        {
+          "id": "WR507",
+          "title": "Letter on compulsory community service",
+          "type": "email_formal",
+          "topic": "volunteering_and_community"
+        },
+        {
+          "id": "WR508",
+          "title": "Globalisation and language loss",
+          "type": "argumentative_essay",
+          "topic": "language_and_linguistics"
+        },
+        {
+          "id": "WR509",
+          "title": "Social comparison and wellbeing",
+          "type": "discussion_two_views",
+          "topic": "psychology"
+        },
+        {
+          "id": "WR510",
+          "title": "Remote work: two views",
+          "type": "synthesis_response",
+          "topic": "business"
+        }
+      ],
+      "C2": [
+        {
+          "id": "WR601",
+          "title": "Technology and ethics",
+          "type": "argumentative_essay",
+          "topic": "technology"
+        },
+        {
+          "id": "WR602",
+          "title": "Collective memory: two perspectives",
+          "type": "synthesis_response",
+          "topic": "history"
+        },
+        {
+          "id": "WR603",
+          "title": "Happiness as public policy",
+          "type": "discussion_two_views",
+          "topic": "psychology"
+        },
+        {
+          "id": "WR604",
+          "title": "From angry draft to diplomatic letter",
+          "type": "register_transformation",
+          "topic": "business"
+        },
+        {
+          "id": "WR605",
+          "title": "Language and thought",
+          "type": "argumentative_essay",
+          "topic": "language_and_linguistics"
+        },
+        {
+          "id": "WR606",
+          "title": "Critique of an exhibition",
+          "type": "review",
+          "topic": "arts_and_culture"
+        },
+        {
+          "id": "WR607",
+          "title": "Food security and sustainability",
+          "type": "proposal",
+          "topic": "farming_and_agriculture"
+        },
+        {
+          "id": "WR608",
+          "title": "News, algorithms and objectivity",
+          "type": "argumentative_essay",
+          "topic": "media_and_communication"
+        },
+        {
+          "id": "WR609",
+          "title": "Address on space spending",
+          "type": "address_speech",
+          "topic": "space_and_astronomy"
+        },
+        {
+          "id": "WR610",
+          "title": "Public health and personal freedom",
+          "type": "discussion_two_views",
+          "topic": "health"
+        }
+      ]
+    },
+    "speaking": {
+      "placement": [
+        {
+          "id": "SP001",
+          "title": "Food I like",
+          "type": "familiar_topics",
+          "topic": "food_and_nutrition"
+        },
+        {
+          "id": "SP002",
+          "title": "A place I visited",
+          "type": "long_turn",
+          "topic": "travel"
+        },
+        {
+          "id": "SP003",
+          "title": "Returning an item",
+          "type": "situational_response",
+          "topic": "shopping_and_money"
+        },
+        {
+          "id": "SP004",
+          "title": "Keeping in touch",
+          "type": "familiar_topics",
+          "topic": "media_and_communication"
+        },
+        {
+          "id": "SP005",
+          "title": "A time you tried something new",
+          "type": "long_turn",
+          "topic": "sports_and_fitness"
+        },
+        {
+          "id": "SP006",
+          "title": "Food and the countryside",
+          "type": "discussion",
+          "topic": "farming_and_agriculture"
+        },
+        {
+          "id": "SP007",
+          "title": "Asking for a change at work",
+          "type": "situational_response",
+          "topic": "work_and_careers"
+        },
+        {
+          "id": "SP008",
+          "title": "The future of energy",
+          "type": "discussion",
+          "topic": "energy"
+        },
+        {
+          "id": "SP009",
+          "title": "Exploring space",
+          "type": "long_turn",
+          "topic": "space_and_astronomy"
+        },
+        {
+          "id": "SP010",
+          "title": "Art, truth and society",
+          "type": "discussion",
+          "topic": "arts_and_culture"
+        }
+      ],
+      "A1": [
+        {
+          "id": "SP101",
+          "title": "Meeting a new teacher",
+          "type": "familiar_topics",
+          "topic": "education"
+        },
+        {
+          "id": "SP102",
+          "title": "Talking about my family",
+          "type": "familiar_topics",
+          "topic": "family_and_relationships"
+        },
+        {
+          "id": "SP103",
+          "title": "My daily routine",
+          "type": "familiar_topics",
+          "topic": "health"
+        },
+        {
+          "id": "SP104",
+          "title": "At a cafe",
+          "type": "situational_response",
+          "topic": "food_and_nutrition"
+        },
+        {
+          "id": "SP105",
+          "title": "Asking the way",
+          "type": "situational_response",
+          "topic": "transport"
+        },
+        {
+          "id": "SP106",
+          "title": "My home",
+          "type": "long_turn",
+          "topic": "housing"
+        },
+        {
+          "id": "SP107",
+          "title": "Pets and animals",
+          "type": "familiar_topics",
+          "topic": "animals_and_nature"
+        },
+        {
+          "id": "SP108",
+          "title": "Free time",
+          "type": "familiar_topics",
+          "topic": "sports_and_fitness"
+        },
+        {
+          "id": "SP109",
+          "title": "Buying a T-shirt",
+          "type": "situational_response",
+          "topic": "shopping_and_money"
+        },
+        {
+          "id": "SP110",
+          "title": "A birthday",
+          "type": "long_turn",
+          "topic": "tourism_and_events"
+        }
+      ],
+      "A2": [
+        {
+          "id": "SP201",
+          "title": "A holiday you remember",
+          "type": "familiar_topics",
+          "topic": "travel"
+        },
+        {
+          "id": "SP202",
+          "title": "A person I admire",
+          "type": "long_turn",
+          "topic": "family_and_relationships"
+        },
+        {
+          "id": "SP203",
+          "title": "At the pharmacy",
+          "type": "situational_response",
+          "topic": "health"
+        },
+        {
+          "id": "SP204",
+          "title": "Phones and computers",
+          "type": "familiar_topics",
+          "topic": "technology"
+        },
+        {
+          "id": "SP205",
+          "title": "A meal I enjoy",
+          "type": "long_turn",
+          "topic": "food_and_nutrition"
+        },
+        {
+          "id": "SP206",
+          "title": "Looking for a flat",
+          "type": "situational_response",
+          "topic": "housing"
+        },
+        {
+          "id": "SP207",
+          "title": "Work and plans",
+          "type": "familiar_topics",
+          "topic": "work_and_careers"
+        },
+        {
+          "id": "SP208",
+          "title": "A sport or activity",
+          "type": "long_turn",
+          "topic": "sports_and_fitness"
+        },
+        {
+          "id": "SP209",
+          "title": "Planning a day out",
+          "type": "situational_response",
+          "topic": "tourism_and_events"
+        },
+        {
+          "id": "SP210",
+          "title": "Shopping habits",
+          "type": "familiar_topics",
+          "topic": "shopping_and_money"
+        }
+      ],
+      "B1": [
+        {
+          "id": "SP301",
+          "title": "A memorable journey",
+          "type": "long_turn_discussion",
+          "topic": "travel"
+        },
+        {
+          "id": "SP302",
+          "title": "Learning methods",
+          "type": "discussion",
+          "topic": "education"
+        },
+        {
+          "id": "SP303",
+          "title": "Staying healthy",
+          "type": "long_turn",
+          "topic": "health"
+        },
+        {
+          "id": "SP304",
+          "title": "A job interview",
+          "type": "situational_response",
+          "topic": "work_and_careers"
+        },
+        {
+          "id": "SP305",
+          "title": "Technology in daily life",
+          "type": "discussion",
+          "topic": "technology"
+        },
+        {
+          "id": "SP306",
+          "title": "A book, film or song",
+          "type": "long_turn",
+          "topic": "arts_and_culture"
+        },
+        {
+          "id": "SP307",
+          "title": "A problem on the train",
+          "type": "situational_response",
+          "topic": "transport"
+        },
+        {
+          "id": "SP308",
+          "title": "Helping others",
+          "type": "long_turn_discussion",
+          "topic": "volunteering_and_community"
+        },
+        {
+          "id": "SP309",
+          "title": "Looking after the environment",
+          "type": "discussion",
+          "topic": "environment"
+        },
+        {
+          "id": "SP310",
+          "title": "Where I live",
+          "type": "familiar_topics",
+          "topic": "housing"
+        }
+      ],
+      "B2": [
+        {
+          "id": "SP401",
+          "title": "A scientific or technical development",
+          "type": "long_turn_discussion",
+          "topic": "science"
+        },
+        {
+          "id": "SP402",
+          "title": "The changing workplace",
+          "type": "discussion",
+          "topic": "work_and_careers"
+        },
+        {
+          "id": "SP403",
+          "title": "A news story that affected you",
+          "type": "long_turn",
+          "topic": "media_and_communication"
+        },
+        {
+          "id": "SP404",
+          "title": "The effects of tourism",
+          "type": "discussion",
+          "topic": "tourism_and_events"
+        },
+        {
+          "id": "SP405",
+          "title": "Negotiating a deadline",
+          "type": "situational_response",
+          "topic": "business"
+        },
+        {
+          "id": "SP406",
+          "title": "A building or place you find impressive",
+          "type": "long_turn_discussion",
+          "topic": "architecture_and_cities"
+        },
+        {
+          "id": "SP407",
+          "title": "Motivation and success",
+          "type": "discussion",
+          "topic": "psychology"
+        },
+        {
+          "id": "SP408",
+          "title": "Saving energy",
+          "type": "long_turn",
+          "topic": "energy"
+        },
+        {
+          "id": "SP409",
+          "title": "Generations and family life",
+          "type": "discussion",
+          "topic": "family_and_relationships"
+        },
+        {
+          "id": "SP410",
+          "title": "Presenting an idea to a committee",
+          "type": "situational_response",
+          "topic": "volunteering_and_community"
+        }
+      ],
+      "C1": [
+        {
+          "id": "SP501",
+          "title": "A career decision",
+          "type": "long_turn_discussion",
+          "topic": "work_and_careers"
+        },
+        {
+          "id": "SP502",
+          "title": "Artificial intelligence and society",
+          "type": "discussion",
+          "topic": "technology"
+        },
+        {
+          "id": "SP503",
+          "title": "An event that shaped society",
+          "type": "long_turn",
+          "topic": "history"
+        },
+        {
+          "id": "SP504",
+          "title": "Individual action and global problems",
+          "type": "discussion",
+          "topic": "environment"
+        },
+        {
+          "id": "SP505",
+          "title": "Defending a curriculum change",
+          "type": "situational_response",
+          "topic": "education"
+        },
+        {
+          "id": "SP506",
+          "title": "Influence of social media on public opinion",
+          "type": "long_turn_discussion",
+          "topic": "media_and_communication"
+        },
+        {
+          "id": "SP507",
+          "title": "The future of cities",
+          "type": "discussion",
+          "topic": "architecture_and_cities"
+        },
+        {
+          "id": "SP508",
+          "title": "The value of the arts",
+          "type": "long_turn",
+          "topic": "arts_and_culture"
+        },
+        {
+          "id": "SP509",
+          "title": "Health, responsibility and the state",
+          "type": "discussion",
+          "topic": "health"
+        },
+        {
+          "id": "SP510",
+          "title": "Responding to a crisis in a company",
+          "type": "situational_response",
+          "topic": "business"
+        }
+      ],
+      "C2": [
+        {
+          "id": "SP601",
+          "title": "Happiness and the good life",
+          "type": "discussion",
+          "topic": "psychology"
+        },
+        {
+          "id": "SP602",
+          "title": "Language, identity and power",
+          "type": "long_turn_discussion",
+          "topic": "language_and_linguistics"
+        },
+        {
+          "id": "SP603",
+          "title": "Chairing a disagreement",
+          "type": "situational_response",
+          "topic": "business"
+        },
+        {
+          "id": "SP604",
+          "title": "Science, certainty and public trust",
+          "type": "discussion",
+          "topic": "science"
+        },
+        {
+          "id": "SP605",
+          "title": "What a city says about its values",
+          "type": "long_turn",
+          "topic": "architecture_and_cities"
+        },
+        {
+          "id": "SP606",
+          "title": "Learning from the past",
+          "type": "discussion",
+          "topic": "history"
+        },
+        {
+          "id": "SP607",
+          "title": "An interview about your controversial view",
+          "type": "situational_response",
+          "topic": "media_and_communication"
+        },
+        {
+          "id": "SP608",
+          "title": "Obligations to future generations",
+          "type": "long_turn_discussion",
+          "topic": "environment"
+        },
+        {
+          "id": "SP609",
+          "title": "The purpose of education",
+          "type": "discussion",
+          "topic": "education"
+        },
+        {
+          "id": "SP610",
+          "title": "Moderating a community dispute",
+          "type": "situational_response",
+          "topic": "volunteering_and_community"
+        }
+      ]
+    }
+  },
+  "evidence_classes": {
+    "A_automated_structural": "executed by productive.validate",
+    "B_automated_semantic_rules": "executed by productive.validate (rules, not understanding)",
+    "C_llm_review": "none",
+    "D_human_review": "none",
+    "E_learner_data": "none"
+  }
+}

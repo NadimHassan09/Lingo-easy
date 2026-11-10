@@ -1,0 +1,530 @@
+{
+  "schema_version": "1.0",
+  "id": "RE006",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Sharing a Flat: Good or Bad?",
+  "topic": "housing",
+  "profile": "foundation",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "Sharing a Flat: Good or Bad?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Many young people share a flat with others, especially in big cities where rents are high. In London, a typical one-bedroom flat can cost more than a thousand pounds a month, but a room in a shared flat costs about half of that. Sharing is not only about money, however. It also changes the way people live, for better and for worse."
+      },
+      {
+        "label": "B",
+        "text": "The main advantage is the cost. As well as rent, flatmates split the bills for electricity, gas and the internet. This can leave more money for travelling, studying or saving. Another advantage is company. People who live alone sometimes feel lonely, whereas flatmates can eat together, watch films or just talk about their day. For students who move to a new city, this can make it much easier to make friends."
+      },
+      {
+        "label": "C",
+        "text": "On the other hand, sharing a flat can cause problems. The most common are noise, mess and arguments about money. In a survey of two thousand young people, almost half said that they had argued with a flatmate about cleaning, and a third said they had been annoyed by a flatmate who did not pay a bill on time. Privacy is another issue, especially when the bathroom or the kitchen is shared by four or five people."
+      },
+      {
+        "label": "D",
+        "text": "How can these problems be avoided? Experts give several suggestions. First, choose your flatmates carefully. It is better to live with someone who has similar habits, for example someone who also goes to bed early, than with your best friend. Second, agree on rules from the beginning, such as a cleaning timetable. Writing the rules down helps, because it is harder to argue about something that everyone has signed."
+      },
+      {
+        "label": "E",
+        "text": "Finally, it is wise to read the contract carefully. In many countries, all the tenants are responsible for the full rent, which means that if one person leaves, the others must pay their share. If you plan to share, it is a good idea to ask the landlord what happens in that situation before you sign."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE006-Q01",
+          "number": 1,
+          "prompt": "Where are rents often high?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In big cities"
+            },
+            {
+              "id": "B",
+              "text": "In villages"
+            },
+            {
+              "id": "C",
+              "text": "Near the sea"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "especially in big cities where rents are high"
+          },
+          "explanation": "The text says: \"especially in big cities where rents are high\".",
+          "uuid": "fd9ab94e-9a66-5b06-bb02-82a4454ad867"
+        },
+        {
+          "id": "RE006-Q02",
+          "number": 2,
+          "prompt": "How much does a room in a shared London flat cost compared with a one-bedroom flat?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About the same"
+            },
+            {
+              "id": "B",
+              "text": "About half"
+            },
+            {
+              "id": "C",
+              "text": "About double"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "costs about half of that"
+          },
+          "explanation": "The text says: \"costs about half of that\".",
+          "uuid": "cabddb75-df5b-5f94-8f17-58b656fee291"
+        },
+        {
+          "id": "RE006-Q03",
+          "number": 3,
+          "prompt": "What do flatmates share besides rent?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The bills for electricity, gas and the internet"
+            },
+            {
+              "id": "B",
+              "text": "Their clothes, shoes and other personal belongings"
+            },
+            {
+              "id": "C",
+              "text": "Their holidays and plans for the weekend and evenings"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "split the bills for electricity, gas and the internet"
+          },
+          "explanation": "The text says: \"split the bills for electricity, gas and the internet\".",
+          "uuid": "f3ac31b7-b273-5a96-a005-8af6a24ea925"
+        },
+        {
+          "id": "RE006-Q04",
+          "number": 4,
+          "prompt": "Why is company an advantage of sharing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Flatmates cook meals for each other"
+            },
+            {
+              "id": "B",
+              "text": "Flatmates often pay part of your rent"
+            },
+            {
+              "id": "C",
+              "text": "People living alone may feel lonely"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "People who live alone sometimes feel lonely"
+          },
+          "explanation": "The text says: \"People who live alone sometimes feel lonely\".",
+          "uuid": "dc379a3e-11b8-5234-8dc7-34a3b10b7e7e"
+        },
+        {
+          "id": "RE006-Q05",
+          "number": 5,
+          "prompt": "What did almost half of the surveyed young people say?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They had hardly ever argued with a flatmate"
+            },
+            {
+              "id": "B",
+              "text": "They had argued with a flatmate about cleaning"
+            },
+            {
+              "id": "C",
+              "text": "They had moved out because of noise"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "argued with a flatmate about cleaning"
+          },
+          "explanation": "The text says: \"argued with a flatmate about cleaning\".",
+          "uuid": "754dac1e-2463-5090-acbd-ad7fc430dbf3"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE006-Q06",
+          "number": 6,
+          "prompt": "A third of the young people had been annoyed by a flatmate who did not pay a bill on time.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "a third said they had been annoyed by a flatmate who did not pay a bill on time"
+          },
+          "explanation": "The text says: \"a third said they had been annoyed by a flatmate who did not pay a bill on time\".",
+          "uuid": "c9113111-6dc8-5e1b-b2c6-f673c6dd8a2e"
+        },
+        {
+          "id": "RE006-Q07",
+          "number": 7,
+          "prompt": "Flatmates can watch films together.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "watch films or just talk"
+          },
+          "explanation": "The text says: \"watch films or just talk\".",
+          "uuid": "3d8b2abd-61de-50ee-82da-f2a4323e32be"
+        },
+        {
+          "id": "RE006-Q08",
+          "number": 8,
+          "prompt": "It is always better to live with your best friend.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "than with your best friend"
+          },
+          "explanation": "The text says: \"than with your best friend\".",
+          "uuid": "0b3f3770-0268-51f4-a794-ba5d6da74525"
+        },
+        {
+          "id": "RE006-Q09",
+          "number": 9,
+          "prompt": "A written and signed list of rules is harder to argue about.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "harder to argue about something that everyone has signed"
+          },
+          "explanation": "The text says: \"harder to argue about something that everyone has signed\".",
+          "uuid": "c7c4a1fe-d0b1-5aba-b7b5-9b7099dc1545"
+        },
+        {
+          "id": "RE006-Q10",
+          "number": 10,
+          "prompt": "Most landlords refuse to rent to groups of students.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "fbca468b-d948-59c7-b09d-e61c9677f051"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE006-Q11",
+          "number": 11,
+          "prompt": "If one tenant leaves, the others must pay their _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "rent"
+            },
+            {
+              "id": "B",
+              "text": "share"
+            },
+            {
+              "id": "C",
+              "text": "deposit"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "the others must pay their share"
+          },
+          "explanation": "The text says: \"the others must pay their share\".",
+          "uuid": "564aec0e-e970-5dfc-87ce-44c02449c3eb"
+        },
+        {
+          "id": "RE006-Q12",
+          "number": 12,
+          "prompt": "A cleaning _____ is one example of a rule.",
+          "options": [
+            {
+              "id": "A",
+              "text": "timetable"
+            },
+            {
+              "id": "B",
+              "text": "machine"
+            },
+            {
+              "id": "C",
+              "text": "holiday"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "such as a cleaning timetable"
+          },
+          "explanation": "The text says: \"such as a cleaning timetable\".",
+          "uuid": "47fff18f-312d-5730-9184-e2fd546afd65"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE006-Q13",
+          "number": 13,
+          "prompt": "What is the writer's main message in the last paragraph?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Avoid sharing a flat with your close friends"
+            },
+            {
+              "id": "B",
+              "text": "Read the contract carefully to avoid unexpected costs"
+            },
+            {
+              "id": "C",
+              "text": "Choose the cheapest flat that you can find"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "main_idea",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "read the contract carefully"
+          },
+          "explanation": "The text says: \"read the contract carefully\".",
+          "uuid": "547118f1-6f6c-5441-8177-308914193e27"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "314a0841-10ef-43fc-8f32-71e3db0c7ddc",
+  "derived": {
+    "word_count": 336,
+    "level_counts": {
+      "A1": 2,
+      "A2": 4,
+      "B1": 4,
+      "B2": 2,
+      "C1": 1,
+      "C2": 0
+    },
+    "mean_band": 4.08,
+    "answer_counts": {
+      "A": 6,
+      "B": 5,
+      "C": 2
+    },
+    "content_hash": "fc6b78fca679f49a"
+  }
+}

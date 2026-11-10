@@ -1,0 +1,7 @@
+﻿skill,part_a,part_b,level_a,level_b,prompt_jaccard,task_content_jaccard,objective_jaccard,outline_jaccard,reasons,severity
+writing,WR001,WR106,A1,A1,0.4,0.12,0.22,0.08,prompt_similar=0.40,near_duplicate_review
+writing,WR001,WR107,A1,A1,0.5,0.29,0.0,0.06,prompt_similar=0.50,near_duplicate_review
+writing,WR106,WR107,A1,A1,0.4,0.12,0.0,0.06,prompt_similar=0.40,near_duplicate_review
+speaking,SP003,SP307,A2,B1,0.5,0.13,0.18,0.0,prompt_similar=0.50,near_duplicate_review
+speaking,SP109,SP307,A1,B1,0.4,0.08,0.0,0.0,prompt_similar=0.40,near_duplicate_review
+speaking,SP205,SP208,A2,A2,0.4,0.33,0.11,0.04,prompt_similar=0.40,near_duplicate_review

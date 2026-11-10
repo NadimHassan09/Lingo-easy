@@ -1,0 +1,166 @@
+{
+  "part_id": "LI603",
+  "part_uuid": "a36f6c41-489a-4123-8ea6-b96895c7bb11",
+  "audio_file": "li603_panel_heritage_and_tourism.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "12afbb574801d24e8736727367711b0659f33a98abe129fc70d8e0735d20e88b",
+  "voices": {
+    "S1": {
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    "S3": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S4": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Rosa Alvarez",
+      "gender": "female",
+      "accent": "australian",
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Ken Ito",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S3",
+      "name": "Professor Lena Berg",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S4",
+      "name": "Omar Haddad",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 13.15
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 13.6,
+      "end": 37.24
+    },
+    {
+      "index": 2,
+      "speaker": "S3",
+      "start": 37.69,
+      "end": 54.64
+    },
+    {
+      "index": 3,
+      "speaker": "S4",
+      "start": 55.09,
+      "end": 76.42
+    },
+    {
+      "index": 4,
+      "speaker": "S3",
+      "start": 76.87,
+      "end": 88.92
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 89.37,
+      "end": 93.88
+    },
+    {
+      "index": 6,
+      "speaker": "S4",
+      "start": 94.33,
+      "end": 114.35
+    },
+    {
+      "index": 7,
+      "speaker": "S2",
+      "start": 114.8,
+      "end": 126.05
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 126.5,
+      "end": 130.32
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 130.77,
+      "end": 143.68
+    },
+    {
+      "index": 10,
+      "speaker": "S3",
+      "start": 144.13,
+      "end": 157.57
+    },
+    {
+      "index": 11,
+      "speaker": "S4",
+      "start": 158.02,
+      "end": 166.88
+    },
+    {
+      "index": 12,
+      "speaker": "S1",
+      "start": 167.33,
+      "end": 178.99
+    },
+    {
+      "index": 13,
+      "speaker": "S3",
+      "start": 179.44,
+      "end": 190.07
+    },
+    {
+      "index": 14,
+      "speaker": "S2",
+      "start": 190.52,
+      "end": 199.57
+    },
+    {
+      "index": 15,
+      "speaker": "S1",
+      "start": 200.02,
+      "end": 204.15
+    }
+  ],
+  "duration_seconds": 204.15,
+  "size_bytes": 1633964,
+  "audio_sha256": "d4ffd4526a918d4a04f03f564bb0fa17e08b03cc48fcae7ed859705f1344621e",
+  "generated_at": "2026-10-30T20:57:55+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

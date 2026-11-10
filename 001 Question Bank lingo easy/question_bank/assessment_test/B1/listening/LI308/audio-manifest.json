@@ -1,0 +1,76 @@
+{
+  "part_id": "LI308",
+  "part_uuid": "8c6b50c8-21f3-48aa-a95c-8a69b156dcb3",
+  "audio_file": "li308_a_short_history_of_cinema.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "8ea6677b17e7741f025739c1567fdd72d0407bae4880538b3222670362be0d10",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Collins",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 6.96
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 7.41,
+      "end": 35.8
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 36.25,
+      "end": 60.59
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 61.04,
+      "end": 78.51
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 78.96,
+      "end": 94.87
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 95.32,
+      "end": 115.46
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 115.91,
+      "end": 123.68
+    }
+  ],
+  "duration_seconds": 123.68,
+  "size_bytes": 990188,
+  "audio_sha256": "fcd43ea7dff38882595fcf2b11628ade1317a3c6c802982e26826d6e94e915c1",
+  "generated_at": "2026-10-30T20:51:39+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

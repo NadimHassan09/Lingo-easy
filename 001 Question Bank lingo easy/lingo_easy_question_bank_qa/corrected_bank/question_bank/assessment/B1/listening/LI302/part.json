@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0",
+  "id": "LI302",
+  "skill": "listening",
+  "part_type": "social_monologue",
+  "title": "A Tour of Harlow Castle",
+  "topic": "tourism_and_events",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "audio": {
+    "file": "li302_a_tour_of_harlow_castle.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Paul",
+        "gender": "male",
+        "accent": "british",
+        "role": "castle guide"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, everyone, and welcome to Harlow Castle. My name is Paul and I'll be your guide for the next ninety minutes. Before we begin, a few practical points. The tour includes the main hall, the towers and the gardens. Please stay with the group, and don't touch the old furniture. Photography is allowed everywhere except in the chapel, because the flash can damage the paintings."
+      },
+      {
+        "speaker": "S1",
+        "text": "The castle was built in 1290 by Sir William Harlow, who was a knight in the army of King Edward the First. At first it was a simple wooden building, but in the fourteenth century the family rebuilt it in stone. You can still see the original wall in the east corner of the courtyard. The castle was never attacked successfully, although a large army tried in 1461. The attackers waited for six weeks, but they went home when the winter arrived."
+      },
+      {
+        "speaker": "S1",
+        "text": "In the main hall, which we'll visit first, you'll see the long table where the family ate. It could seat forty people. The big fireplace is the original one, but the carpet is only about a hundred years old. Next, we'll climb the north tower. There are one hundred and twelve steps, so if anyone has problems with stairs, there's a lift in the south tower instead. From the top, on a clear day, you can see the sea, which is about ten miles away."
+      },
+      {
+        "speaker": "S1",
+        "text": "After the towers, we'll go to the gardens. They were designed in the eighteenth century and they're famous for the roses. They're at their best in June, so you're lucky today. We'll finish at the café at about twelve thirty. The cakes are made in the castle kitchen and I can really recommend the lemon cake. If you want to buy souvenirs, the gift shop closes at five o'clock. Now, shall we begin?"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI302-Q01",
+          "number": 1,
+          "prompt": "How long is the tour?",
+          "options": [
+            {
+              "id": "A",
+              "text": "60 minutes"
+            },
+            {
+              "id": "B",
+              "text": "2 hours"
+            },
+            {
+              "id": "C",
+              "text": "90 minutes"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "for the next ninety minutes"
+          },
+          "explanation": "The audio says: \"for the next ninety minutes\".",
+          "uuid": "ad096899-c6b6-53d5-8bde-3a96b1f63c02"
+        },
+        {
+          "id": "LI302-Q02",
+          "number": 2,
+          "prompt": "Where is photography not allowed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In the main hall"
+            },
+            {
+              "id": "B",
+              "text": "In the gardens"
+            },
+            {
+              "id": "C",
+              "text": "In the chapel"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "except in the chapel"
+          },
+          "explanation": "The audio says: \"except in the chapel\".",
+          "uuid": "e719e40f-2b8b-5281-8ae6-1808e7d9c92e"
+        },
+        {
+          "id": "LI302-Q03",
+          "number": 3,
+          "prompt": "Who built the castle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sir William Harlow"
+            },
+            {
+              "id": "B",
+              "text": "King Edward"
+            },
+            {
+              "id": "C",
+              "text": "Sir William Edward"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "built in 1290 by Sir William Harlow"
+          },
+          "explanation": "The audio says: \"built in 1290 by Sir William Harlow\".",
+          "uuid": "48ba9194-d477-5b01-ac95-f73092c13ccf"
+        },
+        {
+          "id": "LI302-Q04",
+          "number": 4,
+          "prompt": "When was the castle rebuilt in stone?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In the 13th century"
+            },
+            {
+              "id": "B",
+              "text": "In the 14th century"
+            },
+            {
+              "id": "C",
+              "text": "In the 18th century"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "in the fourteenth century the family rebuilt it in stone"
+          },
+          "explanation": "The audio says: \"in the fourteenth century the family rebuilt it in stone\".",
+          "uuid": "b66bf65b-62ae-549d-922e-429a95baca6f"
+        },
+        {
+          "id": "LI302-Q05",
+          "number": 5,
+          "prompt": "Why did the attackers go home in 1461?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They ran out of food"
+            },
+            {
+              "id": "B",
+              "text": "Winter was coming"
+            },
+            {
+              "id": "C",
+              "text": "They won the battle"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "they went home when the winter arrived"
+          },
+          "explanation": "The audio says: \"they went home when the winter arrived\".",
+          "uuid": "addca2d5-6da4-587c-b56c-beedc8683a55"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI302-Q06",
+          "number": 6,
+          "prompt": "What in the main hall is original?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The fireplace"
+            },
+            {
+              "id": "B",
+              "text": "The carpet"
+            },
+            {
+              "id": "C",
+              "text": "The table"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "big fireplace is the original one"
+          },
+          "explanation": "The audio says: \"big fireplace is the original one\".",
+          "uuid": "ee484783-e3c4-5329-8918-1221e7d4f837"
+        },
+        {
+          "id": "LI302-Q07",
+          "number": 7,
+          "prompt": "How many steps does the north tower have?",
+          "options": [
+            {
+              "id": "A",
+              "text": "40"
+            },
+            {
+              "id": "B",
+              "text": "212"
+            },
+            {
+              "id": "C",
+              "text": "112"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "one hundred and twelve steps"
+          },
+          "explanation": "The audio says: \"one hundred and twelve steps\".",
+          "uuid": "dc2f27b2-8165-535f-8a7f-98c173459230"
+        },
+        {
+          "id": "LI302-Q08",
+          "number": 8,
+          "prompt": "What can visitors use instead of the stairs?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A bus to the top"
+            },
+            {
+              "id": "B",
+              "text": "A ramp in the north tower"
+            },
+            {
+              "id": "C",
+              "text": "A lift in the south tower"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "a lift in the south tower"
+          },
+          "explanation": "The audio says: \"a lift in the south tower\".",
+          "uuid": "aedfd089-6e52-577b-a6d8-8b7fa3a2cb8d"
+        },
+        {
+          "id": "LI302-Q09",
+          "number": 9,
+          "prompt": "When are the gardens at their best?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In May"
+            },
+            {
+              "id": "B",
+              "text": "In June"
+            },
+            {
+              "id": "C",
+              "text": "In September"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "at their best in June"
+          },
+          "explanation": "The audio says: \"at their best in June\".",
+          "uuid": "5d26de72-8f64-5870-be65-ce49c14965dc"
+        },
+        {
+          "id": "LI302-Q10",
+          "number": 10,
+          "prompt": "What does Paul recommend?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The gift shop"
+            },
+            {
+              "id": "B",
+              "text": "The rose tour"
+            },
+            {
+              "id": "C",
+              "text": "The lemon cake"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "recommend the lemon cake"
+          },
+          "explanation": "The audio says: \"recommend the lemon cake\".",
+          "uuid": "f5eae461-477b-58ca-b7ba-27cf52748559"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "841b4335-5a15-4a29-9040-ff21befd0160",
+  "derived": {
+    "word_count": 306,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 10,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.45,
+    "answer_counts": {
+      "A": 2,
+      "B": 3,
+      "C": 5
+    },
+    "content_hash": "e976d3fca602e4f2"
+  }
+}

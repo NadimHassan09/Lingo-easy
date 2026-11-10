@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE209",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Teenagers and Sleep",
+  "topic": "health",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "passage": {
+    "title": "Teenagers and Sleep",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Doctors say that teenagers need between eight and ten hours of sleep every night. However, many young people sleep for only six or seven hours. This can cause problems at school and at home."
+      },
+      {
+        "label": "B",
+        "text": "There are several reasons why teenagers sleep so little. First, their bodies change during these years, and they feel sleepy later in the evening than children or adults. Second, many teenagers use their phones or computers late at night. The light from the screen tells the brain that it is still daytime, so it is difficult to fall asleep."
+      },
+      {
+        "label": "C",
+        "text": "Not enough sleep has serious effects. Tired students find it hard to concentrate in class, and they make more mistakes. They can also feel sad or angry more often, and they get ill more easily. Some research shows that tired young people have more accidents on the road."
+      },
+      {
+        "label": "D",
+        "text": "What can teenagers do? Experts give simple advice. Go to bed at the same time every night, even on weekends. Turn off all screens an hour before bed. Do not drink coffee or cola in the evening. Keep your bedroom dark, cool and quiet. Some schools have started lessons later in the morning, and results show that students there are happier and get better marks."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE209-Q01",
+          "number": 1,
+          "prompt": "How much sleep do teenagers need?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Six to seven hours"
+            },
+            {
+              "id": "B",
+              "text": "Ten to twelve hours"
+            },
+            {
+              "id": "C",
+              "text": "Eight to ten hours"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "between eight and ten hours of sleep"
+          },
+          "explanation": "The text says: \"between eight and ten hours of sleep\".",
+          "uuid": "81706434-0051-5fcb-ba30-705647744957"
+        },
+        {
+          "id": "RE209-Q02",
+          "number": 2,
+          "prompt": "How much do many young people sleep?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Eight or nine hours"
+            },
+            {
+              "id": "B",
+              "text": "Six or seven hours"
+            },
+            {
+              "id": "C",
+              "text": "Four or five hours"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "only six or seven hours"
+          },
+          "explanation": "The text says: \"only six or seven hours\".",
+          "uuid": "2cc036d7-25d6-5f1a-81ea-540a5498fecf"
+        },
+        {
+          "id": "RE209-Q03",
+          "number": 3,
+          "prompt": "Why do teenagers feel sleepy later in the evening?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They drink too much cola"
+            },
+            {
+              "id": "B",
+              "text": "Their bodies change"
+            },
+            {
+              "id": "C",
+              "text": "They study late"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "their bodies change during these years"
+          },
+          "explanation": "The text says: \"their bodies change during these years\".",
+          "uuid": "47d30936-c516-50cc-91de-1b42d034ded4"
+        },
+        {
+          "id": "RE209-Q04",
+          "number": 4,
+          "prompt": "What does light from a screen tell the brain?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That it is time to sleep"
+            },
+            {
+              "id": "B",
+              "text": "That it is still daytime"
+            },
+            {
+              "id": "C",
+              "text": "That the room is cold"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "it is still daytime"
+          },
+          "explanation": "The text says: \"it is still daytime\".",
+          "uuid": "acdd343d-5ce6-5fdb-99a4-17267e56b1dd"
+        },
+        {
+          "id": "RE209-Q05",
+          "number": 5,
+          "prompt": "What happens to tired students in class?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They find it hard to concentrate"
+            },
+            {
+              "id": "B",
+              "text": "They talk more than other students"
+            },
+            {
+              "id": "C",
+              "text": "They get better marks than others"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "find it hard to concentrate"
+          },
+          "explanation": "The text says: \"find it hard to concentrate\".",
+          "uuid": "7d665730-5665-5e56-bfbf-3be2eb3d0dac"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE209-Q06",
+          "number": 6,
+          "prompt": "Tired people get ill more easily.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "they get ill more easily"
+          },
+          "explanation": "The text says: \"they get ill more easily\".",
+          "uuid": "f775d1ca-ce23-5dc2-9adc-fae5bdcc1574"
+        },
+        {
+          "id": "RE209-Q07",
+          "number": 7,
+          "prompt": "Tired young people have fewer accidents on the road.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "have more accidents on the road"
+          },
+          "explanation": "The text says: \"have more accidents on the road\".",
+          "uuid": "c69d3328-7263-5f6e-882a-ec64c7a883f8"
+        },
+        {
+          "id": "RE209-Q08",
+          "number": 8,
+          "prompt": "Teenagers should go to bed at different times on weekends.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "at the same time every night, even on weekends"
+          },
+          "explanation": "The text says: \"at the same time every night, even on weekends\".",
+          "uuid": "e8189952-31c0-5d21-88fd-9f180a9d1d32"
+        },
+        {
+          "id": "RE209-Q09",
+          "number": 9,
+          "prompt": "Some schools have started lessons later in the morning.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "lessons later in the morning"
+          },
+          "explanation": "The text says: \"lessons later in the morning\".",
+          "uuid": "97fdeb64-ffdd-566c-8dcb-0b3402deaea6"
+        },
+        {
+          "id": "RE209-Q10",
+          "number": 10,
+          "prompt": "Teenagers in Japan sleep the least.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "25179936-089e-5f09-bc7d-9423d8aedc79"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE209-Q11",
+          "number": 11,
+          "prompt": "Turn off all screens _____ before bed.",
+          "options": [
+            {
+              "id": "A",
+              "text": "an hour"
+            },
+            {
+              "id": "B",
+              "text": "ten minutes"
+            },
+            {
+              "id": "C",
+              "text": "three hours"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "an hour before bed"
+          },
+          "explanation": "The text says: \"an hour before bed\".",
+          "uuid": "c47ad445-21d2-59f5-bd8e-2ef6d1999ac3"
+        },
+        {
+          "id": "RE209-Q12",
+          "number": 12,
+          "prompt": "Do not drink coffee or _____ in the evening.",
+          "options": [
+            {
+              "id": "A",
+              "text": "water"
+            },
+            {
+              "id": "B",
+              "text": "cola"
+            },
+            {
+              "id": "C",
+              "text": "milk"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "coffee or cola in the evening"
+          },
+          "explanation": "The text says: \"coffee or cola in the evening\".",
+          "uuid": "5a389470-de85-56ac-9c60-336292f70265"
+        },
+        {
+          "id": "RE209-Q13",
+          "number": 13,
+          "prompt": "Keep your bedroom dark, cool and _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "small"
+            },
+            {
+              "id": "B",
+              "text": "tidy"
+            },
+            {
+              "id": "C",
+              "text": "quiet"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "dark, cool and quiet"
+          },
+          "explanation": "The text says: \"dark, cool and quiet\".",
+          "uuid": "21669648-5894-5e4a-a450-3cf6552beaaa"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "68de73eb-ad04-4804-98b3-a9194155a80c",
+  "derived": {
+    "word_count": 206,
+    "level_counts": {
+      "A1": 0,
+      "A2": 13,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.23,
+    "answer_counts": {
+      "A": 4,
+      "B": 6,
+      "C": 3
+    },
+    "content_hash": "a46d8eec5db8407a"
+  }
+}

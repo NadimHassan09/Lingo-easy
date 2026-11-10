@@ -1,0 +1,178 @@
+{
+  "part_id": "LI506",
+  "part_uuid": "1d449829-8f50-4ec0-a31c-ab601b73cff5",
+  "audio_file": "li506_seminar_self_driving_cars.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "c054cfc567149067276d52a569ea3742b5a2cc4e2f8d15c8d91b1541caf48e83",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    },
+    "S3": {
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Kira",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Leon",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S3",
+      "name": "Maya",
+      "gender": "female",
+      "accent": "australian",
+      "voice": "en-AU-NatashaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 7.61
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 8.06,
+      "end": 20.15
+    },
+    {
+      "index": 2,
+      "speaker": "S3",
+      "start": 20.6,
+      "end": 35.53
+    },
+    {
+      "index": 3,
+      "speaker": "S2",
+      "start": 35.98,
+      "end": 42.49
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 42.94,
+      "end": 55.3
+    },
+    {
+      "index": 5,
+      "speaker": "S3",
+      "start": 55.75,
+      "end": 66.21
+    },
+    {
+      "index": 6,
+      "speaker": "S2",
+      "start": 66.66,
+      "end": 70.62
+    },
+    {
+      "index": 7,
+      "speaker": "S3",
+      "start": 71.07,
+      "end": 86.19
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 86.64,
+      "end": 99.53
+    },
+    {
+      "index": 9,
+      "speaker": "S2",
+      "start": 99.98,
+      "end": 107.83
+    },
+    {
+      "index": 10,
+      "speaker": "S3",
+      "start": 108.28,
+      "end": 122.15
+    },
+    {
+      "index": 11,
+      "speaker": "S1",
+      "start": 122.6,
+      "end": 127.52
+    },
+    {
+      "index": 12,
+      "speaker": "S2",
+      "start": 127.97,
+      "end": 133.1
+    },
+    {
+      "index": 13,
+      "speaker": "S3",
+      "start": 133.55,
+      "end": 143.75
+    },
+    {
+      "index": 14,
+      "speaker": "S1",
+      "start": 144.2,
+      "end": 151.38
+    },
+    {
+      "index": 15,
+      "speaker": "S2",
+      "start": 151.83,
+      "end": 158.38
+    },
+    {
+      "index": 16,
+      "speaker": "S1",
+      "start": 158.83,
+      "end": 164.74
+    },
+    {
+      "index": 17,
+      "speaker": "S3",
+      "start": 165.19,
+      "end": 171.55
+    },
+    {
+      "index": 18,
+      "speaker": "S2",
+      "start": 172.0,
+      "end": 175.02
+    },
+    {
+      "index": 19,
+      "speaker": "S1",
+      "start": 175.47,
+      "end": 181.37
+    }
+  ],
+  "duration_seconds": 181.37,
+  "size_bytes": 1451756,
+  "audio_sha256": "acc1eb9e4ee0fb478ef792d49e8939da851ec8d94f95cce123e4688a603f79c3",
+  "generated_at": "2026-10-30T20:57:07+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

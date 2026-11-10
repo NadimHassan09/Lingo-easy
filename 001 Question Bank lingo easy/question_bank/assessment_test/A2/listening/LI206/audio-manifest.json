@@ -1,0 +1,40 @@
+{
+  "part_id": "LI206",
+  "part_uuid": "826a39fd-1c02-41c2-9516-56f3bd54f36c",
+  "audio_file": "li206_walking_holidays.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "easy",
+  "transcript_sha256": "6c714e089ba19c9d68d81c4fd933d0c76d1ae4e8c8272d8c07fdb5088ee5f9ae",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-12%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Presenter",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 76.97
+    }
+  ],
+  "duration_seconds": 76.97,
+  "size_bytes": 616364,
+  "audio_sha256": "163e6aa85593a6df9ba4dfafc9b988fc33b580dd6f23c6bb01e22a25ea1a3fc3",
+  "generated_at": "2026-10-30T20:48:56+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

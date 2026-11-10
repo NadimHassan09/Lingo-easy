@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.0",
+  "id": "SP605",
+  "uuid": "a57524dd-0267-5fac-aa03-8778ea3a62b9",
+  "version": "1.0.0",
+  "skill": "speaking",
+  "assessment": {
+    "type": "assessment",
+    "level": "C2"
+  },
+  "target_cefr": "C2",
+  "profile": "level_c2",
+  "topic": "architecture_and_cities",
+  "context": "An architecture critic invites a reflection.",
+  "title": "What a city says about its values",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_format": "long_turn",
+  "task": {
+    "title": "What a city says about its values",
+    "format": "long_turn",
+    "scenario": "An architecture critic invites a reflection.",
+    "prompt": "Talk about how the layout and architecture of a city can reflect its values and history. You have 90 seconds to prepare. Speak for about three minutes.",
+    "instructions": [
+      "Type your answer the way you would say it, in complete sentences.",
+      "Answer every question or point. Add reasons and examples when you can.",
+      "In this version your answer is typed. Pronunciation is not assessed."
+    ],
+    "main_question": "Discuss how a city's buildings and spaces express the values of the society that built them.",
+    "follow_up_questions": [],
+    "preparation_seconds": 90,
+    "suggested_speaking_seconds": 240,
+    "typed_response_words": {
+      "minimum": 120,
+      "suggested_min": 170,
+      "suggested_max": 260
+    },
+    "cue_card": {
+      "topic": "Discuss how a city's buildings and spaces express the values of the society that built them.",
+      "points": [
+        "specific examples from a city you know",
+        "what the design suggests about priorities",
+        "whether the same space can be read differently by different groups",
+        "how and whether cities should change their symbolic spaces"
+      ],
+      "preparation_seconds": 90,
+      "speaking_seconds": 240
+    }
+  },
+  "expected_response": {
+    "content_points": [
+      "specific examples from a city you know",
+      "what the design suggests about priorities",
+      "whether the same space can be read differently by different groups",
+      "how and whether cities should change their symbolic spaces"
+    ],
+    "required_elements": [
+      "Respond to: Discuss how a city's buildings and spaces express the values of the society that built them.",
+      "Respond to: specific examples from a city you know",
+      "Respond to: what the design suggests about priorities",
+      "Respond to: whether the same space can be read differently by different groups",
+      "Respond to: how and whether cities should change their symbolic spaces"
+    ],
+    "optional_elements": [
+      "extra detail, examples or a personal anecdote"
+    ],
+    "organisation": [
+      "answer each question or cue point in turn, adding reasons and examples"
+    ],
+    "vocabulary_demands": [
+      "architecture and symbolism",
+      "interpretation",
+      "figurative language"
+    ],
+    "grammar_demands": [
+      {
+        "id": "complex_embedding",
+        "level": "C2",
+        "extension": true
+      },
+      {
+        "id": "stylistic_variation",
+        "level": "C2",
+        "extension": true
+      },
+      {
+        "id": "participle_clauses",
+        "level": "C1",
+        "extension": false
+      },
+      {
+        "id": "precise_collocation_idiom",
+        "level": "C2",
+        "extension": true
+      }
+    ],
+    "discourse_complexity": "Sophisticated extended discourse with layered argument and controlled flow.",
+    "linguistic_demand": "Precise, sophisticated and stylistically controlled discourse; subtle distinctions, synthesis of sources; full range of structures with consistent control.",
+    "cognitive_demand": "Critically evaluate claims and evidence; Hold and defend a qualified, nuanced position",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Examples",
+          "Values",
+          "Multiple readings",
+          "Change"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "extended_turn",
+    "secondary_subskills": [
+      "abstract_discussion",
+      "nuance_hedging"
+    ],
+    "cognitive_processes": [
+      "critical_evaluation",
+      "nuanced_stance"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.S.extended_turn.C2.1",
+        "text": "Interpret symbolic meaning with precise and figurative language",
+        "measurable_verb": "interpret",
+        "criteria": [
+          "S_REL",
+          "S_LR",
+          "S_GRA"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "C2",
+    "recommended_cefr": "C1",
+    "cefr_confidence": "low",
+    "level_gap_steps": 1,
+    "difficulty_index": 0.828,
+    "language_demand": "Precise, sophisticated and stylistically controlled discourse; subtle distinctions, synthesis of sources; full range of structures with consistent control.",
+    "cognitive_demand": "Critically evaluate claims and evidence; Hold and defend a qualified, nuanced position",
+    "expected_performance": [
+      "Handles every demand with insight and appropriate register; responses are fully targeted.",
+      "Sophisticated and precise vocabulary with idiom and nuance, used naturally.",
+      "Consistent accuracy with the full range; rare non-systematic errors."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 5.0, 'cognition': 4.5, 'length': 3.61, 'abstractness': 4.2, 'prompt_language': 1.26}; composite 4.14 -> C1. Original target C2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P1",
+    "components": {
+      "grammar": 5.0,
+      "cognition": 4.5,
+      "length": 3.61,
+      "abstractness": 4.2,
+      "prompt_language": 1.26
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 9.4,
+      "long_word_ratio": 0.067
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "C2",
+    "criteria": [
+      {
+        "id": "S_REL",
+        "name": "Relevance and task fulfilment",
+        "description": "Whether the response answers the question asked, covers the cue points or situation, and is appropriate to the role and audience.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Handles every demand with insight and appropriate register; responses are fully targeted. Needs to respond to: Discuss how a city's buildings and spaces express the values of the society that built them. | specific examples from a city you know | what the design suggests about priorities | whether the same space can be read differently by different groups | how and whether cities should change their symbolic spaces",
+        "weak_performance": "Minor lapses in targeting.",
+        "expected_evidence": "Each question or cue point addressed; relevance of content; fit with the situation. Check each question or cue point in turn.",
+        "common_error_patterns": [
+          "rare"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "extended_turn",
+          "nuance_hedging"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed.",
+        "diagnostic_categories": [
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK"
+        ]
+      },
+      {
+        "id": "S_LR",
+        "name": "Lexical resource",
+        "description": "Range and precision of vocabulary used to talk about the topic.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Sophisticated and precise vocabulary with idiom and nuance, used naturally.",
+        "weak_performance": "Rare mismatch of nuance.",
+        "expected_evidence": "Topic vocabulary; variety; paraphrase; collocation. Expected vocabulary demands: architecture and symbolism; interpretation; figurative language.",
+        "common_error_patterns": [
+          "connotation"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "extended_turn",
+          "nuance_hedging"
+        ],
+        "evaluation_limitations": "Do not penalise a correct plain word.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_HEDGING"
+        ]
+      },
+      {
+        "id": "S_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range and accuracy of structures used; typed text may contain writing conventions the learner would not use in speech.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Consistent accuracy with the full range; rare non-systematic errors.",
+        "weak_performance": "Rare slips.",
+        "expected_evidence": "Structures used; error frequency and type. Structures invited by the task: complex_embedding, stylistic_variation, participle_clauses, precise_collocation_idiom.",
+        "common_error_patterns": [
+          "rare"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "extended_turn",
+          "nuance_hedging"
+        ],
+        "evaluation_limitations": "Do not penalise spelling or punctuation errors in the typed text; they do not describe spoken grammar.",
+        "diagnostic_categories": [
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_L1_TRANSFER"
+        ]
+      },
+      {
+        "id": "S_DEV",
+        "name": "Development of ideas",
+        "description": "How far ideas are explained, justified and supported with reasons, examples or comparisons.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Develops layered, subtle ideas; integrates alternatives; support is precise and selective.",
+        "weak_performance": "Occasional assertions without support.",
+        "expected_evidence": "Reasons, examples, comparisons, consequences, qualification.",
+        "common_error_patterns": [
+          "rare"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "extended_turn",
+          "nuance_hedging"
+        ],
+        "evaluation_limitations": "Judge development relative to the format (a Part 1-style answer is short by design).",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "S_FC",
+        "name": "Fluency and coherence",
+        "description": "How smoothly and logically a response is organised and extended. In the text MVP only the coherence and organisation aspects can be observed; real-time fluency (speed, pauses, hesitation) cannot.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "partial",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Fully coherent, naturally structured extended discourse with effortless links.",
+        "weak_performance": "Rare lapses of structure.",
+        "expected_evidence": "Length and completeness of responses; order of ideas; discourse markers; (typed text: no timing evidence).",
+        "common_error_patterns": [
+          "rare"
+        ],
+        "related_subskills": [
+          "abstract_discussion",
+          "extended_turn",
+          "nuance_hedging"
+        ],
+        "evaluation_limitations": "TEXT MVP: hesitation, speech rate, self-correction and filled pauses cannot be observed. Judge organisation only; never infer 'fluent speech' from typed text.",
+        "diagnostic_categories": [
+          "D_VOCAB_REPEAT",
+          "D_COHESION",
+          "D_ORGANISATION",
+          "D_TEXT_ONLY_LIMIT"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "S_PRON",
+        "name": "Pronunciation",
+        "reason": "TEXT MVP: no pronunciation score may be assigned. Do not infer pronunciation from spelling. Reserved for the future audio pipeline."
+      }
+    ],
+    "required_demonstrations": [
+      "Respond to every question or cue point: Discuss how a city's buildings and spaces express the values of the society that built them. | specific examples from a city you know | what the design suggests about priorities | whether the same space can be read differently by different groups | how and whether cities should change their symbolic spaces",
+      "Use language appropriate to: An architecture critic invites a reflection."
+    ],
+    "optional_demonstrations": [
+      "extra detail, examples or personal anecdotes",
+      "the cue-card points in any order"
+    ],
+    "not_penalised": [
+      "spelling or punctuation errors (text MVP)",
+      "the position taken (any defensible position is valid)",
+      "absence of particular rhetorical devices"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task.",
+    "text_mvp_limitations": [
+      "Pronunciation, intonation, stress and rhythm cannot be assessed from typed text: do not assign a pronunciation score.",
+      "Fluency in the sense of speech rate, pauses and hesitation cannot be assessed; only organisation and coherence can.",
+      "Do not state or imply that this evaluation is a complete assessment of speaking."
+    ]
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARGUMENT",
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_COMPARISON",
+      "D_GRAMMAR_RANGE",
+      "D_HEDGING",
+      "D_OFF_TASK",
+      "D_ORGANISATION",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SUPPORT",
+      "D_SVA",
+      "D_TENSE",
+      "D_TEXT_ONLY_LIMIT",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "flagged",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": [
+      {
+        "severity": "warn",
+        "detail": "cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1)"
+      },
+      {
+        "severity": "warn",
+        "detail": "cefr_confidence_low: component spread sd=1.31"
+      }
+    ]
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/speaking_*.py (C2-05)",
+    "spec_sha256": "eadbeb2e4010a87222c0106147658b3ad1eeecfca5e7bec04cd9aeac6aa35614",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "C2-05",
+      "lv": "C2",
+      "fmt": "long_turn",
+      "topic": "architecture_and_cities",
+      "title": "What a city says about its values",
+      "scen": "An architecture critic invites a reflection.",
+      "prompt": "Talk about how the layout and architecture of a city can reflect its values and history. You have 90 seconds to prepare. Speak for about three minutes.",
+      "main": "Discuss how a city's buildings and spaces express the values of the society that built them.",
+      "cue": [
+        "specific examples from a city you know",
+        "what the design suggests about priorities",
+        "whether the same space can be read differently by different groups",
+        "how and whether cities should change their symbolic spaces"
+      ],
+      "follow": [],
+      "prep": 90,
+      "dur": 240,
+      "w": [
+        120,
+        170,
+        260
+      ],
+      "vocab": [
+        "architecture and symbolism",
+        "interpretation",
+        "figurative language"
+      ],
+      "gram": [
+        "complex_embedding",
+        "stylistic_variation",
+        "participle_clauses",
+        "precise_collocation_idiom"
+      ],
+      "sub": "extended_turn",
+      "sub2": [
+        "abstract_discussion",
+        "nuance_hedging"
+      ],
+      "cog": [
+        "critical_evaluation",
+        "nuanced_stance"
+      ],
+      "obj": [
+        "Interpret symbolic meaning with precise and figurative language"
+      ],
+      "outline": [
+        "Examples",
+        "Values",
+        "Multiple readings",
+        "Change"
+      ],
+      "abs": 3
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "3dc685f878a14ac5f50338d35679bcef1c7986ee441053a552e09a0205da6eaa"
+  }
+}

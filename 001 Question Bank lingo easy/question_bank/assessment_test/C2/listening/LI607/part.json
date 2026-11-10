@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "id": "LI607",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "Urban Planning and Social Justice",
+  "topic": "architecture_and_cities",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li607_urban_planning_and_social_justice.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Professor Mendes",
+        "gender": "female",
+        "accent": "american",
+        "role": "urban studies lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good morning. When we think about urban planning, we often imagine technical decisions about roads, zoning and drainage. But every such decision distributes benefits and burdens among different groups, which is why planning has always been political. Today I'll look at how planning has contributed to inequality, and what a more just approach might look like."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let's begin with a historical example. In the United States in the 1930s, a federal agency produced maps that graded neighbourhoods by their perceived lending risk. Areas where Black families lived were coloured red and labelled hazardous, which made it very hard for residents to obtain mortgages. This practice became known as redlining. Although it was banned in 1968, studies in recent years found that formerly redlined neighbourhoods tend to have less tree cover, higher summer temperatures and lower incomes than their neighbours. A policy that ended decades ago is still shaping the physical environment."
+      },
+      {
+        "speaker": "S1",
+        "text": "A second example is highway construction in the mid-twentieth century. Planners often routed new roads through poorer districts, because land there was cheaper and residents had less political influence to resist. Entire communities were displaced. The consequences extended well beyond the loss of homes: businesses closed, social networks were broken, and noise and pollution affected those who remained."
+      },
+      {
+        "speaker": "S1",
+        "text": "How have planners responded? One approach is participatory planning, in which residents help to shape proposals. At its best, this gives voice to those previously ignored. But it has limitations. Meetings are often attended by those with time, confidence and resources, namely homeowners and retired people, whose interests may differ from those of renters or young families. Participation can therefore reproduce the inequalities it is meant to correct, unless planners make a particular effort to reach underrepresented groups."
+      },
+      {
+        "speaker": "S1",
+        "text": "A second approach concerns affordable housing. Cities have experimented with rules requiring developers to include a share of lower-cost homes in new projects. Evidence on their effectiveness is mixed. If the requirement is too demanding, developers may build less, which reduces the overall supply and can raise prices. Economists therefore stress that these rules work best when combined with measures to increase total housing production."
+      },
+      {
+        "speaker": "S1",
+        "text": "A third issue is green space. Parks and tree planting improve health and reduce heat, but they can also trigger green gentrification: as an area becomes more attractive, rents rise, and the original residents are pushed out. In some cities, planners now link new parks to anti-displacement measures, such as rent protection or community land trusts, in which land is owned collectively and leased to residents."
+      },
+      {
+        "speaker": "S1",
+        "text": "What conclusions can we draw? I'd say first that neutrality is an illusion; decisions always favour someone. Second, that outcomes must be monitored over decades, not just at the opening ceremony. And third, that the people affected must have genuine, not merely symbolic, influence. For your assignment, choose a planning project in your own city and assess who gained and who lost."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI607-Q01",
+          "number": 1,
+          "prompt": "Why does the lecturer say planning has always been political?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every decision distributes benefits and burdens among groups"
+            },
+            {
+              "id": "B",
+              "text": "Planners are usually active members of political parties"
+            },
+            {
+              "id": "C",
+              "text": "Governments pay for every planning decision made"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "distributes benefits and burdens"
+          },
+          "explanation": "The audio says: \"distributes benefits and burdens\".",
+          "uuid": "10774b22-3daf-5965-8545-50745f12808e"
+        },
+        {
+          "id": "LI607-Q02",
+          "number": 2,
+          "prompt": "What was the effect of the redlining maps?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Residents found it hard to obtain mortgages"
+            },
+            {
+              "id": "B",
+              "text": "Residents were forced to leave the cities"
+            },
+            {
+              "id": "C",
+              "text": "Residents received free loans for new homes"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "hard for residents to obtain mortgages"
+          },
+          "explanation": "The audio says: \"hard for residents to obtain mortgages\".",
+          "uuid": "a97341f3-a94b-5dd2-98df-a4c8b44ab033"
+        },
+        {
+          "id": "LI607-Q03",
+          "number": 3,
+          "prompt": "What have recent studies found about formerly redlined areas?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are now among the wealthiest areas"
+            },
+            {
+              "id": "B",
+              "text": "They have less tree cover and higher temperatures"
+            },
+            {
+              "id": "C",
+              "text": "They have more parks and street trees"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "less tree cover"
+          },
+          "explanation": "The audio says: \"less tree cover\".",
+          "uuid": "98f5b986-640c-5fcc-af15-2cdafc333214"
+        },
+        {
+          "id": "LI607-Q04",
+          "number": 4,
+          "prompt": "Why were highways often routed through poorer districts?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Those districts were nearest to city centres"
+            },
+            {
+              "id": "B",
+              "text": "Residents in those districts asked for them"
+            },
+            {
+              "id": "C",
+              "text": "Land was cheaper and residents had less influence"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "less political influence to resist"
+          },
+          "explanation": "The audio says: \"less political influence to resist\".",
+          "uuid": "5e0b78c0-242d-5083-9921-106e6d4ead90"
+        },
+        {
+          "id": "LI607-Q05",
+          "number": 5,
+          "prompt": "What consequence of highway building does the lecturer mention beyond lost homes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Local taxes rose sharply for residents"
+            },
+            {
+              "id": "B",
+              "text": "Social networks were broken"
+            },
+            {
+              "id": "C",
+              "text": "Traffic disappeared from nearby streets"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "social networks were broken"
+          },
+          "explanation": "The audio says: \"social networks were broken\".",
+          "uuid": "9b5f6533-2e4b-54fb-8eef-44c451416005"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI607-Q06",
+          "number": 6,
+          "prompt": "What limitation of participatory planning does the lecturer give?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Meetings are held at times that are too short"
+            },
+            {
+              "id": "B",
+              "text": "Participants tend to be those with time and resources"
+            },
+            {
+              "id": "C",
+              "text": "Residents rarely hear about the meetings"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "time, confidence and resources"
+          },
+          "explanation": "The audio says: \"time, confidence and resources\".",
+          "uuid": "1caf7d6b-de50-5397-a159-56d476fb4be3"
+        },
+        {
+          "id": "LI607-Q07",
+          "number": 7,
+          "prompt": "What risk is there in rules requiring affordable homes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Developers may move their projects abroad"
+            },
+            {
+              "id": "B",
+              "text": "Developers may build fewer homes overall"
+            },
+            {
+              "id": "C",
+              "text": "House prices may fall too far in some areas"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "developers may build less"
+          },
+          "explanation": "The audio says: \"developers may build less\".",
+          "uuid": "2db3cbab-0e0a-5888-aeea-f8eb8f291dc0"
+        },
+        {
+          "id": "LI607-Q08",
+          "number": 8,
+          "prompt": "What is green gentrification?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Parks are replaced by new office buildings in city centres"
+            },
+            {
+              "id": "B",
+              "text": "Trees are planted in the wrong parts of the city by mistake"
+            },
+            {
+              "id": "C",
+              "text": "Rents rise after an area becomes more attractive, pushing out residents"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the original residents are pushed out"
+          },
+          "explanation": "The audio says: \"the original residents are pushed out\".",
+          "uuid": "89cd64a4-e0b7-5641-a56a-c25d14fe35b4"
+        },
+        {
+          "id": "LI607-Q09",
+          "number": 9,
+          "prompt": "What is a community land trust?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Land owned by private developers and rented out"
+            },
+            {
+              "id": "B",
+              "text": "Land reserved for parks and public gardens"
+            },
+            {
+              "id": "C",
+              "text": "Land owned collectively and leased to residents"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "owned collectively and leased to residents"
+          },
+          "explanation": "The audio says: \"owned collectively and leased to residents\".",
+          "uuid": "96aa4031-ff8c-55bd-87c7-851b9d77d81a"
+        },
+        {
+          "id": "LI607-Q10",
+          "number": 10,
+          "prompt": "What does the lecturer say about residents' influence?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It must be genuine rather than symbolic"
+            },
+            {
+              "id": "B",
+              "text": "It should be limited to experts and planners"
+            },
+            {
+              "id": "C",
+              "text": "It is already sufficient in most cities"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "genuine, not merely symbolic, influence"
+          },
+          "explanation": "The audio says: \"genuine, not merely symbolic, influence\".",
+          "uuid": "4c7d4b40-b45c-567d-9746-c7dd76f1b4a9"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "87fe3a69-c110-44f4-8bfc-dd148b0f243a",
+  "derived": {
+    "word_count": 483,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "91ac188484764909"
+  }
+}

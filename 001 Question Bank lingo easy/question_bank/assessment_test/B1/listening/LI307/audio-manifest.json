@@ -1,0 +1,166 @@
+{
+  "part_id": "LI307",
+  "part_uuid": "99f522b8-5ce9-4d1f-b7fd-59562e5e6dc6",
+  "audio_file": "li307_planning_a_presentation_on_volunteering.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "medium",
+  "transcript_sha256": "3afbf9f19ca33dfe5561585faae5ab187ba03e9d1b9a07586ad5a6826c7af40a",
+  "voices": {
+    "S1": {
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    "S2": {
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    "S3": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "-5%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Mr Hall",
+      "gender": "male",
+      "accent": "british",
+      "voice": "en-GB-RyanNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S2",
+      "name": "Nina",
+      "gender": "female",
+      "accent": "british",
+      "voice": "en-GB-SoniaNeural",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "S3",
+      "name": "Jake",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 7.58
+    },
+    {
+      "index": 1,
+      "speaker": "S2",
+      "start": 8.03,
+      "end": 18.57
+    },
+    {
+      "index": 2,
+      "speaker": "S3",
+      "start": 19.02,
+      "end": 25.55
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 26.0,
+      "end": 30.87
+    },
+    {
+      "index": 4,
+      "speaker": "S3",
+      "start": 31.32,
+      "end": 36.26
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 36.71,
+      "end": 45.31
+    },
+    {
+      "index": 6,
+      "speaker": "S2",
+      "start": 45.76,
+      "end": 55.24
+    },
+    {
+      "index": 7,
+      "speaker": "S1",
+      "start": 55.69,
+      "end": 64.23
+    },
+    {
+      "index": 8,
+      "speaker": "S3",
+      "start": 64.68,
+      "end": 73.7
+    },
+    {
+      "index": 9,
+      "speaker": "S1",
+      "start": 74.15,
+      "end": 86.85
+    },
+    {
+      "index": 10,
+      "speaker": "S2",
+      "start": 87.3,
+      "end": 90.47
+    },
+    {
+      "index": 11,
+      "speaker": "S1",
+      "start": 90.92,
+      "end": 99.03
+    },
+    {
+      "index": 12,
+      "speaker": "S3",
+      "start": 99.48,
+      "end": 103.49
+    },
+    {
+      "index": 13,
+      "speaker": "S1",
+      "start": 103.94,
+      "end": 112.27
+    },
+    {
+      "index": 14,
+      "speaker": "S2",
+      "start": 112.72,
+      "end": 114.68
+    },
+    {
+      "index": 15,
+      "speaker": "S1",
+      "start": 115.13,
+      "end": 121.18
+    },
+    {
+      "index": 16,
+      "speaker": "S3",
+      "start": 121.63,
+      "end": 126.24
+    },
+    {
+      "index": 17,
+      "speaker": "S1",
+      "start": 126.69,
+      "end": 135.26
+    }
+  ],
+  "duration_seconds": 135.26,
+  "size_bytes": 1082732,
+  "audio_sha256": "9b98622b2ecae49c21157f98a45d2482d1930eeda17fdce35fc3c4ffb6c17a8d",
+  "generated_at": "2026-10-30T20:51:30+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

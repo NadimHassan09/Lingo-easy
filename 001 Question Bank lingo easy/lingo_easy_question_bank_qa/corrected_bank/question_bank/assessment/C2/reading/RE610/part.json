@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE610",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Moral Luck",
+  "topic": "psychology",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "Moral Luck",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Imagine two drivers who each, for a moment, take their eyes off the road to read a message. One is lucky: nothing is in her path, and she looks up in time. The other is unlucky: a child steps out, and he cannot stop. Most people believe that the second driver is far more blameworthy than the first, and that he deserves punishment while she does not. Yet the two did exactly the same thing. The philosopher Thomas Nagel called such cases moral luck, and he saw in them a challenge to one of our deepest assumptions: that we are responsible only for what is within our control."
+      },
+      {
+        "label": "B",
+        "text": "The puzzle arises because the principle of control seems compelling. It would be unfair, we feel, to blame someone for something they could not have prevented. Yet our everyday practice does not follow the principle. We judge the unlucky driver harshly, and the law reflects this: a person who attempts to murder and fails is typically punished less severely than one who succeeds, although the difference lies only in circumstances beyond their control. Philosophers have identified several kinds of moral luck, including luck in outcomes, luck in circumstances, such as living in a time when cruelty was demanded or tolerated, and even luck in character, since nobody chooses their upbringing."
+      },
+      {
+        "label": "C",
+        "text": "One response is to deny that the cases are as they appear. According to this view, the drivers do deserve equal blame, and our reaction to the second is an emotional response which should not guide a reasoned judgement. Some legal systems approach this position in principle, although few apply it consistently. The difficulty is that it seems to ask us to stop reacting as humans do. Many people feel that a wrongdoer who causes terrible harm has done something worse than one who narrowly avoided it, and that a theory which cannot accommodate this has missed something."
+      },
+      {
+        "label": "D",
+        "text": "A second response accepts the intuition and abandons the control principle, at least in part. We are responsible, it argues, not merely for our choices but for the person we turn out to be, including the consequences that follow. This fits the way we feel about apologies: the unlucky driver ought to feel profound regret, even though he was no more careless than anyone else. A person who shrugged and said, it was just bad luck, would seem to have failed morally. The price of this approach is that responsibility becomes less tidy, for it extends to what we cannot fully control."
+      },
+      {
+        "label": "E",
+        "text": "Neither response is entirely satisfactory, which is why the debate has endured for decades. What the puzzle reveals, I believe, is that our moral concepts are not the clean instruments that philosophers would like. They emerge from a human life in which we act without foresight, are affected by chance, and are nevertheless held to account. To recognise this does not require us to abandon moral judgement, but it does recommend a degree of humility, towards those we blame and towards ourselves."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE610-Q01",
+          "number": 1,
+          "prompt": "What do the two drivers have in common?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They caused the same harm"
+            },
+            {
+              "id": "B",
+              "text": "They were equally unlucky"
+            },
+            {
+              "id": "C",
+              "text": "They did exactly the same thing"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "the two did exactly the same thing"
+          },
+          "explanation": "The text says: \"the two did exactly the same thing\".",
+          "uuid": "9f482b6f-6828-56df-833f-93280e135655"
+        },
+        {
+          "id": "RE610-Q02",
+          "number": 2,
+          "prompt": "What assumption does Nagel see as challenged?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That all people are born with equal abilities and chances"
+            },
+            {
+              "id": "B",
+              "text": "That we are responsible only for what is within our control"
+            },
+            {
+              "id": "C",
+              "text": "That the law treats rich and poor people in the same way"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "responsible only for what is within our control"
+          },
+          "explanation": "The text says: \"responsible only for what is within our control\".",
+          "uuid": "a63df1e4-1f12-5cca-bbe0-d136d03464cd"
+        },
+        {
+          "id": "RE610-Q03",
+          "number": 3,
+          "prompt": "What does the example of attempted murder show?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Failed attempts are treated as no offence"
+            },
+            {
+              "id": "B",
+              "text": "People are punished differently for the same intention"
+            },
+            {
+              "id": "C",
+              "text": "Successful and failed attempts are punished alike"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "punished less severely than one who succeeds"
+          },
+          "explanation": "The text says: \"punished less severely than one who succeeds\".",
+          "uuid": "80d8098f-27ec-5e36-8dfb-1bd6c00abf92"
+        },
+        {
+          "id": "RE610-Q04",
+          "number": 4,
+          "prompt": "What is meant by luck in character?",
+          "options": [
+            {
+              "id": "A",
+              "text": "People choose their friends"
+            },
+            {
+              "id": "B",
+              "text": "Characters change with age"
+            },
+            {
+              "id": "C",
+              "text": "Nobody chooses their upbringing"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "nobody chooses their upbringing"
+          },
+          "explanation": "The text says: \"nobody chooses their upbringing\".",
+          "uuid": "b25ed0a0-5dee-5542-b1cf-169d607e399a"
+        },
+        {
+          "id": "RE610-Q05",
+          "number": 5,
+          "prompt": "What is the difficulty with denying that the cases differ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It cannot be written into any legal system"
+            },
+            {
+              "id": "B",
+              "text": "It requires us to rewrite the whole theory of law"
+            },
+            {
+              "id": "C",
+              "text": "It asks us to stop reacting as humans naturally do"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "stop reacting as humans do"
+          },
+          "explanation": "The text says: \"stop reacting as humans do\".",
+          "uuid": "78340d42-338b-5171-82cc-d5972f89c929"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE610-Q06",
+          "number": 6,
+          "prompt": "The writer accepts that the principle of control has intuitive appeal.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "principle of control seems compelling"
+          },
+          "explanation": "The text says: \"principle of control seems compelling\".",
+          "uuid": "10ae3c20-d212-5688-b6ab-3accb5da1025"
+        },
+        {
+          "id": "RE610-Q07",
+          "number": 7,
+          "prompt": "The writer believes the second response to moral luck makes responsibility tidier.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "responsibility becomes less tidy"
+          },
+          "explanation": "The text says: \"responsibility becomes less tidy\".",
+          "uuid": "165c1412-3a48-5078-88f0-fcec902872e9"
+        },
+        {
+          "id": "RE610-Q08",
+          "number": 8,
+          "prompt": "The writer thinks the debate has been resolved.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "the debate has endured for decades"
+          },
+          "explanation": "The text says: \"the debate has endured for decades\".",
+          "uuid": "b32dd5eb-fa3e-53d5-b4a4-cffe91ab7e52"
+        },
+        {
+          "id": "RE610-Q09",
+          "number": 9,
+          "prompt": "The writer has been involved in a driving accident.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "69b14209-5e4e-5f3a-9d03-c6b7ed39f2ea"
+        },
+        {
+          "id": "RE610-Q10",
+          "number": 10,
+          "prompt": "The writer concludes that we should abandon moral judgement.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "does not require us to abandon moral judgement"
+          },
+          "explanation": "The text says: \"does not require us to abandon moral judgement\".",
+          "uuid": "a9feb1d4-9774-5454-b1b7-4125d44eda3a"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE610-Q11",
+          "number": 11,
+          "prompt": "An example from law in which unsuccessful attempts are treated differently",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "attempts to murder and fails"
+          },
+          "explanation": "The text says: \"attempts to murder and fails\".",
+          "uuid": "acffc297-a676-5a9f-a53d-6f1f3478391e"
+        },
+        {
+          "id": "RE610-Q12",
+          "number": 12,
+          "prompt": "An argument that apologies show why bad luck can still bring responsibility",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "it was just bad luck"
+          },
+          "explanation": "The text says: \"it was just bad luck\".",
+          "uuid": "5cd0dc43-8ee6-58d4-8283-8aa93c2e702d"
+        },
+        {
+          "id": "RE610-Q13",
+          "number": 13,
+          "prompt": "A view that we should treat both ourselves and others with humility",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "a degree of humility"
+          },
+          "explanation": "The text says: \"a degree of humility\".",
+          "uuid": "79777292-945c-589d-acd4-b922df60e7e2"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "8be535d5-e7ae-4962-950c-9b182c5ac640",
+  "derived": {
+    "word_count": 500,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 2,
+      "B": 5,
+      "C": 5,
+      "D": 1
+    },
+    "content_hash": "1034806e42f1cb3c"
+  }
+}

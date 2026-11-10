@@ -1,0 +1,94 @@
+{
+  "part_id": "LI003",
+  "part_uuid": "3d3d8143-d90f-40bb-8e71-707ff6aef316",
+  "audio_file": "li003_why_cities_are_hotter_than_the_countryside.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "ba40fc259b4c3c826c83a49de5f8e2b91ac747123602449e1d89e75b0b956bbc",
+  "voices": {
+    "S1": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Professor Walker",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 23.69
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 24.14,
+      "end": 35.51
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 35.96,
+      "end": 50.6
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 51.05,
+      "end": 68.65
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 69.1,
+      "end": 92.16
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 92.61,
+      "end": 113.3
+    },
+    {
+      "index": 6,
+      "speaker": "S1",
+      "start": 113.75,
+      "end": 133.86
+    },
+    {
+      "index": 7,
+      "speaker": "S1",
+      "start": 134.31,
+      "end": 152.89
+    },
+    {
+      "index": 8,
+      "speaker": "S1",
+      "start": 153.34,
+      "end": 175.7
+    },
+    {
+      "index": 9,
+      "speaker": "S1",
+      "start": 176.15,
+      "end": 196.89
+    }
+  ],
+  "duration_seconds": 196.89,
+  "size_bytes": 1575788,
+  "audio_sha256": "4cdcec469a4ef2e6188c3584d7c9bf15e1f4b0367e8e9e6c0478270a5a58254c",
+  "generated_at": "2026-10-30T20:41:30+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

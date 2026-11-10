@@ -1,0 +1,535 @@
+{
+  "schema_version": "1.0",
+  "id": "RE605",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "The Productivity Paradox",
+  "topic": "technology",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "passage": {
+    "title": "The Productivity Paradox",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In 1987, the economist Robert Solow quipped that you can see the computer age everywhere but in the productivity statistics. At the time, businesses had invested heavily in computers for over a decade, yet measured output per worker had grown only slowly. The puzzle, known as the productivity paradox, has returned in recent years with artificial intelligence, digital platforms and cloud computing: technologies that seem transformative yet appear to have done little to accelerate growth."
+      },
+      {
+        "label": "B",
+        "text": "Several explanations have been proposed. The first is mismeasurement. Official statistics are good at counting cars and washing machines but poor at capturing improvements in quality or the value of free services. A smartphone contains a camera, map, music player and encyclopaedia that once cost thousands of pounds, yet in the statistics, it counts as a single product. Economists disagree about the size of the gap; some estimates suggest it accounts for a minor part of the slowdown, others for a larger part."
+      },
+      {
+        "label": "C",
+        "text": "A second explanation is delay. Historically, general-purpose technologies take decades to transform the economy. Electricity was introduced to factories in the 1880s, but productivity did not rise until the 1920s, because manufacturers at first merely replaced steam engines with electric motors, leaving the layout of the factory unchanged. Real gains came only when they redesigned production around the new flexibility, placing machines wherever the work required. The economist Paul David argued that computers may follow the same pattern: organisations take time to rethink how they work."
+      },
+      {
+        "label": "D",
+        "text": "A third explanation is that the ideas themselves have become harder to find. Some researchers argue that each new increment of progress demands more researchers and more money than before. If so, the slowdown reflects a genuine decline in the returns to innovation rather than a statistical illusion. A fourth view, favoured by sceptics, is that recent digital innovations simply matter less for productivity than the great inventions of the past, such as sanitation, the combustion engine and antibiotics."
+      },
+      {
+        "label": "E",
+        "text": "These accounts are not mutually exclusive, and the truth probably involves elements of each. What the debate shows is how difficult it is to assess technology's impact while we are living through it. The electricity example is a cautionary tale for both optimists and pessimists: those who expected immediate transformation were disappointed, but those who concluded that nothing had changed were also wrong."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE605-Q01",
+          "number": 1,
+          "prompt": "What was Solow's point in 1987?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Computers were visible everywhere except in productivity figures"
+            },
+            {
+              "id": "B",
+              "text": "Computers had doubled output in most industries by 1987"
+            },
+            {
+              "id": "C",
+              "text": "Computers were too expensive for most firms to buy"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "see the computer age everywhere but in the productivity statistics"
+          },
+          "explanation": "The text says: \"see the computer age everywhere but in the productivity statistics\".",
+          "uuid": "85d47432-1ce1-5a48-a074-da8e3ac03241"
+        },
+        {
+          "id": "RE605-Q02",
+          "number": 2,
+          "prompt": "Why might official statistics undercount the value of a smartphone?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It counts as a single product despite replacing many"
+            },
+            {
+              "id": "B",
+              "text": "It is mostly exported to other countries each year"
+            },
+            {
+              "id": "C",
+              "text": "It is taxed so heavily that its sales fall sharply"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "counts as a single product"
+          },
+          "explanation": "The text says: \"counts as a single product\".",
+          "uuid": "77db867c-70e3-54ba-bdbb-6740085c7b98"
+        },
+        {
+          "id": "RE605-Q03",
+          "number": 3,
+          "prompt": "What do economists say about the size of the mismeasurement gap?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is agreed to be huge"
+            },
+            {
+              "id": "B",
+              "text": "It is agreed to be small"
+            },
+            {
+              "id": "C",
+              "text": "They disagree about it"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Economists disagree about the size of the gap"
+          },
+          "explanation": "The text says: \"Economists disagree about the size of the gap\".",
+          "uuid": "70750900-6819-5c5e-aece-ddbed3454e51"
+        },
+        {
+          "id": "RE605-Q04",
+          "number": 4,
+          "prompt": "Why did electricity not raise productivity at first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Electricity was too unreliable for use in factories"
+            },
+            {
+              "id": "B",
+              "text": "Workers refused to operate the new electric machines"
+            },
+            {
+              "id": "C",
+              "text": "Factories replaced engines without changing their layout"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "leaving the layout of the factory unchanged"
+          },
+          "explanation": "The text says: \"leaving the layout of the factory unchanged\".",
+          "uuid": "c299f279-3ef0-5d0e-a8d9-89f20fce5aaa"
+        },
+        {
+          "id": "RE605-Q05",
+          "number": 5,
+          "prompt": "What did real gains require?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cheaper electricity for factory owners everywhere"
+            },
+            {
+              "id": "B",
+              "text": "Redesigning production around the new flexibility"
+            },
+            {
+              "id": "C",
+              "text": "Larger factories that employed many more workers"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "redesigned production around the new flexibility"
+          },
+          "explanation": "The text says: \"redesigned production around the new flexibility\".",
+          "uuid": "85191e45-1449-51d6-8724-6bb523c7fe32"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE605-Q06",
+          "number": 6,
+          "prompt": "The writer believes mismeasurement fully explains the productivity paradox.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Economists disagree about the size of the gap"
+          },
+          "explanation": "The text says: \"Economists disagree about the size of the gap\".",
+          "uuid": "2eae5b4b-6a96-524d-bd29-6a8bb283a15a"
+        },
+        {
+          "id": "RE605-Q07",
+          "number": 7,
+          "prompt": "The writer implies that organisations may need time to rethink how they work with computers.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "organisations take time to rethink how they work"
+          },
+          "explanation": "The text says: \"organisations take time to rethink how they work\".",
+          "uuid": "1e83d975-1966-5762-8e77-f02880af9042"
+        },
+        {
+          "id": "RE605-Q08",
+          "number": 8,
+          "prompt": "The writer thinks the decline in returns to innovation is definitely the correct explanation.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "not mutually exclusive"
+          },
+          "explanation": "The text says: \"not mutually exclusive\".",
+          "uuid": "a4948b57-333f-5ccf-99f0-17a736a2896b"
+        },
+        {
+          "id": "RE605-Q09",
+          "number": 9,
+          "prompt": "The writer has invested in digital platforms.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "c53019b1-07ff-5f44-b3ae-2ba1b9d9f808"
+        },
+        {
+          "id": "RE605-Q10",
+          "number": 10,
+          "prompt": "The writer considers both optimists and pessimists to be partly mistaken.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "those who concluded that nothing had changed were also wrong"
+          },
+          "explanation": "The text says: \"those who concluded that nothing had changed were also wrong\".",
+          "uuid": "e532d117-64b2-527c-a18e-27cda6021ac2"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE605-Q11",
+          "number": 11,
+          "prompt": "A reference to an invention that took decades to change productivity",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Electricity was introduced to factories in the 1880s"
+          },
+          "explanation": "The text says: \"Electricity was introduced to factories in the 1880s\".",
+          "uuid": "6d960096-245a-5ebe-b9a5-2f6cb356e478"
+        },
+        {
+          "id": "RE605-Q12",
+          "number": 12,
+          "prompt": "A claim that ideas have become harder to find",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "ideas themselves have become harder to find"
+          },
+          "explanation": "The text says: \"ideas themselves have become harder to find\".",
+          "uuid": "9a714b0e-0c9a-5a6a-ac25-70509339296b"
+        },
+        {
+          "id": "RE605-Q13",
+          "number": 13,
+          "prompt": "An observation that official statistics can miss improvements in quality",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "poor at capturing improvements in quality"
+          },
+          "explanation": "The text says: \"poor at capturing improvements in quality\".",
+          "uuid": "bfac9fea-eff3-5d24-968c-2ec91fcd73fe"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "229323d6-48bc-433b-969f-5355d7661c05",
+  "derived": {
+    "word_count": 387,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 13
+    },
+    "mean_band": 8.73,
+    "answer_counts": {
+      "A": 4,
+      "B": 5,
+      "C": 4
+    },
+    "content_hash": "684e9d82663ff951"
+  }
+}

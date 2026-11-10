@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE410",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Smart Cities: Promise and Problems",
+  "topic": "architecture_and_cities",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "Smart Cities: Promise and Problems",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "A smart city uses sensors, data and digital technology to manage its services more efficiently. Traffic lights adjust to the flow of vehicles, bins signal when they are full, and apps tell residents when the next bus will arrive. The idea has attracted billions in investment, and cities from Singapore to Barcelona describe themselves as smart. But what does the technology actually achieve, and at what cost?"
+      },
+      {
+        "label": "B",
+        "text": "The benefits can be considerable. In Barcelona, smart street lighting that dims when no one is nearby cut energy use by about thirty per cent. Sensors in water pipes in Copenhagen detect leaks early, saving millions of litres a year. In Singapore, a network of cameras and data helps to keep traffic moving, and real-time information encourages people to use public transport. For city managers, data replaces guesswork with evidence."
+      },
+      {
+        "label": "C",
+        "text": "However, critics raise concerns about privacy. A city full of sensors can record where people go, who they meet and how they behave. If this information is collected without clear rules, it could be used for purposes residents never agreed to. In Toronto, a proposed smart neighbourhood run by a technology company was cancelled in 2020 after years of protest about data ownership. The lesson, many argue, is that citizens must be involved from the start."
+      },
+      {
+        "label": "D",
+        "text": "There is also a risk of inequality. Technology tends to be introduced first in wealthy districts, while poorer neighbourhoods wait. Residents without smartphones or internet access cannot use services that are delivered through apps. A city that is smart for some but not for others is not truly efficient. Planners therefore recommend designing services that work for everyone, including phone lines and information boards for those who need them."
+      },
+      {
+        "label": "E",
+        "text": "Finally, technology cannot replace good planning. Many of a city's biggest problems, such as expensive housing or long commutes, result from decisions about land and transport, not a lack of data. A fast sensor on a crowded road does not create extra space. The most successful smart cities treat technology as a tool to support clear goals, such as lower emissions or safer streets, rather than as a goal in itself."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE410-Q01",
+          "number": 1,
+          "prompt": "What do smart traffic lights do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Predict where accidents will happen"
+            },
+            {
+              "id": "B",
+              "text": "Charge drivers for waiting at junctions"
+            },
+            {
+              "id": "C",
+              "text": "Adjust to the flow of vehicles"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "adjust to the flow of vehicles"
+          },
+          "explanation": "The text says: \"adjust to the flow of vehicles\".",
+          "uuid": "3cba5d18-2adc-56a6-85e3-26168ebad9d1"
+        },
+        {
+          "id": "RE410-Q02",
+          "number": 2,
+          "prompt": "What was achieved by Barcelona's smart street lighting?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Crime fell by about a third overall"
+            },
+            {
+              "id": "B",
+              "text": "Energy use fell by about thirty per cent"
+            },
+            {
+              "id": "C",
+              "text": "Costs doubled while energy use stayed the same"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "cut energy use by about thirty per cent"
+          },
+          "explanation": "The text says: \"cut energy use by about thirty per cent\".",
+          "uuid": "ca3af488-1e94-5c07-9a9a-539086c55246"
+        },
+        {
+          "id": "RE410-Q03",
+          "number": 3,
+          "prompt": "How do Copenhagen's water sensors help?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They clean the pipes"
+            },
+            {
+              "id": "B",
+              "text": "They reduce water prices"
+            },
+            {
+              "id": "C",
+              "text": "They detect leaks early"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "detect leaks early"
+          },
+          "explanation": "The text says: \"detect leaks early\".",
+          "uuid": "a158f3c9-4d67-5575-b8ea-37db570c219b"
+        },
+        {
+          "id": "RE410-Q04",
+          "number": 4,
+          "prompt": "Why was the Toronto project cancelled?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The company ran out of funding in 2020"
+            },
+            {
+              "id": "B",
+              "text": "The technology failed in early tests"
+            },
+            {
+              "id": "C",
+              "text": "People protested about data ownership"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "protest about data ownership"
+          },
+          "explanation": "The text says: \"protest about data ownership\".",
+          "uuid": "adffe8b4-d72d-5ed9-b40a-6fde7f5563f1"
+        },
+        {
+          "id": "RE410-Q05",
+          "number": 5,
+          "prompt": "What problem do residents without smartphones face?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They cannot use app-based services"
+            },
+            {
+              "id": "B",
+              "text": "They have to pay much higher taxes"
+            },
+            {
+              "id": "C",
+              "text": "They must move to another district"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "cannot use services that are delivered through apps"
+          },
+          "explanation": "The text says: \"cannot use services that are delivered through apps\".",
+          "uuid": "f760accc-cb4f-5554-8079-6a28829a5f4a"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE410-Q06",
+          "number": 6,
+          "prompt": "Smart city technology is usually introduced first in poorer areas.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "introduced first in wealthy districts"
+          },
+          "explanation": "The text says: \"introduced first in wealthy districts\".",
+          "uuid": "50a0172e-13c7-591d-b1d7-f20211d7ee66"
+        },
+        {
+          "id": "RE410-Q07",
+          "number": 7,
+          "prompt": "Planners suggest providing services in forms other than apps.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "phone lines and information boards"
+          },
+          "explanation": "The text says: \"phone lines and information boards\".",
+          "uuid": "c4319bc5-271a-51bb-84de-f5ce4791f333"
+        },
+        {
+          "id": "RE410-Q08",
+          "number": 8,
+          "prompt": "Expensive housing is mainly caused by a lack of data.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "not a lack of data"
+          },
+          "explanation": "The text says: \"not a lack of data\".",
+          "uuid": "91669767-9b21-5f5f-b030-03828ad28bf2"
+        },
+        {
+          "id": "RE410-Q09",
+          "number": 9,
+          "prompt": "Singapore is the largest smart city in the world.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "0eb73732-4b94-51f8-a771-c3840e2ea22a"
+        },
+        {
+          "id": "RE410-Q10",
+          "number": 10,
+          "prompt": "The most successful smart cities treat technology as a goal in itself.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "rather than as a goal in itself"
+          },
+          "explanation": "The text says: \"rather than as a goal in itself\".",
+          "uuid": "a1a9e882-a335-50a3-9be1-b359b27033b5"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE410-Q11",
+          "number": 11,
+          "prompt": "Examples of cities that have saved energy or water through sensors",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Sensors in water pipes in Copenhagen"
+          },
+          "explanation": "The text says: \"Sensors in water pipes in Copenhagen\".",
+          "uuid": "f69f81f8-f23d-598f-91ed-fadccd79e434"
+        },
+        {
+          "id": "RE410-Q12",
+          "number": 12,
+          "prompt": "A warning that information might be used in unintended ways",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "purposes residents never agreed to"
+          },
+          "explanation": "The text says: \"purposes residents never agreed to\".",
+          "uuid": "d10c9da2-25e8-5a34-b728-73be2f25bfbd"
+        },
+        {
+          "id": "RE410-Q13",
+          "number": 13,
+          "prompt": "An argument that planning matters more than technology",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "technology cannot replace good planning"
+          },
+          "explanation": "The text says: \"technology cannot replace good planning\".",
+          "uuid": "0c3eb75d-e4bb-5699-9e84-33ad5956ab3e"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "f51c5985-77ba-4f48-9aee-30aa8b245bf4",
+  "derived": {
+    "word_count": 354,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 2,
+      "B": 6,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "e9a549bb4af2f8f9"
+  }
+}

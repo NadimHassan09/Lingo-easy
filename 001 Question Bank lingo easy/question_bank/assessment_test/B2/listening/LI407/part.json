@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "id": "LI407",
+  "skill": "listening",
+  "part_type": "academic_discussion",
+  "title": "Seminar on Bird Migration",
+  "topic": "animals_and_nature",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "audio": {
+    "file": "li407_seminar_on_bird_migration.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Okafor",
+        "gender": "male",
+        "accent": "british",
+        "role": "tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Hannah",
+        "gender": "female",
+        "accent": "british",
+        "role": "student"
+      },
+      {
+        "id": "S3",
+        "name": "Sam",
+        "gender": "male",
+        "accent": "american",
+        "role": "student"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Right, let's go through your presentation plan on bird migration. Hannah, you start."
+      },
+      {
+        "speaker": "S2",
+        "text": "We're planning to focus on the Arctic tern, which makes the longest migration of any animal, about seventy thousand kilometres a year."
+      },
+      {
+        "speaker": "S3",
+        "text": "We decided on the tern because there's plenty of data from tracking devices. Previously, scientists had to guess where birds went."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good. How will you explain how they navigate? That's the key question."
+      },
+      {
+        "speaker": "S2",
+        "text": "There are three main theories. One is that birds use the sun and stars. Another is that they follow landmarks like coastlines. And the third is that they can sense the Earth's magnetic field."
+      },
+      {
+        "speaker": "S3",
+        "text": "We think the magnetic field idea is the most convincing, because experiments show that birds become confused when magnets are placed near them."
+      },
+      {
+        "speaker": "S1",
+        "text": "Be careful. Convincing is a strong word. The research is promising, but nobody has fully proved how the magnetic sense works. I'd say the evidence strongly suggests, rather than confirms."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's a fair point. We'll adjust the wording."
+      },
+      {
+        "speaker": "S1",
+        "text": "What about threats to migration?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Climate change is the big one. Spring is arriving earlier, so birds may reach their breeding grounds too late to find food. Also, building lights confuse night migrants in cities."
+      },
+      {
+        "speaker": "S1",
+        "text": "Both good. I'd add habitat loss at stopover sites. A bird flying thousands of kilometres needs places to rest and eat, and many wetlands have been drained."
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, we'll include that. Should we mention conservation projects?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Definitely. For instance, the Yellow Sea mudflats in China, which were nearly destroyed, are now partially protected, and some shorebirds are returning."
+      },
+      {
+        "speaker": "S3",
+        "text": "We found a good film clip about that. It's three minutes long."
+      },
+      {
+        "speaker": "S1",
+        "text": "Three minutes is a long clip in a twenty-minute presentation. Perhaps use a ninety-second excerpt, and keep the rest for the discussion."
+      },
+      {
+        "speaker": "S3",
+        "text": "All right. How should we divide the speaking time?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Equal time, obviously, but make sure each of you speaks about something you've researched in depth, rather than just reading from slides."
+      },
+      {
+        "speaker": "S2",
+        "text": "We'll do that. And the questions at the end?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Prepare two or three, and think about possible questions from the audience. For example, someone may ask how researchers actually track the birds."
+      },
+      {
+        "speaker": "S3",
+        "text": "We can answer that. The devices weigh less than a gram and are attached with a small harness."
+      },
+      {
+        "speaker": "S1",
+        "text": "Perfect. That's the sort of detail that shows you understand the methods. Let's meet again on Monday to run through the slides."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI407-Q01",
+          "number": 1,
+          "prompt": "Why did the students choose the Arctic tern?",
+          "options": [
+            {
+              "id": "A",
+              "text": "There is plenty of tracking data"
+            },
+            {
+              "id": "B",
+              "text": "It is the smallest bird that migrates"
+            },
+            {
+              "id": "C",
+              "text": "It breeds in the university's grounds"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "plenty of data from tracking devices"
+          },
+          "explanation": "The audio says: \"plenty of data from tracking devices\".",
+          "uuid": "4a9cbcc5-33da-5612-aa5e-c06474faed88"
+        },
+        {
+          "id": "LI407-Q02",
+          "number": 2,
+          "prompt": "Which navigation theory do the students find most convincing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The sun and stars"
+            },
+            {
+              "id": "B",
+              "text": "The Earth's magnetic field"
+            },
+            {
+              "id": "C",
+              "text": "Landmarks such as coastlines"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "magnetic field idea is the most convincing"
+          },
+          "explanation": "The audio says: \"magnetic field idea is the most convincing\".",
+          "uuid": "b0b7d6bf-b9b0-52c1-bef0-4c96fa97bcfe"
+        },
+        {
+          "id": "LI407-Q03",
+          "number": 3,
+          "prompt": "What does the tutor say about the students' wording?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The wording is too cautious for the data"
+            },
+            {
+              "id": "B",
+              "text": "Strongly suggests is better than confirms"
+            },
+            {
+              "id": "C",
+              "text": "The wording is accurate and needs no change"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "strongly suggests, rather than confirms"
+          },
+          "explanation": "The audio says: \"strongly suggests, rather than confirms\".",
+          "uuid": "ccd7f9d2-4dd9-50ef-b069-74bb6dad9828"
+        },
+        {
+          "id": "LI407-Q04",
+          "number": 4,
+          "prompt": "Why is climate change a threat to migrating birds?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They may arrive too late to find food"
+            },
+            {
+              "id": "B",
+              "text": "They may fly in the wrong direction"
+            },
+            {
+              "id": "C",
+              "text": "Their nests are destroyed by storms"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "reach their breeding grounds too late to find food"
+          },
+          "explanation": "The audio says: \"reach their breeding grounds too late to find food\".",
+          "uuid": "b0ecc828-e245-581a-9efd-dd27a2446d2b"
+        },
+        {
+          "id": "LI407-Q05",
+          "number": 5,
+          "prompt": "What threat does the tutor add?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hunting of the birds along the route"
+            },
+            {
+              "id": "B",
+              "text": "Loss of habitat at stopover sites"
+            },
+            {
+              "id": "C",
+              "text": "Noise from aircraft near airports"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "habitat loss at stopover sites"
+          },
+          "explanation": "The audio says: \"habitat loss at stopover sites\".",
+          "uuid": "0ab70ab2-d1a5-5916-bd23-ae8ba3fa74b0"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI407-Q06",
+          "number": 6,
+          "prompt": "What has happened to the Yellow Sea mudflats?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are now partly protected"
+            },
+            {
+              "id": "B",
+              "text": "They have been destroyed"
+            },
+            {
+              "id": "C",
+              "text": "They have been turned into farmland"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "now partially protected"
+          },
+          "explanation": "The audio says: \"now partially protected\".",
+          "uuid": "b70cb8a0-b0b3-500b-802f-e24df24ddeb5"
+        },
+        {
+          "id": "LI407-Q07",
+          "number": 7,
+          "prompt": "What does the tutor advise about the film clip?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show the whole three-minute clip"
+            },
+            {
+              "id": "B",
+              "text": "Show a ninety-second part of it"
+            },
+            {
+              "id": "C",
+              "text": "Leave it out and use a photograph"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "ninety-second excerpt"
+          },
+          "explanation": "The audio says: \"ninety-second excerpt\".",
+          "uuid": "b567ad6b-05a1-593b-b88c-230422320b0c"
+        },
+        {
+          "id": "LI407-Q08",
+          "number": 8,
+          "prompt": "How should the students share the speaking time?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Each speaks about their own research"
+            },
+            {
+              "id": "B",
+              "text": "One student speaks for the whole group"
+            },
+            {
+              "id": "C",
+              "text": "They read the slides aloud in turn"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "something you've researched in depth"
+          },
+          "explanation": "The audio says: \"something you've researched in depth\".",
+          "uuid": "064ba620-45d5-50e3-8fd5-69a93eae88c1"
+        },
+        {
+          "id": "LI407-Q09",
+          "number": 9,
+          "prompt": "What question might the audience ask?",
+          "options": [
+            {
+              "id": "A",
+              "text": "How researchers track the birds"
+            },
+            {
+              "id": "B",
+              "text": "Why birds sing so early in spring"
+            },
+            {
+              "id": "C",
+              "text": "How birds find food in the winter"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "how researchers actually track the birds"
+          },
+          "explanation": "The audio says: \"how researchers actually track the birds\".",
+          "uuid": "c80536f5-9c47-5eb0-bb24-92f6b7f45f09"
+        },
+        {
+          "id": "LI407-Q10",
+          "number": 10,
+          "prompt": "What do the students say about the tracking devices?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are very expensive"
+            },
+            {
+              "id": "B",
+              "text": "They are solar powered"
+            },
+            {
+              "id": "C",
+              "text": "They are extremely light"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "weigh less than a gram"
+          },
+          "explanation": "The audio says: \"weigh less than a gram\".",
+          "uuid": "62d66ee1-ce08-515e-bf1e-0a1763f9998e"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "d2b813eb-55e8-489e-b1ab-24f7c8e3ea9e",
+  "derived": {
+    "word_count": 395,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 10,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.95,
+    "answer_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 1
+    },
+    "content_hash": "aa499b36089d3f6d"
+  }
+}

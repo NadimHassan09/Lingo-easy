@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lingoeasy/generation_metadata.schema.json",
+  "title": "Generation provenance",
+  "type": "object",
+  "required": [
+    "generator",
+    "generator_version",
+    "assembly",
+    "seed",
+    "generated_at",
+    "spec_source",
+    "spec_sha256",
+    "authoring",
+    "raw_spec"
+  ],
+  "properties": {
+    "generator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generator_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "assembly": {
+      "const": "deterministic"
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "spec_source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "spec_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "authoring": {
+      "type": "object",
+      "required": [
+        "method",
+        "provider",
+        "model",
+        "runtime_llm_calls"
+      ],
+      "properties": {
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provider": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generation_parameters": {
+          "type": "string",
+          "minLength": 1
+        },
+        "runtime_llm_calls": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "raw_spec": {
+      "type": "object"
+    }
+  }
+}

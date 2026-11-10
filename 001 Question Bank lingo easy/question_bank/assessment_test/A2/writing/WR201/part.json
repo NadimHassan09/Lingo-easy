@@ -1,0 +1,504 @@
+{
+  "schema_version": "1.0",
+  "id": "WR201",
+  "uuid": "b22e1eaa-a743-5619-9693-1c4ee25f464f",
+  "version": "1.1.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "assessment",
+    "level": "A2"
+  },
+  "target_cefr": "A2",
+  "level": {
+    "cefr": "A2",
+    "band": 3.5
+  },
+  "ielts_reference": {
+    "band_range": [
+      3.0,
+      3.5
+    ],
+    "note": "Approximate band-equivalent from config/blueprint.json cefr_to_band; not an IELTS score and not calibrated."
+  },
+  "profile": "level_a2",
+  "topic": "tourism_and_events",
+  "context": "It is your friend Sam's birthday soon. You are planning a small party.",
+  "title": "A birthday invitation",
+  "part_type": "email_informal",
+  "skill_tag": "message_writing",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "email_informal",
+  "task": {
+    "title": "A birthday invitation",
+    "scenario": "It is your friend Sam's birthday soon. You are planning a small party.",
+    "prompt": "Write an email to a friend. Invite him or her to a party.",
+    "instructions": [
+      "Write about 70-100 words (at least 50).",
+      "You have about 14 minutes.",
+      "Make sure you cover all of the points listed.",
+      "You are writing for: a friend. Style: informal, friendly."
+    ],
+    "required_points": [
+      "say what the party is for",
+      "give the day, time and place",
+      "say what you will eat and do",
+      "ask your friend to answer"
+    ],
+    "audience": "a friend",
+    "register": "informal, friendly",
+    "response_type": "email_informal",
+    "word_count": {
+      "minimum": 50,
+      "suggested_min": 70,
+      "suggested_max": 100,
+      "maximum": 150
+    },
+    "suggested_minutes": 14
+  },
+  "expected_response": {
+    "content_points": [
+      "say what the party is for",
+      "give the day, time and place",
+      "say what you will eat and do",
+      "ask your friend to answer"
+    ],
+    "required_elements": [
+      "Address: say what the party is for",
+      "Address: give the day, time and place",
+      "Address: say what you will eat and do",
+      "Address: ask your friend to answer"
+    ],
+    "optional_elements": [
+      "a dress suggestion",
+      "directions"
+    ],
+    "organisation": [
+      "greeting",
+      "two short paragraphs",
+      "closing"
+    ],
+    "vocabulary_demands": [
+      "parties and celebrations",
+      "days and times",
+      "food and music"
+    ],
+    "grammar_demands": [
+      {
+        "id": "future_forms",
+        "level": "A2",
+        "extension": false
+      },
+      {
+        "id": "modals_ability_permission",
+        "level": "A1",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Short connected text, one paragraph at most.",
+    "linguistic_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Request, offer, invite, apologise",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Hi ...,",
+          "I am having a party for my birthday.",
+          "It is on Friday at 7 pm at my house.",
+          "We will eat pizza and play music.",
+          "Can you come? Please tell me."
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "message_writing",
+    "secondary_subskills": [
+      "sentence_construction"
+    ],
+    "cognitive_processes": [
+      "make_request_or_offer"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.message_writing.A2.1",
+        "text": "Write a short informal invitation that gives time, place and activities",
+        "measurable_verb": "write",
+        "criteria": [
+          "W_TA",
+          "W_CC",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "A2",
+    "recommended_cefr": "A2",
+    "cefr_confidence": "low",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.136,
+    "language_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Request, offer, invite, apologise",
+    "expected_performance": [
+      "Covers all required points briefly and keeps to the topic; purpose of the message or text is clear.",
+      "Ideas follow a clear order; common linkers (and, but, because, so, then) are used mostly correctly.",
+      "Uses everyday vocabulary suited to the topic with some variety; errors rarely block meaning."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 0.5, 'cognition': 1.0, 'length': 0.92, 'abstractness': 0.5, 'prompt_language': 0.18}; composite 0.68 -> A2. Original target A2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 0.5,
+      "cognition": 1.0,
+      "length": 0.92,
+      "abstractness": 0.5,
+      "prompt_language": 0.18
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 6.2,
+      "long_word_ratio": 0.0
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "A2",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Covers all required points briefly and keeps to the topic; purpose of the message or text is clear. Required points: say what the party is for; give the day, time and place; say what you will eat and do; ask your friend to answer",
+        "weak_performance": "Several required points missing, or the purpose of the text is unclear.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: say what the party is for; give the day, time and place; say what you will eat and do; ask your friend to answer.",
+        "common_error_patterns": [
+          "answering only the first point",
+          "no reason given",
+          "missing greeting or ending in a message"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Ideas follow a clear order; common linkers (and, but, because, so, then) are used mostly correctly.",
+        "weak_performance": "Ideas listed without links; frequent repetition of 'and'.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "only and / then",
+          "using 'because' without a result"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Uses everyday vocabulary suited to the topic with some variety; errors rarely block meaning.",
+        "weak_performance": "Same words repeated; frequent wrong word choice or spelling affects meaning.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: parties and celebrations; days and times; food and music.",
+        "common_error_patterns": [
+          "confusing similar words (make/do)",
+          "literal translation from Arabic"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Simple sentences and some past or future forms are correct; some complex sentences attempted with errors that rarely block meaning.",
+        "weak_performance": "Frequent errors in tense and agreement; very few complex sentences.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: future_forms, modals_ability_permission.",
+        "common_error_patterns": [
+          "past simple irregular forms",
+          "preposition of time/place",
+          "plural nouns"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "description": "Whether tone, formality, conventions of text type and politeness suit the audience and purpose.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Tone is polite or friendly as the task requires; uses basic message conventions. Audience: a friend. Register: informal, friendly",
+        "weak_performance": "Too informal in a polite message or too stiff in a friendly one.",
+        "expected_evidence": "Greeting/closing; politeness markers; formality of vocabulary and structures; conventions.",
+        "common_error_patterns": [
+          "too informal for a teacher",
+          "Dear Friend to a shop"
+        ],
+        "related_subskills": [
+          "message_writing",
+          "sentence_construction"
+        ],
+        "evaluation_limitations": "Only scored where the task defines an audience/register; otherwise treat as not applicable.",
+        "diagnostic_categories": [
+          "D_REGISTER"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      }
+    ],
+    "required_demonstrations": [
+      "Address every required point: say what the party is for; give the day, time and place; say what you will eat and do; ask your friend to answer",
+      "Use language appropriate to: a friend"
+    ],
+    "optional_demonstrations": [
+      "a dress suggestion",
+      "directions"
+    ],
+    "not_penalised": [
+      "absence of complex sentences or of conditionals",
+      "minor spelling or punctuation slips that do not hide meaning",
+      "informal vocabulary where the task is informal"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_GRAMMAR_RANGE",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_PREPOSITION",
+      "D_REGISTER",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "flagged",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": [
+      {
+        "severity": "warn",
+        "detail": "cefr_confidence_low: component spread sd=0.3"
+      }
+    ]
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.1.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:42:58+02:00",
+    "spec_source": "productive/specs/writing_*.py (A2-01)",
+    "spec_sha256": "b182f324e9ca6ceb42643820e95e5b959238fda86a26bf544ca3bbac3ea14db9",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "A2-01",
+      "lv": "A2",
+      "cat": "email_informal",
+      "topic": "tourism_and_events",
+      "title": "A birthday invitation",
+      "scen": "It is your friend Sam's birthday soon. You are planning a small party.",
+      "prompt": "Write an email to a friend. Invite him or her to a party.",
+      "pts": [
+        "say what the party is for",
+        "give the day, time and place",
+        "say what you will eat and do",
+        "ask your friend to answer"
+      ],
+      "aud": "a friend",
+      "reg": "informal, friendly",
+      "w": [
+        50,
+        70,
+        100,
+        150
+      ],
+      "mins": 14,
+      "vocab": [
+        "parties and celebrations",
+        "days and times",
+        "food and music"
+      ],
+      "gram": [
+        "future_forms",
+        "modals_ability_permission"
+      ],
+      "struct": [
+        "greeting",
+        "two short paragraphs",
+        "closing"
+      ],
+      "sub": "message_writing",
+      "sub2": [
+        "sentence_construction"
+      ],
+      "cog": [
+        "make_request_or_offer"
+      ],
+      "obj": [
+        "Write a short informal invitation that gives time, place and activities"
+      ],
+      "outline": [
+        "Hi ...,",
+        "I am having a party for my birthday.",
+        "It is on Friday at 7 pm at my house.",
+        "We will eat pizza and play music.",
+        "Can you come? Please tell me."
+      ],
+      "opt": [
+        "a dress suggestion",
+        "directions"
+      ],
+      "abs": 0
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.1.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "da7a3d295eb21c5e50266a47acf4b156c699552e75e2f0b1e6987d074b643a93"
+  }
+}

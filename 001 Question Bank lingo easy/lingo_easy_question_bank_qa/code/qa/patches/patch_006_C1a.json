@@ -1,0 +1,586 @@
+[
+ {
+  "id": "LI501-Q01",
+  "set": {
+   "C": "Roughly half of it"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI501-Q04",
+  "set": {
+   "B": "Life has been found on Jupiter's moons",
+   "C": "Sunlight is unimportant for life near the surface"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI501-Q07",
+  "set": {
+   "A": "She fully accepts it and supports mining",
+   "C": "She dismisses it because land mining is safer"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI501-Q09",
+  "set": {
+   "A": "It is exaggerated by the mining industry",
+   "B": "It proves that deep-sea mining is necessary"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI502-Q01",
+  "set": {
+   "A": "Placebos cured most of the patients tested",
+   "C": "Placebos had no measurable effect on patients"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI502-Q02",
+  "set": {
+   "A": "He used too few trials in his review",
+   "C": "He tested only painkillers, not other drugs"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI502-Q04",
+  "set": {
+   "A": "They can shrink tumours as well as drugs",
+   "B": "They work better than real drugs for pain"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI502-Q05",
+  "set": {
+   "B": "The body produces antibodies against the pill",
+   "C": "The patient sleeps better and so feels better"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI502-Q06",
+  "set": {
+   "B": "Plain packaging works better than branded boxes",
+   "C": "Packaging has no effect on how people respond"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI502-Q08",
+  "set": {
+   "A": "Very few doctors are willing to admit it",
+   "C": "All professional guidelines allow it"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI502-Q09",
+  "set": {
+   "A": "Doctors should prescribe vitamins as placebos openly",
+   "B": "Placebos should be removed from medical research"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI502-Q10",
+  "set": {
+   "B": "Placebos are a myth in modern medicine",
+   "C": "Medicine should ignore the role of the mind"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI503-Q01",
+  "set": {
+   "A": "Whether exam stress causes people to use social media",
+   "B": "Whether students sleep enough during exam periods"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI503-Q04",
+  "set": {
+   "A": "Hide it in an appendix at the end",
+   "C": "Remove all the affected responses from the data"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI503-Q05",
+  "set": {
+   "A": "Phones may cause poor sleep before exams",
+   "B": "Teachers may set too much work in exam weeks"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI503-Q06",
+  "set": {
+   "A": "Is the main cause of",
+   "B": "Has been proved to lead to"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI503-Q07",
+  "set": {
+   "A": "It is shorter than other available scales",
+   "C": "It is free to use without permission"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI503-Q08",
+  "set": {
+   "A": "Using a ten-question scale of stress",
+   "B": "Sending the questionnaire by university email"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI503-Q09",
+  "set": {
+   "B": "Collect no data on social media use at all",
+   "C": "Destroy all the data after the pilot study"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI503-Q10",
+  "set": {
+   "A": "Test with the whole year group first",
+   "C": "Skip it if the deadline is too close"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q02",
+  "set": {
+   "A": "A small financial reward that is paid for changing behaviour",
+   "B": "A law that bans choices known to be harmful"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q03",
+  "set": {
+   "A": "Banning chocolate in the canteen",
+   "C": "Taxing sugary drinks heavily"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q04",
+  "set": {
+   "A": "People prefer to avoid risk when saving money",
+   "B": "People prefer familiar brands to unknown ones"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q05",
+  "set": {
+   "B": "Signs about environmental benefits worked better",
+   "C": "Signs made little difference to towel reuse"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q06",
+  "set": {
+   "B": "Participation fell to about half",
+   "C": "Most employees decided to opt out"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q07",
+  "set": {
+   "A": "They are very effective at changing habits",
+   "B": "They are legally required in public policy"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI504-Q09",
+  "set": {
+   "B": "The experiments were usually too short to measure",
+   "C": "Nudges stopped working after the first year"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI505-Q03",
+  "set": {
+   "A": "The north field is flooded in wet weather",
+   "C": "The south field is quieter at night"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI505-Q04",
+  "set": {
+   "A": "Visitors' bags were not checked properly",
+   "C": "The gates opened late on Friday"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI505-Q05",
+  "set": {
+   "A": "A ticket checking app for visitors",
+   "B": "A separate gate for people with campers"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI505-Q06",
+  "set": {
+   "A": "It is required by the safety regulations",
+   "C": "It prevents arguments with security staff"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI505-Q07",
+  "set": {
+   "A": "The festival will close for the day",
+   "B": "Visitors will be sent home at once"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI505-Q09",
+  "set": {
+   "B": "Staff may park on the verge at night",
+   "C": "Ambulances may park anywhere they need to"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI505-Q10",
+  "set": {
+   "A": "Evacuate the main field at once",
+   "B": "Call the ambulance to the back gate"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI506-Q03",
+  "set": {
+   "B": "After a rise in the price of cars",
+   "C": "After a software update caused delays"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI506-Q04",
+  "set": {
+   "A": "Self-driving cars are not yet allowed on roads",
+   "C": "Insurance companies refuse to cover the cars"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI506-Q05",
+  "set": {
+   "B": "Cheaper cars but more accidents",
+   "C": "No change to design but higher insurance"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI506-Q06",
+  "set": {
+   "A": "Most driving jobs will vanish within a year",
+   "B": "Driving jobs will stay almost unchanged"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI506-Q08",
+  "set": {
+   "A": "Lower emissions in crowded city centres",
+   "C": "Shorter journeys on crowded roads"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI506-Q09",
+  "set": {
+   "A": "Jobs, safety, trust and law, accessibility",
+   "C": "Accessibility, safety, jobs, trust and law"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI507-Q01",
+  "set": {
+   "A": "As a sign of lazy or careless speech",
+   "B": "As a type of regional dialect with grammar"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI507-Q02",
+  "set": {
+   "A": "Jargon is slang used only by young people",
+   "C": "Jargon is a regional variety with its own grammar"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI507-Q03",
+  "set": {
+   "B": "It belongs to one region",
+   "C": "It stays within one profession"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI507-Q04",
+  "set": {
+   "B": "It makes everyday speech more formal",
+   "C": "It helps outsiders to learn new vocabulary"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI507-Q05",
+  "set": {
+   "A": "Terms now spread more slowly than before",
+   "B": "Terms are now mainly spread by dictionaries"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI507-Q06",
+  "set": {
+   "B": "Advertisers ban terms once they become popular",
+   "C": "Dictionaries remove terms after a few years"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI507-Q07",
+  "set": {
+   "A": "It was invented by Swift as an insult",
+   "C": "It disappeared from dictionaries after 1800"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI507-Q08",
+  "set": {
+   "B": "It began as technical jargon in photography",
+   "C": "It is no longer used by young people"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI507-Q09",
+  "set": {
+   "A": "They write less accurately than their peers",
+   "C": "They avoid formal registers in all contexts"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI508-Q03",
+  "set": {
+   "A": "They are strictly protected by city laws",
+   "C": "They have no natural predators in cities"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI508-Q04",
+  "set": {
+   "B": "Cities have fewer people than farmland areas",
+   "C": "Cities have warmer winters than the countryside"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI508-Q05",
+  "set": {
+   "A": "Nests are only found in private gardens",
+   "C": "Nests are declining in towns more than farms"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI508-Q06",
+  "set": {
+   "B": "The changes are clearly harmful to the birds",
+   "C": "The changes are clearly beneficial to the birds"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI508-Q09",
+  "set": {
+   "A": "Banning pet cats at night",
+   "C": "Building more parks in suburbs"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI508-Q10",
+  "set": {
+   "A": "Cities are generally bad for wildlife",
+   "B": "Wild habitats no longer need protection"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI509-Q01",
+  "set": {
+   "A": "The deadline for delivery has moved",
+   "C": "Greg has asked for a new design"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI509-Q03",
+  "set": {
+   "A": "Half upfront, a quarter at design and a quarter at launch",
+   "C": "Fifty per cent upfront and the rest after three months"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI509-Q05",
+  "set": {
+   "A": "It excludes the website content she writes",
+   "B": "It lasts for only one year after delivery"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI509-Q06",
+  "set": {
+   "B": "Maya owns everything and licenses it to Greg",
+   "C": "Greg owns all templates and code she has made"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI509-Q07",
+  "set": {
+   "B": "She will be on holiday for part of February",
+   "C": "She has agreed to start another client's job"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI509-Q08",
+  "set": {
+   "A": "Full payment in advance and one round of changes",
+   "C": "A signed contract and a deposit by next week"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI509-Q10",
+  "set": {
+   "A": "No cancellation allowed after the contract is signed",
+   "C": "A refund of the first payment on request"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI510-Q02",
+  "set": {
+   "B": "Museums could lose a great deal of money",
+   "C": "Tribes could lose access to their land"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI510-Q03",
+  "set": {
+   "B": "Destroy remains that cannot be identified",
+   "C": "Stop DNA research on any human remains"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI510-Q04",
+  "set": {
+   "A": "Research on human remains has largely ended",
+   "B": "Museums have refused to comply with the law"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ }
+]

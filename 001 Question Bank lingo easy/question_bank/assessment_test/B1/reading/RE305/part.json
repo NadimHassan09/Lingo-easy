@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE305",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "The Northern Lights",
+  "topic": "science",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "The Northern Lights",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The northern lights, also called the aurora borealis, are one of nature's most beautiful shows. They appear as green, pink or purple lights that move slowly across the night sky. People have admired them for thousands of years, and many cultures have stories to explain them."
+      },
+      {
+        "label": "B",
+        "text": "The lights are caused by the sun. The sun sends out a stream of tiny particles, and when these reach the Earth, they meet its magnetic field. Most of the particles are pushed away, but some travel along the field lines towards the north and south poles. There they hit gases in the air, and the gases give off light. Oxygen produces the green and red colours, while nitrogen produces blue and purple."
+      },
+      {
+        "label": "C",
+        "text": "The best places to see the northern lights are close to the Arctic Circle: northern Norway, Sweden, Finland, Iceland and parts of Canada and Alaska. The lights are most active between September and March, when the nights are long and dark. You need a clear sky, so a cloudy night is a disappointment, and it is better to be far from city lights. Many tourists join organised trips, which cost from three hundred to over a thousand pounds, but local guides say the best chance is simply to be patient."
+      },
+      {
+        "label": "D",
+        "text": "Scientists can now predict when the lights will be strong, because they watch the sun for storms. A large solar storm can make the aurora visible much farther south than usual. In 2024, people saw it in countries such as Italy and Mexico. However, strong storms also cause problems for satellites and electricity networks, so forecasts are important for more than tourism."
+      },
+      {
+        "label": "E",
+        "text": "If you plan to go, remember to dress warmly. Waiting outside at night in winter can be very cold, and you may wait for hours. A phone with a night-photo setting or a camera with a tripod will help you keep a memory of what you see."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE305-Q01",
+          "number": 1,
+          "prompt": "What are the northern lights also called?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The aurora borealis"
+            },
+            {
+              "id": "B",
+              "text": "The solar storm"
+            },
+            {
+              "id": "C",
+              "text": "The polar glow"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "also called the aurora borealis"
+          },
+          "explanation": "The text says: \"also called the aurora borealis\".",
+          "uuid": "807bb73b-4e4a-5085-b9ad-75ae457b7588"
+        },
+        {
+          "id": "RE305-Q02",
+          "number": 2,
+          "prompt": "What causes the northern lights?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Particles from the sun"
+            },
+            {
+              "id": "B",
+              "text": "Clouds near the poles"
+            },
+            {
+              "id": "C",
+              "text": "Light from cities"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "caused by the sun"
+          },
+          "explanation": "The text says: \"caused by the sun\".",
+          "uuid": "cd0b2537-595b-569f-b20f-66f64002dd84"
+        },
+        {
+          "id": "RE305-Q03",
+          "number": 3,
+          "prompt": "Which gas produces the green and red colours?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Oxygen"
+            },
+            {
+              "id": "B",
+              "text": "Nitrogen"
+            },
+            {
+              "id": "C",
+              "text": "Hydrogen"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "Oxygen produces the green and red colours"
+          },
+          "explanation": "The text says: \"Oxygen produces the green and red colours\".",
+          "uuid": "3268a5e7-da14-5fc1-a51e-e54ba748b25c"
+        },
+        {
+          "id": "RE305-Q04",
+          "number": 4,
+          "prompt": "When are the lights most active?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Between April and August"
+            },
+            {
+              "id": "B",
+              "text": "Only around midsummer in June"
+            },
+            {
+              "id": "C",
+              "text": "Between September and March"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "most active between September and March"
+          },
+          "explanation": "The text says: \"most active between September and March\".",
+          "uuid": "00f8f5cb-d2dd-56bd-b426-64fbd52f3091"
+        },
+        {
+          "id": "RE305-Q05",
+          "number": 5,
+          "prompt": "What is a problem when trying to see the lights?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Warm weather"
+            },
+            {
+              "id": "B",
+              "text": "Too many tourists"
+            },
+            {
+              "id": "C",
+              "text": "Cloudy skies"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "a cloudy night is a disappointment"
+          },
+          "explanation": "The text says: \"a cloudy night is a disappointment\".",
+          "uuid": "6a8e5330-35f9-5deb-9170-ff1bfc0fd4db"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE305-Q06",
+          "number": 6,
+          "prompt": "Nitrogen produces blue and purple colours.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "nitrogen produces blue and purple"
+          },
+          "explanation": "The text says: \"nitrogen produces blue and purple\".",
+          "uuid": "cec1472e-2dee-52f1-b567-b21bb919dd26"
+        },
+        {
+          "id": "RE305-Q07",
+          "number": 7,
+          "prompt": "The lights can only be seen inside the Arctic Circle.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "visible much farther south than usual"
+          },
+          "explanation": "The text says: \"visible much farther south than usual\".",
+          "uuid": "216422e8-8d46-5352-8fd6-45f1fd2b9e75"
+        },
+        {
+          "id": "RE305-Q08",
+          "number": 8,
+          "prompt": "Organised trips cost the same everywhere.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "cost from three hundred to over a thousand pounds"
+          },
+          "explanation": "The text says: \"cost from three hundred to over a thousand pounds\".",
+          "uuid": "76cbbce8-18f5-5e23-a047-91e6f370a2ac"
+        },
+        {
+          "id": "RE305-Q09",
+          "number": 9,
+          "prompt": "Solar storms can cause problems for satellites.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "problems for satellites and electricity networks"
+          },
+          "explanation": "The text says: \"problems for satellites and electricity networks\".",
+          "uuid": "9c4276d1-7ba7-5b1f-a66d-b9bfced65105"
+        },
+        {
+          "id": "RE305-Q10",
+          "number": 10,
+          "prompt": "The northern lights are brighter in winter than in autumn.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "e853299d-6f9c-5cb5-88f5-3b964cbd3fd9"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE305-Q11",
+          "number": 11,
+          "prompt": "Local guides say the best chance is simply to be _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "rich"
+            },
+            {
+              "id": "B",
+              "text": "patient"
+            },
+            {
+              "id": "C",
+              "text": "lucky"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "simply to be patient"
+          },
+          "explanation": "The text says: \"simply to be patient\".",
+          "uuid": "cce701a6-0a38-56c0-b2ed-a7e008b877c8"
+        },
+        {
+          "id": "RE305-Q12",
+          "number": 12,
+          "prompt": "In 2024, people saw the aurora in Italy and _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Canada"
+            },
+            {
+              "id": "B",
+              "text": "Mexico"
+            },
+            {
+              "id": "C",
+              "text": "Norway"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Italy and Mexico"
+          },
+          "explanation": "The text says: \"Italy and Mexico\".",
+          "uuid": "e287040a-0784-5bf1-b2e2-85dfcfa29a10"
+        },
+        {
+          "id": "RE305-Q13",
+          "number": 13,
+          "prompt": "A camera with a _____ will help you take photos.",
+          "options": [
+            {
+              "id": "A",
+              "text": "tripod"
+            },
+            {
+              "id": "B",
+              "text": "flash"
+            },
+            {
+              "id": "C",
+              "text": "zoom"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "camera with a tripod"
+          },
+          "explanation": "The text says: \"camera with a tripod\".",
+          "uuid": "18a7ad4b-7bdc-5d14-9bf0-983c7d836bd4"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "eaf11ad5-2ed0-413f-9d15-6954cd5cb32b",
+  "derived": {
+    "word_count": 319,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 6,
+      "B": 4,
+      "C": 3
+    },
+    "content_hash": "964431347b392963"
+  }
+}

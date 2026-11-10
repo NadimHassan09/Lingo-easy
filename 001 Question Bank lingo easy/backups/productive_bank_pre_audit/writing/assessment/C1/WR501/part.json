@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.0",
+  "id": "WR501",
+  "uuid": "9f808703-2a26-58a1-be7e-7428932b87f1",
+  "version": "1.0.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "assessment",
+    "level": "C1"
+  },
+  "target_cefr": "C1",
+  "profile": "level_c1",
+  "topic": "work_and_careers",
+  "context": "Economists disagree about how far automation will change employment.",
+  "title": "Automation and the future of work",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "argumentative_essay",
+  "task": {
+    "title": "Automation and the future of work",
+    "scenario": "Economists disagree about how far automation will change employment.",
+    "prompt": "Increasing automation is often described as a threat to jobs, but some analysts see it as an opportunity. Evaluate these perspectives and argue for the position you find better supported.",
+    "instructions": [
+      "Write about 300-350 words (at least 250).",
+      "You have about 40 minutes.",
+      "Make sure you cover all of the points below.",
+      "You are writing for: an informed, academic readership. Style: formal, analytical."
+    ],
+    "required_points": [
+      "analyse the case that automation threatens employment",
+      "analyse the case that it creates opportunity",
+      "weigh the evidence and take a qualified position",
+      "consider consequences for workers or policy"
+    ],
+    "audience": "an informed, academic readership",
+    "register": "formal, analytical",
+    "response_type": "argumentative_essay",
+    "word_count": {
+      "minimum": 250,
+      "suggested_min": 300,
+      "suggested_max": 350,
+      "maximum": 420
+    },
+    "suggested_minutes": 40
+  },
+  "expected_response": {
+    "content_points": [
+      "analyse the case that automation threatens employment",
+      "analyse the case that it creates opportunity",
+      "weigh the evidence and take a qualified position",
+      "consider consequences for workers or policy"
+    ],
+    "required_elements": [
+      "Address: analyse the case that automation threatens employment",
+      "Address: analyse the case that it creates opportunity",
+      "Address: weigh the evidence and take a qualified position",
+      "Address: consider consequences for workers or policy"
+    ],
+    "optional_elements": [
+      "a historical analogy"
+    ],
+    "organisation": [
+      "introduction framing the debate",
+      "balanced analysis",
+      "qualified thesis",
+      "conclusion with implications"
+    ],
+    "vocabulary_demands": [
+      "labour markets and skills",
+      "abstract nouns for trends and effects",
+      "evaluation and concession language"
+    ],
+    "grammar_demands": [
+      {
+        "id": "nominalisation",
+        "level": "C1",
+        "extension": false
+      },
+      {
+        "id": "hedging_and_tentative_language",
+        "level": "C1",
+        "extension": false
+      },
+      {
+        "id": "inversion_emphasis",
+        "level": "C1",
+        "extension": false
+      },
+      {
+        "id": "mixed_conditionals",
+        "level": "C1",
+        "extension": true
+      }
+    ],
+    "discourse_complexity": "Fully organised extended discourse with explicit argument structure.",
+    "linguistic_demand": "Well-structured, detailed discourse on complex and abstract topics; qualified positions; flexible register; nominalisation and hedging.",
+    "cognitive_demand": "Critically evaluate claims and evidence; Integrate several viewpoints or sources; Analyse causes, effects and solutions",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Frame the debate",
+          "Threat argument and its limits",
+          "Opportunity argument and its limits",
+          "Qualified position",
+          "Implications"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "argument_development",
+    "secondary_subskills": [
+      "comparison_evaluation",
+      "discourse_organisation"
+    ],
+    "cognitive_processes": [
+      "critical_evaluation",
+      "synthesise_viewpoints",
+      "analyse_cause_effect"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.argument_development.C1.1",
+        "text": "Construct a qualified, well-supported argument that weighs competing perspectives",
+        "measurable_verb": "construct",
+        "criteria": [
+          "W_TA",
+          "W_CC",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "C1",
+    "recommended_cefr": "C1",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.786,
+    "language_demand": "Well-structured, detailed discourse on complex and abstract topics; qualified positions; flexible register; nominalisation and hedging.",
+    "cognitive_demand": "Critically evaluate claims and evidence; Integrate several viewpoints or sources; Analyse causes, effects and solutions",
+    "expected_performance": [
+      "Addresses all parts fully and insightfully; position is nuanced and sustained; ideas are well supported and weighed against alternatives.",
+      "Skilful sequencing and paragraphing; cohesive devices and reference used flexibly with only occasional over- or under-use.",
+      "Wide range used flexibly and precisely; natural collocation; occasional slips only."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 4.0, 'cognition': 4.0, 'length': 4.27, 'abstractness': 4.2, 'prompt_language': 2.56}; composite 3.93 -> C1. Original target C1. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 4.0,
+      "cognition": 4.0,
+      "length": 4.27,
+      "abstractness": 4.2,
+      "prompt_language": 2.56
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 9.7,
+      "long_word_ratio": 0.207
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "C1",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Addresses all parts fully and insightfully; position is nuanced and sustained; ideas are well supported and weighed against alternatives. Required points: analyse the case that automation threatens employment; analyse the case that it creates opportunity; weigh the evidence and take a qualified position; consider consequences for workers or policy",
+        "weak_performance": "Parts of the task treated superficially; position not weighed against alternatives; support thin or repetitive.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: analyse the case that automation threatens employment; analyse the case that it creates opportunity; weigh the evidence and take a qualified position; consider consequences for workers or policy.",
+        "common_error_patterns": [
+          "describing rather than evaluating",
+          "ignoring the counter-argument",
+          "position changes midway"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "comparison_evaluation",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Skilful sequencing and paragraphing; cohesive devices and reference used flexibly with only occasional over- or under-use.",
+        "weak_performance": "Some lack of flexibility in cohesion; occasional faulty reference.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "over-signposting",
+          "weak substitution and ellipsis"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "comparison_evaluation",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Wide range used flexibly and precisely; natural collocation; occasional slips only.",
+        "weak_performance": "Occasional imprecision, awkward collocation or register mismatch.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: labour markets and skills; abstract nouns for trends and effects; evaluation and concession language.",
+        "common_error_patterns": [
+          "near-synonym misuse",
+          "over-informal words"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "comparison_evaluation",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ]
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Wide range of complex structures used flexibly; the majority of sentences are error-free.",
+        "weak_performance": "Occasional errors in complex or low-frequency forms.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: nominalisation, hedging_and_tentative_language, inversion_emphasis, mixed_conditionals.",
+        "common_error_patterns": [
+          "article and preposition slips in complex phrases",
+          "run-on sentences"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "comparison_evaluation",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ]
+      },
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "description": "Overall structure of the text and how far main ideas are developed, supported and linked to a position or purpose.",
+        "weight": 0.25,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Well-organised argument in which each paragraph advances the position; counter-arguments are anticipated; support is specific.",
+        "weak_performance": "Uneven development; counter-arguments missing; some paragraphs only descriptive.",
+        "expected_evidence": "Presence of position/thesis; paragraph topics; reasons and examples per point; conclusion.",
+        "common_error_patterns": [
+          "description instead of evaluation",
+          "unanswered counter-argument"
+        ],
+        "related_subskills": [
+          "argument_development",
+          "comparison_evaluation",
+          "discourse_organisation"
+        ],
+        "evaluation_limitations": "Do not apply to very short A1/A2 texts; the task does not require essay structure there.",
+        "diagnostic_categories": [
+          "D_ORGANISATION",
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_COMPARISON"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      }
+    ],
+    "required_demonstrations": [
+      "Address every required point: analyse the case that automation threatens employment; analyse the case that it creates opportunity; weigh the evidence and take a qualified position; consider consequences for workers or policy",
+      "Use language appropriate to: an informed, academic readership"
+    ],
+    "optional_demonstrations": [
+      "a historical analogy"
+    ],
+    "not_penalised": [
+      "absence of C2 stylistic devices",
+      "the writer's opinion itself (judge how it is argued, not which side is chosen)",
+      "factual inaccuracy beyond the supplied source material"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARGUMENT",
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_COMPARISON",
+      "D_GRAMMAR_RANGE",
+      "D_HEDGING",
+      "D_OFF_TASK",
+      "D_ORGANISATION",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SUPPORT",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/writing_*.py (C1-01)",
+    "spec_sha256": "d81bad1753ab5ac680518cdffb82b82f7aade88f18d7f476d2a6cf28a19989d3",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "C1-01",
+      "lv": "C1",
+      "cat": "argumentative_essay",
+      "topic": "work_and_careers",
+      "title": "Automation and the future of work",
+      "scen": "Economists disagree about how far automation will change employment.",
+      "prompt": "Increasing automation is often described as a threat to jobs, but some analysts see it as an opportunity. Evaluate these perspectives and argue for the position you find better supported.",
+      "pts": [
+        "analyse the case that automation threatens employment",
+        "analyse the case that it creates opportunity",
+        "weigh the evidence and take a qualified position",
+        "consider consequences for workers or policy"
+      ],
+      "aud": "an informed, academic readership",
+      "reg": "formal, analytical",
+      "w": [
+        250,
+        300,
+        350,
+        420
+      ],
+      "mins": 40,
+      "vocab": [
+        "labour markets and skills",
+        "abstract nouns for trends and effects",
+        "evaluation and concession language"
+      ],
+      "gram": [
+        "nominalisation",
+        "hedging_and_tentative_language",
+        "inversion_emphasis",
+        "mixed_conditionals"
+      ],
+      "struct": [
+        "introduction framing the debate",
+        "balanced analysis",
+        "qualified thesis",
+        "conclusion with implications"
+      ],
+      "sub": "argument_development",
+      "sub2": [
+        "comparison_evaluation",
+        "discourse_organisation"
+      ],
+      "cog": [
+        "critical_evaluation",
+        "synthesise_viewpoints",
+        "analyse_cause_effect"
+      ],
+      "obj": [
+        "Construct a qualified, well-supported argument that weighs competing perspectives"
+      ],
+      "outline": [
+        "Frame the debate",
+        "Threat argument and its limits",
+        "Opportunity argument and its limits",
+        "Qualified position",
+        "Implications"
+      ],
+      "opt": [
+        "a historical analogy"
+      ],
+      "abs": 3
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "2f8dc4112cda9d628113759e9b6da573180309b6397a2ca788d313109426cec8"
+  }
+}

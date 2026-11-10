@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE401",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "The Psychology of Habit",
+  "topic": "psychology",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "The Psychology of Habit",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Every morning, millions of people reach for their phones before they are fully awake. Most could not explain why. Psychologists estimate that around forty per cent of our daily actions are not conscious decisions but habits: behaviours repeated so often that they happen automatically. Understanding how habits work has become a major area of research, and it offers practical lessons for anyone who wants to change their behaviour."
+      },
+      {
+        "label": "B",
+        "text": "A habit has three parts, according to the researcher Charles Duhigg. First comes a cue, a trigger that tells the brain to start a routine. The routine is the behaviour itself, and the reward is the benefit that tells the brain the loop is worth remembering. For example, feeling stressed may lead to eating chocolate because it brings momentary comfort. Over time, the loop becomes so automatic that the brain barely needs to think."
+      },
+      {
+        "label": "C",
+        "text": "This explains why willpower alone often fails. Trying to stop a habit without changing the cue and reward is like trying to push water uphill. Studies of people trying to give up smoking suggest that those who replaced the routine with another, such as chewing gum or taking a short walk, were more successful than those who simply tried to resist. The cue and the reward remained, but a new behaviour filled the gap."
+      },
+      {
+        "label": "D",
+        "text": "How long does it take to form a new habit? A popular claim says twenty-one days, but this figure has little scientific basis. A study at University College London found that the average was sixty-six days, though individuals varied from eighteen to two hundred and fifty-four. Simple habits, like drinking a glass of water after breakfast, formed faster than complex ones, such as exercising for half an hour. Missing a single day did not significantly damage progress, which should reassure anyone who worries about perfection."
+      },
+      {
+        "label": "E",
+        "text": "Experts offer several suggestions for building good habits. Start small: a new routine that takes two minutes is easier to maintain than an ambitious one. Attach the new behaviour to an existing one, so that the old habit acts as a cue. And make the desired action easy, for instance by putting running shoes next to the bed. None of this is magic, but it works with the way the brain is built, rather than against it."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE401-Q01",
+          "number": 1,
+          "prompt": "What does the writer say about forty per cent of our daily actions?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are habits rather than conscious decisions"
+            },
+            {
+              "id": "B",
+              "text": "They are caused mainly by feeling stressed"
+            },
+            {
+              "id": "C",
+              "text": "They are planned in advance each morning"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "are not conscious decisions but habits"
+          },
+          "explanation": "The text says: \"are not conscious decisions but habits\".",
+          "uuid": "4a5fe162-cd46-58e8-84d7-d94905a55970"
+        },
+        {
+          "id": "RE401-Q02",
+          "number": 2,
+          "prompt": "In Duhigg's model, what is the reward?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The trigger that tells the brain to start"
+            },
+            {
+              "id": "B",
+              "text": "The behaviour that follows the trigger"
+            },
+            {
+              "id": "C",
+              "text": "The benefit that makes the brain remember the loop"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "the benefit that tells the brain the loop is worth remembering"
+          },
+          "explanation": "The text says: \"the benefit that tells the brain the loop is worth remembering\".",
+          "uuid": "37183984-3251-5f87-92bc-63e1c02c79c8"
+        },
+        {
+          "id": "RE401-Q03",
+          "number": 3,
+          "prompt": "Why does willpower alone often fail, according to the writer?",
+          "options": [
+            {
+              "id": "A",
+              "text": "People lack the motivation to continue"
+            },
+            {
+              "id": "B",
+              "text": "The cue and reward stay in place"
+            },
+            {
+              "id": "C",
+              "text": "Habits cannot be changed once they have formed"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "Trying to stop a habit without changing the cue and reward"
+          },
+          "explanation": "The text says: \"Trying to stop a habit without changing the cue and reward\".",
+          "uuid": "6892adcb-dc68-573b-b768-d6bb7d10ca4a"
+        },
+        {
+          "id": "RE401-Q04",
+          "number": 4,
+          "prompt": "What did the University College London study find about forming habits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It took 21 days on average"
+            },
+            {
+              "id": "B",
+              "text": "It took around 18 days on average"
+            },
+            {
+              "id": "C",
+              "text": "It took an average of 66 days"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "the average was sixty-six days"
+          },
+          "explanation": "The text says: \"the average was sixty-six days\".",
+          "uuid": "649866ef-65a7-5cb9-83b2-de5f562ed7a6"
+        },
+        {
+          "id": "RE401-Q05",
+          "number": 5,
+          "prompt": "What does the writer say about missing a single day?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It does not seriously damage progress"
+            },
+            {
+              "id": "B",
+              "text": "It means the habit must start again"
+            },
+            {
+              "id": "C",
+              "text": "It doubles the time needed to form it"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "did not significantly damage progress"
+          },
+          "explanation": "The text says: \"did not significantly damage progress\".",
+          "uuid": "981ff89a-7642-5ea1-a269-60b0d9e50407"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE401-Q06",
+          "number": 6,
+          "prompt": "Scientists have strong evidence that habits form in twenty-one days.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "has little scientific basis"
+          },
+          "explanation": "The text says: \"has little scientific basis\".",
+          "uuid": "67b044c7-c17e-5e0b-822a-6195fec8379a"
+        },
+        {
+          "id": "RE401-Q07",
+          "number": 7,
+          "prompt": "People who replaced the routine were more successful at giving up smoking.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "were more successful than those who simply tried to resist"
+          },
+          "explanation": "The text says: \"were more successful than those who simply tried to resist\".",
+          "uuid": "9a24b42a-30bc-5fb7-a7ae-6fdc8975bb66"
+        },
+        {
+          "id": "RE401-Q08",
+          "number": 8,
+          "prompt": "Simple habits formed faster than complex ones.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "formed faster than complex ones"
+          },
+          "explanation": "The text says: \"formed faster than complex ones\".",
+          "uuid": "f144e86a-9b3b-5f28-a636-e7b30f520072"
+        },
+        {
+          "id": "RE401-Q09",
+          "number": 9,
+          "prompt": "Charles Duhigg works at University College London.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "2d4430f4-e51f-5907-9874-d5dd82280807"
+        },
+        {
+          "id": "RE401-Q10",
+          "number": 10,
+          "prompt": "Putting running shoes next to the bed is an example of making an action easy.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "putting running shoes next to the bed"
+          },
+          "explanation": "The text says: \"putting running shoes next to the bed\".",
+          "uuid": "803003f3-41e4-571a-a274-690af9bd6387"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE401-Q11",
+          "number": 11,
+          "prompt": "A suggestion for linking a new behaviour to an existing one",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Attach the new behaviour to an existing one"
+          },
+          "explanation": "The text says: \"Attach the new behaviour to an existing one\".",
+          "uuid": "81c6c015-9f01-5a8e-9577-a61b9e7544b4"
+        },
+        {
+          "id": "RE401-Q12",
+          "number": 12,
+          "prompt": "An example of how stress can lead to an automatic behaviour",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "may lead to eating chocolate"
+          },
+          "explanation": "The text says: \"may lead to eating chocolate\".",
+          "uuid": "e79be282-c399-5643-80dd-cf310962cc50"
+        },
+        {
+          "id": "RE401-Q13",
+          "number": 13,
+          "prompt": "A reason why a widely believed figure should not be trusted",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "has little scientific basis"
+          },
+          "explanation": "The text says: \"has little scientific basis\".",
+          "uuid": "1b23c6e2-2b87-533b-a228-e58b900dfd14"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "483ae521-12e3-4834-9e8c-5ac1b60b1237",
+  "derived": {
+    "word_count": 381,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 5,
+      "B": 3,
+      "C": 4,
+      "D": 1
+    },
+    "content_hash": "569b69be9c7816b5"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "id": "RE107",
+  "skill": "reading",
+  "part_type": "descriptive",
+  "title": "Ravi and His Camera",
+  "topic": "arts_and_culture",
+  "profile": "level_a1",
+  "text_cefr": "A1",
+  "passage": {
+    "title": "Ravi and His Camera",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "My name is Ravi and I love photography. I started two years ago when my uncle gave me an old camera for my birthday. It was a small black camera, and it was not very good, but I took photos every day."
+      },
+      {
+        "label": "B",
+        "text": "I take photos of many things: people, buildings, trees and animals. My favourite subject is street life. On Saturday mornings, I go to the market in my town and take photos of the shops and the people. I always ask first if I can take a photo of a person."
+      },
+      {
+        "label": "C",
+        "text": "Last year I bought a new camera. It was expensive, so I worked in my uncle's shop for three months to pay for it. Now I can take better photos, even at night. I put my best photos on a website, and my friends send me messages about them."
+      },
+      {
+        "label": "D",
+        "text": "I want to be a photographer one day. Next month I am joining a photography club at my school. The club meets on Wednesdays at four o'clock. We go outside and take photos, and then we talk about them. I am very excited about it."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE107-Q01",
+          "number": 1,
+          "prompt": "When did Ravi start photography?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two years ago"
+            },
+            {
+              "id": "B",
+              "text": "Two months ago"
+            },
+            {
+              "id": "C",
+              "text": "Last week"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "started two years ago"
+          },
+          "explanation": "The text says: \"started two years ago\".",
+          "uuid": "5e40b5e4-b367-512f-9472-9a14ad8ef74b"
+        },
+        {
+          "id": "RE107-Q02",
+          "number": 2,
+          "prompt": "Who gave Ravi his first camera?",
+          "options": [
+            {
+              "id": "A",
+              "text": "His uncle"
+            },
+            {
+              "id": "B",
+              "text": "His father"
+            },
+            {
+              "id": "C",
+              "text": "His teacher"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "my uncle gave me an old camera"
+          },
+          "explanation": "The text says: \"my uncle gave me an old camera\".",
+          "uuid": "e224e849-a01f-5da7-86d4-9290f49549af"
+        },
+        {
+          "id": "RE107-Q03",
+          "number": 3,
+          "prompt": "What is Ravi's favourite subject?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Animals"
+            },
+            {
+              "id": "B",
+              "text": "Buildings"
+            },
+            {
+              "id": "C",
+              "text": "Street life"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "favourite subject is street life"
+          },
+          "explanation": "The text says: \"favourite subject is street life\".",
+          "uuid": "4293e88a-18f2-5259-adc7-a32ee49e3786"
+        },
+        {
+          "id": "RE107-Q04",
+          "number": 4,
+          "prompt": "When does Ravi go to the market?",
+          "options": [
+            {
+              "id": "A",
+              "text": "On Saturday mornings"
+            },
+            {
+              "id": "B",
+              "text": "On Sunday mornings"
+            },
+            {
+              "id": "C",
+              "text": "On Friday evenings"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "On Saturday mornings, I go"
+          },
+          "explanation": "The text says: \"On Saturday mornings, I go\".",
+          "uuid": "3983a9fb-cb17-58dd-864a-a35a46c258d2"
+        },
+        {
+          "id": "RE107-Q05",
+          "number": 5,
+          "prompt": "What does Ravi do before he photographs a person?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He pays the person"
+            },
+            {
+              "id": "B",
+              "text": "He asks the person"
+            },
+            {
+              "id": "C",
+              "text": "He waits an hour"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "ask first if I can take a photo"
+          },
+          "explanation": "The text says: \"ask first if I can take a photo\".",
+          "uuid": "ed6574e0-a7dd-558a-a62d-f57faa324e2f"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE107-Q06",
+          "number": 6,
+          "prompt": "Ravi's first camera was new.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "gave me an old camera"
+          },
+          "explanation": "The text says: \"gave me an old camera\".",
+          "uuid": "3f6c0f2b-c712-57d6-8c40-ca04265b9cf4"
+        },
+        {
+          "id": "RE107-Q07",
+          "number": 7,
+          "prompt": "Ravi's uncle paid for the new camera.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "worked in my uncle's shop for three months to pay for it"
+          },
+          "explanation": "The text says: \"worked in my uncle's shop for three months to pay for it\".",
+          "uuid": "1851f65d-df57-53c7-97fe-8ad73821182a"
+        },
+        {
+          "id": "RE107-Q08",
+          "number": 8,
+          "prompt": "Ravi puts his best photos on a website.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "put my best photos on a website"
+          },
+          "explanation": "The text says: \"put my best photos on a website\".",
+          "uuid": "360b4220-8709-58f3-a4a4-d6e211c56097"
+        },
+        {
+          "id": "RE107-Q09",
+          "number": 9,
+          "prompt": "Ravi's sister is also in the photography club.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "b51544cd-3b61-5c60-97e8-c92bd7ace75e"
+        },
+        {
+          "id": "RE107-Q10",
+          "number": 10,
+          "prompt": "The club meets on Wednesdays.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A1",
+            "band": 1.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "club meets on Wednesdays at four"
+          },
+          "explanation": "The text says: \"club meets on Wednesdays at four\".",
+          "uuid": "ae9226a7-6208-53a2-b052-84afc53b1c47"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE107-Q11",
+          "number": 11,
+          "prompt": "Ravi's first camera was small and _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "white"
+            },
+            {
+              "id": "B",
+              "text": "red"
+            },
+            {
+              "id": "C",
+              "text": "black"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 2.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "small black camera"
+          },
+          "explanation": "The text says: \"small black camera\".",
+          "uuid": "dc06faef-d3c4-5f35-acba-26dd6b20c44c"
+        },
+        {
+          "id": "RE107-Q12",
+          "number": 12,
+          "prompt": "The new camera was _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "cheap"
+            },
+            {
+              "id": "B",
+              "text": "expensive"
+            },
+            {
+              "id": "C",
+              "text": "heavy"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A1",
+            "band": 2.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "It was expensive"
+          },
+          "explanation": "The text says: \"It was expensive\".",
+          "uuid": "d5516c97-f848-5716-b511-8804b95364f7"
+        },
+        {
+          "id": "RE107-Q13",
+          "number": 13,
+          "prompt": "At the club, members take photos _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "in a studio"
+            },
+            {
+              "id": "B",
+              "text": "at home"
+            },
+            {
+              "id": "C",
+              "text": "outside"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A1",
+            "band": 1.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "go outside and take photos"
+          },
+          "explanation": "The text says: \"go outside and take photos\".",
+          "uuid": "f03c8d98-6930-5cff-a79e-00aa25e63733"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "4de0453a-7530-4b89-99fd-0c1617ee49c8",
+  "derived": {
+    "word_count": 186,
+    "level_counts": {
+      "A1": 13,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 1.69,
+    "answer_counts": {
+      "A": 5,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "1394ac5f1dc81168"
+  }
+}

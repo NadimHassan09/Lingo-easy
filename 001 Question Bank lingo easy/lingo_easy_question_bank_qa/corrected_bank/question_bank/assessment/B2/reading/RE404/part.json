@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "id": "RE404",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Why Do We Dream?",
+  "topic": "psychology",
+  "profile": "level_b2",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "Why Do We Dream?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Everyone dreams, usually several times a night, although most dreams are forgotten within minutes of waking. Dreaming mostly occurs during a phase called REM sleep, named after the rapid eye movements that can be seen beneath the eyelids. People woken during REM sleep report vivid, story-like dreams around eighty per cent of the time, compared with about fifteen per cent during other phases."
+      },
+      {
+        "label": "B",
+        "text": "For centuries, the question of why we dream belonged to philosophers. In the early twentieth century, Sigmund Freud proposed that dreams are disguised expressions of hidden wishes. Few scientists today accept his detailed theories, partly because they cannot be tested. Even so, Freud's idea that dreams are connected to our emotional lives has proved surprisingly durable."
+      },
+      {
+        "label": "C",
+        "text": "Modern research offers three main explanations. The first is that dreaming helps memory. During sleep the brain replays recent experiences and sorts them, strengthening important ones and discarding trivial ones. Students who sleep after studying generally remember more than those who stay awake. The second explanation is emotional: dreams may work like overnight therapy, allowing the brain to process painful experiences without the full chemical response of stress. Brain scans show that during REM sleep the chemical associated with stress is almost absent."
+      },
+      {
+        "label": "D",
+        "text": "The third theory, proposed by the neuroscientist Antti Revonsuo, suggests that dreams are a kind of simulator. By repeatedly presenting threatening situations, such as being chased, they allow us to rehearse reactions in safety. Evidence for this comes from studies showing that threatening dreams are far more common than pleasant ones across cultures. However, critics point out that many dreams, such as forgetting an exam, involve no physical danger at all."
+      },
+      {
+        "label": "E",
+        "text": "None of these theories excludes the others, and it is possible that dreams serve several purposes at once. What is clear is that disturbing sleep has consequences. People deprived of REM sleep for a few nights become irritable, struggle to concentrate and show poorer memory. The next time a strange dream wakes you, it may be worth remembering that your brain was doing some important work."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE404-Q01",
+          "number": 1,
+          "prompt": "What is REM named after?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The rhythm of the sleeper's heart"
+            },
+            {
+              "id": "B",
+              "text": "The speed of the brain's electrical waves"
+            },
+            {
+              "id": "C",
+              "text": "The rapid movements of the eyes"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "named after the rapid eye movements"
+          },
+          "explanation": "The text says: \"named after the rapid eye movements\".",
+          "uuid": "f5a3f727-4a65-562d-842d-87f4b4f2f5c1"
+        },
+        {
+          "id": "RE404-Q02",
+          "number": 2,
+          "prompt": "How often do people woken during REM sleep report vivid dreams?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 80 per cent of the time"
+            },
+            {
+              "id": "B",
+              "text": "About half of the time"
+            },
+            {
+              "id": "C",
+              "text": "Roughly one time in ten"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "around eighty per cent of the time"
+          },
+          "explanation": "The text says: \"around eighty per cent of the time\".",
+          "uuid": "03e308d5-59e6-5215-8189-4ccb80db73a4"
+        },
+        {
+          "id": "RE404-Q03",
+          "number": 3,
+          "prompt": "Why do few scientists accept Freud's detailed theories?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are too recent"
+            },
+            {
+              "id": "B",
+              "text": "They cannot be tested"
+            },
+            {
+              "id": "C",
+              "text": "They ignore emotions"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "they cannot be tested"
+          },
+          "explanation": "The text says: \"they cannot be tested\".",
+          "uuid": "8d06d7db-1b3e-57ff-b0ad-971378a639cf"
+        },
+        {
+          "id": "RE404-Q04",
+          "number": 4,
+          "prompt": "What do brain scans show during REM sleep?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The stress chemical is almost absent"
+            },
+            {
+              "id": "B",
+              "text": "The brain is almost inactive"
+            },
+            {
+              "id": "C",
+              "text": "The stress chemical increases"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "is almost absent"
+          },
+          "explanation": "The text says: \"is almost absent\".",
+          "uuid": "e06be135-10e3-5819-b579-4f6bed503a01"
+        },
+        {
+          "id": "RE404-Q05",
+          "number": 5,
+          "prompt": "What do critics say about the simulator theory?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Many dreams involve no physical danger"
+            },
+            {
+              "id": "B",
+              "text": "Pleasant dreams are more common than bad ones"
+            },
+            {
+              "id": "C",
+              "text": "Dreams are too short to rehearse anything"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "involve no physical danger at all"
+          },
+          "explanation": "The text says: \"involve no physical danger at all\".",
+          "uuid": "65e062ff-8e50-5a37-ae88-b15b92979dfd"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE404-Q06",
+          "number": 6,
+          "prompt": "Most dreams are remembered for several hours.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "forgotten within minutes of waking"
+          },
+          "explanation": "The text says: \"forgotten within minutes of waking\".",
+          "uuid": "55be081c-f88a-5f33-b624-6f243495694f"
+        },
+        {
+          "id": "RE404-Q07",
+          "number": 7,
+          "prompt": "Students who sleep after studying usually remember more.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "remember more than those who stay awake"
+          },
+          "explanation": "The text says: \"remember more than those who stay awake\".",
+          "uuid": "e937e408-596e-5ec8-9ad3-a00d75a52829"
+        },
+        {
+          "id": "RE404-Q08",
+          "number": 8,
+          "prompt": "Threatening dreams are more common than pleasant ones across cultures.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "far more common than pleasant ones across cultures"
+          },
+          "explanation": "The text says: \"far more common than pleasant ones across cultures\".",
+          "uuid": "8593d934-3888-5e8d-a113-dc94f8367a0d"
+        },
+        {
+          "id": "RE404-Q09",
+          "number": 9,
+          "prompt": "Antti Revonsuo works at a Finnish university.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "0f8a1927-0dd2-5616-89a2-0736bc4d1696"
+        },
+        {
+          "id": "RE404-Q10",
+          "number": 10,
+          "prompt": "People deprived of REM sleep may find it harder to concentrate.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "struggle to concentrate"
+          },
+          "explanation": "The text says: \"struggle to concentrate\".",
+          "uuid": "15b55a04-efdc-5093-bbff-37d9dea1a7c2"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE404-Q11",
+          "number": 11,
+          "prompt": "A theory that treats dreams as overnight emotional therapy",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "work like overnight therapy"
+          },
+          "explanation": "The text says: \"work like overnight therapy\".",
+          "uuid": "86de29d9-02d9-533d-852c-5581b5f83151"
+        },
+        {
+          "id": "RE404-Q12",
+          "number": 12,
+          "prompt": "A reference to an idea that has lasted although it is hard to prove",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph D"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "proved surprisingly durable"
+          },
+          "explanation": "The text says: \"proved surprisingly durable\".",
+          "uuid": "f46d0aaf-d2ee-591c-ada1-180469e29edb"
+        },
+        {
+          "id": "RE404-Q13",
+          "number": 13,
+          "prompt": "A suggestion that the theories may all be partly correct",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "None of these theories excludes the others"
+          },
+          "explanation": "The text says: \"None of these theories excludes the others\".",
+          "uuid": "50892570-7428-5bcd-bb76-6559802476f0"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "5fb5900b-da24-4f39-a91e-d6b3603721f1",
+  "derived": {
+    "word_count": 340,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 13,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 5.96,
+    "answer_counts": {
+      "A": 6,
+      "B": 4,
+      "C": 2,
+      "D": 1
+    },
+    "content_hash": "71fcd0b6cfcb0c6e"
+  }
+}

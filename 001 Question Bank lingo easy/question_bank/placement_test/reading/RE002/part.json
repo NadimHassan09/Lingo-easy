@@ -1,0 +1,549 @@
+{
+  "schema_version": "1.0",
+  "id": "RE002",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Working From Home: Freedom or Isolation?",
+  "topic": "work_and_careers",
+  "profile": "intermediate",
+  "text_cefr": "B2",
+  "passage": {
+    "title": "Working From Home: Freedom or Isolation?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Before 2020, only a small minority of employees in most countries worked from home regularly. Today, in many industries, remote work has become a normal part of the working week, and companies are still deciding how much of it they are willing to accept. The debate has become surprisingly emotional, with supporters and critics each claiming that the evidence favours them."
+      },
+      {
+        "label": "B",
+        "text": "Supporters point first to time and money. Without a daily journey, an employee in a large city may save more than an hour a day, as well as the cost of fuel or train tickets. Many also report that they can concentrate better at home, where there are fewer interruptions from colleagues, and several say they can fit in exercise or time with their children, which keeps them motivated. Employers benefit too, since offices can be smaller and therefore cheaper to rent."
+      },
+      {
+        "label": "C",
+        "text": "Critics, however, argue that these gains come at a hidden cost. Junior employees in particular may miss the informal learning that happens when they sit next to experienced colleagues and overhear how problems are solved. Some managers add that new staff take longer to understand the company's culture when they never meet colleagues in person. Managers also worry that creative ideas rarely appear during scheduled video calls, which tend to be short and tightly organised. \"You can't schedule a spontaneous conversation,\" as one manager put it."
+      },
+      {
+        "label": "D",
+        "text": "There is also the question of fairness. Not every job can be done remotely, so nurses, drivers and shop assistants cannot enjoy the flexibility that office staff now expect. Even among office workers, those with a quiet spare room are better placed than people sharing a small flat with several family members. Some sociologists therefore describe remote work as a privilege that quietly widens existing inequalities rather than reducing them."
+      },
+      {
+        "label": "E",
+        "text": "Perhaps the most sensible position is that neither side has yet proved its case. Early studies suggest that results depend heavily on the type of work and the personality of the worker, and few of them have followed employees for longer than a year or two. A growing number of firms have therefore chosen a hybrid pattern, in which staff spend two or three days in the office and the rest at home. Whether this compromise will prove stable is far from certain, but it at least allows companies to learn from experience instead of guessing."
+      },
+      {
+        "label": "F",
+        "text": "For employees, the practical advice is to treat the arrangement as an experiment. Setting fixed working hours, leaving the house for a short walk at lunchtime and keeping regular contact with colleagues all help to prevent the isolation that some home workers describe. Employers, meanwhile, would be wise to measure results rather than hours, because a person's presence in a building says little about the quality of the work they produce. If both sides remain open to adjusting their expectations, the future of work may turn out to be less of a battle than the current argument suggests."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE002-Q01",
+          "number": 1,
+          "prompt": "How much time can an employee in a large city save each day by not travelling to work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Half an hour"
+            },
+            {
+              "id": "B",
+              "text": "More than an hour"
+            },
+            {
+              "id": "C",
+              "text": "Ten minutes"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "may save more than an hour a day"
+          },
+          "explanation": "Paragraph B says a city employee may save more than an hour a day.",
+          "uuid": "aefdc6a2-8ab5-57d5-a88a-a4ec719a0838"
+        },
+        {
+          "id": "RE002-Q02",
+          "number": 2,
+          "prompt": "Why can employers save money when staff work from home?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They can pay lower salaries."
+            },
+            {
+              "id": "B",
+              "text": "They can hold fewer meetings."
+            },
+            {
+              "id": "C",
+              "text": "They can use less office space."
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "offices can be smaller and therefore cheaper to rent"
+          },
+          "explanation": "Smaller offices are cheaper to rent, so employers need less office space.",
+          "uuid": "b54608fc-e46c-5815-ab96-4aec8a724dab"
+        },
+        {
+          "id": "RE002-Q03",
+          "number": 3,
+          "prompt": "What may junior employees miss when they work remotely?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Learning from experienced colleagues by chance"
+            },
+            {
+              "id": "B",
+              "text": "Formal training courses run by the firm"
+            },
+            {
+              "id": "C",
+              "text": "Chances of promotion within the company"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "synonym_paraphrase",
+            "target": "informal learning = learning by chance"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "the informal learning that happens when they sit next to experienced colleagues"
+          },
+          "explanation": "The text refers to informal learning from sitting next to experienced colleagues, not to courses or promotion.",
+          "uuid": "30f0a9e2-691d-5788-9bf6-43586ef9fd9f"
+        },
+        {
+          "id": "RE002-Q04",
+          "number": 4,
+          "prompt": "Why does the writer quote a manager in paragraph C?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To show that managers dislike video calls"
+            },
+            {
+              "id": "B",
+              "text": "To illustrate why creativity may suffer"
+            },
+            {
+              "id": "C",
+              "text": "To prove that remote work is expensive"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "text_organisation",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "You can't schedule a spontaneous conversation"
+          },
+          "explanation": "The quotation supports the point that creative ideas rarely appear in scheduled calls.",
+          "uuid": "154d8eff-b03d-5285-8ae0-4cd6f99aa285"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "true_false_not_given",
+      "instruction": "Do the following statements agree with the information in the passage? Choose True, False or Not Given.",
+      "items": [
+        {
+          "id": "RE002-Q05",
+          "number": 5,
+          "prompt": "Nurses and drivers can work from home as easily as office staff.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "so nurses, drivers and shop assistants cannot enjoy the flexibility that office staff now expect"
+          },
+          "explanation": "The text says nurses and drivers cannot enjoy the flexibility that office staff expect.",
+          "uuid": "42e4fbd5-8d71-598d-a252-d3f98698984f"
+        },
+        {
+          "id": "RE002-Q06",
+          "number": 6,
+          "prompt": "Remote work has made it easier for people to find jobs in other countries.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "The passage discusses working from home but never mentions finding jobs abroad.",
+          "uuid": "e035fe20-4ee9-5ace-849c-427e45504be9"
+        },
+        {
+          "id": "RE002-Q07",
+          "number": 7,
+          "prompt": "Some sociologists think remote work may increase inequality.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 6.5
+          },
+          "skill_tag": "fact_check",
+          "language_focus": {
+            "type": "vocabulary",
+            "lexical_type": "collocation",
+            "target": "widens existing inequalities"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "remote work as a privilege that quietly widens existing inequalities"
+          },
+          "explanation": "Some sociologists describe remote work as a privilege that widens existing inequalities.",
+          "uuid": "2f92e545-5fab-5442-a859-81902a281f03"
+        },
+        {
+          "id": "RE002-Q08",
+          "number": 8,
+          "prompt": "The writer believes that being present in the office is not a good guide to the quality of someone's work.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C1",
+            "band": 7.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "a person's presence in a building says little about the quality of the work they produce"
+          },
+          "explanation": "The writer says presence in a building says little about work quality, which is the same idea in different words.",
+          "uuid": "677b14e3-f535-580b-ad9a-026265b00936"
+        },
+        {
+          "id": "RE002-Q09",
+          "number": 9,
+          "prompt": "The writer is certain that the hybrid pattern will last.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "grammar",
+            "rule": "hedging_and_tentative_language"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Whether this compromise will prove stable is far from certain"
+          },
+          "explanation": "The writer says it is far from certain that the compromise will prove stable, so the statement is false.",
+          "uuid": "d6cb214f-1017-5244-b020-1514baf1e224"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "matching_information",
+      "instruction": "Which paragraph contains the following information? Choose the correct paragraph.",
+      "items": [
+        {
+          "id": "RE002-Q10",
+          "number": 10,
+          "prompt": "A risk that new staff may take longer to understand how a company works",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph E"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B2",
+            "band": 5.5
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "new staff take longer to understand the company's culture"
+          },
+          "explanation": "Paragraph C says new staff take longer to understand the company's culture. Paragraphs D, E and F do not discuss how quickly new staff learn.",
+          "uuid": "0113e5d9-0496-57a1-9627-964d83fdacb9"
+        },
+        {
+          "id": "RE002-Q11",
+          "number": 11,
+          "prompt": "The idea that some workers have a better home setting than others",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B2",
+            "band": 6.0
+          },
+          "skill_tag": "paraphrase_matching",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "those with a quiet spare room are better placed than people sharing a small flat"
+          },
+          "explanation": "Paragraph D compares workers with a quiet spare room to those sharing a small flat. Paragraph B mentions concentration at home but does not compare different home settings.",
+          "uuid": "1120eff9-7f8f-5903-899d-0f358792ebdd"
+        },
+        {
+          "id": "RE002-Q12",
+          "number": 12,
+          "prompt": "A comment that current research is too limited to settle the debate",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph B"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph D"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph E"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C1",
+            "band": 7.0
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "few of them have followed employees for longer than a year or two"
+          },
+          "explanation": "Paragraph E says few studies have followed employees for more than a year or two, so the evidence is limited. Paragraph A only introduces the debate.",
+          "uuid": "c1476981-7e7f-5b4f-af6d-60d9723aae7f"
+        },
+        {
+          "id": "RE002-Q13",
+          "number": 13,
+          "prompt": "A suggestion that the conflict between the two sides may be exaggerated",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paragraph A"
+            },
+            {
+              "id": "B",
+              "text": "Paragraph C"
+            },
+            {
+              "id": "C",
+              "text": "Paragraph E"
+            },
+            {
+              "id": "D",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "D",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "F",
+            "quote": "the future of work may turn out to be less of a battle than the current argument suggests"
+          },
+          "explanation": "Paragraph F suggests the future may be less of a battle than the argument suggests. Paragraph E says neither side has proved its case, which is not the same as saying the conflict is exaggerated.",
+          "uuid": "4df6409b-c735-58dc-98b7-cfc1be23a15f"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "edaf3eed-1fdc-4d1e-8ab0-dbd8b30339b4",
+  "derived": {
+    "word_count": 493,
+    "level_counts": {
+      "A1": 0,
+      "A2": 1,
+      "B1": 3,
+      "B2": 5,
+      "C1": 3,
+      "C2": 1
+    },
+    "mean_band": 5.88,
+    "answer_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 3,
+      "D": 2
+    },
+    "content_hash": "2454020196e908f5"
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "id": "RE304",
+  "skill": "reading",
+  "part_type": "discursive",
+  "title": "Is Homework Useful?",
+  "topic": "education",
+  "profile": "level_b1",
+  "text_cefr": "B1",
+  "passage": {
+    "title": "Is Homework Useful?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few subjects divide parents, teachers and students as much as homework. Some countries, such as Finland, give very little, and their students still perform well in international tests. Others, like South Korea, expect several hours every night. So who is right?"
+      },
+      {
+        "label": "B",
+        "text": "Supporters of homework make three main points. First, it gives students extra practice, and practice is how skills improve. Second, it teaches them to work alone and to manage their time. Third, it allows parents to see what their children are learning. A study of schools in several countries found that homework helped older students more than younger ones."
+      },
+      {
+        "label": "C",
+        "text": "Critics answer that for young children homework brings little benefit and a lot of stress. After a long school day, children need time to play, rest and be with their families. Research also suggests that long hours of homework can lead to poor sleep. Another problem is fairness: a student with a quiet room and a helpful parent has a big advantage over a student who has neither."
+      },
+      {
+        "label": "D",
+        "text": "In my opinion, the best approach lies in the middle. Homework should be short for younger students, perhaps ten minutes for each year of age, and it should be more interesting than simply repeating what was done in class. For teenagers, longer tasks make sense, but teachers should talk to each other so that students do not receive three big assignments on the same night."
+      },
+      {
+        "label": "E",
+        "text": "Finally, schools could offer a homework club, where students can work in a quiet room with help available. This would reduce the unfairness and give everyone a chance to succeed. Homework is not good or bad in itself; what matters is how much is given, and why."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE304-Q01",
+          "number": 1,
+          "prompt": "Which country gives very little homework?",
+          "options": [
+            {
+              "id": "A",
+              "text": "South Korea"
+            },
+            {
+              "id": "B",
+              "text": "Finland"
+            },
+            {
+              "id": "C",
+              "text": "Spain"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "A",
+            "quote": "Some countries, such as Finland, give very little"
+          },
+          "explanation": "The text says: \"Some countries, such as Finland, give very little\".",
+          "uuid": "d59e1642-410e-5555-a414-9aab3445f0c1"
+        },
+        {
+          "id": "RE304-Q02",
+          "number": 2,
+          "prompt": "What is the first argument for homework?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It gives extra practice"
+            },
+            {
+              "id": "B",
+              "text": "It saves time in class"
+            },
+            {
+              "id": "C",
+              "text": "It makes lessons shorter"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "it gives students extra practice"
+          },
+          "explanation": "The text says: \"it gives students extra practice\".",
+          "uuid": "3cf4bd26-e74c-5481-9e20-599fbf9544b1"
+        },
+        {
+          "id": "RE304-Q03",
+          "number": 3,
+          "prompt": "What did the study of several countries find?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Homework helped older students more than younger ones"
+            },
+            {
+              "id": "B",
+              "text": "Homework helped younger students more than older ones"
+            },
+            {
+              "id": "C",
+              "text": "Homework made no difference in any country"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "B",
+            "quote": "homework helped older students more than younger ones"
+          },
+          "explanation": "The text says: \"homework helped older students more than younger ones\".",
+          "uuid": "5d2b3209-b16e-55ff-9e78-5f4ff124b592"
+        },
+        {
+          "id": "RE304-Q04",
+          "number": 4,
+          "prompt": "What do critics say about homework for young children?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It makes them cleverer than their classmates"
+            },
+            {
+              "id": "B",
+              "text": "It is far too easy for them to be useful"
+            },
+            {
+              "id": "C",
+              "text": "It brings little benefit and a lot of stress"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "little benefit and a lot of stress"
+          },
+          "explanation": "The text says: \"little benefit and a lot of stress\".",
+          "uuid": "72726fe5-d5ef-5e5a-b0e5-68c0371755a5"
+        },
+        {
+          "id": "RE304-Q05",
+          "number": 5,
+          "prompt": "What fairness problem is mentioned?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Some students have a quiet room and help at home"
+            },
+            {
+              "id": "B",
+              "text": "Some students have more teachers in school"
+            },
+            {
+              "id": "C",
+              "text": "Some students go to much better schools"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "C",
+            "quote": "a quiet room and a helpful parent"
+          },
+          "explanation": "The text says: \"a quiet room and a helpful parent\".",
+          "uuid": "bd9db365-6f7b-5009-bc91-bcf56699b03e"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "yes_no_not_given",
+      "instruction": "Do the following statements agree with the views of the writer? Choose Yes, No or Not Given.",
+      "items": [
+        {
+          "id": "RE304-Q06",
+          "number": 6,
+          "prompt": "The writer thinks homework is useless.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "Homework is not good or bad in itself"
+          },
+          "explanation": "The text says: \"Homework is not good or bad in itself\".",
+          "uuid": "ffaa23e9-7c13-5ae8-811b-6d3dba883081"
+        },
+        {
+          "id": "RE304-Q07",
+          "number": 7,
+          "prompt": "The writer believes younger students should have shorter homework.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "Homework should be short for younger students"
+          },
+          "explanation": "The text says: \"Homework should be short for younger students\".",
+          "uuid": "a7c096ba-df93-5d99-983d-f9c73708d1be"
+        },
+        {
+          "id": "RE304-Q08",
+          "number": 8,
+          "prompt": "The writer thinks teenagers should never get homework.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "For teenagers, longer tasks make sense"
+          },
+          "explanation": "The text says: \"For teenagers, longer tasks make sense\".",
+          "uuid": "0972da1a-3648-51e8-8b89-64637c9d7580"
+        },
+        {
+          "id": "RE304-Q09",
+          "number": 9,
+          "prompt": "The writer has children of their own.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": null,
+          "explanation": "This is not mentioned, so the answer is Not Given.",
+          "uuid": "5cc1d92f-49eb-5701-9e79-5b81dc49865c"
+        },
+        {
+          "id": "RE304-Q10",
+          "number": 10,
+          "prompt": "The writer recommends a homework club.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes"
+            },
+            {
+              "id": "B",
+              "text": "No"
+            },
+            {
+              "id": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "writer_claim",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "schools could offer a homework club"
+          },
+          "explanation": "The text says: \"schools could offer a homework club\".",
+          "uuid": "73cfab9e-b0f1-5ab4-8cb8-176073c3dac6"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "presentation": "sentence_completion",
+      "instruction": "Complete each sentence. Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "RE304-Q11",
+          "number": 11,
+          "prompt": "The writer suggests about _____ minutes of homework for each year of age.",
+          "options": [
+            {
+              "id": "A",
+              "text": "twenty"
+            },
+            {
+              "id": "B",
+              "text": "ten"
+            },
+            {
+              "id": "C",
+              "text": "five"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.5
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "ten minutes for each year of age"
+          },
+          "explanation": "The text says: \"ten minutes for each year of age\".",
+          "uuid": "11fd137c-729a-5545-8157-6ef9f8236e70"
+        },
+        {
+          "id": "RE304-Q12",
+          "number": 12,
+          "prompt": "Students should not receive three big assignments on the same _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "night"
+            },
+            {
+              "id": "B",
+              "text": "week"
+            },
+            {
+              "id": "C",
+              "text": "subject"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "B1",
+            "band": 5.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "D",
+            "quote": "on the same night"
+          },
+          "explanation": "The text says: \"on the same night\".",
+          "uuid": "33b3f21c-30b3-5116-b7c0-96a5c451a0b6"
+        },
+        {
+          "id": "RE304-Q13",
+          "number": 13,
+          "prompt": "A homework club would reduce the _____.",
+          "options": [
+            {
+              "id": "A",
+              "text": "noise"
+            },
+            {
+              "id": "B",
+              "text": "unfairness"
+            },
+            {
+              "id": "C",
+              "text": "cost"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "B1",
+            "band": 4.0
+          },
+          "skill_tag": "summary_gap",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "paragraph": "E",
+            "quote": "reduce the unfairness"
+          },
+          "explanation": "The text says: \"reduce the unfairness\".",
+          "uuid": "e04ecf80-dd73-5a8c-9274-f7fdb3a29ecf"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-reading-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "d61d01a6-f8d9-4eec-bbca-df0be876b8d6",
+  "derived": {
+    "word_count": 280,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 13,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 4.46,
+    "answer_counts": {
+      "A": 6,
+      "B": 5,
+      "C": 2
+    },
+    "content_hash": "b2cef126109ab4bb"
+  }
+}

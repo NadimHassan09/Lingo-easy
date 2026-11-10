@@ -1,0 +1,461 @@
+[
+ {
+  "id": "LI002-Q01",
+  "set": {
+   "B": "Electric buses in the city",
+   "C": "Online banking services"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI002-Q05",
+  "set": {
+   "A": "Phone calls to students",
+   "B": "Observation in classes"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI003-Q02",
+  "set": {
+   "B": "Solutions first, then causes, then health effects",
+   "C": "History first, then causes, then solutions"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI005-Q04",
+  "set": {
+   "A": "A free towel at each visit",
+   "B": "A free month of yoga classes"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI005-Q07",
+  "set": {
+   "B": "All new members in their first year",
+   "C": "Families with children under twelve"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI005-Q09",
+  "set": {
+   "A": "It is kept by the centre as a fee",
+   "C": "It is donated to a local charity"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI005-Q10",
+  "set": {
+   "A": "The lockers are too small for most bags",
+   "B": "The lockers are not locked at night"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI006-Q02",
+  "set": {
+   "A": "To save money on the hotel",
+   "B": "To see a show in town"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI006-Q05",
+  "set": {
+   "A": "It is a long way from the beach",
+   "B": "It does not serve breakfast"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI006-Q09",
+  "set": {
+   "A": "Determined to swim in the cold sea",
+   "C": "Afraid of swimming in the sea"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI006-Q10",
+  "set": {
+   "A": "Sam has to work late on Friday",
+   "C": "The train will leave much earlier"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI007-Q01",
+  "set": {
+   "A": "She is opening a small business here",
+   "B": "She is a student at the university"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI007-Q02",
+  "set": {
+   "B": "A fixed monthly fee of five pounds",
+   "C": "A debit card that costs extra"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI007-Q04",
+  "set": {
+   "A": "Lost luggage on international flights",
+   "C": "Medical costs in hospitals abroad"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI007-Q05",
+  "set": {
+   "B": "A passport and a recent photograph",
+   "C": "A letter from the bank and a payslip"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI007-Q06",
+  "set": {
+   "B": "She does not have an address yet",
+   "C": "She has lost the documents on the way"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI007-Q10",
+  "set": {
+   "A": "At a branch, for a fee of ten pounds",
+   "B": "By sending a cheque through the post"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q03",
+  "set": {
+   "A": "They never buy coffee on campus",
+   "B": "They like the campus café's prices"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q04",
+  "set": {
+   "B": "The sample is too small to be useful",
+   "C": "The sample was collected too long ago"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q05",
+  "set": {
+   "A": "She asked her friends on the course",
+   "B": "She sent an email to all students"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q06",
+  "set": {
+   "A": "It uses the wrong prices for coffee",
+   "C": "It includes far too many costs"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q07",
+  "set": {
+   "A": "The cart may break down in winter",
+   "B": "Prices will fall during the holidays"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q08",
+  "set": {
+   "A": "It will close during the summer term",
+   "C": "It will copy the design of the cart"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q09",
+  "set": {
+   "B": "Very low prices for all students",
+   "C": "Late opening hours in the evenings"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI008-Q10",
+  "set": {
+   "A": "A short video about the business",
+   "C": "A printed menu with prices for the cart"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q01",
+  "set": {
+   "A": "Every week of the year",
+   "B": "Once or twice a year"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q04",
+  "set": {
+   "A": "Offering volunteers a small payment",
+   "B": "Advertising widely in the town"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q06",
+  "set": {
+   "A": "They are mostly selfish ones",
+   "B": "They are irrelevant to charities"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q07",
+  "set": {
+   "A": "Volunteers demand payment for their time",
+   "C": "Volunteers are generally too young to help"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q08",
+  "set": {
+   "A": "She started paying the volunteers",
+   "C": "She closed the evening club for good"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q09",
+  "set": {
+   "A": "Volunteering costs organisations very little",
+   "C": "Volunteers save the council eight pounds each"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI009-Q10",
+  "set": {
+   "B": "Volunteers may be asked to pay fees",
+   "C": "The grant is now too large to manage"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI010-Q03",
+  "set": {
+   "A": "Towards the end of the night",
+   "B": "Evenly throughout the night"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI010-Q04",
+  "set": {
+   "A": "Memories of the previous day's events",
+   "C": "Excess hormones in the bloodstream"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI010-Q05",
+  "set": {
+   "A": "No experiments on memory have been done",
+   "C": "Sleep appears to harm memory formation"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI010-Q06",
+  "set": {
+   "B": "To show that all animals sleep in the same way",
+   "C": "To prove that sleep mainly conserves energy"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI010-Q07",
+  "set": {
+   "A": "Sleep studies use unreliable measurements",
+   "C": "Volunteers often misreport how long they slept"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI010-Q08",
+  "set": {
+   "B": "That sleep has little effect on health",
+   "C": "That insulin levels are unrelated to sleep"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI010-Q09",
+  "set": {
+   "A": "It fully restores the body's normal health",
+   "B": "It makes people feel more tired"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "LI010-Q10",
+  "set": {
+   "B": "Restoration is the one theory that explains all the evidence",
+   "C": "The evidence is too weak to support any theory"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE001-Q12",
+  "set": {
+   "B": "loses its flavour",
+   "C": "becomes much softer"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE002-Q03",
+  "set": {
+   "B": "Formal training courses run by the firm",
+   "C": "Chances of promotion within the company"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE003-Q03",
+  "set": {
+   "B": "To list the languages that are most at risk",
+   "C": "To praise the effects of moving to cities"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE003-Q04",
+  "set": {
+   "A": "They see little value in their own traditions.",
+   "C": "They are told to stop by local officials."
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE003-Q10",
+  "set": {
+   "A": "able to read and write",
+   "B": "living in large cities"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE003-Q11",
+  "set": {
+   "A": "the spread of new technology",
+   "C": "rapid growth in city populations"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE004-Q03",
+  "set": {
+   "A": "They are more likely to be bullied online.",
+   "B": "They find lessons harder than older pupils."
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE004-Q13",
+  "set": {
+   "B": "Bans are unjustified because the evidence for them is too weak to rely on.",
+   "C": "Schools should drop bans and teach pupils responsible phone use instead."
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE005-Q04",
+  "set": {
+   "B": "It showed every street in London",
+   "C": "It was drawn by an artist by hand"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE005-Q05",
+  "set": {
+   "A": "There are no fans to move the air along",
+   "C": "They run close to the surface in the sun"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ },
+ {
+  "id": "RE005-Q13",
+  "set": {
+   "A": "To criticise the way stations are designed",
+   "C": "To advertise the walking tours to visitors"
+  },
+  "reason": "distractors rebalanced for length/form parity and plausibility (length_cue / extreme wording); key text and letter unchanged",
+  "confidence": "medium"
+ }
+]

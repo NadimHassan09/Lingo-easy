@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0",
+  "id": "WR209",
+  "uuid": "1e74865b-47de-5a03-9d99-f7e74d911d39",
+  "version": "1.0.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "assessment",
+    "level": "A2"
+  },
+  "target_cefr": "A2",
+  "profile": "level_a2",
+  "topic": "transport",
+  "context": "Your class is talking about getting around the city.",
+  "title": "Bus or taxi?",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "opinion_paragraph",
+  "task": {
+    "title": "Bus or taxi?",
+    "scenario": "Your class is talking about getting around the city.",
+    "prompt": "Write a paragraph about the bus and the taxi. Which do you prefer?",
+    "instructions": [
+      "Write about 80-110 words (at least 60).",
+      "You have about 15 minutes.",
+      "Make sure you cover all of the points below.",
+      "You are writing for: classmates. Style: neutral."
+    ],
+    "required_points": [
+      "one good thing about each",
+      "one bad thing about each",
+      "which one you prefer",
+      "why"
+    ],
+    "audience": "classmates",
+    "register": "neutral",
+    "response_type": "opinion_paragraph",
+    "word_count": {
+      "minimum": 60,
+      "suggested_min": 80,
+      "suggested_max": 110,
+      "maximum": 160
+    },
+    "suggested_minutes": 15
+  },
+  "expected_response": {
+    "content_points": [
+      "one good thing about each",
+      "one bad thing about each",
+      "which one you prefer",
+      "why"
+    ],
+    "required_elements": [
+      "Address: one good thing about each",
+      "Address: one bad thing about each",
+      "Address: which one you prefer",
+      "Address: why"
+    ],
+    "optional_elements": [
+      "your own experience"
+    ],
+    "organisation": [
+      "one paragraph",
+      "but / because / so"
+    ],
+    "vocabulary_demands": [
+      "transport",
+      "price and time",
+      "adjectives of opinion"
+    ],
+    "grammar_demands": [
+      {
+        "id": "comparatives_superlatives",
+        "level": "A2",
+        "extension": false
+      },
+      {
+        "id": "linking_words",
+        "level": "A2",
+        "extension": false
+      }
+    ],
+    "discourse_complexity": "Short connected text, one paragraph at most.",
+    "linguistic_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Compare and contrast two options; Give a simple reason or purpose",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "A bus is cheaper than a taxi but it is slower.",
+          "A taxi is faster but it is expensive.",
+          "I prefer the bus because I do not have much money."
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "comparison_evaluation",
+    "secondary_subskills": [
+      "opinion_writing"
+    ],
+    "cognitive_processes": [
+      "compare_contrast",
+      "explain_reason"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.comparison_evaluation.A2.1",
+        "text": "Write a short comparison with a simple reason for a preference",
+        "measurable_verb": "write",
+        "criteria": [
+          "W_TA",
+          "W_CC",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "A2",
+    "recommended_cefr": "A2",
+    "cefr_confidence": "medium",
+    "level_gap_steps": 0,
+    "difficulty_index": 0.234,
+    "language_demand": "Short connected texts on everyday topics; simple past and future; simple linkers (and, but, because, so).",
+    "cognitive_demand": "Compare and contrast two options; Give a simple reason or purpose",
+    "expected_performance": [
+      "Covers all required points briefly and keeps to the topic; purpose of the message or text is clear.",
+      "Ideas follow a clear order; common linkers (and, but, because, so, then) are used mostly correctly.",
+      "Uses everyday vocabulary suited to the topic with some variety; errors rarely block meaning."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 1.0, 'cognition': 1.5, 'length': 1.09, 'abstractness': 2.0, 'prompt_language': 0.27}; composite 1.17 -> A2. Original target A2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P3",
+    "components": {
+      "grammar": 1.0,
+      "cognition": 1.5,
+      "length": 1.09,
+      "abstractness": 2.0,
+      "prompt_language": 0.27
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 4.7,
+      "long_word_ratio": 0.036
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "A2",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.4,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Covers all required points briefly and keeps to the topic; purpose of the message or text is clear. Required points: one good thing about each; one bad thing about each; which one you prefer; why",
+        "weak_performance": "Several required points missing, or the purpose of the text is unclear.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: one good thing about each; one bad thing about each; which one you prefer; why.",
+        "common_error_patterns": [
+          "answering only the first point",
+          "no reason given",
+          "missing greeting or ending in a message"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "opinion_writing"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Ideas follow a clear order; common linkers (and, but, because, so, then) are used mostly correctly.",
+        "weak_performance": "Ideas listed without links; frequent repetition of 'and'.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "only and / then",
+          "using 'because' without a result"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "opinion_writing"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Uses everyday vocabulary suited to the topic with some variety; errors rarely block meaning.",
+        "weak_performance": "Same words repeated; frequent wrong word choice or spelling affects meaning.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: transport; price and time; adjectives of opinion.",
+        "common_error_patterns": [
+          "confusing similar words (make/do)",
+          "literal translation from Arabic"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "opinion_writing"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.2,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Simple sentences and some past or future forms are correct; some complex sentences attempted with errors that rarely block meaning.",
+        "weak_performance": "Frequent errors in tense and agreement; very few complex sentences.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: comparatives_superlatives, linking_words.",
+        "common_error_patterns": [
+          "past simple irregular forms",
+          "preposition of time/place",
+          "plural nouns"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "opinion_writing"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "preposition calques (in/on/at)",
+            "plural and countable-noun errors",
+            "adjective placement after noun"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      }
+    ],
+    "not_assessed_by_design": [
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      },
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "reason": "Not required by this task type at this level, so it must not be used to reduce the score."
+      }
+    ],
+    "required_demonstrations": [
+      "Address every required point: one good thing about each; one bad thing about each; which one you prefer; why",
+      "Use language appropriate to: classmates"
+    ],
+    "optional_demonstrations": [
+      "your own experience"
+    ],
+    "not_penalised": [
+      "absence of complex sentences or of conditionals",
+      "minor spelling or punctuation slips that do not hide meaning",
+      "informal vocabulary where the task is informal"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_GRAMMAR_RANGE",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_PREPOSITION",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "pass",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": []
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/writing_*.py (A2-09)",
+    "spec_sha256": "621a8260955fed44728ed7c280e92130c91b4193915b148593f4d96ac9e089e0",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "A2-09",
+      "lv": "A2",
+      "cat": "opinion_paragraph",
+      "topic": "transport",
+      "title": "Bus or taxi?",
+      "scen": "Your class is talking about getting around the city.",
+      "prompt": "Write a paragraph about the bus and the taxi. Which do you prefer?",
+      "pts": [
+        "one good thing about each",
+        "one bad thing about each",
+        "which one you prefer",
+        "why"
+      ],
+      "aud": "classmates",
+      "reg": "neutral",
+      "w": [
+        60,
+        80,
+        110,
+        160
+      ],
+      "mins": 15,
+      "vocab": [
+        "transport",
+        "price and time",
+        "adjectives of opinion"
+      ],
+      "gram": [
+        "comparatives_superlatives",
+        "linking_words"
+      ],
+      "struct": [
+        "one paragraph",
+        "but / because / so"
+      ],
+      "sub": "comparison_evaluation",
+      "sub2": [
+        "opinion_writing"
+      ],
+      "cog": [
+        "compare_contrast",
+        "explain_reason"
+      ],
+      "obj": [
+        "Write a short comparison with a simple reason for a preference"
+      ],
+      "outline": [
+        "A bus is cheaper than a taxi but it is slower.",
+        "A taxi is faster but it is expensive.",
+        "I prefer the bus because I do not have much money."
+      ],
+      "opt": [
+        "your own experience"
+      ],
+      "abs": 1
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "0c2e42081a8dd5de0f6f702c87ff03119519514aa266394bb9b75706347e0f3d"
+  }
+}

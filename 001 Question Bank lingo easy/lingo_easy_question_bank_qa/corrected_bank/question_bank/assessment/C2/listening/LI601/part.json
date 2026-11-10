@@ -1,0 +1,420 @@
+{
+  "schema_version": "1.0",
+  "id": "LI601",
+  "skill": "listening",
+  "part_type": "academic_lecture",
+  "title": "Free Will and Neuroscience",
+  "topic": "psychology",
+  "profile": "level_c2",
+  "text_cefr": "C2",
+  "audio": {
+    "file": "li601_free_will_and_neuroscience.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Imogen Hale",
+        "gender": "female",
+        "accent": "british",
+        "role": "philosophy of mind lecturer"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon. Few questions have preoccupied philosophers for as long as that of free will: are our choices genuinely ours, or are they the inevitable result of prior causes? Today I want to consider how recent neuroscience has been taken to bear on that question, and, more importantly, why I think much of that interpretation is hasty."
+      },
+      {
+        "speaker": "S1",
+        "text": "The experiment most often cited is that of Benjamin Libet in the early 1980s. Participants were asked to flex their wrist whenever they felt like it, and to note the moment they became aware of the urge, using a fast-moving clock. Libet recorded their brain activity and found a build-up of electrical activity, known as the readiness potential, about half a second before people reported being aware of their decision. The popular conclusion was dramatic: the brain decides before we do, so free will is an illusion."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let me suggest why this inference is questionable. First, the timing of awareness was based on participants' own reports of where a clock hand was at a certain instant, which is notoriously imprecise. Second, and more fundamentally, the task involved a trivial and arbitrary movement. Real decisions, such as choosing a career or deciding to forgive someone, involve deliberation over reasons, and there's no reason to assume they work like a spontaneous wrist flick. Third, later work suggests that the readiness potential may not be a decision at all. A 2012 study proposed that it reflects random fluctuations in brain activity which, when they happen to cross a threshold, tip the brain into action. If so, the potential is more like background noise than a signal that the decision has already been made."
+      },
+      {
+        "speaker": "S1",
+        "text": "Does this rescue free will? Not necessarily, and I want to avoid the opposite error. Philosophers generally distinguish three positions. Hard determinists hold that every event, including our choices, is caused by earlier events, and that this is incompatible with free will. Libertarians accept incompatibility but deny determinism, arguing that some choices are not fully caused. Compatibilists, to whom I'm sympathetic, argue that free will doesn't require freedom from causation; it requires that our actions flow from our own reasoning and values, rather than from coercion or compulsion. On this view, the discovery that the brain is physical causes no more difficulty than the fact that a computer's decisions are caused by its circuits and still count as the computer's calculations."
+      },
+      {
+        "speaker": "S1",
+        "text": "There is, however, an uncomfortable practical dimension. Experiments suggest that people who are told that free will is an illusion tend to behave a little worse. In one study, participants who read a passage claiming that free will is a myth were more likely to cheat on a subsequent test. The effects were modest, and some attempts to replicate them have failed, so I'd treat the finding with caution. But it raises a question about whether it is responsible for scientists to announce such conclusions in sweeping terms."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, consider the legal implications. Criminal law presumes that people are, in general, responsible for their actions, but makes exceptions for those who couldn't have acted otherwise, such as someone suffering a seizure. Some neuroscientists argue that as we learn more about the causes of behaviour, the line between responsible and non-responsible will move. I think that's plausible but gradual. Understanding why someone behaved as they did is not the same as excusing them, and our practices of praise, blame and punishment may be justified on other grounds, such as deterrence and protection of society. To conclude, I'd say that neuroscience has refined the question without answering it. For your essays, please engage with at least one primary source rather than relying on popular summaries."
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI601-Q01",
+          "number": 1,
+          "prompt": "What is the lecturer's view of the way neuroscience has been interpreted?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Much of it has been too hasty"
+            },
+            {
+              "id": "B",
+              "text": "It is basically accurate"
+            },
+            {
+              "id": "C",
+              "text": "It is irrelevant to philosophy"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "much of that interpretation is hasty"
+          },
+          "explanation": "The audio says: \"much of that interpretation is hasty\".",
+          "uuid": "d94b2fee-8423-5395-80e8-e714e5322cf4"
+        },
+        {
+          "id": "LI601-Q02",
+          "number": 2,
+          "prompt": "What were Libet's participants asked to do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Press a button when they decided which hand to use"
+            },
+            {
+              "id": "B",
+              "text": "Predict which hand they would move and report the choice"
+            },
+            {
+              "id": "C",
+              "text": "Flex a wrist when they felt like it and note when they became aware"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "paraphrase_recognition",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "flex their wrist whenever they felt like it"
+          },
+          "explanation": "The audio says: \"flex their wrist whenever they felt like it\".",
+          "uuid": "6a5ebfce-cc4a-58a7-8ae4-45a7c7343fe4"
+        },
+        {
+          "id": "LI601-Q03",
+          "number": 3,
+          "prompt": "What was the popular conclusion drawn from Libet's results?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Awareness comes half a second before the brain acts"
+            },
+            {
+              "id": "B",
+              "text": "The brain decides before we are aware, so free will is an illusion"
+            },
+            {
+              "id": "C",
+              "text": "Free will depends on how accurately people read a clock"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "the brain decides before we do"
+          },
+          "explanation": "The audio says: \"the brain decides before we do\".",
+          "uuid": "e5d8fc4b-81aa-50f4-bfd7-c92d706ded61"
+        },
+        {
+          "id": "LI601-Q04",
+          "number": 4,
+          "prompt": "What problem does the lecturer identify with the timing measurement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It used faulty equipment"
+            },
+            {
+              "id": "B",
+              "text": "It involved too few participants"
+            },
+            {
+              "id": "C",
+              "text": "It relied on imprecise self-reports"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "which is notoriously imprecise"
+          },
+          "explanation": "The audio says: \"which is notoriously imprecise\".",
+          "uuid": "0a95f3e4-18b2-5704-953b-863f919119df"
+        },
+        {
+          "id": "LI601-Q05",
+          "number": 5,
+          "prompt": "Why does the lecturer doubt that Libet's task tells us about real decisions?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Real decisions are made far more quickly"
+            },
+            {
+              "id": "B",
+              "text": "Real decisions involve no measurable brain activity"
+            },
+            {
+              "id": "C",
+              "text": "Real decisions involve deliberation over reasons"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "inference",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "involve deliberation over reasons"
+          },
+          "explanation": "The audio says: \"involve deliberation over reasons\".",
+          "uuid": "aff95ce4-8482-5083-aa90-5659ed121a05"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI601-Q06",
+          "number": 6,
+          "prompt": "What did the 2012 study propose about the readiness potential?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It marks the exact moment of a conscious decision"
+            },
+            {
+              "id": "B",
+              "text": "It may reflect random fluctuations in brain activity"
+            },
+            {
+              "id": "C",
+              "text": "It occurs only in very simple actions"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "random fluctuations in brain activity"
+          },
+          "explanation": "The audio says: \"random fluctuations in brain activity\".",
+          "uuid": "73269c5f-7f55-52c3-958e-b8aa3ee4e40a"
+        },
+        {
+          "id": "LI601-Q07",
+          "number": 7,
+          "prompt": "What do compatibilists hold?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Free will requires that our choices have no prior causes at all"
+            },
+            {
+              "id": "B",
+              "text": "Free will requires actions to flow from one's own reasoning and values"
+            },
+            {
+              "id": "C",
+              "text": "Free will cannot exist if the brain is a physical organ"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "flow from our own reasoning and values"
+          },
+          "explanation": "The audio says: \"flow from our own reasoning and values\".",
+          "uuid": "a588b772-aa21-5dec-a0c6-1b0277fcf00f"
+        },
+        {
+          "id": "LI601-Q08",
+          "number": 8,
+          "prompt": "How does the lecturer treat the cheating study?",
+          "options": [
+            {
+              "id": "A",
+              "text": "With caution because replications have sometimes failed"
+            },
+            {
+              "id": "B",
+              "text": "As conclusive proof that free will is a myth"
+            },
+            {
+              "id": "C",
+              "text": "As reliable because it was repeated many times"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "speaker_attitude",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "treat the finding with caution"
+          },
+          "explanation": "The audio says: \"treat the finding with caution\".",
+          "uuid": "49bfaaea-c00c-5886-bf06-4a2eaefe9589"
+        },
+        {
+          "id": "LI601-Q09",
+          "number": 9,
+          "prompt": "What does the lecturer say about the legal implications of neuroscience?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Responsibility will disappear within a generation"
+            },
+            {
+              "id": "B",
+              "text": "Criminal law will not need any significant change"
+            },
+            {
+              "id": "C",
+              "text": "Change is plausible but will be gradual"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "C2",
+            "band": 8.5
+          },
+          "skill_tag": "distractor_resolution",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "plausible but gradual"
+          },
+          "explanation": "The audio says: \"plausible but gradual\".",
+          "uuid": "a8839c54-6d60-5c70-9d79-b6c5d1941b57"
+        },
+        {
+          "id": "LI601-Q10",
+          "number": 10,
+          "prompt": "What is the lecturer's overall conclusion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Neuroscience has finally answered the question once and for all"
+            },
+            {
+              "id": "B",
+              "text": "Neuroscience has refined the question without answering it"
+            },
+            {
+              "id": "C",
+              "text": "Neuroscience has no real bearing on the question at all"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "C2",
+            "band": 9.0
+          },
+          "skill_tag": "gist",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "refined the question without answering it"
+          },
+          "explanation": "The audio says: \"refined the question without answering it\".",
+          "uuid": "c82ef3c7-3fd0-5c19-b811-7e82eab3658f"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "76e30af4-8df1-40dc-b935-e25208532764",
+  "derived": {
+    "word_count": 614,
+    "level_counts": {
+      "A1": 0,
+      "A2": 0,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 10
+    },
+    "mean_band": 8.75,
+    "answer_counts": {
+      "A": 2,
+      "B": 4,
+      "C": 4
+    },
+    "content_hash": "c6b56f056e8edb40"
+  }
+}

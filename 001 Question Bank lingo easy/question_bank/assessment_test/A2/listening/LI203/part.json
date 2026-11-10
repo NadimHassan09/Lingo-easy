@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "id": "LI203",
+  "skill": "listening",
+  "part_type": "social_conversation",
+  "title": "Asking for Directions",
+  "topic": "tourism_and_events",
+  "profile": "level_a2",
+  "text_cefr": "A2",
+  "audio": {
+    "file": "li203_asking_for_directions.mp3",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Jenny",
+        "gender": "female",
+        "accent": "new_zealand",
+        "role": "tourist"
+      },
+      {
+        "id": "S2",
+        "name": "Mark",
+        "gender": "male",
+        "accent": "british",
+        "role": "local resident"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "S1",
+        "text": "Excuse me. Is there a post office near here?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, there is. Go straight on until you reach the traffic lights. Then turn left into Mill Road."
+      },
+      {
+        "speaker": "S1",
+        "text": "Straight on, then left at the lights. Is it far?"
+      },
+      {
+        "speaker": "S2",
+        "text": "No, it's about ten minutes on foot. It's opposite the library, next to a big supermarket."
+      },
+      {
+        "speaker": "S1",
+        "text": "Thank you. Is the post office open on Saturdays?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, but only in the morning. It closes at twelve thirty."
+      },
+      {
+        "speaker": "S1",
+        "text": "Oh, it's eleven forty now, so I have time. Is there a bank near there too? I need to change some money."
+      },
+      {
+        "speaker": "S2",
+        "text": "There's a bank on the corner of Mill Road, but I think the exchange office at the station is better. They don't charge for changing money."
+      },
+      {
+        "speaker": "S1",
+        "text": "Where exactly is the station?"
+      },
+      {
+        "speaker": "S2",
+        "text": "You can take bus number nine from the stop over there. It goes to the station in five minutes."
+      },
+      {
+        "speaker": "S1",
+        "text": "Great. And do you know a good place for lunch?"
+      },
+      {
+        "speaker": "S2",
+        "text": "There's a lovely café in the park. They make fresh sandwiches, and it's quite cheap."
+      },
+      {
+        "speaker": "S1",
+        "text": "Perfect. Thanks very much for your help!"
+      },
+      {
+        "speaker": "S2",
+        "text": "No problem. Enjoy your stay!"
+      }
+    ]
+  },
+  "question_groups": [
+    {
+      "id": "G1",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI203-Q01",
+          "number": 1,
+          "prompt": "What does Jenny want to find?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A bank"
+            },
+            {
+              "id": "B",
+              "text": "A library"
+            },
+            {
+              "id": "C",
+              "text": "A post office"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "Is there a post office near here"
+          },
+          "explanation": "The audio says: \"Is there a post office near here\".",
+          "uuid": "9e51e229-c793-511c-a1f4-de23f12b468e"
+        },
+        {
+          "id": "LI203-Q02",
+          "number": 2,
+          "prompt": "Which road is the post office on?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mill Road"
+            },
+            {
+              "id": "B",
+              "text": "Station Road"
+            },
+            {
+              "id": "C",
+              "text": "Park Road"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "turn left into Mill Road"
+          },
+          "explanation": "The audio says: \"turn left into Mill Road\".",
+          "uuid": "532abb78-6bb3-5949-9b14-1233da08abfb"
+        },
+        {
+          "id": "LI203-Q03",
+          "number": 3,
+          "prompt": "How long does it take on foot?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 10 minutes"
+            },
+            {
+              "id": "B",
+              "text": "About 5 minutes"
+            },
+            {
+              "id": "C",
+              "text": "About 20 minutes"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "about ten minutes on foot"
+          },
+          "explanation": "The audio says: \"about ten minutes on foot\".",
+          "uuid": "87e7db9e-eb86-5b1d-8b1d-ceceaa69bb4a"
+        },
+        {
+          "id": "LI203-Q04",
+          "number": 4,
+          "prompt": "What is opposite the post office?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The supermarket"
+            },
+            {
+              "id": "B",
+              "text": "The bank"
+            },
+            {
+              "id": "C",
+              "text": "The library"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "opposite the library"
+          },
+          "explanation": "The audio says: \"opposite the library\".",
+          "uuid": "2356905b-fbb9-5918-a7b9-5001555ef8e0"
+        },
+        {
+          "id": "LI203-Q05",
+          "number": 5,
+          "prompt": "When is the post office open on Saturdays?",
+          "options": [
+            {
+              "id": "A",
+              "text": "All day"
+            },
+            {
+              "id": "B",
+              "text": "Only in the morning"
+            },
+            {
+              "id": "C",
+              "text": "Only in the afternoon"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "only in the morning"
+          },
+          "explanation": "The audio says: \"only in the morning\".",
+          "uuid": "6ac1e435-bd8d-5089-b03a-24935a07e929"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "presentation": "multiple_choice",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "id": "LI203-Q06",
+          "number": 6,
+          "prompt": "What time does it close on Saturdays?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12.30"
+            },
+            {
+              "id": "B",
+              "text": "11.40"
+            },
+            {
+              "id": "C",
+              "text": "1.30"
+            }
+          ],
+          "answer": "A",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "It closes at twelve thirty"
+          },
+          "explanation": "The audio says: \"It closes at twelve thirty\".",
+          "uuid": "1ab446e4-bb9f-5fb0-88b1-588d08d7d22e"
+        },
+        {
+          "id": "LI203-Q07",
+          "number": 7,
+          "prompt": "Why does Mark suggest the exchange office?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is open until late in the evening"
+            },
+            {
+              "id": "B",
+              "text": "It is on the way to the post office"
+            },
+            {
+              "id": "C",
+              "text": "It does not charge for changing money"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "They don't charge for changing money"
+          },
+          "explanation": "The audio says: \"They don't charge for changing money\".",
+          "uuid": "33c7859c-fc67-5489-9b23-1ca77235e3ad"
+        },
+        {
+          "id": "LI203-Q08",
+          "number": 8,
+          "prompt": "How can Jenny get to the station?",
+          "options": [
+            {
+              "id": "A",
+              "text": "By bus number eleven"
+            },
+            {
+              "id": "B",
+              "text": "By bus number nine"
+            },
+            {
+              "id": "C",
+              "text": "On foot"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "bus number nine from the stop"
+          },
+          "explanation": "The audio says: \"bus number nine from the stop\".",
+          "uuid": "b0ad2ade-8bcb-548a-8dfa-1a8643bfcde6"
+        },
+        {
+          "id": "LI203-Q09",
+          "number": 9,
+          "prompt": "How long does the bus take?",
+          "options": [
+            {
+              "id": "A",
+              "text": "15 minutes"
+            },
+            {
+              "id": "B",
+              "text": "5 minutes"
+            },
+            {
+              "id": "C",
+              "text": "50 minutes"
+            }
+          ],
+          "answer": "B",
+          "level": {
+            "cefr": "A2",
+            "band": 3.0
+          },
+          "skill_tag": "numbers_dates_times",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "station in five minutes"
+          },
+          "explanation": "The audio says: \"station in five minutes\".",
+          "uuid": "0b030fd0-5bc4-5e7e-9e46-9fea9cc98aba"
+        },
+        {
+          "id": "LI203-Q10",
+          "number": 10,
+          "prompt": "What does the café in the park sell?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hot meals and soup"
+            },
+            {
+              "id": "B",
+              "text": "Ice cream and drinks"
+            },
+            {
+              "id": "C",
+              "text": "Fresh sandwiches"
+            }
+          ],
+          "answer": "C",
+          "level": {
+            "cefr": "A2",
+            "band": 3.5
+          },
+          "skill_tag": "specific_detail",
+          "language_focus": {
+            "type": "none"
+          },
+          "evidence": {
+            "quote": "make fresh sandwiches"
+          },
+          "explanation": "The audio says: \"make fresh sandwiches\".",
+          "uuid": "6edf997e-347b-5190-966d-d31146ceff2a"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-listening-generator@1.0",
+    "model": "Claude Sonnet 5.5"
+  },
+  "uuid": "e0ff5c56-992e-4013-ba09-49838301d744",
+  "derived": {
+    "word_count": 182,
+    "level_counts": {
+      "A1": 0,
+      "A2": 10,
+      "B1": 0,
+      "B2": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "mean_band": 3.25,
+    "answer_counts": {
+      "A": 3,
+      "B": 3,
+      "C": 4
+    },
+    "content_hash": "ae7599b64523614a"
+  }
+}

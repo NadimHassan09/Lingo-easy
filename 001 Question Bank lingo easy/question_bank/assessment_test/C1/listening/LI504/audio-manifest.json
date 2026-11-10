@@ -1,0 +1,70 @@
+{
+  "part_id": "LI504",
+  "part_uuid": "c2b33d84-9142-4d05-97ec-589c2170edea",
+  "audio_file": "li504_behavioural_economics_and_nudging.mp3",
+  "engine": "edge-tts 7.3.1",
+  "service": "Microsoft Edge online read-aloud via the edge-tts package (unofficial, free, no API key)",
+  "preset": "hard",
+  "transcript_sha256": "6d0bd6ea7268a8e769fbf0418fc5e0d8cda163527f115461ce8ce14230b588c1",
+  "voices": {
+    "S1": {
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  },
+  "rate": "+0%",
+  "pause_ms": 450,
+  "speakers": [
+    {
+      "id": "S1",
+      "name": "Dr Marcus Lee",
+      "gender": "male",
+      "accent": "american",
+      "voice": "en-US-GuyNeural",
+      "pitch": "+0Hz"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "S1",
+      "start": 0.0,
+      "end": 39.55
+    },
+    {
+      "index": 1,
+      "speaker": "S1",
+      "start": 40.0,
+      "end": 58.22
+    },
+    {
+      "index": 2,
+      "speaker": "S1",
+      "start": 58.67,
+      "end": 100.07
+    },
+    {
+      "index": 3,
+      "speaker": "S1",
+      "start": 100.52,
+      "end": 121.57
+    },
+    {
+      "index": 4,
+      "speaker": "S1",
+      "start": 122.02,
+      "end": 163.94
+    },
+    {
+      "index": 5,
+      "speaker": "S1",
+      "start": 164.39,
+      "end": 176.71
+    }
+  ],
+  "duration_seconds": 176.71,
+  "size_bytes": 1414316,
+  "audio_sha256": "3db20100e8fd9fd26c9926a45794a9fd03e3e4018f36fbf5cf8e66684722d860",
+  "generated_at": "2026-10-30T20:56:57+02:00",
+  "note": "Machine-generated speech for development and review. Check it by ear before treating it as final assessment audio."
+}

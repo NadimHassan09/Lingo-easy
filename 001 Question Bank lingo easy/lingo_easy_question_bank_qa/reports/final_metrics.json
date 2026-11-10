@@ -1,0 +1,71 @@
+{
+  "questions_inspected": 1610,
+  "parts_inspected": 140,
+  "integrity_findings_total": 73,
+  "integrity_hard_failures": 0,
+  "semantic_status": {
+    "pass": 1122,
+    "fix_applied": 488
+  },
+  "questions_changed": 488,
+  "change_log_entries": 571,
+  "human_review_queue": 919,
+  "queue_by_priority": {
+    "P2": 488,
+    "P3": 431
+  },
+  "cefr_recommended_changes_any_gap": 1093,
+  "cefr_gap_ge_2": 448,
+  "cefr_agreement": {
+    "exact_agreement": 0.32111801242236027,
+    "within_one_level": 0.7217391304347827,
+    "spearman_score_vs_recorded_band": 0.649,
+    "spearman_by_modality": {
+      "reading": 0.643,
+      "listening": 0.711
+    }
+  },
+  "primary_subskill_counts": {
+    "detail_retrieval": 823,
+    "claim_verification": 235,
+    "information_tracking": 211,
+    "paraphrase_recognition": 155,
+    "main_idea_gist": 12,
+    "stance_attitude": 146,
+    "inference": 23,
+    "discourse_structure": 5
+  },
+  "questions_with_inconsistent_subskill_tag": 176,
+  "distractors_total": 3329,
+  "distractors_meaningful": 541,
+  "simulation": {
+    "seeds_per_type": 1000,
+    "enforced_pass": 7000,
+    "enforced_runs": 7000,
+    "baseline_pass": 6880,
+    "failures": 0
+  },
+  "tests": {
+    "tests_run": 55,
+    "passed": 55,
+    "failed": 0,
+    "errors": 0,
+    "exit_status": 0
+  },
+  "flags_before": {
+    "major_flag_counts": {
+      "length_cue_correct_option_longest": 473,
+      "extreme_wording_in_distractor": 52
+    },
+    "questions_with_major_flag": 488,
+    "mc_items": 1152,
+    "key_is_longest_option": 795
+  },
+  "flags_after": {
+    "major_flag_counts": {},
+    "questions_with_major_flag": 0,
+    "mc_items": 1152,
+    "key_is_longest_option": 594
+  },
+  "audio_missing": 70
+}

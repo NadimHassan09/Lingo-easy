@@ -1,0 +1,541 @@
+{
+  "schema_version": "1.0",
+  "id": "WR406",
+  "uuid": "5177a458-097d-5581-ae48-fb1c81029cfb",
+  "version": "1.0.0",
+  "skill": "writing",
+  "assessment": {
+    "type": "assessment",
+    "level": "B2"
+  },
+  "target_cefr": "B2",
+  "profile": "level_b2",
+  "topic": "work_and_careers",
+  "context": "A company surveyed 100 employees about wellbeing at work. You must report the results to the manager.",
+  "title": "Report on staff wellbeing",
+  "modality": {
+    "current": "typed_text",
+    "planned": [
+      "audio"
+    ],
+    "note": "Learners type their response in the current MVP."
+  },
+  "task_category": "report",
+  "task": {
+    "title": "Report on staff wellbeing",
+    "scenario": "A company surveyed 100 employees about wellbeing at work. You must report the results to the manager.",
+    "prompt": "Write a report for the manager. Summarise the main findings from the survey and recommend two actions.",
+    "instructions": [
+      "Write about 220-270 words (at least 170).",
+      "You have about 30 minutes.",
+      "Make sure you cover all of the points below.",
+      "You are writing for: a company manager. Style: formal, objective."
+    ],
+    "required_points": [
+      "describe the main findings",
+      "compare the most and least common concerns",
+      "recommend two actions",
+      "explain your recommendations"
+    ],
+    "audience": "a company manager",
+    "register": "formal, objective",
+    "response_type": "report",
+    "word_count": {
+      "minimum": 170,
+      "suggested_min": 220,
+      "suggested_max": 270,
+      "maximum": 340
+    },
+    "suggested_minutes": 30,
+    "stimulus": {
+      "type": "text",
+      "content": "Survey: What causes you most stress at work? (100 employees) Workload 38% | Long commuting time 27% | Unclear communication 19% | Lack of breaks 11% | Other 5%. Do you feel supported by your manager? Yes 46% | Sometimes 31% | No 23%.",
+      "note": "Provided to the learner with the prompt; the response must not invent additional data."
+    }
+  },
+  "expected_response": {
+    "content_points": [
+      "describe the main findings",
+      "compare the most and least common concerns",
+      "recommend two actions",
+      "explain your recommendations"
+    ],
+    "required_elements": [
+      "Address: describe the main findings",
+      "Address: compare the most and least common concerns",
+      "Address: recommend two actions",
+      "Address: explain your recommendations"
+    ],
+    "optional_elements": [
+      "a comparison with last year (not given: do not invent figures)"
+    ],
+    "organisation": [
+      "title",
+      "introduction",
+      "findings under headings",
+      "recommendations",
+      "conclusion"
+    ],
+    "vocabulary_demands": [
+      "survey results",
+      "percentages and trends",
+      "recommendation language"
+    ],
+    "grammar_demands": [
+      {
+        "id": "passive_voice",
+        "level": "B1",
+        "extension": false
+      },
+      {
+        "id": "comparatives_superlatives",
+        "level": "A2",
+        "extension": false
+      },
+      {
+        "id": "modals_obligation_advice",
+        "level": "A2",
+        "extension": false
+      },
+      {
+        "id": "cohesive_devices_range",
+        "level": "B2",
+        "extension": true
+      }
+    ],
+    "discourse_complexity": "Structured multi-paragraph text or an extended, organised turn.",
+    "linguistic_demand": "Developed, structured discourse; argument with supporting detail; evaluation of options; complex sentences and a range of cohesive devices.",
+    "cognitive_demand": "Compare and contrast two options; Plan, advise, suggest; Analyse causes, effects and solutions",
+    "examples": [
+      {
+        "label": "Illustrative outline only - not an answer key; many other responses are equally valid",
+        "outline": [
+          "Purpose",
+          "Findings",
+          "Recommendations",
+          "Conclusion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "primary_subskill": "report_writing",
+    "secondary_subskills": [
+      "comparison_evaluation"
+    ],
+    "cognitive_processes": [
+      "compare_contrast",
+      "plan_and_suggest",
+      "analyse_cause_effect"
+    ],
+    "learning_objectives": [
+      {
+        "id": "LO.W.report_writing.B2.1",
+        "text": "Report survey findings accurately and recommend justified actions",
+        "measurable_verb": "report",
+        "criteria": [
+          "W_TA",
+          "W_CC",
+          "W_LR"
+        ]
+      }
+    ]
+  },
+  "difficulty": {
+    "original_target_cefr": "B2",
+    "recommended_cefr": "B1",
+    "cefr_confidence": "low",
+    "level_gap_steps": 1,
+    "difficulty_index": 0.482,
+    "language_demand": "Developed, structured discourse; argument with supporting detail; evaluation of options; complex sentences and a range of cohesive devices.",
+    "cognitive_demand": "Compare and contrast two options; Plan, advise, suggest; Analyse causes, effects and solutions",
+    "expected_performance": [
+      "Addresses all parts of the task in a developed way; position or purpose is clear throughout; ideas are relevant and extended with examples.",
+      "Information arranged logically; a range of cohesive devices used appropriately; clear progression within paragraphs.",
+      "Good range with some precision; uses collocation and word formation; errors are occasional and do not obscure meaning."
+    ],
+    "rationale": "Heuristic components (0=A1 .. 5=C2): {'grammar': 2.5, 'cognition': 2.5, 'length': 2.95, 'abstractness': 2.0, 'prompt_language': 1.16}; composite 2.41 -> B1. Original target B2. Computed from invited grammar, cognitive operations, expected length, abstractness and prompt language only.",
+    "adjacent_level_demands": [],
+    "method": "heuristic_v1",
+    "calibrated": false,
+    "human_review_required": true,
+    "review_priority": "P1",
+    "components": {
+      "grammar": 2.5,
+      "cognition": 2.5,
+      "length": 2.95,
+      "abstractness": 2.0,
+      "prompt_language": 1.16
+    },
+    "prompt_readability": {
+      "avg_sentence_words": 5.7,
+      "long_word_ratio": 0.118
+    }
+  },
+  "evaluation_blueprint": {
+    "blueprint_version": "1.0",
+    "response_modality": "typed_text",
+    "target_cefr": "B2",
+    "criteria": [
+      {
+        "id": "W_TA",
+        "name": "Task fulfilment",
+        "description": "How fully and appropriately the response does what the task asks: required points, purpose, audience and, where relevant, position.",
+        "weight": 0.3,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Addresses all parts of the task in a developed way; position or purpose is clear throughout; ideas are relevant and extended with examples. Required points: describe the main findings; compare the most and least common concerns; recommend two actions; explain your recommendations",
+        "weak_performance": "A part of the task is ignored or only briefly treated; position unclear or inconsistent; ideas general and unsupported.",
+        "expected_evidence": "Which required points are present; how each is supported; whether purpose, audience and position are clear. Check each required point: describe the main findings; compare the most and least common concerns; recommend two actions; explain your recommendations.",
+        "common_error_patterns": [
+          "partly answering a two-part task",
+          "unsupported generalisations",
+          "irrelevant examples"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "report_writing"
+        ],
+        "evaluation_limitations": "Content knowledge is not assessed; do not penalise factual inaccuracy unless the task asks for accuracy to a supplied source.",
+        "diagnostic_categories": [
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_UNDERDEVELOPED",
+          "D_OFF_TASK",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_CC",
+        "name": "Coherence and cohesion",
+        "description": "How logically the ideas connect and how clearly linking devices and reference express those connections.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Information arranged logically; a range of cohesive devices used appropriately; clear progression within paragraphs.",
+        "weak_performance": "Mechanical or overused linkers; unclear reference; weak paragraph logic.",
+        "expected_evidence": "Order of ideas; variety and accuracy of linkers; clarity of pronoun reference; paragraph logic.",
+        "common_error_patterns": [
+          "mechanical firstly-secondly",
+          "misuse of however / on the other hand"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "report_writing"
+        ],
+        "evaluation_limitations": "A text can be cohesive and still weak on content; keep this criterion separate from task fulfilment.",
+        "diagnostic_categories": [
+          "D_COHESION",
+          "D_ORGANISATION"
+        ]
+      },
+      {
+        "id": "W_LR",
+        "name": "Lexical resource",
+        "description": "Range, precision and appropriateness of vocabulary, including collocation and word formation.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Good range with some precision; uses collocation and word formation; errors are occasional and do not obscure meaning.",
+        "weak_performance": "Limited precision; repeated phrases; noticeable collocation or word-form errors.",
+        "expected_evidence": "Range of topic words; repetition; collocation; word formation; spelling. Expected vocabulary demands: survey results; percentages and trends; recommendation language.",
+        "common_error_patterns": [
+          "collocation errors (make a research)",
+          "word-form errors"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "report_writing"
+        ],
+        "evaluation_limitations": "Do not reward unusual words that are used incorrectly; do not penalise a plain word that is correct and appropriate.",
+        "diagnostic_categories": [
+          "D_VOCAB_RANGE",
+          "D_VOCAB_REPEAT",
+          "D_WORD_CHOICE",
+          "D_SPELLING",
+          "D_HEDGING"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "article use with abstract nouns",
+            "relative clause pronoun repetition ('the man who he ...')",
+            "overuse of 'and' as a clause linker"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_GRA",
+        "name": "Grammatical range and accuracy",
+        "description": "Range of structures used and the accuracy with which they are controlled, including punctuation that affects clarity.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Variety of complex structures; most sentences error-free; errors persist in less common structures.",
+        "weak_performance": "Errors in complex structures reduce clarity at times; reliance on a few patterns.",
+        "expected_evidence": "Types of structures; proportion of error-free sentences; kinds of errors; whether errors are systematic. Structures invited by the task: passive_voice, comparatives_superlatives, modals_obligation_advice, cohesive_devices_range.",
+        "common_error_patterns": [
+          "conditional forms",
+          "passive forms",
+          "article use with abstract nouns"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "report_writing"
+        ],
+        "evaluation_limitations": "Judge by the structures the learner chooses and controls; do not penalise absence of structures the task does not invite.",
+        "diagnostic_categories": [
+          "D_SPELLING",
+          "D_TENSE",
+          "D_SVA",
+          "D_ARTICLE",
+          "D_PREPOSITION",
+          "D_SENTENCE_CONSTRUCTION",
+          "D_GRAMMAR_RANGE",
+          "D_HEDGING",
+          "D_L1_TRANSFER"
+        ],
+        "l1_transfer_hypotheses": {
+          "patterns": [
+            "article use with abstract nouns",
+            "relative clause pronoun repetition ('the man who he ...')",
+            "overuse of 'and' as a clause linker"
+          ],
+          "caution": "These are hypotheses about common patterns; they are NOT to be reported as a learner weakness from a single instance."
+        }
+      },
+      {
+        "id": "W_ORG",
+        "name": "Organisation and development of ideas",
+        "description": "Overall structure of the text and how far main ideas are developed, supported and linked to a position or purpose.",
+        "weight": 0.1,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Clear overall structure with a position, developed paragraphs and a conclusion; main points are explained and exemplified.",
+        "weak_performance": "Main ideas not developed; no clear position; repetition.",
+        "expected_evidence": "Presence of position/thesis; paragraph topics; reasons and examples per point; conclusion.",
+        "common_error_patterns": [
+          "generalisation without example",
+          "one-sided treatment of a two-sided task"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "report_writing"
+        ],
+        "evaluation_limitations": "Do not apply to very short A1/A2 texts; the task does not require essay structure there.",
+        "diagnostic_categories": [
+          "D_ORGANISATION",
+          "D_ARGUMENT",
+          "D_SUPPORT",
+          "D_COMPARISON"
+        ]
+      },
+      {
+        "id": "W_REG",
+        "name": "Register and appropriateness",
+        "description": "Whether tone, formality, conventions of text type and politeness suit the audience and purpose.",
+        "weight": 0.15,
+        "assessable_in_current_modality": "yes",
+        "scored_in_text_mvp": true,
+        "successful_performance": "Register consistently appropriate; conventions of the text type controlled; tone suits purpose. Audience: a company manager. Register: formal, objective",
+        "weak_performance": "Slips into informal expressions in formal text; weak politeness strategies.",
+        "expected_evidence": "Greeting/closing; politeness markers; formality of vocabulary and structures; conventions.",
+        "common_error_patterns": [
+          "slang in formal text",
+          "demanding rather than requesting"
+        ],
+        "related_subskills": [
+          "comparison_evaluation",
+          "report_writing"
+        ],
+        "evaluation_limitations": "Only scored where the task defines an audience/register; otherwise treat as not applicable.",
+        "diagnostic_categories": [
+          "D_REGISTER"
+        ]
+      }
+    ],
+    "not_assessed_by_design": [],
+    "required_demonstrations": [
+      "Address every required point: describe the main findings; compare the most and least common concerns; recommend two actions; explain your recommendations",
+      "Use language appropriate to: a company manager"
+    ],
+    "optional_demonstrations": [
+      "a comparison with last year (not given: do not invent figures)"
+    ],
+    "not_penalised": [
+      "absence of C1/C2 devices (cleft sentences, subjunctive)",
+      "idiomatic language that is not required",
+      "factual inaccuracy about the topic (content knowledge is not assessed)"
+    ],
+    "scale": {
+      "type": "per_criterion_cefr_estimate",
+      "values": [
+        "below_A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "target_level_attainment": {
+        "0": "no evidence of target-level control",
+        "1": "partial: some target-level features, frequent breakdowns",
+        "2": "mostly secure: target-level features present with some lapses",
+        "3": "secure: consistent target-level control"
+      },
+      "note": "Uncalibrated evaluator scale. Do not convert to an IELTS band without separate calibration."
+    },
+    "evaluator_output_contract": [
+      "criterion_scores (with CEFR-band estimate and target-level attainment per criterion)",
+      "overall_evaluation",
+      "strengths",
+      "weaknesses",
+      "evidence_quotes (exact spans from the learner response)",
+      "detected_errors (with diagnostic category ids)",
+      "recommended_learning_objectives",
+      "suggested_improvements",
+      "evaluation_confidence",
+      "assessment_limitations"
+    ],
+    "multiple_valid_responses": true,
+    "notes": "The illustrative outline in expected_response.examples is NOT an answer key. Accept any response that fulfils the task."
+  },
+  "diagnostics": {
+    "targets": [
+      "D_ARGUMENT",
+      "D_ARTICLE",
+      "D_COHESION",
+      "D_COMPARISON",
+      "D_GRAMMAR_RANGE",
+      "D_HEDGING",
+      "D_L1_TRANSFER",
+      "D_OFF_TASK",
+      "D_ORGANISATION",
+      "D_PREPOSITION",
+      "D_REGISTER",
+      "D_SENTENCE_CONSTRUCTION",
+      "D_SPELLING",
+      "D_SUPPORT",
+      "D_SVA",
+      "D_TENSE",
+      "D_UNDERDEVELOPED",
+      "D_VOCAB_RANGE",
+      "D_VOCAB_REPEAT",
+      "D_WORD_CHOICE"
+    ],
+    "policy": {
+      "observed_error_vs_weakness": "A diagnostic category is an OBSERVED error pattern when at least one instance is found in a response. It may be reported as an INFERRED learning weakness only after >= 3 instances in one response set of >= 100 words (or >= 2 responses) and when the error is not explained by task demands (for example a tense the task did not invite).",
+      "min_instances_for_pattern": 3,
+      "min_responses_for_weakness": 2
+    },
+    "observed_vs_inferred": "An error is OBSERVED when an instance appears in the response. It may be recorded as an INFERRED weakness only under the policy in diagnostics.policy (repeated instances, enough text, and not explained by task demands)."
+  },
+  "qa": {
+    "structural_validation": "pass",
+    "semantic_rule_review": "flagged",
+    "llm_review": "not_performed",
+    "human_review": "not_reviewed",
+    "findings": [
+      {
+        "severity": "warn",
+        "detail": "cefr_estimate_differs_from_target: heuristic B1 vs target B2 (gap 1)"
+      },
+      {
+        "severity": "warn",
+        "detail": "cefr_confidence_low: component spread sd=0.61"
+      }
+    ]
+  },
+  "provenance": {
+    "generator": "lingoeasy-productive-generator",
+    "generator_version": "1.0.0",
+    "assembly": "deterministic",
+    "seed": 20261030,
+    "generated_at": "2026-10-30T19:11:12+02:00",
+    "spec_source": "productive/specs/writing_*.py (B2-06)",
+    "spec_sha256": "f6caab2260f76a9dabe6b8dc21e1731ada0824a1f118916f2936acb7a4c8599c",
+    "authoring": {
+      "method": "task specs authored by an LLM in an interactive session; assembled by code; no runtime model call",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-5-5",
+      "generation_parameters": "not applicable (interactive authoring)",
+      "runtime_llm_calls": 0
+    },
+    "raw_spec": {
+      "k": "B2-06",
+      "lv": "B2",
+      "cat": "report",
+      "topic": "work_and_careers",
+      "title": "Report on staff wellbeing",
+      "scen": "A company surveyed 100 employees about wellbeing at work. You must report the results to the manager.",
+      "prompt": "Write a report for the manager. Summarise the main findings from the survey and recommend two actions.",
+      "pts": [
+        "describe the main findings",
+        "compare the most and least common concerns",
+        "recommend two actions",
+        "explain your recommendations"
+      ],
+      "aud": "a company manager",
+      "reg": "formal, objective",
+      "w": [
+        170,
+        220,
+        270,
+        340
+      ],
+      "mins": 30,
+      "vocab": [
+        "survey results",
+        "percentages and trends",
+        "recommendation language"
+      ],
+      "gram": [
+        "passive_voice",
+        "comparatives_superlatives",
+        "modals_obligation_advice",
+        "cohesive_devices_range"
+      ],
+      "struct": [
+        "title",
+        "introduction",
+        "findings under headings",
+        "recommendations",
+        "conclusion"
+      ],
+      "sub": "report_writing",
+      "sub2": [
+        "comparison_evaluation"
+      ],
+      "cog": [
+        "compare_contrast",
+        "plan_and_suggest",
+        "analyse_cause_effect"
+      ],
+      "obj": [
+        "Report survey findings accurately and recommend justified actions"
+      ],
+      "outline": [
+        "Purpose",
+        "Findings",
+        "Recommendations",
+        "Conclusion"
+      ],
+      "stim": "Survey: What causes you most stress at work? (100 employees) Workload 38% | Long commuting time 27% | Unclear communication 19% | Lack of breaks 11% | Other 5%. Do you feel supported by your manager? Yes 46% | Sometimes 31% | No 23%.",
+      "opt": [
+        "a comparison with last year (not given: do not invent figures)"
+      ],
+      "abs": 1
+    }
+  },
+  "meta": {
+    "status": "validated",
+    "source": "ai_generated",
+    "generator": "lingoeasy-productive-generator@1.0.0",
+    "model": "claude-sonnet-5-5",
+    "notes": "Status becomes 'validated' only after structural validation passes. 'reviewed' and 'approved' are reserved for humans."
+  },
+  "derived": {
+    "content_hash": "79ad95292aba9a85ef370b5620c036305135ecac4d7928d530b81bb828ef9fc9"
+  }
+}

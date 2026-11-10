@@ -1,0 +1,26 @@
+# productive pipeline run 2026-10-30T19:42:58+02:00
+{"command": "python -m productive.schemas_build", "exit_status": 0, "seconds": 0.1}
+    | schemas written: ['evaluation_blueprint.schema.json', 'generation_metadata.schema.json', 'part.schema.json', 'productive_attempt.schema.json', 'productive_task_base.schema.json', 'speaking_part.schema.json', 'writing_part.schema.json']
+{"command": "python -m productive.build", "exit_status": 0, "seconds": 0.9}
+    | schemas written: ['evaluation_blueprint.schema.json', 'generation_metadata.schema.json', 'part.schema.json', 'productive_attempt.schema.json', 'productive_task_base.schema.json', 'speaking_part.schema.json', 'writing_part.schema.json']
+    | parts: writing=70 speaking=70; structural: {'pass': 140}; semantic-rule: {'pass': 73, 'flagged': 67}; duplicates confirmed: 0; bank errors: 0
+{"command": "python -m productive.audit", "exit_status": 0, "seconds": 1.5}
+    |   "WR610"
+    |  ],
+    |  "rubric_modified_parts": []
+    | }
+{"command": "python -m productive.validate", "exit_status": 0, "seconds": 0.8}
+    | [WARN] WR009 cefr_confidence_low: component spread sd=1.17
+    | [WARN] WR010 cefr_estimate_differs_from_target: heuristic C1 vs target C2 (gap 1)
+    | [WARN] WR010 cefr_confidence_low: component spread sd=1.11
+    | checked 140 parts; parts with errors: 0; bank errors: 0; bank warnings: 0
+{"command": "python scripts/validate_part.py --bank question_bank", "exit_status": 0, "seconds": 1.0}
+    | --- assessment bank C2 ---
+    |   parts: {'listening': 10, 'reading': 10}  item levels: {'A1': 0, 'A2': 0, 'B1': 0, 'B2': 0, 'C1': 0, 'C2': 230}
+    |   0 error(s)
+    | --- writing/speaking parts: 140 checked, 0 with errors, 0 bank-level errors, 0 warnings ---
+{"command": "python -m unittest discover -s tests -v", "exit_status": 0, "seconds": 27.4}
+    | ----------------------------------------------------------------------
+    | Ran 101 tests in 26.685s
+    | 
+    | OK
